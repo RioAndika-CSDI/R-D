@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Search Car From Calculator Widget</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be93dbe1-8251-4baa-9751-b02886da0c87</testCaseGuid>
+   <variable>
+      <defaultValue>'Daihatsu New Ayla 1.0 X MT MC'</defaultValue>
+      <description></description>
+      <id>2ff8d1cd-a131-4e71-b105-8214f5723716</id>
+      <masked>false</masked>
+      <name>VariantModels</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta Selatan'</defaultValue>
+      <description></description>
+      <id>70eb069a-6796-478d-9bff-0da54c07414e</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+</TestCaseEntity>

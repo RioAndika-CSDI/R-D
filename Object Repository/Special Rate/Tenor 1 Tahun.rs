@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tenor 1 Tahun</name>
+   <tag></tag>
+   <elementGuidId>505d5cf4-d471-4b2c-98dc-b58c53535585</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-fDMmqs.xndgC.special-rate-credit-6-cicle-element</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[5]/div/div[2]/div[7]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-fDMmqs xndgC special-rate-credit-6-cicle-element</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-fXNlap ePnRyE&quot;]/div[@class=&quot;sc-kQoPux kvsUgL&quot;]/div[@class=&quot;sc-czWrlN kknrrF&quot;]/div[@class=&quot;sc-jnSlpE IYrAA special-rate-credit-6-element&quot;]/div[@class=&quot;sc-fpyFWH OEkwY&quot;]/div[@class=&quot;sc-fDMmqs xndgC special-rate-credit-6-cicle-element&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[5]/div/div[2]/div[7]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

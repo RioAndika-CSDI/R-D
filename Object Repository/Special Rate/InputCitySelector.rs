@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputCitySelector</name>
+   <tag></tag>
+   <elementGuidId>5ac34e25-4bbb-436b-bda1-b2fb1b87b4c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-dvQaRk.hTybQQ.sc-fbyfCU.hgFLal > input.sc-TBWPX.jQpvcj.input-element</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Jakarta Pusat</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-TBWPX jQpvcj input-element</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;sc-clIzBv dhgaTw&quot;]/div[@class=&quot;sc-jIkXHa bBnLUN&quot;]/div[@class=&quot;sc-ZOtfp jfXHkw&quot;]/div[@class=&quot;sc-eLwHnm iqghoh&quot;]/div[@class=&quot;sc-cZMNgc csrsLA&quot;]/div[@class=&quot;sc-fWCJzd erZyWn&quot;]/div[@class=&quot;sc-dvQaRk hTybQQ sc-fbyfCU hgFLal&quot;]/input[@class=&quot;sc-TBWPX jQpvcj input-element&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>
