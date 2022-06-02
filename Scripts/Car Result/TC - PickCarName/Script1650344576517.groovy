@@ -18,5 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Homepage/TC - SearchCarByMaksCicilan'), [('Cicilan') : Cicilan], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Car Result/SortPricea'))
+
+WebUI.click(findTestObject('Car Result/LowtoHigh'))
+
 WebUI.click(findTestObject('Car Result/CarModel', [('Models') : ModelCar]))
 
