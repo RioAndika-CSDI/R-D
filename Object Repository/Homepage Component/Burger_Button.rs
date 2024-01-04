@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Burger_Button</name>
+   <tag></tag>
+   <elementGuidId>e8f48a5b-6633-40c5-8676-2f2b6eec84d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/preceding::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>0cac8b11-7197-492e-ac1a-0603076ebe12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>f9fff11b-bc08-4258-a713-89693330505d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>5f6c86cd-04b7-477f-b729-208df618b051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>ad760c5c-277f-4663-8a21-217796111a45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>fad60059-03e1-4ac4-a05c-0b829d666173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>07788e0a-a079-4d85-b8ad-76c31c67060a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA burger menu Icon</value>
+      <webElementGuid>b2ea37e3-3508-4779-808b-8220d172d967</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_homepage__SBKsV&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[1]/svg[1]</value>
+      <webElementGuid>7b883724-334b-480e-aef9-a39d6f034de7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>fef6cdf3-850b-4cd6-9a9a-42bcdc0d7051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>83160986-025f-4590-a669-df03663e61de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'SEVA burger menu Icon' or . = 'SEVA burger menu Icon')]</value>
+      <webElementGuid>fb3e73db-3702-4184-85ae-18732352cbeb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

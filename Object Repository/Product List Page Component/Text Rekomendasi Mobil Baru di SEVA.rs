@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text Rekomendasi Mobil Baru di SEVA</name>
+   <tag></tag>
+   <elementGuidId>a733991f-777f-4652-aff1-1cc89fccc094</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mobil-baru_title__ZGSPH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8a5899b3-af80-4541-a63c-031339d6e0f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mobil-baru_title__ZGSPH</value>
+      <webElementGuid>61a66b8f-deb5-45dd-a048-e60fe46bb3f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rekomendasi Mobil Baru di SEVA</value>
+      <webElementGuid>8ab4761d-8972-46a7-9ff3-8224b4684b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;mobil-baru_titleHeaderWrapper__UBOLj&quot;]/h1[@class=&quot;mobil-baru_title__ZGSPH&quot;]</value>
+      <webElementGuid>b2bb4cf9-0a11-42cd-9965-759eadd42cc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/h1</value>
+      <webElementGuid>fbb84366-c253-4f0d-952c-ea67c7bc2d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA AGYA 1.2 G M/T NEW 2018'])[1]/following::h1[1]</value>
+      <webElementGuid>d2bf74f0-3c0a-4897-83a5-6edb6668ffa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU ALL NEW XENIA 1.3 R M/T 2022'])[1]/following::h1[1]</value>
+      <webElementGuid>9473fd64-6498-4c55-89f1-162a62530cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/preceding::h1[1]</value>
+      <webElementGuid>ca0fb5a3-f2d1-4065-9f72-a88af67a23f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::h1[1]</value>
+      <webElementGuid>95086dd1-287a-498d-a162-7b25ebae92ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rekomendasi Mobil Baru di SEVA']/parent::*</value>
+      <webElementGuid>aae331de-d976-49e5-9cbb-abd1541a5c6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>0e766239-9300-4584-a11d-e8da441e032a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Rekomendasi Mobil Baru di SEVA' or . = 'Rekomendasi Mobil Baru di SEVA')]</value>
+      <webElementGuid>0b31aede-1360-449c-9930-8e8cd29d43bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
