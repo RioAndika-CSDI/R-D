@@ -17,27 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Homepage/TC - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/ContactPOPUP'))
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/InputName'), 
+    'Marvin Test')
 
-WebUI.delay(10)
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/InputPhoneNumber'), 
+    '81225717129')
 
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/button_Kirim'))
 
-WebUI.click(findTestObject('PopUP/button_x'))
-
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
-
-WebUI.click(findTestObject('Homepage Component/Select City List'))
-
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
-
-WebUI.scrollToElement(findTestObject('Homepage Component/Recommendation Car'), 0)
-
-WebUI.click(findTestObject('Homepage Component/button_Hitung Kemampuan'))
-
-WebUI.verifyElementVisible(findTestObject('Loan Calculator Component/Text Cari Tahu Kemampuan Finansialmu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
+    '969696')
 

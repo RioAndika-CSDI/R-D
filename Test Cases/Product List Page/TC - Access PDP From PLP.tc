@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Access PDP From PLP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40cf3c56-acc5-47e1-8fac-853b08c7dc41</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7de2a978-108d-4d08-9acb-036d4a1ae594</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Toyota New Calya'</defaultValue>
+      <description></description>
+      <id>7de2a978-108d-4d08-9acb-036d4a1ae594</id>
+      <masked>false</masked>
+      <name>CarName</name>
+   </variable>
+</TestCaseEntity>
