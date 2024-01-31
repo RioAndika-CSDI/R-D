@@ -17,7 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'Toyota New Calya'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/h2_Kredit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/input_Rekomendasi Cicilan Ideal_0 input_inp_acd316'), 
+    'Rp45.000.000')
+
+WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/input_Rekomendasi Cicilan Ideal_inputSelect_f8ef70'))
+
+WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/div_18-27'))
+
+WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/button_Hitung Kemampuan'))
 

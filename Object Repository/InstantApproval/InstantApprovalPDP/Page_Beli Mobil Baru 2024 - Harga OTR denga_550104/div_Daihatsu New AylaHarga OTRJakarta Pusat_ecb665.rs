@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Daihatsu New AylaHarga OTRJakarta Pusat_ecb665</name>
+   <tag></tag>
+   <elementGuidId>9663486e-1e8b-449f-a0b9-274e8ef3a0c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[5]/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cardetailcard_contentWrapper__5_XPP</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>900bf216-8c9f-49f4-a124-870dac8425cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard_contentWrapper__5_XPP</value>
+      <webElementGuid>71908ddd-8850-4ffd-b036-71744be01c02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d17536c5-5efd-4d41-a5bf-b1ee98b01a91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu New AylaHarga OTRJakarta PusatRp115,55 - 175,3 jtCicilanRp2,55 jtDPRp23,1 jtTenor5 TahunLihat Detail</value>
+      <webElementGuid>27934c2b-8dda-4f5b-b653-d7c2d0e9d86f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI mobil-baru_stickypadding__nZG8E&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY undefined&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]</value>
+      <webElementGuid>4b995593-045c-4320-9919-a4b5a5094d49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[5]/div/div/div/div/div[2]</value>
+      <webElementGuid>52acfc60-d7ff-4c28-a0d1-cc205a920900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='promo'])[1]/following::div[1]</value>
+      <webElementGuid>5b33aa38-acf3-43a4-bf5a-3c220349a8b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div[2]</value>
+      <webElementGuid>7935e0ac-9961-4e1b-b53a-b1e20d2fcd5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daihatsu New AylaHarga OTRJakarta PusatRp115,55 - 175,3 jtCicilanRp2,55 jtDPRp23,1 jtTenor5 TahunLihat Detail' or . = 'Daihatsu New AylaHarga OTRJakarta PusatRp115,55 - 175,3 jtCicilanRp2,55 jtDPRp23,1 jtTenor5 TahunLihat Detail')]</value>
+      <webElementGuid>51c33373-6f77-4c48-8339-68d19c8873cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

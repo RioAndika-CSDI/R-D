@@ -17,7 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Tambah Filter Finansial'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_x'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA search Icon'))
+
+WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Semua Artikel_searchComponent_styledS_b1b3a4'), 
+    'Toyota Agya')
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota All New Agya'))
 

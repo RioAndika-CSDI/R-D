@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login a Register/LR001-TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.scrollToElement(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'), 0)
+
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Button_Cari_Mobil_Baru'))
+
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/ContactPOPUP'))
+
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/button_Kirim'))
 

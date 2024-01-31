@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login a Register/LR001-TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Text Butuh Bantuan'), 0)
+
+WebUI.click(findTestObject('Homepage Component/button_Kirim'))
 

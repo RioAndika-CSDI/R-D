@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_18-27</name>
+   <tag></tag>
+   <elementGuidId>bfef05f1-55f5-4d37-9aa8-08c4f8cc570b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-age']/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loan-calculator-form-age > div.inputSelect_container__sv8Xm.undefined > div.inputSelect_dropdown__2SfXo.false > div.inputSelect_dropdownItem__BIFMK > span.inputSelect_dropdownItemText__7p2jg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1f8b79da-91b2-4927-aba1-e7206c98f5f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItemText__7p2jg</value>
+      <webElementGuid>e4c831b9-2aec-47a0-80c3-5d942baa2c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>18-27</value>
+      <webElementGuid>64235add-d81f-434c-9a70-11d35a4bbb29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-age&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo false&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/span[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
+      <webElementGuid>6c333d48-e6aa-4489-8f6c-9b302760ff62</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-age']/div/div[2]/div/span</value>
+      <webElementGuid>2fc17a1e-d5eb-4a5f-9b40-5ac381036593</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal'])[1]/following::span[1]</value>
+      <webElementGuid>1e813000-ca54-4c0e-b805-47d62bd0bd38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::span[3]</value>
+      <webElementGuid>3beb3d91-c9d1-46b4-ac5f-5ac565a84988</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[2]/preceding::span[4]</value>
+      <webElementGuid>6473af57-6ad1-485e-8a0b-bcb9c8ccd1fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='18-27']/parent::*</value>
+      <webElementGuid>8e62b3e5-d6d6-4dfa-ab12-9e6c6109557c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div[2]/div/div[2]/div/span</value>
+      <webElementGuid>80b75662-bd48-45af-9876-e3d8273b7202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '18-27' or . = '18-27')]</value>
+      <webElementGuid>d76fda96-a550-4597-8356-f4d0e84af0fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

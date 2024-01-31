@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.click(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]))
 

@@ -19,5 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Homepage/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]), 0)
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/ContactPOPUP'))
+
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/InputName'), 
+    'Marvin Test')
+
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/InputPhoneNumber'), 
+    '81225717129')
+
+WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/button_Kirim'))
+
+WebUI.setText(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
+    '969696')
 

@@ -15,7 +15,7 @@
       <guid>dc5446d6-8707-4c61-8d43-c4892d51b447</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/TC- Car Recommendation</testCaseId>
+      <testCaseId>Test Cases/Homepage/H005- Car Recommendation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

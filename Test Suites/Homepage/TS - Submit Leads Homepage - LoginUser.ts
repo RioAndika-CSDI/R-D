@@ -15,7 +15,7 @@
       <guid>3a773afb-50bd-4516-8e86-ab7b13c130d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/TC - Submit Leads Homepage - Login User</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0020 - Submit Leads Homepage - Login User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
