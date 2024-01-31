@@ -6,7 +6,7 @@
    <UUID>5fd4b8bb-ec9f-4555-b17d-e31aab5c9a0f</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\marvi\Katalon Studio\SEVA-WEB\SEVA-WEB.prj</projectFileLocation>
+   <projectFileLocation>D:\GitHub\seva-web-automation\SEVA-WEB.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
