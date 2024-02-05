@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_x_moe-element moe-image</name>
+   <tag></tag>
+   <elementGuidId>aa45b47a-784a-4e72-9394-f66817a920d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://image.moengage.com/seva2moengage/20240105065525734774XXYK55500x500pngcompseva2moengage.png')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.moe-element.moe-image</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>136871db-a2e2-4fd4-b601-d06734a1cec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>IMAGE</value>
+      <webElementGuid>b1dd7dd5-9143-4ac7-80c2-b10e25855c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>moe-element moe-image</value>
+      <webElementGuid>eb98c192-4b82-47c6-93d3-4dcdd6d20bbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://image.moengage.com/seva2moengage/20240105065525734774XXYK55500x500pngcompseva2moengage.png</value>
+      <webElementGuid>99f52cc1-74ac-45f5-ab01-0aaf2eb26cf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;root-container&quot;]/div[@class=&quot;moe-element moe-container&quot;]/a[@class=&quot;moe-inapp-click moe-inapp-close&quot;]/img[@class=&quot;moe-element moe-image&quot;]</value>
+      <webElementGuid>71086717-cafd-4007-8b09-88dc89a9a332</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/iframe_SEVA punya banyak promo  info menari_c49ffa</value>
+      <webElementGuid>0b87566d-e0be-4e9a-8622-39f4ab46159a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://image.moengage.com/seva2moengage/20240105065525734774XXYK55500x500pngcompseva2moengage.png')]</value>
+      <webElementGuid>2da106cf-7ef2-4b9e-93f7-4643af69fc21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>7018cf56-549a-4f73-913c-9b41913dc448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://image.moengage.com/seva2moengage/20240105065525734774XXYK55500x500pngcompseva2moengage.png']</value>
+      <webElementGuid>55fcede1-b786-4930-8252-d8470f808194</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

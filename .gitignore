@@ -10,7 +10,7 @@ output
 
 !output/.gitkeep
 build
-
+appium.log
 .classpath
 
 .project

@@ -19,4 +19,14 @@
       <initValue>'https://www.seva.id/'</initValue>
       <name>Prod</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'81225717129'</initValue>
+      <name>PhoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'969696'</initValue>
+      <name>OTPBypass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

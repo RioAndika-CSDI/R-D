@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai</name>
+   <tag></tag>
+   <elementGuidId>aba662bc-5b7a-46ae-a1dc-1d7fb9768f01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.selectWidget_textArrowWrapper__JpQqv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1c031b91-34eb-49d7-aa85-23f1e39f44ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectWidget_textArrowWrapper__JpQqv</value>
+      <webElementGuid>2aea8df1-075a-490a-a331-dad4045d7187</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai</value>
+      <webElementGuid>063affef-a846-456d-b4ec-1830b6255bf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__SiBmi&quot;]/div[@class=&quot;searchWidget_container__nJgb2&quot;]/div[@class=&quot;searchWidget_cardContainer__9qyDq searchWidget_expandCard__a_4FY&quot;]/div[@class=&quot;selectWidget_container__yuLbY&quot;]/div[@class=&quot;selectWidget_fieldContainer__6hrAa&quot;]/div[@class=&quot;selectWidget_fieldWrapper__WE4d5&quot;]/div[@class=&quot;selectWidget_textArrowWrapper__JpQqv&quot;]</value>
+      <webElementGuid>c08778c5-15cd-4bda-9819-6fc7dc25bea7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>ef099df0-9ed3-42ba-8c29-b7dc54f2d1cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merek'])[1]/following::div[1]</value>
+      <webElementGuid>d5be9377-2864-47fc-840b-0b351dbda4a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/following::div[14]</value>
+      <webElementGuid>584a8373-6dc6-4c7e-a63e-707345321afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe'])[1]/preceding::div[5]</value>
+      <webElementGuid>1c091919-3439-4770-aea6-a05888cbf1f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>52665b5a-eecf-4cb8-98cb-c99304e8308c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai' or . = 'Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai')]</value>
+      <webElementGuid>91cf6d64-2a58-480c-9718-6f6e6f443937</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Search Car Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a466e4f7-b724-44e6-9771-72ee0f426801</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d06d1dfe-22a0-4479-8531-8ec593fd79b7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Daihatsu Granmax BV'</defaultValue>
+      <description></description>
+      <id>d06d1dfe-22a0-4479-8531-8ec593fd79b7</id>
+      <masked>false</masked>
+      <name>CarName</name>
+   </variable>
+</TestCaseEntity>
