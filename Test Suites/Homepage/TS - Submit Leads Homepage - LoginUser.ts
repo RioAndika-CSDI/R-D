@@ -11,11 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>305302c8-7409-4969-b589-1b6db7c545a5</testSuiteGuid>
-   <testCaseLink>
-      <guid>3a773afb-50bd-4516-8e86-ab7b13c130d3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0020 - Submit Leads Homepage - Login User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

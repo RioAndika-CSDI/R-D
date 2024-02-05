@@ -24,11 +24,9 @@ WebUI.maximizeWindow()
 WebUI.scrollToElement(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Tambah Filter Finansial'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_x'))
-
-WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja'))
 
 WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Tambah Filter Finansial'))
 
@@ -41,4 +39,6 @@ WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Bel
 WebUI.click(findTestObject('Object Repository/Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
 WebUI.click(findTestObject('Object Repository/Homepage Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/span_Toyota'))
+
+WebUI.closeBrowser()
 

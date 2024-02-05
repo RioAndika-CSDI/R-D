@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>a080ea20-6c39-4180-946e-b3b24a1181b9</testSuiteGuid>
    <testCaseLink>
-      <guid>dc5446d6-8707-4c61-8d43-c4892d51b447</guid>
+      <guid>04682c12-1af2-4370-b888-16e9289473d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H005- Car Recommendation</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0002 - CitySelector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
