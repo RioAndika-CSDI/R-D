@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_NewestOldest</name>
+   <tag></tag>
+   <elementGuidId>3358b275-bb66-4e5d-8ab6-88c418d387ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e65541b2-26d6-4dc5-b462-04a78687009d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block w-full text-sm dark:text-gray-300 focus:outline-none dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 focus:border-primary-400 focus:ring-primary-300 focus:ring-opacity-40 dark:focus:ring-gray-500 dark:focus:border-gray-600 focus:outline-none focus:ring form-select leading-5</value>
+      <webElementGuid>dd2035b5-f3b6-45b9-a72b-bbf2e8054983</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NewestOldest</value>
+      <webElementGuid>54f0fc03-f11d-40e3-a05b-befb92bd0bf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;flex flex-col items-center justify-between lg:flex-row&quot;]/div[@class=&quot;flex flex-col items-center gap-3 md:flex-row&quot;]/div[@class=&quot;w-full md:w-2/5&quot;]/select[@class=&quot;block w-full text-sm dark:text-gray-300 focus:outline-none dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 focus:border-primary-400 focus:ring-primary-300 focus:ring-opacity-40 dark:focus:ring-gray-500 dark:focus:border-gray-600 focus:outline-none focus:ring form-select leading-5&quot;]</value>
+      <webElementGuid>af95c4c4-faee-4aa2-88e6-6298936f60c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div/div[2]/select</value>
+      <webElementGuid>56761721-0163-47e5-905d-360d9969c8e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>4f8f8672-a2a3-4316-8096-55597c820990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'NewestOldest' or . = 'NewestOldest')]</value>
+      <webElementGuid>b39fbe48-8502-42c5-bc80-038e07864b3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

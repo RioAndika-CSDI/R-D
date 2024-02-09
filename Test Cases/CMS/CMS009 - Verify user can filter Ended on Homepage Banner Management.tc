@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS009 - Verify user can filter Ended on Homepage Banner Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a76727b-1b24-482a-9546-542f3ceaca37</testCaseGuid>
+</TestCaseEntity>

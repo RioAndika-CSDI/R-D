@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Semua Artikel_searchComponent_styledS_b1b3a4</name>
+   <name>input_searchComponent_styledSearchInput___FMHa</name>
    <tag></tag>
    <elementGuidId>929f335a-b400-49d0-96d0-82585bc5f727</elementGuidId>
    <selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>69764cff-4bd5-4c85-a17e-8edad9d62463</webElementGuid>
+      <webElementGuid>e6664937-cad4-4321-ac8c-c327c1e0621e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>searchComponent_styledSearchInput___FMHa</value>
-      <webElementGuid>ab87e386-aeda-4dd1-8bfa-b77002b52dff</webElementGuid>
+      <webElementGuid>bb4a6861-8ada-4c09-b2a8-065721fc1f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>header-input-search-car</value>
-      <webElementGuid>bffbaa4b-acc4-4482-b994-ef50b67a02b8</webElementGuid>
+      <webElementGuid>6611ec4a-4071-4632-bc08-77ef77cdafe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Cari mobil impianmu</value>
-      <webElementGuid>cfe2f993-cac0-4223-bc8e-34707aef3823</webElementGuid>
+      <webElementGuid>92ddb379-9a99-4bce-bb41-1e81512d000f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>43a3c7c7-ea85-4b92-80cf-d085a3c85d12</webElementGuid>
+      <webElementGuid>b06e6399-54ee-401c-ab02-c09d34d99581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>height</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>20cf4cb7-902b-4035-9049-dfeafb7b345b</webElementGuid>
+      <webElementGuid>256ef104-7b00-4f52-b2d3-2a1e2cad1690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_homepage__SBKsV&quot;]/div[@class=&quot;searchComponent_containerSearch__atNmB&quot;]/div[@class=&quot;searchInput_container__eJ1VV&quot;]/div[@class=&quot;searchInput_searchInputNew__WcY2l&quot;]/input[@class=&quot;searchComponent_styledSearchInput___FMHa&quot;]</value>
-      <webElementGuid>388b6199-9711-4d12-b009-fc40e763c6bd</webElementGuid>
+      <webElementGuid>19433879-c290-4820-ae8f-b7edeb53757b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>0f1ff28a-54e5-431c-8c8a-1920ac09983b</webElementGuid>
+      <webElementGuid>3ebd666c-6617-42b5-b3f7-e1244f7d02b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div[2]/div/div/input</value>
-      <webElementGuid>c8953ded-4696-457e-b0c4-241f9dd86aeb</webElementGuid>
+      <webElementGuid>1155a377-00dc-4bb8-a8cf-0d3adc273c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>355f6d19-1f96-4e9c-9fbd-6d15cb928768</webElementGuid>
+      <webElementGuid>396e5856-4f36-4479-9bdc-7b0594e96549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Cari mobil impianmu' and @type = 'text']</value>
-      <webElementGuid>977d2c71-4f74-4697-b0b6-62e3f0c9f94f</webElementGuid>
+      <webElementGuid>32aaa2a4-8059-4e42-86d2-e495908c7703</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

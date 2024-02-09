@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS001 - Verify user can login cms properly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bff9558a-b83a-45e2-88a6-f3db4224bc86</testCaseGuid>
+</TestCaseEntity>

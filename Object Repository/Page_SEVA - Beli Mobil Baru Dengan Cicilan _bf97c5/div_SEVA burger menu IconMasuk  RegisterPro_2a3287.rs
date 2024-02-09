@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SEVA burger menu IconMasuk  RegisterPro_2a3287</name>
+   <tag></tag>
+   <elementGuidId>5f4b0616-c2bc-4c26-b808-297b53c0f73e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mainHeroLp_mainContent___SiZg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9e5a781f-c7b9-4c27-b630-b12f2a3788db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mainHeroLp_mainContent___SiZg</value>
+      <webElementGuid>9ae51938-d0d0-47eb-864e-5cc6042a3d4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA burger menu IconMasuk / RegisterProduk SEVACari MobilMobil BaruMobil BekasFasilitas DanaLainnyaLayanan Surat KendaraanInformasi LainnyaTentang SEVAPromoTeman SEVAArtikelBerita Utama OtomotifReview OtomotifTips &amp; RekomendasiKeuanganSemua ArtikelSEVA search IconSEVA location IconCari Mobil BaruToyota All New Yaris CrossDaihatsu SigraIsuzu MU-XBMW 3 Series 330i M SportPeugeot 5008Lihat semua mobil baruCari Mobil BekasTOYOTA CALYA 1.2 G M/T 2023TOYOTA CALYA 1.2 G A/T 2023DAIHATSU ROCKY 1.0 R TC M/T 2022DAIHATSU ROCKY 1.2 X CVT A/T 2021TOYOTA CALYA 1.2 G M/T 2021Lihat semua mobil bekasMenemani Perjalanan Finansial Mobil BarumuIngin tahu mobil yang cocok untukmu?Cek Kualifikasi Kredit dan temukan mobil sesuai budgetmu.Cek Kualifikasi Kredit</value>
+      <webElementGuid>3ea32434-f3c0-4316-a9d8-3e9f9f19dbc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]</value>
+      <webElementGuid>949e3a06-9b21-4df3-b513-6f46a8b99535</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div</value>
+      <webElementGuid>3dbdd5af-01b4-409f-b26a-a0843e7fe008</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>3eb6f65a-385c-4ab7-9513-b0f3e14a495e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SEVA burger menu IconMasuk / RegisterProduk SEVACari MobilMobil BaruMobil BekasFasilitas DanaLainnyaLayanan Surat KendaraanInformasi LainnyaTentang SEVAPromoTeman SEVAArtikelBerita Utama OtomotifReview OtomotifTips &amp; RekomendasiKeuanganSemua ArtikelSEVA search IconSEVA location IconCari Mobil BaruToyota All New Yaris CrossDaihatsu SigraIsuzu MU-XBMW 3 Series 330i M SportPeugeot 5008Lihat semua mobil baruCari Mobil BekasTOYOTA CALYA 1.2 G M/T 2023TOYOTA CALYA 1.2 G A/T 2023DAIHATSU ROCKY 1.0 R TC M/T 2022DAIHATSU ROCKY 1.2 X CVT A/T 2021TOYOTA CALYA 1.2 G M/T 2021Lihat semua mobil bekasMenemani Perjalanan Finansial Mobil BarumuIngin tahu mobil yang cocok untukmu?Cek Kualifikasi Kredit dan temukan mobil sesuai budgetmu.Cek Kualifikasi Kredit' or . = 'SEVA burger menu IconMasuk / RegisterProduk SEVACari MobilMobil BaruMobil BekasFasilitas DanaLainnyaLayanan Surat KendaraanInformasi LainnyaTentang SEVAPromoTeman SEVAArtikelBerita Utama OtomotifReview OtomotifTips &amp; RekomendasiKeuanganSemua ArtikelSEVA search IconSEVA location IconCari Mobil BaruToyota All New Yaris CrossDaihatsu SigraIsuzu MU-XBMW 3 Series 330i M SportPeugeot 5008Lihat semua mobil baruCari Mobil BekasTOYOTA CALYA 1.2 G M/T 2023TOYOTA CALYA 1.2 G A/T 2023DAIHATSU ROCKY 1.0 R TC M/T 2022DAIHATSU ROCKY 1.2 X CVT A/T 2021TOYOTA CALYA 1.2 G M/T 2021Lihat semua mobil bekasMenemani Perjalanan Finansial Mobil BarumuIngin tahu mobil yang cocok untukmu?Cek Kualifikasi Kredit dan temukan mobil sesuai budgetmu.Cek Kualifikasi Kredit')]</value>
+      <webElementGuid>6a898c95-ed61-4030-bb3f-776d02cc2d7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

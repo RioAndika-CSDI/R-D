@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS007 - Verify user can filter status Live on Homepage Banner Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24d22494-7bdf-4dcc-94f0-831a1855ba1e</testCaseGuid>
+</TestCaseEntity>
