@@ -1,0 +1,57 @@
+name: Katalon
+on:
+  push:
+    branches: [ ops/self-hosted ]
+
+jobs:
+  katalon-test:
+    runs-on: self-hosted
+#    strategy:
+#      matrix:
+#        test-suites:
+#          - ts-dev-seva
+#          - home-page
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Run Katalon
+      run: |
+        katalonc \
+            -noSplash \
+            -runMode=console \
+            -projectPath="SEVA-WEB.prj" \
+            -retry=0 \
+            -testSuiteCollectionPath="Test Suites/Homepage/TS - Homepage Section" \
+            -browserType="Chrome" \
+            -executionProfile="default" \
+            -apiKey=${{ secrets.KATALON_API_KEY }} \
+            --config \
+            -proxy.auth.option=NO_PROXY \
+            -proxy.system.option=NO_PROXY \
+            -proxy.system.applyToDesiredCapabilities=true
+      
+#      katalonc.sh -projectPath=/work -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/${{ matrix.test-suites }}" -apiKey=${{ secrets.KATALON_API_KEY }}
+
+    - name: Upload Reports folder to artifact
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: results-${{ matrix.test-suites }}
+        path: |
+          Reports
+
+    - name: Auth Cloud SDK
+      if: always()
+      uses: 'google-github-actions/auth@v0'
+      with:
+        credentials_json: '${{ secrets.DEV_GCP_SA_KEY }}'
+
+    - name: Set up Cloud SDK
+      if: always()
+      uses: 'google-github-actions/setup-gcloud@v0'
+
+    - name: Upload files
+      if: always()
+      run: |
+        gsutil -m cp -r Reports/** gs://${{ secrets.KATALON_DEV_GCS_BUCKET }}/
