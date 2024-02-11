@@ -22,7 +22,7 @@ jobs:
             -runMode=console \
             -projectPath="${{ github.workspace }}/SEVA-WEB.prj" \
             -retry=0 \
-            -testSuiteCollectionPath="${{ github.workspace }}/Test Suites/Homepage/TS - Car Recommendation" \
+            -testSuiteCollectionPath="${{ github.workspace }}/Test Suites/Homepage/car-recomendation" \
             -browserType="Chrome" \
             -executionProfile="default" \
             -apiKey=${{ secrets.KATALON_API_KEY }} \
