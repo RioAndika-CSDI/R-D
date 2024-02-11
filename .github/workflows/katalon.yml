@@ -17,12 +17,12 @@ jobs:
 
     - name: Run Katalon
       run: |
-        katalonc \
+        /opt/katalon/katalon-runtime-engine/katalonc \
             -noSplash \
             -runMode=console \
-            -projectPath="SEVA-WEB.prj" \
+            -projectPath="${{ github.workspace }}/SEVA-WEB.prj" \
             -retry=0 \
-            -testSuiteCollectionPath="Test Suites/Homepage/TS - Homepage Section" \
+            -testSuiteCollectionPath="${{ github.workspace }}/Test Suites/Homepage/TS - Homepage Section" \
             -browserType="Chrome" \
             -executionProfile="default" \
             -apiKey=${{ secrets.KATALON_API_KEY }} \
