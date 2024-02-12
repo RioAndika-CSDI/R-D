@@ -67,7 +67,7 @@ jobs:
 #      katalonc.sh -projectPath=/work -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/${{ matrix.test-suites }}" -apiKey=${{ secrets.KATALON_API_KEY }}
 
     - name: Katalon Report Uploader
-      # if: always()
+      if: always()
       uses: katalon-studio/report-uploader@v0.0.8
       env:
         PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
