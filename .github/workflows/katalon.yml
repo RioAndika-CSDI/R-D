@@ -20,7 +20,7 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -runMode=console -retry=0 -testSuiteCollectionPath="Test Suites/Homepage/TS - Homepage Section" -browserType="Chrome" -executionProfile="default" -apiKey=${{ secrets.KATALON_API_KEY }} --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -licenseRelease=true -orgID=1396515 -testOpsProjectId=1371631'
+          args: '-noSplash -runMode=console -retry=0 -testSuiteCollectionPath="Test Suites/Homepage/TS - Homepage Section" -browserType="Chrome" -executionProfile="default" -apiKey=${{ secrets.KATALON_API_KEY }} --config -licenseRelease=true -orgID=1396515 -testOpsProjectId=1371631'
 
 
     # - name: Run Katalon
