@@ -47,9 +47,7 @@ jobs:
             -licenseRelease=true \
             -orgID=1396515 \
             -testOpsProjectId=1371631 \
-            -testOpsReleaseId \
-            --info -buildLabel="Test Suites: ${{ inputs.test-suites }}" \
-            -buildURL="https://github.com/${{github.repository}}/commit/${{github.sha}}/checks/${{github.run_id}}"
+            -testOpsReleaseId 
 
     # - name: Katalon Report Uploader
     #   if: always()
