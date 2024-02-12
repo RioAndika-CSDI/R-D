@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Welcome to SEVA CMS</name>
+   <tag></tag>
+   <elementGuidId>a5fb0328-42b2-49c7-bba9-7ec43e6eb92f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>102ffdfc-4aaf-4b10-b718-ece61ff1a54a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>ea8d9371-fb26-4d31-a6a2-a6ab213f2662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to SEVA CMS</value>
+      <webElementGuid>ef21cd89-2efa-499f-b4f9-a8f451ef8fc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>41f71aa9-b345-42bd-8aca-05edc2540427</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/h1</value>
+      <webElementGuid>f89acae5-2be6-4072-b463-2e9ff2a9c887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>eae2662b-3890-4e0d-8aac-6edfa7adde42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Welcome to SEVA CMS' or . = 'Welcome to SEVA CMS')]</value>
+      <webElementGuid>5c3fea8b-65a9-476b-8187-07e3cf4cf2ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

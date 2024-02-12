@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>80015c19-8b96-4396-90cb-5a7d87225143</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>fb82a128-d187-431a-bb46-a5800c313941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>26eb6903-b992-4981-b4c0-8f3faf164277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Testimony Management</value>
+      <webElementGuid>d75d23c4-b24c-4cf1-8f25-74e7fa92abfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;flex flex-col items-center justify-between lg:flex-row&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>e2412e4c-cb62-440f-ae83-a89ac997e425</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/h1</value>
+      <webElementGuid>aaf89b09-936a-46d0-b11e-40238cfcf429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>e0a96026-b020-4f68-a999-339c8faddace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Testimony Management' or . = 'Testimony Management')]</value>
+      <webElementGuid>46b3cf44-72ec-4674-9694-7b4fa5017805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

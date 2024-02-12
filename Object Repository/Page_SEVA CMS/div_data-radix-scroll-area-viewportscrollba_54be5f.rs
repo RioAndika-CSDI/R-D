@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_data-radix-scroll-area-viewportscrollba_54be5f</name>
+   <tag></tag>
+   <elementGuidId>b237714a-4ae0-435d-bc20-5d0daf98c3de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__control.my-react-select__control--is-focused.my-react-select__control--menu-is-open.css-ixpeqq-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div/div/div/div[2]/div/div[2]/ul/li/button/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7c5dff3b-3262-450d-a4ce-9098c2967d0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ixpeqq-control</value>
+      <webElementGuid>e154780c-f4ce-41a0-bb2d-29872ffc6be1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select Filter</value>
+      <webElementGuid>51708b46-c0bc-4abe-99d7-398c933d74c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;grid grid-cols-1 items-center justify-between&quot;]/div[@class=&quot;my-4 grid grid-cols-2&quot;]/div[@class=&quot;grid grid-rows-1&quot;]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;relative col-span-2 ml-4 flex flex-col items-end&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 left-0&quot;]/li[@class=&quot;mb-2 last:mb-0&quot;]/button[@class=&quot;items-center cursor-pointer w-full px-2 py-1 text-sm font-medium transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200 flex flex-col&quot;]/div[@class=&quot;text-left css-1xxy67h-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ixpeqq-control&quot;]</value>
+      <webElementGuid>c3668387-609a-4dda-9406-6f59a1b24b0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div/div/div/div[2]/div/div[2]/ul/li/button/div/div</value>
+      <webElementGuid>14e9cab7-4792-4e24-a65b-a972c421c661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/button/div/div</value>
+      <webElementGuid>6e6ff878-f997-4ea9-959d-5a13e007bb49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select Filter' or . = '[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select Filter')]</value>
+      <webElementGuid>f65b5a36-9cc6-45f9-9850-4cc6516d1ca3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

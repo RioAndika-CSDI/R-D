@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Announcement Box Management</name>
+   <tag></tag>
+   <elementGuidId>b9390dc2-8a0f-452e-9ff7-1d938b619499</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>60f0e3f0-b845-4d5a-a0da-62e9475bf1c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>a5aed022-d88d-432c-b8b3-bcefa0985867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Announcement Box Management</value>
+      <webElementGuid>ec792114-12ea-4de5-a527-41d1b6f967b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;grid grid-cols-1 items-center justify-between&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>db1f63c7-d2db-42a6-a95a-27fff6c808e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/h1</value>
+      <webElementGuid>b8b41a7c-3984-4664-bf4e-28b327b24ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>68c13bcf-e801-43a0-a624-7b56e49bc55f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Announcement Box Management' or . = 'Announcement Box Management')]</value>
+      <webElementGuid>92250187-970c-4ea0-85bc-de875ea5eefa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
