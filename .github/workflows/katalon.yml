@@ -20,10 +20,10 @@ jobs:
 #          - home-page
     steps:
 
-    - name: delete workspace before run
-      if: always()
-      run: |
-        sudo rm -rf ${{ github.workspace }}
+    # - name: delete workspace before run
+    #   if: always()
+    #   run: |
+    #     sudo rm -rf ${{ github.workspace }}
 
     - name: Checkout
       uses: actions/checkout@v2
@@ -111,7 +111,7 @@ jobs:
     #   run: |
     #     gsutil -m cp -r Reports/** gs://${{ secrets.KATALON_DEV_GCS_BUCKET }}/
 
-    # - name: delete workspace after run
-    #   if: always()
-    #   run: |
-    #     sudo rm -rf ${{ github.workspace }}
+    - name: delete workspace after run
+      if: always()
+      run: |
+        sudo rm -rf ${{ github.workspace }}
