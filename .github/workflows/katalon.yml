@@ -46,8 +46,7 @@ jobs:
             -proxy.system.applyToDesiredCapabilities=true \
             -licenseRelease=true \
             -orgID=1396515 \
-            -testOpsProjectId=1371631 \
-            -testOpsReleaseId 
+            -testOpsProjectId=1371631
 
     # - name: Katalon Report Uploader
     #   if: always()
