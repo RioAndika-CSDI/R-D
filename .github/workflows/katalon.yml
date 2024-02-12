@@ -52,7 +52,7 @@ jobs:
             -noSplash \
             -runMode=console \
             -retry=0 \
-            -testSuiteCollectionPath="Test Suites/Homepage/TS - Homepage Section" \
+            -testSuiteCollectionPath="Test Suites/CMS/TS - CMS Collection" \
             -browserType="Chrome" \
             -executionProfile="default" \
             -apiKey=${{ secrets.KATALON_API_KEY }} \
