@@ -1,7 +1,7 @@
 name: Katalon
 on:
   push:
-    branches: [ ops/self-hosted ]
+    branches: [ seva-2.0 ]
 
 jobs:
   katalon-test:
@@ -52,7 +52,7 @@ jobs:
             -noSplash \
             -runMode=console \
             -retry=0 \
-            -testSuiteCollectionPath="Test Suites/CMS/TS - CMS Collection" \
+            -testSuiteCollectionPath="Test Suites/CMS/CMS - Test Suite Collection" \
             -browserType="Chrome" \
             -executionProfile="default" \
             -apiKey=${{ secrets.KATALON_API_KEY }} \
