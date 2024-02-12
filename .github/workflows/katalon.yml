@@ -48,14 +48,14 @@ jobs:
             -orgID=1396515 \
             -testOpsProjectId=1371631
 
-    # - name: Katalon Report Uploader
-    #   if: always()
-    #   uses: katalon-studio/report-uploader@v0.0.8
-    #   env:
-    #     PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
-    #     PROJECT_ID: 1371631
-    #     TYPE: katalon
-    #     REPORT_PATH: Reports
+    - name: Katalon Report Uploader
+      if: always()
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+        PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
+        PROJECT_ID: 1371631
+        TYPE: katalon
+        REPORT_PATH: Reports
 
     # - name: delete workspace after run
     #   if: always()
