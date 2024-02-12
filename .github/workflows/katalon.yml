@@ -1,10 +1,17 @@
 name: Katalon
 on:
-  push:
-    branches: [ seva-2.0 ]
+  workflow_dispatch:
+    inputs:
+      test-suites:
+        description: 'Test suites to be tested'
+        required: true
+        type: string
+        default: ''
 
 jobs:
   katalon-test:
+    name: Run Katalon
+    if: ${{ github.ref_name == 'seva-2.0' }}
     runs-on: self-hosted
 #    strategy:
 #      matrix:
@@ -12,6 +19,12 @@ jobs:
 #          - ts-dev-seva
 #          - home-page
     steps:
+
+    - name: delete workspace before run
+      if: always()
+      run: |
+        sudo rm -rf ${{ github.workspace }}
+
     - name: Checkout
       uses: actions/checkout@v2
 
@@ -52,7 +65,7 @@ jobs:
             -noSplash \
             -runMode=console \
             -retry=0 \
-            -testSuiteCollectionPath="Test Suites/CMS/CMS - Test Suite Collection" \
+            -testSuiteCollectionPath="Test Suites/${{ inputs.test-suites }}" \
             -browserType="Chrome" \
             -executionProfile="default" \
             -apiKey=${{ secrets.KATALON_API_KEY }} \
@@ -66,14 +79,14 @@ jobs:
 
 #      katalonc.sh -projectPath=/work -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/${{ matrix.test-suites }}" -apiKey=${{ secrets.KATALON_API_KEY }}
 
-    - name: Katalon Report Uploader
-      if: always()
-      uses: katalon-studio/report-uploader@v0.0.8
-      env:
-        PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
-        PROJECT_ID: 1371631
-        TYPE: katalon
-        REPORT_PATH: Reports
+    # - name: Katalon Report Uploader
+    #   if: always()
+    #   uses: katalon-studio/report-uploader@v0.0.8
+    #   env:
+    #     PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
+    #     PROJECT_ID: 1371631
+    #     TYPE: katalon
+    #     REPORT_PATH: Reports
 
     # - name: Upload Reports folder to artifact
     #   if: always()
@@ -97,3 +110,8 @@ jobs:
     #   if: always()
     #   run: |
     #     gsutil -m cp -r Reports/** gs://${{ secrets.KATALON_DEV_GCS_BUCKET }}/
+
+    # - name: delete workspace after run
+    #   if: always()
+    #   run: |
+    #     sudo rm -rf ${{ github.workspace }}
