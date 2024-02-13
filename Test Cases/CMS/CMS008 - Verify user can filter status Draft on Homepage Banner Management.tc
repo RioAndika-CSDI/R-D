@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS008 - Verify user can filter status Draft on Homepage Banner Management</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>68446531-f097-47c3-9a9d-5cd2125cfc29</testCaseGuid>
-</TestCaseEntity>

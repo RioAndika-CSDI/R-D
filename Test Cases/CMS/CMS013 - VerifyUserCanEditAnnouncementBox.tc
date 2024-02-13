@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS013 - VerifyUserCanEditAnnouncementBox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82c3a734-dda7-4e37-9c96-e1e7a9fd15ff</testCaseGuid>
+</TestCaseEntity>

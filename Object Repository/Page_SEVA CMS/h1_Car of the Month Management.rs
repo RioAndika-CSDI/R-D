@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Create Testimony</name>
+   <name>h1_Car of the Month Management</name>
    <tag></tag>
-   <elementGuidId>9c8720ac-68fb-4346-9fbb-ced97373d01d</elementGuidId>
+   <elementGuidId>3a5d66f8-eaf5-4883-a205-c031f407c2be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1[contains(.,'Create Announcement Box')]</value>
+         <value>//main[@id='main']/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,47 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>39334995-b3c8-4660-9a48-fbfd5bc15742</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>5cb6a9da-72b5-4f55-ae44-5ad9684542e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-11/12</value>
-      <webElementGuid>9b1a9cde-3b45-4bba-9fa4-a65afe859208</webElementGuid>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>f0436633-287b-46ca-a710-85a8e3596204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create Testimony</value>
-      <webElementGuid>4855a52e-6bfb-4680-9e33-bc599191fbf8</webElementGuid>
+      <value>Car of the Month Management</value>
+      <webElementGuid>cee6cac3-4f51-4c30-9d7b-20e28365bd15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;antialiased&quot;]/div[@class=&quot;fixed inset-0 z-40 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center appear-done enter-done&quot;]/div[@class=&quot;w-full px-6 py-4 overflow-hidden bg-white rounded-t-lg dark:bg-gray-800 sm:rounded-lg sm:m-4 sm:max-w-xl appear-done enter-done&quot;]/div[2]/p[@class=&quot;mt-4 mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300 flex items-center justify-center&quot;]/span[@class=&quot;w-11/12&quot;]</value>
-      <webElementGuid>685be362-d1b8-46d4-ace9-a66e5a65da1d</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>1fb1b3ca-af8a-417e-96aa-200493ef511d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/h1</value>
+      <webElementGuid>a29b997a-cc26-4fb7-bbb6-94d03f6f4d35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/span</value>
-      <webElementGuid>907bda0b-1ca1-4cd8-b12b-591e0d75256a</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>00341d47-fd13-4e2e-97c8-731b2e95c8ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Create Testimony' or . = 'Create Testimony')]</value>
-      <webElementGuid>525950b3-a7a3-4970-8643-d9624451185d</webElementGuid>
+      <value>//h1[(text() = 'Car of the Month Management' or . = 'Car of the Month Management')]</value>
+      <webElementGuid>e15f92f0-79fa-4f7e-bbe2-6ec19a0c4a5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

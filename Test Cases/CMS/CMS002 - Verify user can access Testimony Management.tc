@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS002 - Verify user can access Testimony Management</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d6b6e35a-574b-4d34-918e-f07e948408e8</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Create Testimony</name>
+   <name>h1_Clone Announcement Box</name>
    <tag></tag>
-   <elementGuidId>9c8720ac-68fb-4346-9fbb-ced97373d01d</elementGuidId>
+   <elementGuidId>af05a216-6ac0-49f7-91e5-95da5f92c416</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1[contains(.,'Create Announcement Box')]</value>
+         <value>//main[@id='main']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,47 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>39334995-b3c8-4660-9a48-fbfd5bc15742</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>8a1fa67e-7587-4fd2-be0e-6fd2175ac852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-11/12</value>
-      <webElementGuid>9b1a9cde-3b45-4bba-9fa4-a65afe859208</webElementGuid>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>fc45618a-5f37-497a-9716-7087f165845a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create Testimony</value>
-      <webElementGuid>4855a52e-6bfb-4680-9e33-bc599191fbf8</webElementGuid>
+      <value>Clone Announcement Box</value>
+      <webElementGuid>2a0bf603-9d6a-4976-ade1-cd3848b0163c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;antialiased&quot;]/div[@class=&quot;fixed inset-0 z-40 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center appear-done enter-done&quot;]/div[@class=&quot;w-full px-6 py-4 overflow-hidden bg-white rounded-t-lg dark:bg-gray-800 sm:rounded-lg sm:m-4 sm:max-w-xl appear-done enter-done&quot;]/div[2]/p[@class=&quot;mt-4 mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300 flex items-center justify-center&quot;]/span[@class=&quot;w-11/12&quot;]</value>
-      <webElementGuid>685be362-d1b8-46d4-ace9-a66e5a65da1d</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mt-3 flex flex-col items-center justify-start gap-2 lg:mt-0 lg:flex-row&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>f5422768-bb2f-46c8-8b44-ce4494029f22</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/h1</value>
+      <webElementGuid>18b9fadd-4f70-4d63-a232-6a0357ce35f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/span</value>
-      <webElementGuid>907bda0b-1ca1-4cd8-b12b-591e0d75256a</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>a5379f72-a31f-45f5-aac0-917725483618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Create Testimony' or . = 'Create Testimony')]</value>
-      <webElementGuid>525950b3-a7a3-4970-8643-d9624451185d</webElementGuid>
+      <value>//h1[(text() = 'Clone Announcement Box' or . = 'Clone Announcement Box')]</value>
+      <webElementGuid>04175571-6de3-4fbe-a716-1df306886fea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

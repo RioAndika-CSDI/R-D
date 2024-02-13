@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7dc01314-e1d1-4799-9e1f-f0478cd77aec</webElementGuid>
+      <webElementGuid>f20390b4-046a-4820-b0b0-9a280f493b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>my-react-select__option my-react-select__option--is-focused css-1670osz-option</value>
-      <webElementGuid>f3ab3f0f-f36c-4501-b60f-b2e1b9209951</webElementGuid>
+      <webElementGuid>741e1f53-546b-43e2-ae97-a35e8384543d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c1530049-5cbc-48a3-98f9-8e8ab653413d</webElementGuid>
+      <webElementGuid>c6f4fe8e-818e-463c-b73a-aa4bacc9c80a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-2-option-0</value>
-      <webElementGuid>80c1945e-a39e-4b4a-b818-6e4547841b3a</webElementGuid>
+      <webElementGuid>78e89f11-e694-42d5-90c4-53fa0a93f130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>aee22566-1b9f-40a7-b843-de49c8dcd8bc</webElementGuid>
+      <webElementGuid>5fa114c0-dd13-45f0-b8af-e08056449898</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>8e85d25c-b2d8-48a1-beef-de941f503793</webElementGuid>
+      <webElementGuid>f8c03446-5cfd-4cc7-b004-e59c6aeaf721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>LIVE</value>
-      <webElementGuid>c95b689d-cb86-49b0-b797-a0bd22fe1926</webElementGuid>
+      <webElementGuid>5f12b138-63ad-4b10-b94d-07229c37245f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-2-option-0&quot;)</value>
-      <webElementGuid>b4a1944b-ac3a-4df2-8af0-706b4e477e64</webElementGuid>
+      <webElementGuid>66a09015-acc1-4ab8-aaec-557fb72c9b0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-option-0']</value>
-      <webElementGuid>debe9c16-14e4-4faa-8219-310ec04bbc54</webElementGuid>
+      <webElementGuid>386ba1f0-985b-4b82-bb34-b22cdcf05342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-listbox']/div</value>
-      <webElementGuid>c10812e9-6738-44bd-b6e0-f06f6c154a32</webElementGuid>
+      <webElementGuid>51ab3273-f070-4860-a87a-03e5d230475b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/div/div[2]/div/div</value>
-      <webElementGuid>5ce84133-a9a3-4ebf-a3bb-9f34757749ec</webElementGuid>
+      <value>//button/div/div/div[2]/div/div</value>
+      <webElementGuid>98119c7e-9db8-4099-8109-8c9915b249cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-2-option-0' and (text() = 'LIVE' or . = 'LIVE')]</value>
-      <webElementGuid>a43c4c32-eb3c-4bd1-92fa-fc93eb0c92e9</webElementGuid>
+      <webElementGuid>1931e9d1-5fab-4096-9fb0-db1667265eec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
