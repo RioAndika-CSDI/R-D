@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>CMS - Test Suite Collection</name>
+   <name>CMS-TestSuiteCollection</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CMS/CMS - Test Suite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/CMS/CMS-TestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

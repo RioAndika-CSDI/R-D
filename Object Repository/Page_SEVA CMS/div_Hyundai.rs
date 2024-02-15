@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hyundai</name>
+   <tag></tag>
+   <elementGuidId>51109f14-5dd3-4872-9bed-fdb4fa18e5f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[7]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1940d0bb-b7e3-403d-bb7b-e6f092fe9d19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl font-semibold dark:text-gray-300</value>
+      <webElementGuid>e02b7c9b-55a2-4a27-b6c3-e52edbdf735b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hyundai</value>
+      <webElementGuid>c7e324e1-a3bf-4daf-a796-cdd16aa914bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line overflow-hidden shadow-card bg-white dark:bg-gray-800 shadow-xs&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;mb-4 flex flex-col items-center justify-between gap-3 lg:flex-row lg:gap-0&quot;]/div[@class=&quot;text-xl font-semibold dark:text-gray-300&quot;]</value>
+      <webElementGuid>3ff5bd89-d5ce-49fd-8620-3b4df2657729</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[7]/div/div/div</value>
+      <webElementGuid>48e72729-e12e-4ea5-8e39-98f4b56ea5b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div</value>
+      <webElementGuid>3a981594-c0d2-42f6-a86b-6789ae658e16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hyundai' or . = 'Hyundai')]</value>
+      <webElementGuid>d59703da-182a-4f97-8f73-75ef517de32f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
