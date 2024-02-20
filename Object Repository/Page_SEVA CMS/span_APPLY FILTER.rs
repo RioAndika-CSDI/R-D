@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>73f6b5d8-3d49-4649-9fec-fb6c17f55566</webElementGuid>
+      <webElementGuid>dbd56e47-0f9c-4616-be34-1cb4d3e236f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select-none text-sm font-semibold cursor-pointer text-primary-600 hover:text-primary-800</value>
-      <webElementGuid>508347f3-625b-4653-9fe9-68a325936dcc</webElementGuid>
+      <webElementGuid>8fa5a820-38c2-48f2-b8b2-7062fe43d3b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>APPLY FILTER</value>
-      <webElementGuid>b7725076-7781-4d42-9a87-fe0816737fbd</webElementGuid>
+      <webElementGuid>39f3be6d-08fa-4150-9e56-53f43e664391</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col items-start gap-2 lg:flex-row&quot;]/div[@class=&quot;relative col-span-2 flex flex-col items-end&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 left-0&quot;]/div[@class=&quot;mt-4 flex justify-between gap-1 px-2&quot;]/span[@class=&quot;select-none text-sm font-semibold cursor-pointer text-primary-600 hover:text-primary-800&quot;]</value>
-      <webElementGuid>a8dbcb79-edc9-437d-a575-6762e29efb7e</webElementGuid>
+      <webElementGuid>de84cee1-ca43-4a8c-8a1e-8924c4bfcc31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div/div/div[2]/div/div[2]/ul/div/span[2]</value>
-      <webElementGuid>f203004e-2d16-444e-b69c-bb0bbcd053fa</webElementGuid>
+      <webElementGuid>2392bac3-7828-49cb-a040-1842c26d48a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/div/span[2]</value>
-      <webElementGuid>dc7fd109-e822-4f16-9631-af68c3f4bccd</webElementGuid>
+      <webElementGuid>58d2a798-9087-4254-bdf0-2a064df330b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'APPLY FILTER' or . = 'APPLY FILTER')]</value>
-      <webElementGuid>8afa7d18-e8a1-4f8c-8fd2-f3dad541dc81</webElementGuid>
+      <webElementGuid>8e5996d7-742c-4675-abdd-d0320c0e3a0c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

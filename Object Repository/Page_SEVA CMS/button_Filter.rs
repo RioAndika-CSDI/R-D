@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>87772c75-de0b-4fce-b96d-651f4eb6ed9d</webElementGuid>
+      <webElementGuid>162bb6ed-bae6-4029-bbbd-2e2a65515520</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring</value>
-      <webElementGuid>a6fff48b-7314-47a4-b4f0-5178ba151ca2</webElementGuid>
+      <webElementGuid>f4255583-49b1-469f-9df2-31bc953580de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8c26d37a-3807-43aa-9c18-b6f6a7b01df0</webElementGuid>
+      <webElementGuid>36410942-629e-4b55-88b2-26757f99693d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Filter</value>
-      <webElementGuid>b7871f64-5217-4792-80c6-414556ef7c65</webElementGuid>
+      <webElementGuid>13fa1991-b21c-4b2c-a6b9-a826c895d776</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col items-start gap-2 lg:flex-row&quot;]/div[@class=&quot;relative col-span-2 flex flex-col items-end&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring&quot;]</value>
-      <webElementGuid>d429995c-83c4-4068-8186-d96edb18586b</webElementGuid>
+      <webElementGuid>0d931e2a-54be-486c-9659-050e7972d6e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>5278e14e-0ca4-4b9d-b195-02193467cc72</webElementGuid>
+      <webElementGuid>5fd27932-934b-47a6-b10a-6970ec2293bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div/div/div[2]/button</value>
-      <webElementGuid>17de19a6-eac3-4afb-af1b-3dc08afa8c9a</webElementGuid>
+      <webElementGuid>2ddec0ae-e20b-4b5f-bd85-1c30629b22eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>ad233279-6eb0-4bf3-831c-7b38fe9184cd</webElementGuid>
+      <webElementGuid>6ce4273e-d14a-4469-ac77-8ac0e366e005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Filter' or . = 'Filter')]</value>
-      <webElementGuid>f1b3f9d3-2c1a-401f-97b4-1a7066b8018e</webElementGuid>
+      <webElementGuid>814befd9-8d20-4826-9e43-137611363262</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

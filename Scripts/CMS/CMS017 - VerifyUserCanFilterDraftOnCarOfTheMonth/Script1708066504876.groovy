@@ -21,22 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
-WebUI.setText(findTestObject('Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
     'TKuVe2416cQrilL8vjccmw==')
 
-WebUI.click(findTestObject('Page_SEVA CMS/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/span_SEVA Content Management'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/a_Announcement Box Management'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Car of the Month Management'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Filter'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/path'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_my-react-select__input-container css-o3kr9i'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Clone Announcement Box'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_DRAFT'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_APPLY FILTER'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_DRAFT'))
 
 WebUI.closeBrowser()
 

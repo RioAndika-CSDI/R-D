@@ -21,9 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
-WebUI.setText(findTestObject('Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'testing-qa@seva.id')
+WebUI.setText(findTestObject('Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 'Yb04Xw983OgGCKWozO10aQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
+    'TKuVe2416cQrilL8vjccmw==')
 
 WebUI.click(findTestObject('Page_SEVA CMS/button_Log in'))
 

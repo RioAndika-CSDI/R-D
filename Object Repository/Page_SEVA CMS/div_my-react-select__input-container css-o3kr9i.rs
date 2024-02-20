@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/div/div[2]/div/div[2]/ul/li/button/div/div/div/div/div/div/div/div[2]</value>
+         <value>//div[@class='my-react-select__control css-15b11zc-control']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fa59d99d-56f1-4549-a953-b4d25de5ddf3</webElementGuid>
+      <webElementGuid>47ed2671-9838-4ed3-b787-db7c6c695e99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>my-react-select__input-container css-o3kr9i</value>
-      <webElementGuid>67db20af-5c2a-4aec-8a5c-e428be660c8f</webElementGuid>
+      <webElementGuid>90da83b0-f28b-42be-a654-e8408cb8f88d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col items-start gap-2 lg:flex-row&quot;]/div[@class=&quot;relative col-span-2 flex flex-col items-end&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 left-0&quot;]/li[@class=&quot;mb-2 last:mb-0&quot;]/button[@class=&quot;items-center cursor-pointer w-full px-2 py-1 text-sm font-medium transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200 inline-flex&quot;]/div[@class=&quot;flex w-full flex-col gap-1&quot;]/div[@class=&quot;text-left css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ixpeqq-control&quot;]/div[@class=&quot;relative overflow-hidden&quot;]/div[@class=&quot;h-full w-full rounded-[inherit] [&amp;>div]:!block&quot;]/div[1]/div[@class=&quot;!max-h-none my-react-select__value-container css-hlgwow&quot;]/div[@class=&quot;my-react-select__input-container css-o3kr9i&quot;]</value>
-      <webElementGuid>a90c2cd7-79d1-40af-a244-4d2cffdc3a1e</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col items-start gap-2 lg:flex-row&quot;]/div[@class=&quot;relative col-span-2 flex flex-col items-end&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 left-0&quot;]/li[@class=&quot;mb-2 last:mb-0&quot;]/button[@class=&quot;items-center cursor-pointer w-full px-2 py-1 text-sm font-medium transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200 inline-flex&quot;]/div[@class=&quot;flex w-full flex-col gap-1&quot;]/div[@class=&quot;text-left css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-aso17u-control&quot;]/div[@class=&quot;relative overflow-hidden&quot;]/div[@class=&quot;h-full w-full rounded-[inherit] [&amp;>div]:!block&quot;]/div[1]/div[@class=&quot;!max-h-none my-react-select__value-container css-hlgwow&quot;]/div[@class=&quot;my-react-select__input-container css-o3kr9i&quot;]</value>
+      <webElementGuid>7717b26c-686f-4d80-b1cb-3f0d1354a96b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div/div/div[2]/div/div[2]/ul/li/button/div/div/div/div/div/div/div/div[2]</value>
-      <webElementGuid>123f4bd2-fb12-4438-a51e-004e08bc4d3a</webElementGuid>
+      <webElementGuid>33961c2e-e5d8-4117-adad-df3d5f26fb50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/div/div[2]</value>
-      <webElementGuid>5b26370e-48a0-41fa-82c4-9eaf84420d23</webElementGuid>
+      <webElementGuid>0160864d-c009-4470-853a-483bff54f2cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
