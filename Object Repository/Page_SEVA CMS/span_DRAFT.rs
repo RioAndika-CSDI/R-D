@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/div[2]/div/table/tbody/tr/td[5]/span</value>
+         <value>(//span[text()=('DRAFT')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4cceb60d-254d-4681-8248-c4ca2a0082dd</webElementGuid>
+      <webElementGuid>0b5ae2c1-e2b0-4630-a146-cc31bf685779</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-primary-700 bg-primary-100 dark:text-white dark:bg-primary-600 w-full justify-center text-center</value>
-      <webElementGuid>12878b57-926a-4c44-8cd7-e2e644b0565b</webElementGuid>
+      <value>inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-[#3C79C0] bg-[#E3F2FC] dark:text-white dark:bg-[#3C79C0] w-full justify-center</value>
+      <webElementGuid>f0794d48-ec35-41a0-b679-200f9cb125b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,31 +38,31 @@
       <name>text</name>
       <type>Main</type>
       <value>DRAFT</value>
-      <webElementGuid>83b373a6-737f-4895-a7ad-ca3c15762e0f</webElementGuid>
+      <webElementGuid>66442cdd-8f91-41e3-8d9e-4e744d913727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-8&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3&quot;]/span[@class=&quot;inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-primary-700 bg-primary-100 dark:text-white dark:bg-primary-600 w-full justify-center text-center&quot;]</value>
-      <webElementGuid>bfa2ccd7-80d5-47ff-b17e-6e8440217508</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line overflow-hidden shadow-card bg-white dark:bg-gray-800 shadow-xs&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3 text-center&quot;]/span[@class=&quot;inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-[#3C79C0] bg-[#E3F2FC] dark:text-white dark:bg-[#3C79C0] w-full justify-center&quot;]</value>
+      <webElementGuid>67476ad3-04fa-4dd2-93b6-4d4ccc9a29ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/div[2]/div/table/tbody/tr/td[5]/span</value>
-      <webElementGuid>30f9753a-1e51-4d1b-bbd5-34744728f347</webElementGuid>
+      <value>//main[@id='main']/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[4]/span</value>
+      <webElementGuid>59e55759-48b9-4e9c-bbc6-048bf2ffbf3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[5]/span</value>
-      <webElementGuid>d83cba37-001b-452a-ac2a-9331ce909509</webElementGuid>
+      <value>//td[4]/span</value>
+      <webElementGuid>9359f29b-4c4f-455a-af49-5c4de3c5bdbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'DRAFT' or . = 'DRAFT')]</value>
-      <webElementGuid>1991bfd5-cafd-499c-9b19-4ff572c91c39</webElementGuid>
+      <webElementGuid>7892094f-870b-4a68-9635-67b616f52c82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

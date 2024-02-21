@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
+         <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e62fde70-2d3c-432f-8db3-d7bb9a3f0444</webElementGuid>
+      <webElementGuid>c3a90174-cc3a-45c5-9d0a-b8adcbd5339d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full</value>
-      <webElementGuid>2e7bfe23-1531-4b70-aa1e-9e998afe4c1f</webElementGuid>
+      <webElementGuid>b300d007-a036-42d9-b150-9384c0786661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/app/car-of-the-month</value>
-      <webElementGuid>a27df680-db41-4cb7-87ea-aadbb421e54d</webElementGuid>
+      <webElementGuid>ccc15c59-ede2-4a29-8a70-c6399b07740c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Car of the Month Management</value>
-      <webElementGuid>ff9365e4-abd2-471c-87eb-b600b67cf23a</webElementGuid>
+      <webElementGuid>f96712b9-0fc8-42d8-9e0d-b81922a6cb82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/ul[@class=&quot;mt-2 space-y-2 overflow-hidden rounded-md bg-gray-50 p-2 text-sm font-medium text-gray-500 shadow-inner dark:bg-gray-900 dark:text-gray-400 enter-done&quot;]/li[@class=&quot;px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/a[@class=&quot;w-full&quot;]</value>
-      <webElementGuid>2bb62caf-f612-4381-96f9-fd33f4ef6d7e</webElementGuid>
+      <webElementGuid>6d626f96-b9b9-45cd-a969-96e1e37d9a0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
-      <webElementGuid>86ec0588-9180-4d4a-8120-28f666a86cf9</webElementGuid>
+      <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
+      <webElementGuid>9905d65a-8bd4-45e0-9f99-37e1b5b85715</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Car of the Month Management')]</value>
-      <webElementGuid>5b5bacf0-f424-468c-b8ca-93417f77fc15</webElementGuid>
+      <webElementGuid>b0e8f54b-5b1f-4db0-92c1-eb6ec8f3be3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/app/car-of-the-month')]</value>
-      <webElementGuid>32050564-dfe7-406a-8b65-ae2664a936e3</webElementGuid>
+      <webElementGuid>921395b7-d0af-46be-bbd3-e9a11257be7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a</value>
-      <webElementGuid>9fc08290-a1ba-47ab-8187-fc7b5f5a5397</webElementGuid>
+      <webElementGuid>955530f6-3a07-4159-bc16-4e71ec2df3c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/app/car-of-the-month' and (text() = 'Car of the Month Management' or . = 'Car of the Month Management')]</value>
-      <webElementGuid>6559b713-f175-4984-a75e-6d46fa0ed656</webElementGuid>
+      <webElementGuid>04446c02-8ba1-4294-8ed3-0398fb303a9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

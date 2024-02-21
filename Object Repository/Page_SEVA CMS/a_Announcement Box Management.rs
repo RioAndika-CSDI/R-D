@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[3]/a</value>
+         <value>(//a[@href='/app/announcement-box'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0925a413-5a02-4d74-8b3c-4b4f588b0642</webElementGuid>
+      <webElementGuid>9e5d1f9a-9b58-42a4-a836-ee3c7255c7a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full</value>
-      <webElementGuid>39e4b639-3c2e-4922-9eb6-0cd6b963d8dc</webElementGuid>
+      <webElementGuid>8f6a6e93-8ae1-40f5-bdc8-3a8c18c3990c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/app/announcement-box</value>
-      <webElementGuid>4b23b154-4528-4055-9148-f051dd4bae2d</webElementGuid>
+      <webElementGuid>dfdcdddb-2bc4-41e1-89d6-ef5815fcd542</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Announcement Box Management</value>
-      <webElementGuid>fcec902b-7649-414a-a110-d95640497b61</webElementGuid>
+      <webElementGuid>43f7b2aa-c62e-43e9-851a-935eb0d439b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/ul[@class=&quot;mt-2 space-y-2 overflow-hidden rounded-md bg-gray-50 p-2 text-sm font-medium text-gray-500 shadow-inner dark:bg-gray-900 dark:text-gray-400 enter-done&quot;]/li[@class=&quot;px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/a[@class=&quot;w-full&quot;]</value>
-      <webElementGuid>65f6ac3d-aba6-43cd-be52-96eb8e641ca6</webElementGuid>
+      <webElementGuid>4600996a-6e33-4f79-b5ce-a19cd491ddd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[3]/a</value>
-      <webElementGuid>3307b4ca-ea94-43bd-be44-752e9cfd8073</webElementGuid>
+      <webElementGuid>f13cce4e-75f9-4fdc-b2d7-e395500733b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Announcement Box Management')]</value>
-      <webElementGuid>07bf6e19-64cd-49fd-88cb-0acb0c3bf143</webElementGuid>
+      <webElementGuid>e2c5387c-dedc-4381-a7b5-9907cbbf6a28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/app/announcement-box')]</value>
-      <webElementGuid>aac46fea-412c-44c0-8575-6c8721fa1709</webElementGuid>
+      <webElementGuid>17939324-72e4-4787-b869-4a6dbec24b8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>e6499444-c8bf-439d-85cf-ad3859a02238</webElementGuid>
+      <webElementGuid>8c2a486c-32b3-4a41-838a-68071cb40230</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/app/announcement-box' and (text() = 'Announcement Box Management' or . = 'Announcement Box Management')]</value>
-      <webElementGuid>2a17f709-d8c2-4738-950b-4c43ff4419b7</webElementGuid>
+      <webElementGuid>d921b2ae-b5b3-4e70-9668-d60c73427f52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

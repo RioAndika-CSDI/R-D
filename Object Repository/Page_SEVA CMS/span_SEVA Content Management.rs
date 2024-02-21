@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/button/span/span</value>
+         <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/button/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>179d48ed-a4dc-49eb-9a39-77f0f0bba555</webElementGuid>
+      <webElementGuid>6851d289-8357-40e5-9b65-08ac646c6a71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-4 text-left</value>
-      <webElementGuid>8c6b603c-9c50-4543-9af4-8dbdd4e95f55</webElementGuid>
+      <webElementGuid>b96798fa-6789-401e-b6f0-241a1a924db6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEVA Content Management</value>
-      <webElementGuid>58a6dd15-6e26-4e3f-b0e1-80e75ce14788</webElementGuid>
+      <webElementGuid>63a42e4e-3b57-40b7-b2ef-f5199e6d5d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/button[@class=&quot;inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/span[@class=&quot;inline-flex items-center&quot;]/span[@class=&quot;ml-4 text-left&quot;]</value>
-      <webElementGuid>e8305216-746c-434b-aade-8b617c4f1cd7</webElementGuid>
+      <webElementGuid>4cf88606-bf50-431b-b282-b30f9dcd1856</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li/button/span/span</value>
-      <webElementGuid>e328cb11-cc6d-4ed0-aeb8-8a4cdc82f412</webElementGuid>
+      <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/button/span/span</value>
+      <webElementGuid>f4b415a0-eb04-4cee-acbb-a01f05830df9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span</value>
-      <webElementGuid>d31b9bf5-203f-477c-a562-04074961e05b</webElementGuid>
+      <webElementGuid>5b7e146a-9a2d-490b-94c5-d08dfbac5ea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'SEVA Content Management' or . = 'SEVA Content Management')]</value>
-      <webElementGuid>29b3f716-fc18-4109-865e-d534d87a25ed</webElementGuid>
+      <webElementGuid>c917df05-e9ad-4604-b1ca-29bc88b0fa7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
