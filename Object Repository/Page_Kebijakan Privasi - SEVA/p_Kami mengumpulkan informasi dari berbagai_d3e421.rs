@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kami mengumpulkan informasi dari berbagai_d3e421</name>
+   <tag></tag>
+   <elementGuidId>4353b420-549f-438b-bb1a-50f068a41059</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(5)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ae55e183-f72b-41bb-bac6-958c3462be0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kami mengumpulkan informasi dari berbagai sumber sesuai dengan peraturan perundang-undangan yang berlaku, termasuk Data Pribadi dan/atau Data Transaksi yang dikumpulkan oleh Mitra Kami, baik data baru maupun data historis, agar Kami dapat selalu memberikan layanan terbaik kepada pengguna Aplikasi dari waktu ke waktu.  Anda dengan ini setuju dan memberikan wewenang kepada Kami untuk (i) melakukan Pemanfaatan atas Data Pribadi dan/atau Data Transaksi yang Anda berikan kepada Kami maupun Mitra Kami;(ii) mengungkapkan, memberikan, mengirimkan dan membagikan Data Pribadi dan/atau Data Transaksi anda kepada Mitra Kami; (iii) mengumpulkan informasi lainnya secara tidak langsung meliputi akses ke kamera, tanggal saat pembuatan Akun Aplikasi, tanggal submit pengajuan, akses ke GPS, serta informasi lainnya sesuai dengan interaksi Anda dalam Aplikasi kami. Pemberian Data Pribadi Anda bersifat sukarela, namun jika Anda tidak memberikan Data Pribadi Anda kepada Kami dengan benar atau menarik setiap atau seluruh informasi yang termasuk ke dalam Data Pribadi, maka Kami mungkin tidak dapat memberikan layanan kepada Anda sebagaimana mestinya.</value>
+      <webElementGuid>8f3f5e84-526e-471f-b3c7-e595a11aceda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[5]</value>
+      <webElementGuid>37598dbc-658f-48a2-8569-2fcd54819da0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[5]</value>
+      <webElementGuid>679cc70a-0c4a-463f-8b50-9defa5c1a64f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kami mengumpulkan informasi dari berbagai sumber sesuai dengan peraturan perundang-undangan yang berlaku, termasuk Data Pribadi dan/atau Data Transaksi yang dikumpulkan oleh Mitra Kami, baik data baru maupun data historis, agar Kami dapat selalu memberikan layanan terbaik kepada pengguna Aplikasi dari waktu ke waktu.  Anda dengan ini setuju dan memberikan wewenang kepada Kami untuk (i) melakukan Pemanfaatan atas Data Pribadi dan/atau Data Transaksi yang Anda berikan kepada Kami maupun Mitra Kami;(ii) mengungkapkan, memberikan, mengirimkan dan membagikan Data Pribadi dan/atau Data Transaksi anda kepada Mitra Kami; (iii) mengumpulkan informasi lainnya secara tidak langsung meliputi akses ke kamera, tanggal saat pembuatan Akun Aplikasi, tanggal submit pengajuan, akses ke GPS, serta informasi lainnya sesuai dengan interaksi Anda dalam Aplikasi kami. Pemberian Data Pribadi Anda bersifat sukarela, namun jika Anda tidak memberikan Data Pribadi Anda kepada Kami dengan benar atau menarik setiap atau seluruh informasi yang termasuk ke dalam Data Pribadi, maka Kami mungkin tidak dapat memberikan layanan kepada Anda sebagaimana mestinya.' or . = 'Kami mengumpulkan informasi dari berbagai sumber sesuai dengan peraturan perundang-undangan yang berlaku, termasuk Data Pribadi dan/atau Data Transaksi yang dikumpulkan oleh Mitra Kami, baik data baru maupun data historis, agar Kami dapat selalu memberikan layanan terbaik kepada pengguna Aplikasi dari waktu ke waktu.  Anda dengan ini setuju dan memberikan wewenang kepada Kami untuk (i) melakukan Pemanfaatan atas Data Pribadi dan/atau Data Transaksi yang Anda berikan kepada Kami maupun Mitra Kami;(ii) mengungkapkan, memberikan, mengirimkan dan membagikan Data Pribadi dan/atau Data Transaksi anda kepada Mitra Kami; (iii) mengumpulkan informasi lainnya secara tidak langsung meliputi akses ke kamera, tanggal saat pembuatan Akun Aplikasi, tanggal submit pengajuan, akses ke GPS, serta informasi lainnya sesuai dengan interaksi Anda dalam Aplikasi kami. Pemberian Data Pribadi Anda bersifat sukarela, namun jika Anda tidak memberikan Data Pribadi Anda kepada Kami dengan benar atau menarik setiap atau seluruh informasi yang termasuk ke dalam Data Pribadi, maka Kami mungkin tidak dapat memberikan layanan kepada Anda sebagaimana mestinya.')]</value>
+      <webElementGuid>55ba702c-6012-419b-83f2-a2fcfb1d55d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

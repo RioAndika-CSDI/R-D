@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kami dapat meninjau, memperbarui, atau me_e519f0</name>
+   <tag></tag>
+   <elementGuidId>91bab490-c607-4931-a880-d87de12137ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(19)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[19]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>dda4eb3e-d6ac-46f9-bbfd-ba70a2fe42cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kami dapat meninjau, memperbarui, atau mengubah Kebijakan Privasi ini sewaktu-waktu dengan memunculkan informasi atas perubahan tersebut pada Aplikasi. Akses dan/atau penggunaan Aplikasi secara terus-menerus serta tidak adanya pemberitahuan secara tertulis kepada Kami mengenai keberatan Anda atas perubahan yang dibuat merupakan bentuk penerimaan dan persetujuan Anda atas perubahan Kebijakan Privasi tersebut.</value>
+      <webElementGuid>43338d57-aeb4-458a-8af9-609a5b0dcf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[19]</value>
+      <webElementGuid>19f2a35c-22e0-41fa-93e7-de22f0b961da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[19]</value>
+      <webElementGuid>b19fc83e-7941-4b4c-b833-505c68f74eea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kami dapat meninjau, memperbarui, atau mengubah Kebijakan Privasi ini sewaktu-waktu dengan memunculkan informasi atas perubahan tersebut pada Aplikasi. Akses dan/atau penggunaan Aplikasi secara terus-menerus serta tidak adanya pemberitahuan secara tertulis kepada Kami mengenai keberatan Anda atas perubahan yang dibuat merupakan bentuk penerimaan dan persetujuan Anda atas perubahan Kebijakan Privasi tersebut.' or . = 'Kami dapat meninjau, memperbarui, atau mengubah Kebijakan Privasi ini sewaktu-waktu dengan memunculkan informasi atas perubahan tersebut pada Aplikasi. Akses dan/atau penggunaan Aplikasi secara terus-menerus serta tidak adanya pemberitahuan secara tertulis kepada Kami mengenai keberatan Anda atas perubahan yang dibuat merupakan bentuk penerimaan dan persetujuan Anda atas perubahan Kebijakan Privasi tersebut.')]</value>
+      <webElementGuid>e5afaff7-ad35-4309-b931-5e8cfcb02ad7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

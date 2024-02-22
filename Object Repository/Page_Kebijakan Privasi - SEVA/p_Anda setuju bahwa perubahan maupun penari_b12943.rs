@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Anda setuju bahwa perubahan maupun penari_b12943</name>
+   <tag></tag>
+   <elementGuidId>cd91c82d-7463-461f-866f-acdf48a0ea60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(16)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[16]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e78c131d-1903-4efb-ab6a-becb0917885a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Anda setuju bahwa perubahan maupun penarikan persetujuan tersebut dapat mempengaruhi akses terhadap Aplikasi dan/atau layanan yang dapat Anda pergunakan atau dapat mengakibatkan Kami tidak dapat memberikan layanan kepada Anda. Anda dapat menghubungi Kami melalui surat elektronik help@seva.id untuk memberitahu Kami terkait hal tersebut. Harap perhatikan juga bahwa menghapus instalasi Aplikasi tidak akan mengakibatkan penghentian penggunaan layanan oleh Anda atau Pemanfaatan Data Pribadi Anda.</value>
+      <webElementGuid>f132e892-d344-48f8-8a28-67359360f616</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[16]</value>
+      <webElementGuid>17269d5a-818a-42c5-8745-aaed6925e616</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[16]</value>
+      <webElementGuid>d48785a0-9ee5-42e5-99d3-2c7e2dde4d90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Anda setuju bahwa perubahan maupun penarikan persetujuan tersebut dapat mempengaruhi akses terhadap Aplikasi dan/atau layanan yang dapat Anda pergunakan atau dapat mengakibatkan Kami tidak dapat memberikan layanan kepada Anda. Anda dapat menghubungi Kami melalui surat elektronik help@seva.id untuk memberitahu Kami terkait hal tersebut. Harap perhatikan juga bahwa menghapus instalasi Aplikasi tidak akan mengakibatkan penghentian penggunaan layanan oleh Anda atau Pemanfaatan Data Pribadi Anda.' or . = 'Anda setuju bahwa perubahan maupun penarikan persetujuan tersebut dapat mempengaruhi akses terhadap Aplikasi dan/atau layanan yang dapat Anda pergunakan atau dapat mengakibatkan Kami tidak dapat memberikan layanan kepada Anda. Anda dapat menghubungi Kami melalui surat elektronik help@seva.id untuk memberitahu Kami terkait hal tersebut. Harap perhatikan juga bahwa menghapus instalasi Aplikasi tidak akan mengakibatkan penghentian penggunaan layanan oleh Anda atau Pemanfaatan Data Pribadi Anda.')]</value>
+      <webElementGuid>8fdab624-07dc-4154-9c71-62a997fb8381</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
