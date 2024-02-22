@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kebijakan Privasi ini diatur dan ditafsir_794d26</name>
+   <tag></tag>
+   <elementGuidId>38854c6e-91ed-437c-bb76-555ff593db44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(22)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[22]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e45d4f52-f235-4c57-8a14-7f0d144a16cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kebijakan Privasi ini diatur dan ditafsirkan menurut hukum yang berlaku di negara Republik Indonesia dan setiap sengketa yang timbul dari Kebijakan Privasi ini akan diselesaikan melalui arbitrase yang diadakan di Jakarta sesuai dengan Peraturan Arbitrase yang berlaku di Badan Arbitrase Nasional Indonesia.</value>
+      <webElementGuid>2270480d-0ee1-411a-9d67-057447b0b0ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[22]</value>
+      <webElementGuid>0193b48d-e272-4a71-847c-c9c5fd2c1885</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[22]</value>
+      <webElementGuid>6e4476ff-17d8-47ff-8ae0-595d786aa8e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kebijakan Privasi ini diatur dan ditafsirkan menurut hukum yang berlaku di negara Republik Indonesia dan setiap sengketa yang timbul dari Kebijakan Privasi ini akan diselesaikan melalui arbitrase yang diadakan di Jakarta sesuai dengan Peraturan Arbitrase yang berlaku di Badan Arbitrase Nasional Indonesia.' or . = 'Kebijakan Privasi ini diatur dan ditafsirkan menurut hukum yang berlaku di negara Republik Indonesia dan setiap sengketa yang timbul dari Kebijakan Privasi ini akan diselesaikan melalui arbitrase yang diadakan di Jakarta sesuai dengan Peraturan Arbitrase yang berlaku di Badan Arbitrase Nasional Indonesia.')]</value>
+      <webElementGuid>1f716d85-5640-489b-a1d8-ccae4ad6e4b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

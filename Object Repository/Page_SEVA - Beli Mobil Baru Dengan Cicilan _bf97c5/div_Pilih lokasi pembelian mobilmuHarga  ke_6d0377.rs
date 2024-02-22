@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pilih lokasi pembelian mobilmuHarga  ke_6d0377</name>
+   <tag></tag>
+   <elementGuidId>c8f35616-7b59-4d35-af67-93bbb0310489</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-modal-wrap.ant-modal-centered</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>470aa644-0069-480d-90e9-f88456648448</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>22fa0461-9fcc-401b-af09-43a713171b34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-modal-wrap ant-modal-centered</value>
+      <webElementGuid>6bfb70fd-d002-4c17-a749-fae5a37bd37d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih lokasi pembelian mobilmuHarga &amp; ketersediaan mobil di setiap kota berbeda. Jika tidak dipilih, kami tampilkan mobil di Jakarta Pusat.SEVA Dropdown IconJakarta PusatBogorSurabayaBandungMedanMakassarAceh TamiangAceh TengahAceh TenggaraAceh TimurAceh UtaraBalanganBalikpapanBandar LampungBandung BaratBangkalanBanjarBanjarbaruBanjarmasinBanjarnegaraBanyuwangiBarito KualaBatamBatangBatuBekasiBengkayangBerauBlitarBloraBojonegoroBondowosoBoneBontangBoyolaliBrebesCiamisCianjurCilacapCirebonDemakDenpasarDepokGarutGorontaloGresikHulu Sungai SelatanHulu Sungai TengahHulu Sungai UtaraIndramayuJakarta BaratJakarta SelatanJakarta TimurJakarta UtaraJambiJemberJeparaJombangKaranganyarKarangasemKarawangKebumenKediriKendalKendariKetapangKlatenKotabaruKudusKuninganKutai BaratKutai KartanegaraKutai TimurLamonganLampung SelatanLampung TengahLampung TimurLampung UtaraLumajangMadiunMaduraMagelangMagetanMajalengkaMalangManadoMempawahMesujiMetroMojokertoNganjukNgawiPacitanPadangPalembangPalopoPamekasanPangandaranPasir Tanah GrogotPasuruanPatiPekalonganPekanbaruPemalangPenajam Paser UtaraPesawaranPesisir BaratPonorogoPontianakPringsewuProbolinggoPurbalinggaPurwakartaPurwodadiPurwokertoPurworejoRembangSalatigaSamarindaSambasSampangSangattaSanggauSekadauSemarangSerangSidoarjoSingkawangSintangSitubondoSoloSragenSukabumiSukoharjoSumedangSumenepSurakartaTabalongTanah BumbuTanah LautTangerangTangerang SelatanTanggamusTanjung KarangTarakanTasikmalayaTegalTemanggungTrenggalekTubanTulang BawangTulang Bawang BaratTulungagungWay KananWonogiriWonosoboYogyakartaNanti sajaMulai Cari Mobil</value>
+      <webElementGuid>a4ac5b7b-f1ae-413d-8a43-91859e76650f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]</value>
+      <webElementGuid>1a408d29-85cb-4a77-b244-7598f8e1983c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>765382d2-9399-4fd8-9c6f-37418f27f687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pilih lokasi pembelian mobilmuHarga &amp; ketersediaan mobil di setiap kota berbeda. Jika tidak dipilih, kami tampilkan mobil di Jakarta Pusat.SEVA Dropdown IconJakarta PusatBogorSurabayaBandungMedanMakassarAceh TamiangAceh TengahAceh TenggaraAceh TimurAceh UtaraBalanganBalikpapanBandar LampungBandung BaratBangkalanBanjarBanjarbaruBanjarmasinBanjarnegaraBanyuwangiBarito KualaBatamBatangBatuBekasiBengkayangBerauBlitarBloraBojonegoroBondowosoBoneBontangBoyolaliBrebesCiamisCianjurCilacapCirebonDemakDenpasarDepokGarutGorontaloGresikHulu Sungai SelatanHulu Sungai TengahHulu Sungai UtaraIndramayuJakarta BaratJakarta SelatanJakarta TimurJakarta UtaraJambiJemberJeparaJombangKaranganyarKarangasemKarawangKebumenKediriKendalKendariKetapangKlatenKotabaruKudusKuninganKutai BaratKutai KartanegaraKutai TimurLamonganLampung SelatanLampung TengahLampung TimurLampung UtaraLumajangMadiunMaduraMagelangMagetanMajalengkaMalangManadoMempawahMesujiMetroMojokertoNganjukNgawiPacitanPadangPalembangPalopoPamekasanPangandaranPasir Tanah GrogotPasuruanPatiPekalonganPekanbaruPemalangPenajam Paser UtaraPesawaranPesisir BaratPonorogoPontianakPringsewuProbolinggoPurbalinggaPurwakartaPurwodadiPurwokertoPurworejoRembangSalatigaSamarindaSambasSampangSangattaSanggauSekadauSemarangSerangSidoarjoSingkawangSintangSitubondoSoloSragenSukabumiSukoharjoSumedangSumenepSurakartaTabalongTanah BumbuTanah LautTangerangTangerang SelatanTanggamusTanjung KarangTarakanTasikmalayaTegalTemanggungTrenggalekTubanTulang BawangTulang Bawang BaratTulungagungWay KananWonogiriWonosoboYogyakartaNanti sajaMulai Cari Mobil' or . = 'Pilih lokasi pembelian mobilmuHarga &amp; ketersediaan mobil di setiap kota berbeda. Jika tidak dipilih, kami tampilkan mobil di Jakarta Pusat.SEVA Dropdown IconJakarta PusatBogorSurabayaBandungMedanMakassarAceh TamiangAceh TengahAceh TenggaraAceh TimurAceh UtaraBalanganBalikpapanBandar LampungBandung BaratBangkalanBanjarBanjarbaruBanjarmasinBanjarnegaraBanyuwangiBarito KualaBatamBatangBatuBekasiBengkayangBerauBlitarBloraBojonegoroBondowosoBoneBontangBoyolaliBrebesCiamisCianjurCilacapCirebonDemakDenpasarDepokGarutGorontaloGresikHulu Sungai SelatanHulu Sungai TengahHulu Sungai UtaraIndramayuJakarta BaratJakarta SelatanJakarta TimurJakarta UtaraJambiJemberJeparaJombangKaranganyarKarangasemKarawangKebumenKediriKendalKendariKetapangKlatenKotabaruKudusKuninganKutai BaratKutai KartanegaraKutai TimurLamonganLampung SelatanLampung TengahLampung TimurLampung UtaraLumajangMadiunMaduraMagelangMagetanMajalengkaMalangManadoMempawahMesujiMetroMojokertoNganjukNgawiPacitanPadangPalembangPalopoPamekasanPangandaranPasir Tanah GrogotPasuruanPatiPekalonganPekanbaruPemalangPenajam Paser UtaraPesawaranPesisir BaratPonorogoPontianakPringsewuProbolinggoPurbalinggaPurwakartaPurwodadiPurwokertoPurworejoRembangSalatigaSamarindaSambasSampangSangattaSanggauSekadauSemarangSerangSidoarjoSingkawangSintangSitubondoSoloSragenSukabumiSukoharjoSumedangSumenepSurakartaTabalongTanah BumbuTanah LautTangerangTangerang SelatanTanggamusTanjung KarangTarakanTasikmalayaTegalTemanggungTrenggalekTubanTulang BawangTulang Bawang BaratTulungagungWay KananWonogiriWonosoboYogyakartaNanti sajaMulai Cari Mobil')]</value>
+      <webElementGuid>e60fb935-5d2f-4dfa-a77a-bcec2917977e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

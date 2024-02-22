@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Kualifikasi Kredit Sulit</name>
+   <tag></tag>
+   <elementGuidId>eaec6ce4-5d57-45f5-b6ed-125c5ca28186</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.sulit_microBold__nx_SK</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e5ef9f40-ab30-41e2-8b76-6c8517584f2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sulit_microBold__nx_SK</value>
+      <webElementGuid>2a4febd2-7b4e-491d-8de9-08f924d1bc7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kualifikasi Kredit Sulit</value>
+      <webElementGuid>410b6029-1194-45de-885f-93829fe4c6e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;undefined multi-kk-result_container__ngwEQ&quot;]/div[@class=&quot;multi-kk-result_carListWrapper__xOKOs&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcardMultiCredit_container__MKRox&quot;]/div[@class=&quot;cardetailcardMultiCredit_cardWrapper__mFz91 cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;sulit_container__E_qcs sulit_labelResult__HBSu_ cardetailcardMultiCredit_loanRankLabelAdditionalStyle2__nff1j&quot;]/span[@class=&quot;sulit_microBold__nx_SK&quot;]</value>
+      <webElementGuid>48868a18-8fbb-4ccf-92d7-0d97f4d90d01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div/div[2]/span</value>
+      <webElementGuid>18e5a5fa-65b7-4817-ba00-8d92670ff277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>50dba7b8-279a-4b4c-9e12-716be2beb324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Kualifikasi Kredit Sulit' or . = 'Kualifikasi Kredit Sulit')]</value>
+      <webElementGuid>0f8143ba-2394-4708-8e0a-8889823bada0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

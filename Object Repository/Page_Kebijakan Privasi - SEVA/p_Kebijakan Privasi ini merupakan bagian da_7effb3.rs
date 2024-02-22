@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kebijakan Privasi ini merupakan bagian da_7effb3</name>
+   <tag></tag>
+   <elementGuidId>65def07f-e8e6-450f-b6ae-2d49b1f01f4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e25316bc-be32-4980-bb21-658f7496c3e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Kebijakan Privasi ini merupakan bagian dari Syarat dan Ketentuan Penggunaan Aplikasi (“Ketentuan Penggunaan”) Kami. Penggunaan Aplikasi dan setiap fitur dan/atau layanan yang tersedia dalam Aplikasi merupakan bentuk persetujuan Anda terhadap ketentuan dan Kebijakan Privasi tersebut. Oleh karena itu, mohon Anda membaca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa Anda memahami sepenuhnya sebelum mendaftar, mengakses dan/atau menggunakan Aplikasi.</value>
+      <webElementGuid>5cf6c897-cd92-4041-973f-e7628294edc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[2]</value>
+      <webElementGuid>daed4ef1-5702-4fb2-982e-63b4d2b7a0e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p[2]</value>
+      <webElementGuid>936f6673-4b1f-431c-b88c-41923572c7b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = ' Kebijakan Privasi ini merupakan bagian dari Syarat dan Ketentuan Penggunaan Aplikasi (“Ketentuan Penggunaan”) Kami. Penggunaan Aplikasi dan setiap fitur dan/atau layanan yang tersedia dalam Aplikasi merupakan bentuk persetujuan Anda terhadap ketentuan dan Kebijakan Privasi tersebut. Oleh karena itu, mohon Anda membaca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa Anda memahami sepenuhnya sebelum mendaftar, mengakses dan/atau menggunakan Aplikasi.' or . = ' Kebijakan Privasi ini merupakan bagian dari Syarat dan Ketentuan Penggunaan Aplikasi (“Ketentuan Penggunaan”) Kami. Penggunaan Aplikasi dan setiap fitur dan/atau layanan yang tersedia dalam Aplikasi merupakan bentuk persetujuan Anda terhadap ketentuan dan Kebijakan Privasi tersebut. Oleh karena itu, mohon Anda membaca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa Anda memahami sepenuhnya sebelum mendaftar, mengakses dan/atau menggunakan Aplikasi.')]</value>
+      <webElementGuid>7b517d60-f30c-4e07-b020-e356a3f207ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

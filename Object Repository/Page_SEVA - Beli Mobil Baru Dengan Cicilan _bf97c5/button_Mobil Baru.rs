@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Mobil Baru</name>
+   <tag></tag>
+   <elementGuidId>9986c7e0-32ed-42b2-b7a1-5c316c593e63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.menuItem_submenu__aUQMo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0afc0109-1981-402d-a5fe-2a10fddfefdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_submenu__aUQMo</value>
+      <webElementGuid>9f3c7135-172b-40cc-b665-fcbf4a47a6ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mobil Baru</value>
+      <webElementGuid>9610e241-d21d-4864-935f-c4160d31b906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_submenuContainer___v45s menuItem_slideDown__F3X0t&quot;]/button[@class=&quot;menuItem_submenu__aUQMo&quot;]</value>
+      <webElementGuid>1886fec5-00d1-4f5e-84bb-c0fe8d4d8235</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button</value>
+      <webElementGuid>82e1368e-0ef8-428f-b93d-0e7e96b5f4cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[3]/button</value>
+      <webElementGuid>64410a25-bb91-4156-a68f-0cf67e8815f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Mobil Baru' or . = 'Mobil Baru')]</value>
+      <webElementGuid>b6dd601a-fa6f-4873-9d0a-de5b04cf28ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

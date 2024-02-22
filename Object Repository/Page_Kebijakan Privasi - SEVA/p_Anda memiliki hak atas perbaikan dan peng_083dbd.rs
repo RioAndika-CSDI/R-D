@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Anda memiliki hak atas perbaikan dan peng_083dbd</name>
+   <tag></tag>
+   <elementGuidId>9a46b811-d983-49c2-9ff4-acf179f82809</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(24)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[24]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>89c0da48-f5c4-4ed9-8690-cd1a9783facf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Anda memiliki hak atas perbaikan dan penghapusan Data Pribadi Anda termasuk informasi lebih lanjut mengenai penggunaan Aplikasi dan transaksi. Apabila Anda membutuhkan informasi lebih lanjut maupun terdapat keluhan sehubungan dengan hal ini, Anda dapat menghubungi Kami melalui surat elektronik help@seva.id.</value>
+      <webElementGuid>cb3ed483-aa77-4d0d-8c8e-e679e2b7ce7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[24]</value>
+      <webElementGuid>bdbf7a9c-0649-42b9-bddb-ad0b8d60268c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[24]</value>
+      <webElementGuid>b0474fd6-4ed2-41db-8831-c1dea9d3e8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Anda memiliki hak atas perbaikan dan penghapusan Data Pribadi Anda termasuk informasi lebih lanjut mengenai penggunaan Aplikasi dan transaksi. Apabila Anda membutuhkan informasi lebih lanjut maupun terdapat keluhan sehubungan dengan hal ini, Anda dapat menghubungi Kami melalui surat elektronik help@seva.id.' or . = 'Anda memiliki hak atas perbaikan dan penghapusan Data Pribadi Anda termasuk informasi lebih lanjut mengenai penggunaan Aplikasi dan transaksi. Apabila Anda membutuhkan informasi lebih lanjut maupun terdapat keluhan sehubungan dengan hal ini, Anda dapat menghubungi Kami melalui surat elektronik help@seva.id.')]</value>
+      <webElementGuid>1f99cf2a-ce9f-42c6-9382-708e857be41d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

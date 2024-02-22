@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Perusahaan penyedia layanan lainnya maup_ffe172</name>
+   <tag></tag>
+   <elementGuidId>c89f0eaf-e018-4194-a1db-22b93a97bc27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/ul/li[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>75adc908-2292-4474-9803-c3980f8be990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Perusahaan penyedia layanan lainnya maupun Mitra Kami yang terkait dengan produk dan layanan yang ditawarkan dalam Aplikasi;</value>
+      <webElementGuid>4a795b3d-6b4c-4281-9c22-7f98a6860a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/ul[1]/li[5]</value>
+      <webElementGuid>6a730797-b2ba-4d54-9c7a-c69dc9021a05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li[5]</value>
+      <webElementGuid>bf8ad357-b36a-4cdd-bacd-3b02b2abde02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Perusahaan penyedia layanan lainnya maupun Mitra Kami yang terkait dengan produk dan layanan yang ditawarkan dalam Aplikasi;' or . = 'Perusahaan penyedia layanan lainnya maupun Mitra Kami yang terkait dengan produk dan layanan yang ditawarkan dalam Aplikasi;')]</value>
+      <webElementGuid>af8a47a0-ff7a-4f3c-a052-cc60c9cc457b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

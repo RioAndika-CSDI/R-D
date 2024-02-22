@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Ini adalah tanggung jawab Anda untuk seca_7a9f54</name>
+   <tag></tag>
+   <elementGuidId>9d352f11-d29b-4366-8020-d52a47be5a71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(20)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[20]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7cfdea10-b018-43a2-ad6d-d296a41bc03b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ini adalah tanggung jawab Anda untuk secara berkala meninjau Kebijakan Privasi ini dan untuk mengetahui informasi terkini tentang bagaimana ketentuan Kebijakan Privasi ini Kami berlakukan. Anda bertanggung jawab untuk senantiasa memahami perubahan yang Kami buat dari waktu ke waktu. Kebijakan Privasi mulai berlaku sejak tanggal pembaruan, perubahan atau modifikasi tersebut.</value>
+      <webElementGuid>3ae36fc2-3bbb-4385-b8d9-b9ab058d5a83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[20]</value>
+      <webElementGuid>aff13f19-02f3-4148-a14d-6393c59a1d03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[20]</value>
+      <webElementGuid>012ed356-4e8c-4baf-bfdd-fdf6dea4baa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Ini adalah tanggung jawab Anda untuk secara berkala meninjau Kebijakan Privasi ini dan untuk mengetahui informasi terkini tentang bagaimana ketentuan Kebijakan Privasi ini Kami berlakukan. Anda bertanggung jawab untuk senantiasa memahami perubahan yang Kami buat dari waktu ke waktu. Kebijakan Privasi mulai berlaku sejak tanggal pembaruan, perubahan atau modifikasi tersebut.' or . = 'Ini adalah tanggung jawab Anda untuk secara berkala meninjau Kebijakan Privasi ini dan untuk mengetahui informasi terkini tentang bagaimana ketentuan Kebijakan Privasi ini Kami berlakukan. Anda bertanggung jawab untuk senantiasa memahami perubahan yang Kami buat dari waktu ke waktu. Kebijakan Privasi mulai berlaku sejak tanggal pembaruan, perubahan atau modifikasi tersebut.')]</value>
+      <webElementGuid>372b77d1-ccd0-4dbb-b678-c5968ecc6937</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

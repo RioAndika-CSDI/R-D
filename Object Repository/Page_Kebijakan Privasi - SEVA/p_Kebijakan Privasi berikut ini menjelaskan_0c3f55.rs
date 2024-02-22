@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kebijakan Privasi berikut ini menjelaskan_0c3f55</name>
+   <tag></tag>
+   <elementGuidId>15822cb5-e84b-4733-b98c-f1520284698d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>41952d41-d4b7-4927-b93a-1daf53f35d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kebijakan Privasi berikut ini menjelaskan bagaimana PT Astra Auto Digital selaku pemilik dan pengelola aplikasi seluler (mobile application) SEVA dan/atau domain www.seva.id (“Aplikasi”) (selanjutnya disebut “Perusahaan” atau “Kami”) memperoleh, mengumpulkan, menggunakan, menampilkan, mengumumkan, mengungkapkan, memproses, membukakan akses, menyimpan, mengirimkan, memberikan, membagikan, mengolah, mengelola, memusnahkan, melindungi, dan/atau melakukan kerjasama dengan pihak ketiga penyedia layanan teknologi informasi  (secara bersama-sama, “Pemanfaatan”) data pribadi Anda yang meliputi antara lain, namun tidak terbatas pada data-data yang terdapat dalam kartu identitas Anda, nomor telepon dan informasi lainnya (“Data Pribadi”) yang Anda berikan ketika Anda menggunakan Aplikasi Kami, serta data-data yang terkait dengan transaksi yang Anda lakukan dengan menggunakan Aplikasi (“Data Transaksi”). Perlu dicatat bahwa Data Pribadi disini tidak termasuk Data Pribadi yang telah tersedia di publik.</value>
+      <webElementGuid>aa6da44f-5d21-4e7f-9970-aabd9eb3f22b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[1]</value>
+      <webElementGuid>4097a2dd-1ec8-432a-b52f-f1f84d4d3661</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p</value>
+      <webElementGuid>9efd65d1-e330-416a-906a-cd4c80217dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kebijakan Privasi berikut ini menjelaskan bagaimana PT Astra Auto Digital selaku pemilik dan pengelola aplikasi seluler (mobile application) SEVA dan/atau domain www.seva.id (“Aplikasi”) (selanjutnya disebut “Perusahaan” atau “Kami”) memperoleh, mengumpulkan, menggunakan, menampilkan, mengumumkan, mengungkapkan, memproses, membukakan akses, menyimpan, mengirimkan, memberikan, membagikan, mengolah, mengelola, memusnahkan, melindungi, dan/atau melakukan kerjasama dengan pihak ketiga penyedia layanan teknologi informasi  (secara bersama-sama, “Pemanfaatan”) data pribadi Anda yang meliputi antara lain, namun tidak terbatas pada data-data yang terdapat dalam kartu identitas Anda, nomor telepon dan informasi lainnya (“Data Pribadi”) yang Anda berikan ketika Anda menggunakan Aplikasi Kami, serta data-data yang terkait dengan transaksi yang Anda lakukan dengan menggunakan Aplikasi (“Data Transaksi”). Perlu dicatat bahwa Data Pribadi disini tidak termasuk Data Pribadi yang telah tersedia di publik.' or . = 'Kebijakan Privasi berikut ini menjelaskan bagaimana PT Astra Auto Digital selaku pemilik dan pengelola aplikasi seluler (mobile application) SEVA dan/atau domain www.seva.id (“Aplikasi”) (selanjutnya disebut “Perusahaan” atau “Kami”) memperoleh, mengumpulkan, menggunakan, menampilkan, mengumumkan, mengungkapkan, memproses, membukakan akses, menyimpan, mengirimkan, memberikan, membagikan, mengolah, mengelola, memusnahkan, melindungi, dan/atau melakukan kerjasama dengan pihak ketiga penyedia layanan teknologi informasi  (secara bersama-sama, “Pemanfaatan”) data pribadi Anda yang meliputi antara lain, namun tidak terbatas pada data-data yang terdapat dalam kartu identitas Anda, nomor telepon dan informasi lainnya (“Data Pribadi”) yang Anda berikan ketika Anda menggunakan Aplikasi Kami, serta data-data yang terkait dengan transaksi yang Anda lakukan dengan menggunakan Aplikasi (“Data Transaksi”). Perlu dicatat bahwa Data Pribadi disini tidak termasuk Data Pribadi yang telah tersedia di publik.')]</value>
+      <webElementGuid>4e0614b4-080b-478b-b51d-5d5fb2cccaa3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Nomor berhasil diverifikasi</name>
+   <tag></tag>
+   <elementGuidId>87c0431a-3a70-4039-a28b-4fe636f3fb22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.toast_textToast__P2V05</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>fcbbba99-7d81-4231-8982-88e307767b99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>toast_textToast__P2V05</value>
+      <webElementGuid>8130aa88-4f2f-43ab-8c50-5d168f4fd3fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nomor berhasil diverifikasi.</value>
+      <webElementGuid>dfa0683d-b617-4c06-b579-8d52aaf33a91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry toast-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/button[@class=&quot;toast_content__J_sXL&quot;]/p[@class=&quot;toast_textToast__P2V05&quot;]</value>
+      <webElementGuid>8de01eed-fc17-482b-a7b1-8716fa1d1f87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/p</value>
+      <webElementGuid>17f30343-eda9-4c39-a530-b3647c77d381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Nomor berhasil diverifikasi.' or . = 'Nomor berhasil diverifikasi.')]</value>
+      <webElementGuid>1c302d78-7196-4fd9-98dc-fb4aede7a789</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

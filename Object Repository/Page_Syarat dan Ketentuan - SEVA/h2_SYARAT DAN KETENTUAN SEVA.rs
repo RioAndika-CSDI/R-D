@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_SYARAT DAN KETENTUAN SEVA</name>
+   <tag></tag>
+   <elementGuidId>e9b6b508-e4f0-4291-a2b3-a7f863db6a2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.title1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>ac13fc40-7d60-412e-9fbc-4955ec355656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title1</value>
+      <webElementGuid>6887969c-fd55-4264-8a12-b641ef49e4ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SYARAT DAN KETENTUAN SEVA</value>
+      <webElementGuid>ec9e518f-cddf-49c7-ae90-4a2eb5ffd185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;box&quot;]/h2[@class=&quot;title1&quot;]</value>
+      <webElementGuid>3c7d6707-3637-4470-bac7-ff5a023d0e63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>0f971977-e7fa-4494-a333-98cf38e77ebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
+      <webElementGuid>aa92f600-004a-4f3a-a0b0-7d876245da0c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

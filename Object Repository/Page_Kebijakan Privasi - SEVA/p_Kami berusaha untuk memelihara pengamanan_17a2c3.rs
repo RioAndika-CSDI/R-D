@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kami berusaha untuk memelihara pengamanan_17a2c3</name>
+   <tag></tag>
+   <elementGuidId>394d05a5-14a9-4469-8c23-8865a55bdf20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(12)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[12]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c1976c26-5c7f-4a0d-86c0-9e093c241b76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kami berusaha untuk memelihara pengamanan fisik, teknis dan prosedural yang sesuai untuk melindungi Data Pribadi Anda dari kehilangan, penyalahgunaan, penyalinan, kerusakan atau modifikasi dan akses atau pengungkapan yang tidak sah.</value>
+      <webElementGuid>06d58bc5-33fc-4c16-8318-85e5da3fd907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[12]</value>
+      <webElementGuid>c7eab8b3-1a71-4d99-9809-f893d6a95a3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[12]</value>
+      <webElementGuid>ba756b9b-e953-4049-95a9-e6268aa6f583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kami berusaha untuk memelihara pengamanan fisik, teknis dan prosedural yang sesuai untuk melindungi Data Pribadi Anda dari kehilangan, penyalahgunaan, penyalinan, kerusakan atau modifikasi dan akses atau pengungkapan yang tidak sah.' or . = 'Kami berusaha untuk memelihara pengamanan fisik, teknis dan prosedural yang sesuai untuk melindungi Data Pribadi Anda dari kehilangan, penyalahgunaan, penyalinan, kerusakan atau modifikasi dan akses atau pengungkapan yang tidak sah.')]</value>
+      <webElementGuid>6919b510-0c9c-46e4-82b2-d36f7cb4546e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

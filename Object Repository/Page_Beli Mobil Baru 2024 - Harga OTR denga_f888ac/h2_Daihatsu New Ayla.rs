@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Daihatsu New Ayla</name>
+   <tag></tag>
+   <elementGuidId>08200fb4-8a54-46db-9781-2e91b7324683</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.cardetailcard_brandModelText__H3ZBU</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>c80ede79-2d80-4da7-b6cc-af1156f8a906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard_brandModelText__H3ZBU</value>
+      <webElementGuid>c19cb355-5c41-4361-a372-2019e6472e8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>[object Object]brand-model-mobil</value>
+      <webElementGuid>f6d3986f-b27a-427b-afef-422fb20dc0e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu New Ayla</value>
+      <webElementGuid>99b78d1a-7e7c-4703-a656-7f6f3c3b0ada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/h2[@class=&quot;cardetailcard_brandModelText__H3ZBU&quot;]</value>
+      <webElementGuid>ca85ed50-9340-464d-a1d9-8c775e4062c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
+      <webElementGuid>71f932cc-2c02-4c0b-9e55-d0aea44a5f37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/h2</value>
+      <webElementGuid>1394f739-87ad-499e-85c0-f7edba577995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Daihatsu New Ayla' or . = 'Daihatsu New Ayla')]</value>
+      <webElementGuid>e259a951-9aa5-441c-81e8-74c72889e1dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

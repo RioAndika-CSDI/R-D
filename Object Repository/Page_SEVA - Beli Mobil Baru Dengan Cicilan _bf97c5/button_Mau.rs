@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>11200ece-15d0-40cb-aee7-ae1c5ce7e043</webElementGuid>
+      <webElementGuid>10a5e626-d4f4-4208-971a-6bfbc3e77f32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>ng-attr-id</name>
       <type>Main</type>
       <value>{{webPushPlatformData.chrome.domain_type == 'https' ? 'optInText': 'optInTextConventional'}}</value>
-      <webElementGuid>552a9cba-512c-44ee-b289-48f07ec41c47</webElementGuid>
+      <webElementGuid>14ecba0e-f434-451c-96bd-b12cd2557353</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>ng-style</name>
       <type>Main</type>
       <value>{'color': webPushPreview['bannerv2']['web']['allowButton']['color'],'background':webPushPreview['bannerv2']['web']['allowButton']['backgroundColor']}</value>
-      <webElementGuid>b284f851-6806-4450-b893-888b7a9c5ae4</webElementGuid>
+      <webElementGuid>d375a687-0f27-4525-be01-74fc03bbb734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>24c70b66-b8e5-47e9-b549-0d3e8d14275f</webElementGuid>
+      <webElementGuid>65db5b40-8270-4253-9a14-ce9910ec3f54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>optInText</value>
-      <webElementGuid>c7be9fa7-060e-4d39-b191-e07b5591c5cc</webElementGuid>
+      <webElementGuid>e9f7589f-78f2-413a-b36f-00f106dffd21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mau</value>
-      <webElementGuid>28b58abd-471d-4a48-b019-a1d3e316233a</webElementGuid>
+      <webElementGuid>0c3195c5-f3ec-4ddd-9bff-46013a510cba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;optInText&quot;)</value>
-      <webElementGuid>421fc66b-59ff-4ecb-ba63-48b617ee9cc6</webElementGuid>
+      <webElementGuid>3ca26485-7ba3-4437-a599-ed1a70b405cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='optInText']</value>
-      <webElementGuid>7c964858-20b4-432c-91fa-8b4338da1cfe</webElementGuid>
+      <webElementGuid>ed9f4519-97a2-4d4d-b31a-6e2163fbb43f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='desktopBannerWrapped']/div/div[3]/div/button[2]</value>
-      <webElementGuid>c41da89a-0910-45b0-8ffc-a0050aa04211</webElementGuid>
+      <webElementGuid>9520ea02-4402-4a3a-9e2f-59e342204a23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>5bb0aa15-0b79-4cf1-a6c1-b85558adc397</webElementGuid>
+      <webElementGuid>912f81dd-1f8c-4b57-9596-72334715df21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'optInText' and (text() = 'Mau' or . = 'Mau')]</value>
-      <webElementGuid>101c844e-f1f2-4eab-91c9-c307abf39e21</webElementGuid>
+      <webElementGuid>3fb2c163-43bd-46b0-ba86-ec20517e19db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

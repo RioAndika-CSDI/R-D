@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kami akan menyimpan Data Pribadi danatau _af39d8</name>
+   <tag></tag>
+   <elementGuidId>d071a30c-5139-4e25-9065-bd4c2d9d97b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(13)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[13]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f50ab32a-2704-4600-9800-3fb4df6d0233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kami akan menyimpan Data Pribadi dan/atau Data Transaksi Anda hingga ada permintaan khusus untuk menghapus Akun Aplikasi Anda. Lebih lanjut, Kami tidak akan bertanggung jawab atas pelanggaran keamanan atau tindakan apapun dari pihak ketiga atau peristiwa apapun yang berada diluar kendali wajar Kami termasuk tetapi tidak terbatas pada tindakan pemerintah, peretasan komputer, akses tidak sah ke data komputer dan perangkat penyimpanan, komputer crash, pelanggaran keamanan dan enkripsi, buruknya kualitas layanan Internet atau layanan telepon dari Anda, dan lain-lain.</value>
+      <webElementGuid>9f12c1ab-6402-42fc-b3b5-7d9807cbbf1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[13]</value>
+      <webElementGuid>12c5f7bb-28e0-40aa-80ed-1e53a0169eb2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[13]</value>
+      <webElementGuid>cc84740f-d0fa-4f1d-be3e-8dd5a8cc341e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kami akan menyimpan Data Pribadi dan/atau Data Transaksi Anda hingga ada permintaan khusus untuk menghapus Akun Aplikasi Anda. Lebih lanjut, Kami tidak akan bertanggung jawab atas pelanggaran keamanan atau tindakan apapun dari pihak ketiga atau peristiwa apapun yang berada diluar kendali wajar Kami termasuk tetapi tidak terbatas pada tindakan pemerintah, peretasan komputer, akses tidak sah ke data komputer dan perangkat penyimpanan, komputer crash, pelanggaran keamanan dan enkripsi, buruknya kualitas layanan Internet atau layanan telepon dari Anda, dan lain-lain.' or . = 'Kami akan menyimpan Data Pribadi dan/atau Data Transaksi Anda hingga ada permintaan khusus untuk menghapus Akun Aplikasi Anda. Lebih lanjut, Kami tidak akan bertanggung jawab atas pelanggaran keamanan atau tindakan apapun dari pihak ketiga atau peristiwa apapun yang berada diluar kendali wajar Kami termasuk tetapi tidak terbatas pada tindakan pemerintah, peretasan komputer, akses tidak sah ke data komputer dan perangkat penyimpanan, komputer crash, pelanggaran keamanan dan enkripsi, buruknya kualitas layanan Internet atau layanan telepon dari Anda, dan lain-lain.')]</value>
+      <webElementGuid>fad6a3d4-8f5b-4428-a987-9ba231b28eb3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
