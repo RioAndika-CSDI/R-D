@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SEVA</name>
+   <tag></tag>
+   <elementGuidId>99a79a2d-0b14-420f-86da-e215523fa83e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1rynq56.r-bcqeeo.r-qvutc0.r-37j5jr.r-adyw6z.r-135wba7.r-1vr29t4.r-1awozwy.r-6koalj.r-1udh08x > span.css-1qaijid.r-bcqeeo.r-qvutc0.r-poiln3 > span.css-1qaijid.r-bcqeeo.r-qvutc0.r-poiln3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ea7866f5-b4a6-4e14-bb40-faf6863f13d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1qaijid r-bcqeeo r-qvutc0 r-poiln3</value>
+      <webElementGuid>a0eba9d1-aa00-4dce-a8dd-c6dbc0df7af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA</value>
+      <webElementGuid>e47d6663-bd54-4f02-ad6b-8103ebd9c176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-root&quot;)/div[@class=&quot;css-175oi2r r-13awgt0 r-12vffkv&quot;]/div[@class=&quot;css-175oi2r r-13awgt0 r-12vffkv&quot;]/div[@class=&quot;css-175oi2r r-1f2l425 r-13qz1uu r-417010 r-18u37iz&quot;]/main[@class=&quot;css-175oi2r r-16y2uox r-1wbh5a2 r-1habvwh&quot;]/div[@class=&quot;css-175oi2r r-150rngu r-16y2uox r-1wbh5a2 r-rthrr5&quot;]/div[@class=&quot;css-175oi2r r-aqfbo4 r-16y2uox&quot;]/div[@class=&quot;css-175oi2r r-1oszu61 r-1niwhzg r-18u37iz r-16y2uox r-2llsf r-13qz1uu r-1wtj0ep&quot;]/div[@class=&quot;css-175oi2r r-kemksi r-1kqtdi0 r-13l2t4g r-1ljd8xs r-1phboty r-16y2uox r-184en5c r-61z16t r-11wrixw r-1jgb5lz r-13qz1uu r-1ye8kvj&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r r-16y2uox&quot;]/div[@class=&quot;css-175oi2r r-1jgb5lz r-13qz1uu r-1ye8kvj&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r r-ymttw5 r-ttdzmv r-1ifxtd0&quot;]/div[@class=&quot;css-175oi2r r-6gpygo r-14gqq1x&quot;]/div[@class=&quot;css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l&quot;]/div[@class=&quot;css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l&quot;]/div[@class=&quot;css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l&quot;]/div[@class=&quot;css-175oi2r r-1awozwy r-18u37iz r-dnmrzs&quot;]/div[@class=&quot;css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-adyw6z r-135wba7 r-1vr29t4 r-1awozwy r-6koalj r-1udh08x&quot;]/span[@class=&quot;css-1qaijid r-bcqeeo r-qvutc0 r-poiln3&quot;]/span[@class=&quot;css-1qaijid r-bcqeeo r-qvutc0 r-poiln3&quot;]</value>
+      <webElementGuid>7f5b2f62-abc9-47c1-a2fb-b07d2822daff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/span/span</value>
+      <webElementGuid>f926dec5-b908-4239-90e8-2ff04a59488f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/span/span</value>
+      <webElementGuid>74bd8723-4a10-4fab-bef6-7b2f743fdc30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'SEVA' or . = 'SEVA')]</value>
+      <webElementGuid>ec01d5c2-670a-4d85-b587-3f3ce5395c11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

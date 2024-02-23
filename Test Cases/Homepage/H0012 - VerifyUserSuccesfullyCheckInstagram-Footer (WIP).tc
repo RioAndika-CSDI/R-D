@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>H0005 - FilterFinancialSearchBrand</name>
+   <name>H0012 - VerifyUserSuccesfullyCheckInstagram-Footer (WIP)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e63ee111-e97f-4974-ab92-fe4f267960a6</testCaseGuid>
+   <testCaseGuid>0a8827a7-bc15-4421-9691-459b144e14c9</testCaseGuid>
 </TestCaseEntity>

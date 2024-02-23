@@ -27,15 +27,15 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/b
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA Twitter Icon'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Daihatsu'))
+WebUI.switchToWindowTitle('SEVA (@sevaid_official) / X')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_sevaid_official'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_SEVA'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_f888ac/span_Daihatsu'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_Platform pencarian mobil baru dari ber_5d6b10'))
 
 WebUI.closeBrowser()
 

@@ -27,15 +27,15 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/b
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Daihatsu'))
+WebUI.switchToWindowTitle('PT Astra Auto Digital (Seva.id) | LinkedIn')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
+WebUI.click(findTestObject('Object Repository/Page_PT Astra Auto Digital (Seva.id)  LinkedIn/div_Login untuk melihat orang yang sudah An_c4371f'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
+WebUI.click(findTestObject('Page_PT Astra Auto Digital (Seva.id)  LinkedIn/h1_PT Astra Auto Digital (Seva.id)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_f888ac/span_Daihatsu'))
+WebUI.click(findTestObject('Page_PT Astra Auto Digital (Seva.id)  LinkedIn/p_PT Astra Auto Digital, a digital venture _4fc661'))
 
 WebUI.closeBrowser()
 

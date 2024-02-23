@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Nanti Saja</name>
+   <name>yt-formatted-string_SEVA by ASTRA</name>
    <tag></tag>
-   <elementGuidId>097b3138-0500-4531-b7c8-975831433d9a</elementGuidId>
+   <elementGuidId>f6fce332-3e48-4811-8098-3200400f0ca0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#moe-dontallow_button</value>
+         <value>#text</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='moe-dontallow_button']</value>
+         <value>//yt-formatted-string[@id='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>077a6fef-e218-4762-bf75-f8522c51907a</webElementGuid>
+      <value>yt-formatted-string</value>
+      <webElementGuid>49ce61d4-12e5-4174-82a4-4337b2166331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>moe-dontallow_button</value>
-      <webElementGuid>81c15524-2d43-4363-9393-7a31ef6c4e9d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-style</name>
-      <type>Main</type>
-      <value>{'color': webPushPreview['bannerv2']['web']['closeButton']['color'],'background':webPushPreview['bannerv2']['web']['closeButton']['backgroundColor']}</value>
-      <webElementGuid>3f6a8849-c0b1-4f2d-ad27-a1e7fb4164cd</webElementGuid>
+      <value>text</value>
+      <webElementGuid>654a66c0-674c-439d-a7a5-08137bd1db2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-binding</value>
-      <webElementGuid>7e2c3ea3-ef5e-414e-9913-c70605144c20</webElementGuid>
+      <value>style-scope ytd-channel-name</value>
+      <webElementGuid>a907cfe6-2e9c-465d-bf26-8a522ef42455</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nanti Saja</value>
-      <webElementGuid>155b1aa4-2880-4d67-b096-afc9a3643ef7</webElementGuid>
+      <value>SEVA by ASTRA</value>
+      <webElementGuid>d8bfdc2c-9c4d-4278-a3ec-f5cf36325c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;moe-dontallow_button&quot;)</value>
-      <webElementGuid>f3f22134-d9d7-447b-ae80-c60715118a43</webElementGuid>
+      <value>id(&quot;inner-header-container&quot;)/div[@id=&quot;meta&quot;]/ytd-channel-name[@id=&quot;channel-name&quot;]/div[@id=&quot;container&quot;]/div[@id=&quot;text-container&quot;]/yt-formatted-string[@id=&quot;text&quot;]</value>
+      <webElementGuid>b725884d-dc17-4fb6-9b38-6ba282134696</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='moe-dontallow_button']</value>
-      <webElementGuid>1b2cc765-4e22-4558-a5ba-60b989d020f1</webElementGuid>
+      <value>//yt-formatted-string[@id='text']</value>
+      <webElementGuid>c7fb6111-6384-4238-859e-17819d5bb3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='desktopBannerWrapped']/div/div[3]/div/button</value>
-      <webElementGuid>56455723-c1d3-442f-b84b-37366cd84ffe</webElementGuid>
+      <value>//div[@id='text-container']/yt-formatted-string</value>
+      <webElementGuid>7598081b-17b6-431b-a359-9de0986d42b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>f5027168-e99a-4337-86d1-bca8fd591e77</webElementGuid>
+      <value>//ytd-channel-name/div/div/yt-formatted-string</value>
+      <webElementGuid>3d4424db-8408-4014-83e2-65c8b0f3212e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'moe-dontallow_button' and (text() = 'Nanti Saja' or . = 'Nanti Saja')]</value>
-      <webElementGuid>a422eaf6-36c6-43b9-8c4b-5cdb01b56265</webElementGuid>
+      <value>//yt-formatted-string[@id = 'text' and (text() = 'SEVA by ASTRA' or . = 'SEVA by ASTRA')]</value>
+      <webElementGuid>9a160e33-561f-4009-898a-31fa8d6993b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
