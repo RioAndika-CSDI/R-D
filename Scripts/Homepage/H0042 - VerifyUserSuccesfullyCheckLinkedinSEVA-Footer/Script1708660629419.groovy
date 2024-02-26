@@ -35,7 +35,5 @@ WebUI.click(findTestObject('Object Repository/Page_PT Astra Auto Digital (Seva.i
 
 WebUI.click(findTestObject('Page_PT Astra Auto Digital (Seva.id)  LinkedIn/h1_PT Astra Auto Digital (Seva.id)'))
 
-WebUI.click(findTestObject('Page_PT Astra Auto Digital (Seva.id)  LinkedIn/p_PT Astra Auto Digital, a digital venture _4fc661'))
-
 WebUI.closeBrowser()
 
