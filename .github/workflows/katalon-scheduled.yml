@@ -1,0 +1,59 @@
+name: Katalon Scheduled
+on:
+  schedule:
+    ## UTC timezone
+    - cron: '2 23 * * 1-5'
+
+jobs:
+  katalon-test:
+    name: Run Katalon
+    if: ${{ github.ref_name == 'seva-2.0' }}
+    runs-on: self-hosted
+    steps:
+
+    - name: delete & recreate fresh workspace before checkout
+      if: always()
+      run: |
+        sudo rm -rf ${{ github.workspace }} && \
+        mkdir -p ${{ github.workspace }}
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: seva-2.0
+
+    - name: Run Katalon in Docker
+      uses: addnab/docker-run-action@v3
+      with:
+        image: katalonstudio/katalon
+        options: -v ${{ github.workspace }}:/work
+        run: |
+          katalonc.sh -projectPath=/work \
+            -noSplash \
+            -runMode=console \
+            -retry=0 \
+            -testSuiteCollectionPath="Test Suites/scheduled-collection" \
+            -browserType="Chrome" \
+            -executionProfile="default" \
+            -apiKey=${{ secrets.KATALON_API_KEY }} \
+            --config \
+            -proxy.auth.option=NO_PROXY \
+            -proxy.system.option=NO_PROXY \
+            -proxy.system.applyToDesiredCapabilities=true \
+            -licenseRelease=true \
+            -orgID=1396515 \
+            -testOpsProjectId=1371631
+
+    - name: Katalon Report Uploader
+      if: always()
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+        PASSWORD: ${{ secrets.KATALON_UPLOADER_KEY }}
+        PROJECT_ID: 1371631
+        TYPE: katalon
+        REPORT_PATH: Reports
+
+    # - name: delete workspace after run
+    #   if: always()
+    #   run: |
+    #     sudo rm -rf ${{ github.workspace }}
