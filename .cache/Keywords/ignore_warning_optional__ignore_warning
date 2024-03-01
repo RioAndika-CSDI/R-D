@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "41A7659C59184B75F170CC3936D95F3C",
+  "keywordFileContentHash": "7672413A476C596091DA78249418FAE9",
   "keywordClasses": [
     {
       "name": "ignore_warning_optional.ignore_warning",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyIgnoreWarning",
@@ -52,11 +51,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
