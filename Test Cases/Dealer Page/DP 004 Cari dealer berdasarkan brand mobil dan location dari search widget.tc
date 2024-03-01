@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DP 004 Cari dealer berdasarkan brand mobil dan location dari search widget</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1aa5e843-8c19-4b03-8cbf-97f3fd5bf7a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ffb7ccd-9f2a-4eca-84fa-593db0748cbf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>173b03ab-6745-469b-847b-f2446d1f6568</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yogyakarta'</defaultValue>
+      <description></description>
+      <id>2ffb7ccd-9f2a-4eca-84fa-593db0748cbf</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-baru/daihatsu/dealer/'</defaultValue>
+      <description></description>
+      <id>173b03ab-6745-469b-847b-f2446d1f6568</id>
+      <masked>false</masked>
+      <name>expected_URL</name>
+   </variable>
+</TestCaseEntity>

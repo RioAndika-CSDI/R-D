@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/main/div/footer/div/div/a[2]</value>
+         <value>//a[@data-testid='footer-syarat-ketentuan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6e157cb6-6dba-4f5a-ac7c-499dbd5ecc88</webElementGuid>
+      <webElementGuid>a7dd93f5-53df-4c2d-ba20-49c771c2042e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.seva.id/info/syarat-dan-ketentuan/</value>
-      <webElementGuid>13437cbb-1f9b-440e-9efd-56d3a6d3b48b</webElementGuid>
+      <webElementGuid>8a3802b1-93f5-420d-9496-e699e306e704</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noreferrer noopener</value>
-      <webElementGuid>2be05833-6e71-4e8e-916d-452005586df4</webElementGuid>
+      <webElementGuid>c8a08422-caf9-4fed-91a3-f9c1a9158848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>4f208bdc-8cff-4b7b-bc45-b669b216218f</webElementGuid>
+      <webElementGuid>6c46613f-4e24-4278-ac9c-b550aa459b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>footer-syarat-ketentuan</value>
-      <webElementGuid>4873d44a-631c-437b-8456-66d79b955532</webElementGuid>
+      <webElementGuid>0fac6a70-92de-496c-a4eb-e2ac8cc0dc91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Syarat &amp; Ketentuan</value>
-      <webElementGuid>70a76fd8-83b1-4ecc-85e1-289694049002</webElementGuid>
+      <webElementGuid>63caf0bb-42f2-4f39-a320-b836ded86e3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__S_qgQ&quot;]/a[2]</value>
-      <webElementGuid>0bae6e3a-a5bd-4f2d-9541-c9a636ae5235</webElementGuid>
+      <webElementGuid>c82c8997-fdc0-4d6c-96b3-855734cd3e23</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div/a[2]</value>
-      <webElementGuid>ef14c3d0-0a33-48aa-ab54-d7e451a0d831</webElementGuid>
+      <webElementGuid>fce17ba6-d7c0-498a-8fa3-4b880733f032</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Syarat &amp; Ketentuan')]</value>
-      <webElementGuid>e8596608-609f-4c85-b7d2-de471294a882</webElementGuid>
+      <webElementGuid>6996d654-d853-4a87-a77f-141fbed90073</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.seva.id/info/syarat-dan-ketentuan/')]</value>
-      <webElementGuid>194bdf63-a2b9-43b8-a1e9-68b005167c7e</webElementGuid>
+      <webElementGuid>5111b73b-eccf-477d-9190-e6d11d2f8122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>006610fc-01f3-4ab7-9364-20ee6297b2cf</webElementGuid>
+      <webElementGuid>878f31e1-8bbf-4d34-b465-ddf7e9d6a407</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://www.seva.id/info/syarat-dan-ketentuan/' and (text() = 'Syarat &amp; Ketentuan' or . = 'Syarat &amp; Ketentuan')]</value>
-      <webElementGuid>0eb41bd5-7e1d-4992-a146-b23aaf014409</webElementGuid>
+      <webElementGuid>2b160abb-1e80-485e-8777-d84dcea734ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Bandung CTA Dealer Mobil di kota besar</name>
+   <tag></tag>
+   <elementGuidId>af3ec7a5-6a23-4ac8-bee9-eafb00be683a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${city}' or . = '${city}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[5]/div/div/div[2]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swiper-slide.swiper-slide-next.dealerCarousel_previewSubImageWrapper__uvySu > div.dealerCarousel_cardWrapper__347X2 > h3.dealerCarousel_cardTitle__ArRvZ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>eb70abf7-3fcc-4747-af04-caf77e5227bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dealerCarousel_cardTitle__ArRvZ</value>
+      <webElementGuid>c9dde3c0-bde9-43db-9017-1ae83601d6f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${city}</value>
+      <webElementGuid>0a57ff29-ae48-4a72-a39c-0fea5a09bed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealerCarousel_wrapper__b0xu4&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode dealerCarousel_thumbsSwiper__N4IrZ&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-next dealerCarousel_previewSubImageWrapper__uvySu&quot;]/div[@class=&quot;dealerCarousel_cardWrapper__347X2&quot;]/h3[@class=&quot;dealerCarousel_cardTitle__ArRvZ&quot;]</value>
+      <webElementGuid>1cc92c34-9c55-4a0f-bdba-21b79c94e612</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[5]/div/div/div[2]/div/h3</value>
+      <webElementGuid>39ca5be7-93b0-4849-a6d9-e821da91b0b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandar Lampung'])[2]/following::h3[1]</value>
+      <webElementGuid>0fba719a-38c4-4116-b342-7d07ca292756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banjarmasin'])[2]/preceding::h3[1]</value>
+      <webElementGuid>0a612ecc-db25-4ade-9c7d-20b43b7902d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batam'])[2]/preceding::h3[2]</value>
+      <webElementGuid>dc7ff90a-596f-459a-8293-aa5297f1d66b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3</value>
+      <webElementGuid>c58ff17f-5728-4100-9e1d-e082d33d3993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Bandung' or . = 'Bandung')]</value>
+      <webElementGuid>d4ec73ca-cb05-428c-b4ee-77e2fc419be7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Platform pencarian mobil baru dari ber_f9e583</name>
+   <tag></tag>
+   <elementGuidId>8420cc40-9e22-45ae-a720-5c51ee94429f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.x2b8uid.x80vd3b.x1q0q8m5.xso031l.x1l90r2v > span.x193iq5w.xeuugli.x13faqbe.x1vvkbs.xlh3980.xvmahel.x1n0sxbx.x1lliihq.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x4zkp8e.x3x7a5m.x6prxxf.xvq8zen.xo1l8bm.xzsf02u</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mount_0_0_0O']/div/div/div/div[3]/div/div/div/div/div/div/div[4]/div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2d88c5f5-0546-4781-a188-18ad775f276a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u</value>
+      <webElementGuid>3315c682-b161-44cf-9204-e73de8dd1cd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>ba2bf11a-5485-4d6a-bb56-41189fbc5b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Platform pencarian mobil baru dari beragam brand Astra yang menyesuaikan dengan kemampuan finansialmu</value>
+      <webElementGuid>473841ab-19b3-47ea-9cbd-ba9bc8bcd5a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount_0_0_0O&quot;)/div[1]/div[1]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1n2onr6 xat3117 xxzkxad&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1t2pt76 x1n2onr6 x1ja2u2z x10cihs4&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1t2pt76&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1iyjqo2 x1t2pt76 xeuugli&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1t2pt76 x1n2onr6&quot;]/div[@class=&quot;x6s0dn4 x78zum5 xdt5ytf x193iq5w&quot;]/div[@class=&quot;x9f619 x193iq5w x1talbiv x1swvt13 x1pi30zi xw7yly9&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x2lah0s x1qjc9v5 x78zum5 x1q0g3np x1a02dak xl56j7k x9otpla x1n0m28w x1wsgfga xp7jhwk&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z xeuugli x1iyjqo2 xs83m0k x1xmf6yo x1emribx x1e56ztr x1i64zmx xjl7jj xnp8db0 x65f84u x1xzczws&quot;]/div[@class=&quot;x7wzq59&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;x1yztbdb&quot;]/div[@class=&quot;x78zum5 x1n2onr6 xh8yej3&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x2bj2ny x1qpq9i9 xdney7k xu5ydu1 xt3gfkd xh8yej3 x6ikm8r x10wlt62 xquyuld&quot;]/div[@class=&quot;xieb3on&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x78zum5 x2lah0s x1qughib x1qjc9v5 xozqiw3 x1q0g3np x1pi30zi x1swvt13 xyamay9 xykv574 xbmpl8g x4cne27 xifccgj&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x193iq5w xeuugli x1r8uery x1iyjqo2 xs83m0k xsyo7zv x16hj40l x10b6aqq x1yrsyyn&quot;]/div[@class=&quot;x2b8uid x80vd3b x1q0q8m5 xso031l x1l90r2v&quot;]/span[@class=&quot;x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u&quot;]</value>
+      <webElementGuid>80b1282f-0b0e-472d-b7c8-6a0c315f5c83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount_0_0_0O']/div/div/div/div[3]/div/div/div/div/div/div/div[4]/div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/span</value>
+      <webElementGuid>50ea483b-253e-49a8-a7cf-baa551f62832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]/div/div/div/span</value>
+      <webElementGuid>4b54426f-e501-4db4-9adc-191b8d1848ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Platform pencarian mobil baru dari beragam brand Astra yang menyesuaikan dengan kemampuan finansialmu' or . = 'Platform pencarian mobil baru dari beragam brand Astra yang menyesuaikan dengan kemampuan finansialmu')]</value>
+      <webElementGuid>2ba4c1b1-2946-4718-9165-219ec292ccf5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

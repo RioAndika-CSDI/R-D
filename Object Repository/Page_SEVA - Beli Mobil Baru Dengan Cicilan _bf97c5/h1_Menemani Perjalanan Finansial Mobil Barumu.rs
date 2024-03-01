@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>84e57817-1a3a-43eb-b8de-f84796e5cb45</webElementGuid>
+      <webElementGuid>8229ccb8-57cf-4fc4-a868-38d30a2e3120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI</value>
-      <webElementGuid>6fd1ad5b-9236-4d6f-bc2e-3bca58e9d28b</webElementGuid>
+      <webElementGuid>93f9385d-4ca0-4e4a-bbfe-570179652137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menemani Perjalanan Finansial Mobil Barumu</value>
-      <webElementGuid>d837e22b-e3d7-479a-8483-520d1eb05d9b</webElementGuid>
+      <webElementGuid>f6537395-029f-45d4-923c-a1bc7f478832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]</value>
-      <webElementGuid>c3872aba-342b-4e77-be08-a6db01636d0c</webElementGuid>
+      <webElementGuid>05476c6f-d877-4f89-a464-82d7a5ff547c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/div[2]/h1</value>
-      <webElementGuid>e11c8551-69fa-48fd-ac49-9eb6365ace1c</webElementGuid>
+      <webElementGuid>35cf729f-11ae-46fa-bea8-de53cce89c43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>08ca962d-1f2d-4a91-8f85-e2f78e6c9513</webElementGuid>
+      <webElementGuid>eee2fd90-108c-437e-ab19-1b47c19579df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Menemani Perjalanan Finansial Mobil Barumu' or . = 'Menemani Perjalanan Finansial Mobil Barumu')]</value>
-      <webElementGuid>e87e70ea-16bf-4e6a-b483-47296a584cc9</webElementGuid>
+      <webElementGuid>be724508-0651-4029-9737-12067fc93fe6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
