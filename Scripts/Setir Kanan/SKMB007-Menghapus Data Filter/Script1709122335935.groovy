@@ -20,8 +20,8 @@ import org.openqa.selenium.Keys as Keys
 if (open_browser.toString().equals('1')) {
     WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
             , ('url_skmb001') : url_skmb001_Filter, ('brand') : brand_Filter, ('tahun') : tahun_Filter, ('transmisi') : transmisi_Filter
-            , ('plat') : plat_Filter, ('lokasi') : lokasi_Filter, ('kilometer') : kilometer_Filter, ('harga') : harga_Filter], 
-        FailureHandling.STOP_ON_FAILURE)
+            , ('plat') : plat_Filter, ('lokasi') : lokasi_Filter, ('kilometer') : kilometer_Filter, ('harga') : harga_Filter
+            , ('screen') : screen], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
 

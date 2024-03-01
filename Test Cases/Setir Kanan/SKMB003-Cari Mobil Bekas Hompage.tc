@@ -39,6 +39,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>1e896ca0-9bf9-4429-80fd-a18e8bbf1512</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>f95af7d0-1bdf-4bc7-a11d-91a9befe535b</variableId>
    </variableLinks>
    <variableLinks>
@@ -81,6 +87,13 @@
       <id>c9db9d08-39fb-4067-a72b-af3877c07693</id>
       <masked>false</masked>
       <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e896ca0-9bf9-4429-80fd-a18e8bbf1512</id>
+      <masked>false</masked>
+      <name>screen</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>

@@ -71,6 +71,12 @@
       <value></value>
       <variableId>2648c6e1-dc27-4a7f-b972-9a9d8a391699</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e5513d3-8595-406a-a00e-129dc3d839c4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
@@ -147,5 +153,12 @@
       <id>2648c6e1-dc27-4a7f-b972-9a9d8a391699</id>
       <masked>false</masked>
       <name>navigateFilter_tambahan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e5513d3-8595-406a-a00e-129dc3d839c4</id>
+      <masked>false</masked>
+      <name>screen</name>
    </variable>
 </TestCaseEntity>

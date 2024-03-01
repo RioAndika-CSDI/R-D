@@ -18,8 +18,6 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
-import internal.GlobalVariable
-
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
@@ -44,10 +42,10 @@ class ignore_warning {
 	def clickIgnoreWarning(TestObject obj) {
 		WebUI.click(obj, FailureHandling.OPTIONAL)
 	}
-	
+
 	@Keyword
 	def verifyIgnoreWarning(TestObject obj, int timeout) {
-		   boolean cek= WebUI.verifyElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
-		   return cek;
+		boolean cek= WebUI.verifyElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
+		return cek;
 	}
 }

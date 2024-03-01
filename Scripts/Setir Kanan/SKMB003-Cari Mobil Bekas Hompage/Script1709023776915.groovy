@@ -182,7 +182,23 @@ for (int i = 0; i < filter.length; i++) {
 }
 
 if (close_browser.toString().equals('1')) {
-	
+    boolean cek_card = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Card_Card Mobil 1st'), 
+        1)
+
+    if (cek_card == true) {
+        WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Card_Card Mobil 1st'), 0)
+
+        WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/label_Tidak ada Mobil Ditemukan'), 0)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/label_Tidak ada Mobil Ditemukan'), 1)
+
+        WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Card_Card Mobil 1st'), 0)
+    }
+    
+    WebUI.scrollToPosition(0, 0)
+
+    WebUI.takeScreenshotAsCheckpoint('cekdata'+screen.toString())
+
     WebUI.closeBrowser()
 }
 

@@ -87,6 +87,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>d6989e4d-a44a-45e9-b32c-fc72b8fcada7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>7caceaaa-b673-4b69-aa50-d8752f064f6c</variableId>
    </variableLinks>
    <variableLinks>
@@ -185,6 +191,13 @@
       <id>1ba34b13-2b55-46b3-92aa-f3a5b3efad11</id>
       <masked>false</masked>
       <name>harga_Filter</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6989e4d-a44a-45e9-b32c-fc72b8fcada7</id>
+      <masked>false</masked>
+      <name>screen</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
