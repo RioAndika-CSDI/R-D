@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Data Pribadi dapat Anda berikan secara la_615636</name>
+   <tag></tag>
+   <elementGuidId>123b56f5-02b5-4357-b7e5-12614b553d5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7ac75af2-772b-41b8-9743-dd89dbd4e7ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Data Pribadi dapat Anda berikan secara langsung pada saat Anda mendaftarkan diri dalam Aplikasi Kami maupun pada saat menggunakan layanan. Data Transaksi diperoleh setiap saat Anda menggunakan layanan yang tersedia dalam Aplikasi.</value>
+      <webElementGuid>d20ac3db-0f90-4fd3-93c0-f1a58740a8ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[4]</value>
+      <webElementGuid>46beace0-74a6-4a23-9be1-d452a2ae33f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[4]</value>
+      <webElementGuid>174136cf-5bc0-4a0d-957b-9c8336b66f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Data Pribadi dapat Anda berikan secara langsung pada saat Anda mendaftarkan diri dalam Aplikasi Kami maupun pada saat menggunakan layanan. Data Transaksi diperoleh setiap saat Anda menggunakan layanan yang tersedia dalam Aplikasi.' or . = 'Data Pribadi dapat Anda berikan secara langsung pada saat Anda mendaftarkan diri dalam Aplikasi Kami maupun pada saat menggunakan layanan. Data Transaksi diperoleh setiap saat Anda menggunakan layanan yang tersedia dalam Aplikasi.')]</value>
+      <webElementGuid>1a9dba5d-ba78-4cf9-b260-173048290c58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

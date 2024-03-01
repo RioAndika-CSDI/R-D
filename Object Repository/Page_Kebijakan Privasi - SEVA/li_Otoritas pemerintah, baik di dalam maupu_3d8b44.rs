@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Otoritas pemerintah, baik di dalam maupu_3d8b44</name>
+   <tag></tag>
+   <elementGuidId>4712b959-b424-4d38-93ea-cb5d2a4881d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/ul/li[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>b3ecac1a-6e2f-4d3e-b9d2-0937f041dba9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Otoritas pemerintah, baik di dalam maupun di luar yurisdiksi negara Republik Indonesia sesuai peraturan perundang-undangan yang berlaku atau jika secara hukum Kami harus melakukannya; dan/atau</value>
+      <webElementGuid>b86ff47f-f810-4e21-a0b7-27462050f2b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/ul[1]/li[7]</value>
+      <webElementGuid>f4cf9929-5ab8-46e3-bfe9-fd4f73c068ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li[7]</value>
+      <webElementGuid>78865d70-60aa-4697-a06e-815a53796678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Otoritas pemerintah, baik di dalam maupun di luar yurisdiksi negara Republik Indonesia sesuai peraturan perundang-undangan yang berlaku atau jika secara hukum Kami harus melakukannya; dan/atau' or . = 'Otoritas pemerintah, baik di dalam maupun di luar yurisdiksi negara Republik Indonesia sesuai peraturan perundang-undangan yang berlaku atau jika secara hukum Kami harus melakukannya; dan/atau')]</value>
+      <webElementGuid>2c878123-04a8-401a-9c89-2bce11770525</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

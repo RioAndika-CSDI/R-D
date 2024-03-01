@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Berikut rekomendasi mobil sesuai hasil_d24b68</name>
+   <tag></tag>
+   <elementGuidId>52b3d79d-433e-40ca-bffc-c03f0d0c5d51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.multi-kk-result_info__3gQrY</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>31ee7484-c3f9-4920-9b0d-1c92ce189198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multi-kk-result_info__3gQrY</value>
+      <webElementGuid>0fd4c496-69c4-432d-a5d4-51a6892e6460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Berikut rekomendasi mobil sesuai hasil kualifikasi kreditmu. Pelajari Lebih Lanjut</value>
+      <webElementGuid>a02bc054-b43f-48dd-bf67-8c9622bc818c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;undefined multi-kk-result_container__ngwEQ&quot;]/div[@class=&quot;multi-kk-result_titleWrapper__2CQ2a&quot;]/span[@class=&quot;multi-kk-result_info__3gQrY&quot;]</value>
+      <webElementGuid>78cd5994-835b-4ace-bec3-b701e1b02010</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/span</value>
+      <webElementGuid>46959f0e-24bc-4c2a-8172-84747df26c41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>53ccfba6-9f55-4fe8-842b-e5d0f294ef8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Berikut rekomendasi mobil sesuai hasil kualifikasi kreditmu. Pelajari Lebih Lanjut' or . = 'Berikut rekomendasi mobil sesuai hasil kualifikasi kreditmu. Pelajari Lebih Lanjut')]</value>
+      <webElementGuid>364f6020-b779-41d0-ab35-38541c542917</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

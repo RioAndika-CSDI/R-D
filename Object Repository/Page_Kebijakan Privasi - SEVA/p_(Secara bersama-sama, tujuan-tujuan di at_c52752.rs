@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_(Secara bersama-sama, tujuan-tujuan di at_c52752</name>
+   <tag></tag>
+   <elementGuidId>e8fa419c-30ea-4c45-be08-ef6527747acf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(7)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>2200787d-5f77-4ba5-bfe1-7781b8e286ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(Secara bersama-sama, tujuan-tujuan di atas merupakan “Tujuan“).</value>
+      <webElementGuid>6a7dac49-e55b-4533-9ae1-5d5ae5620783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[7]</value>
+      <webElementGuid>e50da233-e7d8-484d-bb00-36632d175306</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[7]</value>
+      <webElementGuid>cbab437d-11ee-4e46-bf65-63ad315a8636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '(Secara bersama-sama, tujuan-tujuan di atas merupakan “Tujuan“).' or . = '(Secara bersama-sama, tujuan-tujuan di atas merupakan “Tujuan“).')]</value>
+      <webElementGuid>e27e42d1-1ad5-4730-9e76-c54d9cbdfb65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

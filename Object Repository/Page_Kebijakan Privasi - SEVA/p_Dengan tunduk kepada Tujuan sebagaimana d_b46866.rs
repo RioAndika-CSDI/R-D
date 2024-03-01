@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Dengan tunduk kepada Tujuan sebagaimana d_b46866</name>
+   <tag></tag>
+   <elementGuidId>31ff2098-e70a-43bd-b453-ca9bc462e122</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(9)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8b28c488-a306-4cb4-9721-28240d4d3109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dengan tunduk kepada Tujuan sebagaimana disebutkan di atas, Anda dengan ini memberikan persetujuan secara tegas kepada Kami untuk mengungkapkan Data Pribadi dan/atau Data Transaksi kepada pihak ketiga dengan ketentuan di bawah ini:</value>
+      <webElementGuid>fccb56f0-be2e-46ae-9fc8-cd28e5720568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[9]</value>
+      <webElementGuid>3e418705-cf71-4919-9cbd-f6b286b1fe8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[9]</value>
+      <webElementGuid>c3df5cf1-33e2-40b6-a779-ab456dfa767d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Dengan tunduk kepada Tujuan sebagaimana disebutkan di atas, Anda dengan ini memberikan persetujuan secara tegas kepada Kami untuk mengungkapkan Data Pribadi dan/atau Data Transaksi kepada pihak ketiga dengan ketentuan di bawah ini:' or . = 'Dengan tunduk kepada Tujuan sebagaimana disebutkan di atas, Anda dengan ini memberikan persetujuan secara tegas kepada Kami untuk mengungkapkan Data Pribadi dan/atau Data Transaksi kepada pihak ketiga dengan ketentuan di bawah ini:')]</value>
+      <webElementGuid>a8d540c7-db19-4078-8d80-dd2941aeef2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

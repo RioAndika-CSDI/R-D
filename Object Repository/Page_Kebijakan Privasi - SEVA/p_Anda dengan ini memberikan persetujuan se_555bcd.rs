@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Anda dengan ini memberikan persetujuan se_555bcd</name>
+   <tag></tag>
+   <elementGuidId>87d28e06-4969-4a24-ae1a-b36cf9a1c3a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(11)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>521bb39e-dabc-4042-b84d-92d43b8ef87c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Anda dengan ini memberikan persetujuan secara tegas kepada Kami bahwa Kami dapat mengirimkan, menyimpan, menggunakan dan mengolah Data Pribadi dan/atau Data Transaksi Anda pada server yang terletak di pusat data yang ditunjuk oleh Kami. Pusat data tersebut dapat dikelola oleh pihak ketiga sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Meskipun demikian, Pemanfaatan Data Pribadi dan/atau Data Transaksi Anda sehubungan dengan penggunaan Aplikasi akan terus diatur oleh Kebijakan Privasi ini sesuai dengan peraturan perundangan-undangan yang berlaku.</value>
+      <webElementGuid>f6aa7ec8-1e36-4271-b2c1-8baaa9a16fc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[11]</value>
+      <webElementGuid>14b232ad-63ab-40a2-beae-b3ac4ea9d0fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[11]</value>
+      <webElementGuid>8e964ff8-8f61-48b0-85d4-10c3b053bd77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Anda dengan ini memberikan persetujuan secara tegas kepada Kami bahwa Kami dapat mengirimkan, menyimpan, menggunakan dan mengolah Data Pribadi dan/atau Data Transaksi Anda pada server yang terletak di pusat data yang ditunjuk oleh Kami. Pusat data tersebut dapat dikelola oleh pihak ketiga sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Meskipun demikian, Pemanfaatan Data Pribadi dan/atau Data Transaksi Anda sehubungan dengan penggunaan Aplikasi akan terus diatur oleh Kebijakan Privasi ini sesuai dengan peraturan perundangan-undangan yang berlaku.' or . = 'Anda dengan ini memberikan persetujuan secara tegas kepada Kami bahwa Kami dapat mengirimkan, menyimpan, menggunakan dan mengolah Data Pribadi dan/atau Data Transaksi Anda pada server yang terletak di pusat data yang ditunjuk oleh Kami. Pusat data tersebut dapat dikelola oleh pihak ketiga sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Meskipun demikian, Pemanfaatan Data Pribadi dan/atau Data Transaksi Anda sehubungan dengan penggunaan Aplikasi akan terus diatur oleh Kebijakan Privasi ini sesuai dengan peraturan perundangan-undangan yang berlaku.')]</value>
+      <webElementGuid>b31b787b-ad05-4dc7-8c37-32f54f1ac880</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

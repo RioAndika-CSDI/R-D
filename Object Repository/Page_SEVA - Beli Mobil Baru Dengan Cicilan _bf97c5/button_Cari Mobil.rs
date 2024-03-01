@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cari Mobil</name>
+   <tag></tag>
+   <elementGuidId>33f728d4-c018-426f-9ed0-ea2327c22902</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>234bf315-5d0a-4fb5-86b5-d3639d72cf1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_menu__kP4wZ </value>
+      <webElementGuid>54f6ec63-799a-463e-a05c-96ef9fd38a67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cari Mobil</value>
+      <webElementGuid>c7ffaf4e-35b3-4618-9e19-4b38a4bbfd58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_parentMenu__Uk83D&quot;]/button[@class=&quot;menuItem_menu__kP4wZ&quot;]</value>
+      <webElementGuid>953ce14e-23bc-4efe-8a16-b1c49d48df2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[2]/button</value>
+      <webElementGuid>e02fb678-fa90-4ec4-b425-ccf0df013395</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>902c9964-f337-41a6-b659-582720443462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cari Mobil' or . = 'Cari Mobil')]</value>
+      <webElementGuid>2a683233-4cd5-4128-8677-f5d722ab79d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

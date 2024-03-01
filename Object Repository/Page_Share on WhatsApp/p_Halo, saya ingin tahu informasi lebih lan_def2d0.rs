@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Halo, saya ingin tahu informasi lebih lan_def2d0</name>
+   <tag></tag>
+   <elementGuidId>c668aad3-1041-4ecc-b51e-806598ba101b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p._9vd5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main_block']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>635692b1-aac0-4aff-baf8-f18e65a80d4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_9vd5</value>
+      <webElementGuid>44bbe072-0d56-43bc-8262-27afd49b2761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.</value>
+      <webElementGuid>d5b8cdfe-ab24-438a-8879-faa27118772e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_block&quot;)/p[@class=&quot;_9vd5&quot;]</value>
+      <webElementGuid>c5109378-9327-4567-92ce-d80d1b346b3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main_block']/p</value>
+      <webElementGuid>4e351a4b-f130-4eff-bb22-1fd21ed710af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>24d1fb45-59e8-4de3-8639-c89a77b80c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.' or . = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.')]</value>
+      <webElementGuid>b0e53413-f25d-408f-b4fd-f8195ab2dbfc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

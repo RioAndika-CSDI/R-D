@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_SEVA Instagram Icon</name>
+   <tag></tag>
+   <elementGuidId>c250385a-b475-4252-b453-6db6e5baad89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_socialWrapper__UDqS9 > a > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//svg[(text() = 'SEVA Instagram Icon' or . = 'SEVA Instagram Icon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>e889608b-45d1-4bef-a048-e28d7f04f476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>cf3a6033-e26b-48a8-8ede-4bbde1f7c5b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>36285735-2d5d-47ad-b6e1-8f75eb15a7b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>c402d7d0-28b6-47f2-b56b-75d7f29f2379</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>b0e77876-e3af-4017-9aff-3ae48f85abd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>7dcb2440-5f28-4869-ae7f-d83682180d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA Instagram Icon</value>
+      <webElementGuid>d0dc68c3-f68d-4ef6-b662-833147e269af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_socialWrapper__UDqS9&quot;]/a[1]/svg[1]</value>
+      <webElementGuid>d3d1ebf2-2f58-4cce-9bff-2c6262e548d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'SEVA Instagram Icon' or . = 'SEVA Instagram Icon')]</value>
+      <webElementGuid>9af851c8-bc4c-489e-a2ac-8fca33f2f616</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

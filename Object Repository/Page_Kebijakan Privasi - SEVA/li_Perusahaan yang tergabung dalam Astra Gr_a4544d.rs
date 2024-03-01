@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Perusahaan yang tergabung dalam Astra Gr_a4544d</name>
+   <tag></tag>
+   <elementGuidId>747145dc-a492-4551-85fa-1563c37ac45c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/ul/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0df488b3-8e6f-444e-bcca-a58021252f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Perusahaan yang tergabung dalam Astra Group sesuai dengan kebutuhannya;</value>
+      <webElementGuid>e41f1796-7b98-44af-b35c-323e0a0f15d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>b0af4de0-c4ef-4e54-a412-551c7fe34bae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li[2]</value>
+      <webElementGuid>017b27bb-94e7-405b-9bde-2c8410c31129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Perusahaan yang tergabung dalam Astra Group sesuai dengan kebutuhannya;' or . = 'Perusahaan yang tergabung dalam Astra Group sesuai dengan kebutuhannya;')]</value>
+      <webElementGuid>22adbb54-1bfd-4e32-a836-f0d53af22707</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

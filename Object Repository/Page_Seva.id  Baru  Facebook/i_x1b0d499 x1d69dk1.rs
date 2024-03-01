@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_x1b0d499 x1d69dk1</name>
+   <tag></tag>
+   <elementGuidId>d3ef4899-ec53-4d0d-b832-5af1390799fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.x1i10hfl.x1ejq31n.xd10rxx.x1sy0etr.x17r0tee.x1ypdohk.xe8uvvx.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.x16tdsg8.x1hl2dhg.xggy1nq.x87ps6o.x1lku1pv.x1a2a7pz.x6s0dn4.x14yjl9h.xudhj91.x18nykt9.xww2gxu.x972fbf.xcfux6l.x1qhh985.xm0m39n.x9f619.x78zum5.xl56j7k.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x1n2onr6.xc9qbxq.x14qfxbe.x1qhmfi1 > i.x1b0d499.x1d69dk1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@aria-label='Close']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1f2ccd80-25b3-4173-83ce-6a5f9ac84c19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-visualcompletion</name>
+      <type>Main</type>
+      <value>css-img</value>
+      <webElementGuid>84d8049e-0824-401c-98be-ac6f1dfe21c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x1b0d499 x1d69dk1</value>
+      <webElementGuid>6a07ff8c-350e-45ef-841d-bee79c1c88db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount_0_0_uM&quot;)/div[1]/div[1]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[5]/div[1]/div[@class=&quot;__fb-light-mode x1n2onr6 xzkaem6&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x78zum5 xdt5ytf xg6iff7 x1n2onr6&quot;]/div[@class=&quot;x1uvtmcs x4k7w5x x1h91t0o x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1n2onr6 x1qrby5j x1jfb8zj&quot;]/div[@class=&quot;__fb-light-mode x1qjc9v5 x9f619 x78zum5 xdt5ytf xl56j7k x1c4vz4f xg6iff7&quot;]/div[@class=&quot;x1cy8zhl x9f619 x78zum5 xl56j7k x2lwn1j xeuugli x47corl xurb0ha x1sxyh0 x1x97wu9 xbr3nou x3v4vwv x1dzdb2q&quot;]/div[@class=&quot;x1n2onr6 x1ja2u2z x1afcbsf x78zum5 xdt5ytf x1a2a7pz x6ikm8r x10wlt62 x71s49j x1jx94hy x1qpq9i9 xdney7k xu5ydu1 xt3gfkd x104qc98 x1g2kw80 x16n5opg xl7ujzl xhkep3z x193iq5w&quot;]/div[@class=&quot;x92rtbv x10l6tqk x1tk7jg1 x1vjfegm&quot;]/div[@class=&quot;x1i10hfl x1ejq31n xd10rxx x1sy0etr x17r0tee x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x16tdsg8 x1hl2dhg xggy1nq x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x14yjl9h xudhj91 x18nykt9 xww2gxu x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xl56j7k xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 xc9qbxq x14qfxbe x1qhmfi1&quot;]/i[@class=&quot;x1b0d499 x1d69dk1&quot;]</value>
+      <webElementGuid>adbcf2f9-975e-4ffc-90e8-1a11009c759a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount_0_0_uM']/div/div/div/div[5]/div/div/div/div/div[2]/div/div/div/div/div/i</value>
+      <webElementGuid>8705260c-1b89-46d3-aac1-519bc1c99b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div[2]/div/div/div/div/div/i</value>
+      <webElementGuid>5ed741ed-faad-4da7-a007-6269d5f27dd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
