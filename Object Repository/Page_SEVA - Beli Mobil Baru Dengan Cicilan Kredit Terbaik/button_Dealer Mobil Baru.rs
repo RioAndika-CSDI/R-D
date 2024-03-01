@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Dealer Mobil Baru</name>
+   <tag></tag>
+   <elementGuidId>4f0bd583-af1d-43d0-a2cd-001166a87940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0b095722-45dd-4eff-9666-9f74b4dfa9f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_submenu__aUQMo</value>
+      <webElementGuid>b7472d8b-fd2d-4aad-a966-859866e948cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dealer Mobil Baru</value>
+      <webElementGuid>27d2f4d7-9602-478a-81d7-8e0b3a7d8e67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_submenuContainer___v45s menuItem_slideDown__F3X0t&quot;]/button[@class=&quot;menuItem_submenu__aUQMo&quot;]</value>
+      <webElementGuid>f0a95aa0-1af6-4800-89e9-ef9f2b4562b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>f40df4aa-5d89-47d3-93e2-2aba6cdc5a1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/following::button[1]</value>
+      <webElementGuid>aa104e89-4345-42cf-84b3-890040969b02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Mobil'])[1]/following::button[2]</value>
+      <webElementGuid>4e2ec6be-a62f-4c62-a434-51352fdbbf98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[1]/preceding::button[1]</value>
+      <webElementGuid>c639a896-a997-4f0c-8ce7-b89a605b6e65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fasilitas Dana'])[1]/preceding::button[2]</value>
+      <webElementGuid>d1e42b34-b5f6-4983-b1a9-6c7e255c84d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dealer Mobil Baru']/parent::*</value>
+      <webElementGuid>b30c6989-bf11-4ddb-8f2d-132ca02bbe77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>2647b084-e45c-4620-ac8f-53fd808c474a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Dealer Mobil Baru' or . = 'Dealer Mobil Baru')]</value>
+      <webElementGuid>720b2560-204e-48b3-9cf4-5b4135251efc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

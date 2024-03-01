@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>dp003caridealerberdasarkantabdealermobilberdasarkanmerek</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5143b33c-9a27-4982-b9e4-d720f1c22a75</testSuiteGuid>
+   <testCaseLink>
+      <guid>c491e255-20e4-42fa-98be-04800b710fff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1e3aa01-80e2-461f-8880-97a8a440287b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18542424-0181-499f-9ae5-b12c47b90ca8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b99e3032-bae8-4d5f-8b48-a0d0ee52545f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>29df8c99-0081-4de6-859a-7638f4aa2e2c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

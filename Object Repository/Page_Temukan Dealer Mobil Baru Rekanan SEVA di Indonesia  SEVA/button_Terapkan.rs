@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Terapkan</name>
+   <tag></tag>
+   <elementGuidId>bb273503-bc33-433b-8909-bb2fa0aa35ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Terapkan' or . = 'Terapkan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gridOptionWidget_actionButtonWrapper__dyAlB > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>19b92dcb-4191-4ee8-8cbb-36de2443f250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
+      <webElementGuid>ae0185fb-6995-48b2-9da9-5ba7c59ed17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-terapkan</value>
+      <webElementGuid>d2ba6188-34d3-41ce-8a16-8a7c3965679c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terapkan</value>
+      <webElementGuid>168a4b13-a694-492b-b8b6-9ebe66f41c11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCarFilter_container__T1_HX&quot;]/div[@class=&quot;gridOptionWidget_actionButtonWrapper__dyAlB&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
+      <webElementGuid>f4857ba0-0593-44c7-99b2-3ad3e8bbfe6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
+      <webElementGuid>c460a60f-a67d-425a-a579-805b8a834e82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terapkan']/parent::*</value>
+      <webElementGuid>226454f2-cb49-4ab2-bfd7-e9c71f0957a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]</value>
+      <webElementGuid>d3181c10-cfad-47ea-8b66-58d235f470fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Terapkan' or . = 'Terapkan')]</value>
+      <webElementGuid>d03c9d68-2b22-4396-8ca2-c572e2fbb453</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

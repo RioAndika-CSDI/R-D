@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/main/div/footer/div/div/a[4]</value>
+         <value>//a[@data-testid='footer-hubungi-kami']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>92cd9757-97c4-4f2d-8e53-46209f144eb4</webElementGuid>
+      <webElementGuid>be777af5-3ff4-4074-834c-bca5ef9a4b2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.</value>
-      <webElementGuid>ff950b6f-aa70-4134-b804-c874a0e5f4a8</webElementGuid>
+      <webElementGuid>457212ea-1892-4928-a606-ec50182045a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noreferrer noopener</value>
-      <webElementGuid>ba6ee01d-389c-4f50-a436-925e9e28440c</webElementGuid>
+      <webElementGuid>7f60caf4-3850-481c-9e46-4446235cc88b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>9057c280-7efd-40ac-b760-2a23903f3320</webElementGuid>
+      <webElementGuid>9205aeed-d045-4640-bb6f-9b5f0f2b2419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>footer-hubungi-kami</value>
-      <webElementGuid>61dcc591-f3f9-4199-b6dc-82a3387bf2a8</webElementGuid>
+      <webElementGuid>5dd86b76-3406-4ac6-9b06-a83a9e8e9a14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hubungi Kami</value>
-      <webElementGuid>0eb01e37-bf20-41b6-bfb8-8b09c4ef55d0</webElementGuid>
+      <webElementGuid>38630292-6341-4a0b-ba77-8f0ccf589538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__S_qgQ&quot;]/a[4]</value>
-      <webElementGuid>4fdee5eb-2ce5-44ab-828d-1c4c58ef64c8</webElementGuid>
+      <webElementGuid>eff18d3c-6d12-493f-a1e1-c2df2be5a65e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div/a[4]</value>
-      <webElementGuid>cd6d8c87-5918-41a6-bd9e-a5b5c4b4cf7b</webElementGuid>
+      <webElementGuid>8e9807c9-db1c-465b-a07c-680b84909f0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Hubungi Kami')]</value>
-      <webElementGuid>defdf770-3e7e-4a58-ad7d-83b2808aae64</webElementGuid>
+      <webElementGuid>737c4d2b-e296-4100-82f5-3a96b4e07dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.')]</value>
-      <webElementGuid>2e66dc41-1e8a-4ce9-8b51-433e3c5004eb</webElementGuid>
+      <webElementGuid>8f1ffad8-9ca9-4110-b8cb-f5b8e4c633a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>7ebf0154-57fc-41fe-ab3f-0354a963e659</webElementGuid>
+      <webElementGuid>37e9b53d-eb29-4381-b3b6-5f6968d501cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.' and (text() = 'Hubungi Kami' or . = 'Hubungi Kami')]</value>
-      <webElementGuid>c55ee26d-2c9c-4a88-a3e7-4bdeee99642f</webElementGuid>
+      <webElementGuid>a8be1f3e-1042-4890-a8f7-5fddd67fb6d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
