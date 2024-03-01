@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lihat Rekomendasi Mobil</name>
+   <tag></tag>
+   <elementGuidId>1781f564-88e1-458e-9982-784917fdda2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4d540738-d2f6-432c-8420-76088adb1e4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
+      <webElementGuid>46ae5242-38cf-44ac-98f7-8b0e823eccb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Rekomendasi Mobil</value>
+      <webElementGuid>0f5c5160-c658-4e92-b17a-b41e33747c27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
+      <webElementGuid>6587a8fc-f320-4d07-8148-d2616e44c8e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/button</value>
+      <webElementGuid>81b1bb65-d13d-4e42-8914-144439dc572c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[3]/button</value>
+      <webElementGuid>cfd14a6c-389c-4065-abf2-4f03c2a22a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Lihat Rekomendasi Mobil' or . = 'Lihat Rekomendasi Mobil')]</value>
+      <webElementGuid>6010486d-bfeb-4b73-ac14-5b71e7d49120</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

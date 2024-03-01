@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_APPLY FILTER</name>
+   <tag></tag>
+   <elementGuidId>fb52bb45-a90a-4ee5-9b8c-b4a7ad7d20ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div[2]/div/div[2]/ul/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dbd56e47-0f9c-4616-be34-1cb4d3e236f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select-none text-sm font-semibold cursor-pointer text-primary-600 hover:text-primary-800</value>
+      <webElementGuid>8fa5a820-38c2-48f2-b8b2-7062fe43d3b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>APPLY FILTER</value>
+      <webElementGuid>39f3be6d-08fa-4150-9e56-53f43e664391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col items-start gap-2 lg:flex-row&quot;]/div[@class=&quot;relative col-span-2 flex flex-col items-end&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 left-0&quot;]/div[@class=&quot;mt-4 flex justify-between gap-1 px-2&quot;]/span[@class=&quot;select-none text-sm font-semibold cursor-pointer text-primary-600 hover:text-primary-800&quot;]</value>
+      <webElementGuid>de84cee1-ca43-4a8c-8a1e-8924c4bfcc31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div[2]/div/div[2]/ul/div/span[2]</value>
+      <webElementGuid>2392bac3-7828-49cb-a040-1842c26d48a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/div/span[2]</value>
+      <webElementGuid>58d2a798-9087-4254-bdf0-2a064df330b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'APPLY FILTER' or . = 'APPLY FILTER')]</value>
+      <webElementGuid>8e5996d7-742c-4675-abdd-d0320c0e3a0c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Car of the Month Management</name>
+   <tag></tag>
+   <elementGuidId>40113aa6-22d4-4dee-ad2d-79f51ea2f707</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c3a90174-cc3a-45c5-9d0a-b8adcbd5339d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full</value>
+      <webElementGuid>b300d007-a036-42d9-b150-9384c0786661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/app/car-of-the-month</value>
+      <webElementGuid>ccc15c59-ede2-4a29-8a70-c6399b07740c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Car of the Month Management</value>
+      <webElementGuid>f96712b9-0fc8-42d8-9e0d-b81922a6cb82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/ul[@class=&quot;mt-2 space-y-2 overflow-hidden rounded-md bg-gray-50 p-2 text-sm font-medium text-gray-500 shadow-inner dark:bg-gray-900 dark:text-gray-400 enter-done&quot;]/li[@class=&quot;px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/a[@class=&quot;w-full&quot;]</value>
+      <webElementGuid>6d626f96-b9b9-45cd-a969-96e1e37d9a0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/aside/div/div/div[2]/div/div/div/div/ul/li/ul/li[4]/a</value>
+      <webElementGuid>9905d65a-8bd4-45e0-9f99-37e1b5b85715</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Car of the Month Management')]</value>
+      <webElementGuid>b0e8f54b-5b1f-4db0-92c1-eb6ec8f3be3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/app/car-of-the-month')]</value>
+      <webElementGuid>921395b7-d0af-46be-bbd3-e9a11257be7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>955530f6-3a07-4159-bc16-4e71ec2df3c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/app/car-of-the-month' and (text() = 'Car of the Month Management' or . = 'Car of the Month Management')]</value>
+      <webElementGuid>04446c02-8ba1-4294-8ed3-0398fb303a9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

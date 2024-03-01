@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Toyota</name>
+   <tag></tag>
+   <elementGuidId>968f27cc-c163-4049-b857-2263afffe50a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ea2e18e4-20aa-4049-9d66-1add7d5912ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl font-semibold dark:text-gray-300</value>
+      <webElementGuid>854e7422-77ee-4f11-92e1-b44081532b9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota</value>
+      <webElementGuid>24feba19-3850-4598-8083-e6d506529019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line overflow-hidden shadow-card bg-white dark:bg-gray-800 shadow-xs&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;mb-4 flex flex-col items-center justify-between gap-3 lg:flex-row lg:gap-0&quot;]/div[@class=&quot;text-xl font-semibold dark:text-gray-300&quot;]</value>
+      <webElementGuid>61a864d3-cb84-43aa-b51d-2f15c908d2cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>5d338e61-7d67-4829-9ffe-3f38d3bbc8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>44a8a569-ba6e-49ce-808b-8112324980a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Toyota' or . = 'Toyota')]</value>
+      <webElementGuid>4ff7e198-9068-469d-b407-8e42f0da3ebe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

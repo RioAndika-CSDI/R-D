@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS003 - Verify user can filter newest on Testimony Management</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d5518b5b-88d1-4ee1-9ad4-0b84c1873964</testCaseGuid>
-</TestCaseEntity>

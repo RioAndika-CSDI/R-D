@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>dp005caridealerberdasarkanbrandmobildanlocationdaritabdealermobildaihatsudikotabesar</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>463a25d8-f4c3-4f87-a072-267601e40753</testSuiteGuid>
+   <testCaseLink>
+      <guid>a9944f13-1d52-416e-b2b1-6c0050974725</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23f5095f-dfbf-4762-acb4-68ed0d71f35b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>174c1181-6706-4a14-992d-b2cdbd595094</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dd130c8-ff08-44e3-85a0-bb90a2956ea3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>679b5dab-f5a8-45a9-b3da-0d902f23273b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>162bdb05-cc8d-44eb-9971-4de8bea6b9e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d04790e-7f57-4912-957f-174eafb9d02e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

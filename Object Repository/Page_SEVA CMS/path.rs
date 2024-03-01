@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>e323d573-7eae-4c0e-8edf-18e29e076b52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>98631367-f2a9-4b49-8c1d-eb0ba66e54bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>8057d142-1915-4ec9-acb7-cfd35de75842</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>efcb4b37-5bad-4257-afb6-ad400b067240</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z</value>
+      <webElementGuid>3674df27-3224-4d6c-b8d2-e1a826889b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-8&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3 text-center&quot;]/div[@class=&quot;flex items-center justify-start space-x-4&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center leading-5 transition-colors duration-150 font-medium p-2 rounded-lg text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring&quot;]/svg[@class=&quot;h-5 w-5&quot;]/path[1]</value>
+      <webElementGuid>4094654d-2bb9-4e3a-9bc2-7baaa57fc9f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

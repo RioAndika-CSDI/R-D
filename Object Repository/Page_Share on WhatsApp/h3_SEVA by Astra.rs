@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_SEVA by Astra</name>
+   <tag></tag>
+   <elementGuidId>ad88d855-0dfd-42df-ad14-76df13987fe6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3._9vd5._9scb._9scr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main_block']/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>d93b95b6-4599-4cb3-b8c6-6dd71b8138eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_9vd5 _9scb _9scr</value>
+      <webElementGuid>0d1e2a51-5740-48bd-b17d-b3520d0f6414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA by Astra</value>
+      <webElementGuid>e7b7a2c4-d24d-4de5-978f-67f04cf832cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_block&quot;)/div[@class=&quot;_9vd6 _9t33 _9bir _9bj3 _9bhj _9v12 _9tau _9tay _9u6w _9se- _9u5y&quot;]/h3[@class=&quot;_9vd5 _9scb _9scr&quot;]</value>
+      <webElementGuid>bc3d92c9-9036-4c46-b057-263895c5089b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main_block']/div/h3</value>
+      <webElementGuid>40a72c04-f8de-4c23-a4e2-9f611e25d13e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/h3</value>
+      <webElementGuid>a421d027-84d2-464e-af81-0a4f4fe5d51a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'SEVA by Astra' or . = 'SEVA by Astra')]</value>
+      <webElementGuid>ef803b84-fd1d-47d3-a401-ee85333a42a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

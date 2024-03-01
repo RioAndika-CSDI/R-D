@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Tentang SEVA</name>
+   <tag></tag>
+   <elementGuidId>c058c836-8140-43a2-966a-5e48a8a4c42b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_linkedTextWrapper__S_qgQ > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@data-testid='footer-tentang-kami']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>71b7b7ce-8b7b-4e46-bf0b-059a3860d377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.seva.id/info/tentang-kami/</value>
+      <webElementGuid>74ebd3a0-988e-435b-9c63-722dc4c40848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer noopener</value>
+      <webElementGuid>2ee5497b-c8bc-41b5-bbb4-2a9058a61346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>e07ded40-0e2f-4b91-8bec-853a5089d315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>footer-tentang-kami</value>
+      <webElementGuid>13b8f1b2-d3b3-4b66-a0a8-c11274b724b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tentang SEVA</value>
+      <webElementGuid>4f7b6cf2-dd7c-4b83-94aa-568de222fc68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__S_qgQ&quot;]/a[1]</value>
+      <webElementGuid>854773b1-96e2-4525-a30b-845ea6b370b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/footer/div/div/a</value>
+      <webElementGuid>b96c728b-ce5a-49c8-a489-3fb456f44604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tentang SEVA')]</value>
+      <webElementGuid>3bb8984a-f369-44b5-89cb-c68c78c13a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.seva.id/info/tentang-kami/')]</value>
+      <webElementGuid>a521c32d-3946-4f31-b67c-cdfaad499ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/div/a</value>
+      <webElementGuid>20a00ef6-d36f-4cbc-826f-2129b5f7eba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.seva.id/info/tentang-kami/' and (text() = 'Tentang SEVA' or . = 'Tentang SEVA')]</value>
+      <webElementGuid>fb987a99-0d1f-4b3f-b758-876a4c383612</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

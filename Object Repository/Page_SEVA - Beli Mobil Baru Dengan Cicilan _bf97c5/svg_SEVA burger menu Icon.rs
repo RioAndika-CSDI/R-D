@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_SEVA burger menu Icon</name>
+   <tag></tag>
+   <elementGuidId>6616e321-0f3a-4f69-b0ad-6594a7d929dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//svg[(text() = 'SEVA burger menu Icon' or . = 'SEVA burger menu Icon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>cc6f2016-f5f4-48f3-bb9a-b811f9ea195b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>c8e6ae9f-674c-4335-9836-ceca65d2e753</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>1de76cd3-00eb-4f9a-96d8-112134473253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>1746de24-4d55-458c-a0d3-51fe811ee827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>c1eda780-443a-487f-a828-bf0e8cd4646e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>f52f180f-a826-48d1-80df-45c36933ffa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA burger menu Icon</value>
+      <webElementGuid>3a83ccce-61f6-40bb-b38b-5820d8a24134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_homepage__SBKsV&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;headerMobile_left__Bf6eP&quot;]/svg[1]</value>
+      <webElementGuid>5ca45baf-fde7-4d03-b271-ea1a48de5b9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'SEVA burger menu Icon' or . = 'SEVA burger menu Icon')]</value>
+      <webElementGuid>60cdcfdd-b9e5-4b99-a2a6-481e2dd59f69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

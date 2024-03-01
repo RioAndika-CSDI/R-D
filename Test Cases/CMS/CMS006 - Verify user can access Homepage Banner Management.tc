@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS006 - Verify user can access Homepage Banner Management</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>683cc843-caae-4688-ad8d-84f0ef8992a5</testCaseGuid>
-</TestCaseEntity>

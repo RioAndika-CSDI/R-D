@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS011 - Verify user can filter status Draft on Announcement box Management</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>303dd778-e707-4dc3-b6b0-3ee91f8ebb86</testCaseGuid>
-</TestCaseEntity>

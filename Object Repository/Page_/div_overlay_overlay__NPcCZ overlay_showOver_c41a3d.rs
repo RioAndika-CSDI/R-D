@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_overlay_overlay__NPcCZ overlay_showOver_c41a3d</name>
+   <tag></tag>
+   <elementGuidId>5549e235-d609-4419-bf1a-aac27262273b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.overlay_overlay__NPcCZ.overlay_showOverlay__13TB1.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ff34053-6a9f-48a5-b8d6-6c7bb9b68eca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overlay_overlay__NPcCZ overlay_showOverlay__13TB1 undefined</value>
+      <webElementGuid>6841cf89-9c22-4c74-897d-280ec556cf22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;undefined multi-kk-result_container__ngwEQ&quot;]/div[@class=&quot;multi-kk-result_carListWrapper__xOKOs&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcardMultiCredit_container__MKRox&quot;]/div[@class=&quot;cardetailcardMultiCredit_cardWrapper__mFz91 cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcardMultiCredit_ctaGroup__8sSuq&quot;]/div[@class=&quot;overlay_overlay__NPcCZ overlay_showOverlay__13TB1 undefined&quot;]</value>
+      <webElementGuid>e0143533-c476-49bd-ab0c-8bf995f6de05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div/div[4]/div</value>
+      <webElementGuid>8d5252d9-3f6e-4f65-ba7a-27dd2c16792a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[4]/div</value>
+      <webElementGuid>d54c2078-c6be-470f-9a6b-3973f4e4970a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Daihatsu</name>
+   <tag></tag>
+   <elementGuidId>652e2d16-e72b-4372-a307-523fe433fd91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.formSelectBrandCar_boxOnclick__5H7Ga > div.formSelectBrandCar_content__YpNau > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/div/div[2]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>38fcb185-e9a2-4217-900f-9b4268dfb71f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu</value>
+      <webElementGuid>efc0593b-0bdb-43c3-97bb-cd11c839d560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_boxOnclick__5H7Ga&quot;]/div[@class=&quot;formSelectBrandCar_content__YpNau&quot;]/span[1]</value>
+      <webElementGuid>bed06c9e-b59c-4b4d-b68f-dd20ca893cf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div/span</value>
+      <webElementGuid>68978d89-2872-4d08-8b63-c7bd71a07a46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Daihatsu' or . = 'Daihatsu')]</value>
+      <webElementGuid>ffb4a0da-afe0-4f03-baa5-7011e9b38204</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

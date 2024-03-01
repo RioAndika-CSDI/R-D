@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Clone Announcement Box</name>
+   <tag></tag>
+   <elementGuidId>af05a216-6ac0-49f7-91e5-95da5f92c416</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8a1fa67e-7587-4fd2-be0e-6fd2175ac852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>fc45618a-5f37-497a-9716-7087f165845a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clone Announcement Box</value>
+      <webElementGuid>2a0bf603-9d6a-4976-ade1-cd3848b0163c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mt-3 flex flex-col items-center justify-start gap-2 lg:mt-0 lg:flex-row&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>f5422768-bb2f-46c8-8b44-ce4494029f22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/h1</value>
+      <webElementGuid>18b9fadd-4f70-4d63-a232-6a0357ce35f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>a5379f72-a31f-45f5-aac0-917725483618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Clone Announcement Box' or . = 'Clone Announcement Box')]</value>
+      <webElementGuid>04175571-6de3-4fbe-a716-1df306886fea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

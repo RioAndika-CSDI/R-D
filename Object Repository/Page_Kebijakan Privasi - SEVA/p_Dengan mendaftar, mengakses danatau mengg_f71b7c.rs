@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Dengan mendaftar, mengakses danatau mengg_f71b7c</name>
+   <tag></tag>
+   <elementGuidId>1f26c349-060c-442f-8669-52a00543fe34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(18)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[18]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d3c0f3eb-6ec3-4960-a310-1c579e15eec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dengan mendaftar, mengakses dan/atau menggunakan Aplikasi, Anda dianggap telah membaca, memahami dan memberikan persetujuan secara tegas atas Kebijakan Privasi Kami sebagaimana dijelaskan di atas. Anda juga menyatakan dan menjamin bahwa Data Pribadi yang Anda berikan kepada Kami adalah benar, lengkap, diperoleh secara sah dan Anda memiliki hak sepenuhnya untuk memberikannya kepada Kami.</value>
+      <webElementGuid>729dae02-de70-4d65-a8bc-9be1971df29b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/div[@class=&quot;entry-content font-[Open sans] text-[12px] mobile:text-[16px]&quot;]/p[18]</value>
+      <webElementGuid>8af0681e-f4a6-4c42-a73a-f71a68ab94a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[18]</value>
+      <webElementGuid>b5cdc1fa-e21a-4258-8e12-b46ed89eb044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Dengan mendaftar, mengakses dan/atau menggunakan Aplikasi, Anda dianggap telah membaca, memahami dan memberikan persetujuan secara tegas atas Kebijakan Privasi Kami sebagaimana dijelaskan di atas. Anda juga menyatakan dan menjamin bahwa Data Pribadi yang Anda berikan kepada Kami adalah benar, lengkap, diperoleh secara sah dan Anda memiliki hak sepenuhnya untuk memberikannya kepada Kami.' or . = 'Dengan mendaftar, mengakses dan/atau menggunakan Aplikasi, Anda dianggap telah membaca, memahami dan memberikan persetujuan secara tegas atas Kebijakan Privasi Kami sebagaimana dijelaskan di atas. Anda juga menyatakan dan menjamin bahwa Data Pribadi yang Anda berikan kepada Kami adalah benar, lengkap, diperoleh secara sah dan Anda memiliki hak sepenuhnya untuk memberikannya kepada Kami.')]</value>
+      <webElementGuid>e8561127-4a23-4c89-b16f-e1bb28f0e90f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

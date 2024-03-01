@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Car of the Month Management</name>
+   <tag></tag>
+   <elementGuidId>3a5d66f8-eaf5-4883-a205-c031f407c2be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5cb6a9da-72b5-4f55-ae44-5ad9684542e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200</value>
+      <webElementGuid>f0436633-287b-46ca-a710-85a8e3596204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Car of the Month Management</value>
+      <webElementGuid>cee6cac3-4f51-4c30-9d7b-20e28365bd15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/h1[@class=&quot;my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200&quot;]</value>
+      <webElementGuid>1fb1b3ca-af8a-417e-96aa-200493ef511d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/h1</value>
+      <webElementGuid>a29b997a-cc26-4fb7-bbb6-94d03f6f4d35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>00341d47-fd13-4e2e-97c8-731b2e95c8ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Car of the Month Management' or . = 'Car of the Month Management')]</value>
+      <webElementGuid>e15f92f0-79fa-4f7e-bbe2-6ec19a0c4a5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

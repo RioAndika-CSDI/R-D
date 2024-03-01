@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>354bafd2-143e-4ff8-aa9c-3e1bd7bf90d0</webElementGuid>
+      <webElementGuid>83b8f3f1-1724-40fb-84d0-22ec6c71cadf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU</value>
-      <webElementGuid>dfb2a32b-83cb-4c98-b13b-477caf6e4a30</webElementGuid>
+      <webElementGuid>27299d2a-f784-4977-a53e-9cb9ed28030a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menemani </value>
-      <webElementGuid>a28c2102-fd08-44b5-ba4d-34560d7060bd</webElementGuid>
+      <webElementGuid>c4f2f91f-36fc-4c1c-8bd4-77d66c754f77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]/span[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU&quot;]</value>
-      <webElementGuid>95e111b3-7aff-4784-bfb0-872e7e0909c2</webElementGuid>
+      <webElementGuid>0c58adcd-4c1a-482b-864c-03969afc2fd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/div[2]/h1/span</value>
-      <webElementGuid>316c37f3-24ac-461b-a058-e0d52d37c1c7</webElementGuid>
+      <webElementGuid>92b8b4ce-b33c-42e5-b27c-6745f66f72dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1/span</value>
-      <webElementGuid>19e37132-d8e8-401f-acdb-64a33f0c318e</webElementGuid>
+      <webElementGuid>49d4a1ec-78b2-4c3d-a480-3f7f3d67f201</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Menemani ' or . = 'Menemani ')]</value>
-      <webElementGuid>fd051498-f7c4-4a6d-a470-590cd8be00b2</webElementGuid>
+      <webElementGuid>45953cd3-687e-4de4-8dd1-74238733253e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

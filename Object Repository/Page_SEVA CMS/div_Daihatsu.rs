@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Daihatsu</name>
+   <tag></tag>
+   <elementGuidId>6b335340-7cd2-4da2-a0ea-c582f4c0e79a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[3]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5e68d479-f2e7-4a20-a8a9-a7171c336b94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl font-semibold dark:text-gray-300</value>
+      <webElementGuid>6fe39307-d001-48ce-89aa-1dc37a7aeadd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu</value>
+      <webElementGuid>6d7e72b8-621f-4ea0-b578-52347193716a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line overflow-hidden shadow-card bg-white dark:bg-gray-800 shadow-xs&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;mb-4 flex flex-col items-center justify-between gap-3 lg:flex-row lg:gap-0&quot;]/div[@class=&quot;text-xl font-semibold dark:text-gray-300&quot;]</value>
+      <webElementGuid>92c815e3-d8bf-4d3e-989b-185850cb00e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[3]/div/div/div</value>
+      <webElementGuid>ecfbeb40-0ce7-431a-9bae-5bf4ad75b769</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>6015aa38-ea67-432d-85c9-97464971e76a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daihatsu' or . = 'Daihatsu')]</value>
+      <webElementGuid>bcbd349a-eec1-434e-a011-05b5936f530a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

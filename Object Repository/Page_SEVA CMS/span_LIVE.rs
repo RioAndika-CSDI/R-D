@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/div[2]/div/table/tbody/tr/td[7]/span</value>
+         <value>//main[@id='main']/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[4]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>04078e30-85fb-4703-a13d-dc6ed0821873</webElementGuid>
+      <webElementGuid>b0e2c8f5-350e-48d6-9351-3973e4012a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-green-700 bg-green-100 dark:bg-green-700 dark:text-green-100 w-full justify-center text-center</value>
-      <webElementGuid>e691b262-f503-4a0d-aaca-12f8eee67b98</webElementGuid>
+      <value>inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-green-700 bg-green-100 dark:bg-green-700 dark:text-green-100 w-full justify-center</value>
+      <webElementGuid>395542d1-3cb1-43d0-af3b-0dbbc1b66c27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,31 +38,31 @@
       <name>text</name>
       <type>Main</type>
       <value>LIVE</value>
-      <webElementGuid>cdcedd7a-26dc-4f00-a456-53efb3601407</webElementGuid>
+      <webElementGuid>40ea26b4-6d1e-4262-adeb-720b4e07bcd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-8&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3&quot;]/span[@class=&quot;inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-green-700 bg-green-100 dark:bg-green-700 dark:text-green-100 w-full justify-center text-center&quot;]</value>
-      <webElementGuid>05cbd53b-4d9f-4e90-9502-74d98f06f8a8</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line overflow-hidden shadow-card bg-white dark:bg-gray-800 shadow-xs&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3 text-center&quot;]/span[@class=&quot;inline-flex px-4 py-1 text-xs font-semibold rounded-[10px] text-green-700 bg-green-100 dark:bg-green-700 dark:text-green-100 w-full justify-center&quot;]</value>
+      <webElementGuid>c1e88bc4-b43e-4b3d-b36a-06a3d4428151</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/div[2]/div/table/tbody/tr/td[7]/span</value>
-      <webElementGuid>35c78f79-4859-481a-8b4a-f7a20d20ea81</webElementGuid>
+      <value>//main[@id='main']/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[4]/span</value>
+      <webElementGuid>cf10fd9d-21e5-40ad-b981-58d992079c7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[7]/span</value>
-      <webElementGuid>7e538fb9-1a91-4c74-85af-c895edf5de2c</webElementGuid>
+      <value>//td[4]/span</value>
+      <webElementGuid>3076260f-3c3b-4e1d-9ce8-6f662d990bd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'LIVE' or . = 'LIVE')]</value>
-      <webElementGuid>6e1a6572-6810-4858-89da-b86552c454b4</webElementGuid>
+      <webElementGuid>df80460c-e043-4f57-98b6-06d01c97f6a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
