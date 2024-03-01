@@ -21,11 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seva.id/')
 
+WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Homepage Component/Text Butuh Bantuan'), 0)
+
 WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeFullPageScreenshotAsCheckpoint('Step1')
 
-WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_x'))
+not_run: WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_x'))
 
 WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
 
@@ -40,5 +44,5 @@ WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru D
 WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
     '969696')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeFullPageScreenshotAsCheckpoint('FinalPage')
 

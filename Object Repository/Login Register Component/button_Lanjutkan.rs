@@ -6,15 +6,19 @@
    <elementGuidId>3a7592b0-aed1-415c-9381-a2b2a6c241d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div/div/div/div[2]/button</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Cari Mobil Baru']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4c3de923-309a-4e10-bb44-8d279d24aaa4</webElementGuid>
+      <webElementGuid>2d26ca05-8b9c-4b7a-8fcc-d1f3ee1060ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>38ae3867-06fc-4eab-8006-1eb26d509d3d</webElementGuid>
+      <webElementGuid>fa72152b-2076-468e-a6da-dc485fe3c680</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-lanjutkan</value>
-      <webElementGuid>aec6181b-e236-4073-ba41-72c9d1c16494</webElementGuid>
+      <webElementGuid>fe87c4ad-0e4a-4663-9cd5-ad5970eb2f21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjutkan</value>
-      <webElementGuid>a2a1ac11-9e4c-4879-8ee1-c5119b91b46d</webElementGuid>
+      <webElementGuid>1d8083b9-4557-4ef3-b9c9-f02b9719021f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_button__OProq&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>e39f9803-775e-4b95-8642-33ecfe5f0141</webElementGuid>
+      <webElementGuid>816895a4-2e83-4b86-b0ae-e29573911f6b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/div[2]/button</value>
-      <webElementGuid>28458b8f-6962-45d6-811f-9e9d1bcd39c4</webElementGuid>
+      <webElementGuid>35e690ff-3524-43f3-95d8-9b489f7053ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang di SEVA'])[1]/following::button[1]</value>
-      <webElementGuid>a75d37ac-2da4-40e2-ae91-18b0604864be</webElementGuid>
+      <webElementGuid>e4f28701-e96e-42ad-bf2f-0e0cb61b3b19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau'])[1]/following::button[1]</value>
-      <webElementGuid>c80043e4-1c32-47b2-90ee-9690d0d76a5a</webElementGuid>
+      <webElementGuid>e02a22d7-2c20-4b08-a320-da086128069e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 PT Astra Auto Digital. All Rights Reserved'])[1]/preceding::button[1]</value>
-      <webElementGuid>5279f29a-cdf4-41fd-b510-af56fdd6e1c5</webElementGuid>
+      <webElementGuid>4cb1ce2c-5919-40e3-a7d8-de784a7c1384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>256c4bc6-5702-45b6-b835-9644f1633f82</webElementGuid>
+      <webElementGuid>3149aecb-2e97-42c1-ab5e-ee654d15bfc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjutkan']/parent::*</value>
-      <webElementGuid>9e82e1f1-f8e8-48ec-b77c-4a3a00c69bb0</webElementGuid>
+      <webElementGuid>56381822-c5f7-4bcb-9c8d-d4e1e42504d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>487743ee-30af-4877-ad5a-0a98bae0f868</webElementGuid>
+      <webElementGuid>404b98b6-21ee-45d5-bf78-64a0fdde798d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
-      <webElementGuid>93436a62-d61c-49ea-b92d-7a5ab192d3f3</webElementGuid>
+      <webElementGuid>bb08ee19-797a-4a92-ac67-0b355a5bccb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,7 +27,7 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
 
-WebUI.click(findTestObject('PopUP/button_x'))
+not_run: WebUI.click(findTestObject('PopUP/button_x'))
 
 WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
 
