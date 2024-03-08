@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Rekomendasi Mobil Baru di SEVA</name>
+   <tag></tag>
+   <elementGuidId>03915903-9c63-45d7-aef6-f10d3fd5eaaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mobil-baru_title__ZGSPH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>1470e407-34bd-4501-9123-d04d27df48ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mobil-baru_title__ZGSPH</value>
+      <webElementGuid>ad98d3a1-9020-4a7c-b55e-2d814b4e0ea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rekomendasi Mobil Baru di SEVA</value>
+      <webElementGuid>b79968b9-bac6-4a61-95ad-a2347f1fe640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;mobil-baru_titleHeaderWrapper__UBOLj&quot;]/h1[@class=&quot;mobil-baru_title__ZGSPH&quot;]</value>
+      <webElementGuid>b7e7445d-84be-493e-9f69-7636b53806bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/h1</value>
+      <webElementGuid>aebb8a47-22b0-41ac-9148-6b8c5162e52e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>3f9c68f8-3fe1-4d9b-904b-acedb2b2643c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Rekomendasi Mobil Baru di SEVA' or . = 'Rekomendasi Mobil Baru di SEVA')]</value>
+      <webElementGuid>b35ce131-6914-4e62-921c-b5bf053e6d00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

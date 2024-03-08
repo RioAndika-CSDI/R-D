@@ -12,94 +12,206 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8cc0dd3f-d403-4a57-ab7b-e5ff727d5344</testSuiteGuid>
    <testCaseLink>
-      <guid>ea65612a-15e0-4ebb-802e-bfff4b4bffb8</guid>
+      <guid>f9ef91d4-1f83-4c8b-8978-e81eea48d399</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0005 - VerifyUserCanFilterCarDaihatsu</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0027 - VerifyUserCannotUnselectAllType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>764337e3-eee9-48a2-95f6-9e9dd0e0b4cc</guid>
+      <guid>07c27c65-be9f-4798-99ab-b1f9bfd96d49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0013 - VerifyUserSuccesfullyCheckTwitterSEVA-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0018 - VerifyUserCanChooseCityFromPopupCitySelector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bcdac11-8ee9-4747-9838-bf4f06d3671a</guid>
+      <guid>00267a1e-0303-4f15-95e1-7081e39279d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0009 - VerifyUserCanCheckFunctionalitySyaratDanKetentuan-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0005 - VerifyUserCanFilterCarDaihatsu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fda0cc2a-8a86-40a0-b4b4-831ae9b2355a</guid>
+      <guid>eadff585-04f1-48cd-ba89-ed0ec444039b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0001 - VerifyUserCanAksesSevaWebsite</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0013 - VerifyUserSuccesfullyCheckTwitterSEVA-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6466e12-1729-461f-a8e1-65cd83a6de57</guid>
+      <guid>6c409059-7fd2-4c89-93fa-330f1433da6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0042 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0030 - VerifyUserCanSearchCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a5f109a-299c-455e-b9f6-aa2e6e2f73b8</guid>
+      <guid>d0ae15a8-bfc5-4b0b-84cc-7309e0d8fec9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0002 - VerifyUserCanChooseCarFromHomepage</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0028 - CekFunctionalityButtonAturUlangBrandTray</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b712d49-9cca-4a9c-b9f4-dd146b4e0ef5</guid>
+      <guid>96db6e11-ac6c-41ad-b796-7564ec7c884d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0041 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0022- VerifyUserCanFilterCarByTypeSport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6c17d34-d21b-403f-8216-395f18a4da45</guid>
+      <guid>40181e0a-361e-4c9e-af0f-3ac1c3d4fabe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0007 - VerifyUserCanFilterCarIsuzu</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0009 - VerifyUserCanCheckFunctionalitySyaratDanKetentuan-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>660bc1af-9464-40de-b793-e2d75e46dbb9</guid>
+      <guid>1ebfa195-8171-4488-ab2b-444a9a0c93c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0004 - VerifyUserCanFilterCarToyota</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0025 - VerifyUserCanFilterCarPeugeot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>89da40b2-db0b-467a-a88e-63e8e3988012</guid>
+      <guid>6c712821-4d0a-4b40-9d73-17bd605901c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0023 - VerifyUserCanFilterCarByTypeSedan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c1ab336-35c9-4415-bbbc-1ee04c76b000</guid>
+      <guid>7ed7eb1e-c597-4046-a433-bcdf3f238ea9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0015 - VerifyUserSeeAboutSevaText-footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5cc9bc2d-4aeb-4402-a575-de114e21fc02</guid>
+      <guid>f327a40d-77db-43c6-b4b7-494c8b28a035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0006 - VerifyUserCanFilterCarBmw</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0001 - VerifyUserCanAksesSevaWebsite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8a6a80a8-45a4-4024-b16b-d69b36a42818</guid>
+      <guid>a5a109f0-3423-46ce-898b-1c8f36e1f42f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0008 - VerifyUserCanCheckFunctionalityTentangKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage V.2/H0042 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c99850fa-a6b7-469c-af91-31455afbb1fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0002 - VerifyUserCanChooseCarFromHomepage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>530eee86-e8d7-4c67-8036-2bb4db33c278</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0026 - VerifyUserCannotUnselectAllBrand</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b04d81b-5705-4723-98ec-eae667c301df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0016 - VerifyUserSeeAboutISOCertificate-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0fd90a50-17de-4e98-a0c4-80faef0a5575</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0017 - VerifyUserCanCheckListHeaderMenuBeliMobil,Promo,Artikel</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>142e7da9-2a54-4327-9c08-71e8c159eaee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0024 - VerifyUserCanFilterCarByTypeHatchback</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e960b9d2-7b2c-4030-bb32-621047218541</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0021 - VerifyUserCanFilterCarByTypeSUV</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6eb13a9-fe29-4017-8f2d-c323a80192a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0041 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>78306294-71c2-4c56-b45d-95b0d61e504d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0029 - CekFunctionalityButtonAturUlangTypeTray</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b527691-d87a-4e08-a59f-d91c0653f790</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0007 - VerifyUserCanFilterCarIsuzu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56e44150-5937-4f59-b676-2221adb34b7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0020 - VerifyUserCanFilterCarByTypeMPV</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d315b4d6-7db4-4bbf-8182-75f8e1b6b6f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0004 - VerifyUserCanFilterCarToyota</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44eaa7d5-2fd4-4d35-b9b0-7ceac2b14f4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20034032-a0a1-4017-8ed1-c9002ecf3edc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0019 - VerifyUserCanLoginFromHomepageSeva</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e97ba5ba-d71a-42d1-8ac7-97cdc3a70329</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>772f3396-4d14-48dc-b3be-0f7d16f95bc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0006 - VerifyUserCanFilterCarBmw</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ea76fd1b-542f-4c4c-9873-1f95223b7e14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage V.2/H0008 - VerifyUserCanCheckFunctionalityTentangKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
