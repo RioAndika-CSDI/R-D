@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Lanjutkan</name>
+   <name>button_Cari Dealer</name>
    <tag></tag>
-   <elementGuidId>3a7592b0-aed1-415c-9381-a2b2a6c241d1</elementGuidId>
+   <elementGuidId>c15338e9-9cf0-46d5-ad42-93180afcecfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
+         <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Cari Mobil Baru']</value>
+         <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d26ca05-8b9c-4b7a-8fcc-d1f3ee1060ef</webElementGuid>
+      <webElementGuid>82685115-7ec9-408d-a64e-cebfee10c8ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,94 +30,94 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>fa72152b-2076-468e-a6da-dc485fe3c680</webElementGuid>
+      <webElementGuid>b1895508-5456-474d-90dc-1a48797de696</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>button-lanjutkan</value>
-      <webElementGuid>fe87c4ad-0e4a-4663-9cd5-ad5970eb2f21</webElementGuid>
+      <value>button-cari-mobil</value>
+      <webElementGuid>a6f6c458-520d-419f-b3d9-4fc7b20b2724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Lanjutkan</value>
-      <webElementGuid>1d8083b9-4557-4ef3-b9c9-f02b9719021f</webElementGuid>
+      <value>Cari Dealer</value>
+      <webElementGuid>599458b9-ce55-4e25-a4fc-8fe97069c45a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_button__OProq&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>816895a4-2e83-4b86-b0ae-e29573911f6b</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_buttonWrapper__HOK_J&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
+      <webElementGuid>fcef5c69-d029-4777-a081-d5724d407915</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div/div/div[2]/button</value>
-      <webElementGuid>35e690ff-3524-43f3-95d8-9b489f7053ad</webElementGuid>
+      <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
+      <webElementGuid>fd672802-6d11-4594-874c-a65729561af0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang di SEVA'])[1]/following::button[1]</value>
-      <webElementGuid>e4f28701-e96e-42ad-bf2f-0e0cb61b3b19</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::button[1]</value>
+      <webElementGuid>3af27deb-da36-4426-975f-763288927eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau'])[1]/following::button[1]</value>
-      <webElementGuid>e02a22d7-2c20-4b08-a320-da086128069e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tegal'])[1]/following::button[1]</value>
+      <webElementGuid>8bc2e22f-b36e-44d8-b80a-26e6b1c25b50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 PT Astra Auto Digital. All Rights Reserved'])[1]/preceding::button[1]</value>
-      <webElementGuid>4cb1ce2c-5919-40e3-a7d8-de784a7c1384</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/preceding::button[1]</value>
+      <webElementGuid>07f67278-9c24-4988-9177-be868c15bff5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>3149aecb-2e97-42c1-ab5e-ee654d15bfc9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dealer Mobil berdasarkan Merek'])[1]/preceding::button[1]</value>
+      <webElementGuid>561d1f73-2e19-401b-be60-7abbd7d1b0d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Lanjutkan']/parent::*</value>
-      <webElementGuid>56381822-c5f7-4bcb-9c8d-d4e1e42504d9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Cari Dealer']/parent::*</value>
+      <webElementGuid>f6ce3959-df93-4ea7-ac8f-d11c4286fc2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button</value>
-      <webElementGuid>404b98b6-21ee-45d5-bf78-64a0fdde798d</webElementGuid>
+      <value>//div[3]/div/div/div[2]/button</value>
+      <webElementGuid>128006ba-d942-46b2-9395-5d797d390da7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
-      <webElementGuid>bb08ee19-797a-4a92-ac67-0b355a5bccb6</webElementGuid>
+      <value>//button[(text() = 'Cari Dealer' or . = 'Cari Dealer')]</value>
+      <webElementGuid>74dfba24-d05e-4505-9aca-0e541cd5a370</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,39 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar'), 
+    [('city') : 'bandung\r\n', ('dealer') : 'Daihatsu', ('URL_tc3') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer/'
+        , ('open_browser') : '1', ('close_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
-
-not_run: WebUI.click(findTestObject('PopUP/button_x'))
-
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
-
-WebUI.click(findTestObject('Homepage Component/Select City List'))
-
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
-
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
-
-'Click Moengage Ads\r\n'
-WebUI.delay(4)
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.scrollToElement(findTestObject('Page_Temukan 3 Dealer Mobil Daihatsu di Bandung  SEVA/div_Kontak dealer name and city'), 
+    0)
 

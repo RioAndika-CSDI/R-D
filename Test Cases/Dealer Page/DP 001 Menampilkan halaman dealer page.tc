@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DP 001 Menampilkan halaman dealer page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d12cce9-1879-4b7b-8660-7314154a31f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59cb15fe-c350-40da-8800-ecd562550b23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4438ff45-9485-41ce-ab1c-16a82a2a91da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5eee662-ddc7-4149-ad80-c25d01116e0d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-baru/dealer'</defaultValue>
+      <description></description>
+      <id>59cb15fe-c350-40da-8800-ecd562550b23</id>
+      <masked>false</masked>
+      <name>expected_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4438ff45-9485-41ce-ab1c-16a82a2a91da</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f5eee662-ddc7-4149-ad80-c25d01116e0d</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+</TestCaseEntity>

@@ -17,39 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser('seva.id')
 
-WebUI.maximizeWindow()
-
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
-
-not_run: WebUI.click(findTestObject('PopUP/button_x'))
-
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
-
-WebUI.click(findTestObject('Homepage Component/Select City List'))
-
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
-
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
-
-'Click Moengage Ads\r\n'
-WebUI.delay(4)
-
-'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Burger_Button'))
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
 
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Cari Mobil'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Dealer Mobil Baru'))
+
+WebUI.waitForPageLoad(50)
+
+actuall_URL = WebUI.getUrl()
+
+WebUI.verifyMatch(actuall_URL, expected_URL, true)
+
+if(close_browser.toString().equals('1')) {
+	WebUI.closeBrowser()
+	}
 

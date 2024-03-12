@@ -17,39 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 001 Menampilkan halaman dealer page'), [('expected_URL') : 'https://www.seva.id/mobil-baru/dealer'
+        , ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_Temukan Dealer Mobil Baru Rekanan SEVA_b303f5/svg merek halaman dealer'))
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/div_Daihatsu CTA', [('brand') : brand]))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/button_Nanti Saja popup atas'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/button_Terapkan'))
 
-not_run: WebUI.click(findTestObject('PopUP/button_x'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/button_Cari Dealer'))
 
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
+WebUI.waitForPageLoad(50)
 
-WebUI.click(findTestObject('Homepage Component/Select City List'))
+actuall_URL = WebUI.getUrl()
 
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+WebUI.verifyMatch(actuall_URL, expected_URL, true)
 
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
-
-'Click Moengage Ads\r\n'
-WebUI.delay(4)
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.closeBrowser()
 
