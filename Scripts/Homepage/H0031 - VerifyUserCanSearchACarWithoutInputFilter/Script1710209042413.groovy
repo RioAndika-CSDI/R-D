@@ -17,39 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://www.seva.id/')
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
 
-not_run: WebUI.click(findTestObject('PopUP/button_x'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
+WebUI.click(findTestObject('Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h1_Rekomendasi Mobil Baru di SEVA'))
 
-WebUI.click(findTestObject('Homepage Component/Select City List'))
+WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h2_Menampilkan beragam pilihan mobil baru s_598b49'))
 
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/div_63 Mobil Baru'))
 
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
-
-'Click Moengage Ads\r\n'
-WebUI.delay(4)
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.closeBrowser()
 

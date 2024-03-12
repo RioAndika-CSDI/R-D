@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Hyundai</name>
+   <name>div_63 Mobil Baru</name>
    <tag></tag>
-   <elementGuidId>3adc2e49-9977-47a0-9f51-519b0a1042ab</elementGuidId>
+   <elementGuidId>3ce8bc20-04df-41bf-98ad-08fc108d4237</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.formSelectBrandCar_box__5OnGr</value>
+         <value>div.navigationfiltermobile_carSummaryLabel__VfUIV</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(.,'Hyundai')]</value>
+         <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;logo-hyundai&quot;]</value>
+         <value>[data-testid=&quot;text-jumlah-mobil-plp&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,86 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>07ffecdc-cde0-48a8-aea5-09989bf63da1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>c269f71a-966a-462b-b614-6125b4defae7</webElementGuid>
+      <webElementGuid>32a0cea0-334c-4798-9274-83642def06c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>67145b11-cb8f-4478-a70a-f38717aebc63</webElementGuid>
+      <value>navigationfiltermobile_carSummaryLabel__VfUIV</value>
+      <webElementGuid>4d6137d8-2a97-426e-8df0-3db1dffb7cba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>logo-hyundai</value>
-      <webElementGuid>4a00b9a9-92c8-44d7-8cb1-ebc3a001a6c4</webElementGuid>
+      <value>text-jumlah-mobil-plp</value>
+      <webElementGuid>fbf70a04-ae10-4e29-a223-a04b0ae61d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Hyundai</value>
-      <webElementGuid>cd8f10f4-06e3-4d1b-88fd-80fdcad87452</webElementGuid>
+      <value>63 Mobil Baru</value>
+      <webElementGuid>31f4b813-fb2d-440a-98e3-af89501eb2f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>9ceafce6-680b-46c5-b578-bc27f3544cb0</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_bottomSection__Wm4sY&quot;]/div[@class=&quot;navigationfiltermobile_carSummaryLabel__VfUIV&quot;]</value>
+      <webElementGuid>107d98b9-e19c-497d-a523-002a1c4e9d0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peugeot'])[2]/following::div[2]</value>
-      <webElementGuid>23e43ae6-0696-47f6-ae0c-1c93b67b8572</webElementGuid>
+      <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
+      <webElementGuid>3388c2e5-a14d-40f0-a71c-534aaa0c835e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[5]</value>
-      <webElementGuid>ade89588-77c0-431a-92a8-5fbfcff4ad28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Mobil'])[1]/following::div[4]</value>
+      <webElementGuid>a5713efa-903a-4ceb-b2ed-108945d7dabe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/preceding::div[2]</value>
-      <webElementGuid>8a9f042f-9f6b-47bf-bf32-5668dd049ee1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu New Ayla'])[1]/preceding::div[2]</value>
+      <webElementGuid>e080c307-cb9c-48f0-b890-542a24803142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='63']/parent::*</value>
+      <webElementGuid>61868453-63c7-49f8-beff-db2768d2466a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[6]/div</value>
-      <webElementGuid>23095da1-bd94-4333-9c66-d216f355f94f</webElementGuid>
+      <value>//div[3]/div[2]/div[2]</value>
+      <webElementGuid>bd9bb67d-94df-4aa7-9301-4e33410631e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Hyundai' or . = ' Hyundai')]</value>
-      <webElementGuid>36d8ca96-d1ce-44be-9e7a-e4bea632cca3</webElementGuid>
+      <value>//div[(text() = '63 Mobil Baru' or . = '63 Mobil Baru')]</value>
+      <webElementGuid>83ac5a65-a040-427b-9eb3-988a8b249f45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

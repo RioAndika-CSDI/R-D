@@ -21,28 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seva.id/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Text Butuh Bantuan'), 0)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Step1')
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg (4)'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_x'))
+WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_input_input__MAvlc'), 
+    'Testing Autoamated')
 
-WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_inputPhone_input__r86Wm false'), 
+    '87859282828')
 
-WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_input_input__MAvlc'), 
-    'Marvin Ariel Johannes')
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Kirim'))
 
-WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_inputPhone_input__r86Wm false'), 
-    '81225717129')
+WebUI.setText(findTestObject('Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
+    '112233')
 
-WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Kirim'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/p_Nomor berhasil diverifikasi. Agen SEVA ak_836ded'))
 
-WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
-    '969696')
-
-WebUI.takeFullPageScreenshotAsCheckpoint('FinalPage')
+WebUI.closeBrowser()
 

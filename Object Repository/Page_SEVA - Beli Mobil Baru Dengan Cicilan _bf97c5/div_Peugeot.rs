@@ -6,12 +6,11 @@
    <elementGuidId>3a002274-ffe7-4af4-97db-818056e470fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h3[contains(.,'Peugeot')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>58da423c-093c-4e88-bf52-7ce6bd8debcd</webElementGuid>
+      <webElementGuid>3772880e-fe9c-473c-b77f-048efe8def0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>404290ed-5159-4899-905b-e34d35228da7</webElementGuid>
+      <webElementGuid>1f933a79-00a4-4734-b51a-af3fbb0cb727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>de59fe91-b925-472f-9085-9e0cf7d78ba5</webElementGuid>
+      <webElementGuid>6d37dac3-e06e-4515-bacc-f829638f8303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-peugeot</value>
-      <webElementGuid>ee30c009-ec3f-4b55-bf2f-7af2ef20d597</webElementGuid>
+      <webElementGuid>081256ea-ca8c-4f9d-ac9d-b48043d1871a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Peugeot</value>
-      <webElementGuid>b0ecc6c2-adc8-4187-9284-9eb75731094c</webElementGuid>
+      <webElementGuid>1e5a9a78-c8a4-445a-9095-0cf765b4f8a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>1f0be33a-26d5-4dcb-bbe8-0c54c75582c3</webElementGuid>
+      <webElementGuid>38defc94-007b-44f2-b4ec-49640d2627b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[2]</value>
-      <webElementGuid>1bd3dfc7-c8c9-4864-99ff-fbcfd3008f9f</webElementGuid>
+      <webElementGuid>2a076b5c-b6e8-4a85-9445-011b93e27028</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Isuzu'])[2]/following::div[5]</value>
-      <webElementGuid>8287dabf-9a10-429b-b1cd-e5a7f1577327</webElementGuid>
+      <webElementGuid>9a3ec26d-33a2-47ea-9f44-cd127165ae1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[2]/preceding::div[2]</value>
-      <webElementGuid>2e014d48-933f-406b-86cc-a63a71266e82</webElementGuid>
+      <webElementGuid>b3903067-fd4a-44cc-b5e3-1fcc1367bda4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[5]/div</value>
-      <webElementGuid>df5e1586-e8be-41f2-8a16-32401be199ef</webElementGuid>
+      <webElementGuid>4497e0ff-49de-48da-861b-af1b02863c5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Peugeot' or . = ' Peugeot')]</value>
-      <webElementGuid>2d647ed1-00ad-4044-bf23-a3c79c05962c</webElementGuid>
+      <webElementGuid>fa0111fd-77ea-4e60-995f-c4bf3dcf9d2b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

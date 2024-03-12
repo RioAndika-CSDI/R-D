@@ -214,4 +214,87 @@
       <testCaseId>Test Cases/Homepage/H0008 - VerifyUserCanCheckFunctionalityTentangKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>243e7213-55f5-444c-bc90-3bb2b61b7bd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0031 - VerifyUserCanSearchACarWithoutInputFilter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>66d6c525-7c0c-416c-9830-d9addd229972</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0032 - VerifyResponseWhenInputAllFormButuhBantuan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dac756d3-7200-45a6-95f3-a0f75f1f3929</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0033 - VerifyCheckResponseWhenFormNameIsEmpty</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3dde05c-ac73-4617-be26-460c341127a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0034 - VerifyUserCanClickLogoSeva</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b355c9f-9091-44f2-9a1e-5ca0e7ffcf79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0035 - VerifyUserCanSeeDetailRekomendation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a0d453d9-a5f9-4471-af60-465c14231647</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0036 -VerifyUserCanHitungkemampuanFromRekomendasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17967c53-8a8a-4280-800a-7fd82944e27a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0037 - VerifyUserCanChooseCarFromHomepage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01c52606-d245-4df8-9b0e-168893a6fc09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanHitungKemampuanCarMobilImpian</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>500f42ea-5b86-4f27-8630-be8916fa8e1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0040 - SubmitLeadsHomepageNotLoginUser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d0c4d171-045c-4c27-b05a-608ec269faf0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ad8efab6-78bf-43f2-a924-96e88f20e7ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0041 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>702f1c20-41cf-4af1-aef0-c1e9bdf1cbdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0042 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

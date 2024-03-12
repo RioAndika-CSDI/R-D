@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Rekomendasi</name>
+   <tag></tag>
+   <elementGuidId>d5ec0143-04c8-4a5d-a2f4-d9c3957c82c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.popupResultRecommended_badgeText__x8KxC</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Rekomendasi&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3323fa35-99ab-49fa-8484-dc0c54abafc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popupResultRecommended_badgeText__x8KxC</value>
+      <webElementGuid>8bb57a6e-f6d9-4708-a882-3f80f3a9baaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rekomendasi</value>
+      <webElementGuid>e4945737-fc42-4fd0-9f53-a0982c1c508b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry custom-modal-result-recommended&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupResultRecommended_container__LWM5m&quot;]/div[@class=&quot;popupResultRecommended_badgeAndDescriptionWrapper__6Ru03&quot;]/div[@class=&quot;popupResultRecommended_badge__D9W9h&quot;]/span[@class=&quot;popupResultRecommended_badgeText__x8KxC&quot;]</value>
+      <webElementGuid>1a241519-ac0b-4295-92e9-ead7f1179025</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[3]</value>
+      <webElementGuid>b885c5d6-b366-40a0-a15d-2c613415207a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::span[3]</value>
+      <webElementGuid>9794e3ab-f63d-4408-a4e5-e64f6099f176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK, Saya Mengerti'])[1]/preceding::span[2]</value>
+      <webElementGuid>050ec09e-7b8d-47ad-8611-e5004e0a982b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rekomendasi']/parent::*</value>
+      <webElementGuid>4322db44-313e-4ad5-bb27-c77cd0bfc7e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div[2]/div/div/div/div/span</value>
+      <webElementGuid>9e8b1766-3621-41ca-a859-6de0ca1304e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
+      <webElementGuid>47fc29e6-968d-4bb4-be14-ab731c065c9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,39 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://www.seva.id/')
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
 
-WebUI.click(findTestObject('Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-not_run: WebUI.click(findTestObject('PopUP/button_x'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h2_Rekomendasi'))
 
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
+WebUI.scrollToElement(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h3_Semua'), 5)
 
-WebUI.click(findTestObject('Homepage Component/Select City List'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota'))
 
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Daihatsu'))
 
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Isuzu'))
 
-'Click Moengage Ads\r\n'
-WebUI.delay(4)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_BMW'))
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Peugeot'))
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.closeBrowser()
 

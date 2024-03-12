@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Hyundai</name>
+   <name>div_18-27</name>
    <tag></tag>
-   <elementGuidId>3adc2e49-9977-47a0-9f51-519b0a1042ab</elementGuidId>
+   <elementGuidId>1667ebf8-ee4e-4cff-89e6-6a073c18f9f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.formSelectBrandCar_box__5OnGr</value>
+         <value>#loan-calculator-form-age > div.inputSelect_container__sv8Xm.undefined > div.inputSelect_dropdown__2SfXo.false > div.inputSelect_dropdownItem__BIFMK</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(.,'Hyundai')]</value>
+         <value>//div[@id='loan-calculator-form-age']/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;logo-hyundai&quot;]</value>
+         <value>[data-testid=&quot;field-pilih-kategori-umur-18-27&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,86 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>07ffecdc-cde0-48a8-aea5-09989bf63da1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>c269f71a-966a-462b-b614-6125b4defae7</webElementGuid>
+      <webElementGuid>2a95507f-62fb-4e45-951c-febcdc25474a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>67145b11-cb8f-4478-a70a-f38717aebc63</webElementGuid>
+      <value>inputSelect_dropdownItem__BIFMK</value>
+      <webElementGuid>bb4157b6-2c4d-4d8c-8b2c-84a0c52a61e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>logo-hyundai</value>
-      <webElementGuid>4a00b9a9-92c8-44d7-8cb1-ebc3a001a6c4</webElementGuid>
+      <value>field-pilih-kategori-umur-18-27</value>
+      <webElementGuid>018c00d5-6507-4bbb-827d-578d9cd30e7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Hyundai</value>
-      <webElementGuid>cd8f10f4-06e3-4d1b-88fd-80fdcad87452</webElementGuid>
+      <value>18-27</value>
+      <webElementGuid>2bfc7af3-c903-4dc0-9d4d-1f0071ad5e53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>9ceafce6-680b-46c5-b578-bc27f3544cb0</webElementGuid>
+      <value>id(&quot;loan-calculator-form-age&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo false&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]</value>
+      <webElementGuid>7a1636b7-4ce1-41b6-973f-b95e57bdb8cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peugeot'])[2]/following::div[2]</value>
-      <webElementGuid>23e43ae6-0696-47f6-ae0c-1c93b67b8572</webElementGuid>
+      <value>//div[@id='loan-calculator-form-age']/div/div[2]/div</value>
+      <webElementGuid>d86cb515-1e4e-4821-ab4b-70f14e900dd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[5]</value>
-      <webElementGuid>ade89588-77c0-431a-92a8-5fbfcff4ad28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal'])[1]/following::div[11]</value>
+      <webElementGuid>12eb2667-43b3-4765-a761-98d9b9e6560c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/preceding::div[2]</value>
-      <webElementGuid>8a9f042f-9f6b-47bf-bf32-5668dd049ee1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::div[3]</value>
+      <webElementGuid>91a70c5a-8de0-4305-993e-a61c8d24880d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[1]/preceding::div[4]</value>
+      <webElementGuid>0746e6ef-d67d-4d6d-bce0-4a0bdc784ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[6]/div</value>
-      <webElementGuid>23095da1-bd94-4333-9c66-d216f355f94f</webElementGuid>
+      <value>//div[6]/div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>8872be57-c5f3-447e-9eeb-0c04ebf9ebed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Hyundai' or . = ' Hyundai')]</value>
-      <webElementGuid>36d8ca96-d1ce-44be-9e7a-e4bea632cca3</webElementGuid>
+      <value>//div[(text() = '18-27' or . = '18-27')]</value>
+      <webElementGuid>f33fe742-667a-4166-84ee-a86d0647e0c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
