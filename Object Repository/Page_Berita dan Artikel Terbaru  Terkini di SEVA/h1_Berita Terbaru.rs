@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Berita Terbaru</name>
+   <tag></tag>
+   <elementGuidId>322c5427-9861-4592-8cbf-411e6d5acd7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>a5030c91-6dcc-424a-b38c-ac850c362bbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Berita Terbaru</value>
+      <webElementGuid>fccdfe9b-8485-429f-bd9a-5b2784bff064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;w-full top-0 bg-white fixed&quot;]/main[@class=&quot;font-[rubik]&quot;]/section[@class=&quot;container max-w-[1213px] my-[15px]&quot;]/div[@class=&quot;flex justify-between items-center mb-[20px]&quot;]/span[@class=&quot;font-bold text-[16px] mobile:text-[28px]&quot;]/h1[1]</value>
+      <webElementGuid>8fe828d7-5fec-4ac1-8cbf-5dbd66a3282b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>4c81477f-bb2f-4f16-8990-19cb53f4366e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Berita Terbaru' or . = 'Berita Terbaru')]</value>
+      <webElementGuid>bbf9f181-9a42-4b76-9b50-a062d2527ca1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

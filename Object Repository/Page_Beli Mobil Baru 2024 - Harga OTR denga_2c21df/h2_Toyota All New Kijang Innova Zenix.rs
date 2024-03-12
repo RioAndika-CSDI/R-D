@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Toyota All New Kijang Innova Zenix</name>
+   <tag></tag>
+   <elementGuidId>b24571dc-d816-4b4f-ad05-23ecc6dd6b31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.cardetailcard_brandModelText__H3ZBU</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Toyota All New Kijang Innova Zenix Harga OTR Jakarta Pusat Rp425,6 - 552,46 jt Cicilan Rp8,98 jt DP Rp85,1 jt Tenor 5 Tahun Lihat Detail&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>87ae297c-2f94-44af-98f1-13f6c81ab652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard_brandModelText__H3ZBU</value>
+      <webElementGuid>dd016d28-7cec-4f11-80df-1e06b53688be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>[object Object]brand-model-mobil</value>
+      <webElementGuid>563c7393-24bb-40e3-a532-85bd38c8b7de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota All New Kijang Innova Zenix</value>
+      <webElementGuid>e9f601ae-4796-4b27-bb46-c5eaaa9b1276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/h2[@class=&quot;cardetailcard_brandModelText__H3ZBU&quot;]</value>
+      <webElementGuid>683e22c3-bf73-4263-9ca7-63b6fe04a63f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
+      <webElementGuid>fa82b2e8-c6e3-4b22-bc19-ee3a379e3acb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/preceding::h2[1]</value>
+      <webElementGuid>7b6345ed-ff86-43d3-b669-548182320def</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h2[1]</value>
+      <webElementGuid>2f8db2fd-5377-4e2a-a24c-e6ad77fee2ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/h2</value>
+      <webElementGuid>d81b828f-09ce-47e4-b3eb-bea9ea62895a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Toyota All New Kijang Innova Zenix' or . = 'Toyota All New Kijang Innova Zenix')]</value>
+      <webElementGuid>35b0f64f-7669-4a8c-b74a-18a292585664</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

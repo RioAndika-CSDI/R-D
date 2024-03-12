@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_rocket-lazyload entered lazyloaded</name>
+   <tag></tag>
+   <elementGuidId>09b5c907-319d-47c4-8f82-5d8f4de7ac73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.rocket-lazyload.entered.lazyloaded</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Seva Logo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cfcd917a-583c-4783-b6d7-eca299622cf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bg</name>
+      <type>Main</type>
+      <value>https://www.seva.id/info/wp-content/uploads/2023/11/hamburger.png</value>
+      <webElementGuid>2595bf36-7a4b-47be-93b4-4ffebdfb41b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rocket-lazyload entered lazyloaded</value>
+      <webElementGuid>4e9d160f-edf0-4186-aa0c-b1ae8745fdbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ll-status</name>
+      <type>Main</type>
+      <value>loaded</value>
+      <webElementGuid>9bfbe926-26e7-462e-8dc1-b7b56dc0d46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;toggle-navigation&quot;)/div[@class=&quot;rocket-lazyload entered lazyloaded&quot;]</value>
+      <webElementGuid>5acbf5f2-d32d-4bf5-9a2a-52b5201ff5a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='toggle-navigation']/div</value>
+      <webElementGuid>eee35eec-ac63-4a47-ae8b-127e909eb838</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>61f0c6ba-dff5-4647-b312-4423e3ddfc95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Kami mengambil langkah-langkah untuk m_9b4513</name>
+   <tag></tag>
+   <elementGuidId>128dbb54-b95d-411c-a24e-dd34b1d1d5ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_isoWrapper__53r9r > span.footerMobile_footerText__ypVrZ</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/footer/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2cde9ab1-182f-4ef9-b8b7-a2bc1364df34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>footerMobile_footerText__ypVrZ</value>
+      <webElementGuid>0bb0d38a-9010-4215-aa03-ae0e8335c323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.</value>
+      <webElementGuid>f917e14f-ccd7-4437-92e2-5033437fdef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_isoWrapper__53r9r&quot;]/span[@class=&quot;footerMobile_footerText__ypVrZ&quot;]</value>
+      <webElementGuid>4aaecd06-e58e-4aeb-82de-d60a2a927e23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/footer/div/div[3]/span</value>
+      <webElementGuid>8b0031e5-f3d6-4d6e-9191-d4a4f0540971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>796cdcfd-13db-40eb-b3ad-d3680168d107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.' or . = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.')]</value>
+      <webElementGuid>af12ca1a-b81e-4653-bb37-78bdee6e533b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

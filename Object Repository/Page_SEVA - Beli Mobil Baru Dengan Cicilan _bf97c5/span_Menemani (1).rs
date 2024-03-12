@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Menemani (1)</name>
+   <tag></tag>
+   <elementGuidId>abba1e24-a406-46e5-a0e6-86f10e93149b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div[2]/h1/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mainHeroLp_mainTitle__xtFU_.mainHeroLp_regular__19ELU</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Menemani&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>376e7532-8507-4479-9c36-275d9ef3e74d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU</value>
+      <webElementGuid>c2272750-f489-4a84-bed1-5842fbe7dbe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Menemani </value>
+      <webElementGuid>af71b71c-e20e-42db-897a-c3a26c3a02dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]/span[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU&quot;]</value>
+      <webElementGuid>261d0dba-725e-43d4-9650-2aaaac7df9d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div[2]/h1/span</value>
+      <webElementGuid>0b7295db-bcf8-45bb-ad5a-90dc2d02e84b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA CALYA 1.2 G M/T 2021'])[1]/following::span[1]</value>
+      <webElementGuid>c6e46b00-b66c-42cf-96a9-74f02f3bd9d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingin tahu mobil yang cocok untukmu?'])[1]/preceding::span[1]</value>
+      <webElementGuid>3d05cc0d-cd00-4fed-ae24-fa2d6550bafc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit dan temukan mobil sesuai budgetmu.'])[1]/preceding::span[2]</value>
+      <webElementGuid>ee083254-9071-40c1-aaf2-98a2b44853ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Menemani']/parent::*</value>
+      <webElementGuid>e7f1d13d-bbe0-40b6-aaf7-d6f02f5d1dd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span</value>
+      <webElementGuid>66949fb7-564f-4662-8a65-b76cecd974d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Menemani ' or . = 'Menemani ')]</value>
+      <webElementGuid>c34d7e68-67e9-41e1-948e-966f9b2d5221</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

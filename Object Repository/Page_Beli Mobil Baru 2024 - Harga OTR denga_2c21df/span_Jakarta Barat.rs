@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jakarta Barat</name>
+   <tag></tag>
+   <elementGuidId>169b50a8-abb6-4c4f-bd1d-8f6e32565bc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.cardetailcard_smallSemibold__ADgQl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2f01a43d-d3f5-4ff4-8736-0d6c400b2746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard_smallSemibold__ADgQl</value>
+      <webElementGuid>273f36c2-847b-42ed-8711-bdc756ea0fce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Barat</value>
+      <webElementGuid>a327dbfc-241d-4e72-913c-cbd71d6fa1af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/div[@class=&quot;cardetailcard_hargaOtrWrapper__MGrVl&quot;]/span[@class=&quot;cardetailcard_smallSemibold__ADgQl&quot;]</value>
+      <webElementGuid>b594d101-b212-4405-a5e5-0257cf986a22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/div/span[2]</value>
+      <webElementGuid>abeb0df9-5979-4c6b-b2d4-0133bce7bbd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>0d5a4ba2-9506-4c22-8f1f-878f1017f43b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jakarta Barat' or . = 'Jakarta Barat')]</value>
+      <webElementGuid>54d83282-e5ce-4b2f-ae63-4b8c894a670c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

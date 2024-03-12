@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//div[@class='ant-float-btn-body']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>514bea80-c728-4f38-b6b2-fcb534be3806</webElementGuid>
+      <webElementGuid>508419c5-02a5-4c92-918c-d88ff58897d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>width</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>dfda05ad-c0cc-425d-be36-981eb1749335</webElementGuid>
+      <webElementGuid>bbc30c55-2a93-492f-a6fd-0aa7829b33c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>height</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>602ef73a-d180-4f6e-b31e-e3969835403d</webElementGuid>
+      <webElementGuid>3a9ea072-bb8d-486d-8b3d-1faef9715481</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 32 32</value>
-      <webElementGuid>4f2342ec-44c5-46e4-b01f-2f2cf360f796</webElementGuid>
+      <webElementGuid>107061ad-066b-4ee4-9dcc-23ea51dc78f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>900ab573-ce69-4151-8523-2582e6dd26c2</webElementGuid>
+      <webElementGuid>7b2b1c1a-28f6-4db8-acff-7b5907fe4721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>a1bce74b-fae8-4e3a-a064-8fcfd825db8c</webElementGuid>
+      <webElementGuid>1bedc8a0-4b62-4e68-bb9a-43f6e34039bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +71,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_socialWrapper__UDqS9&quot;]/a[4]/svg[1]</value>
-      <webElementGuid>f15bee95-5b68-48ff-b939-fe3f4cf93b6f</webElementGuid>
+      <webElementGuid>39c057fe-aef4-454a-ac51-a223d2304d70</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
