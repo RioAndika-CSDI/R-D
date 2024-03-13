@@ -25,7 +25,7 @@ WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
+WebUI.click(findTestObject('Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti saja (1)'))
 
 not_run: WebUI.click(findTestObject('PopUP/button_x'))
 

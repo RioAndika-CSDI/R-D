@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0018 - VerifyUserCanChooseCityFromPopupCitySelector</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03f9a567-8ce8-49b3-b15c-3c6bf1b6a28b</testCaseGuid>
+</TestCaseEntity>

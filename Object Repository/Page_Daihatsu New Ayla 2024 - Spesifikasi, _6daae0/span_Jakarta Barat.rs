@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jakarta Barat</name>
+   <tag></tag>
+   <elementGuidId>f739d49e-dcb3-44f3-8972-f6d251e76d1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.carOverView_otrCityInfo___1X7n > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29a1c584-9e5f-46e3-8cd3-1abe8fd1dd58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>car-overview-city-otr</value>
+      <webElementGuid>4749b5d3-fdb3-44be-b459-da11dcd4a6b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Barat</value>
+      <webElementGuid>0f154920-7724-4c6f-93f0-f3913b3aea09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__wAVF1&quot;]/div[@class=&quot;carOverView_otrWrapper__IS7_1&quot;]/div[@class=&quot;carOverView_cityInfoWrapper__Nj7ky&quot;]/span[@class=&quot;carOverView_otrCityInfo___1X7n&quot;]/span[1]</value>
+      <webElementGuid>0a63e651-de88-4081-acd9-6ca43d03f4d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div/div/span/span</value>
+      <webElementGuid>821b1c76-1262-4c2d-b614-ed7a3e34cbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>3d974735-90a3-4ae9-9d43-d278d3b54627</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jakarta Barat' or . = 'Jakarta Barat')]</value>
+      <webElementGuid>9bc18c11-5df3-40b6-9c5f-066c968811e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

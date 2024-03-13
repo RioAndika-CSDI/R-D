@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cek Promo Lain_overlay_overlay__NPcCZ o_00c5ad</name>
+   <tag></tag>
+   <elementGuidId>98db11c7-6017-455c-858b-458f51d74bb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.overlay_overlay__NPcCZ.overlay_showOverlay__13TB1.calculationResult_overlayAdditionalStyle__jJLzm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;result-loan-calculator&quot;] div >> internal:has-text=&quot;Cek Kualifikasi KreditHubungi Agen SEVA&quot;i >> div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bac146ca-c52c-4c2b-a06c-c90ba94925a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overlay_overlay__NPcCZ overlay_showOverlay__13TB1 calculationResult_overlayAdditionalStyle__jJLzm</value>
+      <webElementGuid>72ab9eab-2d36-4490-98c5-15b7e6f66213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;loanCalculator_content__CB3cD&quot;]/div[@class=&quot;calculationResult_container__jBjul&quot;]/div[@class=&quot;calculationResult_ctaGroup__SvD9f&quot;]/div[@class=&quot;overlay_overlay__NPcCZ overlay_showOverlay__13TB1 calculationResult_overlayAdditionalStyle__jJLzm&quot;]</value>
+      <webElementGuid>38dfd64b-1594-4ceb-9564-30916eb86e00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
+      <webElementGuid>6fb034b2-7db2-44da-84bb-8cf3eabe62e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div[2]</value>
+      <webElementGuid>fee22514-be04-4936-b2e1-85b5617bfc36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
