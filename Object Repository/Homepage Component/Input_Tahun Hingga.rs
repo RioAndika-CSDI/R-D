@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Tahun Hingga</name>
+   <tag></tag>
+   <elementGuidId>7ed66744-3a3f-4c66-a8c1-6f321bab0158</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchYear_container__wvuqm</value>
+      <webElementGuid>3562852d-c43a-4d16-b41e-ac09c0943409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hingga</value>
+      <webElementGuid>85bdcd93-741d-401d-b357-fcbc8184e1f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>2242d71e-1170-4aa3-8919-cf7c8099dbd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>53751708-05b1-4088-856f-eee740912786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
+      <webElementGuid>53df5cbf-d58d-410b-bdbf-f7c156b5e9fd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

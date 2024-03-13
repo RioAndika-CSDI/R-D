@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>skmb002membukahalamanmobilbekasmelaluiiconhamburger</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a2aefacc-f6b8-4916-b70c-90503b537ce3</testSuiteGuid>
+   <testCaseLink>
+      <guid>d5f5b64c-d9a0-4ca6-b960-5615c8c250e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas Melalui Icon Hamburger</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>764ce615-750a-4b03-9559-0524dd702a5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>981e510e-7b3c-4d54-b6fd-eb8606db0d50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40ec2323-efe6-4cca-ad6f-a0d70ae61a68</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

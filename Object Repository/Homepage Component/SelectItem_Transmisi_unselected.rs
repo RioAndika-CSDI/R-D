@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectItem_Transmisi_unselected</name>
+   <tag></tag>
+   <elementGuidId>41e27216-f497-46ac-aad2-1d0c6d40eb49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formSearchTransmission_box__iwOI9' and (contains(text(), '${transmisi}') or contains(., '${transmisi}'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchTransmission_box__iwOI9</value>
+      <webElementGuid>17304003-0e5e-4ca4-8a44-8ad373bb0604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${transmisi}</value>
+      <webElementGuid>71ab210f-01cd-4da0-8d24-9e5975d3cf2b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
