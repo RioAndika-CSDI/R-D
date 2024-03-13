@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Navigator_Filter</name>
+   <tag></tag>
+   <elementGuidId>bb4a5965-4421-4c38-83ee-a62c57f5bd58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'navigationfiltermobile_navOuter__9ZZHh' and (contains(text(), '${filter}') or contains(., '${filter}'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationfiltermobile_navOuter__9ZZHh</value>
+      <webElementGuid>15cc0b48-0421-4b95-980c-f25f20d45384</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${filter}</value>
+      <webElementGuid>faeb7070-ab09-45e3-87a1-ac23113a91a6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

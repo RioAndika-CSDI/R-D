@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Tahun Dari Filter</name>
+   <tag></tag>
+   <elementGuidId>24fac012-2a20-4195-9fbe-a47f68e0227d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Dari')]//input[@type = 'tel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchYear_container__wvuqm</value>
+      <webElementGuid>264a710c-dd7f-4f7e-9a8b-604b4da59e1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dari</value>
+      <webElementGuid>0f45e4a4-b61d-4260-9d95-64226bf1fcf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>24526d74-fedc-40f5-99ae-8db93660fa88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>97f6a23b-92a4-4953-8804-bbc7d3a0ed22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Dari')]//input[@type = 'tel']</value>
+      <webElementGuid>e0c59c93-2f9d-46f2-a983-217fbe41089f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

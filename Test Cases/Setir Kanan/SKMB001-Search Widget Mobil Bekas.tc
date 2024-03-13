@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SKMB001-Search Widget Mobil Bekas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76b790db-8ae3-430c-a056-795cf2097821</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b24cca30-4b46-44c0-9751-7536ea3c49c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76bf21aa-deb5-427d-8d50-848b1786e9d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71da2ad7-d055-47fc-bac9-2be75157b08d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <description></description>
+      <id>b24cca30-4b46-44c0-9751-7536ea3c49c3</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>76bf21aa-deb5-427d-8d50-848b1786e9d1</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>71da2ad7-d055-47fc-bac9-2be75157b08d</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

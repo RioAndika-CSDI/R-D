@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectItem_Transmisi_selected</name>
+   <tag></tag>
+   <elementGuidId>a5df7d41-df35-4617-a2e6-dfc7c7773685</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formSearchTransmission_boxOnclick__qLiXo' and (contains(text(), '${transmisi}') or contains(., '${transmisi}'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchTransmission_boxOnclick__qLiXo</value>
+      <webElementGuid>d47b57e7-7501-4048-9530-30c245b7a28a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${transmisi}</value>
+      <webElementGuid>bf14ea47-c0a8-4964-8a87-f010d4f78f7f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
