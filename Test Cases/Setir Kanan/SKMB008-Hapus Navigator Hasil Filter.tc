@@ -1,151 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SKMB007-Menghapus Data Filter</name>
+   <name>SKMB008-Hapus Navigator Hasil Filter</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>befa8abd-a25e-4732-ac6a-d8d01b64b2b6</testCaseGuid>
+   <testCaseGuid>57267a4d-6cd8-471b-8b1a-e90d3af3c782</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5bdc4eff-2854-419e-87e1-f938913895c4</variableId>
+      <variableId>a0424733-5df3-4d3b-879b-8bf0474669f8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d81af5fe-a61a-4b87-9c2f-f70638340862</variableId>
+      <variableId>94decd9c-3ce5-44ab-b643-1285249f9005</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>758abbd4-d8ab-4502-b38e-6a29fced873d</variableId>
+      <variableId>a34fdf58-ff13-41ec-a4db-1f1c9394cf99</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a6247b05-da0d-413d-a383-75598f96ed5e</variableId>
+      <variableId>bbd39b52-a31e-4b6b-8632-742cd0fe36c1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>202b65df-f605-4955-a6b7-2860043f22ae</variableId>
+      <variableId>03f2d5cc-4bd2-4007-b128-eb59778b0f01</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>89d293cf-05d5-4a82-be3c-2330896dcfcf</variableId>
+      <variableId>56f752d4-8ea2-4401-8138-2ce77270a11f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>14f432bb-961a-49e6-ae8e-52c63cabe80b</variableId>
+      <variableId>84fa71b2-dba0-48cb-a56e-87a9b93d08b2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ead6cef1-120f-48ca-b765-61aa9593d3b0</variableId>
+      <variableId>88816d69-0e7c-4b1e-88f6-60c7d6e0293b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d8eeac85-380c-42d1-a790-0d5f9cfdbd58</variableId>
+      <variableId>3d13eabc-e3d9-434e-beff-d4c84292bc55</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>350a06d9-c069-43a7-acc7-e8ed4a3ee48a</variableId>
+      <variableId>cecd03c6-01ef-47ec-a2d0-8c9a1cf33b90</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7a7caa74-d263-4e7c-80b3-e4af063b7928</variableId>
+      <variableId>2648c6e1-dc27-4a7f-b972-9a9d8a391699</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
-      <description></description>
-      <id>5bdc4eff-2854-419e-87e1-f938913895c4</id>
-      <masked>false</masked>
-      <name>url_skmb001_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'Toyota;Daihatsu'</defaultValue>
-      <description></description>
-      <id>d81af5fe-a61a-4b87-9c2f-f70638340862</id>
-      <masked>false</masked>
-      <name>brand_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'2016-2020'</defaultValue>
-      <description></description>
-      <id>758abbd4-d8ab-4502-b38e-6a29fced873d</id>
-      <masked>false</masked>
-      <name>tahun_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'Manual;Otomatis'</defaultValue>
-      <description></description>
-      <id>a6247b05-da0d-413d-a383-75598f96ed5e</id>
-      <masked>false</masked>
-      <name>transmisi_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'Ganjil;Genap'</defaultValue>
-      <description></description>
-      <id>202b65df-f605-4955-a6b7-2860043f22ae</id>
-      <masked>false</masked>
-      <name>plat_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'Jakarta;Kab. bandung'</defaultValue>
-      <description></description>
-      <id>89d293cf-05d5-4a82-be3c-2330896dcfcf</id>
-      <masked>false</masked>
-      <name>lokasi_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'10.000-20.000'</defaultValue>
-      <description></description>
-      <id>14f432bb-961a-49e6-ae8e-52c63cabe80b</id>
-      <masked>false</masked>
-      <name>kilometer_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>'90.000.000-100.000.000'</defaultValue>
-      <description></description>
-      <id>ead6cef1-120f-48ca-b765-61aa9593d3b0</id>
-      <masked>false</masked>
-      <name>harga_Filter</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d8eeac85-380c-42d1-a790-0d5f9cfdbd58</id>
-      <masked>false</masked>
-      <name>screen</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e5513d3-8595-406a-a00e-129dc3d839c4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>350a06d9-c069-43a7-acc7-e8ed4a3ee48a</id>
+      <id>a0424733-5df3-4d3b-879b-8bf0474669f8</id>
       <masked>false</masked>
       <name>open_browser</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>7a7caa74-d263-4e7c-80b3-e4af063b7928</id>
+      <id>94decd9c-3ce5-44ab-b643-1285249f9005</id>
       <masked>false</masked>
       <name>close_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <description></description>
+      <id>a34fdf58-ff13-41ec-a4db-1f1c9394cf99</id>
+      <masked>false</masked>
+      <name>url_skmb001</name>
+   </variable>
+   <variable>
+      <defaultValue>'Toyota;Daihatsu'</defaultValue>
+      <description></description>
+      <id>bbd39b52-a31e-4b6b-8632-742cd0fe36c1</id>
+      <masked>false</masked>
+      <name>brand</name>
+   </variable>
+   <variable>
+      <defaultValue>'2016-2020'</defaultValue>
+      <description></description>
+      <id>03f2d5cc-4bd2-4007-b128-eb59778b0f01</id>
+      <masked>false</masked>
+      <name>tahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manual;Otomatis'</defaultValue>
+      <description></description>
+      <id>56f752d4-8ea2-4401-8138-2ce77270a11f</id>
+      <masked>false</masked>
+      <name>transmisi</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ganjil;Genap'</defaultValue>
+      <description></description>
+      <id>84fa71b2-dba0-48cb-a56e-87a9b93d08b2</id>
+      <masked>false</masked>
+      <name>plat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta;Kab. bandung'</defaultValue>
+      <description></description>
+      <id>88816d69-0e7c-4b1e-88f6-60c7d6e0293b</id>
+      <masked>false</masked>
+      <name>lokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>'2.000-20.000'</defaultValue>
+      <description></description>
+      <id>3d13eabc-e3d9-434e-beff-d4c84292bc55</id>
+      <masked>false</masked>
+      <name>kilometer</name>
+   </variable>
+   <variable>
+      <defaultValue>'60.000.000-100.000.000'</defaultValue>
+      <description></description>
+      <id>cecd03c6-01ef-47ec-a2d0-8c9a1cf33b90</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2648c6e1-dc27-4a7f-b972-9a9d8a391699</id>
+      <masked>false</masked>
+      <name>navigateFilter_tambahan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e5513d3-8595-406a-a00e-129dc3d839c4</id>
+      <masked>false</masked>
+      <name>screen</name>
    </variable>
 </TestCaseEntity>

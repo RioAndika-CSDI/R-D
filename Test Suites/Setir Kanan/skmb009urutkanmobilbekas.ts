@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>skmb009urutkanmobilbekas</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>820678ce-d94b-4098-b14b-0d6b694d0012</testSuiteGuid>
+   <testCaseLink>
+      <guid>0aabeb02-97fe-4d4c-8e13-82a3a501c2ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB009-Urutkan Mobil Bekas</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9fc87d17-0316-40db-8941-f5ca9a212689</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Urutkan Mobil</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>764ce615-750a-4b03-9559-0524dd702a5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>981e510e-7b3c-4d54-b6fd-eb8606db0d50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc87d17-0316-40db-8941-f5ca9a212689</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sorting</value>
+         <variableId>0b666979-93fa-43e7-a6b5-191fba6c26fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40ec2323-efe6-4cca-ad6f-a0d70ae61a68</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
