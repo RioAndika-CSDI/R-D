@@ -18,33 +18,34 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('seva.id')
+    WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
+            , ('url_skmb001') : url_skmb001, ('brand') : brand, ('tahun') : tahun, ('transmisi') : transmisi, ('plat') : plat
+            , ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : '', ('screen') : ''], 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
 }
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
+boolean loop = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Navigator_Filter 1st'), 
+    1)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+while (loop == true) {
+    navigatorFilter = WebUI.getText(findTestObject('Page Mobil Bekas/Navigator_Filter 1st'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+    WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : navigatorFilter]), 0)
 
-WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
+    WebUI.click(findTestObject('Page Mobil Bekas/Navigator_Filter_X 1st'))
 
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
+    WebUI.waitForElementNotPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : navigatorFilter]), 
+        60)
 
-WebUI.waitForPageLoad(50)
-
-String actual_url = WebUI.getUrl()
-
-WebUI.comment(actual_url)
-
-//menggunakan if karena jika lansung menggunakan verify match error walaupun url sudah sama persis
-if (actual_url.equals(expected_url.toString())) {
-    WebUI.verifyMatch('true', 'true', true)
-} else {
-    WebUI.verifyMatch('false', 'true', true)
+    loop = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Navigator_Filter 1st'), 
+        1)
 }
 
 if (close_browser.toString().equals('1')) {
+    WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Navigator_Filter 1st'), 0)
+
     WebUI.closeBrowser()
 }
 
