@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : dealer
-        , ('expected_URL') : expected_URL, ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
+        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : 0, ('kontak_dealer_ke') : kontak_dealer_ke], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/input_Kota_inputSelect_alternativeInputFiel_da670e'), 
-    city)
+WebUI.click(findTestObject('Page - Detail dealer/Lihat peta_CTA'))
 
-WebUI.click(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di Indonesia  SEVA/option_city', [('city') : city]))
+WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/button_Cari Dealer'))
+url = WebUI.getUrl()
 
-WebUI.waitForPageLoad(50)
+WebUI.comment(url)
 
-actuall_URL = WebUI.getUrl()
+url = url.toString().substring(0, map_url.toString().length())
 
-WebUI.verifyMatch(actuall_URL, expected_URL + '/' + city.toString().toLowerCase(), true)
+WebUI.verifyMatch(url, map_url.toString(), true)
 
 WebUI.closeBrowser()
 

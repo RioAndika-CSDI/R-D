@@ -17,21 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : dealer
-        , ('expected_URL') : expected_URL, ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
+        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/input_Kota_inputSelect_alternativeInputFiel_da670e'), 
-    city)
+WebUI.scrollToElement(findTestObject('Page - Detail dealer/Halaman Submit leads'), 0)
 
-WebUI.click(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di Indonesia  SEVA/option_city', [('city') : city]))
+WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
 
-WebUI.click(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/button_Cari Dealer'))
+WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
 
-WebUI.waitForPageLoad(50)
+WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
 
-actuall_URL = WebUI.getUrl()
+WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
 
-WebUI.verifyMatch(actuall_URL, expected_URL + '/' + city.toString().toLowerCase(), true)
+WebUI.click(findTestObject('Page - Detail dealer/Button kirim'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Page - Detail dealer/Popup OTP'))
+
+WebUI.click(findTestObject('Page - Detail dealer/Field input OTP'))
+
+WebUI.setText(findTestObject('Page - Detail dealer/Field input OTP'), otp)
+
+WebUI.verifyElementPresent(findTestObject('Page - Detail dealer/validasi popup nomor berhasil diverifikasi'), 0)
 
