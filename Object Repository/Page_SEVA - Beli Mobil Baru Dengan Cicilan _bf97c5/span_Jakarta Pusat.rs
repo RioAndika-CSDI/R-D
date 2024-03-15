@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jakarta Pusat</name>
+   <tag></tag>
+   <elementGuidId>21858b97-4e77-441d-bc02-31bf54f1ecc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.inputSelect_dropdownItemText__7p2jg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>48baa6d3-a36f-4744-a4bd-c66cdd008040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItemText__7p2jg</value>
+      <webElementGuid>d758fee6-f38d-4f5f-9e12-a7fdbbed7ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Pusat</value>
+      <webElementGuid>011bc191-fadf-4eff-9918-83da8dd4a051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry city-selector-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;citySelectorModal_inputSelectWrapper__yU12S&quot;]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo false&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/span[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
+      <webElementGuid>f4f6a7ea-4d5a-4407-9440-86e0c742a78a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/span</value>
+      <webElementGuid>bb09b054-6fd6-4eca-b654-da17a7720289</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jakarta Pusat' or . = 'Jakarta Pusat')]</value>
+      <webElementGuid>23a8ed57-e4ca-49b2-a152-a23fa6ff7d83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

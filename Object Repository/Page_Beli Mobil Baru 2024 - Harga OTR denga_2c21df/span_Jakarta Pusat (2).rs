@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jakarta Pusat (2)</name>
+   <tag></tag>
+   <elementGuidId>fb685a9a-fc94-47b0-8c79-07a601643303</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.cardetailcard_smallSemibold__ADgQl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Daihatsu New Ayla Harga OTR Jakarta Pusat Rp115,55 - 175,3 jt Cicilan Rp2,55 jt DP Rp23,1 jt Tenor 5 Tahun Lihat Detail&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79d6ea0a-2cb8-4e5e-a4b8-ba283146c48b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard_smallSemibold__ADgQl</value>
+      <webElementGuid>9b174bcb-d018-461b-a6b1-2c87b697b2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Pusat</value>
+      <webElementGuid>e394dd79-c844-48d0-9e74-a4f7c7a5ab3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/div[@class=&quot;cardetailcard_hargaOtrWrapper__MGrVl&quot;]/span[@class=&quot;cardetailcard_smallSemibold__ADgQl&quot;]</value>
+      <webElementGuid>b857ce4d-be77-47f3-9698-d53f4ae28ace</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/div/span[2]</value>
+      <webElementGuid>f8632ecd-a8fd-403d-8718-d02c22702f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/following::span[1]</value>
+      <webElementGuid>cbe1c986-0e95-44e7-9516-9d4bfd80941e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu New Ayla'])[1]/following::span[2]</value>
+      <webElementGuid>c1b0414e-5d52-4d1c-9849-1f960d8dd9ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicilan'])[1]/preceding::span[2]</value>
+      <webElementGuid>273741bd-7662-4dd8-a0f8-f6be970a4d91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jakarta Pusat']/parent::*</value>
+      <webElementGuid>d37400f6-7c6e-4607-873d-c0f4e5b9bb70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>baf13ec2-3b13-4f9a-893a-cf55e1f29b65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jakarta Pusat' or . = 'Jakarta Pusat')]</value>
+      <webElementGuid>fb388d88-5e7b-4e22-96b8-2f2d9d0b666b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

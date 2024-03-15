@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jakarta Pusat</name>
+   <tag></tag>
+   <elementGuidId>b9a31caf-3526-4050-a3b0-5a91768a0256</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.carOverView_otrCityInfo___1X7n > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Jakarta Pusat&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fb30102d-03aa-4b8d-b5cb-430b1036f026</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>car-overview-city-otr</value>
+      <webElementGuid>3733695c-28a8-45b5-9241-d21a93bf0d00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Pusat</value>
+      <webElementGuid>43f49adc-116b-4381-a462-b96794e94eb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__wAVF1&quot;]/div[@class=&quot;carOverView_otrWrapper__IS7_1&quot;]/div[@class=&quot;carOverView_cityInfoWrapper__Nj7ky&quot;]/span[@class=&quot;carOverView_otrCityInfo___1X7n&quot;]/span[1]</value>
+      <webElementGuid>b86ec8db-b9e0-4b6c-aecd-72ff8b9650da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div/div/span/span</value>
+      <webElementGuid>30ad7db4-8be9-486a-8854-010e5471e15f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu New Ayla'])[1]/following::span[2]</value>
+      <webElementGuid>5b37c3cc-916c-411e-b920-15f3615d278f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp115,6 - 175,3 jt'])[1]/preceding::span[1]</value>
+      <webElementGuid>3bd3328d-7423-4495-be9b-2fcf02841e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicilan'])[1]/preceding::span[1]</value>
+      <webElementGuid>bf1c5462-7494-46d7-b4c5-1155f8a5d95d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jakarta Pusat']/parent::*</value>
+      <webElementGuid>395376ac-5152-4a3a-8887-14a0a055d581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>a86e9715-4f34-45d7-a934-f9c6ddb4afdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jakarta Pusat' or . = 'Jakarta Pusat')]</value>
+      <webElementGuid>3dc2e6d5-6457-4e4d-93b0-0476ff72d006</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

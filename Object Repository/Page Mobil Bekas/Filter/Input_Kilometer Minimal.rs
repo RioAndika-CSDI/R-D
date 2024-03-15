@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Kilometer Minimal</name>
+   <tag></tag>
+   <elementGuidId>11f76c7c-1dfb-4cf8-b1a5-4fa91db4ef67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Minimum')]//input[@type = 'tel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchYear_container__wvuqm</value>
+      <webElementGuid>bb7ede4f-73f4-4e83-b114-797a814230fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dari</value>
+      <webElementGuid>b531ebab-8724-43ec-9cba-8f1b90b2ed49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>84e5a8af-b2cc-428d-9cc1-50dec0fbeeff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>4e4a017c-76ac-4790-a9d7-2c7a06e47403</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Minimum')]//input[@type = 'tel']</value>
+      <webElementGuid>413ba3b9-9ab5-413d-9018-d8032a2533ca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

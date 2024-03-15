@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Kilometer Maksimal</name>
+   <tag></tag>
+   <elementGuidId>d9153f38-470f-42b4-8d98-345425ab5e9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Maksimum')]//input[@type = 'tel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSearchYear_container__wvuqm</value>
+      <webElementGuid>9d1468aa-b135-476c-8f59-45bb302f911a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hingga</value>
+      <webElementGuid>8b443759-8a0b-4606-9cd7-daecd25de32b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>496b056e-7cc0-44ec-94d5-95a273ea41b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>99862103-701c-4500-a479-c5f1dacc12b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Maksimum')]//input[@type = 'tel']</value>
+      <webElementGuid>ecc2e720-46e7-41e4-aeb4-f72fce4a0606</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

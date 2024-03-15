@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cari Mobil Baru (1)</name>
+   <tag></tag>
+   <elementGuidId>afb74f45-b017-492b-b3e5-56c5dc1645f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.searchWidget_buttonWrapper__smcas > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;button-cari-mobil&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5b79f4ca-00bf-4160-8d84-2baa57afa77c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
+      <webElementGuid>92926aac-b477-4f3e-ad8d-8d61bb676ac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-cari-mobil</value>
+      <webElementGuid>6e3a55cd-2d34-4ff3-82b1-6811c5d7458f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cari Mobil Baru</value>
+      <webElementGuid>ce7a7ccf-34c6-4c64-bb20-1f152f003e81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__SiBmi&quot;]/div[@class=&quot;searchWidget_container__nJgb2&quot;]/div[@class=&quot;searchWidget_buttonWrapper__smcas&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
+      <webElementGuid>80f2c712-6aee-446e-949c-b85ca03034a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div/div[2]/button</value>
+      <webElementGuid>41f9f325-b36a-4c66-a7ad-66ebf9176bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Kategori Umur'])[1]/following::button[1]</value>
+      <webElementGuid>d979a9d6-913b-4194-8059-33284559ac9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Umur'])[1]/following::button[1]</value>
+      <webElementGuid>02420714-321a-4327-8adf-85edf6d7aa84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/preceding::button[1]</value>
+      <webElementGuid>33d971b3-2f05-48fd-8b75-2427505b4cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/preceding::button[1]</value>
+      <webElementGuid>4841ff4f-9f0b-443c-8933-8325bf024f2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button</value>
+      <webElementGuid>9215003f-8f5d-488b-9800-2cbf88f70f77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cari Mobil Baru' or . = 'Cari Mobil Baru')]</value>
+      <webElementGuid>8a8e15f2-11b6-4085-b658-7b85519b819a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

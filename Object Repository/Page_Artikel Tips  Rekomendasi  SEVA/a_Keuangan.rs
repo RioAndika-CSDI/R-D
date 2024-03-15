@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Keuangan</name>
+   <tag></tag>
+   <elementGuidId>17eefb47-e0d9-4d0a-8190-4c6550df6397</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[text()=('Keuangan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#subSubMenu_2_4 > div:nth-of-type(4) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0068a7c2-4b4e-4d44-a292-7f7e76a625ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.seva.id/blog/category/keuangan/</value>
+      <webElementGuid>f911b3aa-b96c-4d03-b078-abcc89dbaf26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                        Keuangan                                                    </value>
+      <webElementGuid>9eed950f-feea-4735-b41f-e84d75e7049d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subSubMenu_2_4&quot;)/div[4]/a[1]</value>
+      <webElementGuid>57482dd5-8fc5-4e0d-99af-f730591cc670</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='subSubMenu_2_4']/div[4]/a</value>
+      <webElementGuid>7bd68990-37a7-4331-83ea-015af300e00c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Keuangan')])[2]</value>
+      <webElementGuid>26e8bcba-677e-4dee-81e7-c06b5594d36a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.seva.id/blog/category/keuangan/')]</value>
+      <webElementGuid>6d3deef3-9f34-4536-8842-e76dce15ec25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[4]/a</value>
+      <webElementGuid>ffc90f11-005d-4822-bd4e-7f9056398490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.seva.id/blog/category/keuangan/' and (text() = '
+                                                        Keuangan                                                    ' or . = '
+                                                        Keuangan                                                    ')]</value>
+      <webElementGuid>026f4de8-cb6d-4002-a8ae-7b9d9e1eb725</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

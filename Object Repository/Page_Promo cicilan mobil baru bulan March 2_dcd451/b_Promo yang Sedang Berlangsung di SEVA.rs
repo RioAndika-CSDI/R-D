@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Promo yang Sedang Berlangsung di SEVA</name>
+   <tag></tag>
+   <elementGuidId>c377fc51-db1a-44f5-a936-65d13ae9d1b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//b[@id='promoBerlangsung']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#promoBerlangsung</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>3e8c3a75-4efa-4df8-a551-61c831213aeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>promoBerlangsung</value>
+      <webElementGuid>e2a41c6c-8347-4cb1-8c49-de8b1f066761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Promo yang Sedang Berlangsung di SEVA</value>
+      <webElementGuid>84494a74-909f-4731-8dc8-03f5c4dace00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;promoBerlangsung&quot;)</value>
+      <webElementGuid>c9a9be93-d2bc-4a0b-8199-686f58befbb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//b[@id='promoBerlangsung']</value>
+      <webElementGuid>b1547b72-0b5d-4a8e-8b52-c72abe23d8f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/b</value>
+      <webElementGuid>91d55082-802a-4c6f-9678-35abf10ceb09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[@id = 'promoBerlangsung' and (text() = 'Promo yang Sedang Berlangsung di SEVA' or . = 'Promo yang Sedang Berlangsung di SEVA')]</value>
+      <webElementGuid>493ed58c-5639-41e1-be94-7398218883a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

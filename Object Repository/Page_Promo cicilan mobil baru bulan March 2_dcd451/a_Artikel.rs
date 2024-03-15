@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Artikel</name>
+   <tag></tag>
+   <elementGuidId>60c12b4f-818d-4af8-ac90-6e9500baf9cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subMenu_2_4 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[text()=('Artikel')])</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f5b03db8-e106-40c6-94fe-512fbf89b8fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>fa87d786-058f-448b-9e2a-d02ba5fa29f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Artikel                                        </value>
+      <webElementGuid>8d4e1abb-9fa5-4d20-aa52-a432912b1ce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subMenu_2_4&quot;)/a[1]</value>
+      <webElementGuid>87fa3d85-d01a-48e9-a1ca-60b91e53df56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='subMenu_2_4']/a</value>
+      <webElementGuid>91309f68-3c8b-4764-b3f4-09cbf28adba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Artikel')])[2]</value>
+      <webElementGuid>08be1d7e-5871-4320-ab5b-8c1eac996e97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>424ad290-c53c-4160-8005-9e9746f66199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/a</value>
+      <webElementGuid>a9a23cf6-5229-48bd-8ae4-50b1ca7f3a45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = '
+                                            Artikel                                        ' or . = '
+                                            Artikel                                        ')]</value>
+      <webElementGuid>daae3ff1-ae1c-4e11-909e-71a648cafdf5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

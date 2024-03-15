@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Terapkan Filter Disable</name>
+   <tag></tag>
+   <elementGuidId>f7c5ab24-e11d-4d3e-b7ed-4a863e08a1df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Terapkan' or . = 'Terapkan') and @disabled = '']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>954ba29c-c688-4c4d-a717-ac2dcd697861</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terapkan</value>
+      <webElementGuid>61cc8747-4d5e-486b-86ee-f7046452edf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>cb647ac3-6b1b-4c16-b2a0-4f6aad4fd393</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0033 - VerifyCheckResponseWhenFormNameIsEmpty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ae2805f-1d66-4897-8b30-76742707815d</testCaseGuid>
+</TestCaseEntity>

@@ -15,7 +15,7 @@
       <guid>04682c12-1af2-4370-b888-16e9289473d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage V.1/H0002 - CitySelector</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0002 - CitySelector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

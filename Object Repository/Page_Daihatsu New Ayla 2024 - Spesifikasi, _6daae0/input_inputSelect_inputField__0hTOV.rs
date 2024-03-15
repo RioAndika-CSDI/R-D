@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_inputSelect_inputField__0hTOV</name>
+   <tag></tag>
+   <elementGuidId>eb0e75a1-0078-4ade-8994-6c35b277fbc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Jakarta Barat']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.inputSelect_inputField__0hTOV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5c89ca7d-caea-4d99-bdc1-336ae763704b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3ffd7f28-feb6-482e-9ec7-88c401ddec1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_inputField__0hTOV</value>
+      <webElementGuid>4a01800b-2837-4fc4-af02-7067c5be221a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Cari kotamu</value>
+      <webElementGuid>ab16ad13-e6cb-4588-9559-d6948fd753a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-input-city</value>
+      <webElementGuid>4968a5bb-fedc-4b67-8b7e-1d320aa4487e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Jakarta Barat</value>
+      <webElementGuid>472fe188-a2d9-4f56-91de-8ca94a680c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry city-selector-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;citySelectorModal_inputSelectWrapper__yU12S&quot;]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/input[@class=&quot;inputSelect_inputField__0hTOV&quot;]</value>
+      <webElementGuid>7092115b-b9bf-460b-bc26-0745a6779835</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Jakarta Barat']</value>
+      <webElementGuid>a15b97d7-ea4b-4dd7-af15-a95a77b22e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div[2]/div/div/div/div/input</value>
+      <webElementGuid>1111b001-cbea-46a3-b978-f973649229bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Cari kotamu']</value>
+      <webElementGuid>64adcfb8-9ccc-4a30-bb1a-3e70dd4b4d23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
