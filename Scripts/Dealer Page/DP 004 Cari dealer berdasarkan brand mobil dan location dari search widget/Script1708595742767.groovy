@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : 'Daihatsu\r\n'
-        , ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('close_browser') : '0', ('open_browser') : '1'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : dealer
+        , ('expected_URL') : expected_URL, ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/input_Kota_inputSelect_alternativeInputFiel_da670e'), 
     city)
@@ -32,7 +31,7 @@ WebUI.waitForPageLoad(50)
 
 actuall_URL = WebUI.getUrl()
 
-WebUI.verifyMatch(actuall_URL, expected_URL + city.toString().toLowerCase(), true)
+WebUI.verifyMatch(actuall_URL, expected_URL + '/' + city.toString().toLowerCase(), true)
 
 WebUI.closeBrowser()
 

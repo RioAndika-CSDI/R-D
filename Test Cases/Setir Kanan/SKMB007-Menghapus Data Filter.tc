@@ -114,14 +114,14 @@
       <name>lokasi_Filter</name>
    </variable>
    <variable>
-      <defaultValue>'2.000-20.000'</defaultValue>
+      <defaultValue>'10.000-20.000'</defaultValue>
       <description></description>
       <id>14f432bb-961a-49e6-ae8e-52c63cabe80b</id>
       <masked>false</masked>
       <name>kilometer_Filter</name>
    </variable>
    <variable>
-      <defaultValue>'60.000.000-100.000.000'</defaultValue>
+      <defaultValue>'90.000.000-100.000.000'</defaultValue>
       <description></description>
       <id>ead6cef1-120f-48ca-b765-61aa9593d3b0</id>
       <masked>false</masked>

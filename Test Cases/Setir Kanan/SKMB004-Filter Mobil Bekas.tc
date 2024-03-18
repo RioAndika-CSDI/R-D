@@ -134,14 +134,14 @@
       <name>lokasi</name>
    </variable>
    <variable>
-      <defaultValue>'2.000-20.000'</defaultValue>
+      <defaultValue>'10.000-20.000'</defaultValue>
       <description></description>
       <id>3d13eabc-e3d9-434e-beff-d4c84292bc55</id>
       <masked>false</masked>
       <name>kilometer</name>
    </variable>
    <variable>
-      <defaultValue>'60.000.000-100.000.000'</defaultValue>
+      <defaultValue>'90.000.000-100.000.000'</defaultValue>
       <description></description>
       <id>cecd03c6-01ef-47ec-a2d0-8c9a1cf33b90</id>
       <masked>false</masked>

@@ -42,7 +42,7 @@
       <variableId>6d04790e-7f57-4912-957f-174eafb9d02e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'bandung\r\n'</defaultValue>
+      <defaultValue>'Bandung'</defaultValue>
       <description></description>
       <id>23f5095f-dfbf-4762-acb4-68ed0d71f35b</id>
       <masked>false</masked>
