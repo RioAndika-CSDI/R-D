@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
@@ -28,11 +26,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rou
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/main_LoginEmailPasswordRemember me Log inIn_9e366b'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_PUBLISHED'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Filter'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__input-container_1dfe63_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1_2'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1'))
 
 WebUI.closeBrowser()
 
