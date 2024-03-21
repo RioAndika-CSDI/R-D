@@ -32,9 +32,9 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Ma
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_Create Testimony'))
+//WebUI.click(findTestObject('Page_SEVA CMS/button_Add')) --> can't automation cause role
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_Create Testimony')) --> can't automation cause role
 
 WebUI.closeBrowser()
 

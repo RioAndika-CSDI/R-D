@@ -57,7 +57,7 @@
       <guid>18748ab1-81fe-4247-b7bd-880f0fe37595</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS003 - VerifyUserCanFilterNewestOnTestimonyManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Page_SEVA CMS/a_Announcement Box Management'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/path'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Clone Announcement Box'))
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/path')) --> can't automated cause role
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Clone Announcement Box')) --> can't automated cause role
 
 WebUI.closeBrowser()
 

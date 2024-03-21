@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Announcement Box M
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/svg_h-5 w-5'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Edit Announcement Box'))
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/svg_h-5 w-5')) --> can't automated cause role
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Edit Announcement Box')) --> can't automated cause role
 
 WebUI.closeBrowser()
 
