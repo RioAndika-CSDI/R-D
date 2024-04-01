@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LR001 - VerifyUserCanLoginWithRegisterPhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01bca340-5ee7-44ae-a711-0ff88070a86f</testCaseGuid>
+</TestCaseEntity>

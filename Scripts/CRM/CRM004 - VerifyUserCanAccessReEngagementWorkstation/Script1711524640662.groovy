@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser(GlobalVariable.crmstg)
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'), 0)
+WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'clement.csa@seva.id')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Button_Cari_Mobil_Baru'))
+WebUI.setEncryptedText(findTestObject('Page_Login SEVA CRM/input_Password_password'), 'wcJ6od6gnDYTywfJ7F4H4w==')
 
-WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/ContactPOPUP'))
+WebUI.click(findTestObject('Page_Login SEVA CRM/button_LOG IN'))
 
-WebUI.click(findTestObject('Object Repository/PLP - Component/Page_Beli Mobil Baru 2024 - Harga OTR denga_550104/button_Kirim'))
+WebUI.click(findTestObject('Page_SEVA CRM Homepage - SEVA CRM/div_Workstation'))
+
+WebUI.click(findTestObject('Page_SEVA CRM Homepage - SEVA CRM/a_Re-engagement Workstation'))
+
+WebUI.click(findTestObject('Object Repository/Page_Fast Reactivation - Re-engagement Work_70511d/div_Re-engagement Workstation (1)'))
+
+WebUI.closeBrowser()
 
