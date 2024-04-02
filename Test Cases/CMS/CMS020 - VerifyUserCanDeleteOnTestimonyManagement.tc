@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS020 - VerifyUserCanDeleteOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d98ed26-ff8d-4b7c-89df-2c8ce1d841d3</testCaseGuid>
+</TestCaseEntity>

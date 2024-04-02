@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select_Request Status Car of the Month Management</name>
+   <tag></tag>
+   <elementGuidId>ea40e4f9-7286-4515-b560-fd4949c3931a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__input-container.css-o3kr9i</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r4p:']/div/div[2]/div/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>971736f4-2e1f-484f-98f8-175cd2b4e2dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__input-container css-o3kr9i</value>
+      <webElementGuid>5e9f2915-b37b-4d76-91f9-b74e896c75d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r4p:&quot;)/div[@class=&quot;flex flex-col gap-1&quot;]/div[2]/div[@class=&quot;my-react-select-container css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-aso17u-control&quot;]/div[@class=&quot;relative overflow-hidden&quot;]/div[@class=&quot;h-full w-full rounded-[inherit] [&amp;>div]:!block&quot;]/div[1]/div[@class=&quot;!max-h-none my-react-select__value-container my-react-select__value-container--is-multi css-v53gj5&quot;]/div[@class=&quot;my-react-select__input-container css-o3kr9i&quot;]</value>
+      <webElementGuid>57e98b5c-472e-4f68-9bd5-1ffeac4c197b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r4p:']/div/div[2]/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>5012e582-b599-4c9a-a3ca-1b57ef9808ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::div[1]</value>
+      <webElementGuid>80e52615-5902-4cd7-954b-dd65cdacd571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Status'])[8]/following::div[9]</value>
+      <webElementGuid>50ecf0bd-1522-426b-ad1c-8452838fa05d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request to Publish'])[1]/preceding::div[4]</value>
+      <webElementGuid>6cac4f73-5e31-4a24-9c47-c1a34e419e31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request to Unpublish'])[1]/preceding::div[5]</value>
+      <webElementGuid>5df0290f-0e6e-4695-b495-641613728001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>f7aedb7e-fe34-4902-a0ea-72fdb9444c01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

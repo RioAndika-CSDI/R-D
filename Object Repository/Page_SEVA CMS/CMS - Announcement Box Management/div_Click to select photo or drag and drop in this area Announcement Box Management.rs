@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Click to select photo or drag and drop in this area Announcement Box Management</name>
+   <tag></tag>
+   <elementGuidId>ff594cfc-9a93-4583-a661-8ea072462024</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[3]/div/div[7]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>900ac79e-6a95-451d-9760-8123bae99e55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>a2b49891-52cc-4027-8e38-908cea260875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>3e0b5c82-1bf5-467b-b6c1-c012631f0523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-gray-50 border border-line rounded min-h-[192px] flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800</value>
+      <webElementGuid>c8fa7178-aa96-4b96-a4a0-55a9f9fa58f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to select photo or drag and drop in this area</value>
+      <webElementGuid>c90382d3-f342-4492-be42-c1a8c5303aa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-6 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;bg-gray-50 border border-line rounded min-h-[192px] flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800&quot;]</value>
+      <webElementGuid>32574f73-4025-4f4b-ab48-df8e580c78da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[3]/div/div[7]/div/div[2]/div</value>
+      <webElementGuid>c5dab99e-af7a-4196-a74a-d641b15213e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[2]</value>
+      <webElementGuid>fe170f9a-caba-49e0-840f-f33e342cb61e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icon'])[1]/following::div[2]</value>
+      <webElementGuid>43ca0ae2-8354-4f37-a721-10defad27fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File requirements: webp/png format, dimension 600x600 px, size up to 100 kb'])[1]/preceding::div[2]</value>
+      <webElementGuid>d5a022df-cd6a-45ef-b858-271f4ff619c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[2]/div</value>
+      <webElementGuid>b6939c94-87b7-4782-ae77-587a8de1b57a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Click to select photo or drag and drop in this area' or . = 'Click to select photo or drag and drop in this area')]</value>
+      <webElementGuid>bd151505-6b4a-4e53-a749-a0329b8e086d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Click to select photo Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>0dcf8635-1856-4e3a-a918-7d9324820359</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'file']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[2]/div/div[4]/div/div[2]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>92ce5cd4-ade9-499d-a408-9f83a6b07d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to select photo or drag and drop in this area</value>
+      <webElementGuid>688b6ce8-7e4d-41a1-a117-8570aa2db0d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;bg-gray-50 border border-line rounded min-h-[192px] flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800&quot;]/div[@class=&quot;flex max-w-[207px] flex-col items-center justify-center gap-1 text-center text-xs/[18px] text-shadesSecondaryGray&quot;]/span[1]</value>
+      <webElementGuid>afcf8ae0-950b-43ed-b1e8-6bd1450b7a5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>c7ed2db1-0fd0-457a-9425-c4f1da17f472</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>image/png,image/webp</value>
+      <webElementGuid>35edc0ec-663f-4e1a-878b-c55138947a86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[2]/div/div[4]/div/div[2]/div/div/span</value>
+      <webElementGuid>bad42af2-7949-46b2-8d8f-44a53bd37c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::span[1]</value>
+      <webElementGuid>807af065-e959-403c-acea-62214e15276a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Image'])[1]/following::span[2]</value>
+      <webElementGuid>2d0dbfa2-0be2-425c-ba88-23c3db30f09f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File requirements: webp/png format, 359px x 231px, size up to 1 MB'])[1]/preceding::span[1]</value>
+      <webElementGuid>9ab76147-f254-453b-b3e1-0aca852e7f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Description'])[1]/preceding::span[2]</value>
+      <webElementGuid>c3cf6e66-2cf3-43a9-a345-836c1ff38175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click to select photo or drag and drop in this area']/parent::*</value>
+      <webElementGuid>e8b9ff99-395a-46b5-8b40-86fd98557263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div/span</value>
+      <webElementGuid>a0437d1c-b3f4-4e69-802e-1a148ab68dde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Click to select photo or drag and drop in this area' or . = 'Click to select photo or drag and drop in this area')]</value>
+      <webElementGuid>8770420a-e1c1-452a-9895-ddc69108a2d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

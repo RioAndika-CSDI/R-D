@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS031 - VerifyUserCanFilterEndedOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84f59fb8-6e3a-4411-9700-871f69dd3a8d</testCaseGuid>
+</TestCaseEntity>

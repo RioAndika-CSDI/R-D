@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Kota Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>378f6caf-ae5e-4327-8bca-a4818b7e4fbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__input-container.css-o3kr9i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d4ed515-48b3-4a99-8576-ba5d2865fdc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__input-container css-o3kr9i</value>
+      <webElementGuid>d00391d7-161e-4098-8e9a-1fab11f0dde7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;my-react-select-container css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-aso17u-control&quot;]/div[@class=&quot;relative overflow-hidden&quot;]/div[@class=&quot;h-full w-full rounded-[inherit] [&amp;>div]:!block&quot;]/div[1]/div[@class=&quot;!max-h-none my-react-select__value-container css-hlgwow&quot;]/div[@class=&quot;my-react-select__input-container css-o3kr9i&quot;]</value>
+      <webElementGuid>ca1d2f69-2d13-4c36-9035-17afd446e6e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>4f5a2eaa-afe3-400c-a0fa-e37e6180be6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::div[1]</value>
+      <webElementGuid>fb11b667-a6dd-4faf-9bdd-bf883f303433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[8]</value>
+      <webElementGuid>9c589a6c-6cd4-48bb-a886-23bf230a3124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aceh Barat Daya'])[1]/preceding::div[4]</value>
+      <webElementGuid>4904bf3b-362c-4c98-b1e1-d14ac4dbe901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aceh Besar'])[1]/preceding::div[5]</value>
+      <webElementGuid>79436251-3103-4633-b3ba-c8485170c0f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>8e172604-577b-4667-8977-dd15773f3bdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

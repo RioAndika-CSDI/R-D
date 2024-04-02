@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS019 - VerifyUserCanCancelRequestToPublishOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2eb694fe-c785-4ecb-82c9-18d7dcbcb11f</testCaseGuid>
+</TestCaseEntity>

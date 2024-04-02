@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS018 - VerifyUserCanRequestToPublishOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a200e94-e829-448c-96b7-c247599d1d0d</testCaseGuid>
+</TestCaseEntity>

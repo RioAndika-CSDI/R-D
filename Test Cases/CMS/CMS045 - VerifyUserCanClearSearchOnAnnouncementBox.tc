@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS045 - VerifyUserCanClearSearchOnAnnouncementBox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b087d4eb-dfc4-4fb7-9f71-e593c9ff17dc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Entry have been cancelled Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>dff36139-5f14-466d-835a-155ab533303a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/section/ol/li/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b74019c8-58ad-42f6-89a5-9aa88c29edb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-1</value>
+      <webElementGuid>32fec16f-0a31-4343-b5a0-99cdad59b4da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Entry have been saved</value>
+      <webElementGuid>0f1b8779-fc61-4f5f-982c-2fa856c4e9c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/section[1]/ol[@class=&quot;toaster group&quot;]/li[@class=&quot;shadow-card bg-white flex items-center gap-1 px-4 py-2 text-primaryDarkGray font-sans text-sm font-normal rounded-lg&quot;]/div[@class=&quot;flex w-[369px] items-center gap-1&quot;]/div[@class=&quot;flex-1&quot;]</value>
+      <webElementGuid>016825af-7aa8-42fe-aa14-1af7e6d7c50b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/section/ol/li/div/div[2]</value>
+      <webElementGuid>0259c6a8-86df-460a-8620-4e05bcee15c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/following::div[5]</value>
+      <webElementGuid>c2a61f02-1123-43db-8366-c3e952784517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish End Date'])[1]/following::div[5]</value>
+      <webElementGuid>676ecbb1-a053-4bde-97e6-0bf0b055df35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[1]</value>
+      <webElementGuid>5febb8cf-1ddf-446f-aa4f-f82aec2dc8e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[1]</value>
+      <webElementGuid>93cc0cb4-372c-41e0-bed8-15f1604a81c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Entry have been cancelled']/parent::*</value>
+      <webElementGuid>7a4c02e8-ba8d-4813-866c-3fa19fe2519d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div[2]</value>
+      <webElementGuid>d1de3604-054b-4fbd-83e2-0b26bd017073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Entry have been cancelled' or . = 'Entry have been cancelled')]</value>
+      <webElementGuid>a7e735ce-e7a1-47cf-a035-76b5673e7b8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
