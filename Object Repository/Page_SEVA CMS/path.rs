@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>svg.h-6.w-6 > path</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>98631367-f2a9-4b49-8c1d-eb0ba66e54bb</webElementGuid>
+      <webElementGuid>0bb9781a-bb3e-4919-a694-bf518e42e059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,31 @@
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z</value>
-      <webElementGuid>3674df27-3224-4d6c-b8d2-e1a826889b03</webElementGuid>
+      <value>M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z</value>
+      <webElementGuid>0609de1b-4e5f-4b1a-8bab-5fb0e018e48c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-8&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[1]/td[@class=&quot;px-4 py-3 text-center&quot;]/div[@class=&quot;flex items-center justify-start space-x-4&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center leading-5 transition-colors duration-150 font-medium p-2 rounded-lg text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring&quot;]/svg[@class=&quot;h-5 w-5&quot;]/path[1]</value>
-      <webElementGuid>4094654d-2bb9-4e3a-9bc2-7baaa57fc9f1</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/header[@class=&quot;z-40 bg-white py-4 shadow-bottom-old dark:bg-gray-800&quot;]/div[@class=&quot;container mx-auto flex h-full items-center justify-between px-6 text-purple-600 dark:text-purple-300  lg:justify-end&quot;]/button[@class=&quot;focus:shadow-outline-purple -ml-1 mr-5 rounded-md p-1 focus:outline-none lg:hidden&quot;]/svg[@class=&quot;h-6 w-6&quot;]/path[1]</value>
+      <webElementGuid>cf6f9e99-3dc9-4c7c-83ce-2926876ba3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>63f10a27-0f2b-481c-878f-1062c4733c2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>0554535d-dceb-4c12-a99d-1cfb06c9b335</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

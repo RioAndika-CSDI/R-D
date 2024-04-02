@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS024 - VerifyUserCanAccessUserRoleManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eac3a347-8e66-4931-bc8f-b9aa60c2370c</testCaseGuid>
+</TestCaseEntity>

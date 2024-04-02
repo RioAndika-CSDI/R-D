@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS036 - VerifyUserCanFilterRejectedApprovalRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>870aae9a-98b0-4fd8-9924-d91c79b2eaa3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_User Management_absolute inset-0 rounde_878ca2</name>
+   <tag></tag>
+   <elementGuidId>6a160ca4-4420-4564-8256-2cedd1d90925</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.absolute.inset-0.rounded-full.shadow-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/header/div/ul/li[2]/button/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>55c6213a-2a88-4afc-aa61-0826dd491ec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute inset-0 rounded-full shadow-inner</value>
+      <webElementGuid>0f9a547c-7fbf-4596-8a28-15d90e319fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a01696ea-aa60-4eb0-9e61-4df62d9b2c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/header[@class=&quot;z-40 bg-white py-4 shadow-bottom-old dark:bg-gray-800&quot;]/div[@class=&quot;container mx-auto flex h-full items-center justify-between px-6 text-purple-600 dark:text-purple-300  lg:justify-end&quot;]/ul[@class=&quot;flex flex-shrink-0 items-center space-x-6&quot;]/li[@class=&quot;relative&quot;]/button[@class=&quot;focus:shadow-outline-purple rounded-full focus:outline-none&quot;]/div[@class=&quot;relative rounded-full inline-block w-8 h-8 align-middle&quot;]/div[@class=&quot;absolute inset-0 rounded-full shadow-inner&quot;]</value>
+      <webElementGuid>54f67577-cc7d-4627-b82c-b4e23a3f16fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/header/div/ul/li[2]/button/div/div</value>
+      <webElementGuid>45eb6aa1-2935-4367-93fc-8d77bbe17be1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/div</value>
+      <webElementGuid>1127d968-af99-485d-bd94-cf51417c9142</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

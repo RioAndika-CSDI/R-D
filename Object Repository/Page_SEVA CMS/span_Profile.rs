@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Profile</name>
+   <tag></tag>
+   <elementGuidId>14a82c53-5ece-4af2-915d-971401eda2a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/header/div/ul/li[2]/div/div[2]/ul/li/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9909f1d1-1a4c-4bd3-ae22-d70e4cf9f930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Profile</value>
+      <webElementGuid>83aa35a6-ff80-4056-9fb7-030cf1cb71e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/header[@class=&quot;z-40 bg-white py-4 shadow-bottom-old dark:bg-gray-800&quot;]/div[@class=&quot;container mx-auto flex h-full items-center justify-between px-6 text-purple-600 dark:text-purple-300  lg:justify-end&quot;]/ul[@class=&quot;flex flex-shrink-0 items-center space-x-6&quot;]/li[@class=&quot;relative&quot;]/div[@class=&quot;enter-done&quot;]/div[2]/ul[@class=&quot;absolute w-56 p-2 mt-2 text-gray-600 bg-white border border-gray-100 rounded-lg shadow-md min-w-max dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700 right-0&quot;]/li[@class=&quot;mb-2 last:mb-0&quot;]/button[@class=&quot;items-center cursor-pointer w-full px-2 py-1 text-sm font-medium transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200 inline-flex&quot;]/span[1]</value>
+      <webElementGuid>1db5c252-6697-447d-86c8-e848f0f13620</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/header/div/ul/li[2]/div/div[2]/ul/li/button/span</value>
+      <webElementGuid>8cecafdd-3720-483a-940d-cd6645db8a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Management'])[1]/following::span[1]</value>
+      <webElementGuid>c8c1f7b4-1451-4e2d-a58c-de0b738f9613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calculator Management'])[1]/following::span[3]</value>
+      <webElementGuid>18e08954-b81e-4e65-b397-dd7847c4690d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[1]</value>
+      <webElementGuid>239ba16f-6339-443f-abc7-ee56ddd545f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::span[2]</value>
+      <webElementGuid>e57c661f-2116-4ab1-bdad-dc0813e79855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Profile']/parent::*</value>
+      <webElementGuid>aea22b4f-1291-4ac3-89f7-2978ac4d3555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/button/span</value>
+      <webElementGuid>017a6e7d-319c-44b6-95f3-4e094b7b3ed6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Profile' or . = 'Profile')]</value>
+      <webElementGuid>9ac1a7cb-d84f-4bd3-a981-a8600b8cf651</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

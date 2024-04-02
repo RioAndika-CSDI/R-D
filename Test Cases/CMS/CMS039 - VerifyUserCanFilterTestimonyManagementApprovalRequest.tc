@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS039 - VerifyUserCanFilterTestimonyManagementApprovalRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8347c97-9168-469d-a2ab-62e03d499f18</testCaseGuid>
+</TestCaseEntity>
