@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Merek Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>56a2e71c-c32d-44c9-b759-2e812c2779e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1b0f9ded-0fcb-445b-ac14-3288be6f157e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__input-container css-o3kr9i</value>
+      <webElementGuid>0adef287-1df1-442c-9a10-e2e43f25d03b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;my-react-select-container css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-aso17u-control&quot;]/div[@class=&quot;relative overflow-hidden&quot;]/div[@class=&quot;h-full w-full rounded-[inherit] [&amp;>div]:!block&quot;]/div[1]/div[@class=&quot;!max-h-none my-react-select__value-container css-hlgwow&quot;]/div[@class=&quot;my-react-select__input-container css-o3kr9i&quot;]</value>
+      <webElementGuid>88716039-0f35-4848-b19e-a517337272ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>5194ccbb-1eba-489f-ac22-ba2d2884822f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[2]/following::div[1]</value>
+      <webElementGuid>8ebc292d-187d-4926-852d-08807ad1e1b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[8]</value>
+      <webElementGuid>54dc1dfe-ff93-4993-b829-73aff398ccc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[1]/preceding::div[4]</value>
+      <webElementGuid>cb2fd823-0412-4f7e-b375-b446229321b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[1]/preceding::div[5]</value>
+      <webElementGuid>4190a68e-4bcc-4b3b-8207-0a863737c451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>4370f120-4f60-47ee-891f-62f5e346dea9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

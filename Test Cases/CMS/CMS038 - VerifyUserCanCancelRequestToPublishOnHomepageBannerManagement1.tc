@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS038 - VerifyUserCanCancelRequestToPublishOnHomepageBannerManagement1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea44f6bf-66a7-4e53-921c-d746a489f637</testCaseGuid>
+</TestCaseEntity>

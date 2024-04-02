@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CMS017 - VerifyUserCanFilterDraftOnCarOfTheMonth</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1dbf3c84-3f61-45a3-962f-2ac24cc20c99</testCaseGuid>
-</TestCaseEntity>

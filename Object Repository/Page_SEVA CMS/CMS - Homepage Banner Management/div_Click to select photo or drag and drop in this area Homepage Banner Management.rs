@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Click to select photo or drag and drop in this area Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>47150e67-d0ec-4a07-8171-36ed31bf5667</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'file']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div/div[2]/div[2]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>01e06379-674c-48e9-a587-38e261fede27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>6954191b-6dc9-46a3-a80e-c426e7d2b58a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>bbe2a655-7ddd-4f10-be66-ed33d42fac41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-gray-50 border border-line rounded flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800 min-h-[150px]</value>
+      <webElementGuid>8e4f5d21-9c1c-448c-949f-df28d8f25fc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to select photo or drag and drop in this area</value>
+      <webElementGuid>9642df2a-6544-42b4-9da8-c8c1a1467ea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-2 gap-6&quot;]/div[2]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;bg-gray-50 border border-line rounded flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800 min-h-[150px]&quot;]</value>
+      <webElementGuid>abfb4319-7490-41e4-8056-9c806216108a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>a63dfc17-9dbf-4a2c-a957-11e69c0f065e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>image/png,image/webp</value>
+      <webElementGuid>8dc8b1e4-03c6-43ad-bc9b-6a1b9487d620</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div/div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>d0cb4c2e-973f-4128-b7bc-e48c9cd3b4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::div[2]</value>
+      <webElementGuid>2ee7087f-4d33-4440-82ff-6191e70b8379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile App'])[1]/following::div[2]</value>
+      <webElementGuid>38b55bfb-de67-4551-a614-547862d9cd03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File requirements: webp/png format, ratio 21:9, size up to 100 kb'])[1]/preceding::div[2]</value>
+      <webElementGuid>0488bb02-ca60-492b-988f-46ead059c853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>5a0e3c4b-e3ea-41c5-a5ce-e8679d74f18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Click to select photo or drag and drop in this area' or . = 'Click to select photo or drag and drop in this area')]</value>
+      <webElementGuid>fc720bd0-b8a7-4a99-84e5-b14c1c93c72f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

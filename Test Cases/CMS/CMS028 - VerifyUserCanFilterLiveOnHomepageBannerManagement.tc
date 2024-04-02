@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS028 - VerifyUserCanFilterLiveOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>518a968a-cb39-4251-a8fc-d3db57ee6e7e</testCaseGuid>
+</TestCaseEntity>
