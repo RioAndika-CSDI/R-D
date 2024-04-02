@@ -34,7 +34,15 @@ WebUI.click(findTestObject('Page_SEVA CMS/span_SEVA Content Management'))
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Car of the Month/a_Car of the Month Management'))
 
+<<<<<<< HEAD:Scripts/CMS/CMS055 - VerifyUserCanAccessCarOfTheMonth/Script1711906151862.groovy
 WebUI.verifyElementText(findTestObject('Object Repository/Page_SEVA CMS/h1_Car of the Month Management'), 'Car of the Month Management')
+=======
+WebUI.maximizeWindow()
+
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/path')) --> can't automated cause role
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Clone Announcement Box')) --> can't automated cause role
+>>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS014 - VerifyUserCanCloneAnnouncementBox/Script1707812027520.groovy
 
 WebUI.closeBrowser()
 

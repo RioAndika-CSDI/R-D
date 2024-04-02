@@ -43,7 +43,25 @@
       <guid>9c134cda-d4f6-4dd1-b323-32bab75eca1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
       <testCaseId>Test Cases/CMS/CMS042 - VerifyUserCanClickButtonEditAnnouncementBox</testCaseId>
+=======
+      <testCaseId>Test Cases/CMS/CMS013 - VerifyUserCanEditAnnouncementBox</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18748ab1-81fe-4247-b7bd-880f0fe37595</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b8d02dd-5bde-4a97-8a5e-5d71ed4e5bb8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/CMS009 - VerifyUserCanFilterEndedOnHomepageBannerManagement</testCaseId>
+>>>>>>> eb024bb350f25e9678763835805d8dce38476071
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

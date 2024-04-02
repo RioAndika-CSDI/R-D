@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//yt-formatted-string[@id='text']</value>
+         <value>(//span[text()=('SEVA by ASTRA')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>yt-formatted-string</value>
-      <webElementGuid>49ce61d4-12e5-4174-82a4-4337b2166331</webElementGuid>
+      <webElementGuid>1502ef83-29ff-4163-8c39-698cca9967c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>654a66c0-674c-439d-a7a5-08137bd1db2b</webElementGuid>
+      <webElementGuid>97c8a8d5-c838-4b4b-9bf2-b2e99c999d68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>style-scope ytd-channel-name</value>
-      <webElementGuid>a907cfe6-2e9c-465d-bf26-8a522ef42455</webElementGuid>
+      <webElementGuid>9dcd25b2-783d-42a5-989f-804628df37d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEVA by ASTRA</value>
-      <webElementGuid>d8bfdc2c-9c4d-4278-a3ec-f5cf36325c94</webElementGuid>
+      <webElementGuid>71d1ffd4-fda8-42cf-b307-cdf929bb8e2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;inner-header-container&quot;)/div[@id=&quot;meta&quot;]/ytd-channel-name[@id=&quot;channel-name&quot;]/div[@id=&quot;container&quot;]/div[@id=&quot;text-container&quot;]/yt-formatted-string[@id=&quot;text&quot;]</value>
-      <webElementGuid>b725884d-dc17-4fb6-9b38-6ba282134696</webElementGuid>
+      <webElementGuid>9d8af2f5-6b8b-43f1-b1d6-8f2c4e86ce05</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//yt-formatted-string[@id='text']</value>
-      <webElementGuid>c7fb6111-6384-4238-859e-17819d5bb3f2</webElementGuid>
+      <webElementGuid>e22641fb-45f6-467f-b488-6df9377c6fea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='text-container']/yt-formatted-string</value>
-      <webElementGuid>7598081b-17b6-431b-a359-9de0986d42b3</webElementGuid>
+      <webElementGuid>13d3d88d-6029-403c-9070-af558977f853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ytd-channel-name/div/div/yt-formatted-string</value>
-      <webElementGuid>3d4424db-8408-4014-83e2-65c8b0f3212e</webElementGuid>
+      <webElementGuid>291f1533-d6a6-437d-acf3-e11f51bf8b80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//yt-formatted-string[@id = 'text' and (text() = 'SEVA by ASTRA' or . = 'SEVA by ASTRA')]</value>
-      <webElementGuid>9a160e33-561f-4009-898a-31fa8d6993b2</webElementGuid>
+      <webElementGuid>fd0b594f-8b57-4bf5-9cfa-d00f678ad091</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

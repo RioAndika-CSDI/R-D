@@ -34,7 +34,15 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Ma
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Announcement Box Management'))
 
+<<<<<<< HEAD:Scripts/CMS/CMS040 - VerifyUserCanAccessAnnouncementBoxManagement/Script1711902112833.groovy
 WebUI.verifyElementText(findTestObject('Object Repository/Page_SEVA CMS/h1_Announcement Box Management'), 'Announcement Box Management')
+=======
+WebUI.maximizeWindow()
+
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/svg_h-5 w-5')) --> can't automated cause role
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Edit Announcement Box')) --> can't automated cause role
+>>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS013 - VerifyUserCanEditAnnouncementBox/Script1707798472040.groovy
 
 WebUI.closeBrowser()
 
