@@ -15,28 +15,21 @@
       <guid>08d032e3-e7e6-4395-bcaa-e4094c00a471</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS012 - VerifyUserCanFilterStatusEndedOnAnnouncementboxManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4f0fc61a-6af2-43fe-b8a3-ef180f882bde</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS007 - VerifyUserCanFilterStatusLiveOnHomepageBannerManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS050 - VerifyUserCanFilterStatusEndedOnAnnouncementboxManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a867e462-5425-43e9-9070-8e362bff844d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS005 - VerifyUserCanClickButtonAddOnTestimonyManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS003 - VerifyUserCanClickButtonAddOnTestimonyManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6787d125-fef2-4f47-9ad9-66da1b963d8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS006 - VerifyUserCanAccessHomepageBannerManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS021 - VerifyUserCanAccessHomepageBannerManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -50,6 +43,9 @@
       <guid>9c134cda-d4f6-4dd1-b323-32bab75eca1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
+      <testCaseId>Test Cases/CMS/CMS042 - VerifyUserCanClickButtonEditAnnouncementBox</testCaseId>
+=======
       <testCaseId>Test Cases/CMS/CMS013 - VerifyUserCanEditAnnouncementBox</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -65,48 +61,35 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS/CMS009 - VerifyUserCanFilterEndedOnHomepageBannerManagement</testCaseId>
+>>>>>>> eb024bb350f25e9678763835805d8dce38476071
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3d1b6b6b-4622-4d7d-851a-90fd2daa5b74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS010 - VerifyUserCanAccessAnnouncementBoxManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS040 - VerifyUserCanAccessAnnouncementBoxManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>059cf2d0-1660-47a6-8040-eb8f319e4851</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS014 - VerifyUserCanCloneAnnouncementBox</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS043 - VerifyUserCanClickButtonCloneAnnouncementBox</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>01dbb580-bce5-4d9b-85a4-298117ccc2d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS015 - VerifyUserCanAccessCarOfTheMonth</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f78426c1-7c8c-4df2-99b6-555aaa68554f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS008 - VerifyUserCanFilterStatusDraftOnHomepageBannerManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS055 - VerifyUserCanAccessCarOfTheMonth</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>542f5261-2e58-4067-a766-3afd601c172a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS011 - VerifyUserCanFilterStatusDraftOnAnnouncementBoxManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6fdd9eaa-7708-475f-bdbf-2f07b36193a7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS004 - VerifyUserCanFilterOldestOnTestimonyManagement</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS046 - VerifyUserCanFilterStatusDraftOnAnnouncementBoxManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -120,14 +103,14 @@
       <guid>d25ea1f1-1359-451a-91e1-f3ea196fb9db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS016 - VerifyUserCanFilterLiveOnCarOfTheMonth</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS057 - VerifyUserCanClearSearchOnCarOfTheMonth</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>411882d3-e54f-4167-aa47-9da8db9c33a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS017 - VerifyUserCanFilterDraftOnCarOfTheMonth</testCaseId>
+      <testCaseId>Test Cases/CMS/CMS056 - VerifyUserCanSearchOnCarOfTheMonth</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

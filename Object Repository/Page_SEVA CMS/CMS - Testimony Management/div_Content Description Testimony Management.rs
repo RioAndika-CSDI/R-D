@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Content Description Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>53737f30-03cd-4a1c-9cd0-73ccaece6c4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[2]/div/div[4]/div[2]/div/div[2]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tiptap.ProseMirror.ProseMirror-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>343976dd-a30f-4e22-8621-58b7d0d3e45d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a1f0c9a1-6039-4902-b356-e6ff685dac24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>no</value>
+      <webElementGuid>64d93f92-ad8e-4fc4-ab6e-b9bb3b2c9a6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tiptap ProseMirror ProseMirror-focused</value>
+      <webElementGuid>5b4e70fb-96bc-4bfb-99ff-ea563f3417f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>60abb400-921d-4b74-92cd-40ed416eedbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;col-span-2&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;group relative rounded transition-colors duration-300 ease-in-out aria-disabled:bg-gray-50 aria-disabled:text-shadesSecondaryGray [&amp;_div.tiptap]:rounded-bl-[4px] [&amp;_div.tiptap]:rounded-br-[4px] [&amp;_div.tiptap]:border [&amp;_div.tiptap]:border-line [&amp;_div.tiptap]:p-2.5 [&amp;_div.tiptap]:outline-none [&amp;_div.tiptap]:dark:border-gray-400 [&amp;_div.tiptap]:dark:bg-gray-800 [&amp;_div.tiptap]:dark:text-gray-100 ring-1 ring-primary [&amp;_div.tiptap]:pb-8 [&amp;_div.tiptap]:min-h-[152px]&quot;]/div[2]/div[@class=&quot;tiptap ProseMirror ProseMirror-focused&quot;]</value>
+      <webElementGuid>4ecb7a9a-d272-4251-af53-1bd39880c92e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[2]/div/div[4]/div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>30cb1110-1731-4d53-aa39-ec582708d0c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[5]</value>
+      <webElementGuid>74b4c266-ddd0-44aa-85bf-7e4c4a005476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Description'])[1]/following::div[5]</value>
+      <webElementGuid>529ebc9a-8aed-4cab-9e72-06038bb1161f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish Setting'])[1]/preceding::div[2]</value>
+      <webElementGuid>0f5fdaee-da36-4b85-97f5-f846608f6628</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banner Slot'])[1]/preceding::div[2]</value>
+      <webElementGuid>8b184539-5885-4815-9eca-1c49c897758b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>de930f69-0778-4a99-8543-6d297934178c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

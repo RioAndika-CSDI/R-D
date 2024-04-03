@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS057 - VerifyUserCanClearSearchOnCarOfTheMonth</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bea0994-b58e-470a-9873-2ac6ab269ef5</testCaseGuid>
+</TestCaseEntity>
