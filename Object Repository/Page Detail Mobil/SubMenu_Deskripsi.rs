@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenu_Deskripsi</name>
+   <tag></tag>
+   <elementGuidId>830e40eb-15a5-4143-b87b-9eaef026b8b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'Deskripsi' or . = 'Deskripsi')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabV1_text__BjghF</value>
+      <webElementGuid>71fd4e5d-59f2-4a9c-b7de-8b589d32a094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deskripsi</value>
+      <webElementGuid>92b4ccbf-c524-49a9-a308-42bdfce49d63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>590b1b78-1580-4419-b8e5-5e7f8428dd4f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

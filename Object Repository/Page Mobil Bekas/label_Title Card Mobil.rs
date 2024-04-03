@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Title Card Mobil</name>
+   <tag></tag>
+   <elementGuidId>b9a30f76-5faa-4d69-b003-5e5c95231171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.usedCarDetailCard_brandModelText__ENqe9</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[4]/div/div/div/div/div/h2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${id}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d2008032-1132-47a0-8801-08f2c788870f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>usedCarDetailCard_brandModelText__ENqe9</value>
+      <webElementGuid>f7cd7c3e-19c3-494f-a824-36b7df5f7fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>[object Object]brand-model-mobil</value>
+      <webElementGuid>ef3cc98e-3f97-4d8b-85e1-9fa0127958a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu GRANMAX PU 1.5 M/T 2021</value>
+      <webElementGuid>d0803296-f652-44fc-b295-c5e59a0a19b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${id}]</value>
+      <webElementGuid>6dd6acd6-21a1-4ab0-87e5-4a01dcada8ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[4]/div/div/div/div/div/h2</value>
+      <webElementGuid>bbe06d2c-b224-48b7-9e2c-4b0d39d25c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR113,950,000'])[1]/preceding::h2[1]</value>
+      <webElementGuid>2f4fc517-1681-44c8-8f77-9db8d0ccb8fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daihatsu']/parent::*</value>
+      <webElementGuid>8c0a40cc-8e6d-451c-8c61-54a95adca895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/h2</value>
+      <webElementGuid>cb0a76eb-8685-4e4d-aed0-a886e916d58f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Daihatsu GRANMAX PU 1.5 M/T 2021' or . = 'Daihatsu GRANMAX PU 1.5 M/T 2021')]</value>
+      <webElementGuid>48af6120-f17f-4c70-b861-365bdf620652</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

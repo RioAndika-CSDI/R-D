@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS035 - VerifyUserCanApplyThenResetFilterOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9daa5f7c-ae9a-4edd-b09a-8db01d818186</testCaseGuid>
+</TestCaseEntity>

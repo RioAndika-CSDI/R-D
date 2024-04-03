@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.seva.id/')
+WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
@@ -27,13 +25,11 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/b
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg-youtubefooter'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowTitle('SEVA by ASTRA - YouTube')
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA by ASTRA - YouTube/yt-formatted-string_SEVA by ASTRA'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA by ASTRA - YouTube/yt-formatted-string_SevabyAstra'))
 
 WebUI.closeBrowser()
 

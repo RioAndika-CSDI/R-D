@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if(open_browser.toString().equals("1")) {
-WebUI.openBrowser('seva.id')
+if (open_browser.toString().equals('1')) {
+    WebUI.openBrowser('seva.id')
 }
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button'))
@@ -44,6 +44,7 @@ if (actual_url.equals(expected_url.toString())) {
     WebUI.verifyMatch('false', 'true', true)
 }
 
-if(close_browser.toString().equals("1")) {
-WebUI.closeBrowser()
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
 }
+

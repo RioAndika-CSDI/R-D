@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Harga Mobil Bekas</name>
+   <tag></tag>
+   <elementGuidId>d4b5105a-2ae6-4571-807a-44b17af07897</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.usedCarDetailCard_priceOtrRange__Jjtmx</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[5]/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@data-testid = '[object Object]range-harga'])[${id}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>25b691e9-7834-4125-a23c-379514ccf8d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>usedCarDetailCard_priceOtrRange__Jjtmx</value>
+      <webElementGuid>1063b930-9ae8-4ea7-a14e-7a88a4fa7c43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>[object Object]range-harga</value>
+      <webElementGuid>d2ff0fec-746c-47a7-a9da-1e0434852b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IDR</value>
+      <webElementGuid>e077c2fa-1b89-42cd-b2ad-52301df976f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@data-testid = '[object Object]range-harga'])[${id}]</value>
+      <webElementGuid>235c73fe-257c-4c3b-8f3d-d192fe963375</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[5]/div/div/div/div/div/span</value>
+      <webElementGuid>a0d64816-3141-479b-9968-f593f7fef208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kilometer'])[1]/preceding::span[2]</value>
+      <webElementGuid>3d185538-abe0-43a0-8a1d-b6a830b1f615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='IDR52,137,500']/parent::*</value>
+      <webElementGuid>b3780c70-021d-4d1d-b1ed-fa043acd965a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div/span</value>
+      <webElementGuid>e5a8756a-899e-40a6-bdb0-5023cf37a727</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'IDR52,137,500' or . = 'IDR52,137,500')]</value>
+      <webElementGuid>1e07d109-e494-4c54-a386-6e2fd5eee645</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+<<<<<<<< HEAD:Test Cases/CMS/CMS006 - VerifyUserCanSearchOnTestimonyManagement.tc
+   <name>CMS006 - VerifyUserCanSearchOnTestimonyManagement</name>
+========
+   <name>CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement</name>
+>>>>>>>> eb024bb350f25e9678763835805d8dce38476071:Test Cases/CMS/CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement.tc
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a789bab-3a59-43d2-8966-a1656925c72a</testCaseGuid>
+</TestCaseEntity>

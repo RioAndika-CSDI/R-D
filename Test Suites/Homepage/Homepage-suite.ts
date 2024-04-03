@@ -151,13 +151,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>93c9c02d-5fb7-4f03-9b69-a26e24485da0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0040 - SubmitLeadsHomepageLoginUser</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>31d78a89-13ae-4ac5-a601-8cb4fd2f62d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

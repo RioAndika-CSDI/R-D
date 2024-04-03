@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS005 - VerifyUserCanClickButtonCloneOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a883d04c-54d9-4fd1-8ba7-bb460c527bbc</testCaseGuid>
+</TestCaseEntity>

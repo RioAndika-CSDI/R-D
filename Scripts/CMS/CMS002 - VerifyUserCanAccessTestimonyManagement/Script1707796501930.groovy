@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
@@ -30,9 +32,10 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management'))
+WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Testimony Management'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_SEVA CMS/CMS - Testimony Management/h1_Testimony Management'), 
+    'Testimony Management')
 
 WebUI.closeBrowser()
 

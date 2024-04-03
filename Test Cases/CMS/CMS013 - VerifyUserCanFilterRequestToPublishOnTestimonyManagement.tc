@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS013 - VerifyUserCanFilterRequestToPublishOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6737ebf-fc68-4d3f-99d1-6829050ddd3f</testCaseGuid>
+</TestCaseEntity>
