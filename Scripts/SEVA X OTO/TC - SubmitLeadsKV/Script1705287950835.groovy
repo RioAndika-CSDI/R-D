@@ -26,16 +26,9 @@ WebUI.scrollToElement(findTestObject('SEVAxOTO-LandingPage/Page_Temukan mobil ba
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan kualitas dari SEVA  SEVA x OTO/button_Nanti Saja'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
 
-WebUI.click(findTestObject('Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/button_x'))
-
-WebUI.setText(findTestObject('Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'), 
-    'Jakarta Selatan')
-
-WebUI.click(findTestObject('Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/span_Jakarta Selatan'))
-
-WebUI.click(findTestObject('Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/button_Mulai Cari Mobil'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
 
 WebUI.click(findTestObject('Object Repository/SEVAxOTO-LandingPage/Page_Temukan mobil baru Astra 2024 jaminan _1362e3/button_Saya Tertarik'))
 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Password_flex h-full select-none items-_430eac</name>
+   <tag></tag>
+   <elementGuidId>12f3f064-83bb-4239-b959-24825d09e985</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/form/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.w-\[333px\] > div > .flex >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b5f62f56-b990-412c-a89a-f9fdb15e397a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-full select-none items-center rounded rounded-l-none border border-l-0 border-solid bg-white py-3 pl-2 pr-4 border-primaryRed peer-hover:border-primaryRed peer-focus:border-primaryRed</value>
+      <webElementGuid>3894677a-ef77-46d0-88fc-13379ba88d9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;flex w-full flex-col gap-4&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;w-[333px]&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;flex h-full select-none items-center rounded rounded-l-none border border-l-0 border-solid bg-white py-3 pl-2 pr-4 border-primaryRed peer-hover:border-primaryRed peer-focus:border-primaryRed&quot;]</value>
+      <webElementGuid>efb74f51-c18f-463b-9b77-471032b50270</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/form/div[2]/div[2]/div/div</value>
+      <webElementGuid>318f8931-ba06-471d-a744-54be204bfc84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[3]</value>
+      <webElementGuid>2a67d467-e375-4eaa-ab79-5317cdda8e74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[7]</value>
+      <webElementGuid>4f568def-099f-4f7c-bc91-e9141bcd8297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You currently have 4 attempts remaining.'])[1]/preceding::div[4]</value>
+      <webElementGuid>062bfe2a-e76b-48f0-9f44-3c6d898881d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>0706e807-78c2-435a-8d51-5a8af8dcaa83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
