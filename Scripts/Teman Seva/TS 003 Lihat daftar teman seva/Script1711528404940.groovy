@@ -17,25 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
-        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Teman Seva/TS 001 Masuk akun teman seva'), [('Phone_number') : Phone_number, ('OTP') : OTP
+        , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page - Detail dealer/Lihat peta_CTA'))
+WebUI.click(findTestObject('Page - Teman seva/Lihat riwayat home TS'))
 
-WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('Page - Teman seva/Tab daftar teman seva tidak aktif'))
 
-WebUI.waitForElementPresent(findTestObject('Page - Dealer Location/Rute'), 300)
-
-url = WebUI.getUrl()
-
-WebUI.comment(url)
-
-url = url.toString().substring(0, map_url.toString().length())
-
-WebUI.verifyMatch(url, map_url.toString(), true)
-
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
-}
+WebUI.verifyElementPresent(findTestObject('Page - Teman seva/Tab daftar teman seva halaman riwayat transaksi'), 0)
 

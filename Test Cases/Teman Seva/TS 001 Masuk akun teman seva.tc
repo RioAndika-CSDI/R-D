@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS 001 Masuk akun teman seva</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90128d2d-2b01-42e2-ad8d-1f4f9786ec8b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e00f082d-6c3f-4089-b30a-32aa163c4587</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e89a7bf1-7b19-425d-a4c1-470feb69870e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4ce0763-0d3f-49bc-8781-99380123e924</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'82135318501'</defaultValue>
+      <description></description>
+      <id>e00f082d-6c3f-4089-b30a-32aa163c4587</id>
+      <masked>false</masked>
+      <name>Phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>e89a7bf1-7b19-425d-a4c1-470feb69870e</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d4ce0763-0d3f-49bc-8781-99380123e924</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

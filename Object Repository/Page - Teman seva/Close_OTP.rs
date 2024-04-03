@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close_OTP</name>
+   <tag></tag>
+   <elementGuidId>72430743-add3-4a1c-8611-9836797ce4aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@aria-label='Close']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@aria-label='Close']</value>
+      <webElementGuid>2547442a-68d8-4fda-88b5-b80211dc31d7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
