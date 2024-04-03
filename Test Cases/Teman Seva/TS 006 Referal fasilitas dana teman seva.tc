@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS 006 Referal fasilitas dana teman seva</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e4ebb93-6de1-41d3-9d60-6ed41767c412</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35acc39e-6905-42d9-8c55-95c5ba1eb8f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86bb13e1-b01e-49e1-840c-4a3b55990584</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>663090b5-7957-4787-9833-e6e48bf52d72</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'82135318501'</defaultValue>
+      <description></description>
+      <id>35acc39e-6905-42d9-8c55-95c5ba1eb8f6</id>
+      <masked>false</masked>
+      <name>Phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>86bb13e1-b01e-49e1-840c-4a3b55990584</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>663090b5-7957-4787-9833-e6e48bf52d72</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button close popup ASL</name>
+   <tag></tag>
+   <elementGuidId>d67446c4-c8b4-459e-81a5-59b0e590b781</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-id='CLOSE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CLOSE</value>
+      <webElementGuid>5b790166-25af-49d2-9366-aa13bf4567fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>close close-icon moe-inapp-close moe-element</value>
+      <webElementGuid>ee5613b5-5d25-4259-83aa-e1625e62fbb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@data-id='CLOSE']</value>
+      <webElementGuid>a10335d7-23f1-4903-9de9-c4f616a2ffdd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

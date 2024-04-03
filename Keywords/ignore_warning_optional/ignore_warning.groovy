@@ -48,4 +48,11 @@ class ignore_warning {
 		boolean cek= WebUI.verifyElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
 		return cek;
 	}
+
+@Keyword
+def waitingIgnoreWarning(TestObject obj, int timeout) {
+	boolean cek= WebUI.waitForElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
+	return cek;
+}
+
 }
