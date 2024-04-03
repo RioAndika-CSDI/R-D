@@ -89,7 +89,7 @@
       <name>open_browser</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'0'</defaultValue>
       <description></description>
       <id>6d04790e-7f57-4912-957f-174eafb9d02e</id>
       <masked>false</masked>
