@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sent 9</name>
+   <tag></tag>
+   <elementGuidId>21445364-0a10-46ba-94d3-657310a30c37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0a648699-0228-4634-919c-f1497087a195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-2</value>
+      <webElementGuid>45409717-242e-4cbd-92aa-5f5aa4cefdd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sent 9</value>
+      <webElementGuid>d82f1014-821c-44b1-9b3e-dd77e11fc7f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;relative inline-flex gap-6 border-b border-line dark:border-gray-500 mb-6 w-fit&quot;]/div[@class=&quot;group flex-none cursor-pointer select-none pb-3 text-sm/5 font-normal text-shadesPrimaryGray aria-disabled:pointer-events-none aria-disabled:text-shadesSecondaryGray aria-selected:font-semibold aria-selected:text-primaryDarkGray dark:aria-selected:text-gray-300&quot;]/div[@class=&quot;flex items-center gap-2&quot;]</value>
+      <webElementGuid>4c57939a-a21c-4383-958b-578d92149ea4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[3]/div[2]/div</value>
+      <webElementGuid>6bc2bf11-b469-4301-bdfe-9eebf5d57b17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[5]</value>
+      <webElementGuid>314acc8c-9195-4778-827c-0a09f07ba320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request ID'])[1]/preceding::div[2]</value>
+      <webElementGuid>1b84e836-e404-41dd-8d43-cdb3bff22554</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/preceding::div[5]</value>
+      <webElementGuid>a97c00e0-0485-4c10-98d5-95dffe50df98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sent']/parent::*</value>
+      <webElementGuid>4796f873-0d69-4d2b-b842-c8e49784089f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>c5c31d10-8517-49ee-968c-af51cb29f6eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sent 9' or . = 'Sent 9')]</value>
+      <webElementGuid>e8e04d57-714c-4ba7-9c9e-495158ef18e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

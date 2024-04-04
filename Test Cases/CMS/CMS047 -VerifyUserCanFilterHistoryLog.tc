@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS047 -VerifyUserCanFilterHistoryLog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f09cdc79-6c8a-40c2-819d-1671ac897ee4</testCaseGuid>
+</TestCaseEntity>

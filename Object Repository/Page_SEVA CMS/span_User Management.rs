@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_User Management</name>
+   <tag></tag>
+   <elementGuidId>1ca35048-162f-4ea0-9c9d-f58d759454fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/aside[2]/div/ul/li[4]/button/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35d6a7c9-5df4-43db-86b3-aff49e98117c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-4 text-left</value>
+      <webElementGuid>3af3933a-a2e0-4f60-b1d5-80e03d7ff239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Management</value>
+      <webElementGuid>4cf7c67a-26ec-48c0-9f23-0178af6dc413</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 overflow-hidden&quot;]/aside[@class=&quot;fixed inset-y-0 z-50 mt-16 w-11/12 flex-shrink-0 overflow-y-auto bg-white md:w-6/12 lg:hidden dark:bg-gray-800 appear-done enter-done&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/button[@class=&quot;inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/span[@class=&quot;inline-flex items-center&quot;]/span[@class=&quot;ml-4 text-left&quot;]</value>
+      <webElementGuid>7ddf9b2a-63e9-4e58-ac24-08889a718e8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/aside[2]/div/ul/li[4]/button/span/span</value>
+      <webElementGuid>1fd12bdb-831e-4ab1-9ce5-19010cf5b2b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calculator Management'])[2]/following::span[2]</value>
+      <webElementGuid>97ea8c04-b4a5-4f4b-b9d4-1312eb3da8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Content Management'])[2]/following::span[3]</value>
+      <webElementGuid>8a376d9e-b648-4e10-b498-82f6da184bdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CMS'])[1]/preceding::span[1]</value>
+      <webElementGuid>71fe5ac0-25a1-4baf-95a3-050c370c0f39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside[2]/div/ul/li[4]/button/span/span</value>
+      <webElementGuid>d745a677-a1b5-460a-ada2-73efaaf230fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'User Management' or . = 'User Management')]</value>
+      <webElementGuid>a187b6ed-dccc-406b-8c66-8bf3b5050737</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

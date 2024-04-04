@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS025 - VerifyUserCanAccessApprovalRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c20c8977-2149-4706-9404-0117288042fc</testCaseGuid>
+</TestCaseEntity>

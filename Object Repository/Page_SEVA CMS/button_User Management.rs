@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_User Management</name>
+   <tag></tag>
+   <elementGuidId>48ccd0ff-2804-4f8b-8b4d-991f495e5720</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/aside[2]/div/ul/li[4]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d7663ac6-83ef-45d5-9330-7d7abaf56c92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200</value>
+      <webElementGuid>d24a14c0-a81a-46b7-8c45-f4231bf82d10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5a1db803-46ee-4203-ac8e-02d1c0d02d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Management</value>
+      <webElementGuid>c8354ab1-fbff-41e5-9d7f-05287d44554a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 overflow-hidden&quot;]/aside[@class=&quot;fixed inset-y-0 z-50 mt-16 w-11/12 flex-shrink-0 overflow-y-auto bg-white md:w-6/12 lg:hidden dark:bg-gray-800 appear-done enter-done&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/button[@class=&quot;inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]</value>
+      <webElementGuid>e7aee3a7-577c-4123-b79d-866268648d3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/aside[2]/div/ul/li[4]/button</value>
+      <webElementGuid>f024c620-f23c-4a0d-9975-bb65a0064258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calculator Management'])[2]/following::button[1]</value>
+      <webElementGuid>08f360ca-3116-4207-a54b-5df1c84206c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Content Management'])[2]/following::button[1]</value>
+      <webElementGuid>4b358c34-964b-4d7b-9f6d-0d22c2005118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CMS'])[1]/preceding::button[4]</value>
+      <webElementGuid>499bd14e-0899-4ba7-af7a-5e1bf9893fa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside[2]/div/ul/li[4]/button</value>
+      <webElementGuid>f5d85d5f-861d-4820-be89-d90bd8deb05f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'User Management' or . = 'User Management')]</value>
+      <webElementGuid>00cb95c4-9173-4303-b3f3-bad7b6075de6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

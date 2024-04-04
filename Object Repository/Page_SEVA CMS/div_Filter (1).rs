@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Filter (1)</name>
+   <tag></tag>
+   <elementGuidId>848b3df7-1bf6-4919-90c9-802bb71dbb99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26412e74-4817-4b0a-b301-3675401c456e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filter</value>
+      <webElementGuid>01bafa8b-a1f4-4fb5-9fbd-0c627b381749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-6 flex items-center justify-between&quot;]/div[@class=&quot;flex items-center gap-2&quot;]/button[@class=&quot;inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 align-bottom text-sm/5 font-medium text-gray-600 transition-colors duration-150 hover:border-gray-500 focus:border-gray-500 focus:outline-none focus:ring focus:ring-primary-300 focus:ring-opacity-40 active:bg-transparent active:text-gray-500 disabled:pointer-events-none disabled:bg-gray-300 disabled:opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400&quot;]/div[1]</value>
+      <webElementGuid>6134a049-cdd4-4103-889d-082881e07a91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div/button/div</value>
+      <webElementGuid>8db5bafe-e42b-463f-a48b-c3cbea3726cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Request'])[2]/following::div[5]</value>
+      <webElementGuid>41bdace5-800a-4bd7-9932-7b38bd759e80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Request'])[1]/following::div[16]</value>
+      <webElementGuid>edfa3b22-8e0a-4c8c-bff9-5e689269a913</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <webElementGuid>cb09e4ec-d27c-4beb-904f-f039c9b56f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/div</value>
+      <webElementGuid>3981f3f9-2c14-4214-9dea-b2cac2517a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Filter' or . = 'Filter')]</value>
+      <webElementGuid>d9e0ad6a-f5e7-48fa-8182-a0770da58481</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

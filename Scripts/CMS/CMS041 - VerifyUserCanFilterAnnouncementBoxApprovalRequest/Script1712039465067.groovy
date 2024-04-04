@@ -17,18 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CMS/CMS025 - VerifyUserCanAccessApprovalRequest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Filter'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__indicator my-re_7a0df4 (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Announcement Box'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'TKuVe2416cQrilL8vjccmw==')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Welcome to SEVA CMS'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (6)'))
 

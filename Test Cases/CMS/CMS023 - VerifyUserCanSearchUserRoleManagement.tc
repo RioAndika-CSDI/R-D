@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS023 - VerifyUserCanSearchUserRoleManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77602f3f-e940-4597-9dfa-a76791c749c2</testCaseGuid>
+</TestCaseEntity>
