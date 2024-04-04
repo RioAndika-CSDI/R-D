@@ -6,12 +6,16 @@
    <elementGuidId>e8f48a5b-6633-40c5-8676-2f2b6eec84d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>svg</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/preceding::*[name()='svg'][1]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>svg</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'hamburger-menu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>0cac8b11-7197-492e-ac1a-0603076ebe12</webElementGuid>
+      <webElementGuid>3ab816d7-f4e7-4b11-beb9-8ec0ba630290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>f9fff11b-bc08-4258-a713-89693330505d</webElementGuid>
+      <webElementGuid>d1637da1-7b03-4cce-a40d-842c6fbfc1c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>5f6c86cd-04b7-477f-b729-208df618b051</webElementGuid>
+      <webElementGuid>04c8236e-98d5-4f3c-99b1-b0da93fbae53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>ad760c5c-277f-4663-8a21-217796111a45</webElementGuid>
+      <webElementGuid>637d21cb-1ae1-4e88-bc16-21f5629cf653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>fad60059-03e1-4ac4-a05c-0b829d666173</webElementGuid>
+      <webElementGuid>2678a6d3-2d8d-43b5-bd0b-7d553346a33e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +66,15 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>07788e0a-a079-4d85-b8ad-76c31c67060a</webElementGuid>
+      <webElementGuid>c56399fb-2928-47be-842b-733e9eea1274</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SEVA burger menu Icon</value>
-      <webElementGuid>b2ea37e3-3508-4779-808b-8220d172d967</webElementGuid>
+      <webElementGuid>099b7575-883b-4148-ab82-a3febf38c51a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_homepage__SBKsV&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>7b883724-334b-480e-aef9-a39d6f034de7</webElementGuid>
+      <webElementGuid>60a8bc54-8887-482c-be70-4622449c40db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>hamburger-menu</value>
+      <webElementGuid>57149cea-f7f6-433d-ba3d-0e3f95ab1919</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>fef6cdf3-850b-4cd6-9a9a-42bcdc0d7051</webElementGuid>
+      <webElementGuid>4a79f034-660f-433b-bd62-5b1f27c4eb59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>83160986-025f-4590-a669-df03663e61de</webElementGuid>
+      <webElementGuid>be3b236c-5e3b-4bdd-a3bf-3365054cc08b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//svg[(text() = 'SEVA burger menu Icon' or . = 'SEVA burger menu Icon')]</value>
-      <webElementGuid>fb3e73db-3702-4184-85ae-18732352cbeb</webElementGuid>
+      <webElementGuid>b0222e61-b8d5-4b05-86c0-069ba8e6d97d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

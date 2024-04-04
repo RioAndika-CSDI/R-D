@@ -4,12 +4,9 @@
    <name>SEVA-WEB</name>
    <tag></tag>
    <UUID>5fd4b8bb-ec9f-4555-b17d-e31aab5c9a0f</UUID>
-   <createdVersion>9.3.1</createdVersion>
-   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedVersion>9.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/ayuanggraini/git/seva-web-automation/SEVA-WEB.prj</projectFileLocation>
+   <projectFileLocation>D:\project katalon\seva-web-automation\SEVA-WEB.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

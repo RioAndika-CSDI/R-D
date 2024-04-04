@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Merek Mobil' or . = 'Merek Mobil')]</value>
+         <value>//*[(text() = 'Merek Mobil' or . = 'Merek Mobil') and @class = 'filtermobile_labelForm__I34yz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Merek Mobil</value>
-      <webElementGuid>35dba731-12ee-4375-9128-89094dd614fa</webElementGuid>
+      <webElementGuid>d27e1105-b796-47ee-8a14-b68fdf16b00c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filtermobile_labelForm__I34yz</value>
+      <webElementGuid>a1187831-1310-4413-b637-a4db954db153</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

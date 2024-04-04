@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Frame_ASL</name>
+   <tag></tag>
+   <elementGuidId>fa4e0eb6-9ff8-4a73-8481-bed2cd4350a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@id = 'moe-onsite-campaign-660a6c9cc47fb6e58617fda1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>54912e07-5d0a-4a05-80b3-a01d4bd22230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>moe-onsite-campaign-660a6c9cc47fb6e58617fda1</value>
+      <webElementGuid>bc03f97c-c27f-4a3b-adbd-cfaff6079922</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

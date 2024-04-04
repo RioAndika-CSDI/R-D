@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Semua</name>
+   <tag></tag>
+   <elementGuidId>b0741054-e62c-4145-b3e0-9ac884ec666a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigationTabV2_container__v2ADA.lpCarRecommendations_tab__ZHR23 > div.tabV2_containerPdp__U_AXv.tabV2_containerActive__SzHfQ > h3.tabV2_text__gtHrZ.tabV2_textActive__MrQHd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>ac810752-365b-46e1-b01a-ad7b230e1c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabV2_text__gtHrZ tabV2_textActive__MrQHd</value>
+      <webElementGuid>b99532cf-e6ee-4a2b-a4b0-de6857c6be88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Semua</value>
+      <webElementGuid>cd09d160-8707-4087-9f9f-cd026604fb66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[@class=&quot;navigationTabV2_container__v2ADA lpCarRecommendations_tab__ZHR23&quot;]/div[@class=&quot;tabV2_containerPdp__U_AXv tabV2_containerActive__SzHfQ&quot;]/h3[@class=&quot;tabV2_text__gtHrZ tabV2_textActive__MrQHd&quot;]</value>
+      <webElementGuid>22d8644d-1040-4069-b453-6e12c47b5de6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div/div/h3</value>
+      <webElementGuid>ec04fd7e-2409-4521-8e5e-3592ad76df3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/following::h3[1]</value>
+      <webElementGuid>6a3dc8aa-d1e6-4ec0-a543-162b237edb84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/following::h3[1]</value>
+      <webElementGuid>6222465b-b4b6-4b30-b44e-7721d0ff9597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[1]/preceding::h3[1]</value>
+      <webElementGuid>b2bedc56-e043-4549-bef2-97e73673bd66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu'])[1]/preceding::h3[2]</value>
+      <webElementGuid>a85e4edc-a154-42ae-a5d3-c422edcfec0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Semua']/parent::*</value>
+      <webElementGuid>1eb5f3f9-edb1-493f-a859-6916ad68e7bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/h3</value>
+      <webElementGuid>b55696c1-b2ed-4a23-abaa-e54c7a07b529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Semua' or . = 'Semua')]</value>
+      <webElementGuid>c73a5679-7815-4025-beda-775c6570ba35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

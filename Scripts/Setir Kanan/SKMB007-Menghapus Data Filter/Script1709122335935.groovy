@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+systemos = System.getProperty('os.name')
+
+String[] os = systemos.split(' ')
+
+WebUI.comment(os[0])
+
 if (open_browser.toString().equals('1')) {
     WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
             , ('url_skmb001') : url_skmb001_Filter, ('brand') : brand_Filter, ('tahun') : tahun_Filter, ('transmisi') : transmisi_Filter
@@ -39,6 +45,9 @@ String[] jumlahBrand = brand_Filter.toString().split(';')
 int loop = 0
 
 while ((cekBrand == true) && ((jumlahBrand.length + 1) > loop)) {
+    '--Bagian Merek/Brand--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Merek Mobil'), 0)
+
     WebUI.click(findTestObject('Page Mobil Bekas/Filter/selectItem_Brand selected_1st'))
 
     cekBrand = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Filter/selectItem_Brand selected_1st'), 
@@ -58,13 +67,28 @@ WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'
 
 WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Dari Filter'))
 
+'--Bagian Tahun--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)
+
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Dari Filter'), Keys.chord(Keys.BACK_SPACE))
+
+'--Bagian Tahun--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'))
 
+'--Bagian Tahun--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)
+
 WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Hingga Filter'))
 
+'--Bagian Tahun--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)
+
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Hingga Filter'), Keys.chord(Keys.BACK_SPACE))
+
+'--Bagian Tahun--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'))
 
@@ -91,10 +115,19 @@ boolean cekTransmisi = CustomKeywords.'ignore_warning_optional.ignore_warning.ve
 loop = 0
 
 while ((cekTransmisi == true) && (transmisiInput.length > loop)) {
+    '--Bagian Transmisi--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Transmisi'), 0)
+
     WebUI.click(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Transmisi 1st'))
+
+    '--Bagian Transmisi--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Transmisi'), 0)
 
     cekTransmisi = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Transmisi 1st'), 
         1)
+
+    '--Bagian Transmisi--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Transmisi'), 0)
 
     if (cekTransmisi == false) {
         break
@@ -102,6 +135,9 @@ while ((cekTransmisi == true) && (transmisiInput.length > loop)) {
     
     loop = (loop + 1)
 }
+
+'--Bagian Transmisi--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Transmisi'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Transmisi 1st'), 0)
 
@@ -116,10 +152,19 @@ boolean cekPlat = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyI
 loop = 0
 
 while ((cekPlat == true) && (platInput.length > loop)) {
+    '--Bagian Plat--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Plat Nomor'), 0)
+
     WebUI.click(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Plat 1st'))
+
+    '--Bagian Plat--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Plat Nomor'), 0)
 
     cekPlat = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Plat 1st'), 
         1)
+
+    '--Bagian Plat--'
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Plat Nomor'), 0)
 
     if (cekPlat == false) {
         break
@@ -128,6 +173,9 @@ while ((cekPlat == true) && (platInput.length > loop)) {
     loop = (loop + 1)
 }
 
+'--Bagian Plat--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Plat Nomor'), 0)
+
 WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Filter/SelectItem_Selected Plat 1st'), 0)
 
 '--Bagian Lokasi--'
@@ -135,24 +183,51 @@ WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Lokasi Mobil
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/Input_Lokasi'))
 
+'--Bagian Lokasi--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Lokasi Mobil'), 0)
+
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/ACT_Hapus Pilihan Lokasi'))
 
+'--Bagian Lokasi--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Lokasi Mobil'), 0)
+
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Lokasi Mobil'))
+
+'--Bagian Lokasi--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Lokasi Mobil'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Filter/SelectItem_Lokasi Selected 1st'), 0)
 
 '--Bagian Kilometer--'
 WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kilometer'), 0)
 
-WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Minimal'))
-
+        if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Minimal'), Keys.chord(Keys.CONTROL, 'A'))
+        } else {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Minimal'), Keys.chord(Keys.COMMAND, 'A'))
+        }
+		
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kilometer'), 0)
+		
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Minimal'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kilometer'), 0)
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'))
 
-WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Maksimal'))
+        if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Maksimal'), Keys.chord(Keys.CONTROL, 
+                    'A'))
+        } else {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Maksimal'), Keys.chord(Keys.COMMAND, 
+                    'A'))
+        }
+        
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kilometer'), 0)
 
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Kilometer Maksimal'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kilometer'), 0)
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'))
 
@@ -170,18 +245,35 @@ if (kilometer_Filter.toString().length() > 0) {
                 '')))
 }
 
+
+
 '--Bagian Kisaran Harga--'
 WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'), 0)
 
-WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Harga Minimal'))
+        if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Minimal'), Keys.chord(Keys.CONTROL, 'A'))
+        } else {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Minimal'), Keys.chord(Keys.COMMAND, 'A'))
+        }
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'), 0)
 
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Minimal'), Keys.chord(Keys.BACK_SPACE))
 
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'), 0)
+
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'))
 
-WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Harga Maksimal'))
+        if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Maksimal'), Keys.chord(Keys.CONTROL, 'A'))
+        } else {
+            WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Maksimal'), Keys.chord(Keys.COMMAND, 'A'))
+        }
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'), 0)
 
 WebUI.sendKeys(findTestObject('Page Mobil Bekas/Filter/Input_Harga Maksimal'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'), 0)
 
 WebUI.click(findTestObject('Page Mobil Bekas/Filter/label_Kisaran Harga'))
 

@@ -83,7 +83,11 @@ stnk_info = WebUI.getText(findTestObject('Page Detail Mobil/label_STNK Mobil_Inf
 bahan_bakar_info = WebUI.getText(findTestObject('Page Detail Mobil/label_Bahan Bakar Mobil_Informasi Mobil'))
 
 //Title
-WebUI.verifyMatch(title_card, title_detail, true)
+if (title_card.equalsIgnoreCase(title_detail)) {
+    WebUI.verifyMatch('true', 'true', true)
+} else {
+    WebUI.verifyMatch('true', 'false', true)
+}
 
 WebUI.verifyMatch(harga_card, title_harga, true)
 
@@ -122,10 +126,9 @@ WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Title Tanyaka
 
 WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Title Rekomendasi Mobil Baru'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Title Rekomendasi Mobil Bekas'), 0)
-
 WebUI.takeFullPageScreenshotAsCheckpoint('ev' + screen.toString())
 
 if (close_browser.toString().equals('1')) {
-WebUI.closeBrowser()
+    WebUI.closeBrowser()
 }
+

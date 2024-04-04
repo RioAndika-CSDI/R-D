@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Toyota All New Agya</name>
+   <tag></tag>
+   <elementGuidId>70948add-5566-4d65-a67c-000683aeb8dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.searchComponent_carName__auMBu > div > div.searchComponent_carName__auMBu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/header/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>68a06b35-4c38-46e6-b22a-1e5fb0980cda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>searchComponent_carName__auMBu</value>
+      <webElementGuid>d00da0e3-213b-46e9-84cf-fc70a772773c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota All New Agya</value>
+      <webElementGuid>fbe4fea8-a94c-4c33-afb5-5053998cf652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_homepage__SBKsV&quot;]/div[@class=&quot;searchComponent_containerSearch__atNmB&quot;]/div[@class=&quot;searchComponent_styledDataResult__oUivD&quot;]/div[@class=&quot;ant-collapse ant-collapse-icon-position-end ant-collapse-large css-nllxry&quot;]/div[@class=&quot;ant-collapse-item ant-collapse-item-active searchComponent_panelStyle__hPZRj&quot;]/div[@class=&quot;ant-collapse-content ant-collapse-content-active&quot;]/div[@class=&quot;ant-collapse-content-box&quot;]/div[1]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events searchComponent_listNewCar__JrMD9 swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide searchComponent_containerNewCar__TrXna swiper-slide-active&quot;]/div[1]/div[@class=&quot;searchComponent_linkCar__1WBDp&quot;]/div[@class=&quot;searchComponent_carName__auMBu&quot;]/div[1]/div[@class=&quot;searchComponent_carName__auMBu&quot;]</value>
+      <webElementGuid>465d46c9-f30a-4818-8f99-e2a3af139e08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/header/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>8590619f-c04e-4222-bb97-93f2248a22ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>5e6dcca9-8f5c-4094-a574-4309284f31ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Toyota All New Agya' or . = 'Toyota All New Agya')]</value>
+      <webElementGuid>16ab9413-001e-4f91-b2b9-6bc1782068c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
