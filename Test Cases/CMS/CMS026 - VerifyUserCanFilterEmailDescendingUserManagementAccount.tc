@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS026 - VerifyUserCanFilterEmailDescendingUserManagementAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a01d000a-aee1-462d-bf21-ff0d0331f7f1</testCaseGuid>
+</TestCaseEntity>

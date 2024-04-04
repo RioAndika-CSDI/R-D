@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AccountName (z-a)Name (a-z)Email (z-a)E_321184</name>
+   <tag></tag>
+   <elementGuidId>6706a671-4a9b-4d13-a91f-05fee163bd69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-row.items-center.justify-between</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aeb4f7de-9d37-46ff-8c5d-92bbdd383fb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-row items-center justify-between</value>
+      <webElementGuid>a25931f8-0cd5-419c-b093-9c620a66b135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AccountName (z-a)Name (a-z)Email (z-a)Email (a-z)BU Company (z-a)BU Company (a-z)NewestOldestAdd</value>
+      <webElementGuid>7ab00970-6d47-4908-b3bd-ac44b5538e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;flex flex-row items-center justify-between&quot;]</value>
+      <webElementGuid>234c1741-8e0d-4298-bd22-a60a4315d8cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div</value>
+      <webElementGuid>e3f5f4a8-2c2d-4a3f-a02c-2d7fd3b2710e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Request'])[1]/following::div[11]</value>
+      <webElementGuid>03b63870-61d2-4902-9be8-0241494f9f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History Log'])[1]/following::div[11]</value>
+      <webElementGuid>62359408-637c-4de0-bcc5-3f274d02f6a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div</value>
+      <webElementGuid>1c4834b6-2137-4dc2-b131-97a280f1008f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AccountName (z-a)Name (a-z)Email (z-a)Email (a-z)BU Company (z-a)BU Company (a-z)NewestOldestAdd' or . = 'AccountName (z-a)Name (a-z)Email (z-a)Email (a-z)BU Company (z-a)BU Company (a-z)NewestOldestAdd')]</value>
+      <webElementGuid>b64b786a-ae9d-4758-863d-c7184030744b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

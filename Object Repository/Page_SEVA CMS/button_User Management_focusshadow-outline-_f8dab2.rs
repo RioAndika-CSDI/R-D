@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_User Management_focusshadow-outline-_f8dab2</name>
+   <tag></tag>
+   <elementGuidId>7befe649-3561-44c8-b632-62388188fbc7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/header/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fb787b2a-2f1f-45f1-a3ee-227f95eb20f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>focus:shadow-outline-purple -ml-1 mr-5 rounded-md p-1 focus:outline-none lg:hidden</value>
+      <webElementGuid>1ca197fb-5239-4bfd-92bf-18d1c9abd7e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Menu</value>
+      <webElementGuid>2cc42ab5-e509-449c-95c7-a6782df7a2a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/header[@class=&quot;z-40 bg-white py-4 shadow-bottom-old dark:bg-gray-800&quot;]/div[@class=&quot;container mx-auto flex h-full items-center justify-between px-6 text-purple-600 dark:text-purple-300  lg:justify-end&quot;]/button[@class=&quot;focus:shadow-outline-purple -ml-1 mr-5 rounded-md p-1 focus:outline-none lg:hidden&quot;]</value>
+      <webElementGuid>0c6286c5-d942-4386-a286-46fc02566c2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/header/div/button</value>
+      <webElementGuid>a86daa59-e5fe-4f98-ae79-c6135bc0061d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Management'])[1]/following::button[1]</value>
+      <webElementGuid>95d1befa-0c31-4024-a12c-0584c6b09fe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calculator Management'])[1]/following::button[2]</value>
+      <webElementGuid>73f5f9f8-88d7-416b-82ed-451b6318a57c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CMS'])[1]/preceding::button[3]</value>
+      <webElementGuid>f7372ad8-27c8-44b1-bb62-0e83654fccc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>e6621da4-57e4-42d3-9db0-102deb43d059</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

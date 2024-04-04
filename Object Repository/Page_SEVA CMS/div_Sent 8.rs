@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sent 8</name>
+   <tag></tag>
+   <elementGuidId>431e762c-c150-4008-835e-b52126cf4266</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[3]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a37bbc65-ce47-4cab-8c0f-cf96ad73f152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ed79a54a-3a28-4cdb-850b-2760b8ad3e99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex-none cursor-pointer select-none pb-3 text-sm/5 font-normal text-shadesPrimaryGray aria-disabled:pointer-events-none aria-disabled:text-shadesSecondaryGray aria-selected:font-semibold aria-selected:text-primaryDarkGray dark:aria-selected:text-gray-300</value>
+      <webElementGuid>eba09fda-96eb-4b17-8c75-d50ed4938c3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sent 8</value>
+      <webElementGuid>3bba29ab-5484-476c-a2c3-5a1bda3f5a51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;relative inline-flex gap-6 border-b border-line dark:border-gray-500 mb-6 w-fit&quot;]/div[@class=&quot;group flex-none cursor-pointer select-none pb-3 text-sm/5 font-normal text-shadesPrimaryGray aria-disabled:pointer-events-none aria-disabled:text-shadesSecondaryGray aria-selected:font-semibold aria-selected:text-primaryDarkGray dark:aria-selected:text-gray-300&quot;]</value>
+      <webElementGuid>42e6c267-42fa-4e38-b7cb-c0d8d676346e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[3]/div[2]</value>
+      <webElementGuid>3cb3b92f-ac1d-4a19-9fe4-f407ff50ec9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[4]</value>
+      <webElementGuid>8e333df5-3504-4f97-b3ae-037936a36d7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request ID'])[1]/preceding::div[3]</value>
+      <webElementGuid>ce3e2948-ec9f-4086-a090-1af290f714ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>626108f8-d78c-464e-8929-2aac4909a1ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sent 8' or . = 'Sent 8')]</value>
+      <webElementGuid>80ab1d75-4afd-4471-9817-8df475be62c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

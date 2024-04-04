@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS018 - VerifyUserCanAccessUserManagementAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9540970c-1700-4d53-aad4-f7ea786283aa</testCaseGuid>
+</TestCaseEntity>
