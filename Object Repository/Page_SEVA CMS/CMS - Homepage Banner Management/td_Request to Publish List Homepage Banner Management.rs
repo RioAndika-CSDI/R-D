@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Request to Publish List Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>9221108d-bec6-4850-b0c8-26ab1f45c3f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div/div/div/table/tbody/tr/td[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>64311683-3617-4e30-9652-1c328d70e63e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 py-3 text-sm</value>
+      <webElementGuid>a7b4ac3d-29ac-41a6-bbe6-8ae094cad84b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-</value>
+      <webElementGuid>703aed38-d33a-4d7d-9a90-258d2b424723</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[1]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[@class=&quot;cursor-pointer&quot;]/td[@class=&quot;px-4 py-3 text-sm&quot;]</value>
+      <webElementGuid>80c64826-5a40-4a03-b7fc-a4504e0cef14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div/div/div/table/tbody/tr/td[5]</value>
+      <webElementGuid>4ccff941-75f4-495d-a334-b92d888cc8ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::td[1]</value>
+      <webElementGuid>54ac3c3a-bcdd-4367-9a78-d09b483d43f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/following::td[3]</value>
+      <webElementGuid>11feff7d-3b94-4ad5-974a-d85a5f77ae31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arisa Hanifah'])[1]/preceding::td[1]</value>
+      <webElementGuid>10be0685-cb44-4761-9279-2f82b116a245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USP'])[1]/preceding::td[3]</value>
+      <webElementGuid>6f3cf77c-9cbf-410a-9c7f-fee5bfeaaf52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]</value>
+      <webElementGuid>e2c78b5d-f2fd-44a2-b448-a603989639ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Request to Publish' or . = 'Request to Publish')]</value>
+      <webElementGuid>0f8acc34-e176-4a95-aab1-577996817758</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

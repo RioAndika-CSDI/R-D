@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Start Date Now Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>94079836-7d60-4206-982b-2fa4c17d7ee3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Now')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ant-picker-now-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e5a09048-dc5b-4bd6-8f52-faacc34d3c33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-picker-now-btn</value>
+      <webElementGuid>01e4fa36-8414-4f8e-8a73-cc3aae26136c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Now</value>
+      <webElementGuid>58fed875-c598-4603-9c95-6773cbc01113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;antialiased&quot;]/div[5]/div[@class=&quot;ant-picker-dropdown ant-picker-dropdown-placement-topLeft&quot;]/div[@class=&quot;ant-picker-panel-container&quot;]/div[@class=&quot;ant-picker-panel-layout&quot;]/div[@class=&quot;ant-picker-panel&quot;]/div[@class=&quot;ant-picker-footer&quot;]/ul[@class=&quot;ant-picker-ranges&quot;]/li[@class=&quot;ant-picker-now&quot;]/a[@class=&quot;ant-picker-now-btn&quot;]</value>
+      <webElementGuid>335afb3a-4235-43b7-9bff-08d55e441fdf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Now')]</value>
+      <webElementGuid>1a430dfd-fb00-4546-929b-494d2482b4ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::a[1]</value>
+      <webElementGuid>bd0116c9-47a6-41cd-bfc7-8fe79b35fd20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[2]/following::a[1]</value>
+      <webElementGuid>88fc057e-5887-4579-ac46-07dd7fbf147d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::a[1]</value>
+      <webElementGuid>644a2422-8503-476a-b7d6-55c7bf65211c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Now']/parent::*</value>
+      <webElementGuid>88469cec-b5dd-44d8-964f-4ae92fedfe09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a</value>
+      <webElementGuid>50db2327-6f05-441b-abf1-951becbf268b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Now' or . = 'Now')]</value>
+      <webElementGuid>ad52487e-06e6-4727-b807-5639fefde253</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

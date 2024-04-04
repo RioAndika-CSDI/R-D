@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS054 - VerifyUserCanApplyThenResetFilterOnAnnouncementboxManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a7ced60-f41c-4b38-b9a8-fba77d5b0e5e</testCaseGuid>
+</TestCaseEntity>

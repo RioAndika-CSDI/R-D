@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Yes, Cancel Request Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>6fab58e2-11f9-484f-a610-40b08f1bf2f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>211b0a7f-6678-44a8-998e-8e1274f871ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm border dark:text-gray-400 focus:outline-none active:bg-transparent focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring border-primary text-primary hover:border-primary-800</value>
+      <webElementGuid>9fba9936-f7fc-45be-b0ce-0e31520bc300</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>61c3df42-c9bd-40ff-9152-40bce0805ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, Cancel Request</value>
+      <webElementGuid>c9a2f577-9a2b-404c-83e7-a4e2c0de8641</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r2g:&quot;)/div[@class=&quot;flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm border dark:text-gray-400 focus:outline-none active:bg-transparent focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring border-primary text-primary hover:border-primary-800&quot;]</value>
+      <webElementGuid>f55fbbb3-02c3-41ec-a907-6937f9e4c9d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>14e0b1f6-ebdb-408e-b332-543700a02e07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r2g:']/div[2]/button</value>
+      <webElementGuid>7de3d60d-f684-4a0c-a02a-24265c290e8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trijoko Agung Wibowo'])[2]/following::button[1]</value>
+      <webElementGuid>05bc9d1f-52a0-4cc2-bf17-63bff188bfd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
+      <webElementGuid>be1276fe-336a-4ee4-af63-ca3aa40a2383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yes, Cancel Request']/parent::*</value>
+      <webElementGuid>c7b836db-8a12-48d1-b94c-b91d6af8f83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>4134940f-e9f8-4d08-b9e6-1329dd371885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Yes, Cancel Request' or . = 'Yes, Cancel Request')]</value>
+      <webElementGuid>a5e76146-6d54-4353-b4e3-5e71c93b9a9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

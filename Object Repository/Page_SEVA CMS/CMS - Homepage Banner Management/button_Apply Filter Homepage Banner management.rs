@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Apply Filter Homepage Banner management</name>
+   <tag></tag>
+   <elementGuidId>6180e12a-6ee2-4f8f-9dcb-722e086dd099</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[text()=('Apply Filter')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7fe50639-710e-4867-b348-6992a89e4636</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7c58e2ca-c8c6-49df-aa41-ff5f94489137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm font-semibold text-primary disabled:text-shadesSecondaryGray dark:disabled:text-shadesSecondaryGray/50</value>
+      <webElementGuid>421c8027-5daf-4168-b356-273e2e561c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply Filter</value>
+      <webElementGuid>4281e293-47d5-4856-ab6d-a2b0004cbb15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1:&quot;)/div[@class=&quot;flex justify-between&quot;]/button[@class=&quot;text-sm font-semibold text-primary disabled:text-shadesSecondaryGray dark:disabled:text-shadesSecondaryGray/50&quot;]</value>
+      <webElementGuid>67965d2a-d1c7-4aa0-8ae4-315ee77838c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[28]</value>
+      <webElementGuid>62459fbf-d6bc-4265-95be-3d036f2a12c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1:']/div[3]/button[2]</value>
+      <webElementGuid>8a98fa02-88a5-42e2-b4a8-00080c49332d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Filter'])[1]/following::button[1]</value>
+      <webElementGuid>6d0b7217-ef56-48fa-9df9-461e4490e958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[2]/following::button[2]</value>
+      <webElementGuid>1baf416e-a0ef-4088-bec1-0cbd11b82403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apply Filter']/parent::*</value>
+      <webElementGuid>e43419c1-bd3a-4570-9ffe-c86f97989ab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>14f3f38f-cc5e-4c22-b119-a987ead922c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Apply Filter' or . = 'Apply Filter')]</value>
+      <webElementGuid>2c5caec1-6640-4add-a46a-b3a0f918f8e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon x search Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>2bf25543-f64d-4237-bbc6-89a2328bd67b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>3c12e926-7f3e-492a-adf5-1eaae801e1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>14020d5c-1ec7-47ce-b51e-3398a0c4fed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>1366ef39-c0e4-4376-af10-516c13c6701b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M12.8337 6.99992C12.8337 3.77826 10.222 1.16659 7.00032 1.16659C3.77866 1.16659 1.16699 3.77826 1.16699 6.99992C1.16699 10.2216 3.77866 12.8333 7.00033 12.8333C10.222 12.8333 12.8337 10.2216 12.8337 6.99992ZM5.16708 5.16668C4.91397 5.4198 4.91397 5.83018 5.16708 6.0833L6.08371 6.99992L5.16709 7.91654C4.91397 8.16966 4.91397 8.58004 5.16709 8.83316C5.42021 9.08628 5.83059 9.08628 6.08371 8.83316L7.00032 7.91654L7.91694 8.83316C8.17006 9.08628 8.58045 9.08628 8.83356 8.83316C9.08668 8.58004 9.08668 8.16966 8.83356 7.91654L7.91695 6.99992L8.83357 6.0833C9.08668 5.83018 9.08668 5.4198 8.83357 5.16668C8.58045 4.91356 8.17007 4.91356 7.91695 5.16668L7.00032 6.0833L6.0837 5.16668C5.83059 4.91356 5.4202 4.91356 5.16708 5.16668Z</value>
+      <webElementGuid>93d5f6ab-5fed-4842-a0ab-2c94fa21a059</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>c8254660-ca27-45ae-9ac6-5f17875ffa62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-[20px] flex flex-col items-center justify-between gap-2 lg:flex-row&quot;]/div[@class=&quot;flex gap-2&quot;]/div[@class=&quot;relative max-w-xl focus-within:text-purple-500&quot;]/div[@class=&quot;absolute inset-y-0 right-0 z-20 flex cursor-pointer items-center pr-2&quot;]/svg[@class=&quot;h-4 w-4 text-shadesSecondaryGray dark:text-white&quot;]/path[1]</value>
+      <webElementGuid>8b5dbf08-1842-4e7f-aadd-19405f100ac3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

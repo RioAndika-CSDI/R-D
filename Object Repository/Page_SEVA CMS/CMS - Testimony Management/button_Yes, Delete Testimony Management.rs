@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Yes, Delete Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>7d270c19-64ab-4924-a0db-f06036636a1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>83dbfca6-edc1-48f2-8132-792db698e849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring w-[156px]</value>
+      <webElementGuid>c9c3f6f7-4894-4f82-8ec7-d3ee9bc9d761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f63edfd4-61ac-4a97-b4b4-ec657565af68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, Delete</value>
+      <webElementGuid>aed5910a-29cb-4a4d-89bc-24f2447e93de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rk:&quot;)/div[@class=&quot;flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring w-[156px]&quot;]</value>
+      <webElementGuid>44f2f09e-a44b-45f2-b1c0-5e2922a920da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>07e89ee4-05ee-48f4-aa3e-cf736851b94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rk:']/div[2]/button</value>
+      <webElementGuid>ad8f02cb-bc08-4ec6-82d1-0a2a84da456d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
+      <webElementGuid>831e21b0-4191-4a13-8c03-8a7c32b3c2d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Entry'])[1]/following::button[2]</value>
+      <webElementGuid>6ed436fa-6ea8-496e-993b-c3de6f62c521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yes, Delete']/parent::*</value>
+      <webElementGuid>333a0c66-758a-4680-9cde-1734cefde0b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>284526a0-10e9-4ac7-8ccc-4baeb300e6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Yes, Delete' or . = 'Yes, Delete')]</value>
+      <webElementGuid>b56ba896-1d90-48b8-9f54-c3cb51173e37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

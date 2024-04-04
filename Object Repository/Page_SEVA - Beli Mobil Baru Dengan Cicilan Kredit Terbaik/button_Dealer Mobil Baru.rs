@@ -6,15 +6,18 @@
    <elementGuidId>4f0bd583-af1d-43d0-a2cd-001166a87940</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Dealer Mobil Baru' or . = 'Dealer Mobil Baru')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0b095722-45dd-4eff-9666-9f74b4dfa9f5</webElementGuid>
+      <webElementGuid>410480d1-7a54-4ea2-a874-68c30d0b0e4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>b7472d8b-fd2d-4aad-a966-859866e948cd</webElementGuid>
+      <webElementGuid>29a1df26-1260-4b5b-a47a-806f34cc3d0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dealer Mobil Baru</value>
-      <webElementGuid>27d2f4d7-9602-478a-81d7-8e0b3a7d8e67</webElementGuid>
+      <webElementGuid>ad701abd-a623-4281-b041-98d07ed259fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_submenuContainer___v45s menuItem_slideDown__F3X0t&quot;]/button[@class=&quot;menuItem_submenu__aUQMo&quot;]</value>
-      <webElementGuid>f0a95aa0-1af6-4800-89e9-ef9f2b4562b9</webElementGuid>
+      <webElementGuid>6d02be4a-d564-4a5f-a62e-cc6e1f7ff9de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button[2]</value>
-      <webElementGuid>f40df4aa-5d89-47d3-93e2-2aba6cdc5a1f</webElementGuid>
+      <webElementGuid>6cdf0cdc-a7bb-437a-9582-dbb72de1283d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/following::button[1]</value>
-      <webElementGuid>aa104e89-4345-42cf-84b3-890040969b02</webElementGuid>
+      <webElementGuid>ba71f4b8-287d-4f8e-bd32-7af27fe2c52c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Mobil'])[1]/following::button[2]</value>
-      <webElementGuid>4e2ec6be-a62f-4c62-a434-51352fdbbf98</webElementGuid>
+      <webElementGuid>3b0d27e8-a09f-40e1-8ad0-7503ec2c15dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[1]/preceding::button[1]</value>
-      <webElementGuid>c639a896-a997-4f0c-8ce7-b89a605b6e65</webElementGuid>
+      <webElementGuid>dcdf545c-6cb3-4053-ad14-20868361c375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fasilitas Dana'])[1]/preceding::button[2]</value>
-      <webElementGuid>d1e42b34-b5f6-4983-b1a9-6c7e255c84d5</webElementGuid>
+      <webElementGuid>3c57724c-dfcc-46ef-a36f-9e480a6915ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Dealer Mobil Baru']/parent::*</value>
-      <webElementGuid>b30c6989-bf11-4ddb-8f2d-132ca02bbe77</webElementGuid>
+      <webElementGuid>4b8ac5bf-78a4-4041-96b8-f680caded870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>2647b084-e45c-4620-ac8f-53fd808c474a</webElementGuid>
+      <webElementGuid>791921d6-51d0-4d28-b752-d779dbedeb8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Dealer Mobil Baru' or . = 'Dealer Mobil Baru')]</value>
-      <webElementGuid>720b2560-204e-48b3-9cf4-5b4135251efc</webElementGuid>
+      <webElementGuid>dffd595c-e328-44ab-b6fe-16b6c32e6097</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

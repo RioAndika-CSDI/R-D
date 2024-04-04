@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Draft List Announcement Box Management</name>
+   <tag></tag>
+   <elementGuidId>3d15489f-3452-452a-a5bf-af247a60b4ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[3]/div/table/tbody/tr/td[6]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b208d775-ce07-4b69-8a77-5f7481feda0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center rounded-[10px] border px-3 py-3 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 justify-center border-transparent bg-alert-blueLight text-alert-blue min-w-[92px] h-[26px]</value>
+      <webElementGuid>3f41460b-7370-41ef-b3a3-f199a3ffecf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Draft</value>
+      <webElementGuid>1719f5cb-d5e8-4dcd-be98-02c0cb0c50a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-4&quot;]/div[@class=&quot;overflow-x-auto bg-white dark:bg-gray-800 h-[--table-height] overflow-y-auto w-auto&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[@class=&quot;cursor-pointer&quot;]/td[@class=&quot;px-4 py-3 text-center&quot;]/div[@class=&quot;w-[90px] whitespace-normal&quot;]/div[@class=&quot;inline-flex items-center rounded-[10px] border px-3 py-3 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 justify-center border-transparent bg-alert-blueLight text-alert-blue min-w-[92px] h-[26px]&quot;]</value>
+      <webElementGuid>7f4a8f3d-2ffe-4520-acd2-5179aaa16619</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[3]/div/table/tbody/tr/td[6]/div/div</value>
+      <webElementGuid>cd210c9c-3d72-4e1e-ada1-1afbfccee0b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[3]/following::div[3]</value>
+      <webElementGuid>3e220a8a-0a9b-40d7-805a-31d1f9f4836b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[2]/following::div[6]</value>
+      <webElementGuid>af7c06fc-5d6e-4d75-b7e8-d756dfc0b9ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[1]</value>
+      <webElementGuid>ae29bca9-60de-4bf2-8aa2-890a4b4c9583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arisa Hanifah'])[1]/preceding::div[2]</value>
+      <webElementGuid>76e8d160-6bfd-44d3-94aa-3ea2ab636f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Draft']/parent::*</value>
+      <webElementGuid>ca75d96b-79b2-46a0-aa6b-d4231d4301fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div/div</value>
+      <webElementGuid>96e97d4b-285e-42a1-95aa-205af62f1cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Draft' or . = 'Draft')]</value>
+      <webElementGuid>44710c81-ff96-49d5-9a4c-9c2236991d44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

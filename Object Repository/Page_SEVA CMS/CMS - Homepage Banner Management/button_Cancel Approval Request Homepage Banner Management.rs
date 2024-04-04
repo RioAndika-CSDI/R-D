@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel Approval Request Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>7c2af0ef-d3dc-4ce8-a838-47548bd0c5df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6d1d91aa-f434-4b8d-a337-d5b20e3b68dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring h-[40px]</value>
+      <webElementGuid>53998c2e-43cf-4b83-8745-5ed28f731d96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8ad07a6a-8343-496b-b49e-4e52607cb20c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel Approval Request</value>
+      <webElementGuid>8c7a5057-ee03-40c2-a805-9a6005145d5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-10&quot;]/div[@class=&quot;my-4 flex flex-col gap-4&quot;]/div[@class=&quot;flex items-center gap-5&quot;]/div[@class=&quot;ml-auto flex gap-3&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring h-[40px]&quot;]</value>
+      <webElementGuid>147fc096-fa75-435c-8497-69959eb7e7c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>0a6c3871-4c5b-4a36-bf62-20aa7946243d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div/div/div/button</value>
+      <webElementGuid>4ceb1e9e-acc9-4f6f-8da6-032736ba3258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Homepage Banner'])[1]/following::button[1]</value>
+      <webElementGuid>8c9fca52-ddd7-4389-8ab1-59870a3a3b3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Management'])[1]/following::button[4]</value>
+      <webElementGuid>027634ef-8b53-4149-bb62-4a18f272a8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This entry has a pending request to publish'])[1]/preceding::button[1]</value>
+      <webElementGuid>7052e64b-e174-4d12-beeb-d8250e1d5c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approver'])[1]/preceding::button[1]</value>
+      <webElementGuid>a73f8d5f-fda4-4349-9c22-0d2d79e837a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cancel Approval Request']/parent::*</value>
+      <webElementGuid>9bdbaa8d-5c2b-4d3d-904e-8815ba71df07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>5a735565-7b1f-4c2c-b158-78d96ec20d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Cancel Approval Request' or . = 'Cancel Approval Request')]</value>
+      <webElementGuid>e68f7d00-7f50-49c5-8c34-3d58b01524b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

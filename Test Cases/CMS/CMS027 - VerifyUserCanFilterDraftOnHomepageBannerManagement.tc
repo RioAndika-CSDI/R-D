@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS027 - VerifyUserCanFilterDraftOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff9a9fb6-6ba6-4318-a796-81b3e3363b61</testCaseGuid>
+</TestCaseEntity>

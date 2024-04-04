@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS010 - VerifyUserCanFilterWaitingOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>981ede38-c434-4ccd-b715-e17535921b53</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_OK end date Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>43c31c8c-4bc1-41ea-a5ef-12ac4888fe09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(5) > div.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft > div.ant-picker-panel-container > div.ant-picker-panel-layout > div.ant-picker-panel > div.ant-picker-footer > ul.ant-picker-ranges > li.ant-picker-ok > button.ant-btn.ant-btn-primary.ant-btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[15]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eb7db3a4-c0e8-4cf7-8963-0ba5b3f3366e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>08840022-94aa-4821-bac1-dee47d5c82ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-primary ant-btn-sm</value>
+      <webElementGuid>9c13409f-5e42-4ed4-8cbc-35d7a9e9437e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>526f6e2f-3112-475a-9ceb-d8d729e22a21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;antialiased&quot;]/div[5]/div[@class=&quot;ant-picker-dropdown ant-picker-dropdown-placement-bottomLeft&quot;]/div[@class=&quot;ant-picker-panel-container&quot;]/div[@class=&quot;ant-picker-panel-layout&quot;]/div[@class=&quot;ant-picker-panel&quot;]/div[@class=&quot;ant-picker-footer&quot;]/ul[@class=&quot;ant-picker-ranges&quot;]/li[@class=&quot;ant-picker-ok&quot;]/button[@class=&quot;ant-btn ant-btn-primary ant-btn-sm&quot;]</value>
+      <webElementGuid>750691b7-ea11-4dbb-8b9d-08e0a579d2b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[15]</value>
+      <webElementGuid>1745e77d-c4b1-426d-8d0b-e0574a0abce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Now'])[2]/following::button[1]</value>
+      <webElementGuid>9ed36166-93c1-406a-9add-f4278b9d3d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::button[1]</value>
+      <webElementGuid>534113a6-ca83-4a4b-b2d6-5fbc9163d15f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div[2]/ul/li[2]/button</value>
+      <webElementGuid>e1329cf6-d06b-49e1-8b73-2a7fdc5f4802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>213e0af5-4d85-4e04-875d-70849959ffa9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

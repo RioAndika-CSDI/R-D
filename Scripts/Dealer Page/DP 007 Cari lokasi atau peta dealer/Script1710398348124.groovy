@@ -18,12 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
-        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : 0, ('kontak_dealer_ke') : kontak_dealer_ke], 
+        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page - Detail dealer/Lihat peta_CTA'))
 
 WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementPresent(findTestObject('Page - Dealer Location/Rute'), 300)
 
 url = WebUI.getUrl()
 
@@ -33,5 +35,7 @@ url = url.toString().substring(0, map_url.toString().length())
 
 WebUI.verifyMatch(url, map_url.toString(), true)
 
-WebUI.closeBrowser()
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

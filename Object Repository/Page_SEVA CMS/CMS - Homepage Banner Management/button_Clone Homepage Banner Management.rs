@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Clone Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>a8d3a3db-637a-4690-b447-047165cc056f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ffb6e7fb-24b4-41f6-b56c-942997d1b0bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium p-2 rounded-lg border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring text-sm leading-[20px] text-shadesPrimaryGray</value>
+      <webElementGuid>97492dfb-a6fb-447f-b7af-65b31e6a0af8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>17bb9926-2892-4411-800b-188b5df804fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-8 flex flex-col gap-8&quot;]/div[1]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[@class=&quot;cursor-pointer&quot;]/td[@class=&quot;px-4 py-3&quot;]/div[@class=&quot;flex items-center justify-center gap-2 text-center text-sm&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium p-2 rounded-lg border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring text-sm leading-[20px] text-shadesPrimaryGray&quot;]</value>
+      <webElementGuid>14533ffb-a6f9-46e8-917b-07d89f487b04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>6ed54896-4ae2-47e8-9c62-396510736876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div/div/div/table/tbody/tr/td[7]/div/button[2]</value>
+      <webElementGuid>c5340b8a-de11-438c-93f3-0e2f5471d1aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arisa Hanifah'])[1]/following::button[2]</value>
+      <webElementGuid>c7686151-0f1e-46af-9f09-299481f61331</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[2]</value>
+      <webElementGuid>fe27f4f3-100f-442b-a942-c736845ea621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Layanan Edokumen'])[1]/preceding::button[1]</value>
+      <webElementGuid>76cdb08f-b743-4e53-ae1d-7516b0f8f24f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[2]/preceding::button[1]</value>
+      <webElementGuid>11d3deee-e884-4df0-99ca-34980dacfa0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>677d2435-22d0-4b45-9e44-f90f50ff7652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>faf61359-8aaf-4661-aa4d-c061d87a411e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
