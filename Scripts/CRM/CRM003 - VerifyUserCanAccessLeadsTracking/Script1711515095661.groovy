@@ -29,5 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/
 
 WebUI.click(findTestObject('Object Repository/Page_Leads Tracking - SEVA CRM/div_Leads Tracking'))
 
+WebUI.delay(60)
+
 WebUI.closeBrowser()
 

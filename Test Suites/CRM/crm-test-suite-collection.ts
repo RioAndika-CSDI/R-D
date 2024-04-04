@@ -4,7 +4,7 @@
    <name>crm-test-suite-collection</name>
    <tag></tag>
    <delayBetweenInstances>60</delayBetweenInstances>
-   <executionMode>PARALLEL</executionMode>
+   <executionMode>SEQUENTIAL</executionMode>
    <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
