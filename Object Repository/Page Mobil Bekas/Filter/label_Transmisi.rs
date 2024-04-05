@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Transmisi' or . = 'Transmisi')]</value>
+         <value>//*[(text() = 'Transmisi' or . = 'Transmisi') and @class = 'filtermobile_labelForm__I34yz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Transmisi</value>
-      <webElementGuid>0a5e377d-9d33-42a2-ab7a-97a5fedb39ca</webElementGuid>
+      <webElementGuid>5351c64a-5355-490a-abf7-12d48ea26c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filtermobile_labelForm__I34yz</value>
+      <webElementGuid>b8cfa74b-2e8d-405a-afef-69806576e967</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

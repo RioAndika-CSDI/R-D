@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Kilometer' or . = 'Kilometer')]</value>
+         <value>//*[(text() = 'Kilometer' or . = 'Kilometer') and @class = 'filtermobile_labelForm__I34yz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Kilometer</value>
-      <webElementGuid>679cc1dc-cfc1-4c69-9a91-d1d82bdfdd69</webElementGuid>
+      <webElementGuid>8f0a49ea-3091-4366-8b08-a1658221f002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filtermobile_labelForm__I34yz</value>
+      <webElementGuid>0f85048a-4187-4de6-ad04-2a1d81330dbd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

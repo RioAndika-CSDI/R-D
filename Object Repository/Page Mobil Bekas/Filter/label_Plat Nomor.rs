@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Plat Nomor' or . = 'Plat Nomor')]</value>
+         <value>//*[(text() = 'Plat Nomor' or . = 'Plat Nomor') and @class = 'filtermobile_labelForm__I34yz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Plat Nomor</value>
-      <webElementGuid>560052ee-2977-4870-b9c7-bcfc8cf6c0cd</webElementGuid>
+      <webElementGuid>867e2bfe-6ef9-430c-aceb-148ed0564c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filtermobile_labelForm__I34yz</value>
+      <webElementGuid>76a2c610-1472-49db-bec2-2ae50bf9932c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

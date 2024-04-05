@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP004-Homepage-Carousel Artikel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f37dc986-bedf-4c82-b8ce-27086a399819</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c2c9a5c-507d-47f6-a18e-ed5e4ed91bc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91eb30cb-4b01-4ae5-b534-428246885950</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1c2c9a5c-507d-47f6-a18e-ed5e4ed91bc8</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>91eb30cb-4b01-4ae5-b534-428246885950</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

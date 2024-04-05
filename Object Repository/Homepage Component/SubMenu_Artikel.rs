@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenu_Artikel</name>
+   <tag></tag>
+   <elementGuidId>c463cad2-a3bb-4146-adb2-fd71ee35f290</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Artikel' or . = 'Artikel') and @class = 'menuItem_parentMenu__Uk83D']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Artikel</value>
+      <webElementGuid>359c32ef-e5da-436f-8e8d-7f5618490c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_parentMenu__Uk83D</value>
+      <webElementGuid>1b9e6018-ce9f-457b-ac3c-ad84d1ebb6bd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

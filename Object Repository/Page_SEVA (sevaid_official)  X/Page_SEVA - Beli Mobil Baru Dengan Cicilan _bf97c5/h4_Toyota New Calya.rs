@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Toyota New Calya</name>
+   <tag></tag>
+   <elementGuidId>97e7bcea-c8cc-467c-9182-6ac421e08dbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.alternativeCarCard_brandModelText__qPWf1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/div[2]/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>a7494497-c493-4f85-9d8a-bdb67bc2e374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alternativeCarCard_brandModelText__qPWf1</value>
+      <webElementGuid>e9a65e16-b148-4489-8ed4-c86c2de409fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota New Calya</value>
+      <webElementGuid>1d8f0a34-756d-412d-b68b-d52ad4ff19d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[2]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events carRecomendations_alternativeCarWrapper__X_Tt7 swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;alternativeCarCard_container__jk_QC&quot;]/div[@class=&quot;alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;alternativeCarCard_contentWrapper__Zudq3&quot;]/h4[@class=&quot;alternativeCarCard_brandModelText__qPWf1&quot;]</value>
+      <webElementGuid>9527e1cc-121d-4920-95b6-cdb044439044</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/div[2]/h4</value>
+      <webElementGuid>de7f796b-1ebd-436e-9770-c7abb517ca8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[1]/following::h4[1]</value>
+      <webElementGuid>f00ed973-ed03-4798-81a2-9502cf50b754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicilan mulai dari'])[1]/preceding::h4[1]</value>
+      <webElementGuid>710898ff-6e0b-4147-8e9b-3428ea406213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp3.590.000/bln'])[1]/preceding::h4[1]</value>
+      <webElementGuid>0e4fb4ba-2520-4873-9eeb-2cccd5f62921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>356d4e2c-fb7c-406b-b096-6446bad87754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Toyota New Calya' or . = 'Toyota New Calya')]</value>
+      <webElementGuid>62bac00e-6f42-4fdf-9926-90b3afacb539</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
