@@ -1,0 +1,60 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
+    'TKuVe2416cQrilL8vjccmw==')
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
+
+<<<<<<<< HEAD:Scripts/CMS/CMS004 - VerifyUserCanClickButtonEditOnTestimonyManagement/Script1711606922334.groovy
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
+
+WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/icon edit Testimony Management'))
+
+WebUI.verifyElementText(findTestObject('Page_SEVA CMS/CMS - Testimony Management/h1_Edit Testimony management'), 'Edit Testimony')
+
+WebUI.delay(3)
+========
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/main_LoginEmailPasswordRemember me Log inIn_9e366b'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Filter'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__input-container_1dfe63_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1_2'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1'))
+>>>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement/Script1710815719602.groovy
+
+WebUI.closeBrowser()
+

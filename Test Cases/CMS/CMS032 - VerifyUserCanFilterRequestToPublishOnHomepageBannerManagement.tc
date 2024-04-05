@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS032 - VerifyUserCanFilterRequestToPublishOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d065893b-edea-42fb-ae7e-a667e0304149</testCaseGuid>
+</TestCaseEntity>

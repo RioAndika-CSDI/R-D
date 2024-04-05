@@ -30,7 +30,7 @@
       <variableId>29df8c99-0081-4de6-859a-7638f4aa2e2c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Daihatsu\r\n'</defaultValue>
+      <defaultValue>'Daihatsu'</defaultValue>
       <description></description>
       <id>b1e3aa01-80e2-461f-8880-97a8a440287b</id>
       <masked>false</masked>

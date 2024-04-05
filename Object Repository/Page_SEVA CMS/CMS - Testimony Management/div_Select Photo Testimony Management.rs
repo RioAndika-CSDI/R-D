@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_select photo Testimony Management</name>
+   <tag></tag>
+   <elementGuidId>d7b13440-7165-49f9-8459-4f97a05cba9c</elementGuidId>
+   <imagePath>D:\App\Katalon_Studio_Windows_64-8.6.8\Katalon_Studio_Windows_64-8.6.8\Automation\Testimony Management.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>D:\App\Katalon_Studio_Windows_64-8.6.8\Katalon_Studio_Windows_64-8.6.8\Automation\Testimony Management.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/form/div[2]/div/div[4]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>IMAGE</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>462b43a9-ca6e-47f5-8484-b00dbcf1310d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>9892c36d-dad4-44d7-ae09-0ff9ab579bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f2614e7a-f2d1-4e55-b8ce-f7281146aa37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-gray-50 border border-line rounded min-h-[192px] flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800</value>
+      <webElementGuid>016c1997-8dd0-4fc7-b0b7-7c9e8352fd23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to select photo or drag and drop in this area</value>
+      <webElementGuid>9efeae8e-a760-49e8-a55a-9583ad16f513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/form[1]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs mb-12 overflow-visible&quot;]/div[@class=&quot;p-4 flex h-full flex-col justify-between gap-6 px-6 py-8&quot;]/div[@class=&quot;grid grid-cols-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;bg-gray-50 border border-line rounded min-h-[192px] flex items-center hover:border-primary-300 duration-200 transition-all ease-in-out px-3 dark:border-gray-400 justify-center dark:bg-gray-800&quot;]</value>
+      <webElementGuid>e6e86fc5-cbaa-4ff2-ab0e-085c05e26978</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/form/div[2]/div/div[4]/div/div[2]/div</value>
+      <webElementGuid>8d0c3607-d863-4bc9-8f12-50553cc563da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::div[2]</value>
+      <webElementGuid>bf7a8ea2-7303-4120-a6d8-4ecab3fcaf62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Image'])[1]/following::div[2]</value>
+      <webElementGuid>ca68b1f6-dbad-4a1c-9b63-79962ee71c56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File requirements: webp/png format, 359px x 231px, size up to 1 MB'])[1]/preceding::div[2]</value>
+      <webElementGuid>ea705219-b1fa-4a2c-a941-34fc68612062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div</value>
+      <webElementGuid>99d21f17-4d0c-453f-b4d9-a8e13fabcf2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>input[@id=“file-picker”]</value>
+      <webElementGuid>b83da079-1aab-40ac-9a07-718dd6ae8048</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

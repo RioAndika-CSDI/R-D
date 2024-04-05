@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Re-engagement Bucket Management</name>
+   <tag></tag>
+   <elementGuidId>952f5d40-7d17-48e0-b4ef-e408ded0d67b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rb:']/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Re-engagement Bucket Management&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7805fbab-130b-4b6e-b67a-a64e9d76b265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c54c6d06-4abb-4259-9a3e-3e3f3721fded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-20 w-full items-center justify-start bg-white pl-[76px] font-KanyonMedium text-sm/[17px] text-label hover:bg-inputBg hover:text-label aria-selected:pointer-events-none aria-selected:bg-white aria-selected:font-KanyonBold aria-selected:text-primaryRed</value>
+      <webElementGuid>aa6478f1-6ced-45ad-9a1e-0af301c58b24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/re-engagement-bucket-mgmt</value>
+      <webElementGuid>25418505-047c-4c5f-840c-cfd2a2f4e225</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Re-engagement Bucket Management</value>
+      <webElementGuid>e2d357f6-d46e-49ce-a851-af7c66a94867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rb:&quot;)/a[@class=&quot;flex h-20 w-full items-center justify-start bg-white pl-[76px] font-KanyonMedium text-sm/[17px] text-label hover:bg-inputBg hover:text-label aria-selected:pointer-events-none aria-selected:bg-white aria-selected:font-KanyonBold aria-selected:text-primaryRed&quot;]</value>
+      <webElementGuid>6fe26791-4111-4f50-a108-0f16ae75c091</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rb:']/a[2]</value>
+      <webElementGuid>4eec1054-8905-4fea-aadc-55c7db1ed91e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Re-engagement Bucket Management')]</value>
+      <webElementGuid>6d13db13-a0e8-460b-ae8b-e25264a5b69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workstation Bucket Management'])[1]/following::a[1]</value>
+      <webElementGuid>cdb17d82-16bc-4956-84d8-4a59b90292de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bucket Management'])[1]/following::a[2]</value>
+      <webElementGuid>b40a1aa0-48c9-4008-a293-6f90fcf133e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::a[1]</value>
+      <webElementGuid>a42144b7-99a0-45ee-add1-baa690527802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Re-engagement Bucket Management']/parent::*</value>
+      <webElementGuid>9ddcc341-321e-46a8-9082-d8eda04796db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/re-engagement-bucket-mgmt')]</value>
+      <webElementGuid>b6a09c55-1993-440d-b7d7-d88ecb1655d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>2d04a18c-6af7-4fb8-9b0d-a413ea408985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/re-engagement-bucket-mgmt' and (text() = 'Re-engagement Bucket Management' or . = 'Re-engagement Bucket Management')]</value>
+      <webElementGuid>24bbe0e5-8b86-497d-ac1e-7c071bb0f822</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

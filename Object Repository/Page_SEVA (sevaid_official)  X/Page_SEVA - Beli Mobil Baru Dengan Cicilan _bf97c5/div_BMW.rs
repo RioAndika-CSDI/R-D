@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(.,'BMW')]</value>
+         <value>//div[@data-testid='logo-BMW']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>557c0f40-48dd-4fc0-8769-db2fdc051492</webElementGuid>
+      <webElementGuid>dc08093e-7990-4417-9774-6b6a21c7e0a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>954274b9-160e-4e3a-b8f1-26e6ef6a6df7</webElementGuid>
+      <webElementGuid>2233cb51-feb5-41f3-b0b6-7e12fe108376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>dfe79261-51b0-4952-8ef5-e5b9a22aa38a</webElementGuid>
+      <webElementGuid>636d6aa9-a2cc-49ae-aede-8b2624b266a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-BMW</value>
-      <webElementGuid>2d5415e1-01ff-44ac-8151-4d25175c5381</webElementGuid>
+      <webElementGuid>fb0aabc9-b8aa-44dd-b8ed-2f3cfb0090c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> BMW</value>
-      <webElementGuid>8f9ca5b3-950d-4aa4-996e-f7508eb056ad</webElementGuid>
+      <webElementGuid>ff5cf154-ac0b-4120-b6d6-9fee42ad52f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>d32efc15-daf0-4871-8001-e83b3003be2c</webElementGuid>
+      <webElementGuid>7f80629e-4c12-4f3b-a92b-c4303a37cbd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div</value>
-      <webElementGuid>9b951bbd-ad1d-42a6-ad28-98240baa8ad5</webElementGuid>
+      <webElementGuid>491e3df7-caa2-4186-a8d4-bc7aff5940fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' BMW' or . = ' BMW')]</value>
-      <webElementGuid>bf3c90ee-ac1d-440e-96cd-e52144ed5848</webElementGuid>
+      <webElementGuid>4af8c8de-3b40-4e43-a1eb-dbd88a729063</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

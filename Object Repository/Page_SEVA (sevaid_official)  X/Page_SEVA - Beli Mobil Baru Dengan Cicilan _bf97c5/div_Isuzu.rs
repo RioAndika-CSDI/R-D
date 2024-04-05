@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(.,'Isuzu')]</value>
+         <value>//div[@data-testid='logo-isuzu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ea0dc202-0649-4f54-8924-148705e5f003</webElementGuid>
+      <webElementGuid>62bbee27-325f-402b-9ce1-703be5a4f641</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>506d394b-471b-4020-9ea5-a46a64dff025</webElementGuid>
+      <webElementGuid>d6ab6061-05a4-4535-bdc9-bacb8883d9ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>ad6e96d7-ed49-4184-8f3e-b2ab76349baf</webElementGuid>
+      <webElementGuid>13c35048-87ba-48db-86c0-d9f6188ec232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-isuzu</value>
-      <webElementGuid>b0f8f09c-4c1c-4626-a4e5-9d0a01863042</webElementGuid>
+      <webElementGuid>e0d85322-0ce1-4866-af87-5b6c3813887e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Isuzu</value>
-      <webElementGuid>a3e40590-5827-4b20-8a86-1616055fbd2d</webElementGuid>
+      <webElementGuid>03568c3f-1567-458e-80ee-8ff1177bee23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>f99ebc87-59d6-4ff2-a5ea-299f3188bb18</webElementGuid>
+      <webElementGuid>8d7add84-cce6-4991-bfab-93c7b5d08474</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div</value>
-      <webElementGuid>7bb54b76-709d-461a-ad83-5f3cf437cfe1</webElementGuid>
+      <webElementGuid>5e49c152-cee1-4508-b2fe-4a0f661456aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Isuzu' or . = ' Isuzu')]</value>
-      <webElementGuid>97f1a772-7dfc-4d91-abd5-f21d6824a4bd</webElementGuid>
+      <webElementGuid>41b36637-ff8e-400d-918b-d5df6e87ceb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

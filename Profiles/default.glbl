@@ -21,6 +21,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://crm-fe.staging.sevaio.xyz/login'</initValue>
+      <name>crmstg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'81225717129'</initValue>
       <name>PhoneNumber</name>
    </GlobalVariableEntity>

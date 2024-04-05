@@ -23,6 +23,8 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
 
+WebUI.delay(60)
+
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Cari Mobil'))
@@ -35,7 +37,7 @@ actuall_URL = WebUI.getUrl()
 
 WebUI.verifyMatch(actuall_URL, expected_URL, true)
 
-if(close_browser.toString().equals('1')) {
-	WebUI.closeBrowser()
-	}
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

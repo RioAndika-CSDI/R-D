@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Masuk  Daftar_teman-seva-onboarding_bul_415ce8</name>
+   <tag></tag>
+   <elementGuidId>dcf93ad5-a482-4eaf-926c-1560c64b14f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[3]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.teman-seva-onboarding_indicatorWrapper__jIoof > div:nth-child(2)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d7263085-f180-4611-8a07-393a35b0a72d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>teman-seva-onboarding_bullet__vCJCf</value>
+      <webElementGuid>24ef34eb-d2bd-43fe-b60d-92d287d19153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;teman-seva-onboarding_wrapper__08jau&quot;]/div[1]/div[@class=&quot;teman-seva-onboarding_indicatorWrapper__jIoof&quot;]/div[@class=&quot;teman-seva-onboarding_bullet__vCJCf&quot;]</value>
+      <webElementGuid>e75fc630-3996-4e13-ada9-715e9392414f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/div[2]</value>
+      <webElementGuid>c697c6b0-382a-4114-b759-4844d39d63a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>35697831-690e-48f7-adfa-bde4e1362bc0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

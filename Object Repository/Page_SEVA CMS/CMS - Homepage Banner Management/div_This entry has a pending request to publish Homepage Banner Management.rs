@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_This entry has a pending request to publish Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>6b0d0e87-2d69-42ed-a3a9-c30b7441d6cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative.w-full.rounded-lg.px-4.py-2.text-sm.flex.gap-1.items-center.text-primaryDarkGray.bg-alert-yellowLight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>892e2662-8ec1-46a7-8dcc-9cda57372996</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>47668d6f-6b4b-4848-ad11-5c369bdb1d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative w-full rounded-lg px-4 py-2 text-sm flex gap-1 items-center text-primaryDarkGray bg-alert-yellowLight</value>
+      <webElementGuid>715c8029-ffdf-425f-8ee9-e0d96e6165ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This entry has a pending request to publish</value>
+      <webElementGuid>7d40db85-ab36-4cdc-bfa1-bc5856a1bb17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-10&quot;]/div[@class=&quot;mt-4 border-spacing-0 overflow-hidden rounded-lg border border-solid border-line shadow-[0_4px_8px_0_rgba(64,64,64,0.08)]&quot;]/div[@class=&quot;p-4 pb-0&quot;]/div[@class=&quot;relative w-full rounded-lg px-4 py-2 text-sm flex gap-1 items-center text-primaryDarkGray bg-alert-yellowLight&quot;]</value>
+      <webElementGuid>f73c42a8-0303-4810-ab65-2f42d573ccf4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div[2]/div/div</value>
+      <webElementGuid>4f4bf106-1d0c-43d0-80cd-b6de09e5a92b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel Approval Request'])[1]/following::div[3]</value>
+      <webElementGuid>6e8ca07c-eb30-4c83-bd01-db125f7d83ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Homepage Banner'])[1]/following::div[4]</value>
+      <webElementGuid>22448b8d-aa47-4925-9692-307bcda3dc84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approver'])[1]/preceding::div[1]</value>
+      <webElementGuid>f91aafb7-397b-46b0-8cb2-edf68ded2c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[2]/div/div</value>
+      <webElementGuid>4a622729-6417-4e93-bec8-55b26f2ed893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'This entry has a pending request to publish' or . = 'This entry has a pending request to publish')]</value>
+      <webElementGuid>23ac5c68-8580-4af4-9d8d-e44229ba83e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

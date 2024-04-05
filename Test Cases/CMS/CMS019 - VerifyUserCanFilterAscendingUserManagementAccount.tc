@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS019 - VerifyUserCanFilterAscendingUserManagementAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57829c40-7b6e-468b-8efd-9fb8bf72aea3</testCaseGuid>
+</TestCaseEntity>

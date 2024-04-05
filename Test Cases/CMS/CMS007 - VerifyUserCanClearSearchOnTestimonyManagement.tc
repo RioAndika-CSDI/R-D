@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS007 - VerifyUserCanClearSearchOnTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87fecf35-24b6-4690-98bc-fe7479af7128</testCaseGuid>
+</TestCaseEntity>

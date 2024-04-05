@@ -30,13 +30,13 @@ WebUI.delay(3)
 
 actuall_URL = WebUI.getUrl()
 
-
-if(actuall_URL.equals((expected_URL + city.toString().toLowerCase()))) {
-	WebUI.verifyMatch('true', 'true' , true)
-	
-}else{
-	WebUI.verifyMatch('true', 'true' , false)
+if (actuall_URL.equals(expected_URL + city.toString().toLowerCase())) {
+    WebUI.verifyMatch('true', 'true', true)
+} else {
+    WebUI.verifyMatch('true', 'true', false)
 }
-if(close_browser.toString().equals('1')) {
-	WebUI.closeBrowser()
-	}
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
+

@@ -18,9 +18,34 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar'), 
-    [('city') : 'bandung\r\n', ('dealer') : 'Daihatsu', ('URL_tc3') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer/'
-        , ('open_browser') : '1', ('close_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
+    [('city') : city, ('dealer') : dealer, ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1'
+        , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_Temukan 3 Dealer Mobil Daihatsu di Bandung  SEVA/div_Kontak dealer name and city'), 
-    0)
+WebUI.scrollToElement(findTestObject('Page - Dealer Location/Kontak dealer', [('id') : kontak_dealer_ke]), 0)
+
+WebUI.click(findTestObject('Page - Dealer Location/Kontak dealer', [('id') : '1']))
+
+WebUI.delay(5)
+
+nama_dealer = WebUI.getText(findTestObject('Page - Dealer Location/Nama dealer by id', [('id') : kontak_dealer_ke]))
+
+actuall_URL = WebUI.getUrl()
+
+nama_dealer = nama_dealer.toLowerCase()
+
+nama_dealer = nama_dealer.trim()
+
+nama_dealer = nama_dealer.replaceAll(' ', '-')
+
+URL_expected = ((((expected_URL + '/') + city) + '/') + nama_dealer)
+
+if (URL_expected.equals(actuall_URL)) {
+    WebUI.verifyMatch('true', 'true', true)
+} else {
+    WebUI.verifyMatch('true', 'true', false)
+}
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

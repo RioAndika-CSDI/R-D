@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS025 - VerifyUserCanSearchOnHomepageBannerManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d208ed38-69ac-410b-8bca-6c4a295f4e97</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMS041 - VerifyUserCanFilterAnnouncementBoxApprovalRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bebc6466-9ea5-4224-9249-d82396c4725a</testCaseGuid>
+</TestCaseEntity>
