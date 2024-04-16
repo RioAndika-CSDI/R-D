@@ -18,6 +18,8 @@ appium.log
 /Libs/
 /.settings/
 /.classpath
+.svn/
+/.classpath
 /.cache
 .cache
 .svn/
