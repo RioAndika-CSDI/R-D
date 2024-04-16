@@ -33,7 +33,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/
 
 WebUI.click(findTestObject('Object Repository/Page_Re-engagement Bucket Management - SEVA CRM/div_Re-engagement Bucket Management'))
 
-WebUI.delay(60)
-
 WebUI.closeBrowser()
 

@@ -29,7 +29,5 @@ WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN'
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/div_Welcome to SEVA CRM'))
 
-WebUI.delay(60)
-
 WebUI.closeBrowser()
 
