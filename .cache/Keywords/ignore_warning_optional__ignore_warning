@@ -1,5 +1,5 @@
-
-  "keywordFileContentHash": "CF7F0260B194CBD9725F6E6109EA3C5E",
+{
+  "keywordFileContentHash": "329724912091049659997642EE0014C9",
   "keywordClasses": [
     {
       "name": "ignore_warning_optional.ignore_warning",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "verifyIgnoreWarning",
@@ -51,7 +52,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "waitingIgnoreWarning",
@@ -82,10 +84,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
