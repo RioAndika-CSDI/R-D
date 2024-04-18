@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if (open_browser.toString().equals('1')) {
-WebUI.callTestCase(findTestCase('Wordpress/WP001-Homepage-Akses Main Page Blog Melalui Burgaer Menu'), [('expected_url') : expected_url
-        , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Wordpress/WP001-Homepage-Akses Main Page Blog Melalui Burgaer Menu'), [('expected_url') : expected_url
+            , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('Page Blog Main/Label_ Berita Baru_Lihat Semua'))
 
-WebUI.waitForElementPresent(findTestObject('Page Blog Main/Label_Berita Terbaru'), 300)
+WebUI.waitForElementPresent(findTestObject('Page Blog Main/Page Berita/breadcrumb'), 300)
 
 actUrl = WebUI.getUrl()
 
