@@ -19,3 +19,8 @@ appium.log
 /.settings/
 /.classpath
 .svn/
+/.classpath
+/.cache
+.cache
+.svn/
+.prj

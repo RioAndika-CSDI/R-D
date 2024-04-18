@@ -36,13 +36,13 @@ WebUI.click(findTestObject('Homepage Component/Select City List'))
 WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
 'Click Moengage Ads\r\n'
 WebUI.delay(4)
 
 'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
