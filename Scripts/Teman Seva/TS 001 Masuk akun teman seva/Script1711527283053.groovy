@@ -21,7 +21,7 @@ WebUI.openBrowser('https://www.seva.id/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button'))
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
 
