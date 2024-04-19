@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Kisaran Harga' or . = 'Kisaran Harga')]</value>
+         <value>//*[(text() = 'Kisaran Harga' or . = 'Kisaran Harga') and @class = 'filtermobile_labelForm__I34yz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Kisaran Harga</value>
-      <webElementGuid>8e8f3ed1-fe79-45d3-9ba2-61110d095dc7</webElementGuid>
+      <webElementGuid>cc651163-9cc8-4100-a914-0ea16a04cc76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filtermobile_labelForm__I34yz</value>
+      <webElementGuid>7c1a3234-eabc-4f0b-a12f-0452177683bc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

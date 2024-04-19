@@ -23,15 +23,28 @@ if (open_browser.toString().equals('1')) {
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+
+aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
+    30)
+
+if (aslFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
+
+    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 
+WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 0)
+
 WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
 
-WebUI.waitForPageLoad(50)
+WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 0)
 
 String actual_url = WebUI.getUrl()
 

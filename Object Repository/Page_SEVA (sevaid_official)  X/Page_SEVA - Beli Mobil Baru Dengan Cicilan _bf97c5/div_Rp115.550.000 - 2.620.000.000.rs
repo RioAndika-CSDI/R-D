@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rp115.550.000 - 2.620.000.000</name>
+   <tag></tag>
+   <elementGuidId>4a175b94-475d-4e51-bee0-e15118ec27ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div/div[3]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39561b28-fb98-4c5b-ae1c-7688f4d43c10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectWidget_textArrowWrapper__JpQqv</value>
+      <webElementGuid>e19a1363-ca38-4410-8c5e-149808696c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp115.550.000 - 2.620.000.000</value>
+      <webElementGuid>62d5a6e4-f12b-46cc-8689-80e7168bc7cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__SiBmi&quot;]/div[@class=&quot;searchWidget_container__nJgb2&quot;]/div[@class=&quot;searchWidget_cardContainer__9qyDq&quot;]/div[@class=&quot;selectWidget_container__yuLbY&quot;]/div[@class=&quot;selectWidget_fieldContainer__6hrAa&quot;]/div[@class=&quot;selectWidget_fieldWrapper__WE4d5&quot;]/div[@class=&quot;selectWidget_textArrowWrapper__JpQqv&quot;]</value>
+      <webElementGuid>7eac0b98-2c99-4f83-8e09-8a62980025e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div/div/div[3]/div/div[2]/div</value>
+      <webElementGuid>626c04ed-2456-4500-a240-356fc5eb8e5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimasi Harga'])[1]/following::div[1]</value>
+      <webElementGuid>d2b2532b-4207-4055-9521-eb3749112a9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MPV'])[1]/following::div[7]</value>
+      <webElementGuid>29bb616a-9d70-4187-b65f-e00de190420c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Filter Finansial'])[1]/preceding::div[4]</value>
+      <webElementGuid>cb8c07e9-95c8-41ed-a071-c183bbf8224b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/div[2]/div</value>
+      <webElementGuid>7cd772d6-3bdc-465d-a7bc-40821d4f165e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp115.550.000 - 2.620.000.000' or . = 'Rp115.550.000 - 2.620.000.000')]</value>
+      <webElementGuid>19162135-d6cd-407a-9510-cef3fdf893a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
