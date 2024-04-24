@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[starts-with(@class, 'tabV2_containerTabV2LC__eSZO_ ')])[${id}]</value>
+         <value>(//*[starts-with(@data-testid, 'tab-')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <matchCondition>ends with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>tabV2_containerTabV2LC__eSZO_ </value>
-      <webElementGuid>c7f572a8-40df-4fd8-9943-639ec955faad</webElementGuid>
+      <webElementGuid>6d9bec61-78c5-4684-8765-9b2b9a100021</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[starts-with(@class, 'tabV2_containerTabV2LC__eSZO_ ')])[${id}]</value>
-      <webElementGuid>d95d445d-e4e0-43e1-a3a5-dba18d95fbe1</webElementGuid>
+      <value>(//*[starts-with(@data-testid, 'tab-')])[${id}]</value>
+      <webElementGuid>321b0c83-200b-4bb3-b57a-8648cc52edd2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
