@@ -42,6 +42,8 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'))
 
+WebUI.click(findTestObject('Homepage - PLP/select selection overflow'))
+
 String ambilBranSearch = ''
 
 String navigateFilter = ''
@@ -91,7 +93,7 @@ if (model.toString().length() > 0) {
         ambilBranSearch = bantu.trim()
     }
     
-    WebUI.click(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'))
+    WebUI.click(findTestObject('Homepage - PLP/select selection overflow'))
 }
 
 '--Bagian Pilih Brand--'
