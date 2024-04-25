@@ -63,20 +63,23 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+String[] awalan = Awalan_nomorHP.toString().split(';')
 
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+for (i = 0; i < awalan.length; i++) {
+    WebUI.setText(findTestObject('Login Register Component/Input_phone_umum'), awalan[i])
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+    String hasilInput = WebUI.getAttribute(findTestObject('Login Register Component/Input_phone_umum'), 'value')
 
-WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
+    WebUI.comment(hasilInput)
+	
+	int output=hasilInput.toString().length()
 
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
+    WebUI.verifyLessThanOrEqual(output, 0)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+    WebUI.clearText(findTestObject('Login Register Component/Input_phone_umum'))
+}
 
-WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
-
+//WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
 }
