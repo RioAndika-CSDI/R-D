@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Te
 
 WebUI.delay(60)
 
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
+WebUI.click(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
 
