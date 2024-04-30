@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+if (open_browser.toString().equals('1')) {
+    WebUI.openBrowser(GlobalVariable.Prod)
+}
 
 WebUI.maximizeWindow()
 
@@ -25,21 +27,35 @@ WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('PopUP/button_x'))
+aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
+    15)
 
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
+if (aslFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
 
-WebUI.click(findTestObject('Homepage Component/Select City List'))
+    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
 
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+    WebUI.switchToWindowIndex(0)
+}
+
+//WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
+//
+//WebUI.waitForElementVisible(findTestObject('Homepage Component/Select City List'), 100)
+//
+//WebUI.delay(3)
+//
+//WebUI.click(findTestObject('Homepage Component/Select City List'))
+//
+//WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 'Click Burger Menu'
 WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
 'Click Moengage Ads\r\n'
-WebUI.delay(4)
+WebUI.delay(1)
 
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
@@ -47,9 +63,15 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
 WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '969696')
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+
+WebUI.verifyElementPresent(findTestObject('Login Register Component/OTP_Fail'), 0)
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 
