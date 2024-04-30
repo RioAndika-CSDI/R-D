@@ -6,15 +6,19 @@
    <elementGuidId>cd6d775f-3cf6-4de0-af66-a9cd77115eb7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-2i2tap&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-2i2tap default&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;otp_content__AnDRZ&quot;]/div[@class=&quot;otp_otpGroup__OT1qf&quot;][count(. | //*[@class = 'otp_otpGroup__OT1qf']) = count(//*[@class = 'otp_otpGroup__OT1qf'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.otp_otpGroup__OT1qf</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c6b1606e-6ed8-4a6a-a786-4d2be7a82bd7</webElementGuid>
+      <webElementGuid>20563c90-2564-4adc-8b13-c057e3058773</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>otp_otpGroup__OT1qf</value>
-      <webElementGuid>22d25f12-e5b6-4126-ba35-6ce147fd30f6</webElementGuid>
+      <webElementGuid>3d9b5260-1b7d-42f9-93dc-a5775cf4e4e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-2i2tap&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-2i2tap default&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;otp_content__AnDRZ&quot;]/div[@class=&quot;otp_otpGroup__OT1qf&quot;]</value>
-      <webElementGuid>2835c119-8d4d-45b7-8077-a3225bd35cbb</webElementGuid>
+      <webElementGuid>716331ed-8664-421d-bafd-8ac1b5c0e9d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
-      <webElementGuid>4530edd3-26d1-453b-bdc0-a3eee58b961b</webElementGuid>
+      <webElementGuid>bbbb1dc0-02b5-422d-a516-1555e2a512ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[13]</value>
-      <webElementGuid>45bf3251-e833-4f07-ba65-876abb3dfb1e</webElementGuid>
+      <webElementGuid>9d00ad1f-922a-4a79-a0ad-e77cd317af04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;div id=recaptcha-container>&lt;/div>'])[1]/preceding::div[1]</value>
-      <webElementGuid>393625b4-b9c8-46db-a84e-44344580de69</webElementGuid>
+      <webElementGuid>ec7b504e-b492-4302-9cfd-6c65a2e41983</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>c7e5ed5d-491b-4f81-8f10-180e08322c69</webElementGuid>
+      <webElementGuid>335c4f40-0228-47da-ac59-31ce797c6e70</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

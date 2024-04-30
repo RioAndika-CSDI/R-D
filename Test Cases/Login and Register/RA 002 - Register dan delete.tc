@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RA 002 - Register dan delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32122bf5-dafd-48ca-bec6-8ff3faa7aeed</testCaseGuid>
+   <variable>
+      <defaultValue>'08892428461'</defaultValue>
+      <description></description>
+      <id>12f16fdc-7641-45a3-8191-5dc4d6ea6225</id>
+      <masked>false</masked>
+      <name>Phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dian Ayu P Testing'</defaultValue>
+      <description></description>
+      <id>9b9de51b-8dd6-4a52-857e-c810cc6a9e69</id>
+      <masked>false</masked>
+      <name>Nama_lengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'dianayuptesting@gmail.com'</defaultValue>
+      <description></description>
+      <id>bd4e1d7d-049a-41aa-bf39-2c9b62325c2d</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Perempuan'</defaultValue>
+      <description></description>
+      <id>3a191291-ee2e-4d18-9867-5d0afb4a789e</id>
+      <masked>false</masked>
+      <name>Jenis_kelamin</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>f4613159-3dcf-4ccf-821f-832195d8d5da</id>
+      <masked>false</masked>
+      <name>data_existing</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>258a0945-bed8-45a2-9ca9-610eb73cfadb</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f8394a2d-297f-47e4-8768-6377bdbb45d1</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>
