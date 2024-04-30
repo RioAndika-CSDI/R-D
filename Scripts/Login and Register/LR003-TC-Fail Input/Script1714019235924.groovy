@@ -71,13 +71,25 @@ for (i = 0; i < awalan.length; i++) {
     String hasilInput = WebUI.getAttribute(findTestObject('Login Register Component/Input_phone_umum'), 'value')
 
     WebUI.comment(hasilInput)
-	
-	int output=hasilInput.toString().length()
+
+    int output = hasilInput.toString().length()
 
     WebUI.verifyLessThanOrEqual(output, 0)
 
     WebUI.clearText(findTestObject('Login Register Component/Input_phone_umum'))
 }
+
+WebUI.setText(findTestObject('Login Register Component/Input_phone_umum'), nomor_dibawahMinimal)
+
+WebUI.verifyElementPresent(findTestObject('Login Register Component/Button_Lanjut_Disable'), 0)
+
+WebUI.clearText(findTestObject('Login Register Component/Input_phone_umum'))
+
+WebUI.setText(findTestObject('Login Register Component/Input_phone_umum'), nomor_diatasMax)
+
+hasilinputmax = WebUI.getAttribute(findTestObject('Login Register Component/Input_phone_umum'), 'value')
+
+WebUI.verifyMatch(hasilinputmax.length().toString(), digit_max, true)
 
 //WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 if (close_browser.toString().equals('1')) {

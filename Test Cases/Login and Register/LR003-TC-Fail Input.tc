@@ -21,6 +21,18 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>4efe05f2-8bcc-41d1-8bcb-ec97ea7c7290</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56c59aa0-32ee-42c4-bc9b-e45baab4ff0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>3cbeef3d-966f-4b07-a9bd-a718d499b217</variableId>
    </variableLinks>
    <variableLinks>
@@ -42,6 +54,20 @@
       <id>bfc4e475-7603-47c7-aa6f-f18997c53a30</id>
       <masked>false</masked>
       <name>nomor_dibawahMinimal</name>
+   </variable>
+   <variable>
+      <defaultValue>'812345678901234567890'</defaultValue>
+      <description></description>
+      <id>4efe05f2-8bcc-41d1-8bcb-ec97ea7c7290</id>
+      <masked>false</masked>
+      <name>nomor_diatasMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'13'</defaultValue>
+      <description></description>
+      <id>56c59aa0-32ee-42c4-bc9b-e45baab4ff0c</id>
+      <masked>false</masked>
+      <name>digit_max</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
