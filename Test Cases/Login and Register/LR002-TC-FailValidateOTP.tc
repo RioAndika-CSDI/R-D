@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LR001-TC-Login</name>
+   <name>LR002-TC-FailValidateOTP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a873ba92-65ef-4985-b424-1d475e3ffe95</testCaseGuid>
+   <testCaseGuid>4f84bd58-be5e-4e4a-914e-7b19e1d97cc1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -37,7 +37,7 @@
       <name>nomorHP</name>
    </variable>
    <variable>
-      <defaultValue>'445566'</defaultValue>
+      <defaultValue>'1111111'</defaultValue>
       <description></description>
       <id>5b4fb5ab-e57f-4309-b540-fffbe58f35f6</id>
       <masked>false</masked>
