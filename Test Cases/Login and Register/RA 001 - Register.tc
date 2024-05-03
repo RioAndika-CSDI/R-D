@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LR001-TC-Login</name>
+   <name>RA 001 - Register</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a873ba92-65ef-4985-b424-1d475e3ffe95</testCaseGuid>
+   <testCaseGuid>9cea020d-ced0-48a6-b561-a2d53a41a834</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0f36f9fe-cd27-440d-9a45-f5b110b26cb2</variableId>
+      <variableId>12f16fdc-7641-45a3-8191-5dc4d6ea6225</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5b4fb5ab-e57f-4309-b540-fffbe58f35f6</variableId>
+      <variableId>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3cbeef3d-966f-4b07-a9bd-a718d499b217</variableId>
+      <variableId>9b9de51b-8dd6-4a52-857e-c810cc6a9e69</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5e74fae4-ca4c-4979-86cd-e4ad91254bb9</variableId>
+      <variableId>bd4e1d7d-049a-41aa-bf39-2c9b62325c2d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'8752900847'</defaultValue>
-      <description>8752900847</description>
-      <id>0f36f9fe-cd27-440d-9a45-f5b110b26cb2</id>
+      <defaultValue>'08892428461'</defaultValue>
+      <description></description>
+      <id>12f16fdc-7641-45a3-8191-5dc4d6ea6225</id>
       <masked>false</masked>
-      <name>nomorHP</name>
+      <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'445566'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
-      <id>5b4fb5ab-e57f-4309-b540-fffbe58f35f6</id>
+      <id>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'Dian Ayu P Testing'</defaultValue>
       <description></description>
-      <id>3cbeef3d-966f-4b07-a9bd-a718d499b217</id>
+      <id>9b9de51b-8dd6-4a52-857e-c810cc6a9e69</id>
       <masked>false</masked>
-      <name>open_browser</name>
+      <name>Nama_lengkap</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'dianayuptesting@gmail.com'</defaultValue>
       <description></description>
-      <id>5e74fae4-ca4c-4979-86cd-e4ad91254bb9</id>
+      <id>bd4e1d7d-049a-41aa-bf39-2c9b62325c2d</id>
       <masked>false</masked>
-      <name>close_browser</name>
+      <name>Email</name>
    </variable>
 </TestCaseEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>a07c4c72-934a-4bfd-b4cd-f6af78722362</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.toast_content__J_sXL</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.toast_content__J_sXL</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Nomor berhasil diverifikasi.' or . = 'Nomor berhasil diverifikasi.')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3c3d0ec1-124b-463d-a963-b4690eec78ed</webElementGuid>
+      <webElementGuid>f9cc0ad0-e03d-4901-a375-e0c84507fb29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>toast_content__J_sXL</value>
-      <webElementGuid>6aeb6d92-0c33-473e-987d-05f536c39419</webElementGuid>
+      <webElementGuid>47665576-e41d-4000-93ac-90ca3a871fa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nomor berhasil diverifikasi.</value>
-      <webElementGuid>7d9fd879-01ef-4576-a32d-8d7bfb6aa5fd</webElementGuid>
+      <webElementGuid>9e349af6-cca7-40ba-a529-2a8b3bce21c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-2i2tap&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-2i2tap toast-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/button[@class=&quot;toast_content__J_sXL&quot;]</value>
-      <webElementGuid>a6fa4237-a23b-42d4-a734-965d4a5cba5c</webElementGuid>
+      <webElementGuid>b14cfb46-03d2-4327-801c-560486add1b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
-      <webElementGuid>468a19a8-6c97-45aa-b8ee-809a58d96ab2</webElementGuid>
+      <webElementGuid>37ba7d22-d8bf-4b87-8d74-cc1f354dbef5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::button[1]</value>
-      <webElementGuid>89637b36-1a46-4ad4-a2e9-ce786479e951</webElementGuid>
+      <webElementGuid>bd27ba40-5959-4ea7-bb8a-778617429666</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>0e263983-61db-4e6b-b41d-93b4ab229dff</webElementGuid>
+      <webElementGuid>e63ba352-ab0b-411b-a179-137bc9b7a071</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Nomor berhasil diverifikasi.' or . = 'Nomor berhasil diverifikasi.')]</value>
-      <webElementGuid>b40add1f-6db3-41b1-bb98-eadefb743ca0</webElementGuid>
+      <webElementGuid>d09a7a4c-1c6f-4b6f-9d68-eb047610900c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
