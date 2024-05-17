@@ -40,6 +40,17 @@ if (aslFrame == true) {
     WebUI.switchToWindowIndex(0)
 }
 
+sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
+    15)
+
+if (sakuFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+
+    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
 //WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
 //
 //WebUI.waitForElementVisible(findTestObject('Homepage Component/Select City List'), 100)
