@@ -1,4 +1,4 @@
-package ignore_warning_optional
+package close_Popup
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -36,24 +36,31 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-class ignore_warning {
-	
-	
+
+class Close_popup_update {
 
 	@Keyword
-	def clickIgnoreWarning(TestObject obj) {
-		WebUI.click(obj, FailureHandling.OPTIONAL)
-	}
+	def closePopupSeva(int timeoutPerPopup) {
 
-	@Keyword
-	def verifyIgnoreWarning(TestObject obj, int timeout) {
-		boolean cek= WebUI.verifyElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
-		return cek;
-	}
+		boolean aslFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_ASL'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
 
-	@Keyword
-	def waitingIgnoreWarning(TestObject obj, int timeout) {
-		boolean cek= WebUI.waitForElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
-		return cek;
-	}
+		if (aslFrame == true) {
+			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
+
+			WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
+
+			WebUI.switchToWindowIndex(0)
+		}
+		
+		boolean sakuFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
+		
+		if (sakuFrame == true) {
+			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+
+			WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+
+			WebUI.switchToWindowIndex(0)
+		}
+		
+		}
 }
