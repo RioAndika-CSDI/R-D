@@ -25,6 +25,17 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
 
+sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
+    15)
+
+if (sakuFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+
+    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
 WebUI.click(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
