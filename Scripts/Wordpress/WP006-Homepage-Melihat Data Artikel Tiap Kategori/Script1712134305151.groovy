@@ -25,16 +25,7 @@ WebUI.scrollToElement(findTestObject('Homepage Component/label_Tab Kategori Semu
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
-    30)
-
-if (aslFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
-
-    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
-
-    WebUI.switchToWindowIndex(0)
-}
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
