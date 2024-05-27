@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PP005 - Verify User Cannot Edit Using Invalid Email Format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10dad111-42cc-4e3f-89d4-9328b9f93d9c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33fb016d-1c15-4621-adc4-f441225e6203</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'email@'</defaultValue>
+      <description></description>
+      <id>33fb016d-1c15-4621-adc4-f441225e6203</id>
+      <masked>false</masked>
+      <name>email_invalid</name>
+   </variable>
+</TestCaseEntity>
