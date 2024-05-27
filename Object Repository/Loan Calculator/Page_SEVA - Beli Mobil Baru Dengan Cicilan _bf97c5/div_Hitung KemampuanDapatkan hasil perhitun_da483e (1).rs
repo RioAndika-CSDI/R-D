@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hitung KemampuanDapatkan hasil perhitun_da483e (1)</name>
+   <tag></tag>
+   <elementGuidId>7d2592a4-e579-48a1-8695-44ed04a8ab18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[6]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>375beab9-deec-4cb0-8566-f6f6c3138ee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>howToUse_cardHowToUse__HZeMc</value>
+      <webElementGuid>1aaafdba-0b7c-4993-83bb-303e457fa61b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>hitung-kemampuan</value>
+      <webElementGuid>b1733a93-7a8b-4ef4-8965-7bcd986e5b02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!</value>
+      <webElementGuid>12004b79-85e7-49ab-b821-1e5c2ed2e236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;howToUse_wrapper__ORgWe&quot;]/div[@class=&quot;howToUse_cardSpacing__bpirt&quot;]/div[@class=&quot;howToUse_cardHowToUse__HZeMc&quot;]</value>
+      <webElementGuid>ee8f003c-eeb1-44d4-88ae-e8caf584262a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[6]/div/div[2]</value>
+      <webElementGuid>a8ce42c5-63ed-4f7e-b9b6-4fea00d29906</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara Dapatkan Mobil Impian di SEVA'])[1]/following::div[7]</value>
+      <webElementGuid>744edc72-a32c-4079-841e-5895ec3c4dbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua mobil'])[1]/following::div[8]</value>
+      <webElementGuid>8756a89b-2424-4839-8481-b04bafef03fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Car of The Month'])[1]/preceding::div[11]</value>
+      <webElementGuid>6fa85387-1661-42ff-8c06-eee8b83add3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All New Kijang Innova Zenix'])[1]/preceding::div[12]</value>
+      <webElementGuid>f212b50c-14b1-4694-bc62-fde19155179a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div[2]</value>
+      <webElementGuid>5d4bb339-5ebb-461e-bc18-dd3e8248c14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!' or . = 'Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!')]</value>
+      <webElementGuid>25426f0e-de58-4c57-9738-9c03ab8bf182</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

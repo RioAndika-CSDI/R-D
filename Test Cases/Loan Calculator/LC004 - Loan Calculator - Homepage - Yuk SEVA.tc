@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access loan calculator page from section Yuk SEVA and process loan calculator.</description>
+   <name>LC004 - Loan Calculator - Homepage - Yuk SEVA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9f0cc97-b627-4068-8461-b907ef69d62e</testCaseGuid>
+</TestCaseEntity>

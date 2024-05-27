@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>circle</name>
+   <tag></tag>
+   <elementGuidId>4774aa95-00d6-43a1-b531-e2c8f3e27939</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputSelect_iconWrapper__UIVlB > div > svg > circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>circle</value>
+      <webElementGuid>24c2630a-9bd1-42c3-ab41-075f99fb9513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cx</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>f767ef4f-6b08-4373-add2-ddd9dd6904bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cy</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>b600347e-06a5-45a8-acd8-32270397f5e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>r</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>fa746ec2-7ac6-4f3c-9cfa-f9bf1667c0e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#13131B</value>
+      <webElementGuid>e6b67d52-4a48-4ce4-8386-a0b13271b39a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-age&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]/circle[1]</value>
+      <webElementGuid>84a6d337-0218-44b5-b09d-ca49ef88efcd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

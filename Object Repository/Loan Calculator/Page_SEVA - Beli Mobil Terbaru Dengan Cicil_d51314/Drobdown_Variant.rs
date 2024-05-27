@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Drobdown_Variant</name>
+   <tag></tag>
+   <elementGuidId>2c7d566f-8210-470a-912a-6484563bfdbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-car-variant']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class = 'inputMultilineSelect_dropdownItem__CQp1Z'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputMultilineSelect_inputArea__HCPl2.inputMultilineSelect_hasNotSelectedValue__N2Eyd</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>73524c0b-aee1-4271-8b8d-d4b2bdd45923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputMultilineSelect_dropdownItem__CQp1Z</value>
+      <webElementGuid>d46dffae-2507-48d5-871d-d2cb5b5ba49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${variant}</value>
+      <webElementGuid>b79bc1fb-d4a3-4e0d-a6d2-3a60b152b867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class = 'inputMultilineSelect_dropdownItem__CQp1Z'])[1]</value>
+      <webElementGuid>f7a6d52f-09f6-48b7-972e-10aeb6d032be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-car-variant']/div[2]/div</value>
+      <webElementGuid>048ddf09-304d-495c-ad16-945331c28616</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Varian mobil'])[1]/following::div[2]</value>
+      <webElementGuid>8c089c99-f795-4b0c-b35a-2b508d53b54a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota All New Agya'])[1]/following::div[4]</value>
+      <webElementGuid>d06faafd-0a65-4dfd-8d55-b7a1247478cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp170.900.000'])[1]/preceding::div[3]</value>
+      <webElementGuid>327c62dc-02d9-479b-ba50-9bb314a59263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp178.400.000'])[1]/preceding::div[5]</value>
+      <webElementGuid>1571a3d1-f024-4e18-9488-55cc50fc48ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>c5990f2d-06fc-49d4-af20-8ce964361084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1.2 E M/T' or . = '1.2 E M/T')]</value>
+      <webElementGuid>7c295259-25bd-4bbc-a2fd-863330dfda84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access page loan calculator  from homepage and process loan calculator.</description>
+   <name>LC001 - Loan Calculator Access Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e456250f-f4c9-4907-9556-988085118301</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f41dff0-5060-401c-9583-17298c09288a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>0f41dff0-5060-401c-9583-17298c09288a</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>
