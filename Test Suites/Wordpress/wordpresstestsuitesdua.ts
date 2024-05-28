@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>wordpresstestsuitesdua</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ca41ead1-1aa2-433b-b534-81bc625cfeda</testSuiteGuid>
+   <testCaseLink>
+      <guid>81293b63-621f-410a-b456-b02efd1c284c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP010-Homepage-burgermenu-akses berita utama otomotif</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>902918e4-c8a5-4691-8a07-abdf2294cbfd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d3455ad-2805-4e89-9221-098c94b3ea22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP011-Homepage-Burgermenu-akses review otomotif</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbb2c593-f9d0-4976-bbd9-468da9994195</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f74267b3-3e78-4ba8-9f65-956f107d998e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP012-Homepage-Burgermenu-akses tips dan rekomendasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f29a8fc3-8814-48ff-835b-746821ba149c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>376278e2-8c9b-4e8e-a87c-8bfe0343341e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP013-Homepage-Burgermenu-akses keuangan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5cefba87-a89e-405a-afae-6deba18b3636</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Artikel-keuangan</name>
+   <tag></tag>
+   <elementGuidId>a2dbe4ce-140c-4af8-ba27-65036f5c9746</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'menuItem_submenu__aUQMo' and (text() = 'Keuangan' or . = 'Keuangan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_submenu__aUQMo</value>
+      <webElementGuid>822fe088-0826-4702-982c-87bdbe545e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keuangan</value>
+      <webElementGuid>5c1f2eab-afc9-487c-ab23-cf1de9107a6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
