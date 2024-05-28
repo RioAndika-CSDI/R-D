@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP011-Homepage-Burgermenu-akses review otomotif</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4b07760-17af-4436-935f-b475104a12fb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbb2c593-f9d0-4976-bbd9-468da9994195</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/category/otomotif/review-otomotif/'</defaultValue>
+      <description></description>
+      <id>dbb2c593-f9d0-4976-bbd9-468da9994195</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+</TestCaseEntity>
