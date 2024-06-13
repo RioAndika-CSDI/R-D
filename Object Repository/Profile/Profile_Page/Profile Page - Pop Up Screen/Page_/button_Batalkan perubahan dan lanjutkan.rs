@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Batalkan perubahan dan lanjutkan</name>
+   <tag></tag>
+   <elementGuidId>86875e36-1670-451a-86e6-1e926625dee0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.popupError_button__link__vWPU2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Batalkan perubahan dan lanjutkan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4bd92f2f-c0a6-4df7-85d5-93a419cf0c44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popupError_button__link__vWPU2</value>
+      <webElementGuid>8dd82fb4-c430-40ac-b1f8-9d71b8ab5d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-batalkan-perubahan-dan-lanjutkan</value>
+      <webElementGuid>e57b5899-d1bd-4536-b602-9c7faab4c217</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Batalkan perubahan dan lanjutkan</value>
+      <webElementGuid>6cca0841-182c-4e39-82dd-08a53f185feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-modal-root css-1v2lwm6&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1v2lwm6 default&quot;]/div[@class=&quot;popupError_content__ObsJW&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupError_modal__wrapper__BcX4K&quot;]/div[@class=&quot;popupError_modal__wording__pXJpn&quot;]/div[@class=&quot;popupError_btn_section__MnTRx&quot;]/button[@class=&quot;popupError_button__link__vWPU2&quot;]</value>
+      <webElementGuid>4f93e8d9-646d-42ab-a73a-7452fb0b01e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/following::button[1]</value>
+      <webElementGuid>d5b63d2f-ecc3-4ca6-8ee4-4e5fc3e41fb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan perubahan datamu sebelum melakukan tahap lainnya.'])[1]/following::button[2]</value>
+      <webElementGuid>a3a80567-70a6-418b-8aa2-695a1bacb84c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Batalkan perubahan dan lanjutkan']/parent::*</value>
+      <webElementGuid>49be7ede-2d52-48b8-b31f-502a439a947d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]</value>
+      <webElementGuid>52965219-134d-4ada-8aab-77bdbd6979f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Batalkan perubahan dan lanjutkan' or . = 'Batalkan perubahan dan lanjutkan')]</value>
+      <webElementGuid>0548dedc-2ede-46fe-9aa2-b89f7f572b24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

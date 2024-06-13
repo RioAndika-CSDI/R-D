@@ -6,31 +6,34 @@
    <elementGuidId>1899716a-db78-4e23-bfc5-ab3afaac1a36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div/div/div[3]/div/div/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'inputSelect_dropdownItemText__7p2jg inputSelect_greyLabelText__j_t1M' and (text() = '${city}' or . = '${city}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5e0620ee-d25a-4487-bdbd-257bca423abc</webElementGuid>
+      <webElementGuid>7ba64c6d-1909-4e9e-ba5d-d5705db45cdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemText__7p2jg</value>
-      <webElementGuid>013d9033-caed-4116-a788-8c51e940ee0f</webElementGuid>
+      <value>inputSelect_dropdownItemText__7p2jg inputSelect_greyLabelText__j_t1M</value>
+      <webElementGuid>a50994fc-a84c-4fd8-9a3b-568bdc5405e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${city}</value>
-      <webElementGuid>985dfc70-9409-43ce-95cf-ea7ddbb5f6b6</webElementGuid>
+      <webElementGuid>35c29256-c650-4d74-b740-50b74b9b39c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_cardContainer__t4hpH&quot;]/div[@class=&quot;selectWidgetUsedCar_container__oFwOH&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldContainer__w3IIw&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldWrapper__1VXrk&quot;]/div[2]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo inputSelect_dropdownActive__cH79b&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/span[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
-      <webElementGuid>441b27d1-c601-487f-b8b3-4963711a058c</webElementGuid>
+      <webElementGuid>2b2b8bf1-fffa-47a0-91ef-64e475c612d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[3]/div/div/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/span</value>
-      <webElementGuid>7aefb238-6fcf-4fd9-ac49-3266c8c6522a</webElementGuid>
+      <webElementGuid>df581ae5-b28a-49a2-8556-c18bafc764bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandar Lampung'])[1]/following::span[1]</value>
-      <webElementGuid>d9bc9c4d-9562-41e9-9302-85e198201b72</webElementGuid>
+      <webElementGuid>e5fc1540-68c4-403c-9944-036cd38b3107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/following::span[2]</value>
-      <webElementGuid>5f44279b-84ce-47b8-b030-7e6f1773d555</webElementGuid>
+      <webElementGuid>336be443-b4b5-4efc-a6bf-92edb5d97979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Banjarmasin'])[1]/preceding::span[1]</value>
-      <webElementGuid>c02e3a7e-438e-48b8-ad1e-8ed88fbff3e6</webElementGuid>
+      <webElementGuid>cc278c2c-5ab4-44bb-86a9-0895199d3773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Batam'])[1]/preceding::span[2]</value>
-      <webElementGuid>48e603a5-0e96-4f40-8e94-0c51855e6414</webElementGuid>
+      <webElementGuid>48c3bce4-6bf9-4cdd-b073-4877fad87ccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bandung']/parent::*</value>
-      <webElementGuid>f9480503-ebf1-47d0-afb5-435511d1bd7b</webElementGuid>
+      <webElementGuid>dd776c1f-9661-41a0-a345-3a629bde039f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/span</value>
-      <webElementGuid>46957b4c-8470-41df-9347-964ca50887b1</webElementGuid>
+      <webElementGuid>21c8baf2-cf38-4e85-b01a-ca88dbb0e7c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Bandung' or . = 'Bandung')]</value>
-      <webElementGuid>fe9fd271-72a9-47be-bc16-3eb78cbabfec</webElementGuid>
+      <webElementGuid>b022fa6c-2e07-4ce9-ab2b-82edcfe2f113</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

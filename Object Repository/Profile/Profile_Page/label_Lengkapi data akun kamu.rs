@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Lengkapi data akun kamu</name>
+   <tag></tag>
+   <elementGuidId>bc2234ec-f57e-40d4-93d3-a53df6c54fb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/section/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.labelAccount_badge__0Ck1t</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e15bec23-0c14-468c-9f43-bc991d326134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>labelAccount_badge__0Ck1t</value>
+      <webElementGuid>54ad3495-34e8-4b2e-92b8-021d556bebd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lengkapi data akun kamu</value>
+      <webElementGuid>55c5d73b-f466-4f95-85dd-e0a4d28e82ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/div[@class=&quot;labelAccount_badge__0Ck1t&quot;]</value>
+      <webElementGuid>77acdbdc-706c-4b4d-a38b-d2922e1b6d1a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/section/div</value>
+      <webElementGuid>04e96c59-6c64-470f-9dc4-c4c46060a74a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Prod Ruth'])[2]/following::div[1]</value>
+      <webElementGuid>906868f6-75ff-460c-b8ca-318e1a5f41fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TP'])[2]/following::div[2]</value>
+      <webElementGuid>ed64ef8f-d522-4879-8cdc-ba801fb0c837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/preceding::div[4]</value>
+      <webElementGuid>dcffe659-cbe7-4ece-8380-0e3ef31ce07a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div</value>
+      <webElementGuid>c2fced9e-c9e4-4664-82ba-24ceb2253515</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Lengkapi data akun kamu' or . = 'Lengkapi data akun kamu')]</value>
+      <webElementGuid>aee5b470-19aa-43b6-b88b-04860891dd93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

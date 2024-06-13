@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP013-Homepage-Burgermenu-akses keuangan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22af867b-b3bb-464d-b43e-60831401365a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cefba87-a89e-405a-afae-6deba18b3636</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/category/keuangan/'</defaultValue>
+      <description></description>
+      <id>5cefba87-a89e-405a-afae-6deba18b3636</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+</TestCaseEntity>

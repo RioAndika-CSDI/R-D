@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Tanggal Lahir</name>
+   <tag></tag>
+   <elementGuidId>a9b9fba4-cfb7-4fa1-8277-c602b7e4966f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Tanggal Lahir' or . = 'Tanggal Lahir')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.datepicker_titleText__WRjqY</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='datepicker_titleText__WRjqY']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9ec3a3df-2106-4a01-af65-061c896d62ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>datepicker_titleText__WRjqY</value>
+      <webElementGuid>8f8ad9c3-913d-4ba8-aea7-1fd32cffe9e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tanggal Lahir</value>
+      <webElementGuid>2b2d43a9-4547-403a-b068-a10b4780bb66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/div[@class=&quot;datepicker_datePickerContainer__GUpFc&quot;]/span[@class=&quot;datepicker_titleText__WRjqY&quot;]</value>
+      <webElementGuid>ed45b707-5914-4744-ba49-24392c011822</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/section/div[4]/span</value>
+      <webElementGuid>dce321b6-87bb-4236-833e-75f6312375fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi data akun kamu'])[1]/following::span[1]</value>
+      <webElementGuid>8a5fe248-bc2d-4793-b64e-d52b44ab6c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Prod Ruth'])[2]/following::span[3]</value>
+      <webElementGuid>1a029e6f-d75e-4762-a970-1f0d7d7f4ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Kelamin'])[1]/preceding::span[1]</value>
+      <webElementGuid>23a4486f-edd9-44e0-bdaa-ec030375f619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pria'])[1]/preceding::span[1]</value>
+      <webElementGuid>8eda8849-790b-435a-adbf-823bdc1488b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tanggal Lahir']/parent::*</value>
+      <webElementGuid>5ee33232-c66f-4872-bf97-1696cb5da77f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>e2c35de3-5a99-4644-b59b-9201f3de836f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tanggal Lahir' or . = 'Tanggal Lahir')]</value>
+      <webElementGuid>0d09cc50-08f8-4f8d-8361-e99645a3b8da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

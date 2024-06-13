@@ -37,6 +37,8 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 class ignore_warning {
+	
+	
 
 	@Keyword
 	def clickIgnoreWarning(TestObject obj) {
@@ -49,10 +51,9 @@ class ignore_warning {
 		return cek;
 	}
 
-@Keyword
-def waitingIgnoreWarning(TestObject obj, int timeout) {
-	boolean cek= WebUI.waitForElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
-	return cek;
-}
-
+	@Keyword
+	def waitingIgnoreWarning(TestObject obj, int timeout) {
+		boolean cek= WebUI.waitForElementPresent(obj, 0+timeout, FailureHandling.OPTIONAL)
+		return cek;
+	}
 }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Nama Lengkap</name>
+   <tag></tag>
+   <elementGuidId>f9463fb9-2130-4b4d-9139-5f7a847779b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/section/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.input_titlePrimaryText__rbjIP</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>26ea79cc-52a6-48fb-aef7-1e4a6fd6ad81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_titlePrimaryText__rbjIP</value>
+      <webElementGuid>230b17e0-0122-4b19-88c6-b8cbe28d5e96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nama Lengkap</value>
+      <webElementGuid>72faa9d7-da0d-4b9e-a9d2-011eac2ffb5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/div[@class=&quot;undefined undefined&quot;]/p[@class=&quot;input_titlePrimaryText__rbjIP&quot;]</value>
+      <webElementGuid>4538d411-6f79-4649-905c-440a73939d9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/section/div[2]/p</value>
+      <webElementGuid>6af0050b-adb8-4441-a8a3-f422baeadc92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi data akun kamu'])[1]/following::p[1]</value>
+      <webElementGuid>2c32d200-f95c-4d5c-8568-0540371bb15e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Prod Ruth'])[2]/following::p[1]</value>
+      <webElementGuid>848b607f-f851-4521-87f3-410dcb44119e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/preceding::p[2]</value>
+      <webElementGuid>66c9fd7a-4cb0-4f4a-8baa-89cc99917cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Kelamin'])[1]/preceding::p[2]</value>
+      <webElementGuid>06c26649-91c0-4e01-b948-638d603cd042</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nama Lengkap']/parent::*</value>
+      <webElementGuid>abd4dead-e9eb-4d66-b43e-a704c1d58772</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/p</value>
+      <webElementGuid>bf9fa74e-b7b3-47d3-9a46-e7ca3b22baa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Nama Lengkap' or . = 'Nama Lengkap')]</value>
+      <webElementGuid>8fa33356-b7b9-43b2-a9d6-5b9ff7a129a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

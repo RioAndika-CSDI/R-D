@@ -24,18 +24,9 @@ if (open_browser.toString().equals('1')) {
 
 WebUI.scrollToElement(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'), 0)
 
-aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
-    30)
-
-if (aslFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
-
-    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 

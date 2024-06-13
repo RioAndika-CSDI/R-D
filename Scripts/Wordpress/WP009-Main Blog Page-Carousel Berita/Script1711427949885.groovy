@@ -24,6 +24,8 @@ if (open_browser.toString().equals('1')) {
 
 WebUI.click(findTestObject('Page Blog Main/Label_Section Berita Baru'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Page Blog Main/Label_Section Berita Baru'), 0)
+
 for (int i = 0; i < 3; i++) {
     WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i + 1]))
 

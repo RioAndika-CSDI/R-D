@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP012-Homepage-Burgermenu-akses tips dan rekomendasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>025c88a1-16a1-46b7-8414-e9cf87062d81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f29a8fc3-8814-48ff-835b-746821ba149c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/category/otomotif/tips-rekomendasi-otomotif/'</defaultValue>
+      <description></description>
+      <id>f29a8fc3-8814-48ff-835b-746821ba149c</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+</TestCaseEntity>

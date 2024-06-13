@@ -25,13 +25,19 @@ WebUI.setText(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Dai
 
 WebUI.click(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di Indonesia  SEVA/option_city', [('city') : city]))
 
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Page - Detail dealer/Popup promo cashback'))
+
 WebUI.click(findTestObject('Object Repository/Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/button_Cari Dealer'))
 
 WebUI.waitForPageLoad(50)
 
 actuall_URL = WebUI.getUrl()
 
-WebUI.verifyMatch(actuall_URL, expected_URL + '/' + city.toString().toLowerCase(), true)
+WebUI.comment(actuall_URL)
+
+WebUI.comment((expected_URL + '/') + city.toString().toLowerCase())
+
+WebUI.verifyMatch(actuall_URL, (expected_URL + '/') + city.toString().toLowerCase(), true)
 
 WebUI.closeBrowser()
 
