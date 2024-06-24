@@ -10,11 +10,15 @@
          <value>//div[@id='subMenu_2_4']/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Artikel') or contains(., 'Artikel'))]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#subMenu_2_4 > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,24 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>813309e0-be0b-43e8-8613-b03776bea9c5</webElementGuid>
+      <webElementGuid>42a4c480-7014-47be-9af9-6ab196a2b604</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>41d7fa82-544f-4db0-b2d0-24675f3e9158</webElementGuid>
+      <webElementGuid>a7b7e001-e85e-4be3-aa8a-1e3fdbaa0abd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                            Artikel                                        </value>
-      <webElementGuid>be20e52d-1875-4d44-bbc0-534289dbc878</webElementGuid>
+      <value>Artikel</value>
+      <webElementGuid>49e786eb-d6c2-4af7-81db-73d7027d5fbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;subMenu_2_4&quot;)/a[1]</value>
-      <webElementGuid>9ead1459-0741-4a1a-8859-178fddf01bee</webElementGuid>
+      <webElementGuid>03322a12-4a73-4988-9d21-c3982822ec69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem_menu__kP4wZ </value>
+      <webElementGuid>27f00f11-4e01-41c3-b94c-64a416dce8c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subMenu_2_4']/a</value>
-      <webElementGuid>bbda791a-df23-4475-b90d-724d1a88095a</webElementGuid>
+      <webElementGuid>87896962-446a-4e98-a0f3-e11026c20b69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Artikel')])[2]</value>
-      <webElementGuid>bfd49b35-2a1e-4d2b-9986-59dcfcc0ebc8</webElementGuid>
+      <webElementGuid>48cd0653-ca1b-4ff2-9acb-a686e1afe366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
-      <webElementGuid>e98f6aa0-03fb-49af-b058-afc19816cb22</webElementGuid>
+      <webElementGuid>177aa6ec-6cc3-44e1-9ff1-988e1a564c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[4]/a</value>
-      <webElementGuid>97c661ce-8e40-4e32-ac33-1d6bad6cc3cd</webElementGuid>
+      <webElementGuid>27e73634-6ab8-4883-9bf4-db4c9d35f1af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +100,6 @@
       <value>//a[@href = '#' and (text() = '
                                             Artikel                                        ' or . = '
                                             Artikel                                        ')]</value>
-      <webElementGuid>454c37ea-6a6e-4e87-bb53-8040c8331a84</webElementGuid>
+      <webElementGuid>3b8d86a8-ddbf-4f2a-b867-36dddb7446be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

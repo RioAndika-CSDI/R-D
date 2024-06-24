@@ -6,23 +6,27 @@
    <elementGuidId>128dbb54-b95d-411c-a24e-dd34b1d1d5ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.footerMobile_isoWrapper__53r9r > span.footerMobile_footerText__ypVrZ</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/footer/div/div[3]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.' or . = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_isoWrapper__53r9r > span.footerMobile_footerText__ypVrZ</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2cde9ab1-182f-4ef9-b8b7-a2bc1364df34</webElementGuid>
+      <webElementGuid>c044644f-eda4-4f1b-8dcb-123ad1cd4562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>footerMobile_footerText__ypVrZ</value>
-      <webElementGuid>0bb0d38a-9010-4215-aa03-ae0e8335c323</webElementGuid>
+      <webElementGuid>edea03b2-bc04-47ef-9c56-87c4dda22aa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.</value>
-      <webElementGuid>f917e14f-ccd7-4437-92e2-5033437fdef1</webElementGuid>
+      <webElementGuid>ece87578-28b0-466c-b2e3-2961030a3fd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_isoWrapper__53r9r&quot;]/span[@class=&quot;footerMobile_footerText__ypVrZ&quot;]</value>
-      <webElementGuid>4aaecd06-e58e-4aeb-82de-d60a2a927e23</webElementGuid>
+      <webElementGuid>c9189b46-a449-4ecb-ad68-ae1924f73178</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div[3]/span</value>
-      <webElementGuid>8b0031e5-f3d6-4d6e-9191-d4a4f0540971</webElementGuid>
+      <webElementGuid>8c84fe27-f1bf-4d85-9f39-6028b84d2bf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/span</value>
-      <webElementGuid>796cdcfd-13db-40eb-b3ad-d3680168d107</webElementGuid>
+      <webElementGuid>3ecd3f34-f78f-4a33-b6d6-85ab1af8e6ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.' or . = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.')]</value>
-      <webElementGuid>af12ca1a-b81e-4653-bb37-78bdee6e533b</webElementGuid>
+      <webElementGuid>7ed7d471-f8b7-42d1-b6b6-fb547728d5ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

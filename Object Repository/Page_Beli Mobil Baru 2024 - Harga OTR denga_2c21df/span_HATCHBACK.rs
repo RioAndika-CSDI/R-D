@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'HATCHBACK' or . = 'HATCHBACK')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.navigationfiltermobile_text__35uL4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;HATCHBACK&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b9bea7c7-6090-4416-bbf3-c4d1dcc54b1b</webElementGuid>
+      <webElementGuid>235cae1b-6fa3-4ded-809c-375e1a8e2ced</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>dc928f6e-3b2e-469c-bc1c-8f2d687fcce0</webElementGuid>
+      <webElementGuid>97c06902-9d71-4acc-bfcf-6188ec37b6f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>HATCHBACK</value>
-      <webElementGuid>3db6b42a-5480-4719-9452-47fda3f3d67c</webElementGuid>
+      <webElementGuid>e15acc07-f207-42cf-94fd-f6e4ee88b70b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>971882c9-5d6a-479b-8617-eb4c346e5c0b</webElementGuid>
+      <webElementGuid>019f8f08-f291-491b-8b7f-db0bebcd81ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>835386cf-ab50-4f3c-a6d9-5af2f11157e2</webElementGuid>
+      <webElementGuid>7449c544-d9f6-405f-97a5-e200f0dd7930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>2d08a2ce-54db-4110-ad7a-fbfef7bad563</webElementGuid>
+      <webElementGuid>ddd9233d-6b79-4bce-b461-bfd3aa8cd992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>df16ee53-80ad-48aa-93ae-b759173a1938</webElementGuid>
+      <webElementGuid>8ec2fb92-e38b-45db-95a5-1fea95f2d853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='HATCHBACK']/parent::*</value>
-      <webElementGuid>e558ad8a-6a9e-4d12-a18d-8276575b2ede</webElementGuid>
+      <webElementGuid>7333b859-a3dc-4c74-8ab8-9cb3f26a32bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>308fc09a-fbc3-4c60-ab54-60fd4597b992</webElementGuid>
+      <webElementGuid>6c654be2-a171-4a85-a175-0157eeca829d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'HATCHBACK' or . = 'HATCHBACK')]</value>
-      <webElementGuid>d50b4ebd-9deb-4145-b162-0c20a1a95d67</webElementGuid>
+      <webElementGuid>e32de228-0de4-4deb-98f1-810f94a0f399</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

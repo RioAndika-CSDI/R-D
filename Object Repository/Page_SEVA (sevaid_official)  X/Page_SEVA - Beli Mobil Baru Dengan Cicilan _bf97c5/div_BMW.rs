@@ -6,14 +6,18 @@
    <elementGuidId>802e8e4b-dd31-4e72-8212-6f2ec0559d21</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@data-testid='logo-BMW']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'BMW')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dc08093e-7990-4417-9774-6b6a21c7e0a3</webElementGuid>
+      <webElementGuid>d3521be4-7237-4ccb-ab8f-df8f43d35af6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2233cb51-feb5-41f3-b0b6-7e12fe108376</webElementGuid>
+      <webElementGuid>37cdb301-b32f-4be7-ae2b-b5fae9b16444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>636d6aa9-a2cc-49ae-aede-8b2624b266a2</webElementGuid>
+      <webElementGuid>341b0999-b665-424d-bd91-88ffb395513a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +49,23 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-BMW</value>
-      <webElementGuid>fb0aabc9-b8aa-44dd-b8ed-2f3cfb0090c5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> BMW</value>
-      <webElementGuid>ff5cf154-ac0b-4120-b6d6-9fee42ad52f2</webElementGuid>
+      <webElementGuid>85ff087b-aa50-4805-8f52-b71068c53900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> BMW</value>
+      <webElementGuid>64f994ab-6b0e-43f2-a824-4cdd28cd90ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>7f80629e-4c12-4f3b-a92b-c4303a37cbd0</webElementGuid>
+      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'BMW')]</value>
+      <webElementGuid>7463dad3-9c77-4b1d-9b99-b9754deb38b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div</value>
-      <webElementGuid>491e3df7-caa2-4186-a8d4-bc7aff5940fa</webElementGuid>
+      <webElementGuid>d587386a-d89b-49b0-8f09-bc9dccee1b54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' BMW' or . = ' BMW')]</value>
-      <webElementGuid>4af8c8de-3b40-4e43-a1eb-dbd88a729063</webElementGuid>
+      <webElementGuid>be376f11-8cb9-4274-a40c-fec099110569</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

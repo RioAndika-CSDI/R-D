@@ -21,19 +21,28 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mobil Baru'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_f888ac/h2_Daihatsu New Ayla'))
+title_card = WebUI.getText(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : 1]))
 
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/h1_Daihatsu New Ayla'))
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/button_Filter'), 0)
+
+WebUI.click(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : 1]))
+
+WebUI.waitForElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (id-test)'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (variable)', [('title') : title_card]), 
+    0)
 
 WebUI.closeBrowser()
 

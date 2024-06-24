@@ -72,7 +72,7 @@
       <variableId>7a7caa74-d263-4e7c-80b3-e4af063b7928</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>5bdc4eff-2854-419e-87e1-f938913895c4</id>
       <masked>false</masked>
@@ -86,7 +86,7 @@
       <name>brand_Filter</name>
    </variable>
    <variable>
-      <defaultValue>'2016-2020'</defaultValue>
+      <defaultValue>'2019-2020'</defaultValue>
       <description></description>
       <id>758abbd4-d8ab-4502-b38e-6a29fced873d</id>
       <masked>false</masked>

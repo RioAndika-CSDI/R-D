@@ -21,19 +21,17 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg'))
-=======
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg-youtubefooter'), FailureHandling.STOP_ON_FAILURE)
->>>>>>> f0ebff90f3c894fb3c1c8f299b856cbbc9b4a94e
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.scrollToElement(findTestObject('Footer/logo Youtube'), 0)
+
+WebUI.click(findTestObject('Footer/logo Youtube'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowTitle('SEVA by ASTRA - YouTube')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA by ASTRA - YouTube/yt-formatted-string_SEVA by ASTRA'))
 
 WebUI.closeBrowser()
 

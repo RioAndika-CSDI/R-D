@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'SUV' or . = 'SUV')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.navigationfiltermobile_text__35uL4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;SUV&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8d952428-3248-4c33-b77e-3a95120e909c</webElementGuid>
+      <webElementGuid>c95ff484-8c91-436d-9d73-b9d317690b15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>dc7eae4b-c207-496f-bb34-9ab614e3bdeb</webElementGuid>
+      <webElementGuid>1ed65b6f-6a13-4bb5-8e5b-7679dcc8d39c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SUV</value>
-      <webElementGuid>cb8b4576-feab-4ac1-b372-202e26875b5b</webElementGuid>
+      <webElementGuid>1cd7a3db-3924-4e66-8e32-81526fd49493</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>08341fd1-d4ad-46d0-bf1b-ed1712ea8640</webElementGuid>
+      <webElementGuid>fb65709c-1c42-47e5-8df2-c6dba2c69397</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>b26119e3-6565-43f3-847b-185659df9151</webElementGuid>
+      <webElementGuid>ef9974cd-426d-4400-8e71-d9c711ceb531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>a9f5ceee-ddd8-4554-be60-e79b41b95ddd</webElementGuid>
+      <webElementGuid>46be5f6d-f6c9-41b0-876a-041f83c94898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>c7c38469-65c6-4850-9cf9-3fe9faf9fda8</webElementGuid>
+      <webElementGuid>231e51de-6cea-46c6-b73b-7fadd6f6d3cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SUV']/parent::*</value>
-      <webElementGuid>c37ba319-931a-4189-9962-9e4459b0203e</webElementGuid>
+      <webElementGuid>4e2089a5-3a2e-44d8-a1e4-ba37908f6458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>10b3a7d0-3924-465e-8186-91250bb6cfce</webElementGuid>
+      <webElementGuid>784c0cee-dfb6-4d7a-b182-72e5c4861340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'SUV' or . = 'SUV')]</value>
-      <webElementGuid>6e4782a1-ea1c-40f9-ab04-36e066f102f4</webElementGuid>
+      <webElementGuid>13c554eb-3e98-47d8-8a18-6196437c5a42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

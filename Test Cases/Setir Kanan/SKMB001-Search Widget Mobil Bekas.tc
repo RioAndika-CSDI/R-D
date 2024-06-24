@@ -24,7 +24,7 @@
       <variableId>71da2ad7-d055-47fc-bac9-2be75157b08d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>b24cca30-4b46-44c0-9751-7536ea3c49c3</id>
       <masked>false</masked>

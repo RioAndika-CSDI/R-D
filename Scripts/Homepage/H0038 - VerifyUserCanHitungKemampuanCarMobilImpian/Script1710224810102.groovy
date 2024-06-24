@@ -21,9 +21,11 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota'))
 
@@ -45,8 +47,6 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Den
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Rekomendasi Cicilan Ideal Untukmu'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_Rekomendasi'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_OK, Saya Mengerti'))
 
 WebUI.closeBrowser()
 

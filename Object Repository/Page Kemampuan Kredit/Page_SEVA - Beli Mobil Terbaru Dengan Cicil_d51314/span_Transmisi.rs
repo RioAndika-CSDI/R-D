@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Transmisi</name>
+   <tag></tag>
+   <elementGuidId>bb6da9f1-e11b-470b-9def-013ddee2df94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > span.multi-kk_textTitle__WrgcJ</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bfa780f7-bfd5-4eb0-8f64-c62ec353c462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multi-kk_textTitle__WrgcJ</value>
+      <webElementGuid>d224f332-bb6d-4bd3-b352-ec41c9a51805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transmisi</value>
+      <webElementGuid>018ef3d0-9e02-43e8-ab97-bf18a139d28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[4]/span[@class=&quot;multi-kk_textTitle__WrgcJ&quot;]</value>
+      <webElementGuid>2dacd3a5-8a66-4fa8-8cc0-aa415a7b9ab8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/span</value>
+      <webElementGuid>d4e9005e-36fb-4ade-9487-cba9f2837963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::span[6]</value>
+      <webElementGuid>60478635-df3c-420d-9528-f404e3a0ffcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.622.500.000'])[1]/following::span[7]</value>
+      <webElementGuid>f5901a18-212c-4e80-8268-0d149ef40c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manual'])[1]/preceding::span[1]</value>
+      <webElementGuid>76b3f6b0-2258-4519-82c8-7131b125529c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Otomatis'])[1]/preceding::span[2]</value>
+      <webElementGuid>140dd45c-7a93-4b8a-b372-c8cbd626e49d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transmisi']/parent::*</value>
+      <webElementGuid>91e8dd97-a7a1-444e-8b24-91d99f72954a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>fb7901e7-c678-4ecc-bcd7-ccf36e025cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Transmisi' or . = 'Transmisi')]</value>
+      <webElementGuid>aa3f174c-5832-49ce-9925-1abe002ef6b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

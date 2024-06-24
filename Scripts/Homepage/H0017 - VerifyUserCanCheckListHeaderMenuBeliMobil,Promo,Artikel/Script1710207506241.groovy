@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (1)'))
 
@@ -49,9 +53,22 @@ WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bula
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/h1_Otomotif'))
 
+boolean promo = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Footer/Iframe_Promo Footer'), 
+    10)
+
+if (promo == true) {
+    WebUI.switchToFrame(findTestObject('Footer/Iframe_Promo Footer'), 0)
+
+    WebUI.click(findTestObject('Footer/Footer Promo'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
 WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/a_Artikel'))
+WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.click(findTestObject('Footer/Artikel 2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/a_Review Otomotif'))
 
@@ -59,7 +76,11 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/a_Artikel'))
+WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.click(findTestObject('Footer/Artikel 2'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/a_Tips  Rekomendasi'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/a_Tips  Rekomendasi'))
 
@@ -67,7 +88,9 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SE
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SEVA/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SEVA/div_Artikel'))
+WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.click(findTestObject('Footer/Artikel 2'))
 
 WebUI.scrollToElement(findTestObject('Page_Artikel Tips  Rekomendasi  SEVA/a_Keuangan'), 10)
 
@@ -77,7 +100,9 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/h1_Keu
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/div_Artikel'))
+WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.click(findTestObject('Footer/Artikel 2'))
 
 WebUI.scrollToElement(findTestObject('Page_Artikel Keuangan  SEVA/a_Semua Artikel'), 10)
 

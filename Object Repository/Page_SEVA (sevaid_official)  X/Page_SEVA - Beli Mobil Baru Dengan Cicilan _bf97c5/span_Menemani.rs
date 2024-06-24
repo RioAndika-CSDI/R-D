@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div/div/div[2]/h1/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU' and (text() = 'Menemani ' or . = 'Menemani ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>83b8f3f1-1724-40fb-84d0-22ec6c71cadf</webElementGuid>
+      <webElementGuid>fce7670d-c0bc-4fa8-8142-b4c94ec40cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU</value>
-      <webElementGuid>27299d2a-f784-4977-a53e-9cb9ed28030a</webElementGuid>
+      <webElementGuid>fd0a0c8a-da7d-4d2c-9a6f-033c259ba61c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menemani </value>
-      <webElementGuid>c4f2f91f-36fc-4c1c-8bd4-77d66c754f77</webElementGuid>
+      <webElementGuid>2b6b08af-b348-4b24-a434-d6d5d29a9d27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]/span[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_regular__19ELU&quot;]</value>
-      <webElementGuid>0c58adcd-4c1a-482b-864c-03969afc2fd3</webElementGuid>
+      <webElementGuid>1a23f5de-09bd-4d2f-9e73-60777cded6c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/div[2]/h1/span</value>
-      <webElementGuid>92b8b4ce-b33c-42e5-b27c-6745f66f72dd</webElementGuid>
+      <webElementGuid>ea9015b4-3e7d-4c0d-9d4d-9665c913d302</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1/span</value>
-      <webElementGuid>49d4a1ec-78b2-4c3d-a480-3f7f3d67f201</webElementGuid>
+      <webElementGuid>8fa934db-4c47-432c-976a-704959fdbeeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Menemani ' or . = 'Menemani ')]</value>
-      <webElementGuid>45953cd3-687e-4de4-8dd1-74238733253e</webElementGuid>
+      <webElementGuid>b4bc65d3-6635-4c8a-aac6-6f170a949a9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

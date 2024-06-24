@@ -21,19 +21,31 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Menemani'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Isuzu'))
+WebUI.click(findTestObject('Homepage - PLP/New Car/Span_Isuzu'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_f888ac/span_Isuzu'))
+WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 0)
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 0)
+
+title = WebUI.getText(findTestObject('Page PLP Mobil Baru/Tlitle PLP Mobil Baru by index', [('index') : '1']))
+
+String[] brand = title.split(' ')
+
+WebUI.comment(brand[0])
+
+WebUI.verifyMatch(brand[0], 'Isuzu', true)
 
 WebUI.closeBrowser()
 

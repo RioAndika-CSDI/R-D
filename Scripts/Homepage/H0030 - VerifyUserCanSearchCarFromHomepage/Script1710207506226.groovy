@@ -21,17 +21,15 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'))
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota'))
-=======
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota (1)'))
->>>>>>> f0ebff90f3c894fb3c1c8f299b856cbbc9b4a94e
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Toyota'))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
 
@@ -43,5 +41,19 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h2_Toyota All New Kijang Innova Zenix'))
+WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Toyota']), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'MPV']), 0)
+
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Toyota']), 0)
+
+title = WebUI.getText(findTestObject('Page PLP Mobil Baru/Tlitle PLP Mobil Baru by index', [('index') : '1']))
+
+String[] brand = title.split(' ')
+
+WebUI.comment(brand[0])
+
+WebUI.verifyMatch(brand[0], 'Toyota', true)
+
+WebUI.closeBrowser()
 

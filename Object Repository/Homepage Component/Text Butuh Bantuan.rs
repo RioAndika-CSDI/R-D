@@ -10,19 +10,23 @@
          <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/h2</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'Butuh Bantuan?' or . = 'Butuh Bantuan?')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h2.leadsFormTertiary_textHeading__ahtYf</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>7c8c397f-619f-40b9-9708-dbe892c69ec1</webElementGuid>
+      <webElementGuid>a1ff84d6-a927-456c-9d90-ac113f4a7b17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>leadsFormTertiary_textHeading__ahtYf</value>
-      <webElementGuid>90d8791b-2a65-4565-96a3-ae024032dee0</webElementGuid>
+      <webElementGuid>64c85f1c-abb0-4d84-a848-543603c9fa2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Butuh Bantuan?</value>
-      <webElementGuid>567f5ca5-2397-4082-aee4-2adf84eb65a9</webElementGuid>
+      <webElementGuid>88231240-2d9e-4f7f-8991-bb2a46e019e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;landing-page-leads-form-section&quot;)/div[@class=&quot;leadsFormTertiary_container__eBNAS&quot;]/div[@class=&quot;leadsFormTertiary_wrapper__nOdZt&quot;]/div[@class=&quot;leadsFormTertiary_foreground__2I_to&quot;]/h2[@class=&quot;leadsFormTertiary_textHeading__ahtYf&quot;]</value>
-      <webElementGuid>68b2cee5-21f1-440a-8b4e-e24efb10414c</webElementGuid>
+      <webElementGuid>5b1b74f8-7d0d-40ba-b3af-916c727d5ff6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/h2</value>
-      <webElementGuid>d90fa72a-ed35-42eb-8470-70811159871b</webElementGuid>
+      <webElementGuid>f4eb8d5a-aecf-4ba3-883e-e30000ff6016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minta Penawaran'])[5]/following::h2[1]</value>
-      <webElementGuid>7f384832-1f8b-426b-bc8a-bb336c600c9d</webElementGuid>
+      <webElementGuid>4941bd40-e488-4bf0-892c-12473911530e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Rincian'])[5]/following::h2[1]</value>
-      <webElementGuid>1a0d4ffa-92df-46ad-b639-ae7d9f48a4dd</webElementGuid>
+      <webElementGuid>43022d91-37fc-4bc7-b85e-39770a87cadc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/preceding::h2[1]</value>
-      <webElementGuid>e85d3330-1ba5-4d39-bc12-ce6db67fedf2</webElementGuid>
+      <webElementGuid>e53b5d0d-e874-4c32-8cee-72249e8eb4ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Lain dari SEVA'])[1]/preceding::h2[1]</value>
-      <webElementGuid>21f7d003-b80c-489e-bd19-c18985d1347d</webElementGuid>
+      <webElementGuid>133f71eb-46e9-4fc4-8931-301a3da74237</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Butuh Bantuan?']/parent::*</value>
-      <webElementGuid>ce4794fc-3b6e-423b-9d35-9c14b331379b</webElementGuid>
+      <webElementGuid>0994abfa-ce17-4e4a-8a30-eeecf1877365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h2</value>
-      <webElementGuid>46fa6661-636a-4900-9f53-e8e4e4b89580</webElementGuid>
+      <webElementGuid>d1a831f4-a578-4967-8fb5-163676b26ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Butuh Bantuan?' or . = 'Butuh Bantuan?')]</value>
-      <webElementGuid>dfb9f550-b046-4eb5-b91b-5e108e2ad6dc</webElementGuid>
+      <webElementGuid>a15bc283-eefc-47aa-a0e5-6a8862423fc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

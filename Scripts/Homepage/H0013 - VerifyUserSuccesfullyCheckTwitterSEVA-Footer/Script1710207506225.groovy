@@ -21,19 +21,15 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA Twitter Icon'))
 
-WebUI.switchToWindowTitle('SEVA (@sevaid_official) / X')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_sevaid_official'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_SEVA'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/span_Platform pencarian mobil baru dari ber_5d6b10'))
+WebUI.switchToWindowUrl('https://x.com/i/flow/login?redirect_after_login=%2Fsevaid_official')
 
 WebUI.closeBrowser()
 

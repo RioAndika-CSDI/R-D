@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Label_Cerita Pengguna SEVA</name>
+   <tag></tag>
+   <elementGuidId>e3a4ac55-42f2-4f99-9228-fd2f03ab7b5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.testimonialPage_headerTitle__b7mv4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>cbc5ed4e-3547-442c-9a11-49f8535e1094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>testimonialPage_headerTitle__b7mv4</value>
+      <webElementGuid>622c3473-a2c7-4140-add2-030095154556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cerita Pengguna SEVA</value>
+      <webElementGuid>7f52c340-e520-482d-8b30-8976703dee72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;testimonialPage_container___3Vgc&quot;]/div[@class=&quot;testimonialPage_headerWrapper__0dPC_&quot;]/h2[@class=&quot;testimonialPage_headerTitle__b7mv4&quot;]</value>
+      <webElementGuid>52998899-c06a-4360-8ed0-62a22bb5411c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/div/h2</value>
+      <webElementGuid>bf9e4078-8291-4593-ae53-3138609b7f05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU GRANMAX PU 1.5 M/T 2021'])[1]/following::h2[1]</value>
+      <webElementGuid>c58e3a5d-b3fb-4623-8bed-ed84d96c41ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU ALL NEW XENIA 1.3 R M/T 2022'])[1]/following::h2[1]</value>
+      <webElementGuid>1caa296e-1e86-4626-b31f-25bbf121d041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Husam'])[1]/preceding::h2[1]</value>
+      <webElementGuid>7e50feef-89c5-4686-9f89-7c2af0e8c5ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h2[1]</value>
+      <webElementGuid>9b536da2-9970-4d10-8e39-02583ebd61b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cerita Pengguna SEVA']/parent::*</value>
+      <webElementGuid>a292c638-6f0c-4ab6-9477-ab283c835490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>ba20c61e-ae34-4d99-a000-03d5e9baa47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Cerita Pengguna SEVA' or . = 'Cerita Pengguna SEVA')]</value>
+      <webElementGuid>e3689b32-a509-4def-9b09-f821e1cba59b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

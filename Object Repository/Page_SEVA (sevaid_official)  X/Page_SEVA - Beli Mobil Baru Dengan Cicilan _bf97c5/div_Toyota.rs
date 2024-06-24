@@ -6,15 +6,19 @@
    <elementGuidId>5dbf16d9-7ded-4d4b-9465-ff276f529409</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.formSelectBrandCar_box__5OnGr</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@data-testid='logo-toyota']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Toyota')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.formSelectBrandCar_box__5OnGr</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>33493a74-b6c0-4fd4-8e53-8e7ae51c2636</webElementGuid>
+      <webElementGuid>571809d3-5416-4d04-838f-bac5754c4e72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,39 +34,47 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7bb666ae-a41e-4df3-a574-7b2d79eb93ae</webElementGuid>
+      <webElementGuid>bdb6d2e6-b578-4900-829f-5d72b1dde46e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>c6700d73-0130-4866-abd6-87764add9b9b</webElementGuid>
+      <value>tabV2_text__gtHrZ false</value>
+      <webElementGuid>9c721be4-0b90-4c77-9253-b5f7d74c3a7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>logo-toyota</value>
-      <webElementGuid>f00e9e44-9db7-4e06-b82d-68d7678738d0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Toyota</value>
-      <webElementGuid>4d56243d-9218-4ccf-88ce-d95f743dc88a</webElementGuid>
+      <value>navigation-tab-v2-item-[object Object]</value>
+      <webElementGuid>e30a0093-be20-4169-95eb-c90ca11cc6a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Toyota</value>
+      <webElementGuid>4c135de8-5eec-47e6-9886-a57911f7c5e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>27f87ce7-0fd0-4be5-8632-b4b824df6370</webElementGuid>
+      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Toyota')]</value>
+      <webElementGuid>8db0d201-52b1-4375-bb0c-a3323a4ca635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Toyota</value>
+      <webElementGuid>30e72081-db8e-4110-aa51-8da6b717e19e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[14]</value>
-      <webElementGuid>e1691fd4-7662-4587-ae24-64e92462b15b</webElementGuid>
+      <webElementGuid>ec85b3c7-eb7e-4f54-a272-4d088a5447ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/following::div[14]</value>
-      <webElementGuid>d03639b7-ef6b-40b3-9ed2-d17ab2724b7d</webElementGuid>
+      <webElementGuid>538c49c8-25a1-4448-92c2-c3a76000aeae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu'])[2]/preceding::div[2]</value>
-      <webElementGuid>e8343f00-3f1d-492e-ba0b-0249f16a87fe</webElementGuid>
+      <webElementGuid>bb0c5458-3073-4278-8290-66c9c993265f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>56ad5b55-a1e7-4fe3-8628-93dab9db73cf</webElementGuid>
+      <webElementGuid>52c7e91c-342c-41eb-9217-c6d98f6dfdcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Toyota' or . = ' Toyota')]</value>
-      <webElementGuid>699c932c-a2ab-446c-b985-ba5c5d835b35</webElementGuid>
+      <webElementGuid>b9aac012-02e9-42a8-b05b-0642ce6b6117</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
