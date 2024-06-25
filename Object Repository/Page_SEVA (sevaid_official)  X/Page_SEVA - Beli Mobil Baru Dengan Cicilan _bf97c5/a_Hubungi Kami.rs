@@ -6,15 +6,19 @@
    <elementGuidId>98b0f5c1-8841-4c35-941a-fe2f243f5bf4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a:nth-of-type(4)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@data-testid='footer-hubungi-kami']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'footer-hubungi-kami']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(4)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>be777af5-3ff4-4074-834c-bca5ef9a4b2e</webElementGuid>
+      <webElementGuid>fa0a1e63-8922-4049-b41f-9535c3b47700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.</value>
-      <webElementGuid>457212ea-1892-4928-a606-ec50182045a6</webElementGuid>
+      <webElementGuid>4be2543e-3db2-4908-98e6-7f54fd696152</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noreferrer noopener</value>
-      <webElementGuid>7f60caf4-3850-481c-9e46-4446235cc88b</webElementGuid>
+      <webElementGuid>52c09af9-647b-42a2-9d5d-1e3ddae25b94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +50,23 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>9205aeed-d045-4640-bb6f-9b5f0f2b2419</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>footer-hubungi-kami</value>
-      <webElementGuid>5dd86b76-3406-4ac6-9b06-a83a9e8e9a14</webElementGuid>
+      <webElementGuid>6b771d7b-1e1b-4ba0-9d58-455303344356</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>footer-hubungi-kami</value>
+      <webElementGuid>41cde639-9bb5-4273-be21-69a6da62ebc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Hubungi Kami</value>
-      <webElementGuid>38630292-6341-4a0b-ba77-8f0ccf589538</webElementGuid>
+      <webElementGuid>2da08b0c-3c4c-4a1f-871e-241c9947f4f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__S_qgQ&quot;]/a[4]</value>
-      <webElementGuid>eff18d3c-6d12-493f-a1e1-c2df2be5a65e</webElementGuid>
+      <webElementGuid>1741f0b7-891f-476a-b396-76bdfd89683a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div/a[4]</value>
-      <webElementGuid>8e9807c9-db1c-465b-a07c-680b84909f0d</webElementGuid>
+      <webElementGuid>6b7584ca-e336-4d24-9f3a-3e3e546af567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Hubungi Kami')]</value>
-      <webElementGuid>737c4d2b-e296-4100-82f5-3a96b4e07dce</webElementGuid>
+      <webElementGuid>6f7a4356-4987-4051-8001-b29b2a3db540</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.')]</value>
-      <webElementGuid>8f1ffad8-9ca9-4110-b8cb-f5b8e4c633a5</webElementGuid>
+      <webElementGuid>8ac00fa4-ddff-43df-97c8-b473626bf7c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>37e9b53d-eb29-4381-b3b6-5f6968d501cb</webElementGuid>
+      <webElementGuid>e7d59bbc-6e7e-4a23-82ed-d732880f7be7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.' and (text() = 'Hubungi Kami' or . = 'Hubungi Kami')]</value>
-      <webElementGuid>a8be1f3e-1042-4890-a8f7-5fddd67fb6d6</webElementGuid>
+      <webElementGuid>bf3aa62f-f6b5-432e-8221-5a5bf6305247</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

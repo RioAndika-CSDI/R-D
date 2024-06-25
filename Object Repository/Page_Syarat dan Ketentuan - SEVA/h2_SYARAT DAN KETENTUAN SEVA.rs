@@ -6,23 +6,27 @@
    <elementGuidId>e9b6b508-e4f0-4291-a2b3-a7f863db6a2e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.title1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.title1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>ac13fc40-7d60-412e-9fbc-4955ec355656</webElementGuid>
+      <webElementGuid>2581f2ae-ec34-4a50-bb1b-ad8dd66aa661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>title1</value>
-      <webElementGuid>6887969c-fd55-4264-8a12-b641ef49e4ae</webElementGuid>
+      <webElementGuid>f93aa7a9-2137-4dd4-8e1b-f291e1b2ed93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SYARAT DAN KETENTUAN SEVA</value>
-      <webElementGuid>ec9e518f-cddf-49c7-ae90-4a2eb5ffd185</webElementGuid>
+      <webElementGuid>4c513c92-9e4b-4394-92c1-83f28553a64f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;box&quot;]/h2[@class=&quot;title1&quot;]</value>
-      <webElementGuid>3c7d6707-3637-4470-bac7-ff5a023d0e63</webElementGuid>
+      <webElementGuid>8917f82d-3dc6-4675-9429-339a11f0c2f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>0f971977-e7fa-4494-a333-98cf38e77ebb</webElementGuid>
+      <webElementGuid>dc1714e9-e868-4e32-ab76-3943e6bf14df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
-      <webElementGuid>aa92f600-004a-4f3a-a0b0-7d876245da0c</webElementGuid>
+      <webElementGuid>e9919be3-592e-4cb6-a10d-b564629b0833</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

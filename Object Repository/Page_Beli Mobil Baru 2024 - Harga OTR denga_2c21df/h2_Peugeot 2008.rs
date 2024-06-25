@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Toyota' or . = 'Toyota')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h2.cardetailcard_brandModelText__H3ZBU</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Peugeot 2008 Harga OTR Jakarta Pusat Rp535 jt Cicilan Rp11,2 jt DP Rp107 jt Tenor 5 Tahun Lihat Detail&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>c4e8d3cd-c481-400e-9697-a77c8f50502e</webElementGuid>
+      <webElementGuid>af20a69d-2a4a-4243-b523-16a83f91f8e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cardetailcard_brandModelText__H3ZBU</value>
-      <webElementGuid>939b427f-c4f8-4025-9cee-5deaeb59ed03</webElementGuid>
+      <webElementGuid>8160c165-14cb-46c3-a855-aee7ef7385cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +42,15 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>d531e0f9-d608-4007-af91-ca50a3b89fee</webElementGuid>
+      <webElementGuid>2e26ab13-841c-4a83-b4d6-6ed2758f087a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Peugeot 2008</value>
-      <webElementGuid>5ba35be8-8b28-47b7-8640-7337ce36716d</webElementGuid>
+      <value>Toyota</value>
+      <webElementGuid>0bf06e7d-faf1-4b7f-b7ad-949463e99940</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/h2[@class=&quot;cardetailcard_brandModelText__H3ZBU&quot;]</value>
-      <webElementGuid>d75dc0af-d2c8-4bf0-bfd4-c6fd15fcb235</webElementGuid>
+      <webElementGuid>e80453d4-f403-4a35-a35e-69dbbb1e8067</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[4]/div/div/div/div/div[2]/h2</value>
-      <webElementGuid>8cad646a-b544-4c29-b4ab-b70129b4a869</webElementGuid>
+      <webElementGuid>0aba1291-23f8-40be-95a6-7ab826cc69bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/preceding::h2[1]</value>
-      <webElementGuid>c17502a8-26f7-4c70-b7f7-1764bdd3bc37</webElementGuid>
+      <webElementGuid>bac462cc-029d-4beb-bee5-0cfb7896fcbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h2[1]</value>
-      <webElementGuid>f181e5b0-bea0-46c3-9e38-c362bc0a7b0b</webElementGuid>
+      <webElementGuid>4be291b1-d586-401c-9a59-340a59bc57ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div[2]/h2</value>
-      <webElementGuid>cedd26ac-49ac-48b7-b625-d287116b79b2</webElementGuid>
+      <webElementGuid>4c74aad3-cbcb-4e87-a7fd-583e1b8662d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Peugeot 2008' or . = 'Peugeot 2008')]</value>
-      <webElementGuid>9342a3c6-f42c-4218-8509-0dd1f88c8a27</webElementGuid>
+      <webElementGuid>a7da6512-3afb-4ac1-9671-f4a703496793</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

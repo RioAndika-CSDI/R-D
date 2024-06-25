@@ -6,15 +6,19 @@
    <elementGuidId>652e2d16-e72b-4372-a307-523fe433fd91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.formSelectBrandCar_boxOnclick__5H7Ga > div.formSelectBrandCar_content__YpNau > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div/div[2]/div/div[2]/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'logo-daihatsu']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.formSelectBrandCar_boxOnclick__5H7Ga > div.formSelectBrandCar_content__YpNau > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>38fcb185-e9a2-4217-900f-9b4268dfb71f</webElementGuid>
+      <webElementGuid>7e800c1f-98e9-4e84-a699-5a1a6c434e07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Daihatsu</value>
-      <webElementGuid>efc0593b-0bdb-43c3-97bb-cd11c839d560</webElementGuid>
+      <webElementGuid>ed83c988-b6c9-474c-a873-4f8028f0b240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_boxOnclick__5H7Ga&quot;]/div[@class=&quot;formSelectBrandCar_content__YpNau&quot;]/span[1]</value>
-      <webElementGuid>bed06c9e-b59c-4b4d-b68f-dd20ca893cf2</webElementGuid>
+      <webElementGuid>ea72b0fc-67a2-4cf3-b795-7af98d7e40a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-daihatsu</value>
+      <webElementGuid>807d08b1-dab2-4f78-b58a-89d780a14220</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div[2]/div/div/span</value>
-      <webElementGuid>68978d89-2872-4d08-8b63-c7bd71a07a46</webElementGuid>
+      <webElementGuid>7ab72bcd-1183-466e-ae07-405338ffa1dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Daihatsu' or . = 'Daihatsu')]</value>
-      <webElementGuid>ffb4a0da-afe0-4f03-baa5-7011e9b38204</webElementGuid>
+      <webElementGuid>93873eaf-0a11-4d53-a720-4a88f7bf1a62</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

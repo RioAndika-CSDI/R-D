@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Label_Layanan Lain dari SEVA</name>
+   <tag></tag>
+   <elementGuidId>26900d1e-b672-4a0e-a1bb-0abd82ece7f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.subProduct_textHeaderSection__CKXyR</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[9]/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>cb1677ad-36b0-4e71-9cc5-5928a9375a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>subProduct_textHeaderSection__CKXyR</value>
+      <webElementGuid>967b5a61-8fa2-4de7-8b5b-c0089f9c85af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Layanan Lain dari SEVA</value>
+      <webElementGuid>c413f02b-0f6b-490e-b621-6c28cc2b30a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[9]/div[@class=&quot;subProduct_wrapperTitleSection__ypOcl&quot;]/h2[@class=&quot;subProduct_textHeaderSection__CKXyR&quot;]</value>
+      <webElementGuid>3f6f8a7c-49a7-48f9-bdf3-ec296765cb02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[9]/div/h2</value>
+      <webElementGuid>fefc1f0e-8348-4183-b4af-cf97c26ce5f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/following::h2[1]</value>
+      <webElementGuid>353221b3-542d-4843-8640-0ae29aec0188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Butuh Bantuan?'])[1]/following::h2[1]</value>
+      <webElementGuid>43982cab-080d-4649-8b14-e4ca79bd1faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[3]/preceding::h2[1]</value>
+      <webElementGuid>6ca16b3e-abfb-4a62-9dbb-037669fd7f4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/preceding::h2[1]</value>
+      <webElementGuid>9417c2a0-67e0-4bd0-a870-21b97fa09fb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Layanan Lain dari SEVA']/parent::*</value>
+      <webElementGuid>92dbf5fb-1784-41b4-b4dc-7adb6e0238dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/h2</value>
+      <webElementGuid>59578bd9-8dff-41d6-9148-d00f5378b269</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Layanan Lain dari SEVA' or . = 'Layanan Lain dari SEVA')]</value>
+      <webElementGuid>41742063-2010-4600-b300-0c363255574f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

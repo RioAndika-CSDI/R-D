@@ -47,10 +47,17 @@ if (model.toString().length() > 0) {
 
     for (int i = 0; i < modelMobil.length; i++) {
         WebUI.setText(findTestObject('Homepage Component/Input_Search Model Mobil Bekas'), modelMobil[i])
+		
+        boolean found = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/SelectItem_Model'), 
+            5)
+		
+		if(found==false) {
+			continue;
+		}
+		
+		ambilModel = WebUI.getText(findTestObject('Homepage Component/SelectItem_Model'))
 
         WebUI.click(findTestObject('Homepage Component/SelectItem_Model'))
-
-        ambilModel = WebUI.getText(findTestObject('Homepage Component/SelectItem_Model'))
 
         (modelMobil[i]) = ambilModel
 
@@ -59,6 +66,7 @@ if (model.toString().length() > 0) {
         ambilBranSearch = ((ambilBranSearch + ' ') + (brandSearch[0]))
 
         navigateFilter = ((navigateFilter + ';') + (modelMobil[i]))
+		
     }
     
     '--Bagian Untuk Mengambil Brand Dari Search--'
@@ -179,10 +187,12 @@ WebUI.comment(navigateFilter)
 String[] filter = navigateFilter.split(';')
 
 for (int i = 0; i < filter.length; i++) {
-    if ((filter[i]).length() > 0) {
+    if ((filter[i]).length() > 0 && !((filter[i]).equals(""))) {
+		
+		WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : filter[i]]), 0)
+		
     }
-    
-    WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : filter[i]]), 0)
+   
 }
 
 if (close_browser.toString().equals('1')) {

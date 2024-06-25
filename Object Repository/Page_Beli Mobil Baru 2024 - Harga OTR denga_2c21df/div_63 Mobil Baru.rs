@@ -6,22 +6,19 @@
    <elementGuidId>3ce8bc20-04df-41bf-98ad-08fc108d4237</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.navigationfiltermobile_carSummaryLabel__VfUIV</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;text-jumlah-mobil-plp&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'text-jumlah-mobil-plp']</value>
       </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigationfiltermobile_carSummaryLabel__VfUIV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>32a0cea0-334c-4798-9274-83642def06c7</webElementGuid>
+      <webElementGuid>b3b5c8a5-c469-43e9-bb48-d9648f1c519d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_carSummaryLabel__VfUIV</value>
-      <webElementGuid>4d6137d8-2a97-426e-8df0-3db1dffb7cba</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>text-jumlah-mobil-plp</value>
-      <webElementGuid>fbf70a04-ae10-4e29-a223-a04b0ae61d6f</webElementGuid>
+      <webElementGuid>71db8577-980a-4a7a-82d1-e172496881c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>text-jumlah-mobil-plp</value>
+      <webElementGuid>48d5ffdd-cdd7-4379-9fb9-25b451990f4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>63 Mobil Baru</value>
-      <webElementGuid>31f4b813-fb2d-440a-98e3-af89501eb2f1</webElementGuid>
+      <webElementGuid>25b991c8-f599-4143-ad2e-cf01fa68d3df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_bottomSection__Wm4sY&quot;]/div[@class=&quot;navigationfiltermobile_carSummaryLabel__VfUIV&quot;]</value>
-      <webElementGuid>107d98b9-e19c-497d-a523-002a1c4e9d0c</webElementGuid>
+      <webElementGuid>e38321c4-4d85-4a40-9deb-e2c9b0601d09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
-      <webElementGuid>3388c2e5-a14d-40f0-a71c-534aaa0c835e</webElementGuid>
+      <webElementGuid>7bab11ed-f564-4b8b-9228-0cae7924c985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Mobil'])[1]/following::div[4]</value>
-      <webElementGuid>a5713efa-903a-4ceb-b2ed-108945d7dabe</webElementGuid>
+      <webElementGuid>360f0b6e-42e9-4fc4-aa26-b95ae5af6fc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu New Ayla'])[1]/preceding::div[2]</value>
-      <webElementGuid>e080c307-cb9c-48f0-b890-542a24803142</webElementGuid>
+      <webElementGuid>b7173686-efdb-4bff-a632-0899f6df58f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='63']/parent::*</value>
-      <webElementGuid>61868453-63c7-49f8-beff-db2768d2466a</webElementGuid>
+      <webElementGuid>babd427c-5581-45b4-abfb-21ed23fd1c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div[2]</value>
-      <webElementGuid>bd9bb67d-94df-4aa7-9301-4e33410631e4</webElementGuid>
+      <webElementGuid>e8328dbc-84e7-4118-b253-f77d381dee64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '63 Mobil Baru' or . = '63 Mobil Baru')]</value>
-      <webElementGuid>83ac5a65-a040-427b-9eb3-988a8b249f45</webElementGuid>
+      <webElementGuid>4f1dd8c2-4f7d-4417-a0ac-2977d8efaa3b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

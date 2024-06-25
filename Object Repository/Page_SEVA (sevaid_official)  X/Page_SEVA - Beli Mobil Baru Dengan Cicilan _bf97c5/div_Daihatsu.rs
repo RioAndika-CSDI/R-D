@@ -6,14 +6,18 @@
    <elementGuidId>ccf86e88-9211-47bb-86c2-8ef630deda79</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@data-testid='logo-daihatsu']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Daihatsu')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>691d8b09-be7e-4b32-95be-c093c86df024</webElementGuid>
+      <webElementGuid>8959dce6-8109-40c7-86b3-f1890d0caa8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>93f3d0c9-9dd6-4492-bd08-cba07037cf36</webElementGuid>
+      <webElementGuid>81cf95b1-c813-47d8-96e9-c86d197a7c25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_boxOnclick__5H7Ga</value>
-      <webElementGuid>10bde01d-bf83-4b41-9704-5d1b6147da07</webElementGuid>
+      <webElementGuid>af4945a0-a855-4188-b5b0-39c427ce901d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +49,23 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-daihatsu</value>
-      <webElementGuid>e775247c-58c3-4b37-9d1b-c2139c40da10</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Daihatsu</value>
-      <webElementGuid>0be95079-1949-4b12-ae39-1763684f89a4</webElementGuid>
+      <webElementGuid>7570c5cf-60ea-4fd3-8fa8-980ea7bb1d5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Daihatsu</value>
+      <webElementGuid>b1646a93-d9a3-41c1-8926-75f8cfa45cd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_boxOnclick__5H7Ga&quot;]</value>
-      <webElementGuid>014b2252-a336-4095-9598-162aaf69fe77</webElementGuid>
+      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Daihatsu')]</value>
+      <webElementGuid>e8b2b2e0-1899-45cf-abdc-e9ab24932aa7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[2]/following::div[2]</value>
-      <webElementGuid>57e4359e-0d21-4bb0-a26e-6b1249823704</webElementGuid>
+      <webElementGuid>90691ac1-b8e8-4f36-872b-42fe07d259ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[17]</value>
-      <webElementGuid>46248a2c-ffd5-4225-ae12-62dbe48b8a63</webElementGuid>
+      <webElementGuid>b4ee98be-f827-43d8-ba2f-af42047b53d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Isuzu'])[2]/preceding::div[2]</value>
-      <webElementGuid>cf4a7e22-8ee3-4676-b4d1-dcac57daea1f</webElementGuid>
+      <webElementGuid>02a81116-c07b-4a2e-a5b0-7ec2bcbd12e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>ed400c07-89ad-4d23-a474-749591e426f9</webElementGuid>
+      <webElementGuid>15f4dd5d-22dd-4a83-82ea-f0d37035b159</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Daihatsu' or . = ' Daihatsu')]</value>
-      <webElementGuid>8c3816b6-dff6-47fe-8d6c-ab0f5a25fdeb</webElementGuid>
+      <webElementGuid>45ae9370-ec5d-41c4-9957-85de13275347</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

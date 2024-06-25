@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'MPV' or . = 'MPV')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.navigationfiltermobile_text__35uL4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;MPV&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3c6d6d25-008d-42a0-a663-5a91764ef2eb</webElementGuid>
+      <webElementGuid>ddd2bb07-94a8-4581-ae03-27e620b2d735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>d5b73240-f738-4b92-99cd-744187e44857</webElementGuid>
+      <webElementGuid>a3da386c-c0c6-4a64-8a49-2b6cd794ff66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MPV</value>
-      <webElementGuid>c31436f6-f453-4b54-8b34-6f89be41c071</webElementGuid>
+      <webElementGuid>8358a30c-bc7e-459d-8ee3-ba9d3bbdacf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>d43c37e4-0da7-407d-872b-928c201cb154</webElementGuid>
+      <webElementGuid>6208f31b-f86e-49a6-8f46-aabfa087d878</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>dfbb7f4d-e1f8-47ca-a18e-fbf3c873cf6b</webElementGuid>
+      <webElementGuid>6e3b10a0-028e-48bc-ba1f-0157089f2bcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>2eee1c2e-6898-4cf2-8c0b-0c39f61b4cd4</webElementGuid>
+      <webElementGuid>a4ab86f1-d1ef-48d5-b294-0be0fe1b1350</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>252ba53f-4ced-4571-80cf-a4c14bbd295c</webElementGuid>
+      <webElementGuid>9caf19f8-0fe3-45e5-9cae-69f1eaf79084</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MPV']/parent::*</value>
-      <webElementGuid>ba0cd759-db64-42fe-bd70-c29c4bff67b8</webElementGuid>
+      <webElementGuid>c89a7bd9-b68c-4bde-bd67-94ad15777271</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>95c3e400-70da-4340-9bb8-2567f1fe84a9</webElementGuid>
+      <webElementGuid>c7c0b6f2-85c0-4121-aec6-062718f36957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'MPV' or . = 'MPV')]</value>
-      <webElementGuid>62db4217-5763-49b9-89d0-f5f639e184bd</webElementGuid>
+      <webElementGuid>528628cf-7e61-40e3-b2ef-aaefa088487b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

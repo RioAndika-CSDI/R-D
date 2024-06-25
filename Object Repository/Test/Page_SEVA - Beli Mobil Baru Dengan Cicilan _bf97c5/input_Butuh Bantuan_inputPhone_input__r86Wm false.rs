@@ -6,15 +6,18 @@
    <elementGuidId>996351a2-4e16-492b-9d63-03f9e32471c4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id = 'nomor-telp-pdp-leads' and @maxlength = '13']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,31 +25,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>cd5c7917-bfc2-458e-ba2e-8b108d474c31</webElementGuid>
+      <webElementGuid>3f16a24f-3892-4794-862d-cc5693713f45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>db46bd46-4ce8-4f92-a91f-12bbd41a5b25</webElementGuid>
+      <webElementGuid>71faefcc-e2f5-480f-9b1f-1389ce11350a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test-id</name>
       <type>Main</type>
       <value>nomor-telp-pdp-leads</value>
-      <webElementGuid>9070cf78-6895-419c-9aee-fe73e11cb80a</webElementGuid>
+      <webElementGuid>a138cc27-60d0-434e-9a66-9581bb177623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>ac7d305e-6959-4d8e-8cd1-164127f28f1c</webElementGuid>
+      <webElementGuid>0bb7f275-a0c5-463b-b7d3-c75df1728348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +57,15 @@
       <name>class</name>
       <type>Main</type>
       <value>inputPhone_input__r86Wm false </value>
-      <webElementGuid>d54c7322-94cc-4e08-b6fc-955b9a5d51f0</webElementGuid>
+      <webElementGuid>003fded5-1dd8-4143-b576-ed25b5c8c0e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Contoh: 812345678</value>
-      <webElementGuid>53fbc596-ad03-4a0a-8ddc-1e66e7ae1fd7</webElementGuid>
+      <webElementGuid>14e5731b-3c3a-47b5-b85d-3c8d1aca1ce7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-input-nama-lengkap</value>
-      <webElementGuid>f24e1eb6-5ff9-4072-921c-14f1437f025d</webElementGuid>
+      <webElementGuid>eab9ff66-74a7-4a27-8e12-d98674ef9a52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;landing-page-leads-form-section&quot;)/div[@class=&quot;leadsFormTertiary_container__eBNAS&quot;]/div[@class=&quot;leadsFormTertiary_wrapper__nOdZt&quot;]/div[@class=&quot;leadsFormTertiary_foreground__2I_to&quot;]/div[@class=&quot;leadsFormTertiary_form__F4vzh&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ leadsFormTertiary_inputPhone__atuD7&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined false&quot;]/input[@class=&quot;inputPhone_input__r86Wm false&quot;]</value>
-      <webElementGuid>a8e39a83-4911-4be7-a1e8-2bc7e1ffe43b</webElementGuid>
+      <webElementGuid>7dee6c3b-c735-478f-a447-deb54b03cef7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[4]</value>
-      <webElementGuid>e9ebb0b6-58d3-4a89-9473-6a9e349d47e6</webElementGuid>
+      <webElementGuid>14c94dd4-1b48-42d3-8ca5-d9f2e68c7d26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/div/div[2]/div/input</value>
-      <webElementGuid>698974d1-8850-4379-8110-c0fb8001848f</webElementGuid>
+      <webElementGuid>5e365325-f934-45f2-a24f-0ae2dd6ff383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/input</value>
-      <webElementGuid>1217c1a3-0bca-451f-ae85-6e2c79179a1b</webElementGuid>
+      <webElementGuid>013d941c-f40f-4784-a2e5-636d40968fc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @placeholder = 'Contoh: 812345678']</value>
-      <webElementGuid>1b455ed8-a683-4f57-8a46-e036219c16c5</webElementGuid>
+      <webElementGuid>97655d4f-83de-4237-8097-c4152c407999</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,26 +10,23 @@
          <value>//div[@id='pdp-upper-content']/div[2]/h1</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__wAVF1&quot;]/h1[@class=&quot;carOverView_carBrandModelText__OLVuA&quot;][count(. | //h1[(text() = 'Toyota' or . = 'Toyota')]) = count(//h1[(text() = 'Toyota' or . = 'Toyota')])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h1.carOverView_carBrandModelText__OLVuA</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;text-car-brand-model&quot;]</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>a57f9e5d-769a-4e0e-be87-8003ab950355</webElementGuid>
+      <webElementGuid>e044153e-00de-4d40-a636-6960e8b93cc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>carOverView_carBrandModelText__OLVuA</value>
-      <webElementGuid>85d0588e-f86f-4bba-ba7a-0581898a9e88</webElementGuid>
+      <webElementGuid>6c0472b2-cde7-4dba-9521-ebcbaafc21bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +42,23 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>text-car-brand-model</value>
-      <webElementGuid>f110cde0-2df7-4bd8-902e-029d51fab7c6</webElementGuid>
+      <webElementGuid>1ad6db5f-37c0-492c-ac13-b0aff849a8b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Peugeot 2008</value>
-      <webElementGuid>89a279dc-28c7-4f0d-b53a-a3f8074b8a07</webElementGuid>
+      <value>Toyota</value>
+      <webElementGuid>16bf06e3-d8d7-4d5e-b888-561ff7e0c0ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__wAVF1&quot;]/h1[@class=&quot;carOverView_carBrandModelText__OLVuA&quot;]</value>
-      <webElementGuid>41ce39d6-8685-443f-9b39-522da772c236</webElementGuid>
+      <webElementGuid>5629ba5f-1d71-44f8-8b11-43177977dc45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pdp-upper-content']/div[2]/h1</value>
-      <webElementGuid>36a42ef2-ae95-41f8-aeb3-611513e0e9ce</webElementGuid>
+      <webElementGuid>12373513-ebcc-4f2e-a98e-5c79c50e1bfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilihan Warna'])[1]/following::h1[1]</value>
-      <webElementGuid>c2da0979-784c-4dfd-8f70-252622f5b325</webElementGuid>
+      <webElementGuid>11f9186e-4f46-4066-83a6-b508723c8d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Video'])[1]/following::h1[1]</value>
-      <webElementGuid>f757658f-d1f9-4954-b956-98b709c39c49</webElementGuid>
+      <webElementGuid>7e784cd7-d38a-462d-94f7-b13cf6d3245e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h1[1]</value>
-      <webElementGuid>74283bd4-6163-42a9-93ed-3f3133ecc49a</webElementGuid>
+      <webElementGuid>d54eae2e-5da2-47f9-80db-66f9c30198cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Peugeot 2008']/parent::*</value>
-      <webElementGuid>cc405e8b-1388-4fb0-b137-c2ed2697e56a</webElementGuid>
+      <webElementGuid>2ae971d1-2361-4631-bf90-37121ce895e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>0673f1ff-e111-4ae4-bfcd-d58ed079c976</webElementGuid>
+      <webElementGuid>992ad4fb-f56d-4a91-a88e-18a6c93ad1f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Peugeot 2008' or . = 'Peugeot 2008')]</value>
-      <webElementGuid>45cb2b1d-f002-4554-8c55-f5e1e4af86b7</webElementGuid>
+      <webElementGuid>148f9e46-d32f-41f2-b9a4-c0efbc4c7c6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
