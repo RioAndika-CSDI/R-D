@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Klik-1-elemen-Cicilan Calya Baru di SEVA Hemat dan Praktis, Mobil Impian Semakin Dekat</name>
+   <tag></tag>
+   <elementGuidId>814b7534-512f-4316-8003-32fcb7827160</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/main/section[2]/div[2]/div[1]/div[2]/a/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>28d5dc22-bbe9-45b8-9da8-788e2dfcecc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1718246149982</value>
+      <webElementGuid>8e183f51-eaad-4ffe-96ac-be202f64e08c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

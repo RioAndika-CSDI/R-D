@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP018-Homepage-Form Join Yuk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6e40acc-3539-407d-9e5a-1ca3f95acc06</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ed45251-4862-4769-99fc-3be2a8cd9ccb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>957451bd-519b-4fd1-bb99-243425ad4108</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e78d058-b628-4197-bb0b-f33a2c99f31d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/'</defaultValue>
+      <description></description>
+      <id>6ed45251-4862-4769-99fc-3be2a8cd9ccb</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>957451bd-519b-4fd1-bb99-243425ad4108</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>5e78d058-b628-4197-bb0b-f33a2c99f31d</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

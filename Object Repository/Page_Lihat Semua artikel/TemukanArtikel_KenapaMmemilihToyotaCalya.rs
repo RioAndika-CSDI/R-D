@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TemukanArtikel_KenapaMmemilihToyotaCalya</name>
+   <tag></tag>
+   <elementGuidId>7654f411-4bb8-4674-89a6-febc3a6bfec7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ez-toc-container&quot;]/nav/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ce108d6b-2d8f-49c9-8114-61bcb4934103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1718249205399</value>
+      <webElementGuid>bec99a35-7f4e-462a-bfa5-0f5d9f2329bb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
