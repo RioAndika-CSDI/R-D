@@ -31,7 +31,5 @@ WebUI.click(findTestObject('Page_SEVA CRM Homepage - SEVA CRM/a_Re-engagement Wo
 
 WebUI.click(findTestObject('Object Repository/Page_Fast Reactivation - Re-engagement Work_70511d/div_Re-engagement Workstation (1)'))
 
-WebUI.delay(60)
-
 WebUI.closeBrowser()
 

@@ -24,11 +24,10 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'TKuVe2416cQrilL8vjccmw==')
+    'p4y+y39Ir5OXMeRRxIjGsg==')
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
 
-<<<<<<<< HEAD:Scripts/CMS/CMS004 - VerifyUserCanClickButtonEditOnTestimonyManagement/Script1711606922334.groovy
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'), FailureHandling.STOP_ON_FAILURE)
@@ -38,7 +37,7 @@ WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/icon edit T
 WebUI.verifyElementText(findTestObject('Page_SEVA CMS/CMS - Testimony Management/h1_Edit Testimony management'), 'Edit Testimony')
 
 WebUI.delay(3)
-========
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/main_LoginEmailPasswordRemember me Log inIn_9e366b'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management (1)'))
@@ -54,7 +53,6 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1_2'))
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1'))
->>>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS003 - VerifyUserCanFilterEndedOnTestimonyManagement/Script1710815719602.groovy
 
 WebUI.closeBrowser()
 

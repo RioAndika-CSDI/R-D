@@ -31,7 +31,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/
 
 WebUI.click(findTestObject('Object Repository/Page_List of Bucket - SEVA CRM/div_Bucket Management (1)'))
 
-WebUI.delay(60)
-
 WebUI.closeBrowser()
 

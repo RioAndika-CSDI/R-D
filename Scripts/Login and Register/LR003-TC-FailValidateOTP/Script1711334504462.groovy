@@ -17,21 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.navigateToUrl('https://crm-fe.staging.sevaio.xyz/')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'clement.csa@seva.id')
+WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
 
-WebUI.setEncryptedText(findTestObject('Page_Login SEVA CRM/input_Password_password'), 'c4GKK4TF9UlaBM4o6zAsUA==')
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Login SEVA CRM/button_LOG IN'))
+WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
 
-WebUI.click(findTestObject('Page_SEVA CRM Homepage - SEVA CRM/div_Workstation'))
+WebUI.click(findTestObject('PopUP/button_x'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Re-engagement Workstation'))
+WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 'Jakarta Pusat')
 
-WebUI.click(findTestObject('Object Repository/Page_Fast Reactivation - Re-engagement Work_70511d/div_Re-engagement Workstation'))
+WebUI.click(findTestObject('Homepage Component/Select City List'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
+
+'Click Burger Menu'
+WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button'), 0)
+
+'Click Moengage Ads\r\n'
+WebUI.delay(4)
+
+'Click Burger Menu'
+WebUI.click(findTestObject('Homepage Component/Burger_Button'))
+
+'Click Burger Menu'
+WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
+
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '81225717129')
+
+WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), '767676')
 

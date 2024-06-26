@@ -31,5 +31,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/
 
 WebUI.click(findTestObject('Object Repository/Page_Leads Workstation - Yohannes Mario - SEVA CRM/div_Leads Workstation'))
 
-WebUI.delay(60)
+WebUI.closeBrowser()
 
