@@ -34,13 +34,12 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Ma
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/CMS - Homepage Banner Management/a_Homepage Banner Management'))
 
-<<<<<<< HEAD:Scripts/CMS/CMS021 - VerifyUserCanAccessHomepageBannerManagement/Script1711901792443.groovy
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_SEVA CMS/CMS - Homepage Banner Management/h1_Homepage Banner Management'), 'Homepage Banner Management')
-=======
+
 //WebUI.click(findTestObject('Page_SEVA CMS/button_Add')) --> can't automation cause role
 //
 //WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_Create Testimony')) --> can't automation cause role
->>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS005 - VerifyUserCanClickButtonAddOnTestimonyManagement/Script1707796675045.groovy
 
 WebUI.closeBrowser()
 
