@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP015-Homepage-MembukaTemukan Artikel disini</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba8c7cd0-c4de-46a5-9248-cb45bbc16172</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3efe5943-9aab-49e7-9ae9-8796aa1be046</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9a817a2-4a1c-43d3-9601-61ccba308ea9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a5b3698-c188-4fda-b4ac-08f89d88f164</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/'</defaultValue>
+      <description></description>
+      <id>3efe5943-9aab-49e7-9ae9-8796aa1be046</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a9a817a2-4a1c-43d3-9601-61ccba308ea9</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>2a5b3698-c188-4fda-b4ac-08f89d88f164</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

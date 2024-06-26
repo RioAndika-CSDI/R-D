@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WP017-Homepage-Form Tertarik Seva</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24cec0dc-1488-4424-a13e-c7b305eeab4b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>deb7cbc4-bf22-4c53-b20a-7afe7afc9cec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>047e28b6-92b3-4eb8-8f69-33054ad920cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61837091-5897-4647-9db4-d187b0922212</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog/'</defaultValue>
+      <description></description>
+      <id>deb7cbc4-bf22-4c53-b20a-7afe7afc9cec</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>047e28b6-92b3-4eb8-8f69-33054ad920cc</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>61837091-5897-4647-9db4-d187b0922212</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>
