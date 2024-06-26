@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='8']</value>
+         <value>//input[@value='']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,13 +15,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;input-phone-number&quot;]</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7e78bbda-70f6-491a-94b1-9fce41978950</webElementGuid>
+      <webElementGuid>a6c3e602-33ab-48f1-810a-a642389c2ec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>5ca2ea38-5642-4865-b7c1-563a009a2955</webElementGuid>
+      <webElementGuid>29c47d96-19f8-4a8a-94e6-528d4b496c5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +38,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>7f52c605-49d2-4526-82de-4fbe25787cd0</webElementGuid>
+      <webElementGuid>e2f06230-81bc-4e51-a93d-27716340975f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputPhone_input__r86Wm false </value>
-      <webElementGuid>8c0abd16-e88b-4872-8450-6e30f8bc4d45</webElementGuid>
+      <webElementGuid>02fdc360-312d-4846-a7e8-d79632b360f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Contoh: 812345678</value>
-      <webElementGuid>666e3b8b-de65-48ce-a0a0-02927561ed4d</webElementGuid>
+      <webElementGuid>8730b0cd-fadd-441c-aed8-a8406b4d9123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +62,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>input-phone-number</value>
-      <webElementGuid>6f3e5838-03c2-4029-b679-d522dc4e54f0</webElementGuid>
+      <webElementGuid>650e6443-cf99-41c3-860b-a484cdac38ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>6a5be844-f57c-4b2f-9897-cee3c6045aff</webElementGuid>
+      <webElementGuid>07bdd150-199d-4461-b19f-1ee848763f13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined false&quot;]/input[@class=&quot;inputPhone_input__r86Wm false&quot;]</value>
-      <webElementGuid>cb965c1c-c41a-4f15-8a74-37d44f3b569e</webElementGuid>
+      <webElementGuid>ec209a9a-dc87-42cc-b3cc-0bdb6ff08c1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='8']</value>
-      <webElementGuid>d2995fce-3880-47a7-af13-421fca486c14</webElementGuid>
+      <webElementGuid>08b7aadb-1638-4b23-af19-d14be437b1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>1045e1fa-9620-46b5-b7d9-98839db7cf2c</webElementGuid>
+      <webElementGuid>802d605b-7ced-4324-90c2-0c3fd5433a88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>187cb0f1-452d-43e3-a8b0-ba353ed91dd9</webElementGuid>
+      <webElementGuid>ca3c05a6-a2ea-4d6b-97ea-3269a64eafd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @placeholder = 'Contoh: 812345678']</value>
-      <webElementGuid>ce928813-c21a-498b-9bc0-cd2157223edf</webElementGuid>
+      <webElementGuid>7767d784-bc2c-4373-a589-4fec57b953e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

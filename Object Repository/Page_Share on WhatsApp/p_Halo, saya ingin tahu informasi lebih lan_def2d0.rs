@@ -6,23 +6,27 @@
    <elementGuidId>c668aad3-1041-4ecc-b51e-806598ba101b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p._9vd5</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main_block']/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.' or . = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p._9vd5</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>635692b1-aac0-4aff-baf8-f18e65a80d4e</webElementGuid>
+      <webElementGuid>b924795e-1533-421c-8271-805220f922e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_9vd5</value>
-      <webElementGuid>44bbe072-0d56-43bc-8262-27afd49b2761</webElementGuid>
+      <webElementGuid>f0cf8fec-ffbf-4fed-b072-a5d1ee82c5fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.</value>
-      <webElementGuid>d5b8cdfe-ab24-438a-8879-faa27118772e</webElementGuid>
+      <webElementGuid>e1f8284d-e378-4aa4-b661-e12f130a08f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main_block&quot;)/p[@class=&quot;_9vd5&quot;]</value>
-      <webElementGuid>c5109378-9327-4567-92ce-d80d1b346b3d</webElementGuid>
+      <webElementGuid>6b3b5c6d-b88d-4881-9d0d-b7f47de23389</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>main_block</value>
+      <webElementGuid>c8aea86c-76a3-4d2c-8df3-a7962e79ef81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main_block']/p</value>
-      <webElementGuid>4e351a4b-f130-4eff-bb22-1fd21ed710af</webElementGuid>
+      <webElementGuid>f79aad82-597b-4acf-a90d-f4a13294ac45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p</value>
-      <webElementGuid>24d1fb45-59e8-4de3-8639-c89a77b80c0d</webElementGuid>
+      <webElementGuid>9016c12e-09e2-4fbb-922d-d67e9f961f7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.' or . = 'Halo, saya ingin tahu informasi lebih lanjut tentang layanan yang tersedia di SEVA.')]</value>
-      <webElementGuid>b0e53413-f25d-408f-b4fd-f8195ab2dbfc</webElementGuid>
+      <webElementGuid>199ce8a1-8b96-412e-a91f-8d3f85b9266d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

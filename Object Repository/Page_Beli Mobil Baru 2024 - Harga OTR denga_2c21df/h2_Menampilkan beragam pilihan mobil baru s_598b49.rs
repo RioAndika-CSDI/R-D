@@ -6,30 +6,27 @@
    <elementGuidId>14ca093f-fc66-46be-8792-0fab2f6e7e05</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.mobil-baru_subtitle__FNtHw</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/h2</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.&quot;i]</value>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.' or . = 'Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.')]</value>
       </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+      <entry>
+         <key>CSS</key>
+         <value>h2.mobil-baru_subtitle__FNtHw</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>d3e46120-24d2-44fd-ab83-0a068e2ffabf</webElementGuid>
+      <webElementGuid>05361b40-95b0-48ab-a7fd-3fc38790b02f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mobil-baru_subtitle__FNtHw</value>
-      <webElementGuid>d3cea557-fd5d-4099-aa00-da881a748019</webElementGuid>
+      <webElementGuid>6ff25f88-75ad-4e5a-b2a0-7bfe06b4dc13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.</value>
-      <webElementGuid>e315c51e-f6fb-4b4f-bb64-9e3b578bc9aa</webElementGuid>
+      <webElementGuid>8b3cf2cf-e7ba-48f3-bf5d-069b7bb0d73c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;mobil-baru_titleHeaderWrapper__UBOLj&quot;]/h2[@class=&quot;mobil-baru_subtitle__FNtHw&quot;]</value>
-      <webElementGuid>cef8a5c2-bd63-41a4-8390-bcc7e12afa72</webElementGuid>
+      <webElementGuid>0e0e1ccb-a617-4015-86e4-ad63eabe72f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/h2</value>
-      <webElementGuid>cf391665-b097-48d9-b7b4-2841dbf33d84</webElementGuid>
+      <webElementGuid>fd7c0d6a-ede1-4b70-b0d9-644c882a1b91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Mobil Baru di SEVA'])[1]/following::h2[1]</value>
-      <webElementGuid>ff023eb1-3ab1-48d4-9247-cd060830c162</webElementGuid>
+      <webElementGuid>48e6e64f-dff6-4aac-be07-f50c91383073</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA CALYA 1.2 G M/T 2021'])[1]/following::h2[1]</value>
-      <webElementGuid>8bcb7233-5cce-45cb-9cda-66bacbcf58ee</webElementGuid>
+      <webElementGuid>8b1c619e-adc9-4857-b011-dee9877c9c77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Mobil'])[1]/preceding::h2[1]</value>
-      <webElementGuid>79c56328-2a82-4751-becb-44906ecd208b</webElementGuid>
+      <webElementGuid>2efc0f64-e7f4-4f2f-95a0-f7b151268ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.']/parent::*</value>
-      <webElementGuid>93c5b716-0cb6-4e5c-9589-eedfd2e4d4f5</webElementGuid>
+      <webElementGuid>28fb6f23-a620-4611-a53c-735838fcc39b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>0b17ebbc-f7ab-442e-ae4b-d2073938244d</webElementGuid>
+      <webElementGuid>359779ba-82f0-4620-a583-a2e851bcddef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.' or . = 'Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.')]</value>
-      <webElementGuid>95927972-f2db-415f-8a57-bb428646ee5a</webElementGuid>
+      <webElementGuid>a101a4a2-7dd5-4fed-bbac-0496fc33cb3d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

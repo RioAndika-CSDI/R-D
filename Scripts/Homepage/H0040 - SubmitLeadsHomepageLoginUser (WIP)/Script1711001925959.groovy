@@ -17,9 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '8752900847', ('OTP') : '445566', ('open_browser') : '1'
+        , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.scrollToElement(findTestObject('Homepage Component/Text Butuh Bantuan'), 0)
 
 WebUI.click(findTestObject('Homepage Component/button_Kirim'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/p_Nomor berhasil diverifikasi. Agen SEVA ak_836ded'))
+
+WebUI.closeBrowser()
 

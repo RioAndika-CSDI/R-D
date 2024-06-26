@@ -21,13 +21,35 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_MPV, SUV, Sedan, Hatchback, Sport'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Tipe MPV SUV Sedan Hatchback SportAtur _843ac3'))
+WebUI.verifyElementPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
+
+WebUI.click(findTestObject('Homepage - PLP/New Car/Filter Brand Unselected 1st'))
+
+WebUI.verifyElementNotPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
+
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
+
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_MPV, SUV, Sedan, Hatchback, Sport'))
+
+WebUI.verifyElementNotPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
+
+WebUI.click(findTestObject('Homepage - PLP/New Car/Filter Brand Selected 1st'))
+
+WebUI.verifyElementPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
+
+WebUI.click(findTestObject('Homepage - PLP/New Car/icon X bran popup'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Homepage - PLP/New Car/icon X bran popup'), 0)
 
 WebUI.closeBrowser()
 

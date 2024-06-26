@@ -41,26 +41,39 @@ class Close_popup_update {
 
 	@Keyword
 	def closePopupSeva(int timeoutPerPopup) {
-
-		boolean aslFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_ASL'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
-
-		if (aslFrame == true) {
-			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
-
-			WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
-
-			WebUI.switchToWindowIndex(0)
-		}
 		
-		boolean sakuFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
-		
-		if (sakuFrame == true) {
-			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+		boolean status = WebUI.verifyElementPresent(findTestObject('Homepage Component/Iframe_Uni'), timeoutPerPopup, FailureHandling.OPTIONAL)
 
-			WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+		while(status) {
 
-			WebUI.switchToWindowIndex(0)
+			WebUI.click(findTestObject('Homepage Component/Close_iframe'))
+
+			boolean cek = WebUI.verifyElementNotPresent(findTestObject('Homepage Component/Iframe_Uni'), 1, FailureHandling.OPTIONAL)
+
+			if(cek==true) {
+				break;
+			}
 		}
-		
-		}
+
+		//	CODE LAMA
+		//		boolean aslFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_ASL'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
+		//
+		//		if (aslFrame == true) {
+		//			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
+		//
+		//			WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
+		//
+		//			WebUI.switchToWindowIndex(0)
+		//		}
+		//
+		//		boolean sakuFrame = WebUI.verifyElementPresent(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0+timeoutPerPopup, FailureHandling.OPTIONAL)
+		//
+		//		if (sakuFrame == true) {
+		//			WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+		//
+		//			WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+		//
+		//			WebUI.switchToWindowIndex(0)
+		//		}
+	}
 }

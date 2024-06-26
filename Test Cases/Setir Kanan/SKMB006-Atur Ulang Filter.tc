@@ -92,7 +92,7 @@
       <name>close_browser</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>a34fdf58-ff13-41ec-a4db-1f1c9394cf99</id>
       <masked>false</masked>
@@ -106,7 +106,7 @@
       <name>brand</name>
    </variable>
    <variable>
-      <defaultValue>'2016-2020'</defaultValue>
+      <defaultValue>'2019-2020'</defaultValue>
       <description></description>
       <id>03f2d5cc-4bd2-4007-b128-eb59778b0f01</id>
       <masked>false</masked>

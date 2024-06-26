@@ -6,15 +6,19 @@
    <elementGuidId>34de2f9d-5ed7-4516-95a2-5aff1e83a21b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.formSelectBrandCar_content__YpNau > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[2]/div/div[2]/div/div/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'logo-toyota']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.formSelectBrandCar_content__YpNau > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dc8b513d-021a-4d6a-949f-dcb730b5ac5b</webElementGuid>
+      <webElementGuid>1eec4361-d913-470e-b0e4-06a7f2acf73b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Toyota</value>
-      <webElementGuid>06715e59-5296-4405-9cdc-ed219ea1be16</webElementGuid>
+      <webElementGuid>61a9143f-7e30-4de6-a085-201ec235ef0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]/div[@class=&quot;formSelectBrandCar_content__YpNau&quot;]/span[1]</value>
-      <webElementGuid>79c5799d-908b-44d4-af94-c38543303c0e</webElementGuid>
+      <webElementGuid>cdf5d380-cf34-4fed-8327-807bbf614259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-toyota</value>
+      <webElementGuid>2c5fffa6-fa9a-48fd-9bbc-9db3ca8ee9b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/span</value>
-      <webElementGuid>19c70424-4ada-49f6-b235-3a1668cde433</webElementGuid>
+      <webElementGuid>f5d58e00-e102-4caa-b347-d8fdf7a89fa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Toyota' or . = 'Toyota')]</value>
-      <webElementGuid>5229dc1b-dc7c-4e5b-bdc4-c9bf021a4afc</webElementGuid>
+      <webElementGuid>396e8726-4ea8-4780-a0a9-5e253d8a9887</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

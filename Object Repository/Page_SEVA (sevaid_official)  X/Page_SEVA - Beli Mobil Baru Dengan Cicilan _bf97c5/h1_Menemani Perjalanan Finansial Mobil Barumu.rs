@@ -6,15 +6,19 @@
    <elementGuidId>1b418061-02ae-402c-bb4d-de4093c25172</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.mainHeroLp_mainTitle__xtFU_.mainHeroLp_bold___HRWI</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Menemani Perjalanan Finansial Mobil Barumu' or . = 'Menemani Perjalanan Finansial Mobil Barumu')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div/div/div[2]/h1</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mainHeroLp_mainTitle__xtFU_.mainHeroLp_bold___HRWI</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>8229ccb8-57cf-4fc4-a868-38d30a2e3120</webElementGuid>
+      <webElementGuid>31afc66c-cbe3-4b55-a7ab-8aede78e08d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI</value>
-      <webElementGuid>93f9385d-4ca0-4e4a-bbfe-570179652137</webElementGuid>
+      <webElementGuid>dcc8cfc7-89d1-4cb8-9933-fab46229f1c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menemani Perjalanan Finansial Mobil Barumu</value>
-      <webElementGuid>f6537395-029f-45d4-923c-a1bc7f478832</webElementGuid>
+      <webElementGuid>91a04ee6-3a7b-4dcd-b6f0-a4f19a864d78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]</value>
-      <webElementGuid>05476c6f-d877-4f89-a464-82d7a5ff547c</webElementGuid>
+      <webElementGuid>e80004fc-714c-4867-b0c7-e14f25c3c4fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/div[2]/h1</value>
-      <webElementGuid>35cf729f-11ae-46fa-bea8-de53cce89c43</webElementGuid>
+      <webElementGuid>e2ccab49-edea-4a86-b32b-a8eb7fdb56d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>eee2fd90-108c-437e-ab19-1b47c19579df</webElementGuid>
+      <webElementGuid>c6efda6a-cf76-4ad9-948a-9a21c815b733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Menemani Perjalanan Finansial Mobil Barumu' or . = 'Menemani Perjalanan Finansial Mobil Barumu')]</value>
-      <webElementGuid>be724508-0651-4029-9737-12067fc93fe6</webElementGuid>
+      <webElementGuid>32a886ca-b59f-48e2-a0b0-ad9e8b0238f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,11 +10,15 @@
          <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/div/button</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kirim' or . = 'Kirim')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.leadsFormTertiary_button___2U20</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9c18b1aa-6b27-423d-bc2c-0d535c5eb6b8</webElementGuid>
+      <webElementGuid>0fc43a07-e1bf-431c-8321-b193cc5a2b9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN leadsFormTertiary_button___2U20</value>
-      <webElementGuid>1d1acc88-129b-433c-96b8-861d008aad7c</webElementGuid>
+      <webElementGuid>1aeaf78d-96f7-42ec-845b-01f8a3cd9235</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>submit-pdp-leads</value>
-      <webElementGuid>b3128568-9d31-4251-979f-7171a71d72e9</webElementGuid>
+      <webElementGuid>34ab3f60-6df1-49bd-a56a-665af68bfa41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kirim</value>
-      <webElementGuid>a916633f-faa9-4445-97b5-42ac2c44083d</webElementGuid>
+      <webElementGuid>8b160007-23f2-44b0-a205-a07b71d8b6c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;landing-page-leads-form-section&quot;)/div[@class=&quot;leadsFormTertiary_container__eBNAS&quot;]/div[@class=&quot;leadsFormTertiary_wrapper__nOdZt&quot;]/div[@class=&quot;leadsFormTertiary_foreground__2I_to&quot;]/div[@class=&quot;leadsFormTertiary_form__F4vzh&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN leadsFormTertiary_button___2U20&quot;]</value>
-      <webElementGuid>d89a0fbb-f0bb-4e04-8d61-2174245ce527</webElementGuid>
+      <webElementGuid>2011bfe4-22ab-4606-b383-dabe7263715c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/div/button</value>
-      <webElementGuid>5da6544b-f511-4510-8612-df14d6ee81d1</webElementGuid>
+      <webElementGuid>2d065ecb-7775-4233-bb63-f7634824c4aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Butuh Bantuan?'])[1]/following::button[1]</value>
-      <webElementGuid>1bbf3e02-32ad-4538-9766-9988b071462f</webElementGuid>
+      <webElementGuid>d6f273fb-2d70-41e8-89c7-44dce6897ecb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minta Penawaran'])[5]/following::button[6]</value>
-      <webElementGuid>7f7c1a05-5364-463e-80c0-31a83ed702d5</webElementGuid>
+      <webElementGuid>1f3d53b0-9867-4c7f-bec1-f290c57e66f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Lain dari SEVA'])[1]/preceding::button[1]</value>
-      <webElementGuid>fdcd7dd9-235c-4e8d-9a11-62778e3bbaf2</webElementGuid>
+      <webElementGuid>821af6a2-b9c7-4c29-8f0e-a903e7382121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fasilitas Dana'])[2]/preceding::button[1]</value>
-      <webElementGuid>e7ab900b-d8ba-4117-adb6-00fa9ee932c2</webElementGuid>
+      <webElementGuid>0b70acab-26bf-432a-8913-6c555da7872e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
-      <webElementGuid>8e3e2ae2-373a-460e-b774-9d8799f56967</webElementGuid>
+      <webElementGuid>7ba17545-a8ea-42ad-82fc-39ed42f52957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>2ae7ac26-eb97-4dc8-8403-15bf524353b7</webElementGuid>
+      <webElementGuid>a1a9cdbb-e80a-424f-8c89-ef74d581be43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
-      <webElementGuid>6ed1d51b-e2c8-40af-83d9-16334151c03d</webElementGuid>
+      <webElementGuid>5346f1d1-869e-42c7-a9f4-46b16a066ea6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

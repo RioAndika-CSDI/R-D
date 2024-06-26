@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyElemen_KenapaMmeilihToyotaCalya</name>
+   <tag></tag>
+   <elementGuidId>ee08c361-c3d9-4720-a034-8092d2024ff9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;post-967908&quot;]/div[2]/h2[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>7983cecb-9211-4f43-b9fe-8a298b9a7cba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1718249289659</value>
+      <webElementGuid>8accc013-9a60-4634-ae55-eff3f5dd6049</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

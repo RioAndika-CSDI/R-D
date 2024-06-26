@@ -116,7 +116,7 @@
       <name>brand_Search</name>
    </variable>
    <variable>
-      <defaultValue>'2016-2020'</defaultValue>
+      <defaultValue>'2019-2020'</defaultValue>
       <description></description>
       <id>16092a1c-887e-4375-92f7-d65074c98aab</id>
       <masked>false</masked>
@@ -130,14 +130,14 @@
       <name>transmisi_Search</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>cae925d5-0b62-4da8-bcc8-1c5034343c9d</id>
       <masked>false</masked>
       <name>expected_url_Search</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>1385fe76-ca06-4ef9-a284-44d24903d935</id>
       <masked>false</masked>

@@ -6,14 +6,18 @@
    <elementGuidId>0a8d052b-1a57-4804-b87f-9d1f99a374bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@data-testid='logo-isuzu']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Isuzu')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>62bbee27-325f-402b-9ce1-703be5a4f641</webElementGuid>
+      <webElementGuid>141ec929-2b24-4b34-a9bd-740bdcb2153a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d6ab6061-05a4-4535-bdc9-bacb8883d9ac</webElementGuid>
+      <webElementGuid>930daf7a-8516-4a06-b8c3-11a97551eb55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>13c35048-87ba-48db-86c0-d9f6188ec232</webElementGuid>
+      <webElementGuid>9769bf08-65c3-49d5-ba7a-3bc6f48e14ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +49,23 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-isuzu</value>
-      <webElementGuid>e0d85322-0ce1-4866-af87-5b6c3813887e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Isuzu</value>
-      <webElementGuid>03568c3f-1567-458e-80ee-8ff1177bee23</webElementGuid>
+      <webElementGuid>05213d9e-57e3-4579-8296-65c44828fd5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Isuzu</value>
+      <webElementGuid>76cc2cfc-121f-4f37-a6b5-aa1e718f8013</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>8d7add84-cce6-4991-bfab-93c7b5d08474</webElementGuid>
+      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Isuzu')]</value>
+      <webElementGuid>eda4fd2c-ef46-4a4d-939a-d5b31168a5f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div</value>
-      <webElementGuid>5e49c152-cee1-4508-b2fe-4a0f661456aa</webElementGuid>
+      <webElementGuid>5a4046d7-73f3-45bc-a938-d807ecbf07cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Isuzu' or . = ' Isuzu')]</value>
-      <webElementGuid>41b36637-ff8e-400d-918b-d5df6e87ceb6</webElementGuid>
+      <webElementGuid>4ba73d71-5058-4d62-93c2-30597e5fb139</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

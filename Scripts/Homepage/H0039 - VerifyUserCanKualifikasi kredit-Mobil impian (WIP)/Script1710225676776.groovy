@@ -17,3 +17,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.Prod)
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage Component/Label Kualifikasi Kredit Mobil Impian'), 0)
+
+WebUI.click(findTestObject('Object Repository/Homepage Component/Label Kualifikasi Kredit Mobil Impian'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page Kualifikasi/label_Header Label Kualifikasi'), 100)
+
+Url_act = WebUI.getUrl()
+
+WebUI.verifyMatch(Url_act, 'https://www.seva.id/kualifikasi-kredit/multi', true)
+
+WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Terendah'), 
+    '1000000000')
+
+WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Tertinggi'), 
+    '2000000000')
+
+WebUI.scrollToElement(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Label_Maksimum DP'), 
+    0)
+
+WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_DP'), 
+    '500000000')
+
+WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Pendapatan'), 
+    '100000000')
+
+WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Tenor'))
+
+WebUI.scrollToElement(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_Transmisi'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Pilihan_Transmisi'))
+
+WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Pekerjaan'))
+
+WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Karyawan Swasta'))
+
+WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Lihat Rekomendasi Mobil'))
+
+WebUI.verifyElementPresent(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/label_Masuk akun kamu dulu yuk'), 
+    0)
+
+WebUI.closeBrowser()
+

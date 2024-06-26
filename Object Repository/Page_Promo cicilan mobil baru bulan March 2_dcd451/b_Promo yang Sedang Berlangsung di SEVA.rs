@@ -10,35 +10,39 @@
          <value>//b[@id='promoBerlangsung']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//h1[(contains(text(), 'Promo yang Sedang Berlangsung di SEVA') or contains(., 'Promo yang Sedang Berlangsung di SEVA'))]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#promoBerlangsung</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>b</value>
-      <webElementGuid>3e8c3a75-4efa-4df8-a551-61c831213aeb</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>65e2c152-2c12-4f40-add1-5bd19651bc06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>promoBerlangsung</value>
-      <webElementGuid>e2a41c6c-8347-4cb1-8c49-de8b1f066761</webElementGuid>
+      <webElementGuid>b2f4253c-fe0e-4e2a-887a-557af4084af9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Promo yang Sedang Berlangsung di SEVA</value>
-      <webElementGuid>84494a74-909f-4731-8dc8-03f5c4dace00</webElementGuid>
+      <webElementGuid>2f803bad-75b6-4f44-98f4-81db1465034c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;promoBerlangsung&quot;)</value>
-      <webElementGuid>c9a9be93-d2bc-4a0b-8199-686f58befbb5</webElementGuid>
+      <webElementGuid>9d9b81e5-a67b-4f67-b855-16d209eb90aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//b[@id='promoBerlangsung']</value>
-      <webElementGuid>b1547b72-0b5d-4a8e-8b52-c72abe23d8f1</webElementGuid>
+      <webElementGuid>e35cc355-2634-4f62-b6ca-352a0423e51a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1/b</value>
-      <webElementGuid>91d55082-802a-4c6f-9678-35abf10ceb09</webElementGuid>
+      <webElementGuid>1f1ea029-4dc0-44c8-b3d2-1cd82cf71f7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[@id = 'promoBerlangsung' and (text() = 'Promo yang Sedang Berlangsung di SEVA' or . = 'Promo yang Sedang Berlangsung di SEVA')]</value>
-      <webElementGuid>493ed58c-5639-41e1-be94-7398218883a8</webElementGuid>
+      <webElementGuid>33361953-d399-4578-9a9d-3490bb36f3af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

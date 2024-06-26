@@ -92,7 +92,7 @@
       <name>close_browser</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-bekas/c?sortBy=lowToHigh'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
       <description></description>
       <id>a34fdf58-ff13-41ec-a4db-1f1c9394cf99</id>
       <masked>false</masked>

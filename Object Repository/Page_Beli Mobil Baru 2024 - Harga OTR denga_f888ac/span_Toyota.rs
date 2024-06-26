@@ -6,15 +6,19 @@
    <elementGuidId>148a3dc5-41dd-4c65-9365-95b403231339</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.navigationfiltermobile_text__35uL4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'logo-toyota']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.navigationfiltermobile_text__35uL4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>91260a0a-c718-4d58-a810-5b7234854f02</webElementGuid>
+      <webElementGuid>e69abbae-2e5f-4109-95aa-c9cc67196721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>18071cbf-b675-44a0-a7f9-9fb6a817b8bb</webElementGuid>
+      <webElementGuid>1a4e0bb4-94fb-4d19-a742-b1528c23b55e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Toyota</value>
-      <webElementGuid>f0cebfdd-0f4e-4ab6-89f9-f020d2a375d0</webElementGuid>
+      <webElementGuid>a1aea144-2486-47f1-97c4-74b5d91b38f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>199222b1-09e7-4aea-a03b-bc0bb57b5f70</webElementGuid>
+      <webElementGuid>c3dd58d6-c29f-4a54-9c3e-12cf89910471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-toyota</value>
+      <webElementGuid>15f2f28b-fce0-4fda-b555-a0e898f636e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>448484bf-ea9a-4064-a6ab-5a7133c1eff5</webElementGuid>
+      <webElementGuid>66318142-8167-4f9c-949e-e859e5e8856f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>0b1fc21a-1700-4344-aac0-3170d6cb4871</webElementGuid>
+      <webElementGuid>4ee2796b-b944-4cf7-9bf3-b160615bace1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Toyota' or . = 'Toyota')]</value>
-      <webElementGuid>3ef83892-29e1-451e-b8f7-59aa3c3c4879</webElementGuid>
+      <webElementGuid>2a277031-fd3f-45e1-bec7-610fcf5c86bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

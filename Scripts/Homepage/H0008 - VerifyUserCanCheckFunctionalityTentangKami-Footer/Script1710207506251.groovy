@@ -21,17 +21,20 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/span_Menemani'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Tentang SEVA'))
 
 WebUI.switchToWindowTitle('Tentang Kami - SEVA')
 
-WebUI.click(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Tentang Kami - SEVA/p_SEVA adalah platform yang dioperasikan ol_f9508e'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/p_SEVA adalah platform yang dioperasikan ol_f9508e'), 
+    0)
 
 WebUI.closeBrowser()
 

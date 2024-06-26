@@ -6,15 +6,19 @@
    <elementGuidId>7938b3eb-ed3e-4b06-9c8c-027a74e25050</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p:nth-of-type(3)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Dengan mengunduh, mengakses dan/atau menggunakan Aplikasi, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menyetujui untuk terikat oleh, dan menerima seluruh informasi, syarat, dan ketentuan penggunaan Aplikasi yang terdapat dalam Ketentuan Penggunaan ini dan Kebijakan Privasi. Ketentuan Penggunaan ini merupakan suatu perjanjian yang sah dan mengikat antara PT Astra Auto Digital dan/atau perusahaan yang ditunjuk oleh PT Astra Auto Digital (“Kami”) sebagai penyedia Aplikasi dan Anda terkait tata cara dan persyaratan penggunaan Aplikasi yang berlaku antara Anda dan Kami. Anda dapat menghapus Aplikasi dalam perangkat seluler Anda jika Anda tidak setuju terhadap Ketentuan Penggunaan ini. Mohon diperhatikan bahwa penggunaan Aplikasi tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi yang Kami keluarkan dan/atau perbaharui dari waktu ke waktu. Perubahan terhadap Ketentuan Penggunaan dan Kebijakan Privasi akan segera berlaku efektif dan akan diberitahukan kepada anda pada saat anda mengakses Aplikasi pertama kalinya setelah perubahan tersebut terjadi.' or . = ' Dengan mengunduh, mengakses dan/atau menggunakan Aplikasi, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menyetujui untuk terikat oleh, dan menerima seluruh informasi, syarat, dan ketentuan penggunaan Aplikasi yang terdapat dalam Ketentuan Penggunaan ini dan Kebijakan Privasi. Ketentuan Penggunaan ini merupakan suatu perjanjian yang sah dan mengikat antara PT Astra Auto Digital dan/atau perusahaan yang ditunjuk oleh PT Astra Auto Digital (“Kami”) sebagai penyedia Aplikasi dan Anda terkait tata cara dan persyaratan penggunaan Aplikasi yang berlaku antara Anda dan Kami. Anda dapat menghapus Aplikasi dalam perangkat seluler Anda jika Anda tidak setuju terhadap Ketentuan Penggunaan ini. Mohon diperhatikan bahwa penggunaan Aplikasi tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi yang Kami keluarkan dan/atau perbaharui dari waktu ke waktu. Perubahan terhadap Ketentuan Penggunaan dan Kebijakan Privasi akan segera berlaku efektif dan akan diberitahukan kepada anda pada saat anda mengakses Aplikasi pertama kalinya setelah perubahan tersebut terjadi.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(3)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>cdb78cc7-163e-4a99-ab4c-ba220f7db57c</webElementGuid>
+      <webElementGuid>9432408d-7fb1-4603-85e0-19747bb9e604</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Dengan mengunduh, mengakses dan/atau menggunakan Aplikasi, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menyetujui untuk terikat oleh, dan menerima seluruh informasi, syarat, dan ketentuan penggunaan Aplikasi yang terdapat dalam Ketentuan Penggunaan ini dan Kebijakan Privasi. Ketentuan Penggunaan ini merupakan suatu perjanjian yang sah dan mengikat antara PT Astra Auto Digital dan/atau perusahaan yang ditunjuk oleh PT Astra Auto Digital (“Kami”) sebagai penyedia Aplikasi dan Anda terkait tata cara dan persyaratan penggunaan Aplikasi yang berlaku antara Anda dan Kami. Anda dapat menghapus Aplikasi dalam perangkat seluler Anda jika Anda tidak setuju terhadap Ketentuan Penggunaan ini. Mohon diperhatikan bahwa penggunaan Aplikasi tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi yang Kami keluarkan dan/atau perbaharui dari waktu ke waktu. Perubahan terhadap Ketentuan Penggunaan dan Kebijakan Privasi akan segera berlaku efektif dan akan diberitahukan kepada anda pada saat anda mengakses Aplikasi pertama kalinya setelah perubahan tersebut terjadi.</value>
-      <webElementGuid>aa24e575-8ca4-4154-ab58-1d48ee5f960b</webElementGuid>
+      <webElementGuid>948a8194-cca4-4598-a32e-c82e94e0e84d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;box&quot;]/p[3]</value>
-      <webElementGuid>c5805663-e020-48d7-8c43-af5e6ae7c538</webElementGuid>
+      <webElementGuid>520371f8-11a0-42d9-a3c9-3cf0db2f7cf2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[3]</value>
-      <webElementGuid>257b4f44-5484-4def-80c8-f560a97168f8</webElementGuid>
+      <webElementGuid>258772be-d2c2-470f-b8d4-d073fcf2b251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = ' Dengan mengunduh, mengakses dan/atau menggunakan Aplikasi, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menyetujui untuk terikat oleh, dan menerima seluruh informasi, syarat, dan ketentuan penggunaan Aplikasi yang terdapat dalam Ketentuan Penggunaan ini dan Kebijakan Privasi. Ketentuan Penggunaan ini merupakan suatu perjanjian yang sah dan mengikat antara PT Astra Auto Digital dan/atau perusahaan yang ditunjuk oleh PT Astra Auto Digital (“Kami”) sebagai penyedia Aplikasi dan Anda terkait tata cara dan persyaratan penggunaan Aplikasi yang berlaku antara Anda dan Kami. Anda dapat menghapus Aplikasi dalam perangkat seluler Anda jika Anda tidak setuju terhadap Ketentuan Penggunaan ini. Mohon diperhatikan bahwa penggunaan Aplikasi tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi yang Kami keluarkan dan/atau perbaharui dari waktu ke waktu. Perubahan terhadap Ketentuan Penggunaan dan Kebijakan Privasi akan segera berlaku efektif dan akan diberitahukan kepada anda pada saat anda mengakses Aplikasi pertama kalinya setelah perubahan tersebut terjadi.' or . = ' Dengan mengunduh, mengakses dan/atau menggunakan Aplikasi, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menyetujui untuk terikat oleh, dan menerima seluruh informasi, syarat, dan ketentuan penggunaan Aplikasi yang terdapat dalam Ketentuan Penggunaan ini dan Kebijakan Privasi. Ketentuan Penggunaan ini merupakan suatu perjanjian yang sah dan mengikat antara PT Astra Auto Digital dan/atau perusahaan yang ditunjuk oleh PT Astra Auto Digital (“Kami”) sebagai penyedia Aplikasi dan Anda terkait tata cara dan persyaratan penggunaan Aplikasi yang berlaku antara Anda dan Kami. Anda dapat menghapus Aplikasi dalam perangkat seluler Anda jika Anda tidak setuju terhadap Ketentuan Penggunaan ini. Mohon diperhatikan bahwa penggunaan Aplikasi tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi yang Kami keluarkan dan/atau perbaharui dari waktu ke waktu. Perubahan terhadap Ketentuan Penggunaan dan Kebijakan Privasi akan segera berlaku efektif dan akan diberitahukan kepada anda pada saat anda mengakses Aplikasi pertama kalinya setelah perubahan tersebut terjadi.')]</value>
-      <webElementGuid>0770f800-01fd-47a9-90f9-80eb4ae2e740</webElementGuid>
+      <webElementGuid>625a42e8-ad37-4613-bdc1-ad585a500b4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

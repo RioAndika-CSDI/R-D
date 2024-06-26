@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'SEDAN' or . = 'SEDAN')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.navigationfiltermobile_text__35uL4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;SEDAN&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8e3f8309-8c14-4bd0-8980-d09fc1de6218</webElementGuid>
+      <webElementGuid>79fbe904-7b69-4dcb-ad75-7d0f1803cb8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>9ccc13fe-bf0d-4133-90c5-42976172b083</webElementGuid>
+      <webElementGuid>f263152e-1cc9-4a24-98f9-de7b8c17a74e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEDAN</value>
-      <webElementGuid>570ab621-8cb6-4dd6-912a-64b2bc178fea</webElementGuid>
+      <webElementGuid>d7e17584-36eb-4f80-932d-927b2bd2c576</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>f6d6ce0c-757d-469f-92d7-a139bf85aa89</webElementGuid>
+      <webElementGuid>11f82ec2-f463-4639-80a7-a04d97b6d86a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>7a0b9223-a9f8-4e21-8aa4-d914351f0fae</webElementGuid>
+      <webElementGuid>9229f75e-8f35-4791-b2bf-bbe172909045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>13fabe51-b8e8-437c-856c-778a8c1bf52e</webElementGuid>
+      <webElementGuid>9c39a14b-0519-4bc6-a12c-561e16fa6c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>01aa3496-cb0e-41df-b61b-3ea0d69488c3</webElementGuid>
+      <webElementGuid>079768a1-046b-48a9-9262-81294dbc677f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SEDAN']/parent::*</value>
-      <webElementGuid>27bfae33-2bc1-4bc9-b5c3-3863ff14efd8</webElementGuid>
+      <webElementGuid>58da5944-13f8-4d9f-b23f-a70982c4db18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>41c276ff-afdb-4abb-82f3-29c85530fa47</webElementGuid>
+      <webElementGuid>ce2c1d19-26eb-4960-b144-7fde0e0022a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'SEDAN' or . = 'SEDAN')]</value>
-      <webElementGuid>df464c24-e334-4960-921b-154e98ecee35</webElementGuid>
+      <webElementGuid>2f91fd90-c302-4de4-8de1-c560bf220287</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

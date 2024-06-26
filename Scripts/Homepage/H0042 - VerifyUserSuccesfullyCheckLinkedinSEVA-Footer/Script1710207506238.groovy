@@ -21,21 +21,15 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Nanti Saja (1)'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mau'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg (2)'))
-=======
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/icon clone Testimony Management'))
->>>>>>> f0ebff90f3c894fb3c1c8f299b856cbbc9b4a94e
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.click(findTestObject('Footer/logo Linkin'))
 
 WebUI.switchToWindowTitle('PT Astra Auto Digital (Seva.id) | LinkedIn')
-
-WebUI.click(findTestObject('Object Repository/Page_PT Astra Auto Digital (Seva.id)  LinkedIn/div_Login untuk melihat orang yang sudah An_c4371f'))
-
-WebUI.click(findTestObject('Page_PT Astra Auto Digital (Seva.id)  LinkedIn/h1_PT Astra Auto Digital (Seva.id)'))
 
 WebUI.closeBrowser()
 

@@ -10,11 +10,15 @@
          <value>//div[@id='subSubMenu_2_4']/div[3]/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@menucode = 'tips-rekomendasi']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#subSubMenu_2_4 > div:nth-of-type(3) > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,24 +26,24 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>80e53794-a151-43e4-bed5-67a46672bb9b</webElementGuid>
+      <webElementGuid>38f083c4-574b-40cc-b7ff-81a642a18440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://www.seva.id/blog/category/otomotif/tips-rekomendasi-otomotif/</value>
-      <webElementGuid>4698e631-75fb-4c1f-9827-52af22e97eb4</webElementGuid>
+      <webElementGuid>966ec34f-433b-49f9-af1c-99dbe5b03a44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
                                                         Tips &amp; Rekomendasi                                                    </value>
-      <webElementGuid>2f22889c-b389-4ac3-bb26-2f39f50895a7</webElementGuid>
+      <webElementGuid>50699654-c1a2-4224-81f4-02357ac974dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;subSubMenu_2_4&quot;)/div[3]/a[1]</value>
-      <webElementGuid>eebc4725-5f0d-4995-9695-bbb1bb3d3143</webElementGuid>
+      <webElementGuid>f44ab12b-d890-4625-a3d0-0f67fe85c6a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>menucode</name>
+      <type>Main</type>
+      <value>tips-rekomendasi</value>
+      <webElementGuid>8d635adb-abfc-46e7-b96b-fc46169f3ecb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subSubMenu_2_4']/div[3]/a</value>
-      <webElementGuid>437c05d7-62c8-4ff6-bb51-4d32fa53f445</webElementGuid>
+      <webElementGuid>5cc00fac-4c4f-446c-83b0-7818c2f9c67f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +75,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Tips &amp; Rekomendasi')])[2]</value>
-      <webElementGuid>d5cc82db-5bf6-4c3c-bc0c-ca2a2d3d7311</webElementGuid>
+      <webElementGuid>1f5dbc40-6f5b-4f3f-82c3-e5fa4a954749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +83,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.seva.id/blog/category/otomotif/tips-rekomendasi-otomotif/')]</value>
-      <webElementGuid>ab88c2c8-6e96-4957-a91c-61736fb76b42</webElementGuid>
+      <webElementGuid>ea42ba97-b8ce-4c40-9a55-fb0d92f8c78c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[3]/a</value>
-      <webElementGuid>08aeffb9-ff95-422c-90cc-23e03efccb7c</webElementGuid>
+      <webElementGuid>fc974798-fa60-425f-bc00-0c322ba5e3c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +101,6 @@
       <value>//a[@href = 'https://www.seva.id/blog/category/otomotif/tips-rekomendasi-otomotif/' and (text() = '
                                                         Tips &amp; Rekomendasi                                                    ' or . = '
                                                         Tips &amp; Rekomendasi                                                    ')]</value>
-      <webElementGuid>adfbdf14-bd33-4d95-b46d-160a3dda2093</webElementGuid>
+      <webElementGuid>8f40c982-c5ef-4f0c-8ab4-baa54f38a8ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>ec10b3fe-30aa-409e-9cc8-cf94589e0155</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.gridOptionWidget_actionButtonWrapper__dyAlB > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[2]/div[2]/button[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-terapkan']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gridOptionWidget_actionButtonWrapper__dyAlB > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2a57e00c-bfc8-42ae-bd16-1c69745f3262</webElementGuid>
+      <webElementGuid>b0fa0c0f-a4de-48d8-9b98-0cc8bb76541a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>1df50c5d-731f-4cf5-be2b-605d90f65b31</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>button-terapkan</value>
-      <webElementGuid>7860d604-14f8-4402-be99-9dee4629027f</webElementGuid>
+      <webElementGuid>6c88f66e-2288-4ea2-9204-fbcf08bccf24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-terapkan</value>
+      <webElementGuid>6461b525-7c47-4c35-ba7a-90cbef60ea54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Terapkan</value>
-      <webElementGuid>d8d8d538-87c0-4b18-b173-8de784be7e70</webElementGuid>
+      <webElementGuid>7464b71f-9805-4982-92c1-e1a788746382</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;gridOptionWidget_actionButtonWrapper__dyAlB&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>aaefa3a0-3126-45e5-b893-ecf43267c357</webElementGuid>
+      <webElementGuid>6e317637-65fc-4e9c-af36-904d7e8b3181</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button[2]</value>
-      <webElementGuid>b6e85777-66a6-46e9-af34-2e535bec19ba</webElementGuid>
+      <webElementGuid>5fecab0a-8ee6-4867-a17d-beb3cd9f1c39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Terapkan' or . = 'Terapkan')]</value>
-      <webElementGuid>2f785b8e-a886-4932-8b45-6a6a195306a2</webElementGuid>
+      <webElementGuid>e84f25bd-0d51-4e20-9441-7d728df8f743</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

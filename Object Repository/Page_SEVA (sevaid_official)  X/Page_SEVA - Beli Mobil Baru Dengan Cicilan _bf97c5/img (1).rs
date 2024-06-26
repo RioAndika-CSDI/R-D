@@ -6,15 +6,19 @@
    <elementGuidId>2e1fc0d7-98a3-431f-8436-feee7efbcc71</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img[alt=&quot;CBQA ISO 27001&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>[H015] - verify user see about seva text - footer</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@datatest-id = 'logo-iso']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;CBQA ISO 27001&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>0dac0da7-42fe-482c-9d79-05dfa490fb54</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>CBQA ISO 27001</value>
-      <webElementGuid>15c7e1d8-065f-4f00-afb2-caaed2800c64</webElementGuid>
+      <webElementGuid>484fded2-691b-4a6e-b041-66466246a359</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>CBQA ISO 27001</value>
+      <webElementGuid>8a3841bc-f981-4347-869f-ab69e3da15a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>datatest-id</name>
       <type>Main</type>
       <value>logo-iso</value>
-      <webElementGuid>8cc71d88-94b0-402b-b409-16ec11b29171</webElementGuid>
+      <webElementGuid>c485eb90-1a5f-4c92-8842-b4486c15fa8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>srcset</name>
       <type>Main</type>
       <value>/_next/image?url=%2Frevamp%2Ficon%2Fiso.webp&amp;w=32&amp;q=75 1x, /_next/image?url=%2Frevamp%2Ficon%2Fiso.webp&amp;w=64&amp;q=75 2x</value>
-      <webElementGuid>8c32c2b0-48b7-47ad-81c9-480395d7be03</webElementGuid>
+      <webElementGuid>5f446046-beb3-4366-943e-ed8d670d55d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>/_next/image?url=%2Frevamp%2Ficon%2Fiso.webp&amp;w=64&amp;q=75</value>
-      <webElementGuid>17d0d10c-d922-4779-b62f-8ff5833a0bdd</webElementGuid>
+      <webElementGuid>e342d71e-e571-4b18-bd9d-1a1248dc7737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>width</name>
       <type>Main</type>
       <value>29</value>
-      <webElementGuid>2c03a3f3-9bba-41c4-a3e7-876d692178e9</webElementGuid>
+      <webElementGuid>ae2f3d61-8d7e-4d87-af8e-8d50e0f6d661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>height</name>
       <type>Main</type>
       <value>29</value>
-      <webElementGuid>955a9b3e-cbc2-4b9d-95c8-e4c0175ac78b</webElementGuid>
+      <webElementGuid>00f74382-cac0-4a65-bf97-3917a107ceac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>decoding</name>
       <type>Main</type>
       <value>async</value>
-      <webElementGuid>934d7f7e-5288-469a-b621-6234c256321e</webElementGuid>
+      <webElementGuid>547fae9d-8e7b-4153-b4a1-84ae14c01c17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-nimg</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>343301e7-040f-409c-a55b-713efab9d413</webElementGuid>
+      <webElementGuid>60ebaf0e-29f0-43d3-8d38-2469cf2c85b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>loading</name>
       <type>Main</type>
       <value>lazy</value>
-      <webElementGuid>88cc6b05-c918-4f2e-9325-06a35e6bafaa</webElementGuid>
+      <webElementGuid>0a4be82b-9992-4037-8ae7-1e58f5d92f51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_isoWrapper__53r9r&quot;]/img[1]</value>
-      <webElementGuid>e8b886c4-6268-46ec-b51e-fc0cde3b01f2</webElementGuid>
+      <webElementGuid>7cb7df51-b3a1-42fa-83a7-f22dbfd891f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div[3]/img</value>
-      <webElementGuid>8d13839c-4a67-4102-857b-2904b8733fdc</webElementGuid>
+      <webElementGuid>667f5761-6f19-4fec-8aef-3789094df546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='CBQA ISO 27001']</value>
-      <webElementGuid>704ac688-f1c6-432d-a752-f7b87e2cf7ca</webElementGuid>
+      <webElementGuid>b2d2a2e0-4413-455f-b28c-21f05b95e200</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/div/div[3]/img</value>
-      <webElementGuid>739eaccc-e177-4655-87ae-656ac153569a</webElementGuid>
+      <webElementGuid>30c42bef-b61c-4d34-a916-f9c57ca63761</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'CBQA ISO 27001' and @src = '/_next/image?url=%2Frevamp%2Ficon%2Fiso.webp&amp;w=64&amp;q=75']</value>
-      <webElementGuid>56a2c783-57ee-4efd-8712-d0cc33ba909e</webElementGuid>
+      <webElementGuid>0501ab80-c43a-4860-92bc-91093a564fd8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

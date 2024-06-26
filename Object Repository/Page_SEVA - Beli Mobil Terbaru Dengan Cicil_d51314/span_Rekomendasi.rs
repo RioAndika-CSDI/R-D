@@ -6,22 +6,19 @@
    <elementGuidId>d5ec0143-04c8-4a5d-a2f4-d9c3957c82c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.popupResultRecommended_badgeText__x8KxC</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[3]</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Rekomendasi&quot;s</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-popup-kualifikasi-kredit']</value>
       </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+      <entry>
+         <key>CSS</key>
+         <value>span.popupResultRecommended_badgeText__x8KxC</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3323fa35-99ab-49fa-8484-dc0c54abafc4</webElementGuid>
+      <webElementGuid>d8a79e54-feb7-4267-930b-bd65ebeafe4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>popupResultRecommended_badgeText__x8KxC</value>
-      <webElementGuid>8bb57a6e-f6d9-4708-a882-3f80f3a9baaf</webElementGuid>
+      <webElementGuid>9017cdc1-8979-43d5-b649-4553c7c2e6d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Rekomendasi</value>
-      <webElementGuid>e4945737-fc42-4fd0-9f53-a0982c1c508b</webElementGuid>
+      <webElementGuid>1336a468-e8a7-4796-8932-24f240b9bfdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry custom-modal-result-recommended&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupResultRecommended_container__LWM5m&quot;]/div[@class=&quot;popupResultRecommended_badgeAndDescriptionWrapper__6Ru03&quot;]/div[@class=&quot;popupResultRecommended_badge__D9W9h&quot;]/span[@class=&quot;popupResultRecommended_badgeText__x8KxC&quot;]</value>
-      <webElementGuid>1a241519-ac0b-4295-92e9-ead7f1179025</webElementGuid>
+      <webElementGuid>cd6b8008-e5e0-4c27-a5c9-dcfc75c9b936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-popup-kualifikasi-kredit</value>
+      <webElementGuid>90b2a349-c294-4592-9c11-dfe54bf61851</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[3]</value>
-      <webElementGuid>b885c5d6-b366-40a0-a15d-2c613415207a</webElementGuid>
+      <webElementGuid>600532d6-a566-4201-b964-6494bfc3bdbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::span[3]</value>
-      <webElementGuid>9794e3ab-f63d-4408-a4e5-e64f6099f176</webElementGuid>
+      <webElementGuid>c4d3a15a-b7cd-442a-a928-a81b979356f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK, Saya Mengerti'])[1]/preceding::span[2]</value>
-      <webElementGuid>050ec09e-7b8d-47ad-8611-e5004e0a982b</webElementGuid>
+      <webElementGuid>d4403b31-9597-4274-a0be-28886daed44f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rekomendasi']/parent::*</value>
-      <webElementGuid>4322db44-313e-4ad5-bb27-c77cd0bfc7e7</webElementGuid>
+      <webElementGuid>426bbd0c-ad06-44b4-925b-a0e46b6fe6c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/div/div[2]/div/div/div/div/span</value>
-      <webElementGuid>9e8b1766-3621-41ca-a859-6de0ca1304e0</webElementGuid>
+      <webElementGuid>fdb85e3a-9ae2-4d0d-86ad-aa1d6fbfb6e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
-      <webElementGuid>47fc29e6-968d-4bb4-be14-ab731c065c9e</webElementGuid>
+      <webElementGuid>d584d96e-36d4-4d81-8bed-7c77a7f974f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
