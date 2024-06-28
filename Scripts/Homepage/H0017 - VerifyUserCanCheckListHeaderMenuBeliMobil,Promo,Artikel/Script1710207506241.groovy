@@ -106,6 +106,8 @@ WebUI.click(findTestObject('Footer/Artikel 2'))
 
 WebUI.scrollToElement(findTestObject('Page_Artikel Keuangan  SEVA/a_Semua Artikel'), 10)
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/a_Semua Artikel'))
+
 WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/a_Semua Artikel'))
 
 WebUI.click(findTestObject('Object Repository/Page_Berita dan Artikel Terbaru  Terkini di SEVA/h1_Berita Terbaru'))

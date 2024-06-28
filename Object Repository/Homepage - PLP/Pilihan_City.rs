@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilihan_City</name>
+   <tag></tag>
+   <elementGuidId>248ce5b1-ee5c-470b-bdfc-9e9655a14e60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '${city}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__BIFMK</value>
+      <webElementGuid>5dad2fda-e746-4f4e-aec7-0372a3dfd67b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${city}</value>
+      <webElementGuid>8de2bc75-f730-4936-93c9-f22881d88e2a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

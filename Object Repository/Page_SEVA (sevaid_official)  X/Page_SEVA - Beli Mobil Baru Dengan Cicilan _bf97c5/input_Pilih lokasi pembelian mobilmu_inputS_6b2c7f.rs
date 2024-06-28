@@ -6,15 +6,19 @@
    <elementGuidId>72cbc6a2-cdfb-499c-abcf-10b65572e9da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.inputSelect_inputField__0hTOV</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[6]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'field-input-city']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.inputSelect_inputField__0hTOV</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>08a4c9c0-543f-4717-867b-bb7b2c3baa7f</webElementGuid>
+      <webElementGuid>1674e898-7028-4639-9519-5fca0148bc3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b60a6879-04fa-4c61-88bc-4774607d0b0b</webElementGuid>
+      <webElementGuid>931bf312-6d33-4750-90ff-c1ea79abc87d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField__0hTOV</value>
-      <webElementGuid>481f9fdb-681b-4afa-89a4-9a7d39120f77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Cari kotamu</value>
-      <webElementGuid>b73db9da-cc7c-4834-a1b1-4bee4b2ea5ab</webElementGuid>
+      <webElementGuid>81b36084-d31e-4077-9a6b-59432b616a99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Cari kotamu</value>
+      <webElementGuid>54269ddc-4d5a-4428-965b-47bdc033f2ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>field-input-city</value>
-      <webElementGuid>d25ff02a-8aeb-4d8c-82ef-8046cfaea5c3</webElementGuid>
+      <webElementGuid>d6a58e07-e03c-40c8-98f9-7188c54ca579</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry city-selector-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;citySelectorModal_inputSelectWrapper__yU12S&quot;]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/input[@class=&quot;inputSelect_inputField__0hTOV&quot;]</value>
-      <webElementGuid>bd7d6989-add1-447e-a0dd-8795f0c583a3</webElementGuid>
+      <webElementGuid>1c4ef249-c75b-4da7-a0dc-8e181f8af9c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[6]</value>
-      <webElementGuid>8a66ce84-4cf8-45e7-a5bf-ff1b35a53f03</webElementGuid>
+      <webElementGuid>8891db2f-cf14-47ee-ba76-c60d34cad709</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/input</value>
-      <webElementGuid>85cb22e2-44ff-4402-a9e6-d67b945134a9</webElementGuid>
+      <webElementGuid>d1dabc62-417a-487b-9375-b39e19f975c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Cari kotamu']</value>
-      <webElementGuid>02b339f4-67fb-468e-a04e-1f38d8d7f6f7</webElementGuid>
+      <webElementGuid>a3c67a2d-6034-4d35-8794-1255de3d69a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
