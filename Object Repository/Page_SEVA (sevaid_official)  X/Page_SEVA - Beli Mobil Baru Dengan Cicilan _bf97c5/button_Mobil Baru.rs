@@ -6,6 +6,10 @@
    <elementGuidId>9986c7e0-32ed-42b2-b7a1-5c316c593e63</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Mobil Baru' or . = 'Mobil Baru')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.menuItem_submenu__aUQMo</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0afc0109-1981-402d-a5fe-2a10fddfefdc</webElementGuid>
+      <webElementGuid>20c01da2-86e1-4167-94a5-a4c19b95d540</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>9f3c7135-172b-40cc-b665-fcbf4a47a6ff</webElementGuid>
+      <webElementGuid>4eb55293-cebb-4298-8542-65ce63afe6db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mobil Baru</value>
-      <webElementGuid>9610e241-d21d-4864-935f-c4160d31b906</webElementGuid>
+      <webElementGuid>ed0b211d-4bd5-4c93-97c5-9d6638f8bdc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_submenuContainer___v45s menuItem_slideDown__F3X0t&quot;]/button[@class=&quot;menuItem_submenu__aUQMo&quot;]</value>
-      <webElementGuid>1886fec5-00d1-4f5e-84bb-c0fe8d4d8235</webElementGuid>
+      <webElementGuid>1eaaf2cd-6fbf-4591-9a34-a2e7438cb9ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[3]/button</value>
-      <webElementGuid>82e1368e-0ef8-428f-b93d-0e7e96b5f4cd</webElementGuid>
+      <webElementGuid>5cb06d0a-0bb4-49bc-8cb5-ae992449f696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[3]/button</value>
-      <webElementGuid>64410a25-bb91-4156-a68f-0cf67e8815f6</webElementGuid>
+      <webElementGuid>55ede9bd-67c0-41e2-a280-6c6abe280c39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Mobil Baru' or . = 'Mobil Baru')]</value>
-      <webElementGuid>b6dd601a-fa6f-4873-9d0a-de5b04cf28ee</webElementGuid>
+      <webElementGuid>dc17dbde-feaf-4385-9c60-dd0efe10ca60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

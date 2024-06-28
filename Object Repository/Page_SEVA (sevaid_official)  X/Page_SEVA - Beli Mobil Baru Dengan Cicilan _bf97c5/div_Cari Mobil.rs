@@ -6,6 +6,10 @@
    <elementGuidId>848aceac-a4aa-43da-b46c-1a86fa904226</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'menuItem_parentMenu__Uk83D' and (text() = 'Cari Mobil' or . = 'Cari Mobil')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.menuItem_parentMenu__Uk83D</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5bc6b507-26f2-4e71-b7e1-5e00b935ccf2</webElementGuid>
+      <webElementGuid>2db9a8e1-93e0-4c4e-9e8d-00b29b484a7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>menuItem_parentMenu__Uk83D</value>
-      <webElementGuid>a7402800-671d-43bd-aa25-41a25c9d53d2</webElementGuid>
+      <webElementGuid>d95f9cf0-926e-4826-92df-d98cabb2bcb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil</value>
-      <webElementGuid>3199e881-0d66-462c-a00a-14d891f03e85</webElementGuid>
+      <webElementGuid>7dcc069b-f6c7-48d0-a1ad-cab8141a2fae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuItem_parentMenu__Uk83D&quot;]</value>
-      <webElementGuid>bcbe3b2c-749f-4a8b-b0fc-2df11f3b943c</webElementGuid>
+      <webElementGuid>5c7072ed-9265-4278-b630-536de09cd657</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/div/div/div[2]</value>
-      <webElementGuid>36fc987c-9c41-4541-91d3-a9dbade000fd</webElementGuid>
+      <webElementGuid>56b0053e-cd9a-4d75-a078-324a818f876d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]</value>
-      <webElementGuid>e769f0f6-69c6-4b87-9223-0cf38031871a</webElementGuid>
+      <webElementGuid>1cedc4d9-b01d-4cfd-9aa3-e7f80bfb585a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Cari Mobil' or . = 'Cari Mobil')]</value>
-      <webElementGuid>5cac21a0-3b34-4e96-952b-757e927d358c</webElementGuid>
+      <webElementGuid>a02a33d0-15ec-4d95-8502-ebd2ac0de709</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
