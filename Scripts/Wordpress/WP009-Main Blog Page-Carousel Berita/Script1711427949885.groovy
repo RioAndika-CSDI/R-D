@@ -31,6 +31,9 @@ for (int i = 0; i < 3; i++) {
 
     WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
 
+    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]), 
+        5)
+
     WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]))
 
     WebUI.verifyElementPresent(findTestObject('Page Blog Main/Icon_Carousel Aktif by id', [('id') : i + 1]), 1)
@@ -40,6 +43,8 @@ for (int i = 2; i > 0; i--) {
     WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i]))
 
     WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i - 1]))
+
+    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]), 5)
 
     WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
 
