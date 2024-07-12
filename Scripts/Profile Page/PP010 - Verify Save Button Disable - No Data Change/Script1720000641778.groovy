@@ -17,23 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555', ('OTP') : '212121'
+        , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
-WebUI.waitForElementNotVisible(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 20)
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Kebijakan Privasi'))
-
-WebUI.switchToWindowTitle('Kebijakan Privasi - SEVA')
-
-WebUI.click(findTestObject('Object Repository/Page_Kebijakan Privasi - SEVA/h1_Kebijakan Privasi'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementNotClickable(findTestObject('Profile/Profile_Page/button_Simpan Perubahan - disabled'), FailureHandling.STOP_ON_FAILURE)
 

@@ -17,23 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
+        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
+WebUI.click(findTestObject('Profile/Profile_Page/input_email'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.CONTROL, 'a'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.BACK_SPACE))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.setText(findTestObject('Profile/Profile_Page/input_email'), email_invalid)
 
-WebUI.waitForElementNotVisible(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 20)
+WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Kebijakan Privasi'))
-
-WebUI.switchToWindowTitle('Kebijakan Privasi - SEVA')
-
-WebUI.click(findTestObject('Object Repository/Page_Kebijakan Privasi - SEVA/h1_Kebijakan Privasi'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/p_Gunakan format yang benar. Contoh johnmail.com'), 
+    0)
 

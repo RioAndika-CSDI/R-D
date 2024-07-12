@@ -17,58 +17,54 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.seva.id/')
+if (open_browser.toString().equals('1')) {
+    WebUI.openBrowser(GlobalVariable.Prod)
+}
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
+'Click Burger Menu'
+WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
+'Click Burger Menu'
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+'Click Burger Menu'
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 2'))
+'Click Burger Menu'
+WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 3'))
+WebUI.waitForElementPresent(findTestObject('Login Register Component/Input_Phone_Number'), 0)
 
-WebUI.click(findTestObject('Page - Teman seva/Checbox setuju bergabung TS'))
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
-WebUI.scrollToElement(findTestObject('Page - Teman seva/button masuk teman seva'), 0)
-
-WebUI.click(findTestObject('Page - Teman seva/button masuk teman seva'))
-
-WebUI.click(findTestObject('Page - Teman seva/button masuk popup'))
-
-WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phone_number)
-
-WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
 
-boolean cek = true
+WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
 
-cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarning'(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 
-    10)
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
 
-if (cek == false) {
-    WebUI.delay(120)
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-    WebUI.click(findTestObject('Page - Teman seva/Close_OTP'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-    WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
 
-    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
-}
+'start'
+WebUI.click(findTestObject('Homepage - Burger menu/Profile'))
 
-WebUI.verifyElementPresent(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 0)
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/profile-avatar'), 0)
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

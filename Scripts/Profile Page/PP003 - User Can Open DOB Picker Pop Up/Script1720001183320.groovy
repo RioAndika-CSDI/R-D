@@ -17,23 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
+        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Tanggal Lahir'), 0)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+WebUI.click(findTestObject('Profile/Profile_Page/icon_calendar_dob'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Page_/div_Pilih Tanggal'), 0)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/cta_Batal_Pick Date'), 0)
 
-WebUI.waitForElementNotVisible(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 20)
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Kebijakan Privasi'))
-
-WebUI.switchToWindowTitle('Kebijakan Privasi - SEVA')
-
-WebUI.click(findTestObject('Object Repository/Page_Kebijakan Privasi - SEVA/h1_Kebijakan Privasi'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/cta_Simpan_Pick Date'), 0)
 

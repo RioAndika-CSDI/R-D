@@ -25,8 +25,18 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'))
+
+WebUI.click(findTestObject('Homepage - PLP/Icon X city'))
+
 WebUI.setText(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'), 
     'Jakarta Pusat')
+
+'belumdibuat variable, kalo ganti data di input city jangan lupa ganti value di parameter Test Object'
+WebUI.waitForElementVisible(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']), 0)
+
+'belumdibuat variable, kalo ganti data di input city jangan lupa ganti value di parameter Test Object'
+WebUI.click(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mulai Cari Mobil'))
 
