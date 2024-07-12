@@ -23,35 +23,17 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
-    15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
-if (aslFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
-
-    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
-sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
-    15)
-
-if (sakuFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
-
-    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
-WebUI.click(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
 
 WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 2'))
 
@@ -69,7 +51,7 @@ WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phon
 
 WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
 
-WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
 
 boolean cek = true
 

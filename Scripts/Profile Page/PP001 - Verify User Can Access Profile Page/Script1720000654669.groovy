@@ -34,8 +34,8 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 'Click Burger Menu'
 WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
-'Click Moengage Ads\r\n'
-WebUI.delay(1)
+'Click Burger Menu'
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('Login Register Component/Input_Phone_Number'), 0)
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
@@ -57,7 +57,7 @@ WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Bar
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(0)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
 
