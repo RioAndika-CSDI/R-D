@@ -50,3 +50,5 @@ WebUI.click(findTestObject('Profile/Button selanjutnya delete account'))
 
 WebUI.click(findTestObject('Profile/Validasi ya hapus akun saya'))
 
+WebUI.closeBrowser()
+

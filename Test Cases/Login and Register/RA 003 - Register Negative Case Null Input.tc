@@ -4,6 +4,7 @@
    <name>RA 003 - Register Negative Case Null Input</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1c3ed97f-d307-462e-bacc-e247c18690da</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

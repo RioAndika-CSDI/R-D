@@ -15,21 +15,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.openBrowser('https://www.seva.id')
-
-WebUI.maximizeWindow()
-
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
-
-WebUI.setText(findTestObject('Object Repository/Homepage Component/Input City Selector'), 
-    'Jakarta Pusat')
-
-WebUI.click(findTestObject('Homepage Component/Select City List'))
-
-WebUI.click(findTestObject('Homepage Component/button_Mulai Cari Mobil'))
-
-WebUI.scrollToElement(findTestObject('Homepage Component/Recommendation Car'), 0)
-
-WebUI.closeBrowser()
+import org.openqa.selenium.Keys as Keys
 
