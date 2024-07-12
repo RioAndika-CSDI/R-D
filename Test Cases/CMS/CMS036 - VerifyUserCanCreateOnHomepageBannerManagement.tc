@@ -4,5 +4,6 @@
    <name>CMS036 - VerifyUserCanCreateOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6cb1d925-34cc-4098-91c1-a3e6933c406d</testCaseGuid>
 </TestCaseEntity>
