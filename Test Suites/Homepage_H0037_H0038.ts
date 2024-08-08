@@ -12,17 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b6ec732f-dabe-477b-a127-c44b6e37882a</testSuiteGuid>
    <testCaseLink>
-      <guid>6c6ae5ff-48cc-416a-b023-7302a31504f9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0037 - VerifyUserCanChooseCarFromHomepage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5edb5527-76a9-4833-9809-903cdeefab4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanHitungKemampuanCarMobilImpian</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>716b1f2b-a48d-416e-a7f3-f35714c7a076</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Homepage/H0037 - VerifyUserCanChooseCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
