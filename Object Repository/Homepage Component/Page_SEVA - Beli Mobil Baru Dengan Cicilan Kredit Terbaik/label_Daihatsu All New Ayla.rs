@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Daihatsu All New Ayla</name>
+   <tag></tag>
+   <elementGuidId>b828f9d9-909c-4995-bf8b-7cc11255b941</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.alternativeCarCard_brandModelText__qPWf1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/a[2]/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>69d63b92-7af1-4281-913c-96a7d42302a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alternativeCarCard_brandModelText__qPWf1</value>
+      <webElementGuid>fd1b9574-57b9-48df-985e-420fa760ae2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu All New Ayla</value>
+      <webElementGuid>0cfd573b-4be5-4e8c-bab2-e9f3f14120d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[2]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-css-mode carRecomendations_alternativeCarWrapper__X_Tt7&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;alternativeCarCard_container__jk_QC&quot;]/div[@class=&quot;alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek&quot;]/a[@class=&quot;alternativeCarCard_contentWrapper__Zudq3&quot;]/h4[@class=&quot;alternativeCarCard_brandModelText__qPWf1&quot;]</value>
+      <webElementGuid>2b48c903-4dff-4b2b-8772-82e2948fc4df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/a[2]/h4</value>
+      <webElementGuid>aed590d8-9df3-4ad2-aa58-5444e808d83a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[1]/following::h4[1]</value>
+      <webElementGuid>283971ab-0f78-4006-b0bc-80d1e05ed023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicilan mulai dari'])[1]/preceding::h4[1]</value>
+      <webElementGuid>cde6d4c7-4c57-4db1-a830-7a9d44e57f9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp3.030.000/bln'])[1]/preceding::h4[1]</value>
+      <webElementGuid>06f771e4-63b2-4878-86d6-7fc48b1e084a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>be03e903-c31a-406a-b597-0ec6496bb3cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Daihatsu All New Ayla' or . = 'Daihatsu All New Ayla')]</value>
+      <webElementGuid>ba1c83f4-678b-4420-a344-f0e01cd62b20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

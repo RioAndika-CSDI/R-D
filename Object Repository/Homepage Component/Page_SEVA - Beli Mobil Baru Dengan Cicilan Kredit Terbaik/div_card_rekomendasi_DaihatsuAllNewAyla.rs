@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_card_rekomendasi_DaihatsuAllNewAyla</name>
+   <tag></tag>
+   <elementGuidId>1ab73f52-7eab-47d2-b3fc-cfd30fb1a9af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.alternativeCarCard_cardWrapper__If92O.cardshadow_cardShadow__Pr8Ek</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>825b3b9a-7cf4-40cd-bbfa-819c3a0f06e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek</value>
+      <webElementGuid>4a8629cf-bd4a-4127-b740-ac9b67f66fb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan</value>
+      <webElementGuid>d126862e-69e0-49f1-b318-aacbcfa545a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[2]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-css-mode carRecomendations_alternativeCarWrapper__X_Tt7&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;alternativeCarCard_container__jk_QC&quot;]/div[@class=&quot;alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek&quot;]</value>
+      <webElementGuid>c5e644b0-8e4a-4ed0-8156-e720895cbfb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>d6548214-fc0f-4f42-84e5-7d83bad39ff2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[1]/following::div[7]</value>
+      <webElementGuid>205b911b-794d-4e4a-af16-5e839d9714ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[1]/following::div[11]</value>
+      <webElementGuid>3f12140d-e70a-44d1-8e8f-11e7680a4ae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>24266ee6-343d-4601-81fa-029207e69194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan' or . = 'Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan')]</value>
+      <webElementGuid>69f34010-0cfc-4511-bd8a-320fb7362bf9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
