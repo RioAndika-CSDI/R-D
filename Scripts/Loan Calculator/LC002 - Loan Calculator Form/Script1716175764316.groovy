@@ -22,20 +22,29 @@ if (open_browser.equals('1')) {
         FailureHandling.STOP_ON_FAILURE)
 }
 
+'kota yang sudah ada value nya'
 WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_SEVA Dropdown Icon'))
 
 'hapus'
-WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/svg'))
+WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/clear_field_kota'))
 
 WebUI.setText(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Saya ingin beli mobil di kota_inputSe_164678'), 
     kota)
 
 WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Jakarta Pusat'))
 
-WebUI.setText(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
-    brand)
+WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'))
 
-WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Toyota All New Agya'))
+WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
+    Keys.chord(Keys.BACK_SPACE))
+
+//WebUI.setText(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
+//    car_name)
+//WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Select_dropdown_car', [('car_name') : car_name]))
+WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Select_dropdown_car', [('car_name') : car_name]))
 
 WebUI.delay(2)
 
@@ -46,9 +55,13 @@ WebUI.doubleClick(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru
 WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Pelajari Lebih Lanjut_downPaymentAmount'), 
     'Rp50.000.000')
 
-if (bayar.toString().equalsIgnoreCase('ADDM')) {
-    WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_nonactive'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/p_Pembayaran cicilan pertama'), 
+    0)
 
+if (bayar.toString().equalsIgnoreCase('ADDM')) {
+    WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_nonactive'))
+
+    //    WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_nonactive'), FailureHandling.STOP_ON_FAILURE)
     WebUI.verifyElementPresent(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_active'), 
         0)
 } else {

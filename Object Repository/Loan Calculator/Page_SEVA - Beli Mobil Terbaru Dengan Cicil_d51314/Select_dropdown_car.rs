@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Toyota All New Agya</name>
+   <name>Select_dropdown_car</name>
    <tag></tag>
    <elementGuidId>8b8ae925-2a0d-4ec6-a6b8-cc7442c5a56b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='loan-calculator-form-car-model']/div[3]/div[2]/div/div</value>
+         <key>BASIC</key>
+         <value>//div[@id = '${car_name}']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#loan-calculator-form-car-model > div.inputSelect_container__sv8Xm.undefined > div.inputSelect_dropdown__2SfXo.false > div.inputSelect_dropdownItem__BIFMK > div</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Hyundai Stargazer']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d32de357-ade3-4dd6-8ba8-13cb6078cf6a</webElementGuid>
+      <webElementGuid>5559686a-bbb9-4dd7-94dc-e24cc25d7655</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Toyota All New Agya</value>
-      <webElementGuid>4c92c646-1a49-4e5a-af8b-612e2f8f4493</webElementGuid>
+      <value>${car_name}</value>
+      <webElementGuid>e1147217-a085-4975-a392-81d08513d770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-car-model&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo false&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/div[1]</value>
-      <webElementGuid>ec0c3628-19e9-440c-93ce-506662231126</webElementGuid>
+      <webElementGuid>f1af26ba-955f-4314-a72d-48b71dbf923e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${car_name}</value>
+      <webElementGuid>b92747b5-9959-4b89-994d-9b9c02472469</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-car-model']/div[3]/div[2]/div/div</value>
-      <webElementGuid>217a5d0f-1cdd-43bf-a414-d0c41308e5ce</webElementGuid>
+      <webElementGuid>a163f3d5-ef9d-405b-8ad4-bb417c09aa5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Model mobil pilihan saya'])[1]/following::div[7]</value>
-      <webElementGuid>ba99ac1c-e755-48c8-90b7-d9b8803b25a6</webElementGuid>
+      <webElementGuid>031072ae-b2bd-4d57-b3b8-b4cd56a40dc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/following::div[10]</value>
-      <webElementGuid>71addf18-5735-403e-b796-91e78958611a</webElementGuid>
+      <webElementGuid>d86cf610-17b1-4079-ab46-59fd284a90ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Varian mobil'])[1]/preceding::div[2]</value>
-      <webElementGuid>2462483f-86a7-4ad8-a0e7-9fdb23525e2e</webElementGuid>
+      <webElementGuid>54f0c495-49f6-4f94-afd6-227bd4c0bac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div[3]/div[2]/div/div</value>
-      <webElementGuid>90fcf426-866e-4fb7-a21e-1efd83402872</webElementGuid>
+      <webElementGuid>c1fdbc60-19e7-43ec-9a4d-2fb882b63eb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Toyota All New Agya' or . = 'Toyota All New Agya')]</value>
-      <webElementGuid>5d19c88b-4a1f-4fcd-8389-8c56524773e2</webElementGuid>
+      <webElementGuid>341a684b-0bc7-4c4f-9f59-64e3448497eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
