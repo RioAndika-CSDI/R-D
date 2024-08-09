@@ -27,9 +27,10 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Daihatsu New AylaCicilan mulai dariRp2._eb7109'))
+WebUI.scrollToElement(findTestObject('Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/label_Rekomendasi'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _167452/h1_Daihatsu New Ayla'))
+WebUI.click(findTestObject('Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/div_card_rekomendasi_DaihatsuAllNewAyla'))
 
 WebUI.closeBrowser()
 

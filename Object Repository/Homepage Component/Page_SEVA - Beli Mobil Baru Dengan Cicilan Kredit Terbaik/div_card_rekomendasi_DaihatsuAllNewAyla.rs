@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_card_rekomendasi_DaihatsuAllNewAyla</name>
+   <tag></tag>
+   <elementGuidId>1ab73f52-7eab-47d2-b3fc-cfd30fb1a9af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-lihat-snk']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alternativeCarCard_cardWrapper__If92O.cardshadow_cardShadow__Pr8Ek</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>751a3f1b-eb1a-4962-81d8-c7b4d8e626d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek</value>
+      <webElementGuid>1f23ee1f-0036-4501-ab24-5165795efb42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan</value>
+      <webElementGuid>2cc50622-5d01-4f21-b375-8226ada97581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[2]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-css-mode carRecomendations_alternativeCarWrapper__X_Tt7&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;alternativeCarCard_container__jk_QC&quot;]/div[@class=&quot;alternativeCarCard_cardWrapper__If92O cardshadow_cardShadow__Pr8Ek&quot;]</value>
+      <webElementGuid>009134eb-a215-4120-a7b5-880dd3510929</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-lihat-snk</value>
+      <webElementGuid>a980a833-2687-45b3-8b36-6b2cff15b14c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>6dcedc24-3378-4ff3-a424-ffa1f665ebfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[1]/following::div[7]</value>
+      <webElementGuid>45aab590-257f-4e88-a48c-434d4c4109b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[1]/following::div[11]</value>
+      <webElementGuid>555d1a09-1a4a-4814-b132-9a7463f18e93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>4c5c984c-f00e-4f78-9d91-3a8a6a3b22bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan' or . = 'Tersedia 1 promoDaihatsu All New AylaCicilan mulai dariRp3.030.000/blnLihat DetailHitung Kemampuan')]</value>
+      <webElementGuid>7adb0465-0ff6-4f75-aa3f-070a808c87d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
