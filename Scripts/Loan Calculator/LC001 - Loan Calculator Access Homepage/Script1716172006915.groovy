@@ -52,12 +52,9 @@ if (sakuFrame == true) {
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.waitForElementNotPresent(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 5)
+
 WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hitung KemampuanDapatkan hasil perhitun_da483e'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/h2_Cari Tahu Kemampuan Finansialmu'))
-
-//if (close_browser.toString().equalsIgnoreCase('1')) {
-//    WebUI.callTestCase(findTestCase('Loan Calculator/LC002 - Loan Calculator Form'), [('kota') : 'Jakarta Pusat', ('brand') : 'Toyota'
-//            , ('bayar') : 'ADDM', ('open_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
-//}
 
