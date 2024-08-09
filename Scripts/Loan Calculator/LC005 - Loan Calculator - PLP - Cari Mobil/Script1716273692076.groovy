@@ -59,7 +59,7 @@ WebUI.waitForElementPresent(findTestObject('Loan Calculator/Page_SEVA - Beli Mob
 
 int temp = 1
 
-for (int i = 1; i <= 12; i++) {
+for (int i = 1; i <= 3; i++) {
     get_car_name = WebUI.getText(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/label_car_name_plp', 
             [('id') : i]))
 

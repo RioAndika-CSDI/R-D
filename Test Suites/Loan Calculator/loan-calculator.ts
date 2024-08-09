@@ -54,6 +54,12 @@
          <value></value>
          <variableId>4e3ce0e5-a6bf-4133-bb9e-e79fb76c28a3</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8fd870c8-53ea-4cc1-9f82-6b7c9a6a832f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>25bc274f-0ed8-4e4e-9a8f-c85c4525742a</guid>
@@ -61,6 +67,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Loan Calculator/LC003 - Loan Calculator - Homepage - Car Recomendation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9c16091-26b6-4253-80bd-f64852028920</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a7525959-bc76-491b-967a-8548d857dd3f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84cf2bdf-58a9-40a5-a9a7-9c60b8277514</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>11b65a82-64be-42e2-8d41-a3ed6284a1e1</guid>

@@ -52,7 +52,8 @@ if (sakuFrame == true) {
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan'))
+WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan', 
+        [('city') : city, ('car_brand') : car_brand, ('car_model') : car_model]))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/h2_Cari Tahu Kemampuan Finansialmu (1)'), 
     0)

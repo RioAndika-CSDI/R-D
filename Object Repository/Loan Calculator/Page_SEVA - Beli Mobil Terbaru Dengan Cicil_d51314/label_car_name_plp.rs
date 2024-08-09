@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${id}]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,7 +22,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>0aa46e2b-7814-42b4-9c67-98c9d25ca4fd</webElementGuid>
+      <webElementGuid>28a9057b-669b-4fa3-8142-aa01e6e6ab79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${id}]</value>
-      <webElementGuid>f67c9512-ccac-4426-82b3-0b31f993626c</webElementGuid>
+      <webElementGuid>d9acef3b-05c8-4eaa-b31f-d99bc93a9776</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

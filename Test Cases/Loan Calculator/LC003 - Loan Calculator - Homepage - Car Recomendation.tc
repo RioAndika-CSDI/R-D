@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dd5aa80e-fa0e-4fb3-81f8-ecdb575b9b86</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7525959-bc76-491b-967a-8548d857dd3f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84cf2bdf-58a9-40a5-a9a7-9c60b8277514</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9c16091-26b6-4253-80bd-f64852028920</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jakarta-pusat'</defaultValue>
+      <description></description>
+      <id>a7525959-bc76-491b-967a-8548d857dd3f</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'daihatsu'</defaultValue>
+      <description></description>
+      <id>84cf2bdf-58a9-40a5-a9a7-9c60b8277514</id>
+      <masked>false</masked>
+      <name>car_brand</name>
+   </variable>
+   <variable>
+      <defaultValue>'all-new-ayla'</defaultValue>
+      <description></description>
+      <id>f9c16091-26b6-4253-80bd-f64852028920</id>
+      <masked>false</masked>
+      <name>car_model</name>
+   </variable>
 </TestCaseEntity>
