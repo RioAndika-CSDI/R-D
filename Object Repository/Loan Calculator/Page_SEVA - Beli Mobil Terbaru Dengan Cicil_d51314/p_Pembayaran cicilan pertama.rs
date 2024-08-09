@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Pembayaran cicilan pertama</name>
+   <tag></tag>
+   <elementGuidId>9f05e3a8-66fe-40db-bb8a-a9585b9c16e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-installment-type']/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.cicilform_titleText__E5LvE</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>677b8f07-7a21-42e5-a13c-6e45a43c4fce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cicilform_titleText__E5LvE</value>
+      <webElementGuid>44e71ee5-2a17-4cd1-bca3-9ca7a101e8c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pembayaran cicilan pertama</value>
+      <webElementGuid>06346f44-7ec6-4a1e-bf38-0180b13e895d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-installment-type&quot;)/div[@class=&quot;cicilform_container__Ud9ix undefined&quot;]/div[@class=&quot;cicilform_wrapperTextWithCta__B8kDu&quot;]/p[@class=&quot;cicilform_titleText__E5LvE&quot;]</value>
+      <webElementGuid>1437a8ac-a6d0-4fc0-bea8-350edc357d7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-installment-type']/div/div/p</value>
+      <webElementGuid>bc2b805e-519e-45ad-9804-fcec04a31477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::p[1]</value>
+      <webElementGuid>af56cb8d-7ae6-4e9f-8e84-20cb0b1e4967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::p[1]</value>
+      <webElementGuid>b1693593-2ba2-44b9-b4b1-722fb9f63322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicil Mobil Impianmu dengan Mudah!'])[1]/preceding::p[6]</value>
+      <webElementGuid>33d45e4a-fb9b-418b-b65f-6d3e33b3ab03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pembayaran cicilan pertama']/parent::*</value>
+      <webElementGuid>2dea2962-d238-4697-bbc3-3d79404d3e6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/p</value>
+      <webElementGuid>c0010019-2cfa-453f-b5cc-e7882dd39dce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Pembayaran cicilan pertama' or . = 'Pembayaran cicilan pertama')]</value>
+      <webElementGuid>19a3d013-d123-4a88-b885-fb443d4125a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

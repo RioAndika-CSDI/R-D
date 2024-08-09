@@ -6,12 +6,12 @@
    <elementGuidId>fdbee77f-a53a-427b-af1b-1b7f9fda52f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@value=''])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#loan-calculator-form-car-model > div.inputSelect_container__sv8Xm.undefined > div.inputSelect_inputArea__gzgj4 > input.inputSelect_inputField__0hTOV</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Pilih mobil']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>82b07c24-b2f8-4a7e-bd7b-56aeb0d85cba</webElementGuid>
+      <webElementGuid>02cd6e84-4fc1-4ff9-be47-aaec2f1a052b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fd8aeb4e-e229-4f7d-ad0f-c5067a65c213</webElementGuid>
+      <webElementGuid>25d95a9e-5b7f-43b7-8454-cd976a344da4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField__0hTOV</value>
-      <webElementGuid>3a444a34-4c1d-401a-93b5-35a3d738357c</webElementGuid>
+      <webElementGuid>6438908c-1d19-4ea8-97cc-69d4b7a799f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Cari mobil</value>
-      <webElementGuid>11e0c501-8152-465a-8193-7c21d61b66a7</webElementGuid>
+      <webElementGuid>6087e5df-b902-460c-a0ae-0651ac0bf591</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-car-mobil</value>
-      <webElementGuid>1ea7f91b-a319-4379-aae0-be4fa812a347</webElementGuid>
+      <webElementGuid>1a8a2163-5c25-4c70-a0df-56f8e0e9d7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-car-model&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/input[@class=&quot;inputSelect_inputField__0hTOV&quot;]</value>
-      <webElementGuid>d0b4a6c6-c1fc-4c84-ab43-b0f67a697f0c</webElementGuid>
+      <webElementGuid>a134e0e5-140c-41e3-a926-f199ccbbd60d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>d349b01e-e8e1-4e98-ae7e-cdca064a4557</webElementGuid>
+      <webElementGuid>061a33c0-90c4-462f-85b9-677073ab9a29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-car-model']/div[3]/div/input</value>
-      <webElementGuid>5126f127-d40f-4954-8e8a-1d8e3b0e4419</webElementGuid>
+      <webElementGuid>17985307-ed1b-4aba-86e7-c6f1fb6e6835</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/input</value>
-      <webElementGuid>9808aff7-6936-4785-8467-5e296941ab00</webElementGuid>
+      <webElementGuid>a5fc92b6-40d6-4636-923c-437645314b5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Cari mobil']</value>
-      <webElementGuid>bb6dc6d0-7a64-4572-840c-49ff8a05ee0e</webElementGuid>
+      <webElementGuid>9876f9d6-9d9c-46c9-a18f-9734bd7c6067</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

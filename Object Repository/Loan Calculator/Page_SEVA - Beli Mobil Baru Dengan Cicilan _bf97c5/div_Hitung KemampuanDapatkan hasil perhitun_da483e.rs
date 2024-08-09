@@ -6,12 +6,11 @@
    <elementGuidId>a484bab7-0267-48da-8908-3e74b29e44f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/main/div/div[6]/div/div[2]/div</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Hitung Kemampuan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>69c4b950-ecbe-4852-a666-04c0093fca64</webElementGuid>
+      <webElementGuid>f40a8283-d4b2-455f-b47a-9152a39f7ee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!</value>
-      <webElementGuid>c452d68e-87df-4ea4-add4-6fc4038807f4</webElementGuid>
+      <webElementGuid>95d44c92-75e8-4766-ba00-ac2098da794a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;howToUse_wrapper__ORgWe&quot;]/div[@class=&quot;howToUse_cardSpacing__bpirt&quot;]/div[@class=&quot;howToUse_cardHowToUse__HZeMc&quot;]/div[1]</value>
-      <webElementGuid>cc1bacd6-2ce2-4b26-ae04-ad5652d78b71</webElementGuid>
+      <webElementGuid>71a6970e-6d3f-43aa-b4d4-dcfae9462834</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[6]/div/div[2]/div</value>
-      <webElementGuid>0bbce85c-bd0b-4b30-a09f-6374a89a5e9a</webElementGuid>
+      <webElementGuid>c9e9304c-f584-4e09-b0c0-5b901df07627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara Dapatkan Mobil Impian di SEVA'])[1]/following::div[8]</value>
-      <webElementGuid>ef81334c-341e-4ae1-9bd0-5fdd1b3247ef</webElementGuid>
+      <webElementGuid>145311c8-85d1-46cc-ae1f-22574f598a3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua mobil'])[1]/following::div[9]</value>
-      <webElementGuid>333a35b2-5d78-4e12-925d-89d6067c0acd</webElementGuid>
+      <webElementGuid>0a7c05e8-acc8-4d00-8d5d-3f4c5ece805d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Car of The Month'])[1]/preceding::div[10]</value>
-      <webElementGuid>c3b75fa7-2730-496e-bbd7-30a38e09c762</webElementGuid>
+      <webElementGuid>ca95f2db-7be9-40b6-a9f5-75800456d4c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All New Kijang Innova Zenix'])[1]/preceding::div[11]</value>
-      <webElementGuid>b65e1783-f344-491e-bd99-7d98b4cc5d2f</webElementGuid>
+      <webElementGuid>fef08dde-1e53-47bd-880f-7ef4283fe829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div[2]/div</value>
-      <webElementGuid>f646eb18-64c5-45f7-961f-baf54d0e79ae</webElementGuid>
+      <webElementGuid>32188c1d-57d2-46b2-b948-0f6b04d64822</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!' or . = 'Hitung KemampuanDapatkan hasil perhitungan cicilan mobil yang sesuai dengan kemampuan finansialmu!')]</value>
-      <webElementGuid>f0554975-1fed-457a-ba1b-098eb6b11c48</webElementGuid>
+      <webElementGuid>a6423682-146b-46e7-83c7-5bef398487d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

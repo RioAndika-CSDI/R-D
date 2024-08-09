@@ -56,8 +56,8 @@ WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli M
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/h2_Cari Tahu Kemampuan Finansialmu'))
 
-if (close_browser.toString().equalsIgnoreCase('1')) {
-    WebUI.callTestCase(findTestCase('Loan Calculator/LC002 - Loan Calculator Form'), [('kota') : 'Jakarta Pusat', ('brand') : 'Toyota'
-            , ('bayar') : 'ADDM', ('open_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
-}
+//if (close_browser.toString().equalsIgnoreCase('1')) {
+//    WebUI.callTestCase(findTestCase('Loan Calculator/LC002 - Loan Calculator Form'), [('kota') : 'Jakarta Pusat', ('brand') : 'Toyota'
+//            , ('bayar') : 'ADDM', ('open_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+//}
 

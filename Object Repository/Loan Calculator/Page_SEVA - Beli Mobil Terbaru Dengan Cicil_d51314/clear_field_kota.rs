@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg</name>
+   <name>clear_field_kota</name>
    <tag></tag>
    <elementGuidId>ed0fb637-041f-4637-853c-db47491863ac</elementGuidId>
    <selectorCollection>
