@@ -65,8 +65,44 @@
       <value></value>
       <variableId>f520400b-e27b-4b9f-9887-3b8c4a40be0c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>645a1d64-9600-4da8-8d3d-b3f6aefb1edb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb1d5bff-d5f9-46b9-8b8e-6d42eb5a6fc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e45c2967-5b0a-4696-bbe6-4cddbefc282a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2c89ba3-be01-485a-a73e-5ddf1d1d409d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2995fb7-06a7-4021-b45f-b8a60555210e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a30ed676-52e4-46a4-9aeb-51963ebbf8de</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Ruth Silalahi Testing Edit'</defaultValue>
+      <defaultValue>' Test Edit'</defaultValue>
       <description></description>
       <id>caf89143-e621-453c-bbb4-8d9e9ef497e9</id>
       <masked>false</masked>
@@ -101,7 +137,7 @@
       <name>dob_day</name>
    </variable>
    <variable>
-      <defaultValue>'Wanita'</defaultValue>
+      <defaultValue>'Pria'</defaultValue>
       <description></description>
       <id>ef1eecbc-91b9-4f8e-bb39-95a6cebb43e5</id>
       <masked>false</masked>
@@ -134,5 +170,47 @@
       <id>f520400b-e27b-4b9f-9887-3b8c4a40be0c</id>
       <masked>false</masked>
       <name>edit_gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ruth Testing Prod'</defaultValue>
+      <description></description>
+      <id>645a1d64-9600-4da8-8d3d-b3f6aefb1edb</id>
+      <masked>false</masked>
+      <name>fullname2</name>
+   </variable>
+   <variable>
+      <defaultValue>'ruthtestprod@gmail.com'</defaultValue>
+      <description></description>
+      <id>cb1d5bff-d5f9-46b9-8b8e-6d42eb5a6fc8</id>
+      <masked>false</masked>
+      <name>email2</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>e45c2967-5b0a-4696-bbe6-4cddbefc282a</id>
+      <masked>false</masked>
+      <name>dob_year2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Januari'</defaultValue>
+      <description></description>
+      <id>f2c89ba3-be01-485a-a73e-5ddf1d1d409d</id>
+      <masked>false</masked>
+      <name>dob_month2</name>
+   </variable>
+   <variable>
+      <defaultValue>'01'</defaultValue>
+      <description></description>
+      <id>b2995fb7-06a7-4021-b45f-b8a60555210e</id>
+      <masked>false</masked>
+      <name>dob_day2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Wanita'</defaultValue>
+      <description></description>
+      <id>a30ed676-52e4-46a4-9aeb-51963ebbf8de</id>
+      <masked>false</masked>
+      <name>gender2</name>
    </variable>
 </TestCaseEntity>
