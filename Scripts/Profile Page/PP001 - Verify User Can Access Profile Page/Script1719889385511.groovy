@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), Failure
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
 
-WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
+WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 5)
 
 WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
 

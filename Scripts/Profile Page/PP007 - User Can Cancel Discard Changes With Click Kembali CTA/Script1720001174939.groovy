@@ -66,5 +66,7 @@ WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - P
 
 WebUI.click(findTestObject('Profile/Profile_Page/Profile Page - Pop Up Screen/button_Kembali'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementNotVisible(findTestObject('Profile/Profile_Page/Profile Page - Pop Up Screen/div_Perubahan data belum disimpan'))
 

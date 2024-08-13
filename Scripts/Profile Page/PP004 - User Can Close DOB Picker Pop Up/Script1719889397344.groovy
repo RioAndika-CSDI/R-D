@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
+        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Tanggal Lahir'), 0)
+
+WebUI.click(findTestObject('Profile/Profile_Page/icon_calendar_dob'))
+
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/cta_Batal_Pick Date'), 0)
+
+WebUI.click(findTestObject('Profile/Profile_Page/cta_Batal_Pick Date'))
+
+WebUI.verifyElementNotVisible(findTestObject('Profile/Profile_Page/Page_/div_Pilih Tanggal'))
+
