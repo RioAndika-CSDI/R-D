@@ -27,11 +27,18 @@ WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Nama Lengk
 if (edit_fullname.toString().equals('1')) {
     WebUI.click(findTestObject('Profile/Profile_Page/input_fullname'))
 
-    //    WebUI.clearText(findTestObject('Profile/Profile_Page/input_fullname'))
     WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.CONTROL, 'a'))
 
     WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.BACK_SPACE))
 
+    //    WebUI.clearText(findTestObject('Profile/Profile_Page/input_fullname'))
+    /*
+	 * WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'),
+	 * Keys.chord(Keys.CONTROL, 'a'))
+	 * 
+	 * WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'),
+	 * Keys.chord(Keys.BACK_SPACE))
+	 */
     WebUI.setText(findTestObject('Profile/Profile_Page/input_fullname'), fullname)
 }
 
@@ -62,6 +69,65 @@ if (edit_gender.toString().equals('1')) {
     if (gender.toString().equals('Pria')) {
         WebUI.click(findTestObject('Profile/Profile_Page/Option_Gender_Pria'))
     } else if (gender.toString().equals('Wanita')) {
+        WebUI.click(findTestObject('Profile/Profile_Page/option_gender_wanita'))
+    }
+}
+
+WebUI.click(findTestObject('Profile/Profile_Page/button_Simpan Perubahan'))
+
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/label_Perubahan akun berhasil disimpan'), 
+    0)
+
+'2nd edit - back to default (untuk mengurangi kegagalan saat run automation yang diakibatkan oleh data edit yang tidak berubah saat dilakukan run berulang kali)'
+WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Nama Lengkap'), 0)
+
+// Edit Fullname ?
+'Edit Full Name 2'
+if (edit_fullname.toString().equals('1')) {
+    WebUI.click(findTestObject('Profile/Profile_Page/input_fullname'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.CONTROL, 'a'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.BACK_SPACE))
+
+    //    WebUI.clearText(findTestObject('Profile/Profile_Page/input_fullname'))
+    /*
+	 * WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'),
+	 * Keys.chord(Keys.CONTROL, 'a'))
+	 * 
+	 * WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'),
+	 * Keys.chord(Keys.BACK_SPACE))
+	 */
+    WebUI.setText(findTestObject('Profile/Profile_Page/input_fullname'), fullname2)
+}
+
+// Edit Email ?
+'Edit Email 2'
+if (edit_email.toString().equals('1')) {
+    WebUI.click(findTestObject('Profile/Profile_Page/input_email'))
+
+    //    WebUI.clearText(findTestObject('Profile/Profile_Page/input_email'))
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.CONTROL, 'a'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.BACK_SPACE))
+
+    WebUI.setText(findTestObject('Profile/Profile_Page/input_email'), email2)
+}
+
+// Edit DOB ?
+'Edit Tanggal Lahir 2'
+if (edit_dob.toString().equals('1')) {
+    CustomKeywords.'selector_dob.DatePickerHandler.selectDate'(dob_year2, dob_month2, dob_day2)
+}
+
+// Edit Gender ?
+'Edit Jenis Kelamin 2'
+if (edit_gender.toString().equals('1')) {
+    WebUI.click(findTestObject('Profile/Profile_Page/input_Jenis Kelamin_gender'))
+
+    if (gender2.toString().equals('Pria')) {
+        WebUI.click(findTestObject('Profile/Profile_Page/Option_Gender_Pria'))
+    } else if (gender2.toString().equals('Wanita')) {
         WebUI.click(findTestObject('Profile/Profile_Page/option_gender_wanita'))
     }
 }
