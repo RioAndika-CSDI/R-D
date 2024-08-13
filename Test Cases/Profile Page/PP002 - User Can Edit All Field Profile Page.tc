@@ -200,7 +200,7 @@
       <name>dob_month2</name>
    </variable>
    <variable>
-      <defaultValue>'01'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>b2995fb7-06a7-4021-b45f-b8a60555210e</id>
       <masked>false</masked>

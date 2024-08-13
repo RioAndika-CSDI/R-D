@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555', ('OTP') : '212121'
+        , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+
+if (fullname_null.toString().equals('1')) {
+    WebUI.click(findTestObject('Profile/Profile_Page/input_fullname'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.CONTROL, 'a'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.TAB))
+
+    WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/p_Wajib diisi'), 1)
+}
+
+if (email_null.toString().equals('1')) {
+    WebUI.click(findTestObject('Profile/Profile_Page/input_email'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.CONTROL, 'a'))
+
+    WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_email'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord(Keys.TAB))
+
+    WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/p_Wajib diisi'), 1)
+}
+
