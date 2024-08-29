@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Phone_Number</name>
+   <name>get_city_lc</name>
    <tag></tag>
-   <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
+   <elementGuidId>16fa1baf-a8af-4cbd-89ba-1a1e5945563a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
+         <key>XPATH</key>
+         <value>//input[@value='Jakarta Pusat']</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>input.inputSelect_inputField__Zpc6V</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8375b9e-4b8d-4a35-bacd-5d1cbada6156</webElementGuid>
+      <webElementGuid>6f9fa102-9f68-4876-8b80-eb18d2894db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>6048408b-326e-4b83-a871-af1d57d3bd80</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>13</value>
-      <webElementGuid>1ec559d2-9332-4cac-b2f3-ae6e12a6cbb4</webElementGuid>
+      <value>text</value>
+      <webElementGuid>5f20413f-0cd7-4d2b-bc66-8e767e5cd81c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm undefined </value>
-      <webElementGuid>0654f308-a91f-4206-88e3-e72126144d5c</webElementGuid>
+      <value>inputSelect_inputField__Zpc6V</value>
+      <webElementGuid>1c86bebf-4a35-40eb-bd7e-7efd8215fef6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan nomor HP</value>
-      <webElementGuid>a3e0d50b-1d09-441e-94a7-1f5b3718ecf0</webElementGuid>
+      <value>Pilih kota</value>
+      <webElementGuid>ffac38d9-7a1a-4921-a843-25540ff88f2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>input-phone-number</value>
-      <webElementGuid>16323ef3-b90e-49f0-825e-de55f9fc6476</webElementGuid>
+      <value>dropdown-pilih-kota</value>
+      <webElementGuid>47117cdd-4b4f-4826-ae8f-18fc385edd91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Jakarta Pusat</value>
+      <webElementGuid>abf9feb6-6f65-444a-af61-7e1a1eaa7202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined undefined&quot;]/input[@class=&quot;inputPhone_input__r86Wm undefined&quot;]</value>
-      <webElementGuid>2281612a-229f-4370-b163-4ae86778c554</webElementGuid>
+      <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
+      <webElementGuid>378d6ac7-9c47-4a8c-9d61-5d56d65f9316</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='']</value>
-      <webElementGuid>26d9b654-94ce-4024-a7ef-2e602df7ca0c</webElementGuid>
+      <value>//input[@value='Jakarta Pusat']</value>
+      <webElementGuid>e4dd8991-f607-42fd-9671-4a38a5891f90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>605cf97a-3c6e-4310-a0c7-491e0c8c9e47</webElementGuid>
+      <value>//div[@id='loan-calculator-form-city']/div[2]/div/div/input</value>
+      <webElementGuid>57a259f5-b2e8-499b-8d3d-c32d11122211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>eace44fb-6d82-4ede-88b5-bce54df4b2d8</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div/input</value>
+      <webElementGuid>ebb93d8a-9ad4-45f9-8efe-136d8e653c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
-      <webElementGuid>47b8deae-f703-40bd-bf49-9538f3c78c4d</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Pilih kota']</value>
+      <webElementGuid>3ef2e7c7-c3b2-4e15-970d-490ba7016ab0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

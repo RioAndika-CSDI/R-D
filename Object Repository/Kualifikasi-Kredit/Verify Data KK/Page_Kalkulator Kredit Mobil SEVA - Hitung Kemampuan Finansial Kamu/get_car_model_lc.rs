@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Phone_Number</name>
+   <name>get_car_model_lc</name>
    <tag></tag>
-   <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
+   <elementGuidId>dc8f4c22-f612-4ed5-a92d-ba083101b52f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
+         <key>XPATH</key>
+         <value>//input[@value='Daihatsu Sigra']</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>#loan-calculator-form-car-model > div.inputSelect_container__q11Yp.undefined > div.inputSelect_inputArea__QvNq3 > div.inputSelect_inputWrapper__hQnH0.undefined > input.inputSelect_inputField__Zpc6V</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8375b9e-4b8d-4a35-bacd-5d1cbada6156</webElementGuid>
+      <webElementGuid>2ceb3889-0cbe-4ef5-a9f1-f3daccb0dd2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>6048408b-326e-4b83-a871-af1d57d3bd80</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>13</value>
-      <webElementGuid>1ec559d2-9332-4cac-b2f3-ae6e12a6cbb4</webElementGuid>
+      <value>text</value>
+      <webElementGuid>819b1b7e-5e45-4727-9f10-88cfb2eb15f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm undefined </value>
-      <webElementGuid>0654f308-a91f-4206-88e3-e72126144d5c</webElementGuid>
+      <value>inputSelect_inputField__Zpc6V</value>
+      <webElementGuid>9c84a6cf-38be-42e5-8927-43b929dff368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan nomor HP</value>
-      <webElementGuid>a3e0d50b-1d09-441e-94a7-1f5b3718ecf0</webElementGuid>
+      <value>Pilih mobil</value>
+      <webElementGuid>17f64ee1-f26b-47c8-996c-ffd6e2066182</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>input-phone-number</value>
-      <webElementGuid>16323ef3-b90e-49f0-825e-de55f9fc6476</webElementGuid>
+      <value>field-car-mobil</value>
+      <webElementGuid>c7d72801-1daf-47ae-9485-2e589a340f7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Daihatsu Sigra</value>
+      <webElementGuid>573184b6-9989-4e11-a695-0c57c44fc7c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined undefined&quot;]/input[@class=&quot;inputPhone_input__r86Wm undefined&quot;]</value>
-      <webElementGuid>2281612a-229f-4370-b163-4ae86778c554</webElementGuid>
+      <value>id(&quot;loan-calculator-form-car-model&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
+      <webElementGuid>4ac7c143-6e8b-4099-af00-5aa2558c75c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='']</value>
-      <webElementGuid>26d9b654-94ce-4024-a7ef-2e602df7ca0c</webElementGuid>
+      <value>//input[@value='Daihatsu Sigra']</value>
+      <webElementGuid>6c35fd6b-5526-484f-9272-878c5170c665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>605cf97a-3c6e-4310-a0c7-491e0c8c9e47</webElementGuid>
+      <value>//div[@id='loan-calculator-form-car-model']/div[3]/div/div/input</value>
+      <webElementGuid>38b6b5ce-43e4-4a1a-a3b7-18dc3640738c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>eace44fb-6d82-4ede-88b5-bce54df4b2d8</webElementGuid>
+      <value>//div[2]/div[2]/div[2]/div[3]/div/div/input</value>
+      <webElementGuid>0e2cbbaf-d8f5-4c36-bc0e-7b638bd34072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
-      <webElementGuid>47b8deae-f703-40bd-bf49-9538f3c78c4d</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Pilih mobil']</value>
+      <webElementGuid>35e2f027-4e65-4452-8c8f-c69ec17313e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

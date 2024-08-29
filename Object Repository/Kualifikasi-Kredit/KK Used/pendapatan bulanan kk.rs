@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pendapatan bulanan kk</name>
+   <tag></tag>
+   <elementGuidId>ab744228-2f14-48a1-884e-29e062661b32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Masukkan pendapatan']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.0.input_input__c0tP8</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>66ddd955-3111-4e7c-8527-07d3f0d25ea0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>0 input_input__c0tP8</value>
+      <webElementGuid>89142932-2dc6-4539-a1d2-5b4c94d50200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan pendapatan</value>
+      <webElementGuid>4a1e43df-1752-45a3-88a6-97b17b1c7974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>02af7b25-e186-4a16-9026-87c7647712c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>12999fbd-0d50-4980-a29b-a9360a38d187</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Rp20.000.000</value>
+      <webElementGuid>ef605ad1-1d3a-42e9-8954-8ad0416dd640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormIncome__yDYDw&quot;]/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;0 input_input__c0tP8&quot;]</value>
+      <webElementGuid>bf974070-4fce-49da-ad7d-b3cb21e1b3bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Rp20.000.000']</value>
+      <webElementGuid>7c4d769d-fe8f-494b-80bc-c190b8b011a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[5]/div/div/input</value>
+      <webElementGuid>7c7825de-d522-4b70-bc5c-43ffb0352f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/input</value>
+      <webElementGuid>276a5dbc-b0f4-4a07-aba0-6ae2e0cc5778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
+      <webElementGuid>095ef710-cca3-42ac-8138-6de5758e359d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>get_car_variant_lc</name>
+   <tag></tag>
+   <elementGuidId>ba96059e-3084-4e83-9b9d-af3f2b89bc9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-car-variant']/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.inputMultilineSelect_selectedTextWithElipsis__PrPtV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>89462ac3-64e5-4d65-9806-00357cc01924</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputMultilineSelect_selectedTextWithElipsis__PrPtV</value>
+      <webElementGuid>45ed09bb-e350-4c09-aa1d-662187d0a62e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1.0 D MT MC (NEW)</value>
+      <webElementGuid>e1f95051-eb3d-4bfd-9e3a-8612cb9611cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-car-variant&quot;)/div[@class=&quot;inputMultilineSelect_container__pfjb9&quot;]/div[@class=&quot;inputMultilineSelect_inputArea__LD9YF&quot;]/div[1]/p[@class=&quot;inputMultilineSelect_selectedTextWithElipsis__PrPtV&quot;]</value>
+      <webElementGuid>991a986c-2a03-4b22-8300-688dab575e54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-car-variant']/div[2]/div/div/p</value>
+      <webElementGuid>e056877b-dcb3-430f-b200-4449b7dfe14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Varian mobil'])[1]/following::p[1]</value>
+      <webElementGuid>2f75ad30-6bc4-4209-9c28-8e4dc369ebd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota Vellfire'])[1]/following::p[1]</value>
+      <webElementGuid>2df4a8d6-5fa2-4d4d-853b-7339063db18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp139.200.000'])[2]/preceding::p[3]</value>
+      <webElementGuid>197ffca9-db5e-4a24-8bef-4798c2e04e12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp151.600.000'])[1]/preceding::p[4]</value>
+      <webElementGuid>475c0d5e-ecc3-47ff-a959-c8c8ff65f641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1.0 D MT MC (NEW)']/parent::*</value>
+      <webElementGuid>3d679e85-6911-4bad-b390-3a8952a86eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/p</value>
+      <webElementGuid>b15441f6-4e27-4dc6-a0b1-94ad99506bfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1.0 D MT MC (NEW)' or . = '1.0 D MT MC (NEW)')]</value>
+      <webElementGuid>060f0f50-41d5-49e4-9db1-3608281466b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

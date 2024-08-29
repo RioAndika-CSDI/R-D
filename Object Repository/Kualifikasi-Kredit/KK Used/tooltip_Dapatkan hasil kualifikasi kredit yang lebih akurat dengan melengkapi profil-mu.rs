@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tooltip_Dapatkan hasil kualifikasi kredit yang lebih akurat dengan melengkapi profil-mu</name>
+   <tag></tag>
+   <elementGuidId>c5533cac-cd60-4df6-8968-f7f08517d43c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@role='tooltip']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-tooltip-inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>88f64b1b-f302-4d28-9c9e-92f4a3284cab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-tooltip-inner</value>
+      <webElementGuid>59f551e4-6d21-4fff-86e9-c9d53b2c3f5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>c037d747-c629-44f7-b97f-65fde4b4d729</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dapatkan hasil kualifikasi kredit yang lebih akurat dengan melengkapi profil-mu. OK, Saya Mengerti</value>
+      <webElementGuid>bfc0ba09-82f4-465d-a5e7-2f660e0fd79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-tooltip calculation-result css-1fumvat ant-tooltip-placement-top&quot;]/div[@class=&quot;ant-tooltip-content&quot;]/div[@class=&quot;ant-tooltip-inner&quot;]</value>
+      <webElementGuid>69ec76f5-41b2-4dc6-babf-76c2857fc663</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[6]</value>
+      <webElementGuid>f291d1ca-caee-47e4-8879-1b5621617b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[6]</value>
+      <webElementGuid>e221fb80-a26a-488a-88f5-6e78a16d2047</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div</value>
+      <webElementGuid>edab958f-bf74-49e6-aa6b-f420cf228a31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Dapatkan hasil kualifikasi kredit yang lebih akurat dengan melengkapi profil-mu. OK, Saya Mengerti' or . = 'Dapatkan hasil kualifikasi kredit yang lebih akurat dengan melengkapi profil-mu. OK, Saya Mengerti')]</value>
+      <webElementGuid>153353a4-4581-4374-8975-3ba99bbbed01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

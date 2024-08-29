@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Detail Mobil - kk review</name>
+   <tag></tag>
+   <elementGuidId>abf37394-ed1e-4f30-b43d-f26ad962d8e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[normalize-space()='Detail Mobil']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.modal_title__ADM2I</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>d6877254-757a-4558-9d82-d8dd8d41e1e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal_title__ADM2I</value>
+      <webElementGuid>742df307-ce06-497c-a730-348c4cafd779</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail Mobil</value>
+      <webElementGuid>aeccd0fb-3902-443b-850a-e208ea2e0642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r0:&quot;)/h3[@class=&quot;modal_title__ADM2I&quot;]</value>
+      <webElementGuid>aa7e7b4f-e283-4805-84f7-626bbeb399ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':r0:']/h3</value>
+      <webElementGuid>93c73195-3119-4826-9f2b-5550e67e4a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', ':r0:', '&quot;', ')/h3[@class=', '&quot;', 'modal_title__ADM2I', '&quot;', ']')])[1]/following::h3[1]</value>
+      <webElementGuid>bba0dcc7-dfd5-45df-a5ba-236fc9469c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h3[1]</value>
+      <webElementGuid>a5160b73-9bdf-49ac-82db-6a7e19a518b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/preceding::h3[1]</value>
+      <webElementGuid>ac4ce63b-cf6d-4b94-bd93-9d26c48e690c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp210.750.000'])[2]/preceding::h3[1]</value>
+      <webElementGuid>911f7c73-d1a5-4778-bdcd-2731e40a6809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail Mobil']/parent::*</value>
+      <webElementGuid>beb5e89f-26bf-4988-af44-b6a85476599c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>0eee5cd4-999a-42fd-82e2-5011a0af6f8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Detail Mobil' or . = 'Detail Mobil')]</value>
+      <webElementGuid>d53dc3bf-92a3-451e-a6c6-4892c7d99d71</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

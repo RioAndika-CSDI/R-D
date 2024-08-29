@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Selamat Datang di SEVA</name>
+   <tag></tag>
+   <elementGuidId>1e17fdd3-ce82-4642-b16a-cc2f6d6e8940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[normalize-space()='Selamat Datang di SEVA']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.login_headerText__JXQy2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d648973f-29cf-4278-bdde-b885f5df024a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login_headerText__JXQy2</value>
+      <webElementGuid>1bc54ac9-0ae2-4e1c-9c41-4aea88d34d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>login-header-text</value>
+      <webElementGuid>632c6be7-7cd6-462a-92b1-448c19c1127e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selamat Datang di SEVA</value>
+      <webElementGuid>20b7a15a-f612-4cd3-9044-fa52ce11a390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__ePrQi&quot;]/div[@class=&quot;login_container__uanGh&quot;]/div[@class=&quot;login_wrapper__27rKB&quot;]/div[@class=&quot;login_form__EDwpJ&quot;]/h1[@class=&quot;login_headerText__JXQy2&quot;]</value>
+      <webElementGuid>de1d2995-5254-468f-b54c-2d3f7efe671b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/h1</value>
+      <webElementGuid>c87dc066-e2f6-4334-95e1-c964b6424dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d3a22a0a-f2db-41b7-8dd4-f4cd9d51c2fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 PT Astra Auto Digital. All Rights Reserved'])[1]/preceding::h1[1]</value>
+      <webElementGuid>60ed6655-bffc-401f-87a5-1b5164cb7c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Selamat Datang di SEVA']/parent::*</value>
+      <webElementGuid>2cc92a64-3702-4a13-8566-c95e24c1a769</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>8fa45e93-978b-4e72-a181-a1618ead1922</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Selamat Datang di SEVA' or . = 'Selamat Datang di SEVA')]</value>
+      <webElementGuid>882a535a-b0cb-4ce9-9667-02e185284528</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
