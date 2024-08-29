@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Hubungi Agen SEVA</name>
+   <tag></tag>
+   <elementGuidId>52da532b-418d-47ff-8120-acf9706fcade</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='credit-qualification-result_whatsappButtonContent__oCShT']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button_secondary___MM2b.button_big__WTbQS.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e787f111-9356-4e6b-b59c-2d71ca4b62b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_secondary___MM2b button_big__WTbQS undefined</value>
+      <webElementGuid>48c57f41-33ab-430b-b732-3e7b198e09ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hubungi Agen SEVA</value>
+      <webElementGuid>32c2d6e6-004c-4bae-a819-690b75ae087a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq credit-qualification-result_container__4CQFk&quot;]/div[@class=&quot;credit-qualification-result_content__3M7TH&quot;]/div[@class=&quot;credit-qualification-result_buttonSection__lU2g8&quot;]/button[@class=&quot;button_secondary___MM2b button_big__WTbQS undefined&quot;]</value>
+      <webElementGuid>67782d45-8031-45c5-8d73-498c68a11c80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/button[2]</value>
+      <webElementGuid>bd33e2a0-a047-4511-b776-e3f2d98c0845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Instant Approval'])[1]/following::button[1]</value>
+      <webElementGuid>09c7bfb0-efc1-4357-91a5-86aa2b7d1fc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::button[2]</value>
+      <webElementGuid>6eccf5d7-81e9-4b55-8995-a7b066a3d7b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami menjamin datamu aman dan terlindungi'])[1]/preceding::button[1]</value>
+      <webElementGuid>326d439a-a930-405f-a1b1-54e8dfb00f28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>c5944ae5-aa6a-4fac-933e-0ac8dffc1357</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Hubungi Agen SEVA' or . = 'Hubungi Agen SEVA')]</value>
+      <webElementGuid>7393c199-869e-4710-9838-ed6dbaebc44e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

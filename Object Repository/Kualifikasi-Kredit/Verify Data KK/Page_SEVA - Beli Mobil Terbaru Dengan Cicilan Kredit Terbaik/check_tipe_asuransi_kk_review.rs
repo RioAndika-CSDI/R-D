@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_tipe_asuransi_kk_review</name>
+   <tag></tag>
+   <elementGuidId>a56bf4a9-6e48-4eb1-9b5a-be6f151c2666</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[7]/div[10]/div/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>31e4c1d4-0ca5-4570-a769-ae60fe7d4a8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit-review_openSansSemiblack__SM9bs</value>
+      <webElementGuid>a72b279f-1963-4394-bf75-a48589c6d5ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Full Comprehensive</value>
+      <webElementGuid>c84de7c8-8865-4965-9641-b6f95719b0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_wrapperWithBorderBottom__1swJr&quot;]/div[@class=&quot;kualifikasi-kredit-review_rowWithSpaceBottom__ae7Xb&quot;]/div[@class=&quot;kualifikasi-kredit-review_columnFull__KBJ0U&quot;]/p[@class=&quot;kualifikasi-kredit-review_openSansSemiblack__SM9bs&quot;]</value>
+      <webElementGuid>17e97651-c35e-46e8-9ea5-07080621794f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[7]/div[10]/div/p[2]</value>
+      <webElementGuid>c92d337e-aeab-45ef-b775-9b8e4b0d987b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::p[5]</value>
+      <webElementGuid>a55c4136-01c1-401b-93d4-1a4fb8c3f373</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::p[5]</value>
+      <webElementGuid>ad15e822-396a-4084-b88f-f5ebdfa9339d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/preceding::p[2]</value>
+      <webElementGuid>b90e53fc-b3e1-4ae4-89dc-99e92f36b5f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[3]</value>
+      <webElementGuid>6476851a-cda4-482c-a841-283f8fb4bf2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Full Comprehensive']/parent::*</value>
+      <webElementGuid>bc0a4930-f2c2-4fc7-9516-1f8fe18b9c6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/p[2]</value>
+      <webElementGuid>a089fa96-9888-4b1c-9fb0-46227dd3dc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Full Comprehensive' or . = 'Full Comprehensive')]</value>
+      <webElementGuid>7738f71e-64ad-4624-9a38-56248ca35747</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>KK001 - Access Kualifikasi Kredit from Loan Calculator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93a4a7ee-a32e-46e5-ac6d-7118fb537a59</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ba90c61-14ed-4683-8242-79ae3cd06bf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c603d611-0f0f-4e67-b621-760fb6bccea0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>308b3b7c-5654-4d42-89eb-78e3dbd16feb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5 Tahun'</defaultValue>
+      <description></description>
+      <id>7ba90c61-14ed-4683-8242-79ae3cd06bf3</id>
+      <masked>false</masked>
+      <name>tenor</name>
+   </variable>
+   <variable>
+      <defaultValue>'85349524555'</defaultValue>
+      <description></description>
+      <id>c603d611-0f0f-4e67-b621-760fb6bccea0</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>308b3b7c-5654-4d42-89eb-78e3dbd16feb</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

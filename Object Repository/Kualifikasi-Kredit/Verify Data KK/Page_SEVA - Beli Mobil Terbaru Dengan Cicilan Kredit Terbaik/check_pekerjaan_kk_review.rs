@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_pekerjaan_kk_review</name>
+   <tag></tag>
+   <elementGuidId>d51ffef1-0246-4d5e-8349-19d3c06416ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[4]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.kualifikasi-kredit-review_textForm__AoA3W</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0270985d-30dd-487d-af3b-8c06e936e5ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit-review_textForm__AoA3W</value>
+      <webElementGuid>7425697a-3379-4d78-adc8-efda3d6fb8ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Karyawan Swasta</value>
+      <webElementGuid>49e3f2e6-cf8c-44af-b662-0ccfa684e5d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_paddingFormJob__T89rc&quot;]/p[@class=&quot;kualifikasi-kredit-review_textForm__AoA3W&quot;]</value>
+      <webElementGuid>14850ea9-78ab-423c-b4fb-ebd037f21b57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[4]/p[2]</value>
+      <webElementGuid>ff6712bf-7ce4-427c-855c-8eeed4672bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periksa kembali informasi kamu sebelum mengecek Kualifikasi Kredit.'])[1]/following::p[2]</value>
+      <webElementGuid>bc9d0124-95ad-407e-94a2-ab15a54d241c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Datamu'])[1]/following::p[2]</value>
+      <webElementGuid>d22177ba-3332-4818-a176-3091d5de6f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil yang kamu pilih:'])[1]/preceding::p[3]</value>
+      <webElementGuid>a30bf6c4-00f7-4f8d-8817-0f23733d4e2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu Sigra'])[1]/preceding::p[3]</value>
+      <webElementGuid>61fbea99-5e46-42de-9447-e392253cdfe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Karyawan Swasta']/parent::*</value>
+      <webElementGuid>989ea755-f66c-46e1-a937-ce6a50f4359a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>6b803e93-e5bf-4519-8ef2-7cc0dbfdc61f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Karyawan Swasta' or . = 'Karyawan Swasta')]</value>
+      <webElementGuid>0d1a68fa-40c6-4925-aa61-4ea679fb58f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

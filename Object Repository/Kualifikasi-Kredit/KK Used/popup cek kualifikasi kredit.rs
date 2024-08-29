@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup cek kualifikasi kredit</name>
+   <tag></tag>
+   <elementGuidId>7cd99cb2-1a6c-47dc-912c-a597fec0c4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='ant-modal-content']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-modal-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d3bf91b-ae73-4e59-8e01-4322cf2deb24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-modal-content</value>
+      <webElementGuid>63fe8f7d-4c16-4a76-8fb6-f42f11ad84bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3 Langkah Cepat untuk Pengecekan Kualifikasi Kredit1Silahkan login atau daftar di SEVA2Isi informasi sumber pendapatan3Lakukan verifikasi identitas (opsional)Cek Kualifikasi Kredit</value>
+      <webElementGuid>4d0261bb-50aa-4e1a-ac5c-d765d48dba4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat qualification-custom-modal&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]</value>
+      <webElementGuid>76a472c6-bdbb-4567-a054-26717485137d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[9]</value>
+      <webElementGuid>d00137c5-d12c-4e70-8044-809f839e7eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[9]</value>
+      <webElementGuid>bf3c0bfd-f772-45ce-a310-a6cb06e22646</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>afd25281-5e4a-4b16-9fe1-acddf973f594</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '3 Langkah Cepat untuk Pengecekan Kualifikasi Kredit1Silahkan login atau daftar di SEVA2Isi informasi sumber pendapatan3Lakukan verifikasi identitas (opsional)Cek Kualifikasi Kredit' or . = '3 Langkah Cepat untuk Pengecekan Kualifikasi Kredit1Silahkan login atau daftar di SEVA2Isi informasi sumber pendapatan3Lakukan verifikasi identitas (opsional)Cek Kualifikasi Kredit')]</value>
+      <webElementGuid>353e518d-3986-40c9-be80-84f7f1823260</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
