@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cta section car kk</name>
+   <tag></tag>
+   <elementGuidId>4279026c-eb9c-424a-b531-593594e00984</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='kualifikasi-kredit_cardInfoCar__4gfo9']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kualifikasi-kredit_cardInfoCar__4gfo9</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>01794168-3931-41f4-a380-ff28a529b71a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit_cardInfoCar__4gfo9</value>
+      <webElementGuid>5d287a35-45d0-4df9-8063-57a18c2811f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu Rocky1.2 M MTRp210.750.000Harga OTRJakarta Pusat</value>
+      <webElementGuid>711a489d-ba81-4aab-aaff-c711eee8072f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingInfoCar__NVDbk&quot;]/div[@class=&quot;kualifikasi-kredit_cardInfoCar__4gfo9&quot;]</value>
+      <webElementGuid>6076618e-263b-40e0-b707-a7834612925e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div/div</value>
+      <webElementGuid>913d055a-3a94-4536-ba9f-33f88bdc90d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div</value>
+      <webElementGuid>844d6fb3-f02d-4ddc-b7ed-2eb1e1456781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daihatsu Rocky1.2 M MTRp210.750.000Harga OTRJakarta Pusat' or . = 'Daihatsu Rocky1.2 M MTRp210.750.000Harga OTRJakarta Pusat')]</value>
+      <webElementGuid>1eb3bccd-4152-49a4-84ed-204382bfdd7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_addb_addm_kk_review</name>
+   <tag></tag>
+   <elementGuidId>809caed8-e902-4a43-82ee-00bff1ca79fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[7]/div[9]/div/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kualifikasi-kredit-review_columnFull__KBJ0U > p.kualifikasi-kredit-review_openSansSemiblack__SM9bs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4143f8ef-bb17-4731-959e-1cf09826a4e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit-review_openSansSemiblack__SM9bs</value>
+      <webElementGuid>066cee02-56c9-402f-90c0-9b70f5c1a33b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bayar di Belakang</value>
+      <webElementGuid>642f71fc-6c61-4838-a91f-a48baa66886c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_wrapperWithBorderBottom__1swJr&quot;]/div[@class=&quot;kualifikasi-kredit-review_rowWithSpaceBottom__ae7Xb&quot;]/div[@class=&quot;kualifikasi-kredit-review_columnFull__KBJ0U&quot;]/p[@class=&quot;kualifikasi-kredit-review_openSansSemiblack__SM9bs&quot;]</value>
+      <webElementGuid>1d1c7fd7-f000-4445-8326-477d438389ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[7]/div[9]/div/p[2]</value>
+      <webElementGuid>a93b6c69-1aae-4458-a9fd-db9d7e9faf03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::p[3]</value>
+      <webElementGuid>3acfa789-852e-467f-909d-b5bb1ed128bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::p[3]</value>
+      <webElementGuid>75b58f1d-6476-4623-885f-9f19d095e07c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/preceding::p[4]</value>
+      <webElementGuid>480771a5-25d8-4170-90bd-557c95a40900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[5]</value>
+      <webElementGuid>f936cc88-17c3-41b2-ab22-f614095e9c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bayar di Belakang']/parent::*</value>
+      <webElementGuid>3d2a370e-4c31-4d00-b541-86335edee465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/p[2]</value>
+      <webElementGuid>d0210eb9-42bf-4b93-a574-eece860700d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Bayar di Belakang' or . = 'Bayar di Belakang')]</value>
+      <webElementGuid>55f6f0ad-f870-4372-bdaf-1ad2bf21ba2f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

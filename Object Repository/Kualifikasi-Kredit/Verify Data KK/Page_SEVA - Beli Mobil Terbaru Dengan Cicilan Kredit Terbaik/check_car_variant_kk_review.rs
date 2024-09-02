@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_car_variant_kk_review</name>
+   <tag></tag>
+   <elementGuidId>d912b375-e8d7-4197-a690-7cf84eb583db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[7]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kualifikasi-kredit-review_textType__vWKEB</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c06fa781-b86b-4337-92a0-84e8d521dd0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit-review_textType__vWKEB</value>
+      <webElementGuid>4717448b-8ea5-45a9-b6c1-ad522443ea30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1.0 D MT MC (NEW)</value>
+      <webElementGuid>cd701434-5952-4a49-a63f-e1aa803d701e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_wrapperWithBorderBottom__1swJr&quot;]/div[@class=&quot;kualifikasi-kredit-review_textType__vWKEB&quot;]</value>
+      <webElementGuid>a3e12d63-5f4c-467b-aa7c-dd810809221c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[7]/div[3]</value>
+      <webElementGuid>fb043392-6f67-43db-b344-15722f278b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu Sigra'])[1]/following::div[1]</value>
+      <webElementGuid>71dab47b-6534-4c06-97e3-3fb1d1231c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil yang kamu pilih:'])[1]/following::div[2]</value>
+      <webElementGuid>f2d0d66e-1b10-4fdd-b4bf-24db745e6d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp139.200.000'])[1]/preceding::div[1]</value>
+      <webElementGuid>615921be-c59c-4281-b53e-3ffb2f226f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1.0 D MT MC (NEW)']/parent::*</value>
+      <webElementGuid>42364dc7-7d4d-4e5d-95b7-2d15148f5f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[3]</value>
+      <webElementGuid>24c73392-152f-4637-b827-3cffb82c5bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1.0 D MT MC (NEW)' or . = '1.0 D MT MC (NEW)')]</value>
+      <webElementGuid>619e4e71-70a5-49a4-b1b3-a46936156dcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Lihat Detail Mobil - kk review</name>
+   <tag></tag>
+   <elementGuidId>59c1fec5-ac45-4eec-bc0d-c7a5cbb2c758</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.kualifikasi-kredit-review_textDetail__QO7rr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'kualifikasi-kredit-review_textDetail__QO7rr' and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7366bdd1-9ff0-4ec5-a94e-ac15b875d297</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit-review_textDetail__QO7rr</value>
+      <webElementGuid>4003a7b3-56ee-4748-a884-d59d64f549c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Detail Mobil</value>
+      <webElementGuid>6abc671a-4cc1-43d4-bd54-e83358c27ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_wrapperWithBorderBottom__1swJr&quot;]/div[@class=&quot;kualifikasi-kredit-review_rowWithSpaceBottom__ae7Xb&quot;]/p[@class=&quot;kualifikasi-kredit-review_textDetail__QO7rr&quot;]</value>
+      <webElementGuid>c6853c87-9cda-4cf1-aa17-cffdc37b4945</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
+      <webElementGuid>f79b9c54-b5cd-4cbc-a32b-e8e47c671d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::p[6]</value>
+      <webElementGuid>7024f08b-d9b9-4d8d-bcf0-ae422235fcd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::p[6]</value>
+      <webElementGuid>7cfc30c8-a2f5-4f3c-b64f-51c0c5beba89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/preceding::p[1]</value>
+      <webElementGuid>2ffc4fc4-125a-4fcb-847c-15f31c5a027a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[2]</value>
+      <webElementGuid>c9887300-d321-4320-b65e-8ea381367728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lihat Detail Mobil']/parent::*</value>
+      <webElementGuid>17e13743-0d86-4295-bafb-ba8eb7411bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/p</value>
+      <webElementGuid>0a3bd6a3-c6a1-4321-b7af-6795f16d1fe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]</value>
+      <webElementGuid>db50743b-9bf4-4fb4-b7ea-fcfa7164a524</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

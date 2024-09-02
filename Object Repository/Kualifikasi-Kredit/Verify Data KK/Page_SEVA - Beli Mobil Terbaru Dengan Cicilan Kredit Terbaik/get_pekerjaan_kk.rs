@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Phone_Number</name>
+   <name>get_pekerjaan_kk</name>
    <tag></tag>
-   <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
+   <elementGuidId>f19d5f16-6807-4b8c-b1df-f0ce7a9c012a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
+         <key>XPATH</key>
+         <value>//input[@value='Karyawan Swasta']</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>input.inputSelect_inputField__Zpc6V</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,71 +22,63 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8375b9e-4b8d-4a35-bacd-5d1cbada6156</webElementGuid>
+      <webElementGuid>032abf00-ad0f-4639-b8eb-d212f4e944cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>6048408b-326e-4b83-a871-af1d57d3bd80</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>13</value>
-      <webElementGuid>1ec559d2-9332-4cac-b2f3-ae6e12a6cbb4</webElementGuid>
+      <value>text</value>
+      <webElementGuid>f51cd9e3-e3a6-4001-be03-e49c63356dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm undefined </value>
-      <webElementGuid>0654f308-a91f-4206-88e3-e72126144d5c</webElementGuid>
+      <value>inputSelect_inputField__Zpc6V</value>
+      <webElementGuid>e0a88f86-9586-4a33-a84b-2d8fca8317c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan nomor HP</value>
-      <webElementGuid>a3e0d50b-1d09-441e-94a7-1f5b3718ecf0</webElementGuid>
+      <value>Pilih Pekerjaan</value>
+      <webElementGuid>22828ae9-4f24-4362-8f6f-0770d4ff8914</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>value</name>
       <type>Main</type>
-      <value>input-phone-number</value>
-      <webElementGuid>16323ef3-b90e-49f0-825e-de55f9fc6476</webElementGuid>
+      <value>Karyawan Swasta</value>
+      <webElementGuid>e742a710-334a-4cb5-9986-bdd8923b7a48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined undefined&quot;]/input[@class=&quot;inputPhone_input__r86Wm undefined&quot;]</value>
-      <webElementGuid>2281612a-229f-4370-b163-4ae86778c554</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormJob__JEX9B&quot;]/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
+      <webElementGuid>03a28b6f-c39a-4c21-ab6a-198ff1199004</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='']</value>
-      <webElementGuid>26d9b654-94ce-4024-a7ef-2e602df7ca0c</webElementGuid>
+      <value>//input[@value='Karyawan Swasta']</value>
+      <webElementGuid>33013dc2-09ec-4474-b15a-87f0f24b7f7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>605cf97a-3c6e-4310-a0c7-491e0c8c9e47</webElementGuid>
+      <value>//div[@id='__next']/div/div[3]/div[4]/div/div/div/input</value>
+      <webElementGuid>d7fd0960-f794-434c-9379-2218cb2fc1bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>eace44fb-6d82-4ede-88b5-bce54df4b2d8</webElementGuid>
+      <webElementGuid>8b0d9981-6089-4c16-8b5a-a30bb1c63eab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
-      <webElementGuid>47b8deae-f703-40bd-bf49-9538f3c78c4d</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Pilih Pekerjaan']</value>
+      <webElementGuid>4c8fccd3-b265-4290-b1ac-884fc90d21e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

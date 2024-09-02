@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_KK_Sumber Pendapatan</name>
+   <tag></tag>
+   <elementGuidId>a7e4c580-358c-4d6c-bfea-4e727e87082d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='kualifikasi-kredit_subTitleText__WXN8S']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kualifikasi-kredit_subTitleText__WXN8S</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf022b25-b832-4b13-8c65-99915c23c79a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kualifikasi-kredit_subTitleText__WXN8S</value>
+      <webElementGuid>382fb246-0e11-4123-996d-a315106bd61d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sumber Pendapatan</value>
+      <webElementGuid>c10b213c-beca-44cf-b734-9f8a688cc46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_subTitleText__WXN8S&quot;]</value>
+      <webElementGuid>1cb2bbe5-900f-43d3-9d5b-ddc0d5545328</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[3]</value>
+      <webElementGuid>76675d02-3136-41ea-b48f-4a2f2ed567f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kualifikasi Kredit'])[1]/following::div[1]</value>
+      <webElementGuid>572e0d37-adc4-4ff4-95be-11daf43bd8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/following::div[3]</value>
+      <webElementGuid>c06488b0-944e-48f7-a2c7-5e24fcee9bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Karyawan Swasta'])[1]/preceding::div[5]</value>
+      <webElementGuid>d53eac51-b97c-408e-8d1e-91eef9810875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wiraswasta Distributor'])[1]/preceding::div[8]</value>
+      <webElementGuid>9c6f4e2f-a22d-424c-bb82-ffaa5d3e2eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sumber Pendapatan']/parent::*</value>
+      <webElementGuid>8c865869-0b8c-48ad-af0d-e4b56806306e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]</value>
+      <webElementGuid>15e4836b-b1cd-42c1-aeae-09727e2a25ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sumber Pendapatan' or . = 'Sumber Pendapatan')]</value>
+      <webElementGuid>f78a65a2-96df-426f-8f3f-343886a4173b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

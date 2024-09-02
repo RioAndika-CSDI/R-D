@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Phone_Number</name>
+   <name>input_Kode Referral Teman SEVA</name>
    <tag></tag>
-   <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
+   <elementGuidId>35974af1-fd96-4af3-8895-024df611dae2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Contoh: SEVA0000']</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>input.inputWithIcon_inputField__SLmn9.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8375b9e-4b8d-4a35-bacd-5d1cbada6156</webElementGuid>
+      <webElementGuid>6f89ccb7-b5e3-42aa-b8d2-0310f80f29f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>6048408b-326e-4b83-a871-af1d57d3bd80</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>13</value>
-      <webElementGuid>1ec559d2-9332-4cac-b2f3-ae6e12a6cbb4</webElementGuid>
+      <value>text</value>
+      <webElementGuid>7c7708fe-4e03-4f7a-aaf1-23e7951754e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm undefined </value>
-      <webElementGuid>0654f308-a91f-4206-88e3-e72126144d5c</webElementGuid>
+      <value>inputWithIcon_inputField__SLmn9 undefined</value>
+      <webElementGuid>03f7108b-75de-49ca-a6b8-294058ce3f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan nomor HP</value>
-      <webElementGuid>a3e0d50b-1d09-441e-94a7-1f5b3718ecf0</webElementGuid>
+      <value>Contoh: SEVA0000</value>
+      <webElementGuid>63a6c9be-a497-4b15-89f3-e23fcb5c5efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>76a66d6b-6afd-45e8-9ce2-2cb15877eaa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>input-phone-number</value>
-      <webElementGuid>16323ef3-b90e-49f0-825e-de55f9fc6476</webElementGuid>
+      <value>input-kode-referral</value>
+      <webElementGuid>88acacf8-2516-4550-be0f-4992b4730c6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined undefined&quot;]/input[@class=&quot;inputPhone_input__r86Wm undefined&quot;]</value>
-      <webElementGuid>2281612a-229f-4370-b163-4ae86778c554</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormReferral__I1P41&quot;]/div[@class=&quot;formReferralCode_container__szcl7 undefined undefined&quot;]/div[@class=&quot;inputWithIcon_container__g3dBI undefined&quot;]/div[@class=&quot;inputWithIcon_inputArea__n1wI7 false undefined undefined&quot;]/input[@class=&quot;inputWithIcon_inputField__SLmn9 undefined&quot;]</value>
+      <webElementGuid>58ba463a-9fcf-4c70-80d5-3133bddc7bea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='']</value>
-      <webElementGuid>26d9b654-94ce-4024-a7ef-2e602df7ca0c</webElementGuid>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>9015b4a7-29cf-472d-85a6-b69fb466b623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>605cf97a-3c6e-4310-a0c7-491e0c8c9e47</webElementGuid>
+      <value>//div[@id='__next']/div/div[3]/div[6]/div/div/div/input</value>
+      <webElementGuid>4dd2c592-93ec-40a5-b912-96246740e0ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>eace44fb-6d82-4ede-88b5-bce54df4b2d8</webElementGuid>
+      <value>//div[6]/div/div/div/input</value>
+      <webElementGuid>748d3b16-7641-451f-9130-f74e8394f55b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
-      <webElementGuid>47b8deae-f703-40bd-bf49-9538f3c78c4d</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Contoh: SEVA0000']</value>
+      <webElementGuid>53c90339-36e7-4fc5-aed6-ee6699136fe5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
