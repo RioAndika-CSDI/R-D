@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_igpost_rh_quiz</name>
+   <tag></tag>
+   <elementGuidId>26b8a844-1388-44f0-9f39-941776a5017b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='instagramPost_container__ghWgz']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='instagramPost_container__ghWgz']</value>
+      <webElementGuid>01169566-500d-447a-be6e-56fd2c7fc114</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

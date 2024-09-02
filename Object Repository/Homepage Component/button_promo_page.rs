@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_promo_page</name>
+   <tag></tag>
+   <elementGuidId>3dc81fdf-c6ec-42ce-aa0e-b8a61d92dbf8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][2]//*[@class='menuList_menu__b7Ngl']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][2]//*[@class='menuList_menu__b7Ngl']</value>
+      <webElementGuid>6213292e-34f5-43ca-a0df-487b36af55dd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

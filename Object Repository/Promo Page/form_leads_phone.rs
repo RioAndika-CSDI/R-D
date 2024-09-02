@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_leads_phone</name>
+   <tag></tag>
+   <elementGuidId>40f6af69-58a3-4058-8b72-f3ef49131936</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='leads-phone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='leads-phone']</value>
+      <webElementGuid>c4e922f6-27c4-4bc3-932c-b54ae2ff6c37</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

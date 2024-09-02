@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_promo_bank_saqu</name>
+   <tag></tag>
+   <elementGuidId>f93483cf-15c4-4b9a-9d8c-ffbefa662ee0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
+      <webElementGuid>7086edce-0529-4c5a-9a97-310028d732a9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

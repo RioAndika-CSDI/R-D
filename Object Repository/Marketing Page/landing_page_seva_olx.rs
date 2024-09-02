@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>landing_page_seva_olx</name>
+   <tag></tag>
+   <elementGuidId>c356677a-2521-4dac-bc42-057aa2a0cbb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='mobilBaruOlx_wrapperPromo__hCVDJ']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='mobilBaruOlx_wrapperPromo__hCVDJ']</value>
+      <webElementGuid>693cdde2-53cf-4be3-af44-5d0afed2042c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

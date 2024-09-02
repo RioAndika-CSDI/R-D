@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_rh_apa_itu_seva</name>
+   <tag></tag>
+   <elementGuidId>37c6b81a-2ee2-4b0f-a13d-9ee86adfb53e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Kamu Bertanya SEVA Menjawab']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][1]</value>
+      <webElementGuid>cab3b2cc-93a6-4d91-a6f9-fd01c33d257b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apa itu SEVA?</value>
+      <webElementGuid>8084f79a-64d9-4508-9edf-4132dde97841</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ridwanHanifFaq_questionText__ilgkt</value>
+      <webElementGuid>48905e43-4b5a-4922-8739-355d1b0ce26f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
