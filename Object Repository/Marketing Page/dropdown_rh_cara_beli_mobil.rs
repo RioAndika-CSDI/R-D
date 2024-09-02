@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_rh_cara_beli_mobil</name>
+   <tag></tag>
+   <elementGuidId>7c46f917-3de0-4e85-9368-818f2f8aa6af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][2]</value>
+      <webElementGuid>36273ab7-8e00-4bc9-85fa-375e58e4dfa0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

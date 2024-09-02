@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chevron_right</name>
+   <tag></tag>
+   <elementGuidId>2b22e073-a0b8-4097-9e5f-d23ae7bec51e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='chevron-right']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='chevron-right']</value>
+      <webElementGuid>14fac8be-d1c4-4edd-ba85-d9d7e30d0947</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

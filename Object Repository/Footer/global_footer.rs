@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>global_footer</name>
+   <tag></tag>
+   <elementGuidId>4c7d7b24-e9a3-41a3-8c26-95d8b4a5d124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='footer-mobile']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='footer-mobile']</value>
+      <webElementGuid>b9060940-cd4b-49ac-b13b-86504c822d46</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

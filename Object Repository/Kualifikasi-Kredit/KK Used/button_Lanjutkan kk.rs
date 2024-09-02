@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7cf4d2a1-b236-486b-b9b1-4351785f0a87</webElementGuid>
+      <webElementGuid>15448ea0-459a-4f15-bad4-b80a683cf770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>53b1c774-bf2b-4148-867a-0c361218afb2</webElementGuid>
+      <webElementGuid>cffc5ece-7ea0-4124-8497-6be1b49121ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjutkan</value>
-      <webElementGuid>625b187a-b2c0-4504-9ba9-4a43074cedfa</webElementGuid>
+      <webElementGuid>9f998c0b-fb07-4935-a180-46582db71922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingButton__3TK3n&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>a32d72a7-d813-4e25-a7d6-457b2ef7eb19</webElementGuid>
+      <webElementGuid>4a34a6aa-1ce7-4a34-a1d1-a9858ec6de11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div[7]/button</value>
-      <webElementGuid>d770634b-bb8f-49b3-83e0-5393068da1bf</webElementGuid>
+      <webElementGuid>8282f058-8b8e-4b57-8654-a1a5de32262a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/following::button[1]</value>
-      <webElementGuid>9a20d914-8b09-4fec-8248-082ed6590026</webElementGuid>
+      <webElementGuid>e0cdab52-4833-4fde-9e36-d715eee0942b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::button[1]</value>
-      <webElementGuid>92e53452-bbbe-4ef3-b8de-32027bf017e9</webElementGuid>
+      <webElementGuid>f6b2e784-6850-44ce-ae13-d569995d99cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>c2008328-8128-4bd4-b6f6-bd29db0dca4c</webElementGuid>
+      <webElementGuid>da73542c-97c9-4f60-9f9d-536d83e3b766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>b37c11df-215a-4fff-a239-da9604e34e8f</webElementGuid>
+      <webElementGuid>296f3fe6-7b98-48f1-9c58-4d2e32fe3c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjutkan']/parent::*</value>
-      <webElementGuid>4d8da5c2-7e14-4f25-9e82-c03312f65fbf</webElementGuid>
+      <webElementGuid>7699efb8-635d-450a-92de-7f6266bf3d11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>66b8ca74-5ba2-4c10-9d5a-c7422cc3a731</webElementGuid>
+      <webElementGuid>9ba84a45-4fb4-40bc-907c-b9e4a2dd8aad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
-      <webElementGuid>6dcec854-6458-4046-951f-ff3fe58259bd</webElementGuid>
+      <webElementGuid>18e8ee27-1a32-45d7-ac4a-0d85e92b048c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

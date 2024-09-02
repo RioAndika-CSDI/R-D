@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lihat_promo_lain</name>
+   <tag></tag>
+   <elementGuidId>cdac4509-02ef-4c65-9b73-dec88429555c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='other-promo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='other-promo']</value>
+      <webElementGuid>4e0c5f53-ca48-4e6d-8e88-233608e85c23</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

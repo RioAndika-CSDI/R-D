@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>footer_ridwan_hanif_page</name>
+   <tag></tag>
+   <elementGuidId>56844340-0566-4139-a6e1-1d3ae4959235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='footerMobile_contentContainer__5sHM0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='footerMobile_contentContainer__5sHM0']</value>
+      <webElementGuid>a905fae4-57c6-4390-bd98-1ecea88dd205</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
