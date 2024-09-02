@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Toyota All New Avanza</name>
+   <tag></tag>
+   <elementGuidId>0c649b20-5c4b-4d2e-b1d9-09db4a178164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__6SrAw&quot;]/h1[@class=&quot;carOverView_carBrandModelText__wTFE_&quot;][count(. | //*[(text() = 'Toyota All New Avanza' or . = 'Toyota All New Avanza')]) = count(//*[(text() = 'Toyota All New Avanza' or . = 'Toyota All New Avanza')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.carOverView_carBrandModelText__wTFE_</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>bd3a82f9-7594-43e3-b79d-41c9b605e749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>carOverView_carBrandModelText__wTFE_</value>
+      <webElementGuid>af2c1dbf-85f7-4979-a937-b5ae6757736c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>text-car-brand-model</value>
+      <webElementGuid>072ce5ad-81d0-4aed-b519-3fef3bb144c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota All New Avanza</value>
+      <webElementGuid>9c319baf-d648-46fb-ac45-29416e3370cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView_container__6SrAw&quot;]/h1[@class=&quot;carOverView_carBrandModelText__wTFE_&quot;]</value>
+      <webElementGuid>1c0e18e5-2535-40d7-af7c-79fff61ee999</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/h1</value>
+      <webElementGuid>791cfcf8-9102-450f-98bd-7cfa6ea39609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilihan Warna: Black Mica'])[1]/following::h1[1]</value>
+      <webElementGuid>9829622f-eecc-4ba9-a776-8f2cb1f3333f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video'])[1]/following::h1[1]</value>
+      <webElementGuid>0b0ec99e-4599-46d9-a733-97f0d602b6f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h1[1]</value>
+      <webElementGuid>872d9253-351b-417b-94fc-913a06d729ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>da2dbdd1-47df-41bc-95f6-a8be5983afe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Toyota All New Avanza' or . = 'Toyota All New Avanza')]</value>
+      <webElementGuid>f0604489-a6d9-4960-8f66-764fa5d1564b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

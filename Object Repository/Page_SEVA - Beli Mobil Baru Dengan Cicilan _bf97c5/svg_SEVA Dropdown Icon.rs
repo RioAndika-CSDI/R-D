@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>clear_field_kota</name>
+   <name>svg_SEVA Dropdown Icon</name>
    <tag></tag>
-   <elementGuidId>ed0fb637-041f-4637-853c-db47491863ac</elementGuidId>
+   <elementGuidId>e975a610-a02f-48a3-a91a-ffb7c14d7805</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih lokasi pembelian mobilmu'])[1]/following::*[name()='svg'][1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.inputSelect_iconWrapper__UIVlB > div > svg</value>
+         <value>div.inputSelect_iconWrapper__hApg7 > div > svg</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>d7dca00c-159b-4356-8a64-235243bbdf64</webElementGuid>
+      <webElementGuid>69535f86-a9fc-4acb-bf52-e840da7e5df7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,7 @@
       <name>width</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>46cc41c5-ab94-472c-9846-6cfd10a84d00</webElementGuid>
+      <webElementGuid>adaaa0e7-78d6-414c-825a-042bddf6678b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>height</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>0d71ec2c-842e-4dc3-9c76-b1d04fbd3392</webElementGuid>
+      <webElementGuid>86f97e97-6d54-4ddf-a7e1-7c4bc1db83db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +46,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>70a428c4-35c1-48fc-b5dc-f019dfe25928</webElementGuid>
+      <webElementGuid>53601140-ebae-401e-8422-dd10788072b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +54,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>b3c40655-2238-430f-aa52-ecb71082b715</webElementGuid>
+      <webElementGuid>bed657ee-0dbf-4900-b62e-a8cfdc7a426f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,31 +62,39 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>a399a9af-685f-4ae5-b65c-b754339bae6e</webElementGuid>
+      <webElementGuid>b65c7a20-a509-4c6f-b862-637ac69cbd12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA Dropdown Icon</value>
+      <webElementGuid>b741eb7f-48ce-4e3d-9604-681e93746f9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>df02c233-25f3-4d0c-9d02-a05c104ce4de</webElementGuid>
+      <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat city-selector-custom-modal&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;citySelectorModal_inputSelectWrapper__N9vcM&quot;]/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_iconWrapper__hApg7&quot;]/div[1]/svg[1]</value>
+      <webElementGuid>07a56f3a-bb14-47d4-95b0-7c1c0d2d3fd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>3aee3d9a-a3ee-4f7c-821e-eb7f0bbc7df6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih lokasi pembelian mobilmu'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>30d64b15-9e2f-4f31-8058-b9acee191b46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Tahu Kemampuan Finansialmu'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>91f85d5b-d3cc-420d-958c-85490833f3ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>de12e0d9-4411-40b2-ac31-28adf78cb2e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>7ae7a660-373d-40a8-a8e4-383ad9081100</webElementGuid>
+      <webElementGuid>df623bbd-a9af-4790-8366-93c006da96ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +110,14 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>029114dd-7b0d-4cdf-b1ee-4578c9991438</webElementGuid>
+      <webElementGuid>3f70a602-1857-42aa-a416-54a4f17a2b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'SEVA Dropdown Icon' or . = 'SEVA Dropdown Icon')]</value>
+      <webElementGuid>a9441e6f-d2f1-4072-a3f3-566709f25c81</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

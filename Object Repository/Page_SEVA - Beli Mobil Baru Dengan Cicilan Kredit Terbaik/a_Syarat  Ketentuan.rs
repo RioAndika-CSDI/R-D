@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Syarat  Ketentuan</name>
+   <tag></tag>
+   <elementGuidId>017f2f49-f1bc-4aba-8e0e-b1a5556b3b57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_linkedTextWrapper__XwFpG > a:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/footer/div/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0cf338e3-d68b-4d66-ae5c-3a6acc9bfa08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Cari tahu lebih lanjut tentang Syarat &amp; Ketentuan</value>
+      <webElementGuid>4fae1046-f086-495f-bf60-1939269e3401</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.seva.id/info/syarat-dan-ketentuan/</value>
+      <webElementGuid>8b2102e0-bb48-461d-bf54-f36419d73bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer noopener</value>
+      <webElementGuid>eba1959d-423c-4ada-bfcc-41b8524f5f74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>9d0ccb8c-7e04-46e4-b3c5-c7b6fbcea104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>footer-syarat-ketentuan</value>
+      <webElementGuid>2b6360ae-c531-444f-8526-6c06934a7950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Syarat &amp; Ketentuan</value>
+      <webElementGuid>ec0bc8ce-0039-4000-a857-010dbc17d338</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/footer[@class=&quot;footerMobile_container__EKgOP&quot;]/div[@class=&quot;footerMobile_contentContainer__jRnMy&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__XwFpG&quot;]/a[2]</value>
+      <webElementGuid>341f3d26-5200-410e-a34c-f637aaa8ce11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/footer/div/div/a[2]</value>
+      <webElementGuid>4e61b581-7a2f-4809-884a-f57c3ffbbab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Syarat &amp; Ketentuan')]</value>
+      <webElementGuid>07e092f5-760a-4e37-8650-01cad04fd8de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang SEVA'])[2]/following::a[1]</value>
+      <webElementGuid>b2c450fb-d637-4da2-b93d-74533a87ca1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[6]/following::a[2]</value>
+      <webElementGuid>2c5daec1-ebdf-45c3-a498-1f6bf38285a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>642cf1da-38d6-45ff-9e4a-ce4f46c8510f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::a[2]</value>
+      <webElementGuid>cf1327ce-c9e2-41ea-b212-b690b4e15e46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Syarat &amp; Ketentuan']/parent::*</value>
+      <webElementGuid>cd1109bd-2725-4861-bc50-67581ac4dfb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.seva.id/info/syarat-dan-ketentuan/')]</value>
+      <webElementGuid>ad4e150a-7768-40d1-bcdd-269c90ddd5c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/div/a[2]</value>
+      <webElementGuid>a263ebbb-dabf-4cf5-be8f-7026f2b18416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.seva.id/info/syarat-dan-ketentuan/' and (text() = 'Syarat &amp; Ketentuan' or . = 'Syarat &amp; Ketentuan')]</value>
+      <webElementGuid>d2beaf51-d39e-4224-9d1b-54c45628306f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

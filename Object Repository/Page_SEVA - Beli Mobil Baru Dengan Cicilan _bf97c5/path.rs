@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>d0919e43-7f28-4672-9d97-e9ae3b30cd19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.headerMobile_right__40Snk > div > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>5c21f754-023d-47ac-a054-91dbf7783c44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>11f17bfe-7a30-480e-885d-282747d643d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>e45bf960-1d6c-4393-b6b3-d8a15a46d34e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M19.5833 6.5C12.9099 6.5 7.5 11.9099 7.5 18.5833C7.5 19.7943 7.95403 21.194 8.78852 22.7153C9.61639 24.2245 10.7703 25.7661 12.0526 27.2373C14.6172 30.1797 17.594 32.7257 19.1976 34.0237C19.4282 34.2104 19.7384 34.2104 19.9691 34.0237C21.5726 32.7257 24.5494 30.1797 27.1141 27.2373C28.3964 25.7661 29.5503 24.2245 30.3781 22.7153C31.2126 21.194 31.6667 19.7943 31.6667 18.5833C31.6667 11.9099 26.2568 6.5 19.5833 6.5ZM5 18.5833C5 10.5292 11.5292 4 19.5833 4C27.6375 4 34.1667 10.5292 34.1667 18.5833C34.1667 20.3817 33.5073 22.2089 32.57 23.9176C31.6261 25.6383 30.3499 27.3297 28.9987 28.8799C26.2963 31.9804 23.1925 34.631 21.5419 35.9669C20.3941 36.896 18.7725 36.896 17.6247 35.9669C15.9742 34.631 12.8704 31.9804 10.168 28.8799C8.81677 27.3297 7.54053 25.6383 6.59663 23.9176C5.65936 22.2089 5 20.3817 5 18.5833Z</value>
+      <webElementGuid>b7c0c0d7-bd4d-4241-af64-8b8b3eb360c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#05256E</value>
+      <webElementGuid>46857387-4a3e-40e9-a8a0-ef396996fdad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;mainHeroLp_supergraphic__xRwMW&quot;]/div[@class=&quot;mainHeroLp_mainContent__C_NY_&quot;]/header[@class=&quot;headerMobile_wrapper__AF_ul headerMobile_showHeader__qWGqN headerMobile_homepage__remEL&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__el90Q&quot;]/div[@class=&quot;headerMobile_container__2UZwI&quot;]/div[@class=&quot;headerMobile_right__40Snk&quot;]/div[1]/svg[1]/path[1]</value>
+      <webElementGuid>96f89430-70db-41ff-bbeb-5059205abf5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GH003_VerifyUserCanCloseSearchBar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98170f76-5129-4e6a-8cda-e2c5df58126c</testCaseGuid>
+</TestCaseEntity>
