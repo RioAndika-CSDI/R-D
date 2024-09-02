@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>clear_field_kota</name>
+   <name>svg_X_icon</name>
    <tag></tag>
-   <elementGuidId>ed0fb637-041f-4637-853c-db47491863ac</elementGuidId>
+   <elementGuidId>acb1bedd-a2ad-4fb5-b7ab-443df1d69f34</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
+         <key>CSS</key>
+         <value>a:nth-of-type(2) > svg</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.inputSelect_iconWrapper__UIVlB > div > svg</value>
+         <value>~~</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>d7dca00c-159b-4356-8a64-235243bbdf64</webElementGuid>
+      <webElementGuid>b07df395-6bbc-4158-b0fd-11b266dfafd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>25</value>
-      <webElementGuid>46cc41c5-ab94-472c-9846-6cfd10a84d00</webElementGuid>
+      <value>24</value>
+      <webElementGuid>a88634e4-c675-445e-8cc1-17bd1be367f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>25</value>
-      <webElementGuid>0d71ec2c-842e-4dc3-9c76-b1d04fbd3392</webElementGuid>
+      <value>24</value>
+      <webElementGuid>98404793-91d8-48d0-9c82-376e6469da7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>viewBox</name>
       <type>Main</type>
-      <value>0 0 40 40</value>
-      <webElementGuid>70a428c4-35c1-48fc-b5dc-f019dfe25928</webElementGuid>
+      <value>0 0 32 32</value>
+      <webElementGuid>7dfcf1e3-7109-49ab-9629-2352429df5c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +54,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>b3c40655-2238-430f-aa52-ecb71082b715</webElementGuid>
+      <webElementGuid>afe73740-ee1d-42c9-b11e-58311f8f8825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,46 +62,46 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>a399a9af-685f-4ae5-b65c-b754339bae6e</webElementGuid>
+      <webElementGuid>c666009d-e48c-4875-9052-412759e5979a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>df02c233-25f3-4d0c-9d02-a05c104ce4de</webElementGuid>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/footer[@class=&quot;footerMobile_container__EKgOP&quot;]/div[@class=&quot;footerMobile_contentContainer__jRnMy&quot;]/div[@class=&quot;footerMobile_socialWrapper__XcMvf&quot;]/a[2]/svg[1]</value>
+      <webElementGuid>efc6ef8f-4f69-49f0-806e-ead150b231fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>3aee3d9a-a3ee-4f7c-821e-eb7f0bbc7df6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>5498cf1d-57a9-4e6d-8359-2314cad83dc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Tahu Kemampuan Finansialmu'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>91f85d5b-d3cc-420d-958c-85490833f3ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>905be75f-267c-4488-9c3a-7dd7357cc0ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>7ae7a660-373d-40a8-a8e4-383ad9081100</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>79f613e2-3e08-4572-aeb9-40228c2870a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>029114dd-7b0d-4cdf-b1ee-4578c9991438</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>7405fec3-0a37-492e-80fc-b0c94c3b7aef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

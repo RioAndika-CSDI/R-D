@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Hubungi Kami</name>
+   <tag></tag>
+   <elementGuidId>9b0972cd-44d0-4241-8afc-ce63746347bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footerMobile_linkedTextWrapper__XwFpG > a:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/footer/div/div/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0362fbcb-3c91-4898-bc3a-22c47e52d29b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Cari tahu lebih lanjut tentang Hubungi Kami</value>
+      <webElementGuid>076eb5ec-68fe-4f2a-bcb7-6ac0dd275630</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.</value>
+      <webElementGuid>6ea08342-c2b3-4c09-9b1e-280cc3cb4170</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer noopener</value>
+      <webElementGuid>27665459-abc5-4ea3-87e6-5eaff8c79abe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>4ad8bf9b-ef69-4919-bf36-0fb772cb9bb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>footer-hubungi-kami</value>
+      <webElementGuid>1ea4474f-b98d-40e1-8d6e-7df05c915384</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hubungi Kami</value>
+      <webElementGuid>f3434ae8-0be6-4983-905a-179f19573786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/footer[@class=&quot;footerMobile_container__EKgOP&quot;]/div[@class=&quot;footerMobile_contentContainer__jRnMy&quot;]/div[@class=&quot;footerMobile_linkedTextWrapper__XwFpG&quot;]/a[4]</value>
+      <webElementGuid>3b2e1306-4d0e-4328-9df1-e2489ca48ceb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/footer/div/div/a[4]</value>
+      <webElementGuid>37e32f4d-a34f-4cf2-b9fb-2ec0bab2b190</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Hubungi Kami')]</value>
+      <webElementGuid>2ef61575-4414-43dc-80cf-253d23c56522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::a[1]</value>
+      <webElementGuid>1b40c6cd-0fa9-43ab-967c-c20a43a8cea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/following::a[2]</value>
+      <webElementGuid>e17061f8-b0e7-4159-8782-2e8496abe9f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/preceding::a[6]</value>
+      <webElementGuid>86b48833-2e8c-40fb-99be-4a6c9b57e32b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/preceding::a[6]</value>
+      <webElementGuid>59786a7d-9e9b-48cd-a501-a4aef5e391f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hubungi Kami']/parent::*</value>
+      <webElementGuid>01ae6b3a-b1ca-4ad9-ab02-f1261aedbd8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.')]</value>
+      <webElementGuid>debf2b6a-8569-4b9d-9995-1175433fcc74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/div/a[4]</value>
+      <webElementGuid>92a3a18f-9e41-47fd-b2a5-0e99880174e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://wa.me/6289690008888?text=Halo%2C%20saya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20layanan%20yang%20tersedia%20di%20SEVA.' and (text() = 'Hubungi Kami' or . = 'Hubungi Kami')]</value>
+      <webElementGuid>8bd46e7b-b212-4fea-b8ee-ecc58607cff2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
