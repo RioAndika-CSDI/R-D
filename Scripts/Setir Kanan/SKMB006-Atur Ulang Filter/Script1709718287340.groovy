@@ -16,13 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-if (open_browser.toString().equals('1')) {
-WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
-        , ('url_skmb001') : url_skmb001, ('brand') : brand, ('tahun') : tahun, ('transmisi') : transmisi, ('plat') : plat
-        , ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : '', ('screen') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
+if (open_browser.toString().equals('1')) {
+    WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
+            , ('url_skmb001') : url_skmb001, ('brand') : brand, ('body') : body, ('tahun') : tahun, ('transmisi') : transmisi
+            , ('plat') : plat, ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : navigateFilter_tambahan
+            , ('screen') : screen], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
 }
 
 WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter Setelah Filter'), 0)
@@ -39,6 +40,11 @@ WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/Filter/button_Atu
 WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Merek Mobil'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Filter/selectItem_Brand selected_1st'), 0)
+
+'--Bagian Body--'
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_body type'), 0)
+
+WebUI.verifyElementNotPresent(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type selected 1st'), 0)
 
 '--Bagian Tahun--'
 WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Tahun Mobil'), 0)

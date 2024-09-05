@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formTransmission_boxOnclick__pPjms' and (contains(text(), '${plat}') or contains(., '${plat}'))]</value>
+         <value>//*[starts-with(@class, 'formTransmission_boxOnclick') and (contains(text(), '${plat}') or contains(., '${plat}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formTransmission_boxOnclick__pPjms</value>
-      <webElementGuid>319bdbb1-6406-4c04-9f3d-ad9857833d34</webElementGuid>
+      <value>formTransmission_boxOnclick</value>
+      <webElementGuid>28ad8f3b-8857-41c9-92e5-eb227bca92de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${plat}</value>
-      <webElementGuid>5c536f61-7498-4715-926b-48b112219af7</webElementGuid>
+      <webElementGuid>37e182aa-4987-422b-aba7-9a00f6407189</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

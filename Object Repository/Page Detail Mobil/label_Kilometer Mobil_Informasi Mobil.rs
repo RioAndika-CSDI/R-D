@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'description_openSans__W5xEx'])[1]</value>
+         <value>(//*[starts-with(@class, 'description_openSans')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>description_openSans__W5xEx</value>
-      <webElementGuid>e57067ea-15c8-4853-afe0-04797045e193</webElementGuid>
+      <value>description_openSans</value>
+      <webElementGuid>0eb7c77c-96f4-497f-81d7-1a20a2a9ae09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,14 +26,14 @@
       <name>text</name>
       <type>Main</type>
       <value>km</value>
-      <webElementGuid>422c37c6-da77-4875-b438-25071a581616</webElementGuid>
+      <webElementGuid>843d3561-b580-4345-9b1f-571b84254e02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'description_openSans__W5xEx'])[1]</value>
-      <webElementGuid>7dc4ca8a-66eb-4f59-9a0d-d8bcbb15b1e8</webElementGuid>
+      <value>(//*[starts-with(@class, 'description_openSans')])[2]</value>
+      <webElementGuid>8158be3d-2e67-4169-ab06-08ea0c28d96d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

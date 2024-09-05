@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Popup OTP</name>
+   <name>selectItem_Body type selected</name>
    <tag></tag>
-   <elementGuidId>0ee64674-efdd-4b12-95ed-021aba81cef9</elementGuidId>
+   <elementGuidId>7bfc2d85-4622-4702-9f3d-fc04fed5e751</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'title-text-popup-otp']</value>
+         <value>//*[starts-with(@class, 'formSelectBrandCar_boxOnclick') and @data-testid = 'type-${body}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>otp_titleText__gSCN4</value>
-      <webElementGuid>80317090-82cd-4cca-8712-f40ad90c2a82</webElementGuid>
+      <value>formSelectBrandCar_boxOnclick</value>
+      <webElementGuid>5312c7c3-31f9-41c2-a1e0-450ae08e8411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>title-text-popup-otp</value>
-      <webElementGuid>9c0da746-97e3-4b5f-a4ea-2d792c0278fa</webElementGuid>
+      <value>type-${body}</value>
+      <webElementGuid>46a91de3-e64b-4c36-a28a-ed92abef7c5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

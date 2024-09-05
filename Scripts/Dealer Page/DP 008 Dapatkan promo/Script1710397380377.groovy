@@ -23,8 +23,6 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail d
 
 WebUI.click(findTestObject('Page - Detail dealer/Button Dapatkan promo_detail dealer'))
 
-WebUI.scrollToElement(findTestObject('Page - Detail dealer/Halaman Submit leads'), 0)
-
 WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
 
 WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
@@ -42,4 +40,6 @@ WebUI.click(findTestObject('Page - Detail dealer/Field input OTP'))
 WebUI.setText(findTestObject('Page - Detail dealer/Field input OTP'), otp)
 
 WebUI.verifyElementPresent(findTestObject('Page - Detail dealer/validasi popup nomor berhasil diverifikasi'), 0)
+
+WebUI.closeBrowser()
 

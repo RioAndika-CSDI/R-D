@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputSelect_dropdownItemText__7p2jg inputSelect_greyLabelText__j_t1M' and (text() = '${city}' or . = '${city}')]</value>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItem') and (text() = '${city}' or . = '${city}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,15 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7ba64c6d-1909-4e9e-ba5d-d5705db45cdf</webElementGuid>
+      <webElementGuid>42ce2f13-1227-47aa-89ed-ed093da1fece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemText__7p2jg inputSelect_greyLabelText__j_t1M</value>
-      <webElementGuid>a50994fc-a84c-4fd8-9a3b-568bdc5405e3</webElementGuid>
+      <value>inputSelect_dropdownItem</value>
+      <webElementGuid>a31441d4-0f81-403d-ae36-f1ccbdd10178</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${city}</value>
-      <webElementGuid>35c29256-c650-4d74-b740-50b74b9b39c1</webElementGuid>
+      <webElementGuid>91c5acbf-6376-436b-8285-45e939199a2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_cardContainer__t4hpH&quot;]/div[@class=&quot;selectWidgetUsedCar_container__oFwOH&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldContainer__w3IIw&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldWrapper__1VXrk&quot;]/div[2]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo inputSelect_dropdownActive__cH79b&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/span[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
-      <webElementGuid>2b2b8bf1-fffa-47a0-91ef-64e475c612d8</webElementGuid>
+      <webElementGuid>ccbe70e7-a9fc-4409-be57-573e68c735a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[3]/div/div/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/span</value>
-      <webElementGuid>df581ae5-b28a-49a2-8556-c18bafc764bf</webElementGuid>
+      <webElementGuid>7d473bf2-7872-482f-9bb3-706a697e13d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandar Lampung'])[1]/following::span[1]</value>
-      <webElementGuid>e5fc1540-68c4-403c-9944-036cd38b3107</webElementGuid>
+      <webElementGuid>509889f1-0bb8-45bd-bd58-f39359ebf576</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/following::span[2]</value>
-      <webElementGuid>336be443-b4b5-4efc-a6bf-92edb5d97979</webElementGuid>
+      <webElementGuid>25123082-c8f4-4568-9df2-1e4d232c6114</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Banjarmasin'])[1]/preceding::span[1]</value>
-      <webElementGuid>cc278c2c-5ab4-44bb-86a9-0895199d3773</webElementGuid>
+      <webElementGuid>938cfdfc-3d2b-4bc1-843f-072d8efe9905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Batam'])[1]/preceding::span[2]</value>
-      <webElementGuid>48c3bce4-6bf9-4cdd-b073-4877fad87ccd</webElementGuid>
+      <webElementGuid>f6a68eec-f97a-46a1-ab41-143504393d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bandung']/parent::*</value>
-      <webElementGuid>dd776c1f-9661-41a0-a345-3a629bde039f</webElementGuid>
+      <webElementGuid>68d0a03f-95f0-4713-b14b-2c63b13621b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/span</value>
-      <webElementGuid>21c8baf2-cf38-4e85-b01a-ca88dbb0e7c4</webElementGuid>
+      <webElementGuid>dfa43f51-c29b-4790-9f65-af6765b9a09d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Bandung' or . = 'Bandung')]</value>
-      <webElementGuid>b022fa6c-2e07-4ce9-ab2b-82edcfe2f113</webElementGuid>
+      <webElementGuid>443dbf68-e0f1-440c-92c4-b00a55aafb97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

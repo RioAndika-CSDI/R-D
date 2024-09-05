@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 001 Menampilkan halaman dealer p
 WebUI.scrollToElement(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA_b303f5/div_Daihatsu', [('dealer') : dealer]), 
     0)
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
+
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA_b303f5/div_Daihatsu', [('dealer') : dealer]))
 
 WebUI.waitForPageLoad(50)

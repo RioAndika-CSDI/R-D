@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 if (open_browser.toString().equals('1')) {
     WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
-            , ('url_skmb001') : url_skmb001, ('brand') : brand, ('tahun') : tahun, ('transmisi') : transmisi, ('plat') : plat
-            , ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : '', ('screen') : ''], 
-        FailureHandling.STOP_ON_FAILURE)
+            , ('url_skmb001') : url_skmb001, ('brand') : brand, ('body') : body, ('tahun') : tahun, ('transmisi') : transmisi
+            , ('plat') : plat, ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : ''
+            , ('screen') : ''], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
 }

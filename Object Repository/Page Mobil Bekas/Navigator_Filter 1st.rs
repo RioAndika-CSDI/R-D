@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='navigationfiltermobile_navOuter__9ZZHh'])[1]</value>
+         <value>(//*[starts-with(@class, 'navigationfiltermobile_navOuter')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='navigationfiltermobile_navOuter__9ZZHh'])[1]</value>
-      <webElementGuid>7a66614b-057d-4788-b05c-05aee2e45824</webElementGuid>
+      <value>(//*[starts-with(@class, 'navigationfiltermobile_navOuter')])[1]</value>
+      <webElementGuid>364946f6-5ce5-4749-b982-02b97df3c83a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationfiltermobile_navOuter</value>
+      <webElementGuid>22181643-cd0c-4a23-a5cb-0eea262b6dee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

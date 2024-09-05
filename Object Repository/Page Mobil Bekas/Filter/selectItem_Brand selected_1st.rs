@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'formSelectBrandCarFilter_boxOnclickFilter__b9HUt'])[1]</value>
+         <value>(//*[starts-with(@class, 'formSelectBrandCarFilter_boxOnclickFilter')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'formSelectBrandCarFilter_boxOnclickFilter__b9HUt'])[1]</value>
-      <webElementGuid>1caf0bc4-b98b-41e9-b4a8-1db6b80cbd6b</webElementGuid>
+      <value>(//*[starts-with(@class, 'formSelectBrandCarFilter_boxOnclickFilter')])[1]</value>
+      <webElementGuid>db72a63f-3efa-4c76-aff0-f52dd10c2190</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSelectBrandCarFilter_boxOnclickFilter</value>
+      <webElementGuid>a4e3aeaf-56c3-45c0-98c5-c737a27f0533</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

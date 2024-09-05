@@ -22,10 +22,9 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 001 Menampilkan halaman dealer p
 
 WebUI.click(findTestObject('Object Repository/Page_Temukan Dealer Mobil Baru Rekanan SEVA_b303f5/svg merek halaman dealer'))
 
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/div_Daihatsu CTA', [('brand') : brand]))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/button_Nanti Saja popup atas'), 
-    FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/div_Daihatsu CTA', [('brand') : brand]))
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/button_Terapkan'))
 

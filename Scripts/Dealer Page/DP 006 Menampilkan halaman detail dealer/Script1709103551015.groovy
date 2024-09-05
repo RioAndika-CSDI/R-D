@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar'), 
-    [('city') : city, ('dealer') : dealer, ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1'
-        , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealer Page/DP 004 Cari dealer berdasarkan brand mobil dan location dari search widget'), 
+    [('city') : city, ('dealer') : dealer, ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('close_browser') : '0'
+        , ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Page - Dealer Location/Kontak dealer', [('id') : kontak_dealer_ke]), 0)
 

@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'carVariantList_titleLocation__m2zf1']</value>
+         <value>//*[starts-with(@class, 'carVariantList_titleLocation')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>carVariantList_titleLocation__m2zf1</value>
-      <webElementGuid>5dd2bc5f-2045-4a70-90d7-119644a79199</webElementGuid>
+      <value>carVariantList_titleLocation</value>
+      <webElementGuid>4f999228-7ca5-48a6-93a0-cc3b21f4a903</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

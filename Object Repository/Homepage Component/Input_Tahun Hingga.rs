@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
+         <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSearchYear_container__wvuqm</value>
-      <webElementGuid>3562852d-c43a-4d16-b41e-ac09c0943409</webElementGuid>
+      <webElementGuid>fa61b684-1c38-44e9-af8c-d235f1985423</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hingga</value>
-      <webElementGuid>85bdcd93-741d-401d-b357-fcbc8184e1f4</webElementGuid>
+      <webElementGuid>601ec046-a783-48d3-909b-0f983f8fb385</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>2242d71e-1170-4aa3-8919-cf7c8099dbd8</webElementGuid>
+      <webElementGuid>120995d9-7a16-4ef0-ac34-be443fc773af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,14 +42,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>53751708-05b1-4088-856f-eee740912786</webElementGuid>
+      <webElementGuid>66a82f40-1b05-4a40-9809-185b7a20df2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
-      <webElementGuid>53df5cbf-d58d-410b-bdbf-f7c156b5e9fd</webElementGuid>
+      <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
+      <webElementGuid>ad4da65b-1086-4338-8e72-f49a4c6147ee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

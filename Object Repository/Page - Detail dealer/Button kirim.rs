@@ -7,22 +7,21 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN leadsFormTertiary_button___2U20' and @data-test-id = 'submit-pdp-leads']</value>
+         <value>//*[@data-test-id = 'submit-pdp-leads']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN leadsFormTertiary_button___2U20</value>
-      <webElementGuid>9c7857de-21d9-412b-80d1-ef9f79343462</webElementGuid>
+      <webElementGuid>5b908831-8531-426e-bbc1-10d478179f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +29,6 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>submit-pdp-leads</value>
-      <webElementGuid>b04ee575-0858-41ba-86be-da241d5c1bb9</webElementGuid>
+      <webElementGuid>bfbef44c-f0b4-40fe-9848-9791cb069a15</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
