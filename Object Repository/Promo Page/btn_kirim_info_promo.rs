@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_kirim_info_promo</name>
+   <tag></tag>
+   <elementGuidId>5436786c-5bac-4eac-bf9f-1daba1ce4532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='leads-submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='leads-submit']</value>
+      <webElementGuid>2267b6ff-d6aa-484c-8307-b0363f018819</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

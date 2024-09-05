@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Kode Referral Teman SEVA</name>
+   <tag></tag>
+   <elementGuidId>35974af1-fd96-4af3-8895-024df611dae2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Contoh: SEVA0000']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.inputWithIcon_inputField__SLmn9.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6f89ccb7-b5e3-42aa-b8d2-0310f80f29f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7c7708fe-4e03-4f7a-aaf1-23e7951754e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputWithIcon_inputField__SLmn9 undefined</value>
+      <webElementGuid>03f7108b-75de-49ca-a6b8-294058ce3f8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Contoh: SEVA0000</value>
+      <webElementGuid>63a6c9be-a497-4b15-89f3-e23fcb5c5efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>76a66d6b-6afd-45e8-9ce2-2cb15877eaa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-kode-referral</value>
+      <webElementGuid>88acacf8-2516-4550-be0f-4992b4730c6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormReferral__I1P41&quot;]/div[@class=&quot;formReferralCode_container__szcl7 undefined undefined&quot;]/div[@class=&quot;inputWithIcon_container__g3dBI undefined&quot;]/div[@class=&quot;inputWithIcon_inputArea__n1wI7 false undefined undefined&quot;]/input[@class=&quot;inputWithIcon_inputField__SLmn9 undefined&quot;]</value>
+      <webElementGuid>58ba463a-9fcf-4c70-80d5-3133bddc7bea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>9015b4a7-29cf-472d-85a6-b69fb466b623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[6]/div/div/div/input</value>
+      <webElementGuid>4dd2c592-93ec-40a5-b912-96246740e0ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/input</value>
+      <webElementGuid>748d3b16-7641-451f-9130-f74e8394f55b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Contoh: SEVA0000']</value>
+      <webElementGuid>53c90339-36e7-4fc5-aed6-ee6699136fe5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

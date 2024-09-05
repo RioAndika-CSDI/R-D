@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>KK004 - Kualifikasi Kredit Review</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bc6b40d-38dd-40a4-8973-f71bc21fd922</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57fea0bf-6652-415c-bc9e-1e02d3d8ee77</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57fea0bf-6652-415c-bc9e-1e02d3d8ee77</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

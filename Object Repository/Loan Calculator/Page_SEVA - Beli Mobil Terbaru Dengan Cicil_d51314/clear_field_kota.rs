@@ -6,6 +6,10 @@
    <elementGuidId>ed0fb637-041f-4637-853c-db47491863ac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>div.inputSelect_iconWrapper__UIVlB > div > svg</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>11dbac3f-eda7-4f73-9319-28cc22371c58</webElementGuid>
+      <webElementGuid>d7dca00c-159b-4356-8a64-235243bbdf64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>width</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>7b9fdde8-5045-4eec-846e-adea9c74e596</webElementGuid>
+      <webElementGuid>46cc41c5-ab94-472c-9846-6cfd10a84d00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>height</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>f9633229-f04c-4d1f-9916-f9456bffeccb</webElementGuid>
+      <webElementGuid>0d71ec2c-842e-4dc3-9c76-b1d04fbd3392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>3a82449f-a69e-46f0-8c9f-b754529b3e57</webElementGuid>
+      <webElementGuid>70a428c4-35c1-48fc-b5dc-f019dfe25928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>d1652f68-f9fb-4d9f-835b-94ad16c49be8</webElementGuid>
+      <webElementGuid>b3c40655-2238-430f-aa52-ecb71082b715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>f0712fac-fb27-457a-98f6-83a7c1d9fe92</webElementGuid>
+      <webElementGuid>a399a9af-685f-4ae5-b65c-b754339bae6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-city&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>bb9a2d33-302c-481e-ac9a-39cf26ea6634</webElementGuid>
+      <webElementGuid>df02c233-25f3-4d0c-9d02-a05c104ce4de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>9f3af926-bdd5-4d6d-8e77-6b327f80b86f</webElementGuid>
+      <webElementGuid>3aee3d9a-a3ee-4f7c-821e-eb7f0bbc7df6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Tahu Kemampuan Finansialmu'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>e1023b36-a2f2-4e97-a997-61538375d6fa</webElementGuid>
+      <webElementGuid>91f85d5b-d3cc-420d-958c-85490833f3ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>55d5b917-89e9-4da3-b0c0-8af1bf26daad</webElementGuid>
+      <webElementGuid>7ae7a660-373d-40a8-a8e4-383ad9081100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>d35bce50-a4ae-475e-a1a3-383daef6431d</webElementGuid>
+      <webElementGuid>029114dd-7b0d-4cdf-b1ee-4578c9991438</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

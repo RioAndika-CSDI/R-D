@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_article_rh_2</name>
+   <tag></tag>
+   <elementGuidId>5db93297-e12e-468d-9a29-c55da0e45579</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='articleItem_container__g3b6o'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='articleItem_container__g3b6o'][2]</value>
+      <webElementGuid>3c41304f-b161-474e-86b7-ba9d6dcc746c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GH009_CancelChangeLocation_fromPDP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0ed3e69-8715-4a43-9345-bcb805c6985d</testCaseGuid>
+</TestCaseEntity>

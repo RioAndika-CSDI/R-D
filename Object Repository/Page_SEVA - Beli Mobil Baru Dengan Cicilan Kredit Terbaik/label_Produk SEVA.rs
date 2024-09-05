@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Produk SEVA</name>
+   <tag></tag>
+   <elementGuidId>79297e79-e8e3-4d23-9713-195ea91f2955</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'menuList_mainMenu__KkM7_']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/header/div/div/div[2]/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.menuList_mainMenu__KkM7_</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d0e07875-8773-4a67-a605-5a1a2f3a9881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuList_mainMenu__KkM7_</value>
+      <webElementGuid>9f6c7870-7259-428e-9ce7-fb0a323864b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Produk SEVA</value>
+      <webElementGuid>b7e1bd7b-8846-48c1-88b8-1a7a010e2df0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;mainHeroLp_supergraphic__xRwMW&quot;]/div[@class=&quot;mainHeroLp_mainContent__C_NY_&quot;]/header[@class=&quot;headerMobile_wrapper__AF_ul headerMobile_showHeader__qWGqN headerMobile_isActive__ItLIB&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__el90Q&quot;]/div[@class=&quot;headerMobile_container__2UZwI&quot;]/div[@class=&quot;sidebarMobile_wrapper__GC3AF sidebarMobile_showSidebar__6aJH4&quot;]/div[@class=&quot;menuList_container__bAHlA&quot;]/div[@class=&quot;menuList_menuContainer__AnYdr&quot;]/div[@class=&quot;menuList_menuWrapper__EjJGA&quot;]/p[@class=&quot;menuList_mainMenu__KkM7_&quot;]</value>
+      <webElementGuid>3182e7e9-9b38-45f9-944f-e6b2fdc3664f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/header/div/div/div[2]/div/div/div/p</value>
+      <webElementGuid>167b8685-ddad-4bb3-9548-f0884a4bb1e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/following::p[1]</value>
+      <webElementGuid>ceb8a7ae-efbd-44d6-814f-2f12c798481b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau'])[1]/following::p[1]</value>
+      <webElementGuid>b66e4228-03a5-470d-9275-0cd21da7c65a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Mobil'])[1]/preceding::p[1]</value>
+      <webElementGuid>3402347b-2f86-447b-a39a-ceb44e4294dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/preceding::p[1]</value>
+      <webElementGuid>fbed53a9-0e00-4070-a31a-ee129c8b6aa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Produk SEVA']/parent::*</value>
+      <webElementGuid>732df36f-be02-4ccb-81ba-99a41585a6d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p</value>
+      <webElementGuid>a61eed26-1b08-4c62-b147-6efd45176b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Produk SEVA' or . = 'Produk SEVA')]</value>
+      <webElementGuid>74711c47-6505-4e3c-943d-d4602af62d05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

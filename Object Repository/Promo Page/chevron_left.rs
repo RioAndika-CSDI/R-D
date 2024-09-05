@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chevron_left</name>
+   <tag></tag>
+   <elementGuidId>2ee2a8f1-a565-4405-9303-a35fd93f6122</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='chevron-left']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='chevron-left']</value>
+      <webElementGuid>bbb7f9ec-963e-43a5-b9c3-b7d3f2c900a5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

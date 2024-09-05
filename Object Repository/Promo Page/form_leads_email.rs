@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_leads_email</name>
+   <tag></tag>
+   <elementGuidId>0dee24fb-dc11-4224-a75c-e4b351c4be10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='leads-email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='leads-email']</value>
+      <webElementGuid>338a2ec4-f0d7-4302-9ada-fa859e04c838</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_rh_brand_mobil_seva</name>
+   <tag></tag>
+   <elementGuidId>357fa58b-417b-4d97-a304-7e5612a8c9fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][3]</value>
+      <webElementGuid>c0fff124-f622-4d00-87fe-0ff41fb20fc9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BS_Beli_Mobil_di_Seva</name>
+   <tag></tag>
+   <elementGuidId>542ed037-b30e-4b04-bba5-b0b62689b280</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;promoArchive&quot;]/div[2]/a[1]/div[2]/div[2]/b/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;promoArchive&quot;]/div[2]/a[1]/div[2]/div[2]/b/h2</value>
+      <webElementGuid>ef65ee8d-270c-4a74-8181-ca9e080bc55d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

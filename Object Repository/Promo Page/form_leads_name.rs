@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_leads_name</name>
+   <tag></tag>
+   <elementGuidId>03700c37-57d2-4c52-80f4-3d4d14da663f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='leads-name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='leads-name']</value>
+      <webElementGuid>fe4ba0ba-1bba-462d-a8fc-76461bcebca1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

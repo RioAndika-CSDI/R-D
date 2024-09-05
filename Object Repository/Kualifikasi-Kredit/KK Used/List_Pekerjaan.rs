@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List_Pekerjaan</name>
+   <tag></tag>
+   <elementGuidId>3541a201-72f4-4b6e-b790-bf8cb5395409</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = '${pekerjaan}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Desainer &amp; Pekerja Seni']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b9c644d0-9401-4857-ae31-b87bcb9654a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${pekerjaan}</value>
+      <webElementGuid>26fc87e1-b263-441a-8724-5a271fd2e9a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__oStPv</value>
+      <webElementGuid>b6c79ef5-8459-4879-8ba2-e5a0f63f72f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Desainer &amp; Pekerja Seni</value>
+      <webElementGuid>c63702ee-51ab-4da2-a2dd-e64401cf23e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Desainer &amp; Pekerja Seni&quot;)</value>
+      <webElementGuid>16ccd11e-2d35-4c55-a4cc-5be3a907cdbb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='Desainer &amp; Pekerja Seni']</value>
+      <webElementGuid>30188a71-5d7b-4989-96dc-c23ff7079376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[4]/div/div[2]/div[13]</value>
+      <webElementGuid>4cef2c66-1b8d-4f72-b5b1-6560e32baa7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerja Informal'])[1]/following::div[1]</value>
+      <webElementGuid>e2ddf911-1845-46dd-acfd-2a524bb6738f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pensiunan'])[1]/following::div[4]</value>
+      <webElementGuid>099a8676-cdda-4fcf-aefe-bfa2aa65a1a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/preceding::div[3]</value>
+      <webElementGuid>62ba58c5-07c0-4bd5-baec-b40d3cf88b77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]</value>
+      <webElementGuid>992d5585-d727-472f-b3b9-5c9c0419d361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'Desainer &amp; Pekerja Seni' and (text() = 'Desainer &amp; Pekerja Seni' or . = 'Desainer &amp; Pekerja Seni')]</value>
+      <webElementGuid>f8de0e70-1925-4fad-ac1a-0b89d86bda2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

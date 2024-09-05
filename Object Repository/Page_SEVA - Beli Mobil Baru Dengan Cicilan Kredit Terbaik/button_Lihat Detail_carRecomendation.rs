@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lihat Detail_carRecomendation</name>
+   <tag></tag>
+   <elementGuidId>4dd5197b-386f-4fb9-98e3-85741b542f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.carRecomendations_alternativeCarLink__b3_wj</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[5]/div[2]/swiper-container/swiper-slide/div/div/a[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>40a5766d-de95-42f0-a05c-458220e740c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>carRecomendations_alternativeCarLink__b3_wj</value>
+      <webElementGuid>c8c98efd-e343-41ac-95b6-b9be7075111a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-lihat-snk</value>
+      <webElementGuid>dc684dd5-e231-42bc-826a-5327cd5c8014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Detail</value>
+      <webElementGuid>c896572c-471f-4e38-bae0-975ddcacae3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;testimonyWidget_container__OiQKA&quot;]/div[2]/swiper-container[@class=&quot;carRecomendations_alternativeCarWrapper__aY0Vr&quot;]/swiper-slide[@class=&quot;swiper-slide-active&quot;]/div[@class=&quot;alternativeCarCard_container__PhVob&quot;]/div[@class=&quot;alternativeCarCard_cardWrapper__NjZ1E cardshadow_cardShadow__OePEF&quot;]/a[3]/button[@class=&quot;carRecomendations_alternativeCarLink__b3_wj&quot;]</value>
+      <webElementGuid>f77ecd9f-ed30-47a2-a498-6e8cd13888f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[5]/div[2]/swiper-container/swiper-slide/div/div/a[3]/button</value>
+      <webElementGuid>751a9881-5dda-4d03-98e4-4a6101047160</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp3.030.000/bln'])[1]/following::button[1]</value>
+      <webElementGuid>0ef30caa-d52e-482c-b47d-e243102cf5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicilan mulai dari'])[1]/following::button[1]</value>
+      <webElementGuid>23b6197d-8608-407b-94c5-acec9a6f34dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[1]/preceding::button[1]</value>
+      <webElementGuid>f9fe2120-4e39-42f9-89d5-24d84461029b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lihat Detail']/parent::*</value>
+      <webElementGuid>ecb6ce35-866a-446a-995a-283c51bcf491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//swiper-slide/div/div/a[3]/button</value>
+      <webElementGuid>0bc94ade-d0a9-4337-b605-0612eed71b86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Lihat Detail' or . = 'Lihat Detail')]</value>
+      <webElementGuid>a0e3f673-71f2-45a1-b4e7-b192df73ecd8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
