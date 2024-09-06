@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Popup OTP</name>
+   <name>label_body type</name>
    <tag></tag>
-   <elementGuidId>0ee64674-efdd-4b12-95ed-021aba81cef9</elementGuidId>
+   <elementGuidId>172fb740-6ee1-49fa-8f17-f3d1b5ef5eb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'title-text-popup-otp']</value>
+         <value>//*[starts-with(@class, 'filtermobile_labelForm') and (text() = 'Tipe Mobil' or . = 'Tipe Mobil')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>otp_titleText__gSCN4</value>
-      <webElementGuid>80317090-82cd-4cca-8712-f40ad90c2a82</webElementGuid>
+      <value>filtermobile_labelForm</value>
+      <webElementGuid>929baa36-b3dc-4adf-8aac-98508c7a071c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>text</name>
       <type>Main</type>
-      <value>title-text-popup-otp</value>
-      <webElementGuid>9c0da746-97e3-4b5f-a4ea-2d792c0278fa</webElementGuid>
+      <value>Tipe Mobil</value>
+      <webElementGuid>3cdbf888-ae5f-4928-b029-e7550eb827e4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

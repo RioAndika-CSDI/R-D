@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'input_titlePrimaryText__rbjIP' and (text() = 'Nama Lengkap' or . = 'Nama Lengkap')]</value>
+         <value>//*[starts-with(@class, 'input_titlePrimaryText') and (text() = 'Nama Lengkap' or . = 'Nama Lengkap')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_titlePrimaryText__rbjIP</value>
-      <webElementGuid>a2b7a7d6-71a0-40e2-8e19-8b47ad9afb03</webElementGuid>
+      <value>input_titlePrimaryText</value>
+      <webElementGuid>697c379e-cf81-430c-8e44-adc9da7e2d93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Nama Lengkap</value>
-      <webElementGuid>7dc1f00d-3b29-4a67-98d8-7d7294d87aaa</webElementGuid>
+      <webElementGuid>8e3a227c-d76f-4ddf-8aca-9eab90d52a50</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

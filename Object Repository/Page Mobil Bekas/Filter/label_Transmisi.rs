@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Transmisi' or . = 'Transmisi') and @class = 'filtermobile_labelForm__I34yz']</value>
+         <value>//*[(text() = 'Transmisi' or . = 'Transmisi') and starts-with(@class, 'filtermobile_labelForm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Transmisi</value>
-      <webElementGuid>5351c64a-5355-490a-abf7-12d48ea26c8f</webElementGuid>
+      <webElementGuid>24e18cb2-00bd-4b0b-8ab2-b07f88f059cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>filtermobile_labelForm__I34yz</value>
-      <webElementGuid>b8cfa74b-2e8d-405a-afef-69806576e967</webElementGuid>
+      <value>filtermobile_labelForm</value>
+      <webElementGuid>d797926d-15a5-4a6f-8253-554ad5807297</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

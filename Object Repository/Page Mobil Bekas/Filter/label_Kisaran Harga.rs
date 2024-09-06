@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Kisaran Harga' or . = 'Kisaran Harga') and @class = 'filtermobile_labelForm__I34yz']</value>
+         <value>//*[(text() = 'Kisaran Harga' or . = 'Kisaran Harga') and starts-with(@class, 'filtermobile_labelForm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Kisaran Harga</value>
-      <webElementGuid>cc651163-9cc8-4100-a914-0ea16a04cc76</webElementGuid>
+      <webElementGuid>3ddeb911-9746-4eea-a0c1-5189c5274ef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>filtermobile_labelForm__I34yz</value>
-      <webElementGuid>7c1a3234-eabc-4f0b-a12f-0452177683bc</webElementGuid>
+      <value>filtermobile_labelForm</value>
+      <webElementGuid>22311865-774c-424c-a3f2-ee0c41a8a6c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

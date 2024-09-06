@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Dari')]//input[@type = 'tel']</value>
+         <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Dari')]//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_container__wvuqm</value>
-      <webElementGuid>c8c94a9c-b8d2-45fe-82ef-85f6b8078f6a</webElementGuid>
+      <value>formSearchYear_container</value>
+      <webElementGuid>bb39eee1-bc3f-4921-8332-51b251e63b65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dari</value>
-      <webElementGuid>83ca661e-d772-4db7-b513-ed2a31cd7d0c</webElementGuid>
+      <webElementGuid>9bef211f-518c-450d-a225-451b96c5f85e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>8f5919a4-264b-494f-8a9c-77f5a522f790</webElementGuid>
+      <webElementGuid>32113560-e548-4363-8f38-829cafb8fa33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,14 +42,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>93934f99-80f4-424a-99ee-d5e8f52e5b42</webElementGuid>
+      <webElementGuid>74afc385-2bdc-42a5-b1ec-ea2dacd5c543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Dari')]//input[@type = 'tel']</value>
-      <webElementGuid>bc6aca9d-d80a-4792-8058-5cf8aa448272</webElementGuid>
+      <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Dari')]//input[@type = 'tel']</value>
+      <webElementGuid>2646ec7c-fb8e-486f-be56-b43c81ece9a5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

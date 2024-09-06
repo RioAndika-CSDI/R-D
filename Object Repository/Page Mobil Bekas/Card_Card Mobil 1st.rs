@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'usedCarDetailCard_contentWrapper__Rfqn5'])[1]</value>
+         <value>(//*[starts-with(@class, 'usedCarDetailCard_contentWrapper')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'usedCarDetailCard_contentWrapper__Rfqn5'])[1]</value>
-      <webElementGuid>639844dd-2715-4a43-aa28-fb990b75f2e0</webElementGuid>
+      <value>(//*[starts-with(@class, 'usedCarDetailCard_contentWrapper')])[1]</value>
+      <webElementGuid>37b7d3b2-c291-4351-be85-5cc320c0bff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>usedCarDetailCard_contentWrapper</value>
+      <webElementGuid>b9c49a46-df1b-4da3-af05-dac3b640752c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'carVariantList_titlePrice__Np8l0']</value>
+         <value>//*[starts-with(@class, 'carVariantList_titlePrice')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>carVariantList_titlePrice__Np8l0</value>
-      <webElementGuid>c49ff1c8-e663-4130-9796-8eee5fd6028b</webElementGuid>
+      <value>carVariantList_titlePrice</value>
+      <webElementGuid>10c55750-9dab-4618-9c2b-bcbdf96751d9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSelectBrandCarFilter_boxFilter__shSVN' and (contains(text(), '${brand}') or contains(., '${brand}'))]</value>
+         <value>//*[starts-with(@class, 'formSelectBrandCarFilter_boxFilter') and (contains(text(), '${brand}') or contains(., '${brand}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCarFilter_boxFilter__shSVN</value>
-      <webElementGuid>34029ef1-ca8d-4088-9a46-3e6d21f588f1</webElementGuid>
+      <value>formSelectBrandCarFilter_boxFilter</value>
+      <webElementGuid>15981e5e-46d0-4cd3-b1c7-ff9a44e708d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${brand}</value>
-      <webElementGuid>97aef4d9-2e06-4788-b637-c4bafba31a08</webElementGuid>
+      <webElementGuid>0cb299ec-6df5-4d06-a8f0-c55975941a06</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

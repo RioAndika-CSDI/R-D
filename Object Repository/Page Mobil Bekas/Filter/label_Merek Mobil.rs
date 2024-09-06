@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Merek Mobil' or . = 'Merek Mobil') and @class = 'filtermobile_labelForm__I34yz']</value>
+         <value>//*[(text() = 'Merek Mobil' or . = 'Merek Mobil') and starts-with(@class, 'filtermobile_labelForm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Merek Mobil</value>
-      <webElementGuid>d27e1105-b796-47ee-8a14-b68fdf16b00c</webElementGuid>
+      <webElementGuid>53c8de8f-322d-4551-bb04-5a0b971c54b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>filtermobile_labelForm__I34yz</value>
-      <webElementGuid>a1187831-1310-4413-b637-a4db954db153</webElementGuid>
+      <value>filtermobile_labelForm</value>
+      <webElementGuid>530b842d-4bfd-482f-b3c9-3eb04c1deb0c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'usedCarDetailCard_locationSmallRegular__nBLCI'])[${id}]</value>
+         <value>(//*[starts-with(@class, 'usedCarDetailCard_locationSmallRegular')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>usedCarDetailCard_locationSmallRegular__nBLCI</value>
-      <webElementGuid>c2e1a7d0-8ead-4f1a-b6dc-4fc7a8e202c4</webElementGuid>
+      <value>usedCarDetailCard_locationSmallRegular</value>
+      <webElementGuid>6236f2f4-2340-41cd-8d11-7e0db24e10c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'usedCarDetailCard_locationSmallRegular__nBLCI'])[${id}]</value>
-      <webElementGuid>27cf511a-6491-4aa9-aff3-9e53e641201c</webElementGuid>
+      <value>(//*[starts-with(@class, 'usedCarDetailCard_locationSmallRegular')])[${id}]</value>
+      <webElementGuid>636f211e-7dc4-485a-a86a-c9add58a80f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

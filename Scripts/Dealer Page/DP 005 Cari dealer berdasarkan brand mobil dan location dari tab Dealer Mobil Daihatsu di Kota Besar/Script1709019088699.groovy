@@ -20,8 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : dealer
         , ('expected_URL') : URL_tc3, ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/h3_Bandung CTA Dealer Mobil di kota besar', 
-        [('city') : city]), 0)
+WebUI.scrollToElement(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/Dealer Carousel Title'), 0)
 
 WebUI.click(findTestObject('Page_Temukan 55 Dealer Mobil Daihatsu di In_cd376c/h3_Bandung CTA Dealer Mobil di kota besar', 
         [('city') : city]))

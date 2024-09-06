@@ -15,6 +15,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>3c28dbf4-2234-40a0-bfa7-e9b4a92e1b6c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>d81af5fe-a61a-4b87-9c2f-f70638340862</variableId>
    </variableLinks>
    <variableLinks>
@@ -77,6 +83,13 @@
       <id>5bdc4eff-2854-419e-87e1-f938913895c4</id>
       <masked>false</masked>
       <name>url_skmb001_Filter</name>
+   </variable>
+   <variable>
+      <defaultValue>'MPV;SUV;Minivan;Wagon'</defaultValue>
+      <description></description>
+      <id>3c28dbf4-2234-40a0-bfa7-e9b4a92e1b6c</id>
+      <masked>false</masked>
+      <name>body_Filter</name>
    </variable>
    <variable>
       <defaultValue>'Toyota;Daihatsu'</defaultValue>
