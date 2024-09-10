@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleListCard_cardArticle__V_I9Z'])[${id}]</value>
+         <value>(//*[@class = 'articleListCard_cardArticle__IU3RP'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleListCard_cardArticle__V_I9Z'])[${id}]</value>
-      <webElementGuid>d3bb48ce-e252-413c-8d82-e4bc20138a6d</webElementGuid>
+      <value>(//*[@class = 'articleListCard_cardArticle__IU3RP'])[${id}]</value>
+      <webElementGuid>3450f138-aa7b-465e-acef-a382537daf02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleListCard_cardArticle__V_I9Z</value>
-      <webElementGuid>606ef88c-ad9e-412c-86bd-e5957f61b0a6</webElementGuid>
+      <value>articleListCard_cardArticle__IU3RP</value>
+      <webElementGuid>411d1b03-0c7f-4036-babb-08a51504f577</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

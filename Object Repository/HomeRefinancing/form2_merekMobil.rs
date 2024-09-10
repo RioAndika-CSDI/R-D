@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form2_merekMobil</name>
+   <tag></tag>
+   <elementGuidId>aa8e8712-f1f0-42be-98cb-ac9f4ec3fa35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[1]</value>
+      <webElementGuid>a2a0efa1-4ce5-4510-bb18-35ebe1876d79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pertanyaa_nama</name>
+   <tag></tag>
+   <elementGuidId>dcc3a20a-0ae2-4d34-b256-669af17348b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='newInput_styledInput__3vryL'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='newInput_styledInput__3vryL'])[3]</value>
+      <webElementGuid>bef46d7e-e8ae-4286-a53a-23a6997a5b76</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

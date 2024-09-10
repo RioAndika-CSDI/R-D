@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form2_tahunMobil</name>
+   <tag></tag>
+   <elementGuidId>4b139d64-6cac-495b-9d98-03896e108b61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[3]</value>
+      <webElementGuid>c35b6a4a-6625-4306-b89a-b5f43bf66e27</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

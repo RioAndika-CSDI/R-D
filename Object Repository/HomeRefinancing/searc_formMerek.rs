@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searc_formMerek</name>
+   <tag></tag>
+   <elementGuidId>c146b04b-0f6c-4031-bdf4-dcbdae9e1b42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[1]</value>
+      <webElementGuid>151499d8-c62f-481b-8dbd-c6c2ae684793</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

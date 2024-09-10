@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleListCard_categoryTextWrapper__eJtLP'])[${id}]</value>
+         <value>(//*[@class = 'articleListCard_categoryTextWrapper__ojr6r'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleListCard_categoryTextWrapper__eJtLP'])[${id}]</value>
-      <webElementGuid>ba729b4e-b215-4c13-9b27-7f26509c9408</webElementGuid>
+      <value>(//*[@class = 'articleListCard_categoryTextWrapper__ojr6r'])[${id}]</value>
+      <webElementGuid>38709407-7e07-4880-9474-9d3316477efc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

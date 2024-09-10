@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'formSearchYear_right')]</value>
+         <value>//*[@class = 'formSearchYear_right__N83qb']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_right</value>
-      <webElementGuid>1bad6a92-fc70-415f-a36e-a0e15ed6816b</webElementGuid>
+      <value>formSearchYear_right__N83qb</value>
+      <webElementGuid>3ca2a475-1801-41f4-b2bf-6251c2e90928</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

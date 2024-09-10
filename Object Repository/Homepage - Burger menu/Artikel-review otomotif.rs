@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuItem_submenu__aUQMo' and (text() = 'Review Otomotif' or . = 'Review Otomotif')]</value>
+         <value>//*[@class = 'menuItem_submenu__OrcK_' and (text() = 'Review Otomotif' or . = 'Review Otomotif')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>e4db6fd1-b1fa-4028-9f0c-cf37aa88331b</webElementGuid>
+      <value>menuItem_submenu__OrcK_</value>
+      <webElementGuid>44499ee4-7068-43c8-afbe-759c6b38a819</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Review Otomotif</value>
-      <webElementGuid>429037fe-a508-4bb6-9891-356128d74bcf</webElementGuid>
+      <webElementGuid>c3e66bb0-dd63-4f0b-8153-57f7b28ce487</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

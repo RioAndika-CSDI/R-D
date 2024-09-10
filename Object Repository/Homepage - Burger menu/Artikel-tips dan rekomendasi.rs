@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuItem_submenu__aUQMo' and (text() = 'Tips &amp; Rekomendasi' or . = 'Tips &amp; Rekomendasi')]</value>
+         <value>//*[@class = 'menuItem_submenu__OrcK_' and (text() = 'Tips &amp; Rekomendasi' or . = 'Tips &amp; Rekomendasi')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>02f80b71-b245-4ddd-9810-0d4da989620e</webElementGuid>
+      <value>menuItem_submenu__OrcK_</value>
+      <webElementGuid>3fa0364c-dc6e-43c8-92db-b4f61f0bda0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Tips &amp; Rekomendasi</value>
-      <webElementGuid>07d50b1c-2dfc-4f4d-8c2f-db3c7c479378</webElementGuid>
+      <webElementGuid>4129a696-f42c-4731-a9eb-ddd72d648c6c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

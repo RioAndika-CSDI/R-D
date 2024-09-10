@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuItem_submenu__aUQMo' and (text() = 'Keuangan' or . = 'Keuangan')]</value>
+         <value>//*[@class = 'menuItem_submenu__OrcK_' and (text() = 'Keuangan' or . = 'Keuangan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>822fe088-0826-4702-982c-87bdbe545e25</webElementGuid>
+      <value>menuItem_submenu__OrcK_</value>
+      <webElementGuid>c732cc5f-3203-46fd-a421-a7ad05e7bc64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Keuangan</value>
-      <webElementGuid>5c1f2eab-afc9-487c-ab23-cf1de9107a6a</webElementGuid>
+      <webElementGuid>36ceee68-b79b-44b0-8194-908d065397fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

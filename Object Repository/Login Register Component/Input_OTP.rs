@@ -6,16 +6,16 @@
    <elementGuidId>cd6d775f-3cf6-4de0-af66-a9cd77115eb7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-2i2tap&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-2i2tap default&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;otp_content__AnDRZ&quot;]/div[@class=&quot;otp_otpGroup__OT1qf&quot;][count(. | //*[@class = 'otp_otpGroup__OT1qf']) = count(//*[@class = 'otp_otpGroup__OT1qf'])]</value>
+         <value>//*[@value = '' and @inputmode = 'numeric']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.otp_otpGroup__OT1qf</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,23 +26,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>20563c90-2564-4adc-8b13-c057e3058773</webElementGuid>
+      <webElementGuid>be3f38a7-0131-4aeb-8388-a40436b935e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>otp_otpGroup__OT1qf</value>
-      <webElementGuid>3d9b5260-1b7d-42f9-93dc-a5775cf4e4e7</webElementGuid>
+      <webElementGuid>d14b53b5-4c1e-4fd5-a898-497850519087</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-2i2tap&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-2i2tap default&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;otp_content__AnDRZ&quot;]/div[@class=&quot;otp_otpGroup__OT1qf&quot;]</value>
-      <webElementGuid>716331ed-8664-421d-bafd-8ac1b5c0e9d9</webElementGuid>
+      <webElementGuid>839207c5-7d5b-4fa1-bd75-b7862d5d7073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>89504fda-3dca-461a-a105-908ebab562a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>inputmode</name>
+      <type>Main</type>
+      <value>numeric</value>
+      <webElementGuid>2ceda707-5d0d-4bd4-ba31-e6411f3e0ef7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Nomor Kamu'])[1]/following::div[1]</value>
-      <webElementGuid>bbbb1dc0-02b5-422d-a516-1555e2a512ba</webElementGuid>
+      <webElementGuid>ade3921f-e955-4cb4-bce1-11a25ab14771</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[13]</value>
-      <webElementGuid>9d00ad1f-922a-4a79-a0ad-e77cd317af04</webElementGuid>
+      <webElementGuid>d6b0657d-2a78-428a-9087-ad0e4bff8678</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;div id=recaptcha-container>&lt;/div>'])[1]/preceding::div[1]</value>
-      <webElementGuid>ec7b504e-b492-4302-9cfd-6c65a2e41983</webElementGuid>
+      <webElementGuid>d06110c5-a2c6-4f3d-a4a1-0b4b1c2f1e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>335c4f40-0228-47da-ac59-31ce797c6e70</webElementGuid>
+      <webElementGuid>b24b4b19-2184-4c7f-816a-7e8d0c2029bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
