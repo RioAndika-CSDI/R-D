@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form2_modelMobil</name>
+   <tag></tag>
+   <elementGuidId>1420783e-4eda-43aa-b3f5-bf4587ee2e3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[2]</value>
+      <webElementGuid>74380c1d-1085-4c93-9bb7-e0bf904c58a5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'formSelectBrandCarFilter_boxOnclickFilter') and (contains(text(), '${brand}') or contains(., '${brand}'))]</value>
+         <value>//*[@class = 'formSelectBrandCarFilter_boxOnclickFilter__b9HUt' and (contains(text(), '${brand}') or contains(., '${brand}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCarFilter_boxOnclickFilter</value>
-      <webElementGuid>595144a9-6eef-409a-a39c-8da4e51b5242</webElementGuid>
+      <value>formSelectBrandCarFilter_boxOnclickFilter__b9HUt</value>
+      <webElementGuid>5fe1994f-7c45-4fcf-9ddf-25d079672829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${brand}</value>
-      <webElementGuid>e82ea259-733c-4532-9b4f-4df83d52b77b</webElementGuid>
+      <webElementGuid>3c2d8082-6211-40f2-96aa-2baf82862efc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleWidget_textTitle____IUT'])[${id}]</value>
+         <value>(//*[@class = 'articleWidget_textTitle__WlXxZ'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleWidget_textTitle____IUT</value>
-      <webElementGuid>2aa6d2d1-262f-493f-9b8e-961488b55e59</webElementGuid>
+      <value>articleWidget_textTitle__WlXxZ</value>
+      <webElementGuid>6403478b-547d-49f6-a213-9aac98e75e72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleWidget_textTitle____IUT'])[${id}]</value>
-      <webElementGuid>d3b3e2c3-a381-4499-a7f8-a2061e08205f</webElementGuid>
+      <value>(//*[@class = 'articleWidget_textTitle__WlXxZ'])[${id}]</value>
+      <webElementGuid>68a950a3-29ac-4701-a84d-7851e7b184d7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

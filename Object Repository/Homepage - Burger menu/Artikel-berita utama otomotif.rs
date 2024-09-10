@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuItem_submenu__aUQMo' and (text() = 'Berita Utama Otomotif' or . = 'Berita Utama Otomotif')]</value>
+         <value>//*[@class = 'menuItem_submenu__OrcK_' and (text() = 'Berita Utama Otomotif' or . = 'Berita Utama Otomotif')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_submenu__aUQMo</value>
-      <webElementGuid>adaf4a73-5889-4f93-bb1c-1c1327008847</webElementGuid>
+      <value>menuItem_submenu__OrcK_</value>
+      <webElementGuid>f7c82522-ee58-4af7-ac08-6fa8b748e2eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Berita Utama Otomotif</value>
-      <webElementGuid>6dac6d7d-2ab0-423d-93d1-4b1eb33e6c41</webElementGuid>
+      <webElementGuid>7ffee369-7430-48b0-9f04-5fea1b09ff92</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

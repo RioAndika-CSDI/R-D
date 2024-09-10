@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pertanyaan_nomer</name>
+   <tag></tag>
+   <elementGuidId>b31bbfe4-dfce-4a26-8cee-37914f5d0be7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='newInput_styledInput__3vryL'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='newInput_styledInput__3vryL'])[4]</value>
+      <webElementGuid>91b10f84-8594-4f9f-9a1d-b2e53861ed7d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

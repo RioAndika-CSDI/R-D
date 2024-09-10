@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Mobil Bekas' or . = 'Mobil Bekas') and starts-with(@class, 'menuItem_submenu')]</value>
+         <value>//*[(text() = 'Mobil Bekas' or . = 'Mobil Bekas') and @class = 'menuItem_submenu__aUQMo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Mobil Bekas</value>
-      <webElementGuid>f50f2ba3-0fb5-4989-b70f-df113c467886</webElementGuid>
+      <webElementGuid>b88c19d4-22cc-43cc-9c3b-08de222fcd03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_submenu</value>
-      <webElementGuid>13d27d4a-89af-4ae4-a2e5-5bec0f5da478</webElementGuid>
+      <value>menuItem_submenu__aUQMo</value>
+      <webElementGuid>6d82d176-d5da-477f-8c24-742ce16f5da0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Cari Mobil' or . = 'Cari Mobil') and starts-with(@class, 'menuItem')]</value>
+         <value>//button[(text() = 'Cari Mobil' or . = 'Cari Mobil') and starts-with(@class, 'menuItem_menu__kP4wZ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b8218ebf-ec8a-4989-94c6-bab4701963b4</webElementGuid>
+      <webElementGuid>ee1a2404-b99d-4416-af34-b35d68d8b39a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,14 +26,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil</value>
-      <webElementGuid>0af48e07-8e0e-408d-baee-d9a4d0c6c55b</webElementGuid>
+      <webElementGuid>b7a0bbed-02fc-4f95-aab1-f1780b60038a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem</value>
-      <webElementGuid>8814cf7a-afc2-4078-b0d2-ddbe7d23c27e</webElementGuid>
+      <value>menuItem_menu__kP4wZ</value>
+      <webElementGuid>4900e4e1-31dc-4bdc-9c70-78afd2d9cc90</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

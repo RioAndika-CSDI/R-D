@@ -18,6 +18,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Baca Artikel Terkini</value>
-      <webElementGuid>6e8968df-2fad-4fde-b229-162fff2077f3</webElementGuid>
+      <webElementGuid>c31f2914-1fb5-4714-9c06-83128a14dc4b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

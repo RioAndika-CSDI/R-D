@@ -72,19 +72,19 @@ for (int i = 1; i <= 3; i++) {
         WebUI.verifyElementNotVisible(findTestObject('Homepage Component/Data_Artikel Carousel', [('id') : '2']))
     }
     
-    if (carousel1.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs1) {
+    if (carousel1.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs1) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
     }
     
-    if (carousel2.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs2) {
+    if (carousel2.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs2) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
     }
     
-    if (carousel3.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs3) {
+    if (carousel3.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs3) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
@@ -132,19 +132,19 @@ for (int i = 3; i >= 1; i--) {
         WebUI.verifyElementNotVisible(findTestObject('Homepage Component/Data_Artikel Carousel', [('id') : '2']))
     }
     
-    if (carousel1.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs1) {
+    if (carousel1.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs1) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
     }
     
-    if (carousel2.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs2) {
+    if (carousel2.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs2) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
     }
     
-    if (carousel3.equals('articleWidget_bullet__4hEV_ articleWidget_bulletActive__9KhYb') == crs3) {
+    if (carousel3.equals('articleWidget_bullet__gzA04 articleWidget_bulletActive__aX7b8') == crs3) {
         WebUI.verifyMatch('true', 'true', true)
     } else {
         WebUI.verifyMatch('true', 'false', true)
