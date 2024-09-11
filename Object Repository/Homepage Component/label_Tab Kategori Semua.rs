@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'tab-semua-artikel']</value>
+         <value>//*[@data-testid = 'button-lihat-semua-artikel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>tab-semua-artikel</value>
-      <webElementGuid>c10efeaa-c54d-4dfd-be62-24824aed7377</webElementGuid>
+      <value>button-lihat-semua-artikel</value>
+      <webElementGuid>1ab80c8c-76f3-4ee4-a0ba-803c1cd70fd4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

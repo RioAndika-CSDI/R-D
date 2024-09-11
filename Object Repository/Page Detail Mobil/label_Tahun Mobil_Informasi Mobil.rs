@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'description_openSans__W5xEx'])[2]</value>
+         <value>(//*[starts-with(@class, 'description_openSans')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'description_openSans__W5xEx'])[2]</value>
-      <webElementGuid>3de352e8-425e-426f-a667-634f704c9b80</webElementGuid>
+      <value>(//*[starts-with(@class, 'description_openSans')])[3]</value>
+      <webElementGuid>4e3800fa-a08f-4e0c-9532-b2dc40e137ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>description_openSans</value>
+      <webElementGuid>b60e45e7-c224-40f6-9229-e58066bc288c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

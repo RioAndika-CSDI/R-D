@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'dealerDetail_seeMapBtn__3OoSd' and (text() = 'Lihat Peta' or . = 'Lihat Peta')]</value>
+         <value>//*[starts-with(@class, 'dealerDetail_seeMapBtn') and (text() = 'Lihat Peta' or . = 'Lihat Peta')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dealerDetail_seeMapBtn__3OoSd</value>
-      <webElementGuid>6c9841e7-246c-411b-ae55-e4c87b32dc3e</webElementGuid>
+      <value>dealerDetail_seeMapBtn</value>
+      <webElementGuid>a363a4de-0e48-4f52-8eec-be09d627b48e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Peta</value>
-      <webElementGuid>32b82413-ed45-4051-bba3-d402934875ce</webElementGuid>
+      <webElementGuid>0d4678f2-5cea-4822-b0d1-c13c37af30df</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

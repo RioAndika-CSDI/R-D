@@ -29,8 +29,6 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.waitForElementNotVisible(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 20)
-
 WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 
 WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 0)

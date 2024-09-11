@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'navigationfiltermobile_navOuter__9ZZHh' and (contains(text(), '${filter}') or contains(., '${filter}'))]</value>
+         <value>//*[starts-with(@class, 'navigationfiltermobile_navOuter') and (contains(text(), '${filter}') or contains(., '${filter}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navigationfiltermobile_navOuter__9ZZHh</value>
-      <webElementGuid>15cc0b48-0421-4b95-980c-f25f20d45384</webElementGuid>
+      <value>navigationfiltermobile_navOuter</value>
+      <webElementGuid>c2770a45-4032-4dbd-a702-234447a01cd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${filter}</value>
-      <webElementGuid>faeb7070-ab09-45e3-87a1-ac23113a91a6</webElementGuid>
+      <webElementGuid>21ee4dc0-a3c6-4a07-8db2-f75a67848262</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

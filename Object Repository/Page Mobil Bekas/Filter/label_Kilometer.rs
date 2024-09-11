@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Kilometer' or . = 'Kilometer') and @class = 'filtermobile_labelForm__I34yz']</value>
+         <value>//*[(text() = 'Kilometer' or . = 'Kilometer') and starts-with(@class, 'filtermobile_labelForm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Kilometer</value>
-      <webElementGuid>8f0a49ea-3091-4366-8b08-a1658221f002</webElementGuid>
+      <webElementGuid>61b1412d-cbe4-4c29-a507-ffbbdabb8b4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>filtermobile_labelForm__I34yz</value>
-      <webElementGuid>0f85048a-4187-4de6-ad04-2a1d81330dbd</webElementGuid>
+      <value>filtermobile_labelForm</value>
+      <webElementGuid>746c9396-5637-4fd1-a109-942f5caea37d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REF001-Homepage-Masuk melalui burger menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf2ab4d7-7014-4875-9e02-f530b314590f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f2aae4c-b4a2-4ed2-99b3-b4d8cf731347</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f532b076-d7c8-4407-a015-8cb7c8ad3138</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d20b068b-3685-4284-b098-5f0f5624b359</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/fasilitas-dana'</defaultValue>
+      <description></description>
+      <id>5f2aae4c-b4a2-4ed2-99b3-b4d8cf731347</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f532b076-d7c8-4407-a015-8cb7c8ad3138</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d20b068b-3685-4284-b098-5f0f5624b359</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
+</TestCaseEntity>

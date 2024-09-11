@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='navigationfiltermobile_navOuter__9ZZHh'])[1]//*[@class='navigationfiltermobile_onClick__McAZ2']</value>
+         <value>(//*[starts-with(@class, 'navigationfiltermobile_navOuter')])[1]//*[starts-with(@class, 'navigationfiltermobile_onClick')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='navigationfiltermobile_navOuter__9ZZHh'])[1]//*[@class='navigationfiltermobile_onClick__McAZ2']</value>
-      <webElementGuid>47c9b65e-431b-4dd9-bec8-ec0f4d8cdd3c</webElementGuid>
+      <value>(//*[starts-with(@class, 'navigationfiltermobile_navOuter')])[1]//*[starts-with(@class, 'navigationfiltermobile_onClick')]</value>
+      <webElementGuid>695ecc56-3e6d-4268-9636-4d9ff56e3222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationfiltermobile_onClick</value>
+      <webElementGuid>1b0d08e5-9190-4bd6-8571-72fae3cd24c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Maksimum')]//input[@type = 'tel']</value>
+         <value>//*[starts-with(@class, 'formYear_container') and (. = 'Maksimum')]//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_container__wvuqm</value>
-      <webElementGuid>9d1468aa-b135-476c-8f59-45bb302f911a</webElementGuid>
+      <value>formYear_container</value>
+      <webElementGuid>be47ce59-d1e1-4088-9eda-a1ae3f80c562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hingga</value>
-      <webElementGuid>8b443759-8a0b-4606-9cd7-daecd25de32b</webElementGuid>
+      <webElementGuid>a758e940-021a-46a1-9351-3089ecc26694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,22 +34,22 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>496b056e-7cc0-44ec-94d5-95a273ea41b9</webElementGuid>
+      <webElementGuid>d46b8a50-13b1-48a3-ae78-c2d4c500c832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>99862103-701c-4500-a479-c5f1dacc12b0</webElementGuid>
+      <webElementGuid>a4f5bcf3-0469-4b16-8986-233402b66fd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Maksimum')]//input[@type = 'tel']</value>
-      <webElementGuid>ecc2e720-46e7-41e4-aeb4-f72fce4a0606</webElementGuid>
+      <value>//*[starts-with(@class, 'formYear_container') and (. = 'Maksimum')]//input[@type = 'tel']</value>
+      <webElementGuid>83cd2bb2-e773-428b-9d55-640306eb7dc8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

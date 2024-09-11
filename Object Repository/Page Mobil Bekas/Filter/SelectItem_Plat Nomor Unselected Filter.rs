@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formTransmission_box__SBDXU' and (contains(text(), '${plat}') or contains(., '${plat}'))]</value>
+         <value>//*[starts-with(@class, 'formTransmission_box') and (contains(text(), '${plat}') or contains(., '${plat}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formTransmission_box__SBDXU</value>
-      <webElementGuid>344b0cda-3bd1-4b83-94a8-42d67e522787</webElementGuid>
+      <value>formTransmission_box</value>
+      <webElementGuid>996d64be-d569-40f1-8021-29fd663ec15c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${plat}</value>
-      <webElementGuid>0be3dd9a-684b-4b21-a0d0-79ede693406b</webElementGuid>
+      <webElementGuid>0818e270-95ba-4d3b-acb7-622b311fc11c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

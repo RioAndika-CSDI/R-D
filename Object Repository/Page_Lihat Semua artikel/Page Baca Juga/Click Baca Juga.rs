@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div/main/div[2]/div/div[1]/article/div[2]/p[3]/a</value>
+         <value>(//a[@class='web_article_baca_juga_click'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div/main/div[2]/div/div[1]/article/div[2]/p[3]/a</value>
-      <webElementGuid>df0e7d32-4d23-4963-82ac-33470e38ce7c</webElementGuid>
+      <value>(//a[@class='web_article_baca_juga_click'])[1]</value>
+      <webElementGuid>a672df7b-22ba-4a2e-a496-8f71086b4a1c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

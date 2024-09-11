@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'dealerCard_cardTitle__j65Xa'])[${id}]</value>
+         <value>(//*[starts-with(@class, 'dealerDetail_mainTitle')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dealerCard_cardTitle__j65Xa</value>
-      <webElementGuid>b22a629c-d455-4fdb-b8fc-cec97cce33fd</webElementGuid>
+      <value>dealerDetail_mainTitle</value>
+      <webElementGuid>49342906-87cc-4961-881a-276a78d88e3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'dealerCard_cardTitle__j65Xa'])[${id}]</value>
-      <webElementGuid>b26b7b17-a934-43bb-af4b-a00db0ce4421</webElementGuid>
+      <value>(//*[starts-with(@class, 'dealerDetail_mainTitle')])[${id}]</value>
+      <webElementGuid>d5e43d04-bfca-439b-9e04-70f528b0023a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputPhone_input__r86Wm false ' and @placeholder = 'Contoh: 812345678']</value>
+         <value>//*[starts-with(@class, 'inputPhone_input') and @placeholder = 'Contoh: 812345678']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm false </value>
-      <webElementGuid>fab29587-5180-4cd3-bced-254aad72a545</webElementGuid>
+      <value>inputPhone_input</value>
+      <webElementGuid>b20c7b40-a68b-4b37-918d-b3671d16dba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Contoh: 812345678</value>
-      <webElementGuid>a231fb7b-48df-4cb0-9ea0-082b38fc2789</webElementGuid>
+      <webElementGuid>55b2093f-4a95-4002-837b-67ab90e917bb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

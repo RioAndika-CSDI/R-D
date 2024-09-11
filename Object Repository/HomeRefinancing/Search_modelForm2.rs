@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search_modelForm2</name>
+   <tag></tag>
+   <elementGuidId>71d3441b-6084-4f8f-9232-96cf35c1087c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[2]</value>
+      <webElementGuid>3f1f9773-0f36-4148-a203-a49d5a01deff</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>760bd841-c0ee-46ea-ba71-9d13bb07a08d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.formSelectBrandCarFilter_content__DONHM</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[14]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSelectBrandCarFilter_content__DONHM' and (text() = '${brand}' or . = '${brand}')]</value>
+         <value>//*[starts-with(@class, 'formSelectBrandCarFilter') and (text() = '${brand}' or . = '${brand}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.formSelectBrandCarFilter_content__DONHM</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4a38808c-fa77-4420-af01-fa85be011fe0</webElementGuid>
+      <webElementGuid>8320f4e5-5fa2-4724-87cf-621cb90aa2e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSelectBrandCarFilter_content__DONHM</value>
-      <webElementGuid>40812415-8b2f-4e4b-aa18-6ac131f733d9</webElementGuid>
+      <value>formSelectBrandCarFilter</value>
+      <webElementGuid>9aa1fab9-9fba-4cc3-8d3e-0b2e1c75af9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${brand}</value>
-      <webElementGuid>2131fa8a-810f-4884-8a90-a8be30d8c9a4</webElementGuid>
+      <webElementGuid>dc550af6-2ab3-477c-b71a-6bbde28966bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCarFilter_container__T1_HX&quot;]/div[@class=&quot;formSelectBrandCarFilter_wrapperContainer__Ejsuc&quot;]/div[@class=&quot;formSelectBrandCarFilter_boxOnclickFilter__b9HUt&quot;]/div[@class=&quot;formSelectBrandCarFilter_content__DONHM&quot;]</value>
-      <webElementGuid>a7f64549-7f31-4a15-9fbb-a7f996f39868</webElementGuid>
+      <webElementGuid>7cf22841-9f4c-440d-b0d2-93403a242dbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[14]</value>
-      <webElementGuid>3c55893b-a07d-4c92-9f37-55d5e31d86e6</webElementGuid>
+      <webElementGuid>6f019824-bfc9-4da0-8984-27a7b823a82a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[14]</value>
-      <webElementGuid>343e8c11-9b09-4aaa-b1a6-b4e34eca99b6</webElementGuid>
+      <webElementGuid>fa894065-2bf6-4799-bb68-9153ded3a3e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/preceding::div[1]</value>
-      <webElementGuid>2e1b3c61-c02f-4b08-8615-d11722d4cb15</webElementGuid>
+      <webElementGuid>760d9483-686f-4de0-a335-6a89ae863f69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terapkan'])[1]/preceding::div[1]</value>
-      <webElementGuid>e58423d9-8c8d-40af-a0a3-f50e9e57f8fd</webElementGuid>
+      <webElementGuid>d2dc2266-4e18-49bf-ad54-32c96b9f75ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>e8abdf74-a44e-405c-a846-e17f20d1e290</webElementGuid>
+      <webElementGuid>cd89a966-500b-4006-8865-a6dabe52cde9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Daihatsu' or . = ' Daihatsu')]</value>
-      <webElementGuid>57c2a569-f4cb-4bba-a4da-76014e9d3be5</webElementGuid>
+      <webElementGuid>06752158-197f-44f9-861f-9ea020503d1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

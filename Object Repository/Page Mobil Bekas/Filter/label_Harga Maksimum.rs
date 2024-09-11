@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formPrice_right__J0sXm']</value>
+         <value>//*[starts-with(@class, 'formPrice_right')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formPrice_right__J0sXm</value>
-      <webElementGuid>5842aa16-c7d3-4ab5-9f5a-f9411c797a72</webElementGuid>
+      <value>formPrice_right</value>
+      <webElementGuid>4a4973d9-ab74-45ba-8821-8cff7cd3d0df</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

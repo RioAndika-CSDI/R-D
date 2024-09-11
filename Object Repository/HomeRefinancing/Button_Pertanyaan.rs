@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Pertanyaan</name>
+   <tag></tag>
+   <elementGuidId>7eaa670a-62b7-458a-9c22-6fc0489377dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='refinancingQuestionWidget_container__ByAX2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='refinancingQuestionWidget_container__ByAX2']</value>
+      <webElementGuid>7bbee172-cf06-4cf3-aeaf-d24772181a89</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

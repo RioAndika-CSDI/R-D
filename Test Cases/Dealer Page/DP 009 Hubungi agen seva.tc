@@ -115,21 +115,21 @@
       <name>kontak_dealer_ke</name>
    </variable>
    <variable>
-      <defaultValue>'Dian Ayu P'</defaultValue>
+      <defaultValue>'Nandiel Testing'</defaultValue>
       <description></description>
       <id>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</id>
       <masked>false</masked>
       <name>nama_lengkap</name>
    </variable>
    <variable>
-      <defaultValue>'82135318501'</defaultValue>
+      <defaultValue>'8892428460'</defaultValue>
       <description></description>
       <id>e1cd0502-f792-407e-a13e-822463485632</id>
       <masked>false</masked>
       <name>nomor_handphone</name>
    </variable>
    <variable>
-      <defaultValue>'666999'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
       <id>73c93443-7f49-4a5d-9dd8-8422d6bd79f0</id>
       <masked>false</masked>

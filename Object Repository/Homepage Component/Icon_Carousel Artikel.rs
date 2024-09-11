@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='articleWidget_containerCarousel__N1nny']//*[@class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal']/span[${id}]</value>
+         <value>//*[@class='articleWidget_containerCarousel__mzlWF']//*[@class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal']/span[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='articleWidget_containerCarousel__N1nny']//*[@class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal']/span[${id}]</value>
-      <webElementGuid>2cb6192b-fc37-4036-8077-6e53789d6a7a</webElementGuid>
+      <value>//*[@class='articleWidget_containerCarousel__mzlWF']//*[@class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal']/span[${id}]</value>
+      <webElementGuid>e4aa17e4-1e62-447a-9dcd-ea3dc2fcb4b5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

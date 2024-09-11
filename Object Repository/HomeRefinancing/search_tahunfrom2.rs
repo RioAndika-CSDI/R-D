@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_tahunfrom2</name>
+   <tag></tag>
+   <elementGuidId>743e0937-a286-4e7b-a216-ccd0ec5e3ca5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[3]</value>
+      <webElementGuid>da4477b4-5e9a-414c-a4c2-08873159bc5c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
