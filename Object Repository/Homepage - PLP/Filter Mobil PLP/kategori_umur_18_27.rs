@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kategori_umur_18_27</name>
+   <tag></tag>
+   <elementGuidId>85195cb1-8ca3-4156-8b44-cd16ec7bf5fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-pilih-kategori-umur-18-27&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-pilih-kategori-umur-18-27&quot;]</value>
+      <webElementGuid>cf0ce471-f335-4796-b53d-739592275ceb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

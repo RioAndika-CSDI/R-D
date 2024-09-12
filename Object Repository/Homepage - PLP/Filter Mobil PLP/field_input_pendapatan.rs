@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_input_pendapatan</name>
+   <tag></tag>
+   <elementGuidId>628ff62b-77e7-4f8f-a9a7-b57254519a95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-input-pendapatan&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-input-pendapatan&quot;]</value>
+      <webElementGuid>86dc153b-50fb-4ee4-b86a-bb6037976d0d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

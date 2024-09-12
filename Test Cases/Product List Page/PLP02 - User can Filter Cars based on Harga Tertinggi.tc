@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP02 - User can Filter Cars based on Harga Tertinggi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f951e99-0cde-4857-a3b9-a8adf1da9c13</testCaseGuid>
+</TestCaseEntity>

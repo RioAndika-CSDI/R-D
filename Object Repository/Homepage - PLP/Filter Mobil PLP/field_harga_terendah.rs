@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_harga_terendah</name>
+   <tag></tag>
+   <elementGuidId>927c8e9f-8e9d-46ac-bd67-a6f850645f07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-min-price&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-min-price&quot;]</value>
+      <webElementGuid>31d943d1-7cd4-4a9e-8901-b1d8ced6bcc1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
