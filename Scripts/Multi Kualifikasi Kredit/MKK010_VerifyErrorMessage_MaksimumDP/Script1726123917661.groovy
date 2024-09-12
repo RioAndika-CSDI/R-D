@@ -17,47 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser(GlobalVariable.Prod)
-}
+WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+'cek KK button'
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cek Kualifikasi Kredit'))
 
-'Click Moengage Ads\r\n'
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'))
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+'harga terendah field'
+WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'), 'Rp200.000.000')
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_tertinggi'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+'harga tertinggi field'
+WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_tertinggi'), 'Rp400.000.000')
 
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+'maksimum DP field'
+WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rp2.659.100.000_downPaymentAmount'), 
+    'Rp60.000')
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
-
-WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
-
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
-
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-
-WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
+'error message'
+WebUI.verifyElementVisible(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/span_Berdasarkan harga yang kamu pilih, masukkan DP di atas         Rp100.000.000'))
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

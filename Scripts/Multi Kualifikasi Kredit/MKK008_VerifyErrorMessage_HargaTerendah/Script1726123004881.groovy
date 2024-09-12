@@ -17,47 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser(GlobalVariable.Prod)
-}
+WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+'cek KK button'
+WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cek Kualifikasi Kredit'))
 
-'Click Moengage Ads\r\n'
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'))
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+'harga terendah field'
+WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'), 'Rp200.000')
 
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
-
-WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
-
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
-
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-
-WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
+'error message'
+WebUI.verifyElementVisible(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/span_Masukkan harga di atas Rp137.800.000'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
