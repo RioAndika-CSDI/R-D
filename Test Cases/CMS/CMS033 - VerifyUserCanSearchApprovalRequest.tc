@@ -4,5 +4,6 @@
    <name>CMS033 - VerifyUserCanSearchApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>84bd8910-f4d5-47d6-bf3e-c30c4a6ad46a</testCaseGuid>
 </TestCaseEntity>

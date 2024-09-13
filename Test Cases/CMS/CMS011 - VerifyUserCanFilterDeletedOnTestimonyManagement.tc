@@ -4,5 +4,6 @@
    <name>CMS011 - VerifyUserCanFilterDeletedOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0fd4092e-b912-4d1d-8a25-2aceae9c63d7</testCaseGuid>
 </TestCaseEntity>

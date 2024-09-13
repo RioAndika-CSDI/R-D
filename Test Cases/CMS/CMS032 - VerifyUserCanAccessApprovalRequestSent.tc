@@ -4,5 +4,6 @@
    <name>CMS032 - VerifyUserCanAccessApprovalRequestSent</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6838c5b1-4497-478e-ae8e-e6e0a30c42cb</testCaseGuid>
 </TestCaseEntity>

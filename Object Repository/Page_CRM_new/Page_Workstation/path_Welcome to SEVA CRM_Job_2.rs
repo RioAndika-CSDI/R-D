@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_Welcome to SEVA CRM_Job_2</name>
+   <tag></tag>
+   <elementGuidId>c0637204-189e-45ae-82b7-22deaf1e6a28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Job_2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//path[@id = 'Job_2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>7aded975-40ec-4d2e-98e9-2be4b24c7771</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Job_2</value>
+      <webElementGuid>42bb501f-a8c7-4648-9943-8ea1fe67a5b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M2 19.7778C2 21.0154 2.86156 22 3.94444 22H20.0556C21.1384 22 22 21.0154 22 19.7778V7.71429C22 6.4767 21.1384 5.49206 20.0556 5.49206H16.3056V3.90476C16.3056 2.85689 15.5558 2 14.6389 2H9.36111C8.44422 2 7.69444 2.85689 7.69444 3.90476V5.49206H3.94444C2.86156 5.49206 2 6.4767 2 7.71429V19.7778ZM20.0556 20.0952H3.94444C3.77734 20.0952 3.66667 19.9688 3.66667 19.7778V13.2067H8.80556V14.6985C8.80556 15.7464 9.55533 16.6032 10.4722 16.6032H13.5278C14.4447 16.6032 15.1944 15.7464 15.1944 14.6985V13.2067H20.3333V19.7778C20.3333 19.9688 20.2227 20.0952 20.0556 20.0952ZM10.4722 13.2067H13.5278V14.6985H10.4722V13.2067ZM9.36111 3.90476H14.6389V5.49206H9.36111V3.90476ZM3.94444 7.39683H20.0556C20.2227 7.39683 20.3333 7.52331 20.3333 7.71429V11.3019H3.66667V7.71429C3.66667 7.52331 3.77734 7.39683 3.94444 7.39683Z</value>
+      <webElementGuid>a62f1b06-de9c-407d-b1cd-483ba60094a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>2682624d-fad0-47cb-b4a5-5bdae3a18d16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Job_2&quot;)</value>
+      <webElementGuid>01b6e821-ced7-4675-bac0-ed82971e7f3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//path[@id = 'Job_2']</value>
+      <webElementGuid>a10c2d2e-2988-4a84-8ade-c5467fa15cfe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,26 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'TKuVe2416cQrilL8vjccmw==')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management'))
-
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Car of the Month/a_Car of the Month Management'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CMS_new/Page_Car_of_the_Month/Page_SEVA CMS/a_Car of the Month Management'))
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Car of the Month/input_Search Car of the Month Management'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/svg_Icon X Search Testimony Management'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Page_CMS_new/Page_Car_of_the_Month/Page_SEVA CMS/svg_Car of the Month Management'), 
     0)
 
 WebUI.setText(findTestObject('Page_SEVA CMS/CMS - Car of the Month/input_Search Car of the Month Management'), 'Raize')
@@ -46,7 +35,7 @@ WebUI.delay(3)
 WebUI.verifyElementText(findTestObject('Page_SEVA CMS/CMS - Car of the Month/td_Car List Car of the Month Management'), 
     'Raize')
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/svg_Icon X Search Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Car_of_the_Month/Page_SEVA CMS/svg_Car of the Month Management'))
 
 if (true) {
     WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Car of the Month/td_Car List Car of the Month Management'), 

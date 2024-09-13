@@ -23,35 +23,32 @@ WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'superadmin@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'p4y+y39Ir5OXMeRRxIjGsg==')
+WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'NbWEQYNoPKhsA2eJ+KpJ/g==')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management'))
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/sub menu_Testimony Management'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/input_Search Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/input_Search_TM'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/svg_Icon X Search Testimony Management'), 
-    0)
+WebUI.verifyElementVisibleInViewport(findTestObject('Page_CMS_new/Page_Testimony_Management/btn_close_search'), 0)
 
-WebUI.setText(findTestObject('Page_SEVA CMS/CMS - Testimony Management/input_Search Testimony Management'), 'Gati Wibowo')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Testimony_Management/input_Search_TM'), 'Testing')
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_List NameTestimony Management'), 'Gati Wibowo')
+WebUI.verifyElementText(findTestObject('Page_CMS_new/Page_Testimony_Management/validasi_list-namedata'), 'Pita testing production')
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/svg_Icon X Search Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/btn_close_search'))
 
 if (true) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_List NameTestimony Management'), 
-        0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('Page_CMS_new/Page_Testimony_Management/validasi_list-namedata'), 0)
 } else {
-    WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Sorry, no results found Testimony Management'), 
+    WebUI.verifyElementVisibleInViewport(findTestObject('Page_CMS_new/Page_Testimony_Management/validasi_tidak-ada-data-pencarian'), 
         3)
 }
 

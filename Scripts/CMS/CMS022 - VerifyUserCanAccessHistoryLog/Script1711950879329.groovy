@@ -19,9 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
+WebUI.click(findTestObject('Page_CMS_new/Page_User_Management/button_User Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/button_User Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_History Log'))
+WebUI.click(findTestObject('Page_CMS_new/Page_User_Management/Page_SEVA CMS/a_History Log'))
 

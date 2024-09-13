@@ -4,5 +4,6 @@
    <name>CMS046 - VerifyUserCanApplyFilterThenResetApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>80878d41-3de8-456a-965b-c4f93cdde5a6</testCaseGuid>
 </TestCaseEntity>

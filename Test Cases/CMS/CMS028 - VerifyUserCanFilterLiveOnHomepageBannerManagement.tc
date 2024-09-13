@@ -4,5 +4,6 @@
    <name>CMS028 - VerifyUserCanFilterLiveOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>518a968a-cb39-4251-a8fc-d3db57ee6e7e</testCaseGuid>
 </TestCaseEntity>

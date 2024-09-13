@@ -4,5 +4,6 @@
    <name>CMS041 - VerifyUserCanClickButtonAddAnnouncementBox</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2f9e01fb-00fd-43b8-bda6-c56e7300211a</testCaseGuid>
 </TestCaseEntity>

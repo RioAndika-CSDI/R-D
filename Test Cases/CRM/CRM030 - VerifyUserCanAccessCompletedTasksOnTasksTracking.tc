@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM030 - VerifyUserCanAccessCompletedTasksOnTasksTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be0ce372-d2a4-40a4-ac39-5a4aac606910</testCaseGuid>
+</TestCaseEntity>

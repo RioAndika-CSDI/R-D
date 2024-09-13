@@ -4,5 +4,6 @@
    <name>CRM004 - VerifyUserCanAccessReEngagementWorkstation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9417f80e-e4a1-4e5c-98ab-c1afc1365a19</testCaseGuid>
 </TestCaseEntity>

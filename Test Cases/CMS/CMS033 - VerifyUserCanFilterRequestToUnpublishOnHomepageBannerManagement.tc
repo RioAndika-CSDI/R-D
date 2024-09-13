@@ -4,5 +4,6 @@
    <name>CMS033 - VerifyUserCanFilterRequestToUnpublishOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9d491284-ad8b-4873-b13e-fc79c0cc7df7</testCaseGuid>
 </TestCaseEntity>

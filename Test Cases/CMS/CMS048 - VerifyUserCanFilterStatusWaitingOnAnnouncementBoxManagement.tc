@@ -4,5 +4,6 @@
    <name>CMS048 - VerifyUserCanFilterStatusWaitingOnAnnouncementBoxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>61fd4d96-aeb7-4b00-bac9-6c77494f21fb</testCaseGuid>
 </TestCaseEntity>

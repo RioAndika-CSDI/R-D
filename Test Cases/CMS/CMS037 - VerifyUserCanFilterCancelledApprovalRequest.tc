@@ -4,5 +4,6 @@
    <name>CMS037 - VerifyUserCanFilterCancelledApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a38f8dd9-84df-489a-9b9e-e289d7d8e327</testCaseGuid>
 </TestCaseEntity>

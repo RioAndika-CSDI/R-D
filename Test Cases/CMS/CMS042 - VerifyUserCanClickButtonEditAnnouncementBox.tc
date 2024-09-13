@@ -4,5 +4,6 @@
    <name>CMS042 - VerifyUserCanClickButtonEditAnnouncementBox</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>82c3a734-dda7-4e37-9c96-e1e7a9fd15ff</testCaseGuid>
 </TestCaseEntity>

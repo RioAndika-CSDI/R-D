@@ -4,5 +4,6 @@
    <name>CMS049 - VerifyUserCanFilterStatusDeletedOnAnnouncementBoxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0290fdc4-ffd6-4c8f-b876-aa89cfa9b476</testCaseGuid>
 </TestCaseEntity>

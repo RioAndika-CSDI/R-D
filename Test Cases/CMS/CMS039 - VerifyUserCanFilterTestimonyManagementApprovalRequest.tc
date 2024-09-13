@@ -4,5 +4,6 @@
    <name>CMS039 - VerifyUserCanFilterTestimonyManagementApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b8347c97-9168-469d-a2ab-62e03d499f18</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS015 - VerifyUserCanSelectThenResetFilterOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7f365a04-ef28-404e-95d4-cce32d100ee6</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS055 - VerifyUserCanAccessCarOfTheMonth</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>46be848a-d661-4496-9da0-cf28094a4397</testCaseGuid>
 </TestCaseEntity>

@@ -116,32 +116,4 @@
       <testCaseId>Test Cases/CMS/CMS035 - VerifyUserCanApplyThenResetFilterOnHomepageBannerManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>20c0cd65-e09d-4b6c-9389-7a9164c37e35</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS036 - VerifyUserCanCreateOnHomepageBannerManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ece4c34-9a29-41ae-b156-3307d895cf53</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS037 - VerifyUserCanRequestToPublishOnHomepageBannerManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>31e3ebd3-1444-459d-a014-9ad228ac165f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS038 - VerifyUserCanCancelRequestToPublishOnHomepageBannerManagement1</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>52a25dae-f412-4590-a554-e1aa708c01f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS039 - VerifyUserCanDeleteOnHomepageBannerManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

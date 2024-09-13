@@ -4,5 +4,6 @@
    <name>CMS022 - VerifyUserCanClickButtonAddOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4eec5eb7-9e97-456b-8cab-2df717ea99ec</testCaseGuid>
 </TestCaseEntity>

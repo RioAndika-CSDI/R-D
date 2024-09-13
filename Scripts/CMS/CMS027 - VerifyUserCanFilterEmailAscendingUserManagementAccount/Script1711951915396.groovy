@@ -22,3 +22,7 @@ WebUI.callTestCase(findTestCase('CMS/CMS018 - VerifyUserCanAccessUserManagementA
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SEVA CMS/select_Name (z-a)Name (a-z)Email (z-a)Email_1f4e67 (2)'), 
     'email&ASC', true)
 
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

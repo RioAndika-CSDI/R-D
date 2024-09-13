@@ -4,5 +4,6 @@
    <name>CMS034 - VerifyUserCanFilterPendingApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5164c5be-9cbd-426d-a413-99c3be824764</testCaseGuid>
 </TestCaseEntity>

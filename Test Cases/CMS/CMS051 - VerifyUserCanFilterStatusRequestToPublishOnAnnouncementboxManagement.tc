@@ -4,5 +4,6 @@
    <name>CMS051 - VerifyUserCanFilterStatusRequestToPublishOnAnnouncementboxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>35b1d559-5a31-42a7-9f15-bc3c56c12bb4</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS002 - VerifyUserCanAccessTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d6b6e35a-574b-4d34-918e-f07e948408e8</testCaseGuid>
 </TestCaseEntity>

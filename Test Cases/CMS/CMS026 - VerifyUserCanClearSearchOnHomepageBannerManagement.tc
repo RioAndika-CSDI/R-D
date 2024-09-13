@@ -4,5 +4,6 @@
    <name>CMS026 - VerifyUserCanClearSearchOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ee1ca4ca-8b10-4f66-b9c2-d4adc2a55b1e</testCaseGuid>
 </TestCaseEntity>

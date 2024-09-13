@@ -4,5 +4,6 @@
    <name>CMS047 - VerifyUserCanFilterStatusLiveOnAnnouncementBoxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7c6963a4-cb1f-44df-a451-4d529bef19b1</testCaseGuid>
 </TestCaseEntity>
