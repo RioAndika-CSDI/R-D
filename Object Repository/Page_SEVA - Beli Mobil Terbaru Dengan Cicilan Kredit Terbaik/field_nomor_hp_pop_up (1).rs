@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_nomor_hp_pop_up (1)</name>
+   <tag></tag>
+   <elementGuidId>1584c98a-bfaa-4e1e-b509-1df3fbc51e72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>01f317cf-ac1b-44f3-a214-b5d8dce179b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>3be9d43b-635d-4168-8d48-c0f99fc44dd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>13</value>
+      <webElementGuid>31ad2b19-2065-41bb-b602-a40b9619250d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputPhone_input__4xYEC undefined </value>
+      <webElementGuid>ebc3aa33-9304-4778-8222-12a7c28773d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Contoh: 812345678</value>
+      <webElementGuid>9f3676f5-0fcb-46f1-80cf-0079eb672037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupLogin_wrapper__edAPv&quot;]/div[@class=&quot;popupLogin_phoneNumberWrapper__DNNJL&quot;]/div[@class=&quot;inputPhone_wrapper__CPZSH undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__etnqf inputPhone_focus__3XFSw false undefined&quot;]/input[@class=&quot;inputPhone_input__4xYEC undefined&quot;]</value>
+      <webElementGuid>1fcb9554-8f0f-4c59-bd7c-a03e0ef602f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>b9d51041-09b3-4427-9386-430ae945e9ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+      <webElementGuid>94643390-a62c-4869-aa35-3635eb091c63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'tel' and @placeholder = 'Contoh: 812345678']</value>
+      <webElementGuid>4c215cd8-fe1b-4938-bf31-e2bf22bdb06c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP04 - User can View Car Detail on PLP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84125a4c-2dcc-47dc-b73d-13c4f1e887d5</testCaseGuid>
+</TestCaseEntity>

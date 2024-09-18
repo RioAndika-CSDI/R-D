@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sorting_harga</name>
+   <tag></tag>
+   <elementGuidId>e558f5f1-5928-470f-911d-59bc3008c8d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;navigationfiltermobile_sortSection__CJ20R&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;navigationfiltermobile_sortSection__CJ20R&quot;]</value>
+      <webElementGuid>026a2706-8ef2-4308-aa13-27fad0072d5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

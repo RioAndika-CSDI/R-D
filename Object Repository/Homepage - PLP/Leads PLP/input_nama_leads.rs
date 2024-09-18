@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_nama_leads</name>
+   <tag></tag>
+   <elementGuidId>3564501c-c836-4dcf-8039-824467fffabf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;input_input__c0tP8&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;input_input__c0tP8&quot;]</value>
+      <webElementGuid>9215aaeb-8cd8-4a38-8909-e21c222ba2b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

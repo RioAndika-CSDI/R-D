@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lihat_semua_mbl_baru</name>
+   <tag></tag>
+   <elementGuidId>27a3270c-b6b8-46a7-88fb-877b8aca67b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]</value>
+      <webElementGuid>a60f11b9-94b8-4d09-bfbc-0818a1b2af1a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

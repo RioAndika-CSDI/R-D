@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'sidebarMobile_profileNumber__s80Nl' and (contains(text(), '${nomor}') or contains(., '${nomor}'))]</value>
+         <value>//*[starts-with(@class, 'sidebarMobile_profileNumber') and (contains(text(), '${nomor}') or contains(., '${nomor}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sidebarMobile_profileNumber__s80Nl</value>
-      <webElementGuid>320cd5c3-8bab-43dd-9212-7540f95dde4f</webElementGuid>
+      <value>sidebarMobile_profileNumber</value>
+      <webElementGuid>0afb76b2-ab7c-4690-9d47-684f94a4cab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${nomor}</value>
-      <webElementGuid>df7d2dc8-91ee-4836-b058-c823a17da7c6</webElementGuid>
+      <webElementGuid>69411c37-cb1e-409b-a4d2-683cedd7e2fc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
