@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>close_icon_pop_up_login</name>
+   <tag></tag>
+   <elementGuidId>41bb3a8c-0755-43f8-bffc-a31d970d2e8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ant-modal-close-x > svg</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ant-modal-close-x']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>5076325d-d407-4a5f-9fe0-233f8961d075</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>980505dc-2408-47c3-9c93-f1db2000eb56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>2f0e838b-dd7f-4736-a2b8-8590ffb1f099</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>eccd2ccb-2e40-4fad-8bd1-f4bfdaf38837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>dbd956ef-4884-4711-a246-4da1b00ce878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>426394d3-2f0f-470b-9d23-1fe152238269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/button[@class=&quot;ant-modal-close&quot;]/span[@class=&quot;ant-modal-close-x&quot;]/svg[1]</value>
+      <webElementGuid>79657f6c-d1f7-4e50-af01-38adec678c0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-modal-close-x</value>
+      <webElementGuid>77ad8d3b-fab7-455f-8f12-ae384f9ced03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>9909eb24-7022-4123-bcf1-d5253a6d1e2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>cdc349d1-3b6b-45f8-97da-5e9b7ec158de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk akun kamu dulu yuk!'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>a81903a0-58b4-4c69-be97-397da17cb5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>49f75ae6-ccc1-480f-8d86-639dd71a01bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

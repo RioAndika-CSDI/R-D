@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kode Referral Teman SEVA (Opsional)_inp_97a83d</name>
+   <tag></tag>
+   <elementGuidId>94fe7746-118e-4b8a-96fe-2ae520c32f32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'input-kode-referral']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[6]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputWithIcon_inputArea__n1wI7.false.undefined.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f56438c5-ee79-438a-a9d0-0566e61185aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputWithIcon_inputArea__n1wI7 false undefined undefined</value>
+      <webElementGuid>c7a3a405-9d1b-4e86-9857-70f5cf1a7d30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[@class=&quot;formReferralCode_container__szcl7 multi-kk_additionalRefCodeStyle__KZt_L undefined&quot;]/div[@class=&quot;inputWithIcon_container__g3dBI undefined&quot;]/div[@class=&quot;inputWithIcon_inputArea__n1wI7 false undefined undefined&quot;]</value>
+      <webElementGuid>e135fff5-1004-4fbb-bab1-a52ca183a00b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-kode-referral</value>
+      <webElementGuid>9f6ac913-3944-49b7-b1b3-a09518052800</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[6]/div/div</value>
+      <webElementGuid>0bd83989-2218-494c-9073-b500962c1bca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/following::div[2]</value>
+      <webElementGuid>413308fb-5c50-46be-afea-57af53bc1651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::div[3]</value>
+      <webElementGuid>dd031599-9a80-4f6b-9b6b-aef558a6f4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Rekomendasi Mobil'])[1]/preceding::div[1]</value>
+      <webElementGuid>6a52d912-395a-46e7-8d3d-59e2bdaf50fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang SEVA'])[2]/preceding::div[1]</value>
+      <webElementGuid>1312d107-884e-4214-bfa8-43a781d7867f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div</value>
+      <webElementGuid>5edda58c-6858-49e4-afd3-be888691de5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

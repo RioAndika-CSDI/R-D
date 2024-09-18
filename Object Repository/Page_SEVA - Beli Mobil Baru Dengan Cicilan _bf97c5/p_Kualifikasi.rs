@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Kualifikasi</name>
+   <tag></tag>
+   <elementGuidId>f4ae8ec0-d42b-4d79-9103-292786a8969d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.howToUse_row__MtfUn > p.howToUse_cardTextBold__lWgZ4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[6]/div/a[3]/div/h3/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>cb471e4d-15ba-4646-9418-fb7304a1ed14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>howToUse_cardTextBold__lWgZ4</value>
+      <webElementGuid>1ca2dee4-c9a5-48e3-8c70-8633405573f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kualifikasi </value>
+      <webElementGuid>0ee804f6-ca56-4550-a5ea-a8c81d313ce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;howToUse_wrapper__rRJu1&quot;]/div[@class=&quot;howToUse_cardSpacing__SKQjC&quot;]/a[@class=&quot;howToUse_cardHowToUse__OQ5Nj&quot;]/div[1]/h3[1]/div[@class=&quot;howToUse_row__MtfUn&quot;]/p[@class=&quot;howToUse_cardTextBold__lWgZ4&quot;]</value>
+      <webElementGuid>7dffa678-9f62-4bbb-bb08-709c7545aa70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[6]/div/a[3]/div/h3/div/p</value>
+      <webElementGuid>0465de68-f075-4ecd-8a07-38156812ac29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara Dapatkan Mobil Impian di SEVA'])[1]/following::p[7]</value>
+      <webElementGuid>90d31474-548c-40a5-9396-f36b797db203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua mobil'])[1]/following::p[7]</value>
+      <webElementGuid>a84ae652-5fb6-433d-910f-9ca2a5d629df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Car of The Month'])[1]/preceding::p[3]</value>
+      <webElementGuid>bc7f64bb-0a03-47f3-8fe3-6ac04218eb38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All New BZ4X'])[1]/preceding::p[3]</value>
+      <webElementGuid>cf19244e-1b08-444e-b5ae-04a3f304af17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kualifikasi']/parent::*</value>
+      <webElementGuid>33597b57-641f-4b05-9378-3fbd5bb021f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/h3/div/p</value>
+      <webElementGuid>fedefb99-68ce-4106-b4fe-3019f452b02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kualifikasi ' or . = 'Kualifikasi ')]</value>
+      <webElementGuid>46750b8a-f1dd-4b01-9a4e-141dabd09ea5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
