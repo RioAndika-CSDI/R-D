@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP05 - User Can Input Leads from PLP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e601756b-15c0-4405-b51a-911d454bb4bd</testCaseGuid>
+</TestCaseEntity>

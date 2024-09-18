@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_atur_ulang</name>
+   <tag></tag>
+   <elementGuidId>01b5a2a9-939b-4a59-8413-ee4314ab1e1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;button-atur-ulang&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;button-atur-ulang&quot;]</value>
+      <webElementGuid>b22c4512-ed8c-4f4f-b2f1-3f30cba02b0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

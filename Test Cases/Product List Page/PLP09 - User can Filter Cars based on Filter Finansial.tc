@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP09 - User can Filter Cars based on Filter Finansial</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85d0905b-6515-4eba-a939-c2a35a45a148</testCaseGuid>
+</TestCaseEntity>
