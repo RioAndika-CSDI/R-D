@@ -24,12 +24,12 @@ WebUI.callTestCase(findTestCase('Setir Kanan/SKMB003-Cari Mobil Bekas Hompage'),
 WebUI.click(findTestObject('Page Mobil Bekas/button_Filter Setelah Filter'))
 
 WebUI.callTestCase(findTestCase('Setir Kanan/SKMB007-Menghapus Data Filter'), [('url_skmb001_Filter') : expected_url_Search
-        , ('brand_Filter') : brand_Search, ('tahun_Filter') : tahun_Search, ('transmisi_Filter') : transmisi_Search, ('plat_Filter') : plat_Filter
-        , ('lokasi_Filter') : lokasi_Filter, ('kilometer_Filter') : kilometer_Filter, ('harga_Filter') : harga_Filter, ('screen') : screen
+        , ('body_Filter') : brand_Search, ('brand_Filter') : brand_Search, ('tahun_Filter') : tahun_Search, ('transmisi_Filter') : transmisi_Search
+        , ('plat_Filter') : '', ('lokasi_Filter') : '', ('kilometer_Filter') : '', ('harga_Filter') : '', ('screen') : screen
         , ('open_browser') : '0', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '0', ('close_browser') : '1'
-        , ('url_skmb001') : url_skmb001_Filter, ('brand') : brand_Filter, ('tahun') : tahun_Filter, ('transmisi') : transmisi_Filter
-        , ('plat') : plat_Filter, ('lokasi') : lokasi_Filter, ('kilometer') : kilometer_Filter, ('harga') : harga_Filter
-        , ('screen') : screen], FailureHandling.STOP_ON_FAILURE)
+        , ('url_skmb001') : url_skmb001_Filter, ('brand') : brand_Filter, ('body') : body_Filter, ('tahun') : tahun_Filter
+        , ('transmisi') : transmisi_Filter, ('plat') : plat_Filter, ('lokasi') : lokasi_Filter, ('kilometer') : kilometer_Filter
+        , ('harga') : harga_Filter, ('navigateFilter_tambahan') : '', ('screen') : screen], FailureHandling.STOP_ON_FAILURE)
 

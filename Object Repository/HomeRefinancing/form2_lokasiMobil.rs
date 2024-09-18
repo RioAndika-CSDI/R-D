@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form2_lokasiMobil</name>
+   <tag></tag>
+   <elementGuidId>9174ea90-e3ae-4689-8489-ae92ddee23c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[4]</value>
+      <webElementGuid>c3050969-975d-4bd8-9506-854872f0fe65</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

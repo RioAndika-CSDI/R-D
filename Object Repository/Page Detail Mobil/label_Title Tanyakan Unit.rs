@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'leadsFormUsedCar_textHeading__lNVli' and (starts-with(text(), 'Tanyakan unit') or starts-with(., 'Tanyakan unit'))]</value>
+         <value>//*[starts-with(@class, 'leadsFormUsedCar_textHeading') and (starts-with(text(), 'Tanyakan unit') or starts-with(., 'Tanyakan unit'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>leadsFormUsedCar_textHeading__lNVli</value>
-      <webElementGuid>91640aaa-291c-4d20-8134-c0ee5b37e27e</webElementGuid>
+      <value>leadsFormUsedCar_textHeading</value>
+      <webElementGuid>4ef765cf-4030-4030-916d-dc37dcb60197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Tanyakan unit</value>
-      <webElementGuid>12f4b2ab-d913-48a9-815b-9693eaec78fa</webElementGuid>
+      <webElementGuid>4fc4f689-2ed7-402e-a5ab-3b7e7e7e6402</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

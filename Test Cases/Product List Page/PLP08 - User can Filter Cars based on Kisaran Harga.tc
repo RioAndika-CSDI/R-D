@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP08 - User can Filter Cars based on Kisaran Harga</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20c2c9b0-6745-4cd7-882e-449ec6cea38c</testCaseGuid>
+</TestCaseEntity>

@@ -22,6 +22,8 @@ WebUI.callTestCase(findTestCase('Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas
 
 WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/button_urutkan'))
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
+
 WebUI.click(findTestObject('Page Mobil Bekas/option_Urutkan Berdasarkan', [('sort') : sorting]))
 
 String data = ''
@@ -69,51 +71,44 @@ data = data.trim()
 String[] dataArray = data.split(' ')
 
 if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
-	
     if ((sortingElemen[1]).equalsIgnoreCase('terbaru')) {
-		
         for (int i = 0; i < dataArray.length; i++) {
             String bantu = dataArray[i]
 
-            for (int j = i + 1; j<dataArray.length-1; j++) {
+            for (int j = i + 1; j < (dataArray.length - 1); j++) {
                 WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
             }
         }
-		
     } else if ((sortingElemen[1]).equalsIgnoreCase('terlama')) {
-		
         for (int i = 0; i < dataArray.length; i++) {
             String bantu = dataArray[i]
 
-            for (int j = i + 1; j<dataArray.length-1; j++) {
+            for (int j = i + 1; j < (dataArray.length - 1); j++) {
                 WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
             }
         }
-		
     }
-	
 } else if ((sortingElemen[0]).equalsIgnoreCase('harga')) {
-	
     if ((sortingElemen[1]).equalsIgnoreCase('tertinggi')) {
-		
-		for (int i = 0; i < dataArray.length; i++) {
-			String bantu = dataArray[i]
+        for (int i = 0; i < dataArray.length; i++) {
+            String bantu = dataArray[i]
 
-			for (int j = i + 1; j<dataArray.length-1; j++) {
-				WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-			}
-		}
-		
+            for (int j = i + 1; j < (dataArray.length - 1); j++) {
+                WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+            }
+        }
     } else if ((sortingElemen[1]).equalsIgnoreCase('terendah')) {
-		
-		for (int i = 0; i < dataArray.length; i++) {
-			String bantu = dataArray[i]
+        for (int i = 0; i < dataArray.length; i++) {
+            String bantu = dataArray[i]
 
-			for (int j = i + 1; j<dataArray.length-1; j++) {
-				WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-			}
-		}
-		
+            for (int j = i + 1; j < (dataArray.length - 1); j++) {
+                WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+            }
+        }
     }
+    
+   
 }
+
+WebUI.closeBrowser()
 

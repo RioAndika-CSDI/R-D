@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP07 - User can Filter Cars based on Tipe Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8777fc97-8728-4edb-9e5d-8d84d73cb7ef</testCaseGuid>
+</TestCaseEntity>

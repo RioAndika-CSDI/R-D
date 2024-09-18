@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'R8c4Qb fontBodySmall' and (text() = 'Rute' or . = 'Rute')]</value>
+         <value>//*[(text() = 'Rute' or . = 'Rute')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>R8c4Qb fontBodySmall</value>
-      <webElementGuid>2170d07a-c3ba-45f5-8386-e53369e4ba95</webElementGuid>
+      <webElementGuid>117978e7-ecea-49af-8e97-8e80c4b63ed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Rute</value>
-      <webElementGuid>75812a74-dd46-4ac1-b68a-4fcba6c97b23</webElementGuid>
+      <webElementGuid>298e1fcf-ff0e-4674-bf96-307447afc697</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

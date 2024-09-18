@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'otp_titleText__gSCN4' and @data-testid = 'title-text-popup-otp']</value>
+         <value>//*[@data-testid = 'title-text-popup-otp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>otp_titleText__gSCN4</value>
-      <webElementGuid>7e8e580b-6c96-4403-87e9-ec131ac92d4a</webElementGuid>
+      <webElementGuid>80317090-82cd-4cca-8712-f40ad90c2a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>title-text-popup-otp</value>
-      <webElementGuid>e03b8e03-4c9b-4ea5-b0f4-a546a5372ca9</webElementGuid>
+      <webElementGuid>9c0da746-97e3-4b5f-a4ea-2d792c0278fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

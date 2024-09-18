@@ -17,37 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
+WebUI.openBrowser('https://www.seva.id?utm_source=testing&utm_medium=testing&utm_campaign=testing&utm_id=testing&utm_term=testing&utm_content=testing')
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
-    15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
-if (aslFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
-sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
-    15)
-
-if (sakuFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
-
-    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
-
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Cari Mobil'))
+WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Dealer Mobil Baru'))
 

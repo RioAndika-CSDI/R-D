@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleWidget_categoryTextWrapper__A1De1'])[${id}]</value>
+         <value>(//*[@class = 'articleWidget_categoryTextWrapper__bBJ_R'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleWidget_categoryTextWrapper__A1De1</value>
-      <webElementGuid>e3d26111-a28a-4f0c-acae-27de42e5a96c</webElementGuid>
+      <value>articleWidget_categoryTextWrapper__bBJ_R</value>
+      <webElementGuid>32fe7ba2-e8b0-4270-84ac-77bbebb39f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleWidget_categoryTextWrapper__A1De1'])[${id}]</value>
-      <webElementGuid>87059e96-2998-4259-8d61-48bb272997dc</webElementGuid>
+      <value>(//*[@class = 'articleWidget_categoryTextWrapper__bBJ_R'])[${id}]</value>
+      <webElementGuid>7469a532-501d-40df-b4a9-65eae5516513</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

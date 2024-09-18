@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>((//*[@class='formTransmission_childContainer__Dczg9'])[1]/*[@class='formTransmission_boxOnclick__pPjms'])[1]</value>
+         <value>((//*[starts-with(@class, 'formTransmission_childContainer')])[1]/*[starts-with(@class, 'formTransmission_boxOnclick')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>((//*[@class='formTransmission_childContainer__Dczg9'])[1]/*[@class='formTransmission_boxOnclick__pPjms'])[1]</value>
-      <webElementGuid>24e8e648-65e2-4659-b5c1-b73b1766198b</webElementGuid>
+      <value>((//*[starts-with(@class, 'formTransmission_childContainer')])[1]/*[starts-with(@class, 'formTransmission_boxOnclick')])[1]</value>
+      <webElementGuid>108617fc-6c44-430c-9585-45044a79b019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formTransmission_childContainer__Dczg9</value>
+      <webElementGuid>59222871-2ba2-46c8-85ef-4f5ffd631071</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

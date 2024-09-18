@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP01 - User Can Access PLP Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8bc5bf25-210f-45a2-bb41-85685407c00e</testCaseGuid>
+</TestCaseEntity>

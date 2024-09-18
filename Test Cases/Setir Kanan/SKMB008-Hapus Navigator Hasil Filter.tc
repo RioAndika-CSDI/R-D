@@ -33,6 +33,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>8e8a4f2b-fc4e-467c-8e06-2cf6c4f00bbc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>03f2d5cc-4bd2-4007-b128-eb59778b0f01</variableId>
    </variableLinks>
    <variableLinks>
@@ -104,6 +110,13 @@
       <id>bbd39b52-a31e-4b6b-8632-742cd0fe36c1</id>
       <masked>false</masked>
       <name>brand</name>
+   </variable>
+   <variable>
+      <defaultValue>'MPV;SUV;Minivan;Wagon'</defaultValue>
+      <description></description>
+      <id>8e8a4f2b-fc4e-467c-8e06-2cf6c4f00bbc</id>
+      <masked>false</masked>
+      <name>body</name>
    </variable>
    <variable>
       <defaultValue>'2016-2020'</defaultValue>

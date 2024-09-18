@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleWidget_textDate__ay2Ca'])[${id}]</value>
+         <value>(//*[@class = 'articleWidget_textDate__u_Nn4'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleWidget_textDate__ay2Ca</value>
-      <webElementGuid>77e55dd8-5fb7-425f-a5b7-7aac980f41e1</webElementGuid>
+      <value>articleWidget_textDate__u_Nn4</value>
+      <webElementGuid>9c9a01c9-c2cb-41b1-8456-82df2509b8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleWidget_textDate__ay2Ca'])[${id}]</value>
-      <webElementGuid>7fe6c3d6-7319-449b-9745-033c67fc8404</webElementGuid>
+      <value>(//*[@class = 'articleWidget_textDate__u_Nn4'])[${id}]</value>
+      <webElementGuid>f3e3c703-c99b-4cbc-915e-550c48c0ae3f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

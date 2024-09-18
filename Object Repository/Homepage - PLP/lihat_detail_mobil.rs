@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lihat_detail_mobil</name>
+   <tag></tag>
+   <elementGuidId>c6a28f13-43ed-4c3f-9e08-0ead98fa227c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@class=&quot;cardetailcard_linkLihatDetail__SnloN&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@class=&quot;cardetailcard_linkLihatDetail__SnloN&quot;]</value>
+      <webElementGuid>f44b992f-21c2-415e-874a-349103a53ee7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

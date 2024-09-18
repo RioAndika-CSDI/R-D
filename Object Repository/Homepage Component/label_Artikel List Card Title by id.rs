@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleListCard_textTitle__wd0vz'])[${id}]</value>
+         <value>(//*[@class = 'articleListCard_textTitle__CMsFV'])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleListCard_textTitle__wd0vz</value>
-      <webElementGuid>dae46649-a081-4838-96fc-bbb533648cbb</webElementGuid>
+      <value>articleListCard_textTitle__CMsFV</value>
+      <webElementGuid>b809b3ab-d0cb-47d8-bc85-821c41d7505b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleListCard_textTitle__wd0vz'])[${id}]</value>
-      <webElementGuid>a9bbd932-995e-43e0-9368-3af612126dd9</webElementGuid>
+      <value>(//*[@class = 'articleListCard_textTitle__CMsFV'])[${id}]</value>
+      <webElementGuid>0ebb6b8d-b3a2-42e0-83ca-dfa2413ec720</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_tipe_suv</name>
+   <tag></tag>
+   <elementGuidId>f74aa92e-b440-4153-a0b6-08376933095e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;type-MPV&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;type-MPV&quot;]</value>
+      <webElementGuid>c4a672cd-839c-4fb8-8570-b1a2d8576880</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

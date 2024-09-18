@@ -32,11 +32,14 @@ if (open_browser.toString().equals('1')) {
 
 String navigateFilter = navigateFilter_tambahan.toString()
 
+
 WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Terapkan Filter'), 0)
 
 '--Bagian Pilih Brand--'
 if (brand.toString().length() > 0) {
     WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Merek Mobil'), 0)
+
+    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
     String[] brandMobil = brand.toString().split(';')
 
@@ -47,6 +50,22 @@ if (brand.toString().length() > 0) {
 
         WebUI.verifyElementPresent(findTestObject('Homepage Component/selectItem_Brand selected', [('brand') : brandMobil[
                     i]]), 5)
+    }
+}
+
+'--Bagian Pilih Body--'
+if (brand.toString().length() > 0) {
+    WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_body type'), 0)
+
+    String[] bodyMobil = body.toString().split(';')
+
+    for (int i = 0; i < bodyMobil.length; i++) {
+        navigateFilter = ((navigateFilter + ';') + (bodyMobil[i].toString().toUpperCase()))
+
+        WebUI.click(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type unselected', [('body') : bodyMobil[i]]))
+
+        WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type selected', [('body') : bodyMobil[i]]), 
+            5)
     }
 }
 

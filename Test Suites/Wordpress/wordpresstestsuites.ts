@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b7246fc3-a80f-4b6c-8d4a-487313a8fd66</testSuiteGuid>
    <testCaseLink>
-      <guid>3f4b425c-fe9f-47b2-859a-94e238247e93</guid>
+      <guid>fcad2a70-2476-4a8f-b367-bf0a83b98e71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP001-Homepage-Akses Main Page Blog Melalui Burgaer Menu</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b3e773ee-eb87-43d1-a603-8751c7638b9b</guid>
+      <guid>009eb2d4-4ee5-4254-95c3-a6fa240e1c4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP002-Homepage-Akses Main Page Blog Melalui Lihat Semua Artikel</testCaseId>
@@ -62,7 +62,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca7236ee-98e7-4b2b-93c6-75a50c05fff3</guid>
+      <guid>8a142e6b-7851-4304-a684-d9b7186e9ad1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP003-Homepage-Artikel Pada Homepage</testCaseId>
@@ -81,7 +81,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ede111e7-cb1b-45ac-850d-bbb91f14472b</guid>
+      <guid>12d18bcd-349c-4e19-8a8d-f55669601c7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP004-Homepage-Carousel Artikel</testCaseId>
@@ -100,7 +100,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6cbf9f10-7859-44ad-b211-fd660bac6fa6</guid>
+      <guid>4c854cc7-47c9-4a94-8117-91a442c3b103</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP005-Homepage-Membuka Artikel Melalui Data Carousel</testCaseId>
@@ -137,7 +137,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>50fd731f-0f3f-4383-8b8b-61fb26a9557f</guid>
+      <guid>b8af6e83-e6bf-4481-bea7-33f0c2259225</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP006-Homepage-Melihat Data Artikel Tiap Kategori</testCaseId>
@@ -156,7 +156,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bdaa49f-b9d2-4ade-a8e9-209d71e5b5f0</guid>
+      <guid>5146e134-92a1-4b1d-9097-3fca09381a9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP007-Homepage-Membuka Artike Melalui Tab Kategori</testCaseId>
@@ -175,7 +175,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7dfb07f0-3744-4081-b13b-71b9dc1f7e9c</guid>
+      <guid>0cae2e56-6e85-4700-b5dc-36f49e266269</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP008-Main Blog Page-Lihat Semua Berita</testCaseId>
@@ -206,7 +206,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>43f38af2-b95e-43fd-871c-0dcb01685b43</guid>
+      <guid>3386fb6f-7094-457f-a4e3-b72d849074b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Wordpress/WP009-Main Blog Page-Carousel Berita</testCaseId>
@@ -228,6 +228,183 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>40ec2323-efe6-4cca-ad6f-a0d70ae61a68</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60a047d9-e0be-4d30-9541-598b90b1cc78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP010-Homepage-burgermenu-akses berita utama otomotif</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>902918e4-c8a5-4691-8a07-abdf2294cbfd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f60185f-2787-4bd6-85d1-f9a8e63ee8ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP011-Homepage-Burgermenu-akses review otomotif</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbb2c593-f9d0-4976-bbd9-468da9994195</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bcc5c156-cceb-4f22-9c5a-2568a967cac3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP012-Homepage-Burgermenu-akses tips dan rekomendasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f29a8fc3-8814-48ff-835b-746821ba149c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe53490b-610d-457f-a809-d609ccb06399</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP013-Homepage-Burgermenu-akses keuangan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5cefba87-a89e-405a-afae-6deba18b3636</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a670b3a-8930-43f0-9a41-249afdd09f2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP014-Homepage-Membuka artikel di Main Page Blog</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b4ddb1d-a9d9-49e5-9f19-6a1e9edd54c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcd7d0aa-897d-4452-aed4-a122fc8392b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e563324e-e41b-4849-9397-13e5a2ca63da</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c07ca31d-1b6b-4181-9e31-969d31e327a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP015-Homepage-MembukaTemukan Artikel disini</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3efe5943-9aab-49e7-9ae9-8796aa1be046</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a9a817a2-4a1c-43d3-9601-61ccba308ea9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a5b3698-c188-4fda-b4ac-08f89d88f164</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2436ca8e-ac08-4d07-88b8-f43abd4bc888</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP016-Homepage-Membuka Artikel Baca Juga</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7e0670c-c957-45c6-b4c3-ad24a7accfca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0356f3f0-a260-4f56-b6ca-c3b7afca0d7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>146e019c-57f6-454a-9dc8-7631146f9ce9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7715b42-4dba-4cdf-b6ce-8ec3935f2f35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP017-Homepage-Form Tertarik Seva</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>deb7cbc4-bf22-4c53-b20a-7afe7afc9cec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>047e28b6-92b3-4eb8-8f69-33054ad920cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61837091-5897-4647-9db4-d187b0922212</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aef3cfe0-198c-4dea-a618-6877556cfacb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress/WP018-Homepage-Form Join Yuk</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ed45251-4862-4769-99fc-3be2a8cd9ccb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>957451bd-519b-4fd1-bb99-243425ad4108</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e78d058-b628-4197-bb0b-f33a2c99f31d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

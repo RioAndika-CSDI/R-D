@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Artikel' or . = 'Artikel') and @class = 'menuItem_parentMenu__Uk83D']</value>
+         <value>//*[(text() = 'Artikel' or . = 'Artikel') and @class = 'menuItem_parentMenu__sR5aI']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Artikel</value>
-      <webElementGuid>359c32ef-e5da-436f-8e8d-7f5618490c55</webElementGuid>
+      <webElementGuid>0e5828ee-e3cc-4d64-b23a-dfabd6032ab9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuItem_parentMenu__Uk83D</value>
-      <webElementGuid>1b9e6018-ce9f-457b-ac3c-ad84d1ebb6bd</webElementGuid>
+      <value>menuItem_parentMenu__sR5aI</value>
+      <webElementGuid>a8f29051-98b9-455c-a78a-79a4b7024a8b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

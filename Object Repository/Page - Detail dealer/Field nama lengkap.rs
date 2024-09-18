@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'input_input__MAvlc' and @placeholder = 'Masukkan nama lengkap']</value>
+         <value>//*[starts-with(@class, 'input_input') and @placeholder = 'Masukkan nama lengkap']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_input__MAvlc</value>
-      <webElementGuid>7e0af188-ec09-4d43-8b25-f8afc777f954</webElementGuid>
+      <value>input_input</value>
+      <webElementGuid>9c9a0789-47c7-4e36-b537-92526adc64c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan nama lengkap</value>
-      <webElementGuid>1b8a7183-327f-4a65-814a-f10eb7f21fce</webElementGuid>
+      <webElementGuid>65abd43d-b3c3-4954-bbbd-f9b6c7c035be</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

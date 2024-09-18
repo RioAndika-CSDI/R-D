@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN undefined' and @data-testid = 'button-cari-mobil']</value>
+         <value>//*[@data-testid = 'button-cari-mobil']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>1d267b2a-0d47-47ac-b02a-82a1c1a1bc02</webElementGuid>
+      <webElementGuid>459428ff-af0e-4d19-b1c5-ac860a1e3ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-cari-mobil</value>
-      <webElementGuid>a1d70d80-ef8c-464f-9d37-971cb078166a</webElementGuid>
+      <webElementGuid>0b3a88fc-cf9c-4dfc-92f1-e27aea5f7b93</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

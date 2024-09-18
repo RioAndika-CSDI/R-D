@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'formYear_textWrapperSlider__68a5c'])[1]/*[2]</value>
+         <value>(//*[starts-with(@class, 'formYear_textWrapperSlider')])[1]/*[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formYear_textWrapperSlider__68a5c</value>
-      <webElementGuid>46ac9ba1-cec7-44e1-8339-d7167edc83f5</webElementGuid>
+      <value>formYear_textWrapperSlider</value>
+      <webElementGuid>9516ab4a-0be6-41c1-9f2a-46caa199b803</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'formYear_textWrapperSlider__68a5c'])[1]/*[2]</value>
-      <webElementGuid>0615b8a9-0835-4bf1-9320-06556bc2652d</webElementGuid>
+      <value>(//*[starts-with(@class, 'formYear_textWrapperSlider')])[1]/*[2]</value>
+      <webElementGuid>3709b273-5f11-425d-92c9-98efe5c61643</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

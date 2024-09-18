@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'articleListCard_categoryTextWrapper__eJtLP' and (text() = '${kategori}' or . = '${kategori}')])[${id}]</value>
+         <value>(//*[@class = 'articleListCard_categoryTextWrapper__ojr6r' and (text() = '${kategori}' or . = '${kategori}')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>articleListCard_categoryTextWrapper__eJtLP</value>
-      <webElementGuid>5e45b91e-15a3-4ae6-9621-d0f81d6d1291</webElementGuid>
+      <value>articleListCard_categoryTextWrapper__ojr6r</value>
+      <webElementGuid>1e26c77b-a1c4-4dc3-8438-c83dce0ff349</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,14 +26,14 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>3c22be5d-06a9-40d5-b99e-e7aaf9b827db</webElementGuid>
+      <webElementGuid>247690ee-b2b7-44da-b404-783a59dd758c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'articleListCard_categoryTextWrapper__eJtLP' and (text() = '${kategori}' or . = '${kategori}')])[${id}]</value>
-      <webElementGuid>90c7ea75-ef74-4164-bd6c-a1082c52c164</webElementGuid>
+      <value>(//*[@class = 'articleListCard_categoryTextWrapper__ojr6r' and (text() = '${kategori}' or . = '${kategori}')])[${id}]</value>
+      <webElementGuid>d5d9e9db-b3c9-4956-8af1-4125273d767a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

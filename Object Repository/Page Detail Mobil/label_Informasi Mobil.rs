@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'description_kanyonMedium__1gDiI' and (text() = 'Informasi Mobil' or . = 'Informasi Mobil')]</value>
+         <value>//*[starts-with(@class, 'description_kanyonMedium') and (text() = 'Informasi Mobil' or . = 'Informasi Mobil')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>description_kanyonMedium__1gDiI</value>
-      <webElementGuid>86ad2b67-d188-47e8-8ede-73e18e12adff</webElementGuid>
+      <value>description_kanyonMedium</value>
+      <webElementGuid>664eb715-2fd1-4884-9d72-2bbd0658c131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Informasi Mobil</value>
-      <webElementGuid>71869c41-4f05-4e07-b574-675c597a1dd6</webElementGuid>
+      <webElementGuid>db558060-7742-4c48-8c4e-3a96cc0a74d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

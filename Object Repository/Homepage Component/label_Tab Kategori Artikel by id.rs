@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[starts-with(@data-testid, 'tab-')])[${id}]</value>
+         <value>(((//*[starts-with(@class, 'navigationTabV4_container')])[2])//*[starts-with(@class, 'navigationTabV4_tabItemText')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>ends with</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tabV2_containerTabV2LC__eSZO_ </value>
-      <webElementGuid>6d9bec61-78c5-4684-8765-9b2b9a100021</webElementGuid>
+      <value>navigationTabV4_container</value>
+      <webElementGuid>dede4e84-bf9c-411a-b7e4-fa8d9624b770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[starts-with(@data-testid, 'tab-')])[${id}]</value>
-      <webElementGuid>321b0c83-200b-4bb3-b57a-8648cc52edd2</webElementGuid>
+      <value>(((//*[starts-with(@class, 'navigationTabV4_container')])[2])//*[starts-with(@class, 'navigationTabV4_tabItemText')])[${id}]</value>
+      <webElementGuid>95b9a3c2-3379-44ef-a930-cb0b3962e57e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -18,6 +18,6 @@
       <name>class</name>
       <type>Main</type>
       <value>breadcrumb flex flex-wrap gapx4 font-[rubik]</value>
-      <webElementGuid>120055ef-bbb4-4582-ad7b-6ba63bd2e896</webElementGuid>
+      <webElementGuid>8850f8e2-a209-431b-9a3f-5963acd1c5c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

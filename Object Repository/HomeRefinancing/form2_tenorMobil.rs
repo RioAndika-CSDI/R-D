@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form2_tenorMobil</name>
+   <tag></tag>
+   <elementGuidId>1e8f240f-a496-44b3-8106-e1def9eb1b37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='refinancingFormPage_tenureOption__CaN3Z'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='refinancingFormPage_tenureOption__CaN3Z'])[1]</value>
+      <webElementGuid>d910914d-2ce0-454a-9f5a-f62b5908113e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

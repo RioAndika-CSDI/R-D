@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_lokasiform2</name>
+   <tag></tag>
+   <elementGuidId>b6c35a1a-fd43-4816-aa1b-34092c0d1315</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[4]</value>
+      <webElementGuid>307d6380-8c86-434c-b705-c348d5058c29</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

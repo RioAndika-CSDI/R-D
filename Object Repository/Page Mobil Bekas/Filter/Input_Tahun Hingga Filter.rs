@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Hingga')]//input[@type = 'tel']</value>
+         <value>//*[starts-with(@class, 'formYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_container__wvuqm</value>
-      <webElementGuid>170a1fbd-b525-402f-b390-477ccff214ad</webElementGuid>
+      <value>formSearchYear_container</value>
+      <webElementGuid>2285e0b3-591c-4e20-9d99-ab04d3a16c2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hingga</value>
-      <webElementGuid>4d12b2e7-4bc4-440f-ac86-f0bf929475f9</webElementGuid>
+      <webElementGuid>3ee05795-6f69-4279-ba3e-3f0b69c6659c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,22 +34,22 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>7eb43a7a-327d-4f73-907a-2c6686315696</webElementGuid>
+      <webElementGuid>09bc2725-6d65-4492-b296-b1fa630fa119</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>48616d17-e68e-4c28-81e0-2f647eacaa56</webElementGuid>
+      <webElementGuid>39d8dec5-da40-4c88-9aa9-e000ba0771bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'formYear_container__gG_ns' and (. = 'Hingga')]//input[@type = 'tel']</value>
-      <webElementGuid>78636704-461a-42f6-ad8e-99863ed42dd7</webElementGuid>
+      <value>//*[starts-with(@class, 'formYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
+      <webElementGuid>1b6b248f-19bd-402d-9ab7-89f753ab1104</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

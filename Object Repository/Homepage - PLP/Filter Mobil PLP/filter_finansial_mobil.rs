@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>filter_finansial_mobil</name>
+   <tag></tag>
+   <elementGuidId>07796149-9031-438e-b966-3a8427dacc19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;dropdown-filter-finansial&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;dropdown-filter-finansial&quot;]</value>
+      <webElementGuid>1d1abe54-e925-44d1-bc76-73ccde9dacdc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formPrice_container__1Abv7' and (. = 'Maksimum Harga')]//input[@type = 'tel']</value>
+         <value>//*[@data-testid = 'field-max-price']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class = 'formPrice_container__1Abv7' and (. = 'Maksimum Harga')]//input[@type = 'tel']</value>
-      <webElementGuid>6a3ef760-71e9-4a6d-be08-ff95ce55e8c5</webElementGuid>
+      <webElementGuid>1b797f89-cf3d-461f-8360-5366b0ec24b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-max-price</value>
+      <webElementGuid>8053d057-f2a0-4a18-a513-f4a96b778661</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP06 - User can Filter Cars based on Merek Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9881435-5e14-4c02-9e97-6e81a41c9b75</testCaseGuid>
+</TestCaseEntity>
