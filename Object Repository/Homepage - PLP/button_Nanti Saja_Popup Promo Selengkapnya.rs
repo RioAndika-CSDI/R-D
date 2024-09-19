@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Nanti Saja' or . = 'Nanti Saja') and @id = 'moe-dontallow_button']</value>
+         <value>//button[@id = 'moe-dontallow_button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Nanti Saja</value>
-      <webElementGuid>c5d0376a-4348-48d9-93d0-32ce676b46fe</webElementGuid>
+      <webElementGuid>cfaf66f2-a69f-42cf-a7a2-987fe42293a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a516b4d-ec78-42dc-a3bb-3dd9c47c08e1</webElementGuid>
+      <webElementGuid>c92fadb3-1713-439f-af32-4a7903c702c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>id</name>
       <type>Main</type>
       <value>moe-dontallow_button</value>
-      <webElementGuid>dd9c1abd-14d0-4246-828e-8dd8e19ba9e9</webElementGuid>
+      <webElementGuid>a8155b5e-51c6-43cf-a065-f20e0de51286</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

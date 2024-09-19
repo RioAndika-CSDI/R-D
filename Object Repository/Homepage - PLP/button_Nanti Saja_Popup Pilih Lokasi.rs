@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Nanti saja' or . = 'Nanti saja') and @data-testid = 'button-nanti-saja-city']</value>
+         <value>//button[@data-testid = 'button-nanti-saja-city']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Nanti saja</value>
-      <webElementGuid>472d1338-5407-46ad-a1d9-3f3e9fcb4df4</webElementGuid>
+      <webElementGuid>966e1ef7-8969-4862-98fd-9ab5e5cf08f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>be1d4edb-be05-431a-93a4-b657b00f9d97</webElementGuid>
+      <webElementGuid>9020a11d-4db0-4541-8a16-d9f75f812e29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
-      <webElementGuid>7b5ab726-50b9-4dfc-8d68-2ae9d14244e8</webElementGuid>
+      <webElementGuid>9b706053-64fb-4adf-aeb8-794d555cfc1d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
