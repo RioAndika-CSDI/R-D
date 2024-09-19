@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_This Weeks Completed Task_relative h-10 w-full rounded border border-solid border-line py-13px  font-OpenSans text-xs14px placeholdertext-placeholder pl-2 pr-calc(16px8px4px)</name>
+   <name>input this weeks</name>
    <tag></tag>
    <elementGuidId>417e298d-d840-4522-97c1-3a53c8b63d53</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
