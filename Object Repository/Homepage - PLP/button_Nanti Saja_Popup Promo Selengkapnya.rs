@@ -19,10 +19,18 @@
       <type>Main</type>
       <value>Nanti Saja</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>cfaf66f2-a69f-42cf-a7a2-987fe42293a6</webElementGuid>
 =======
       <webElementGuid>59157a59-578b-4098-af0b-07cc5860ae29</webElementGuid>
 >>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+ Meichella/Fixing
+      <webElementGuid>cfaf66f2-a69f-42cf-a7a2-987fe42293a6</webElementGuid>
+
+      <webElementGuid>59157a59-578b-4098-af0b-07cc5860ae29</webElementGuid>
+ seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,10 +39,18 @@
       <type>Main</type>
       <value>button</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>c92fadb3-1713-439f-af32-4a7903c702c4</webElementGuid>
 =======
       <webElementGuid>a05f39ee-9402-4f7c-966d-7e1e973a96af</webElementGuid>
 >>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+ Meichella/Fixing
+      <webElementGuid>c92fadb3-1713-439f-af32-4a7903c702c4</webElementGuid>
+
+      <webElementGuid>a05f39ee-9402-4f7c-966d-7e1e973a96af</webElementGuid>
+ seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,9 +59,17 @@
       <type>Main</type>
       <value>moe-dontallow_button</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>a8155b5e-51c6-43cf-a065-f20e0de51286</webElementGuid>
 =======
       <webElementGuid>4480969f-fe7c-4e96-87fa-a8d29b60a288</webElementGuid>
 >>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+ Meichella/Fixing
+      <webElementGuid>a8155b5e-51c6-43cf-a065-f20e0de51286</webElementGuid>
+
+      <webElementGuid>4480969f-fe7c-4e96-87fa-a8d29b60a288</webElementGuid>
+ seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
 </WebElementEntity>
