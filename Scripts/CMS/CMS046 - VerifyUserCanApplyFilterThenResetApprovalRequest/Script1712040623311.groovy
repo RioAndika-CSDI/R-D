@@ -31,3 +31,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Filter (8)'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Reset Filter'))
 
+WebUI.closeBrowser()
+

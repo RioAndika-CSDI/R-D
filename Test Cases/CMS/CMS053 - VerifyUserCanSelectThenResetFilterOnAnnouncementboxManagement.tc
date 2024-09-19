@@ -4,5 +4,6 @@
    <name>CMS053 - VerifyUserCanSelectThenResetFilterOnAnnouncementboxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8999d354-fa2c-4378-a0b7-54f28fa9c55e</testCaseGuid>
 </TestCaseEntity>

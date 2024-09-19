@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_User Management_
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_Profile'))
 
+WebUI.delay(3)
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Wajib diisi</name>
+   <tag></tag>
+   <elementGuidId>20484ae5-4fb9-4a34-a3f9-b100eab7a542</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/section/div[4]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.inputDate_errorText__zPBti</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3a616122-d1c5-45c8-9eaa-f37376ca7b22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputDate_errorText__zPBti</value>
+      <webElementGuid>ef20e8c3-20ea-416c-86eb-f0dbf085221f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Wajib diisi</value>
+      <webElementGuid>56254ed1-805e-4c70-8ed5-dce901b8259b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2 ktp-edit_form_header__wQrVw&quot;]/main[@class=&quot;ktp-edit_wrapper__b5vQk&quot;]/section[@class=&quot;ktp-edit_wrapper__form__psNep&quot;]/div[@class=&quot;ktp-edit_addressWraper__BQTAW&quot;]/span[@class=&quot;inputDate_errorText__zPBti&quot;]</value>
+      <webElementGuid>49a16aa6-dce7-41d7-b12d-73c0cb95bd1a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/section/div[4]/span</value>
+      <webElementGuid>7d69a411-f736-433a-b28d-66f010022e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::span[1]</value>
+      <webElementGuid>ccffbc41-f684-4d05-989c-39888de87e9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wonosobo'])[1]/following::span[1]</value>
+      <webElementGuid>716b6da4-3617-4fa6-9c76-7153b45aada7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Perkawinan'])[1]/preceding::span[1]</value>
+      <webElementGuid>01fe324b-c4bb-42c9-9455-1052c05d4645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum Kawin'])[1]/preceding::span[1]</value>
+      <webElementGuid>8fccf5ee-1f8e-4702-870f-7ed89680334b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>87adc192-0361-42ed-ae78-51b04d085e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Wajib diisi' or . = 'Wajib diisi')]</value>
+      <webElementGuid>494120f2-c0c4-49b8-a3e4-05ca7e6a3ff0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

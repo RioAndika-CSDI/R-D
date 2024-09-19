@@ -4,5 +4,6 @@
    <name>CMS027 - VerifyUserCanFilterDraftOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ff9a9fb6-6ba6-4318-a796-81b3e3363b61</testCaseGuid>
 </TestCaseEntity>

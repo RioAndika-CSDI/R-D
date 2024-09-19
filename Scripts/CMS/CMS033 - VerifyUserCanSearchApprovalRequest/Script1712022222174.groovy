@@ -21,3 +21,5 @@ WebUI.callTestCase(findTestCase('CMS/CMS025 - VerifyUserCanAccessApprovalRequest
 
 WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_Approval Request_h-40px block w-full _f8a954'), 'Testimony Management')
 
+WebUI.closeBrowser()
+

@@ -4,5 +4,6 @@
    <name>CMS034 - VerifyUserCanSelectThenResetFilterOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>964f46ae-9cc1-494a-96bd-11f57c161d7a</testCaseGuid>
 </TestCaseEntity>

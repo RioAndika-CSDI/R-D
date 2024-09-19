@@ -23,7 +23,8 @@ if (open_browser.toString().equals('1')) {
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
+    0)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
@@ -35,7 +36,7 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
 'Click Moengage Ads\r\n'
-WebUI.delay(1)
+WebUI.delay(10)
 
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
     0)
@@ -46,17 +47,13 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli 
 'Select city'
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
 
-WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), 
-    Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), 
-    Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), 
-    kota)
+WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), kota)
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/div_dropdown list city', 
-        [('kota') : kota]))
+WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/div_dropdown list city', [('kota') : kota]))
 
 //SELECT CAR MODEL
 'Select car model'
@@ -77,11 +74,9 @@ if (jenis_bayar.toString().equalsIgnoreCase('ADDM')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Bayar di Belakang (ADDB)Dibayar sebulan setelah DP'))
 }
 
-WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/span_Cicil Mobil Impianmu dengan Mudah'), 
-    0)
+WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/span_Cicil Mobil Impianmu dengan Mudah'), 0)
 
-WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input_pendapatan'), 
-    '20000000')
+WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input_pendapatan'), '20000000')
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'))
 

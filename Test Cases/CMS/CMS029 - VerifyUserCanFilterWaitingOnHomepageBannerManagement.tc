@@ -4,5 +4,6 @@
    <name>CMS029 - VerifyUserCanFilterWaitingOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>208859f8-9ffb-4c0b-b2e3-0b017f71e51b</testCaseGuid>
 </TestCaseEntity>

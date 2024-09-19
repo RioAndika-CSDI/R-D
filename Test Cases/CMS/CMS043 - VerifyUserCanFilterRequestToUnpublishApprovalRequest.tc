@@ -4,5 +4,6 @@
    <name>CMS043 - VerifyUserCanFilterRequestToUnpublishApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>279b177d-9d09-492e-b224-1156a3494708</testCaseGuid>
 </TestCaseEntity>

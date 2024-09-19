@@ -17,42 +17,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'superadmin@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'p4y+y39Ir5OXMeRRxIjGsg==')
+WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'NbWEQYNoPKhsA2eJ+KpJ/g==')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/sub menu_Testimony Management'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/icon edit Testimony Management'))
-
-WebUI.verifyElementText(findTestObject('Page_SEVA CMS/CMS - Testimony Management/h1_Edit Testimony management'), 'Edit Testimony')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Testimony_Management/input_Search_TM'), 'Testing')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/main_LoginEmailPasswordRemember me Log inIn_9e366b'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management (1)'))
+WebUI.verifyElementText(findTestObject('Page_CMS_new/Page_Testimony_Management/h1_Edit Testimony'), 'Edit Testimony')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management (1)'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Filter'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__input-container_1dfe63_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1'))
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/main_LoginEmailPasswordRemember me Log inIn_9e366b'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management (1)'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Testimony Management (1)'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Filter'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__input-container_1dfe63_1'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1_2'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (1)'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Draft_1'))
 
 WebUI.closeBrowser()
 

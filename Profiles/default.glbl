@@ -34,4 +34,9 @@
       <initValue>'969696'</initValue>
       <name>OTPBypass</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://crm-fe.prod.seva.id/login'</initValue>
+      <name>crmprod</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

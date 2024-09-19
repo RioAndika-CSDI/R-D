@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM016 - VerifyUserCanAccessSearchCompleteTasksOnReEngagementWorkstation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eaf3de11-7a25-4e54-a565-d2e03a0ced1e</testCaseGuid>
+</TestCaseEntity>

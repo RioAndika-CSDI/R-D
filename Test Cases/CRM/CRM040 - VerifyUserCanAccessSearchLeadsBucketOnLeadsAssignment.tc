@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM040 - VerifyUserCanAccessSearchLeadsBucketOnLeadsAssignment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>239797da-1a41-4fbd-be10-93211fb2b318</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM015 - VerifyUserCanAccessCompleteTasksOnReEngagementWorkstation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16ee906b-0c95-471b-b03b-7e6b611cc854</testCaseGuid>
+</TestCaseEntity>

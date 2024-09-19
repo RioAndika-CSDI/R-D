@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Lanjutkan button disabled when user not checked the SnK checkbox</description>
+   <name>IA006 - Pilih Perusahaan Pembiayaan - Unchecked Checkbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0392babb-0abe-47fb-9c29-5e72bd8df065</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ACC (Astra Credit Companies)'</defaultValue>
+      <description></description>
+      <id>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</id>
+      <masked>false</masked>
+      <name>perusahaan_pembiayaan</name>
+   </variable>
+</TestCaseEntity>

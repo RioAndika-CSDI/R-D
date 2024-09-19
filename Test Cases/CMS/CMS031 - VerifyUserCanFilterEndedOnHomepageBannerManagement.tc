@@ -4,5 +4,6 @@
    <name>CMS031 - VerifyUserCanFilterEndedOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>84f59fb8-6e3a-4411-9700-871f69dd3a8d</testCaseGuid>
 </TestCaseEntity>

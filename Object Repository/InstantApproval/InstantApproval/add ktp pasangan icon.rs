@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>add ktp pasangan icon</name>
+   <tag></tag>
+   <elementGuidId>23695116-d8b9-4f93-bf7e-ac27a7d9c7bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ktp-review_iconWrapper__HV3Ls > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>54eda24c-2edb-48c4-8f2d-932e8aed3311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>fb93bca3-e517-4147-acbc-7d226defcacc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>2c008e13-cbe6-40f5-b4bc-05ccaa7b2c4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>65fa78dd-8282-4413-87d9-5e221cf6bb27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>082e084e-507d-44bd-9cd1-0ed1aa28c39a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>744208b0-32b2-4cc2-bbc2-571c8067c882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_addSpouseKtpCard__Jtpsg&quot;]/div[@class=&quot;ktp-review_addSpouseKtpCardHeader__cP6l_&quot;]/div[@class=&quot;ktp-review_iconWrapper__HV3Ls&quot;]/svg[1]</value>
+      <webElementGuid>16ecb43d-b7e6-4df9-8617-6ddb7bb613a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>9fdd8694-9daf-4443-8c88-b28d16ba7ab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wonosobo'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>8ad42539-e315-40c2-9bb7-be0578faa471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Data KTP Pasangan'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>72a3e18f-22af-4739-af78-1b306a05cfc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selanjutnya'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>fd113128-4685-43c8-8721-e3d26ef01169</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

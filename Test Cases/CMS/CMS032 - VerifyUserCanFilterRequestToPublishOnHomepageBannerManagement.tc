@@ -4,5 +4,6 @@
    <name>CMS032 - VerifyUserCanFilterRequestToPublishOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d065893b-edea-42fb-ae7e-a667e0304149</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS030 - VerifyUserCanFilterNewestUserManagementAccount</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>214cefaf-a7da-4b39-8bef-e1fc100cbff3</testCaseGuid>
 </TestCaseEntity>

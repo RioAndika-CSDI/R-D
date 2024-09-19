@@ -17,32 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'TKuVe2416cQrilL8vjccmw==')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Announcement Box Management'))
-
-<<<<<<< HEAD:Scripts/CMS/CMS040 - VerifyUserCanAccessAnnouncementBoxManagement/Script1711902112833.groovy
-WebUI.verifyElementText(findTestObject('Object Repository/Page_SEVA CMS/h1_Announcement Box Management'), 'Announcement Box Management')
-=======
-WebUI.maximizeWindow()
-
-//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/svg_h-5 w-5')) --> can't automated cause role
-//
-//WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Edit Announcement Box')) --> can't automated cause role
->>>>>>> eb024bb350f25e9678763835805d8dce38476071:Scripts/CMS/CMS013 - VerifyUserCanEditAnnouncementBox/Script1707798472040.groovy
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_CMS_new/Page_Announcement_Box/Page_SEVA CMS/a_Announcement Box Management'))
 

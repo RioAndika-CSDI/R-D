@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mau Hasil yang Pasti dan Cepat Yuk, Lanjut ke Tahap Instant Approval</name>
+   <tag></tag>
+   <elementGuidId>e55359c8-cd44-41dd-a8cf-bf6d922f316d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.landingIA_titleInfo__LTb18</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>717d00c5-9e0a-4c0c-9f72-a94fc40360e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>landingIA_titleInfo__LTb18</value>
+      <webElementGuid>75e8be0d-7df0-4e86-90f6-c4465f3c1800</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mau Hasil yang Pasti dan Cepat? Yuk, Lanjut ke Tahap Instant Approval</value>
+      <webElementGuid>6463dd7b-5ae7-4fb6-839d-ec7d6cfb2ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;landing-ia-bottom-sheet&quot;]/div[2]/div[1]/div[@class=&quot;landingIA_container__Ul9IJ&quot;]/div[@class=&quot;landingIA_containerHeader__HR5FD&quot;]/div[@class=&quot;landingIA_header__p_Yvg&quot;]/span[@class=&quot;landingIA_titleInfo__LTb18&quot;]</value>
+      <webElementGuid>1168510b-0213-4213-9d28-c3484476cf14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[1]</value>
+      <webElementGuid>99a23d84-f127-44d1-9593-b537a939d4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::span[1]</value>
+      <webElementGuid>0669077c-38bc-40f9-982e-dcd75b07a21f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mau Hasil yang']/parent::*</value>
+      <webElementGuid>3beb579e-2b3e-42aa-a8e4-b188427a0fc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/span</value>
+      <webElementGuid>da1a2128-e56a-4df4-a8a8-52c6458ec483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mau Hasil yang Pasti dan Cepat? Yuk, Lanjut ke Tahap Instant Approval' or . = 'Mau Hasil yang Pasti dan Cepat? Yuk, Lanjut ke Tahap Instant Approval')]</value>
+      <webElementGuid>04113edc-c50f-4930-a34a-3c5350f1d741</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -4,5 +4,6 @@
    <name>CMS030 - VerifyUserCanFilterDeletedOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7cd4f109-a26a-48df-8907-7dddb11caeab</testCaseGuid>
 </TestCaseEntity>

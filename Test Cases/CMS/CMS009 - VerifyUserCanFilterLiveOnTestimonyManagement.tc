@@ -4,5 +4,6 @@
    <name>CMS009 - VerifyUserCanFilterLiveOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>72274661-ecc6-4392-8042-5ea8eaa79b0a</testCaseGuid>
 </TestCaseEntity>

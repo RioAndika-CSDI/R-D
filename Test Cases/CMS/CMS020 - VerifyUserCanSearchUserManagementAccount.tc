@@ -4,5 +4,6 @@
    <name>CMS020 - VerifyUserCanSearchUserManagementAccount</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>13dd8b4f-0439-4b50-9322-54fe65aa8e23</testCaseGuid>
 </TestCaseEntity>

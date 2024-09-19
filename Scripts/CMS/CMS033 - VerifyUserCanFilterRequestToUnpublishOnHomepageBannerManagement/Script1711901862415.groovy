@@ -17,32 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'p4y+y39Ir5OXMeRRxIjGsg==')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/CMS - Homepage Banner Management/a_Homepage Banner Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Homepage_Banner_Management/Page_SEVA CMS/a_Homepage Banner Management'))
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Homepage Banner Management/button_Filter Homepage Banner Management'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Homepage Banner Management/div_Select Filter Request Status Homepage Banner Management'), 
+WebUI.click(findTestObject('Page_CMS_new/Page_Homepage_Banner_Management/Page_SEVA CMS/div_Select_Filter_Request Status'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Homepage Banner Management/div_Request to Unpublish Homepage Banner Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Homepage Banner Management/button_Apply Filter Homepage Banner management'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CMS_new/Page_Homepage_Banner_Management/Page_SEVA CMS/button_Apply Filter'), FailureHandling.STOP_ON_FAILURE)
 
 if (true) {
     WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Homepage Banner Management/span_Showing 0-0 of 0 Homepage Banner Management'), 

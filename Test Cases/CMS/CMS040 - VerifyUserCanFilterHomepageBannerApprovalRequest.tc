@@ -4,5 +4,6 @@
    <name>CMS040 - VerifyUserCanFilterHomepageBannerApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b64c0134-694b-435b-b969-9332b79d4c1f</testCaseGuid>
 </TestCaseEntity>

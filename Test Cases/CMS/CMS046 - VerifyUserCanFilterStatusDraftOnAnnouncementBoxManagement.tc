@@ -4,5 +4,6 @@
    <name>CMS046 - VerifyUserCanFilterStatusDraftOnAnnouncementBoxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>303dd778-e707-4dc3-b6b0-3ee91f8ebb86</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS041 - VerifyUserCanFilterAnnouncementBoxApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bebc6466-9ea5-4224-9249-d82396c4725a</testCaseGuid>
 </TestCaseEntity>

@@ -17,22 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'TKuVe2416cQrilL8vjccmw==')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/span_SEVA Content Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/a_Announcement Box Management'))
+WebUI.callTestCase(findTestCase('CMS/CMS040 - VerifyUserCanAccessAnnouncementBoxManagement'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Announcement Box Management/button_Filter Announcement Box Management'))
 
@@ -40,7 +25,7 @@ WebUI.click(findTestObject('Page_SEVA CMS/CMS - Announcement Box Management/div_
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Announcement Box Management/div_Draft Announcement Box Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Announcement Box Management/button_Apply Filter announcement box 1'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Announcement_Box/Page_SEVA CMS/button_Apply Filter'))
 
 if (true) {
     WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Announcement Box Management/div_Draft List Announcement Box Management'), 

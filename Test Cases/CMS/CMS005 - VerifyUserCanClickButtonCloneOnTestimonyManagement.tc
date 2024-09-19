@@ -4,5 +4,6 @@
    <name>CMS005 - VerifyUserCanClickButtonCloneOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a883d04c-54d9-4fd1-8ba7-bb460c527bbc</testCaseGuid>
 </TestCaseEntity>

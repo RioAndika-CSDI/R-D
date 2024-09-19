@@ -4,5 +4,6 @@
    <name>CMS025 - VerifyUserCanSearchOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d208ed38-69ac-410b-8bca-6c4a295f4e97</testCaseGuid>
 </TestCaseEntity>

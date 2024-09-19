@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.crmstg)
+WebUI.openBrowser(GlobalVariable.crmprod)
 
-WebUI.navigateToUrl('https://crm-fe.staging.sevaio.xyz/login')
+WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email'), 'clement.csa@seva.id')
+WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'testing-csaleader@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'wcJ6od6gnDYTywfJ7F4H4w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN'))
 

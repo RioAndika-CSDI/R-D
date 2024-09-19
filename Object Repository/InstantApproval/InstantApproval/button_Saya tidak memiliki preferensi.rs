@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Saya tidak memiliki preferensi</name>
+   <tag></tag>
+   <elementGuidId>a6070807-08c0-4770-92fc-ffb261d03940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.perusahaan-pembiayaan_card__cyukk.perusahaan-pembiayaan_active__gyAJT</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>17dd9032-e98f-4866-875e-7d988bb0bb2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>perusahaan-pembiayaan_card__cyukk perusahaan-pembiayaan_active__gyAJT</value>
+      <webElementGuid>4c27a1ee-56f0-4791-8972-a22f015f0405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saya tidak memiliki preferensi</value>
+      <webElementGuid>f41f3df7-689f-4c1c-9d54-fa349e8745b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/button[@class=&quot;perusahaan-pembiayaan_card__cyukk perusahaan-pembiayaan_active__gyAJT&quot;]</value>
+      <webElementGuid>fb07f0a1-bf0a-4404-a89b-cc57c6c3b853</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/button</value>
+      <webElementGuid>2bd17d07-b5c1-48d4-8fa7-d31dd2b6e829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Perusahaan Pembiayaan'])[1]/following::button[1]</value>
+      <webElementGuid>381a5103-9200-41b8-830f-b2344e081863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::button[3]</value>
+      <webElementGuid>072a591c-d03c-4f9b-b40f-74c8c0f8afde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::button[3]</value>
+      <webElementGuid>e9b213a9-49a1-4afe-a59c-9fd2d0e883ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>1cf73ce0-4723-4f48-94b2-ce3a80ef2244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Saya tidak memiliki preferensi' or . = 'Saya tidak memiliki preferensi')]</value>
+      <webElementGuid>d9e092cd-399a-4136-804a-648601ff203d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -4,5 +4,6 @@
    <name>CMS014 - VerifyUserCanFilterRequestToUnpublishOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>254fefa4-d0d6-4534-9b4c-1a4c71ded2c8</testCaseGuid>
 </TestCaseEntity>

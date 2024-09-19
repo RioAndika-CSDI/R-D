@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tambah Data KTP Pasangan</name>
+   <tag></tag>
+   <elementGuidId>d46fd34e-86f1-4270-ad51-e1ff8f8faab2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ktp-review_addSpouseKtpTitle__i_6Jq</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>359cd1ab-f5df-471e-99cd-e752eb478ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ktp-review_addSpouseKtpTitle__i_6Jq</value>
+      <webElementGuid>4ccce28a-41c4-468f-8781-c23afc6d1601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Data KTP Pasangan</value>
+      <webElementGuid>5e483f0e-2991-4884-8c8e-e8d695cca6da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_addSpouseKtpCard__Jtpsg&quot;]/div[@class=&quot;ktp-review_addSpouseKtpCardHeader__cP6l_&quot;]/span[@class=&quot;ktp-review_addSpouseKtpTitle__i_6Jq&quot;]</value>
+      <webElementGuid>89264511-dcf5-4959-8058-2f2b1932311d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div/div[2]/div/span</value>
+      <webElementGuid>9ad97918-bc22-47bd-b101-267d672954e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::span[1]</value>
+      <webElementGuid>e069496c-9ba6-4d14-9286-3082c8cd885a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wonosobo'])[1]/following::span[1]</value>
+      <webElementGuid>d837142a-5c09-42aa-bab5-c1ae92e73122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selanjutnya'])[1]/preceding::span[2]</value>
+      <webElementGuid>f33dbc86-48f8-43ff-a482-18561f823a3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
+      <webElementGuid>d2a91c6e-1d77-4ffd-ad0f-cb47cecc5918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Data KTP Pasangan']/parent::*</value>
+      <webElementGuid>6a451f17-53ca-49f9-a585-71cf6a051d83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/span</value>
+      <webElementGuid>cc8c6840-89b8-4726-bdc6-cde699d42fb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tambah Data KTP Pasangan' or . = 'Tambah Data KTP Pasangan')]</value>
+      <webElementGuid>ede05496-566c-42b8-aaa4-0a0d34e32025</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
