@@ -18,7 +18,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nanti saja</value>
-      <webElementGuid>472d1338-5407-46ad-a1d9-3f3e9fcb4df4</webElementGuid>
+      <webElementGuid>a3812510-ab16-4d9c-891c-84f4883b12e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>be1d4edb-be05-431a-93a4-b657b00f9d97</webElementGuid>
+      <webElementGuid>7b0f009a-b58a-4c86-b4d9-ab68842efad9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
-      <webElementGuid>7b5ab726-50b9-4dfc-8d68-2ae9d14244e8</webElementGuid>
+      <webElementGuid>5bcecaf3-82ac-42be-9dcc-6b932951f4ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

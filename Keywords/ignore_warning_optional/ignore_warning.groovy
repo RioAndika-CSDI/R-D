@@ -37,8 +37,8 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 class ignore_warning {
-	
-	
+
+
 
 	@Keyword
 	def clickIgnoreWarning(TestObject obj) {

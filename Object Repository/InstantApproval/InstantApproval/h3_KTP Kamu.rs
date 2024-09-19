@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_KTP Kamu</name>
+   <tag></tag>
+   <elementGuidId>c26d2230-433f-45d2-b045-b3ad35f792d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.ktp-review_ktpHeaderTitle__KmC0M</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>3f281001-ab87-4034-82ef-1f350f39eda5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ktp-review_ktpHeaderTitle__KmC0M</value>
+      <webElementGuid>d8cc4351-e009-4db1-b117-fae796b6e3c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KTP Kamu</value>
+      <webElementGuid>148f6ed5-193c-4a23-a657-96fbafa967b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_ktpSection__P_ZI3&quot;]/div[@class=&quot;ktp-review_ktpHeaderSection__4wNIO&quot;]/h3[@class=&quot;ktp-review_ktpHeaderTitle__KmC0M&quot;]</value>
+      <webElementGuid>421dd67c-f69d-4cfa-ad63-bc9e2cb66062</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div/div/div/h3</value>
+      <webElementGuid>4d800899-1797-41e2-a706-84e21f536126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data KTP untuk Instant Approval'])[1]/following::h3[1]</value>
+      <webElementGuid>233a0072-e38d-4fe9-b631-aacc0a69615e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditambahkan pada 11 September 2024 10:46'])[1]/preceding::h3[1]</value>
+      <webElementGuid>2173af6c-44b6-44d5-af65-1ba96e58bfb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gunakan KTP ini sebagai KTP utama'])[1]/preceding::h3[1]</value>
+      <webElementGuid>d741f9d1-2d83-49bb-ae3a-ff2bed1cbe8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='KTP']/parent::*</value>
+      <webElementGuid>b33efa14-7b7f-4013-89ad-2c11a19489e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>930f908c-0cbe-4dff-9e3f-a9506cc5dc0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'KTP Kamu' or . = 'KTP Kamu')]</value>
+      <webElementGuid>ee8b8aa5-94db-4ef1-bb57-8d93f74b4778</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
