@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IA005 - Pilih Perusahaan Pembiayaan - Check SnK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77dd27c6-40c6-407e-821b-6c47be347e21</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ACC (Astra Credit Companies)'</defaultValue>
+      <description></description>
+      <id>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</id>
+      <masked>false</masked>
+      <name>perusahaan_pembiayaan</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kualifikasi Kredit Instant Approval</name>
+   <tag></tag>
+   <elementGuidId>a576a056-322f-4bea-bb16-4853fb66f79e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.instant-approval-review_titleText__1fGO7</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8e90a840-2208-444e-b17a-597b5b9b7295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>instant-approval-review_titleText__1fGO7</value>
+      <webElementGuid>5970d58c-980d-40d0-9714-d31071fa32ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kualifikasi Kredit: Instant Approval</value>
+      <webElementGuid>a956871f-5b7a-457f-82a8-fae5697aaf49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;instant-approval-review_container__9UeG3&quot;]/div[@class=&quot;instant-approval-review_titleText__1fGO7&quot;]</value>
+      <webElementGuid>b5cabba2-ba50-4e10-aebe-b4e2db0b9ce7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div</value>
+      <webElementGuid>56d2485b-0d49-4a90-be31-e41d85e42916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Data'])[1]/preceding::div[1]</value>
+      <webElementGuid>f0c8c79d-9408-42f0-b9a7-33d076e1fefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periksa kembali informasi kamu dan pasanganmu sebelum mengajukan Instant Approval'])[1]/preceding::div[2]</value>
+      <webElementGuid>f05c4f79-e86b-4f63-a094-beae418a253b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kualifikasi Kredit: Instant Approval']/parent::*</value>
+      <webElementGuid>130d2f5d-c1fa-461c-bec2-ea5dcf93d88a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>f417da03-22be-4e7a-8437-276982d96c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kualifikasi Kredit: Instant Approval' or . = 'Kualifikasi Kredit: Instant Approval')]</value>
+      <webElementGuid>4b78fc50-5290-46e3-92ef-db58b4334783</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

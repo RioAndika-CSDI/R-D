@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cukup siapkan KTP-mu</name>
+   <tag></tag>
+   <elementGuidId>90a1b350-7b23-4210-9752-94800907a94a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Instant Approval'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.landingIA_infotext__14O83</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5aaac5d0-86c0-468e-8f2e-19c65edc26d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>landingIA_infotext__14O83</value>
+      <webElementGuid>58734bc5-9a94-459e-81f8-1ea6e6e548a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cukup siapkan KTP-mu untuk dapatkan hasil persetujuan kredit instan dari perusahaan pembiayaan Astra. Tidak perlu survey ke rumah!</value>
+      <webElementGuid>1f14943c-682f-4b33-b2c3-09afe12c2d88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;landing-ia-bottom-sheet&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;landingIA_body__1hFOv&quot;]/span[@class=&quot;landingIA_infotext__14O83&quot;]</value>
+      <webElementGuid>be67b844-2094-48d6-9a41-86b84fbcbec7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instant Approval'])[1]/following::span[1]</value>
+      <webElementGuid>d4c75694-0e99-43a5-92c2-cdfebcd07050</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cepat?'])[1]/following::span[2]</value>
+      <webElementGuid>e689e132-d549-4e78-ac11-4029221cd551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cukup']/parent::*</value>
+      <webElementGuid>ea83bd8d-d2bd-4c41-9e45-e54098502dd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>08f7d4f8-75be-48bc-a69d-c5f2405e1d2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Cukup siapkan KTP-mu untuk dapatkan hasil persetujuan kredit instan dari perusahaan pembiayaan Astra. Tidak perlu survey ke rumah!' or . = 'Cukup siapkan KTP-mu untuk dapatkan hasil persetujuan kredit instan dari perusahaan pembiayaan Astra. Tidak perlu survey ke rumah!')]</value>
+      <webElementGuid>f8c5cfec-501b-4b3e-a003-47bc3b3cb780</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

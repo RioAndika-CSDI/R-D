@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_camera</name>
+   <tag></tag>
+   <elementGuidId>10e3a3be-5dde-412c-91c8-2cf230cea36e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan KTP tidak rusak dan data dapat terbaca'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ktp-upload_button__TH_nJ > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>705ad4c7-e927-45a4-b9ad-cf38d7decfa9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>38</value>
+      <webElementGuid>f782edb1-f9ea-428e-ad87-cc88c4506f0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>38</value>
+      <webElementGuid>6d866825-b4b5-4685-ae58-710dfd8f57b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>e6c1fead-491b-4717-8294-975168f70c31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>67d9f26e-bb14-4636-a037-c00e0eb0b31e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>604061ad-2448-47aa-83b5-12f200884402</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;ktp-upload_wrapper__d_Th2&quot;]/div[@class=&quot;ktp-upload_footerWrapper__kCyAb&quot;]/div[@class=&quot;ktp-upload_bottomWrapper__rmrHv&quot;]/button[@class=&quot;ktp-upload_button__TH_nJ&quot;]/svg[1]</value>
+      <webElementGuid>089ab7fe-3c7d-4434-954c-52931ed7595c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan KTP tidak rusak dan data dapat terbaca'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>c205ae3a-a7cf-4ad6-b731-b284b6af891e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan foto KTP terlihat jelas dan tidak kabur'])[1]/following::*[name()='svg'][3]</value>
+      <webElementGuid>3542ef54-11ef-4d46-bd86-f287d5c42e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>93ebafca-386d-455b-bfb8-67122ae432e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>c685bfd0-b81f-4565-9ec7-653fa5df13eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

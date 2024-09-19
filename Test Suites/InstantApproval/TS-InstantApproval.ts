@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-InstantApproval</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>508284ac-ea74-4187-a0c5-8b931ec17dba</testSuiteGuid>
+   <testCaseLink>
+      <guid>1dca4085-4e60-4f20-8eea-647779f8e48d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA002 - Edit KTP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6efb618b-97c5-492c-af77-cb7babc7f6fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8edc4e6-7d78-4cc4-9b55-503d400d3ddb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a3ddae7-59dc-4e31-9db8-e6bc7f814365</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac1121b4-f487-42a4-9405-102ac72a23bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>391545e3-3c4d-4da8-95cd-c966109da6b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>648bd014-e48c-430a-ad8c-4824059bd456</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA003 - KTP Review - Checklist Kota Domisili</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1cc79f5-312b-4703-a6f6-081cff6154c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA004 - KTP Review - Select Kota Domisili</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>59959d37-17b6-4563-b0eb-84ef82c01614</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fbfae8d-5629-47a7-b41e-86d84b115949</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA005 - Pilih Perusahaan Pembiayaan - Check SnK</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a545a948-d8a2-48da-9935-b84bece7d5c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA006 - Pilih Perusahaan Pembiayaan - Unchecked Checkbox</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77e190e1-dce6-46c2-b599-6d25222bd31f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA007 - Pilih Perusahaan Pembiayaan - Option Not Selected</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e66d572-4e22-4dbb-93a3-178cdb8dc91c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d443ef8-dd9a-499e-aeb4-9ffffef522bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA008 - Pilih Perusahaan Pembiayaan - Syarat Ketentuan Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91eb8303-becd-4500-bc57-2b6449c549e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA009 - Pilih Perusahaan Pembiayaan - Kebijakan Privasi Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8258462-7e98-4a28-acc6-3d7bdaea2a82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA010 - Instant Approval Review - Lihat Detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63575c7f-3051-4592-95b0-fbb01df6f38c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA011 - Ajukan Instant Approval</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
