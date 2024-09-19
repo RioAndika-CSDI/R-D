@@ -4,5 +4,6 @@
    <name>CMS045 - VerifyUserCanClearSearchOnAnnouncementBox</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b087d4eb-dfc4-4fb7-9f71-e593c9ff17dc</testCaseGuid>
 </TestCaseEntity>

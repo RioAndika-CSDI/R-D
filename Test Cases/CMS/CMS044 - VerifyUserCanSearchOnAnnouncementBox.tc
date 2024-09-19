@@ -4,5 +4,6 @@
    <name>CMS044 - VerifyUserCanSearchOnAnnouncementBox</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dc210c1e-52da-40b8-88ef-4c47b07f9ec1</testCaseGuid>
 </TestCaseEntity>

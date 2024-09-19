@@ -4,5 +4,6 @@
    <name>CMS021 - VerifyUserCanAccessProfile</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2bb8f210-1fa7-4464-824f-785e77da17df</testCaseGuid>
 </TestCaseEntity>

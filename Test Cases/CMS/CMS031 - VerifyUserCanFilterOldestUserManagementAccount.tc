@@ -4,5 +4,6 @@
    <name>CMS031 - VerifyUserCanFilterOldestUserManagementAccount</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>85e2671b-b935-44f6-bc00-633243d31f3b</testCaseGuid>
 </TestCaseEntity>

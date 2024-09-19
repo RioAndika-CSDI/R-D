@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM025 - VerifyUserCanAccessBSTKOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>03132a75-2471-4b84-9278-066e0c8c31e8</testCaseGuid>
+</TestCaseEntity>

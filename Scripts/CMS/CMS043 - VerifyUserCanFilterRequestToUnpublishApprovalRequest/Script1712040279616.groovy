@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Request to Unpub
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (9)'))
 
+WebUI.closeBrowser()
+

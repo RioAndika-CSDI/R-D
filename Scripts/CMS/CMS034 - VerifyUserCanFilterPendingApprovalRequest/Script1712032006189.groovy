@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Pending'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (2)'))
 
+WebUI.closeBrowser()
+

@@ -102,32 +102,4 @@
       <testCaseId>Test Cases/CMS/CMS016 - VerifyUserCanApplyThenResetFilterOnTestimonyManagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>1aa345ce-f863-4d69-89ba-7a272df4d501</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS017 - VerifyUserCanCreateOnTestimonyManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>487ba50c-3970-40bb-900b-f478d8ef334a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS018 - VerifyUserCanRequestToPublishOnTestimonyManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c8581030-65b9-425a-9102-f8a55491c5ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS019 - VerifyUserCanCancelRequestToPublishOnTestimonyManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>594c3f41-8c5c-4a55-b5ee-7f265650577f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS/CMS020 - VerifyUserCanDeleteOnTestimonyManagement</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

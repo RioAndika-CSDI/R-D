@@ -4,5 +4,6 @@
    <name>CMS052 - VerifyUserCanFilterStatusRequestToUnpublishOnAnnouncementboxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a89375d1-1702-49f0-a242-375158e7adad</testCaseGuid>
 </TestCaseEntity>

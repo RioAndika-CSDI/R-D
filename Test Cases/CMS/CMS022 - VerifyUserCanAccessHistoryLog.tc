@@ -4,5 +4,6 @@
    <name>CMS022 - VerifyUserCanAccessHistoryLog</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>adf62f68-c6b3-47ab-acdb-4648c529fd3a</testCaseGuid>
 </TestCaseEntity>

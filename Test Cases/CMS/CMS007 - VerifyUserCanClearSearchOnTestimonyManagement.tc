@@ -4,5 +4,6 @@
    <name>CMS007 - VerifyUserCanClearSearchOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>87fecf35-24b6-4690-98bc-fe7479af7128</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>CMS023 - VerifyUserCanClickButtonEditOnHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>70faa9a0-bc23-4bdd-a41d-66f33f2851eb</testCaseGuid>
 </TestCaseEntity>

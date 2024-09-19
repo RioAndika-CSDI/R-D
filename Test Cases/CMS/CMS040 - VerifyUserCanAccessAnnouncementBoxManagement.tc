@@ -4,5 +4,6 @@
    <name>CMS040 - VerifyUserCanAccessAnnouncementBoxManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>28acd7e9-c1e9-4e97-b81b-22659bfff0c8</testCaseGuid>
 </TestCaseEntity>

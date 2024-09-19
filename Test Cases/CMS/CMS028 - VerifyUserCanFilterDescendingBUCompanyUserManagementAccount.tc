@@ -4,5 +4,6 @@
    <name>CMS028 - VerifyUserCanFilterDescendingBUCompanyUserManagementAccount</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0ba72142-aaca-43b5-a5df-9d09ff129c3c</testCaseGuid>
 </TestCaseEntity>

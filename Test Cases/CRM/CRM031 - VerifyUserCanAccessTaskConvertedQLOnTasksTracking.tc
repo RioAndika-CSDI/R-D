@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM031 - VerifyUserCanAccessTaskConvertedQLOnTasksTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e547247-7778-4403-89d5-7187a46b9d5f</testCaseGuid>
+</TestCaseEntity>

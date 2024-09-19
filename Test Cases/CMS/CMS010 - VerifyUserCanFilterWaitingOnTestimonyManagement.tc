@@ -4,5 +4,6 @@
    <name>CMS010 - VerifyUserCanFilterWaitingOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>981ede38-c434-4ccd-b715-e17535921b53</testCaseGuid>
 </TestCaseEntity>

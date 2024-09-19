@@ -4,5 +4,6 @@
    <name>CMS019 - VerifyUserCanFilterAscendingUserManagementAccount</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>57829c40-7b6e-468b-8efd-9fb8bf72aea3</testCaseGuid>
 </TestCaseEntity>

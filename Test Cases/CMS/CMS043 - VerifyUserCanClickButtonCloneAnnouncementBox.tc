@@ -4,5 +4,6 @@
    <name>CMS043 - VerifyUserCanClickButtonCloneAnnouncementBox</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fb92c437-a867-4785-8d8a-d1fb8faa7bb8</testCaseGuid>
 </TestCaseEntity>

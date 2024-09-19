@@ -17,17 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.crmstg)
+WebUI.openBrowser(GlobalVariable.crmprod)
 
-WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'clement.csa@seva.id')
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email'), 'testing-csaleader@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Page_Login SEVA CRM/input_Password_password'), 'wcJ6od6gnDYTywfJ7F4H4w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
 
 WebUI.click(findTestObject('Page_Login SEVA CRM/button_LOG IN'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Tracking'))
+//WebUI.click(findTestObject('Page_CRM_new/Leads Tracking/div_HomeUserWorkstationLeads TrackingAssignment'))
+WebUI.click(findTestObject('Page_CRM_new/Page_All_Leads-Tasks/Page_SEVA CRM Homepage - SEVA CRM/div_All Leads  Tasks'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Leads Tracking - SEVA CRM/div_Leads Tracking'))
+WebUI.click(findTestObject('Page_CRM_new/Page_All_Leads-Tasks/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Tracking'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_CRM_new/Page_All_Leads-Tasks/Page_Leads Tracking - SEVA CRM/div_Leads Tracking'))
+
+WebUI.delay(3)
+
+//WebUI.closeBrowser()
 

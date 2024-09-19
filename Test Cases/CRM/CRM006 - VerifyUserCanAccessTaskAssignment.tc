@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM006 - VerifyUserCanAccessTaskAssignment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0bf9e165-6c54-499b-94cd-8591325080d2</testCaseGuid>
+</TestCaseEntity>

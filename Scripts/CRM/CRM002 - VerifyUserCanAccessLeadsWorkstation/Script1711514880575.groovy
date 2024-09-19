@@ -17,19 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.crmstg)
+WebUI.openBrowser(GlobalVariable.crmprod)
 
-WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'clement.csa@seva.id')
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email'), 'testing-csaleader@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Page_Login SEVA CRM/input_Password_password'), 'wcJ6od6gnDYTywfJ7F4H4w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
 
 WebUI.click(findTestObject('Page_Login SEVA CRM/button_LOG IN'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/div_Workstation'))
+//WebUI.click(findTestObject('Page_CRM_new/Workstation/path_Welcome to SEVA CRM_Job_2'))
+WebUI.click(findTestObject('Page_CRM_new/Page_Workstation/div_Workstation'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Workstation'))
+WebUI.click(findTestObject('Page_CRM_new/Page_Workstation/a_Leads Workstation'))
 
-WebUI.click(findTestObject('Object Repository/Page_Leads Workstation - Yohannes Mario - SEVA CRM/div_Leads Workstation'))
+WebUI.click(findTestObject('Page_CRM_new/Page_Workstation/div_Leads Workstation'))
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
