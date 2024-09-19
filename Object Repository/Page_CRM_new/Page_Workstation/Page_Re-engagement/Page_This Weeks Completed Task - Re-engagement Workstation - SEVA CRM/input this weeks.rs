@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input this weeks</name>
+   <tag></tag>
+   <elementGuidId>417e298d-d840-4522-97c1-3a53c8b63d53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search customer name or phone number&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b169bc33-d481-4cea-9e8a-e4fb8c36df23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>08ee2008-a23d-42fc-bf45-aca28be110e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search customer name or phone number</value>
+      <webElementGuid>90be55b2-4d6f-4396-83ca-3d4f664fb01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative h-10 w-full rounded border border-solid border-line py-[13px]  font-OpenSans text-xs/[14px] placeholder:text-placeholder pl-2 pr-[calc(16px+8px+4px)]</value>
+      <webElementGuid>50a8e373-b5ca-4ba0-b067-2cb36b8c8d4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/div[@class=&quot;overflow-x-clip&quot;]/div[1]/div[@class=&quot;flex h-[calc(40px+20px)] w-full items-center gap-4 pb-5&quot;]/div[@class=&quot;relative w-[302px] max-w-full shrink-0 h-10&quot;]/input[@class=&quot;relative h-10 w-full rounded border border-solid border-line py-[13px]  font-OpenSans text-xs/[14px] placeholder:text-placeholder pl-2 pr-[calc(16px+8px+4px)]&quot;]</value>
+      <webElementGuid>f55d4c97-b885-48f2-84cb-06173ac7adb3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>080735fe-3300-40db-867f-da257ffc7b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/input</value>
+      <webElementGuid>fefdba4b-317c-43e6-9146-af79453d36cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>22756136-62d7-42d2-bd5b-3b0877bfad44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Search customer name or phone number']</value>
+      <webElementGuid>9a716fbc-559f-49e9-8d1e-e90b9be6068e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

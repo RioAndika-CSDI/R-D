@@ -18,7 +18,11 @@
       <name>text</name>
       <type>Main</type>
       <value>Nanti saja</value>
+Meichella/Fixing
       <webElementGuid>966e1ef7-8969-4862-98fd-9ab5e5cf08f9</webElementGuid>
+
+      <webElementGuid>a3812510-ab16-4d9c-891c-84f4883b12e8</webElementGuid>
+seva-2.0
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +30,11 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+Meichella/Fixing
       <webElementGuid>9020a11d-4db0-4541-8a16-d9f75f812e29</webElementGuid>
+
+      <webElementGuid>7b0f009a-b58a-4c86-b4d9-ab68842efad9</webElementGuid>
+seva-2.0
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +42,10 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
+Meichella/Fixing
       <webElementGuid>9b706053-64fb-4adf-aeb8-794d555cfc1d</webElementGuid>
+
+      <webElementGuid>5bcecaf3-82ac-42be-9dcc-6b932951f4ba</webElementGuid>
+seva-2.0
    </webElementProperties>
 </WebElementEntity>
