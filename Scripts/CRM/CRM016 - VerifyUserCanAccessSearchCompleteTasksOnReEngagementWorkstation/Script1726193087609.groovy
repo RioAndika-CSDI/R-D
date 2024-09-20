@@ -21,7 +21,19 @@ WebUI.callTestCase(findTestCase('CRM/CRM004 - VerifyUserCanAccessReEngagementWor
 
 WebUI.click(findTestObject('Page_CRM_new/Page_Workstation/Page_Re-engagement/div_This Weeks Completed Task'))
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+WebUI.setText(findTestObject('Page_CRM_new/Page_Workstation/Page_Re-engagement/Page_This Weeks Completed Task - Re-engagement Workstation - SEVA CRM/input_This Weeks Completed Task_relative h-10 w-full rounded border border-solid border-line py-13px  font-OpenSans text-xs14px placeholdertext-placeholder pl-2 pr-calc(16px8px4px)'), 
+=======
 WebUI.setText(findTestObject('Page_CRM_new/Page_Workstation/Page_Re-engagement/Page_This Weeks Completed Task - Re-engagement Workstation - SEVA CRM/input this weeks'), 
+>>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+ Meichella/Fixing
+WebUI.setText(findTestObject('Page_CRM_new/Page_Workstation/Page_Re-engagement/Page_This Weeks Completed Task - Re-engagement Workstation - SEVA CRM/input_This Weeks Completed Task_relative h-10 w-full rounded border border-solid border-line py-13px  font-OpenSans text-xs14px placeholdertext-placeholder pl-2 pr-calc(16px8px4px)'), 
+
+WebUI.setText(findTestObject('Page_CRM_new/Page_Workstation/Page_Re-engagement/Page_This Weeks Completed Task - Re-engagement Workstation - SEVA CRM/input this weeks'), 
+ seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
     'dian')
 
 WebUI.delay(3)

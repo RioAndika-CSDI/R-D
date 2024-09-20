@@ -27,9 +27,11 @@ WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(20)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(20)
 
 'Click Burger Menu'
 WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)

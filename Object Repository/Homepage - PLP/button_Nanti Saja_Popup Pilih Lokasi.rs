@@ -7,18 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Nanti saja' or . = 'Nanti saja') and @data-testid = 'button-nanti-saja-city']</value>
+         <value>//button[@data-testid = 'button-nanti-saja-city']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Nanti saja</value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <webElementGuid>966e1ef7-8969-4862-98fd-9ab5e5cf08f9</webElementGuid>
+=======
       <webElementGuid>a3812510-ab16-4d9c-891c-84f4883b12e8</webElementGuid>
+>>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+Meichella/Fixing
+      <webElementGuid>966e1ef7-8969-4862-98fd-9ab5e5cf08f9</webElementGuid>
+
+      <webElementGuid>a3812510-ab16-4d9c-891c-84f4883b12e8</webElementGuid>
+seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +38,19 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <webElementGuid>9020a11d-4db0-4541-8a16-d9f75f812e29</webElementGuid>
+=======
       <webElementGuid>7b0f009a-b58a-4c86-b4d9-ab68842efad9</webElementGuid>
+>>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+Meichella/Fixing
+      <webElementGuid>9020a11d-4db0-4541-8a16-d9f75f812e29</webElementGuid>
+
+      <webElementGuid>7b0f009a-b58a-4c86-b4d9-ab68842efad9</webElementGuid>
+seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +58,18 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <webElementGuid>9b706053-64fb-4adf-aeb8-794d555cfc1d</webElementGuid>
+=======
       <webElementGuid>5bcecaf3-82ac-42be-9dcc-6b932951f4ba</webElementGuid>
+>>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
+=======
+Meichella/Fixing
+      <webElementGuid>9b706053-64fb-4adf-aeb8-794d555cfc1d</webElementGuid>
+
+      <webElementGuid>5bcecaf3-82ac-42be-9dcc-6b932951f4ba</webElementGuid>
+seva-2.0
+>>>>>>> e056483b47f978fbcd9c4804236ad568263be680
    </webElementProperties>
 </WebElementEntity>
