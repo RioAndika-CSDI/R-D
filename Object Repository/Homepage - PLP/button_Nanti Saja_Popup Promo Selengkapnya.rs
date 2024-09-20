@@ -3,73 +3,37 @@
    <description></description>
    <name>button_Nanti Saja_Popup Promo Selengkapnya</name>
    <tag></tag>
-   <elementGuidId>79eec937-84c2-4df2-bedf-e74311a4ecdf</elementGuidId>
+   <elementGuidId>857dee32-d8da-4739-8d10-a051cab08369</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id = 'moe-dontallow_button']</value>
+         <value>//*[@id = 'moe-dontallow_button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Nanti Saja</value>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <webElementGuid>cfaf66f2-a69f-42cf-a7a2-987fe42293a6</webElementGuid>
-=======
-      <webElementGuid>59157a59-578b-4098-af0b-07cc5860ae29</webElementGuid>
->>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
-=======
- Meichella/Fixing
-      <webElementGuid>cfaf66f2-a69f-42cf-a7a2-987fe42293a6</webElementGuid>
-
-      <webElementGuid>59157a59-578b-4098-af0b-07cc5860ae29</webElementGuid>
- seva-2.0
->>>>>>> e056483b47f978fbcd9c4804236ad568263be680
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <webElementGuid>c92fadb3-1713-439f-af32-4a7903c702c4</webElementGuid>
-=======
-      <webElementGuid>a05f39ee-9402-4f7c-966d-7e1e973a96af</webElementGuid>
->>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
-=======
- Meichella/Fixing
-      <webElementGuid>c92fadb3-1713-439f-af32-4a7903c702c4</webElementGuid>
-
-      <webElementGuid>a05f39ee-9402-4f7c-966d-7e1e973a96af</webElementGuid>
- seva-2.0
->>>>>>> e056483b47f978fbcd9c4804236ad568263be680
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>moe-dontallow_button</value>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <webElementGuid>a8155b5e-51c6-43cf-a065-f20e0de51286</webElementGuid>
-=======
-      <webElementGuid>4480969f-fe7c-4e96-87fa-a8d29b60a288</webElementGuid>
->>>>>>> 48c5b04b1276b0bb465ec75de8ef7429602cdfee
-=======
- Meichella/Fixing
-      <webElementGuid>a8155b5e-51c6-43cf-a065-f20e0de51286</webElementGuid>
-
-      <webElementGuid>4480969f-fe7c-4e96-87fa-a8d29b60a288</webElementGuid>
- seva-2.0
->>>>>>> e056483b47f978fbcd9c4804236ad568263be680
+      <webElementGuid>c423bde3-f112-43ac-8975-fff4f30ac966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>af311c6f-b0bb-4d90-9b78-94783b99a021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nanti Saja</value>
+      <webElementGuid>8eb85869-7d19-4969-a47e-9dff743d0338</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
