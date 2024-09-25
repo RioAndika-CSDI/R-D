@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select_Filter_Request Status</name>
+   <tag></tag>
+   <elementGuidId>b3068b24-31ee-4299-8b16-117a015eed52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r3:']/div[2]/div[2]/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3eab1c8e-df8e-489b-828a-b90c77aa0470</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__indicator my-react-select__dropdown-indicator css-1xc3v61-indicatorContainer</value>
+      <webElementGuid>49017cab-984d-40c1-a8a8-c09eb27b7167</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bbf48ec7-028b-4015-9973-4a1fcd2c5fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r3:&quot;)/div[@class=&quot;flex flex-col gap-1&quot;]/div[2]/div[@class=&quot;my-react-select-container css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control css-15b11zc-control&quot;]/div[@class=&quot;my-react-select__indicators css-1wy0on6&quot;]/div[@class=&quot;my-react-select__indicator my-react-select__dropdown-indicator css-1xc3v61-indicatorContainer&quot;]</value>
+      <webElementGuid>0cf36f1f-68ef-46f0-89fb-3d2e23781762</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r3:']/div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>faedb795-4580-4875-b5d3-b3fd8b5891ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[2]/following::div[4]</value>
+      <webElementGuid>a39af635-b7ca-4f9e-ad4d-054b4936218e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Status'])[2]/following::div[12]</value>
+      <webElementGuid>dd73f904-46ae-4a17-98fb-344b8617ca23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Filter'])[1]/preceding::div[1]</value>
+      <webElementGuid>60750fe7-e95f-418d-bf80-4b74118dbe3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply Filter'])[1]/preceding::div[1]</value>
+      <webElementGuid>0ad08fda-4a43-41f3-bba3-5982229348b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>66033776-a2b5-48c2-9a2f-40221143bba8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

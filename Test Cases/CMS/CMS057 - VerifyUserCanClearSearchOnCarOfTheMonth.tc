@@ -4,5 +4,6 @@
    <name>CMS057 - VerifyUserCanClearSearchOnCarOfTheMonth</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5bea0994-b58e-470a-9873-2ac6ab269ef5</testCaseGuid>
 </TestCaseEntity>

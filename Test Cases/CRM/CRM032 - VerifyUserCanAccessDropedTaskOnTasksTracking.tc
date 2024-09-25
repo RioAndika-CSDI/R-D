@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM032 - VerifyUserCanAccessDropedTaskOnTasksTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ada1a50e-92fd-4e02-880e-1df4f9bf3134</testCaseGuid>
+</TestCaseEntity>

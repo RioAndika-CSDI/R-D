@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Pilih Perusahaan Pembiayaan</name>
+   <tag></tag>
+   <elementGuidId>4ba17b5f-422e-472f-8731-793a06f7a626</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.perusahaan-pembiayaan_headerText__Xrc81</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/h2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pilih Perusahaan Pembiayaan' or . = 'Pilih Perusahaan Pembiayaan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>e6fe95e2-26ec-41c5-a3bd-538605c4a098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>perusahaan-pembiayaan_headerText__Xrc81</value>
+      <webElementGuid>a9b9d6e6-ea9b-45e0-84a4-595914b1f3a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Perusahaan Pembiayaan</value>
+      <webElementGuid>00befb0a-f98b-4852-a808-8959e474d221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/h2[@class=&quot;perusahaan-pembiayaan_headerText__Xrc81&quot;]</value>
+      <webElementGuid>e57b0853-cd20-4918-9892-9cf0e739a477</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/h2</value>
+      <webElementGuid>53227f9c-0d0d-4f40-9b04-8bbaeaf3f523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::h2[1]</value>
+      <webElementGuid>3d8a83d5-65bb-412d-b800-8fd680169e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c29dc4f2-9953-4a2c-8947-3c0f8870caf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pilih Perusahaan Pembiayaan']/parent::*</value>
+      <webElementGuid>f08a7353-2633-40bc-90da-301d545fabe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>01dee878-7c48-495e-a608-aa058034b7ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Pilih Perusahaan Pembiayaan' or . = 'Pilih Perusahaan Pembiayaan')]</value>
+      <webElementGuid>88dc2bdc-13bd-46e6-9b52-159c3de44d54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Request to Updat
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (10)'))
 
+WebUI.closeBrowser()
+

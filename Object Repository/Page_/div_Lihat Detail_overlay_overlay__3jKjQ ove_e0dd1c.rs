@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Lihat Detail_overlay_overlay__3jKjQ ove_e0dd1c</name>
+   <tag></tag>
+   <elementGuidId>90706e0a-2e42-433b-b47d-2b20e07cdfda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.overlay_overlay__3jKjQ.overlay_showOverlay__MbArC.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>023d9671-eedc-4823-824a-4a6c42331c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overlay_overlay__3jKjQ overlay_showOverlay__MbArC undefined</value>
+      <webElementGuid>528435cc-9203-4464-8349-367144541594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;undefined multi-kk-result_container__xf38W&quot;]/div[@class=&quot;multi-kk-result_carListWrapper__aTUrT&quot;]/div[1]/div[@class=&quot;cardetailcardMultiCredit_container___KqAj&quot;]/div[@class=&quot;cardetailcardMultiCredit_cardWrapper___1iLD cardshadow_cardShadow__OePEF&quot;]/div[@class=&quot;cardetailcardMultiCredit_ctaGroup__XUNu7&quot;]/div[@class=&quot;overlay_overlay__3jKjQ overlay_showOverlay__MbArC undefined&quot;]</value>
+      <webElementGuid>dcafeff1-d9ce-4856-9140-c2fcd9699ac7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div[4]/div</value>
+      <webElementGuid>013cce8a-4c12-4f66-b561-fcbabdd81167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[4]/div</value>
+      <webElementGuid>0299bad3-66f4-40e7-a840-41161aa9728a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_merek_toyota</name>
+   <tag></tag>
+   <elementGuidId>324de6c1-8aa9-41a1-a6fc-3e04cde1dbc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;logo-toyota&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;logo-toyota&quot;]</value>
+      <webElementGuid>136cd95d-732c-4b5b-a072-6d79dae6d356</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

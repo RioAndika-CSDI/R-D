@@ -21,7 +21,9 @@ WebUI.callTestCase(findTestCase('CMS/CMS022 - VerifyUserCanAccessHistoryLog'), [
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_History Log_align-bottom inline-flex_bcef6f'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/svg_Module_css-8mmkcg (1)'))
+//WebUI.click(findTestObject('Page_CMS_new/Page_User_Management/Page_SEVA CMS/svg_History Log_h-5 w-5'))
+
+WebUI.click(findTestObject('Page_CMS_new/Page_User_Management/Page_SEVA CMS/Page_SEVA CMS/svg_Module_css-8mmkcg'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Branches'))
 

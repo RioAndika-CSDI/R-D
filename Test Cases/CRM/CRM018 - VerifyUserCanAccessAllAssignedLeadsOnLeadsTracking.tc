@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM018 - VerifyUserCanAccessAllAssignedLeadsOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41056b5e-19b4-4302-94d0-de17eb9a232c</testCaseGuid>
+</TestCaseEntity>

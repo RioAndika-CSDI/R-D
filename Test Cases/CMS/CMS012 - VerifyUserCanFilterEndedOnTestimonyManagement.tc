@@ -4,5 +4,6 @@
    <name>CMS012 - VerifyUserCanFilterEndedOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>446745b6-fec6-402c-9f57-7af41166ecf9</testCaseGuid>
 </TestCaseEntity>

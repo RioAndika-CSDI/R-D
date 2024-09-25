@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Nanti Saja_Popup Pilih Lokasi</name>
    <tag></tag>
-   <elementGuidId>7293c2e0-2f5a-4c9b-bffa-2e9eba466656</elementGuidId>
+   <elementGuidId>eda24974-8ec6-4dc2-84b0-b95bd19f4360</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Nanti saja' or . = 'Nanti saja') and @data-testid = 'button-nanti-saja-city']</value>
+         <value>//*[@data-testid = 'button-nanti-saja-city' and (contains(text(), 'Nanti saja') or contains(., 'Nanti saja'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,25 +15,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Nanti saja</value>
-      <webElementGuid>472d1338-5407-46ad-a1d9-3f3e9fcb4df4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>be1d4edb-be05-431a-93a4-b657b00f9d97</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
-      <webElementGuid>7b5ab726-50b9-4dfc-8d68-2ae9d14244e8</webElementGuid>
+      <webElementGuid>93716e8a-d9e8-44a9-b76b-091794d6d2e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nanti saja</value>
+      <webElementGuid>fd1019e9-e630-49e0-b066-f82ec156dc9d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -21,11 +21,13 @@ WebUI.callTestCase(findTestCase('CMS/CMS025 - VerifyUserCanAccessApprovalRequest
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Filter (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Select_my-react-select__indicator my-re_7a0df4'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Approval_Request/Page_SEVA CMS/div_Select_filter_Item'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Car of the Month (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Apply Filter (3)'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Sent 5 (1)'))
+
+WebUI.closeBrowser()
 

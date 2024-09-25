@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_filter_mobil_2</name>
+   <tag></tag>
+   <elementGuidId>99a3e55b-ad95-4d19-a564-f2a8ef348767</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;navigationfiltermobile_filterActive__plkn_&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;navigationfiltermobile_filterActive__plkn_&quot;]</value>
+      <webElementGuid>5c6d6e92-b160-4c34-9348-6406704a9e3b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

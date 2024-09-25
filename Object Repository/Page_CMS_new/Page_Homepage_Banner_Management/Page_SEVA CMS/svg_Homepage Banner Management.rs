@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Homepage Banner Management</name>
+   <tag></tag>
+   <elementGuidId>48c6030b-ff4a-47c4-8bb6-e045d4ab0436</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Homepage Banner Management'])[2]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>a3ba760f-c47b-41e6-929a-6037379bb34c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>6f5a5379-1a64-4f72-bb84-12e74ca2ffc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>581bc2e1-92c7-44b1-a766-666e4dbd61de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 14 14</value>
+      <webElementGuid>8bec871d-79e9-407c-87a8-9b15606deee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>e17607d0-ef00-4fdb-9566-0b84b2ff2cd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>f4bf54da-303e-4ec2-a530-17e804987f3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-4 w-4 text-shadesSecondaryGray dark:text-white</value>
+      <webElementGuid>1fec2c43-29e4-4d02-86d5-5f26b0b8b9b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>591f6703-9017-4c51-9738-9bd090c0c0e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-[20px] flex flex-col items-center justify-between gap-2 lg:flex-row&quot;]/div[@class=&quot;flex gap-2&quot;]/div[@class=&quot;relative max-w-xl focus-within:text-purple-500&quot;]/div[@class=&quot;absolute inset-y-0 right-0 z-20 flex cursor-pointer items-center pr-2&quot;]/svg[@class=&quot;h-4 w-4 text-shadesSecondaryGray dark:text-white&quot;]</value>
+      <webElementGuid>025073d1-a0ce-427c-af78-c1f9d4550b4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Homepage Banner Management'])[2]/following::*[name()='svg'][2]</value>
+      <webElementGuid>42e24e3a-924a-4fa3-9048-3e7366d5a7a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Request'])[1]/following::*[name()='svg'][4]</value>
+      <webElementGuid>50932ae4-3316-471f-91b3-1f2be6dcf324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>5dcc2f9f-1dfa-421b-a0f6-b4456be3c441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>694cfd67-86a2-4c49-b4c0-967169b002b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

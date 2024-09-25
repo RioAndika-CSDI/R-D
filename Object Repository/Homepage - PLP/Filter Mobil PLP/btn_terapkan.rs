@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_terapkan</name>
+   <tag></tag>
+   <elementGuidId>3d46f07b-cc11-4255-847e-506b5499f89e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;button-terapkan&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;button-terapkan&quot;]</value>
+      <webElementGuid>bd114ac7-0aed-42de-b88f-e9bcd7683e2f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

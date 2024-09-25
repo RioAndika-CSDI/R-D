@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sama dengan KTP</name>
+   <tag></tag>
+   <elementGuidId>d47f4315-3898-4c07-b1d6-4a5fcc571469</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div/div/div[2]/div[6]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ktp-review_checkboxOptionWrapper__1aDtj > span.ktp-review_ktpDataText__1TYlK</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fa4b21ce-b2b4-4c41-b122-f682f0fa3be0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ktp-review_ktpDataText__1TYlK</value>
+      <webElementGuid>bc273b0c-2970-412c-adac-715215d11a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sama dengan KTP</value>
+      <webElementGuid>8f9bf5f2-cff5-4ae1-a318-128737ba1a49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_ktpSection__P_ZI3&quot;]/div[@class=&quot;ktp-review_ktpDataWrapper__ZYUWP&quot;]/div[@class=&quot;ktp-review_ktpDataRow__f_JZL&quot;]/div[@class=&quot;ktp-review_checkboxOptionWrapper__1aDtj&quot;]/span[@class=&quot;ktp-review_ktpDataText__1TYlK&quot;]</value>
+      <webElementGuid>f312a7c5-c629-4a4e-b952-5defde4ad6bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div/div/div[2]/div[6]/div/span</value>
+      <webElementGuid>b4443416-3c1f-4516-bb8e-568410079163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota Domisili'])[1]/following::span[1]</value>
+      <webElementGuid>2a41de3d-cba4-4f0f-81aa-356c25e6d244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/following::span[3]</value>
+      <webElementGuid>9777e243-b5d1-48f0-b3fa-29569b7d1b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Data KTP Pasangan'])[1]/preceding::span[1]</value>
+      <webElementGuid>8475b4fd-86c1-4545-baad-3d3271111d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selanjutnya'])[1]/preceding::span[3]</value>
+      <webElementGuid>9dcc687b-ecd5-4d2c-8c7e-d3924682b211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sama dengan KTP']/parent::*</value>
+      <webElementGuid>fd39d64f-0acc-47e7-b0c7-5676e4c81806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/span</value>
+      <webElementGuid>7078b495-69ed-4435-96f6-66adbacad093</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sama dengan KTP' or . = 'Sama dengan KTP')]</value>
+      <webElementGuid>083bfc3c-68b6-4842-b891-4d835f3919c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

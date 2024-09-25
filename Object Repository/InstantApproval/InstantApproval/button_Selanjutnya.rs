@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Selanjutnya</name>
+   <tag></tag>
+   <elementGuidId>52e31e10-be68-4c32-89fc-09a8594dbf30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Selanjutnya']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>79b4f1cb-3711-44cb-9e05-3dc9abdd815c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
+      <webElementGuid>5ce671e1-e93c-4e30-a635-35c2de39a487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selanjutnya</value>
+      <webElementGuid>3dacd497-f0ce-4d8f-9128-f3ab951fb4c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_buttonWrapper__PZJMg&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
+      <webElementGuid>d08f72c2-303b-40dc-a42a-8aeab18960cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[2]/button</value>
+      <webElementGuid>f8543b9b-859a-4a2b-a8b0-bf5f6ec02eb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[2]/following::button[1]</value>
+      <webElementGuid>3593b339-e537-4513-be6e-83551df10d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kawin'])[1]/following::button[1]</value>
+      <webElementGuid>2c6b9a1e-a4e7-4d4c-9e04-506bd7ae4127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>59ca4a54-254e-4874-8233-b22a846162aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>31a374cb-df60-4ec7-81f4-6c416057c80f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Selanjutnya']/parent::*</value>
+      <webElementGuid>eff18e86-8458-4bd5-82d5-5d0dcbe91172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>17a47dca-2752-438e-a5b9-6b39e6e503ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Selanjutnya' or . = 'Selanjutnya')]</value>
+      <webElementGuid>780668b7-42f7-49ab-bb8b-ad68d7771fdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

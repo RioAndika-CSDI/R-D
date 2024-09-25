@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IA004 - KTP Review - Select Kota Domisili</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9612a74-7443-443a-86c1-8c4429b017e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59959d37-17b6-4563-b0eb-84ef82c01614</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Pusat'</defaultValue>
+      <description></description>
+      <id>59959d37-17b6-4563-b0eb-84ef82c01614</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+</TestCaseEntity>

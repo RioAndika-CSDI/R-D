@@ -4,5 +4,6 @@
    <name>CMS038 - VerifyUserCanFilterCarOfTheMonthApprovalRequest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6c329dda-366e-412e-824e-7e5cb2675eda</testCaseGuid>
 </TestCaseEntity>

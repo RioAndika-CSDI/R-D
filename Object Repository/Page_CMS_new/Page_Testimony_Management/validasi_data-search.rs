@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validasi_data-search</name>
+   <tag></tag>
+   <elementGuidId>fb849114-a233-45c3-b0d3-58c60fe276ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>74c56e60-c065-4bd7-8e51-dc9083b2c2f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-x-auto bg-white dark:bg-gray-800 h-[--table-height] overflow-y-auto w-auto</value>
+      <webElementGuid>3aaf4ea0-3118-4c15-b26b-ee6eeb893e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NameBrand and ModelTestimony ContentSlot OrderScheduleImagePublish StatusRequest StatusModified byActionPita testing productionToyota New Calyatestcobacoba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test coba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test 223/01/24 - 25/01/24PreviewDraft-Testing Qa</value>
+      <webElementGuid>df6c37cf-4d2a-4a2f-bd16-14ab7cad57fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;w-full overflow-hidden rounded-lg shadow-card border border-line mb-4&quot;]/div[@class=&quot;overflow-x-auto bg-white dark:bg-gray-800 h-[--table-height] overflow-y-auto w-auto&quot;]</value>
+      <webElementGuid>ceaccfca-a14b-4cef-9187-0d25ff6586d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[3]/div</value>
+      <webElementGuid>c9bce464-9eb5-4bb8-ac4f-0219c2450c74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/following::div[2]</value>
+      <webElementGuid>62146556-06c9-4ae3-b33e-12f3d37323c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[2]</value>
+      <webElementGuid>504558e4-15c8-4ced-9b77-ba388f61316d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[3]/div</value>
+      <webElementGuid>43e27efd-d1ea-4672-91c5-8c4ce78671b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'NameBrand and ModelTestimony ContentSlot OrderScheduleImagePublish StatusRequest StatusModified byActionPita testing productionToyota New Calyatestcobacoba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test coba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test 223/01/24 - 25/01/24PreviewDraft-Testing Qa' or . = 'NameBrand and ModelTestimony ContentSlot OrderScheduleImagePublish StatusRequest StatusModified byActionPita testing productionToyota New Calyatestcobacoba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test coba test coba tescoba tecoba test st coba test coba test t coba test coba test coba test coba test 223/01/24 - 25/01/24PreviewDraft-Testing Qa')]</value>
+      <webElementGuid>6dd9ec16-6adb-48c0-833b-be223ee67d64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

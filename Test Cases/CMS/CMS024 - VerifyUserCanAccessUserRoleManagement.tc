@@ -4,5 +4,6 @@
    <name>CMS024 - VerifyUserCanAccessUserRoleManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eac3a347-8e66-4931-bc8f-b9aa60c2370c</testCaseGuid>
 </TestCaseEntity>

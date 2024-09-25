@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Account</name>
+   <tag></tag>
+   <elementGuidId>0121b74f-e112-4451-9983-cd073de53770</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[6]/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>4616f6a3-7620-4fb1-9dc0-f7f2ac5601a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200</value>
+      <webElementGuid>abda6be2-1768-4884-ad4b-18cdffa22c95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Account</value>
+      <webElementGuid>fa4aa502-aa17-4944-b25c-695d8cc7d2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/ul[@class=&quot;mt-2 space-y-2 overflow-hidden rounded-md bg-gray-50 p-2 text-sm font-medium text-gray-500 shadow-inner dark:bg-gray-900 dark:text-gray-400 enter-done&quot;]/li[@class=&quot;px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]</value>
+      <webElementGuid>5c66ed06-f73c-4a14-8316-270dbb3fbaf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[6]/ul/li</value>
+      <webElementGuid>6c9f3592-37af-48ca-8292-bc9bd2af0010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Management'])[1]/following::li[1]</value>
+      <webElementGuid>d2a8d130-e12b-4db9-ad65-84c5440a1d5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Management'])[1]/following::li[2]</value>
+      <webElementGuid>0b8bc2e3-1e0a-4b35-8c13-5581c4b6ee7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Role Management'])[1]/preceding::li[1]</value>
+      <webElementGuid>ee7bcae5-5cc5-4a24-a9ae-5d0b45a6a09c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li</value>
+      <webElementGuid>958329c9-1937-41ba-a6a4-b1dd09485868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Account' or . = 'Account')]</value>
+      <webElementGuid>332df1ed-afc7-4483-926e-f5a5b529db6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

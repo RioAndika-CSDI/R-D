@@ -4,5 +4,6 @@
    <name>CMS013 - VerifyUserCanFilterRequestToPublishOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f6737ebf-fc68-4d3f-99d1-6829050ddd3f</testCaseGuid>
 </TestCaseEntity>

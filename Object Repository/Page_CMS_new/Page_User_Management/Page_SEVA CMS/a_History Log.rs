@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_History Log</name>
+   <tag></tag>
+   <elementGuidId>fb5f374f-f5d6-4857-84ea-ee0f4b047417</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[6]/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>aa2d9af4-f831-4ea0-9ded-25f5f16f5da9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full</value>
+      <webElementGuid>74d2dbf2-ce3d-4e4f-9804-893228a7a2ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/app/history-log</value>
+      <webElementGuid>159cdb60-f23d-43b5-9b8c-21f568fc5711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>History Log</value>
+      <webElementGuid>81e3f35b-ce83-49ff-be9b-656c5e2113a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/ul[@class=&quot;mt-2 space-y-2 overflow-hidden rounded-md bg-gray-50 p-2 text-sm font-medium text-gray-500 shadow-inner dark:bg-gray-900 dark:text-gray-400 enter-done&quot;]/li[@class=&quot;px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]/a[@class=&quot;w-full&quot;]</value>
+      <webElementGuid>0c363476-83db-47be-b4ff-0f216005f28e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[6]/ul/li[3]/a</value>
+      <webElementGuid>7cd9a566-e30e-4867-b70b-252170d946a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'History Log')]</value>
+      <webElementGuid>3d899b7f-a70d-4756-89af-f3128b71c853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Role Management'])[1]/following::a[1]</value>
+      <webElementGuid>f488131c-c4e6-4f59-b508-69e44a24c3e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account'])[1]/following::a[2]</value>
+      <webElementGuid>c5e41be5-2a21-4c94-aba3-3bfc505751b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Request'])[1]/preceding::a[1]</value>
+      <webElementGuid>4d72a0cb-862d-400c-8694-279e79e37d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Homepage Banner Management'])[2]/preceding::a[2]</value>
+      <webElementGuid>bc83568a-a315-4f9d-ae64-282082e24d14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='History Log']/parent::*</value>
+      <webElementGuid>364802fa-da1f-45c9-a557-20d5340f9bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/app/history-log')]</value>
+      <webElementGuid>39d8b66d-ae9f-4a6f-8063-2e7c07a54135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li[3]/a</value>
+      <webElementGuid>318271a7-8875-40bf-8e86-8fd503d9a1f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/app/history-log' and (text() = 'History Log' or . = 'History Log')]</value>
+      <webElementGuid>e53cbdbb-569c-4ac7-8d8a-68fc5c506f8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

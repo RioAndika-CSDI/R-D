@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CMS/CMS025 - VerifyUserCanAccessApprovalRequest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Page_SEVA CMS/span_User Management'))
-
-WebUI.click(findTestObject('Page_SEVA CMS/a_Approval Request'))
-
+//WebUI.maximizeWindow()
+//WebUI.click(findTestObject('Page_SEVA CMS/span_User Management'))
+//
+//WebUI.click(findTestObject('Page_SEVA CMS/a_Approval Request'))
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Sent 10'))
+
+WebUI.closeBrowser()
 

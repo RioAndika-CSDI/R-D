@@ -21,3 +21,7 @@ WebUI.callTestCase(findTestCase('CMS/CMS018 - VerifyUserCanAccessUserManagementA
 
 WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_Account_h-40px block w-full text-gray_289a65'), 'Yo')
 
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

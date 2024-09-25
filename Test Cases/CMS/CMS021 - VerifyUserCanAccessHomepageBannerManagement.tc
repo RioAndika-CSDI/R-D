@@ -4,5 +4,6 @@
    <name>CMS021 - VerifyUserCanAccessHomepageBannerManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>683cc843-caae-4688-ad8d-84f0ef8992a5</testCaseGuid>
 </TestCaseEntity>

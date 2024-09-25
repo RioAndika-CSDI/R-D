@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Page_SEVA CMS/button_Apply Filter'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/div_Sent 9'))
 
+WebUI.closeBrowser()
+

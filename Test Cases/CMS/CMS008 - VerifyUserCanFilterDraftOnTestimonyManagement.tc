@@ -4,5 +4,6 @@
    <name>CMS008 - VerifyUserCanFilterDraftOnTestimonyManagement</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fb6e1205-cdd2-47a3-8586-c71f491d5cdf</testCaseGuid>
 </TestCaseEntity>

@@ -23,31 +23,31 @@ WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc'), 'ayu.anggraini@seva.id')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'superadmin@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SEVA CMS/input_rounded-4px h-40px block w-full text-_eb94bc_1'), 
-    'p4y+y39Ir5OXMeRRxIjGsg==')
+WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'NbWEQYNoPKhsA2eJ+KpJ/g==')
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_Log in'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/button_SEVA Content Management'))
+WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/a_Testimony Management (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/sub menu_Testimony Management'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/button_Filter Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/button_Filter'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Select_Publish Status Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/svg_Select_PublishStatus'))
 
 WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Live Testimony Management'))
 
-WebUI.click(findTestObject('Page_SEVA CMS/CMS - Testimony Management/button_Apply Filter Testimony Management'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/button_Apply Filter'))
 
 if (true) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Sorry, no results found Testimony Management'), 
-        3)
-} else {
     WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Live List Testimony Management'), 
         3)
+} else {
+    
+	WebUI.verifyElementVisibleInViewport(findTestObject('Page_SEVA CMS/CMS - Testimony Management/div_Sorry, no results found Testimony Management'),
+		3)
 }
 
 WebUI.delay(3)

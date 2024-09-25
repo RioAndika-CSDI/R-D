@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cek Kualifikasi Kredit (1)</name>
+   <tag></tag>
+   <elementGuidId>7d314a6c-e8a3-4b77-bdfd-ef99b9a6ae65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>34ea2165-4aea-4de6-a795-20e43fbf09da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
+      <webElementGuid>8d8cba05-d1ba-4ae9-b3ae-508e995d8e71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-check-kualifikasi-kredit</value>
+      <webElementGuid>bf869f4a-1dce-4246-a0c4-bbb48f532166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cek Kualifikasi Kredit</value>
+      <webElementGuid>83f56f96-789b-4584-a137-e8f2b6b9f189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;mainHeroLp_supergraphic__xRwMW&quot;]/div[@class=&quot;mainHeroLp_mainContent__C_NY_&quot;]/div[@class=&quot;mainHeroLp_buttonWrapper__9HmpP&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
+      <webElementGuid>96b8291a-c35b-4dc0-850d-706b6709aada</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div[3]/button</value>
+      <webElementGuid>ae5f7c18-bf9a-49d0-abfe-fa4e1e728691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit dan temukan mobil sesuai budgetmu.'])[1]/following::button[1]</value>
+      <webElementGuid>5ada7a02-6c3b-4054-9a7e-70f0343d7638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingin tahu mobil yang cocok untukmu?'])[1]/following::button[1]</value>
+      <webElementGuid>db44e3c8-0ef0-4109-95cc-1ff17dc67793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[2]/preceding::button[1]</value>
+      <webElementGuid>19e6b2a0-3e51-4222-bf61-9279e42d86f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[2]/preceding::button[1]</value>
+      <webElementGuid>361ce48f-178d-4b4e-842f-a99612bc84a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cek Kualifikasi Kredit']/parent::*</value>
+      <webElementGuid>0e08caba-e0d5-48f9-90a2-d8446e86d4a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>1369d2d2-be0b-4bb6-895a-4e11e5134726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cek Kualifikasi Kredit' or . = 'Cek Kualifikasi Kredit')]</value>
+      <webElementGuid>4c8ce4dd-1616-48c9-b5e8-8e6e9c26c141</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

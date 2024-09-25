@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Reactivation WA 2 0 task(s)</name>
+   <tag></tag>
+   <elementGuidId>40506d71-f58f-4369-b754-226f0f92a0df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Reactivation WA 2: 0 task(s)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>36d76d31-00a1-40f9-9f12-6dce7bf767fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cursor-pointer rounded-lg border-solid bg-white p-4 text-center font-OpenSans text-sm/[19px] font-semibold disabled:cursor-default border border-line h-[51px] min-w-[232px]</value>
+      <webElementGuid>2f6db198-48ba-46d4-bad2-788c05ece460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reactivation WA 2: 0 task(s)</value>
+      <webElementGuid>0b3c8747-8a3d-4b07-86aa-3c93144fc972</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/div[2]/div[1]/div[@class=&quot;sticky top-[calc(48px+48.8px)] z-10 flex w-full gap-2 bg-surface-neutral pt-[27px]&quot;]/button[@class=&quot;cursor-pointer rounded-lg border-solid bg-white p-4 text-center font-OpenSans text-sm/[19px] font-semibold disabled:cursor-default border border-line h-[51px] min-w-[232px]&quot;]</value>
+      <webElementGuid>b7aeb3b6-c618-4566-b862-236ee46879af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/button[2]</value>
+      <webElementGuid>6524f001-220c-4bce-84e2-f8ac1d077297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>b20ba5d1-6910-415b-b8d4-cff5cb790a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Reactivation WA 2: 0 task(s)' or . = 'Reactivation WA 2: 0 task(s)')]</value>
+      <webElementGuid>1f931d73-af59-477f-acd5-c990ec946757</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

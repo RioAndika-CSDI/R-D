@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pendapatan yang kamu masukkan terlalu rendah</name>
+   <tag></tag>
+   <elementGuidId>4a6817b3-020a-4662-b4b1-d049fc14f3ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.multi-kk_errorText__ihoGV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ab0f25e7-111f-46e3-b873-11a29a2775c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multi-kk_errorText__ihoGV</value>
+      <webElementGuid>2a0ec0a8-b5d0-4c23-bfe7-5a49a0118c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendapatan yang kamu masukkan terlalu rendah</value>
+      <webElementGuid>12750a4f-e3f4-4193-8df0-67024f9d9d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[2]/span[@class=&quot;multi-kk_errorText__ihoGV&quot;]</value>
+      <webElementGuid>948a9ab7-a1e6-413b-b17c-f6631d3a8159</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[2]/span</value>
+      <webElementGuid>b2723634-6e2e-4142-9463-35ec620e44d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.659.100.000'])[1]/following::span[1]</value>
+      <webElementGuid>0777a7fb-7db3-4360-b4e8-9506c1d3e3eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp137.800.000'])[1]/following::span[1]</value>
+      <webElementGuid>915ed284-4965-489b-9d35-cd38d63d56c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/preceding::span[1]</value>
+      <webElementGuid>91554bc0-54d6-45a2-b2f2-83a30027cbf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/preceding::span[7]</value>
+      <webElementGuid>a657aa5d-7f34-4839-92cb-201fe6d9193c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pendapatan yang kamu masukkan terlalu rendah']/parent::*</value>
+      <webElementGuid>50449f45-1cba-42cd-87b3-468fc170b8aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>54179463-e256-4e2e-92e0-feadcc17e60f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pendapatan yang kamu masukkan terlalu rendah' or . = 'Pendapatan yang kamu masukkan terlalu rendah')]</value>
+      <webElementGuid>0fc167f8-e55c-4d39-9e7a-33fd7633630b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

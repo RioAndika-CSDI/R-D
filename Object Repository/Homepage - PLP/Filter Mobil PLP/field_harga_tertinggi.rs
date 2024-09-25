@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_harga_tertinggi</name>
+   <tag></tag>
+   <elementGuidId>5e363c84-5df6-49a6-be26-b7d543479855</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-max-price&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-max-price&quot;]</value>
+      <webElementGuid>75a761d1-eda1-47fd-a311-e655eba59e99</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

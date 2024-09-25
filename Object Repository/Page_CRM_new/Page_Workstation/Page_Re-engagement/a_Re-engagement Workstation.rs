@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Re-engagement Workstation</name>
+   <tag></tag>
+   <elementGuidId>d7affda5-abfd-4dc2-b4c8-58975ac80dbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:ra:']/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>77058f75-629e-4d45-8c88-a0a33d54eb12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical</value>
+      <webElementGuid>131c8787-8d87-49ee-aa32-e782391a646a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>be899023-fc31-4484-b366-00094f9be0ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/re-engagement-workstation/fast-reactivation</value>
+      <webElementGuid>89315233-e292-40c9-b806-5159951fadc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Re-engagement Workstation</value>
+      <webElementGuid>ba7f7812-0767-4b9b-8183-d26652250ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:ra:&quot;)/div[@class=&quot;pb-0 pt-0&quot;]/a[@class=&quot;flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical&quot;]</value>
+      <webElementGuid>099bb3ba-e969-4cff-9bdf-5de05d918d71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:ra:']/div/a[2]</value>
+      <webElementGuid>33d0b6e1-a37c-4512-a778-635e6feeb77f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Re-engagement Workstation')]</value>
+      <webElementGuid>7d4f8a5a-fc06-4830-a4af-ff9aa57c4097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[2]/following::a[1]</value>
+      <webElementGuid>f26a7036-0ed5-4f6f-9317-9d1f4b5242f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::a[5]</value>
+      <webElementGuid>31ff880e-538e-4c29-a764-2b391d946740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Assignment'])[1]/preceding::a[2]</value>
+      <webElementGuid>08e5b360-29fa-443f-bc93-830bc3a69a8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Task Assignment'])[1]/preceding::a[3]</value>
+      <webElementGuid>8b7ec7dd-0ebd-4e9d-9400-189e6f6650f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Re-engagement Workstation']/parent::*</value>
+      <webElementGuid>113e0264-a09c-4c96-a677-2fe4cfcb0f8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/re-engagement-workstation/fast-reactivation')]</value>
+      <webElementGuid>fc51f51a-e594-48ea-8d46-1c9856ef6378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>9a9ae8b0-71f5-44a2-895f-362d38eae537</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/re-engagement-workstation/fast-reactivation' and (text() = 'Re-engagement Workstation' or . = 'Re-engagement Workstation')]</value>
+      <webElementGuid>79b53fac-fabf-455d-877e-ea8abb83ef8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

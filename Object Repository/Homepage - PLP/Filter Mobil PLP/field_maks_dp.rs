@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_maks_dp</name>
+   <tag></tag>
+   <elementGuidId>a2741ac6-5625-4048-9afc-40dd42ab5140</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-input-dp&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-input-dp&quot;]</value>
+      <webElementGuid>e6bf15ea-f51e-45fb-83a9-defd59309402</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

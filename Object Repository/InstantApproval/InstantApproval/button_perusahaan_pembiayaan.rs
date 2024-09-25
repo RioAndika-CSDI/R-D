@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_perusahaan_pembiayaan</name>
+   <tag></tag>
+   <elementGuidId>6780c10e-65c2-4358-add1-5a102e0468fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='Saya tidak memiliki preferensi']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'perusahaan-pembiayaan_card') and (text() = '${perusahaan_pembiayaan}' or . = '${perusahaan_pembiayaan}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4fc15e36-935c-4531-909f-03ca44ae9e29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>perusahaan-pembiayaan_card</value>
+      <webElementGuid>b26fa59d-24f6-4347-99fb-313ed34731ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${perusahaan_pembiayaan}</value>
+      <webElementGuid>99d9d396-b91f-46ad-b365-5b830f15dea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/button[@class=&quot;perusahaan-pembiayaan_card__cyukk&quot;]</value>
+      <webElementGuid>8d97a6d8-31eb-4c00-869a-f3ba414e12c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/button[3]</value>
+      <webElementGuid>0e957009-9dcb-4d49-9e45-91df11c06b5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Perusahaan Pembiayaan'])[1]/following::button[3]</value>
+      <webElementGuid>eba65325-1509-4436-bfdc-0ab6dcd1ce08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::button[1]</value>
+      <webElementGuid>11f1970a-e567-4b52-97a2-484a052d1c79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::button[1]</value>
+      <webElementGuid>0b6d0e1f-52a9-487b-a2d3-2bfbe46cc0c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>761893e1-9872-4487-bb4b-108cbb074087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'TAF (Toyota Astra Finance)' or . = 'TAF (Toyota Astra Finance)')]</value>
+      <webElementGuid>ba8efef8-65b8-4e60-af59-60beb7d11317</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

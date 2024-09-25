@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SEVA Content Management</name>
+   <tag></tag>
+   <elementGuidId>d5cfab87-3e20-4d44-afab-a1fd26fccc3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>21509512-7e4b-4540-a175-e467c95d6b94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200</value>
+      <webElementGuid>82fe29ea-ba3e-40e1-b9be-5ff6a25ca270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>592347bf-70a4-437b-85a2-2ce13f3d47ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA Content Management</value>
+      <webElementGuid>b1871f63-cd23-4821-afb3-271fbd06ca25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex bg-gray-50 dark:bg-gray-900 false&quot;]/aside[@class=&quot;z-30 hidden w-1/5 flex-shrink-0 overflow-y-auto bg-white md:w-1/2 lg:block lg:w-1/3 xl:w-1/4 2xl:w-1/5 dark:bg-gray-800&quot;]/div[@class=&quot;max-h-screen&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;py-4 text-gray-500 dark:text-gray-400&quot;]/ul[@class=&quot;mt-6&quot;]/li[@class=&quot;relative px-6 py-3&quot;]/button[@class=&quot;inline-flex w-full items-center justify-between text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200&quot;]</value>
+      <webElementGuid>c5fb6763-25b6-4ccc-b208-79fd30ed3b92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/aside/div/div/div[2]/div/div/div/div/ul/li[3]/button</value>
+      <webElementGuid>a9470613-21cb-4ee6-8de2-1aac0cfdf371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Management'])[1]/following::button[1]</value>
+      <webElementGuid>23b925c2-cf46-44d5-bc56-e3be40a60527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::button[2]</value>
+      <webElementGuid>66afb79e-ef43-4f8e-93ef-29a04330f83e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City List'])[1]/preceding::button[1]</value>
+      <webElementGuid>d2da9ef5-23c8-4c57-85dc-37e9b0a76ec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/button</value>
+      <webElementGuid>c918ac32-10be-483a-85b3-14eeaf7ed4c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'SEVA Content Management' or . = 'SEVA Content Management')]</value>
+      <webElementGuid>a4ef52f4-dec3-427f-b53d-7110e697cb81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

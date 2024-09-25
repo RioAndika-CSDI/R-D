@@ -4,5 +4,6 @@
    <name>CMS001 - VerifyUserCanLoginCmsProperly</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bff9558a-b83a-45e2-88a6-f3db4224bc86</testCaseGuid>
 </TestCaseEntity>

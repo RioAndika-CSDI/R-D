@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>filter_mobil_terapply</name>
+   <tag></tag>
+   <elementGuidId>49815e21-fb02-452c-9aad-255d54db5868</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;navigationfiltermobile_navFrame__kFhtO&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;navigationfiltermobile_navFrame__kFhtO&quot;]</value>
+      <webElementGuid>f9b4dc63-6522-403a-9b85-266fc5d3ae25</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
