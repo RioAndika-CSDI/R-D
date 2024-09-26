@@ -26,3 +26,5 @@ WebUI.click(findTestObject('Page - Teman seva/Tab daftar teman seva tidak aktif'
 
 WebUI.verifyElementPresent(findTestObject('Page - Teman seva/Tab daftar teman seva halaman riwayat transaksi'), 0)
 
+WebUI.closeBrowser()
+

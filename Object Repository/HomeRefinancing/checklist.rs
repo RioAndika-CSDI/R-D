@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button lanjutkan daftar teman seva</name>
+   <name>checklist</name>
    <tag></tag>
-   <elementGuidId>7e76726b-a5dc-4db9-8b01-c58a7ab0be6f</elementGuidId>
+   <elementGuidId>ccb89e01-76d2-4e42-b9d3-dca63d1bc94f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
+         <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>5869370a-9188-405d-8554-f144193c894e</webElementGuid>
+      <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
+      <webElementGuid>fd1aeaca-a8e1-4fb2-9af8-6bda14931a88</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

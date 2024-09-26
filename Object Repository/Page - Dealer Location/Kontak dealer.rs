@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[(text() = 'Kontak' or . = 'Kontak')])[${id}]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>/html/body/div/div/div/div/div[5]/div/div/div[2]/div/h3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,14 +22,22 @@
       <name>text</name>
       <type>Main</type>
       <value>Kontak</value>
-      <webElementGuid>fe4bd1d5-e81b-41c2-9a4f-5540ac8a5ead</webElementGuid>
+      <webElementGuid>1a38b5a1-8798-41ff-9864-56b91022fc3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[(text() = 'Kontak' or . = 'Kontak')])[${id}]</value>
-      <webElementGuid>cf1201ea-81c4-4bad-aafe-36540689ca81</webElementGuid>
+      <value>(//*[(text() = 'dealerCarousel_cardWrapper__H5rRB')])[${id}]</value>
+      <webElementGuid>02e67393-6e56-4001-9038-870afa6109a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dealerCarousel_cardWrapper__H5rRB</value>
+      <webElementGuid>4ebd1d76-dd09-4993-893f-9f4bbde4c64c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

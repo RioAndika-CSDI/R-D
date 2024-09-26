@@ -6,12 +6,16 @@
    <elementGuidId>1ef1ab09-8c16-4c2a-977e-550d1db6fbaa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.inputSelect_alternativeInputField__OKUyK</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Pilih kota']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.inputSelect_alternativeInputField__OKUyK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>877f79ba-7725-4e3b-8a58-8bed88602864</webElementGuid>
+      <webElementGuid>af59d295-6359-451f-af85-b974b665f610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ee804e72-4697-4220-a9f3-a4572f242331</webElementGuid>
+      <webElementGuid>3eae0f47-38b5-4931-9633-a51165c40957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_alternativeInputField__OKUyK</value>
-      <webElementGuid>acd30188-a755-4137-8c0a-ed93f6209d45</webElementGuid>
+      <webElementGuid>3dc2da2b-dc3e-40e8-9426-459751f236fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih kota</value>
-      <webElementGuid>34fe5232-2cf4-42d7-b5d5-adbb16f95e53</webElementGuid>
+      <webElementGuid>4c602b50-94da-43cd-9a34-56ebf8f5dfae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_cardContainer__t4hpH&quot;]/div[@class=&quot;selectWidgetUsedCar_container__oFwOH&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldContainer__w3IIw&quot;]/div[@class=&quot;selectWidgetUsedCar_fieldWrapper__1VXrk&quot;]/div[2]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_alternativeInputArea__kevkg&quot;]/input[@class=&quot;inputSelect_alternativeInputField__OKUyK&quot;]</value>
-      <webElementGuid>587a51d0-7e0a-4cf2-a4b3-ba2cc4e3797c</webElementGuid>
+      <webElementGuid>9edb3cd4-86fe-409b-8863-452370e18629</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>1c27af26-e3aa-4035-8083-266cb2589714</webElementGuid>
+      <webElementGuid>5d449140-8996-4e41-8d70-0bfa0df82376</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[3]/div/div/div/div[3]/div/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>a23024b9-f039-42c1-8b56-6b1adf64fe8f</webElementGuid>
+      <webElementGuid>20b00c32-a110-4adf-b21e-d51d2ea7bcc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>0ce70547-dbc9-43f2-8ec1-2cf639f6dda2</webElementGuid>
+      <webElementGuid>c0dd797c-8403-4444-9ad2-a44c412ab7f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih kota']</value>
-      <webElementGuid>0284bc17-f683-4592-85aa-10befa33cca9</webElementGuid>
+      <webElementGuid>46dd6216-8898-44ca-a2d3-2faa1dc9f0ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

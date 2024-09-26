@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_actionReferralButton__XcoOD']</value>
+         <value>//*[@class = 'teman-seva-dashboard_actionReferralButton__PZWu7']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_actionReferralButton__XcoOD</value>
-      <webElementGuid>66291d1c-6133-4d24-96fc-41f9cc23be31</webElementGuid>
+      <value>teman-seva-dashboard_actionReferralButton__PZWu7</value>
+      <webElementGuid>bd5b4c0a-fdd2-43d3-a240-acc7162b659c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

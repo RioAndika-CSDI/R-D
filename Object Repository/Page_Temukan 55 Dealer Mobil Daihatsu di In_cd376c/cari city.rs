@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button lanjutkan daftar teman seva</name>
+   <name>cari city</name>
    <tag></tag>
-   <elementGuidId>7e76726b-a5dc-4db9-8b01-c58a7ab0be6f</elementGuidId>
+   <elementGuidId>076d16e9-9800-4552-bc82-2a04f6f4a7c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
+         <value>//*[@class = 'dealerCarousel_wrapperTitle__p0j7d']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>5869370a-9188-405d-8554-f144193c894e</webElementGuid>
+      <value>dealerCarousel_wrapperTitle__p0j7d</value>
+      <webElementGuid>cedd26ed-2015-466d-ac22-77482abc3cb3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

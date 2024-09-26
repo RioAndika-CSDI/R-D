@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'toast_textToast') and (text() = 'Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.' or . = 'Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.')]</value>
+         <value>//*[(text() = 'Berhasil dikirim. Agen SEVA akan segera menghubungi kamu dalam 1x24 jam.' or . = 'Berhasil dikirim. Agen SEVA akan segera menghubungi kamu dalam 1x24 jam.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>09f1eb80-ab4c-40d4-a8de-b51cdc986b88</webElementGuid>
+      <webElementGuid>4047fbb9-4b6d-418d-be58-ba8244c4325e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>toast_textToast</value>
-      <webElementGuid>3575e724-2205-436b-9049-b42bd485c4e1</webElementGuid>
+      <webElementGuid>6e0b386d-cf41-4f29-a0bc-560ece1b5afd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.</value>
-      <webElementGuid>f3c202bc-d742-4bd5-8b03-07c2cb88b523</webElementGuid>
+      <value>Berhasil dikirim. Agen SEVA akan segera menghubungi kamu dalam 1x24 jam.</value>
+      <webElementGuid>098747c0-8de6-4142-b3db-a88faf1840d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[6]/div[@class=&quot;ant-modal-root css-nllxry&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-nllxry toast-custom-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/button[@class=&quot;toast_content__J_sXL&quot;]/p[@class=&quot;toast_textToast__P2V05&quot;]</value>
-      <webElementGuid>7db83caa-a320-472b-843f-c5b582449829</webElementGuid>
+      <webElementGuid>8714c144-0282-4bda-8c02-e038ca5fa8a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::p[1]</value>
-      <webElementGuid>57e86e13-e47d-4a46-a204-88d7f10ad703</webElementGuid>
+      <webElementGuid>106cbb85-3407-4726-a472-9021f3009d2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/following::p[1]</value>
-      <webElementGuid>9ef772ae-153f-4e26-9f08-b7bce10fab6e</webElementGuid>
+      <webElementGuid>6ba9a60e-57fc-40bf-8f99-e49a200e21d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.']/parent::*</value>
-      <webElementGuid>4547fb92-401f-4bf8-8a67-e3f9fdb2e369</webElementGuid>
+      <webElementGuid>69519f69-4da9-4fdb-8dee-d2fa06581f42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/p</value>
-      <webElementGuid>b834472c-7ecc-4273-847f-79879a05eb79</webElementGuid>
+      <webElementGuid>f00ef502-1e4d-4abf-a7b1-672d6934f516</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.' or . = 'Nomor berhasil diverifikasi. Agen SEVA akan segera menghubungi kamu.')]</value>
-      <webElementGuid>e68e39dc-ab84-4910-ace1-df307a4a567a</webElementGuid>
+      <webElementGuid>b94af189-9733-41b7-b119-d6acd80d2342</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -51,22 +51,22 @@ WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phon
 
 WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 boolean cek = true
 
 cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarning'(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 
     10)
 
-if (cek == false) {
-    WebUI.delay(120)
-
-    WebUI.click(findTestObject('Page - Teman seva/Close_OTP'))
-
-    WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
-
-    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
-}
+//if (cek == false) {
+//    WebUI.delay(120)
+//
+//    WebUI.click(findTestObject('Page - Teman seva/Close_OTP'))
+//
+//    WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+//
+//    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
+//}
 
 WebUI.verifyElementPresent(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 0)
 

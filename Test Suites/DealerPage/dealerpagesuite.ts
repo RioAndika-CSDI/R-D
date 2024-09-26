@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0c93dc0d-636b-4e02-8bde-9e5d640d80f1</testSuiteGuid>
    <testCaseLink>
-      <guid>f156e1c9-c1c1-461c-885a-26ec921c6cc1</guid>
+      <guid>03114394-a7ca-4a6e-9daf-c35b3aa8d6ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 001 Menampilkan halaman dealer page</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2cc2173-463e-421b-b3f1-397c79ed0966</guid>
+      <guid>1966b6ff-44f5-4aed-be94-2cf059ea8037</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 002 Cari dealer berdasarkan brand mobil dari search widget</testCaseId>
@@ -56,7 +56,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3527988-4061-4fe4-bc89-de30a1d46bc4</guid>
+      <guid>5f92c5dc-1c24-4203-8bea-36ae1e3084e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek</testCaseId>
@@ -87,7 +87,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0441e93-cd54-4daf-928a-992b044c7b5f</guid>
+      <guid>00dfe72b-e7b2-4209-aab1-32a490fa17fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 004 Cari dealer berdasarkan brand mobil dan location dari search widget</testCaseId>
@@ -124,7 +124,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fa51cdde-74c0-4ad6-8005-e3d8eb0074da</guid>
+      <guid>3189e154-ae6b-4ef3-a007-f541e3a29af6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar</testCaseId>
@@ -167,7 +167,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>043dc17d-8624-4335-a30a-0ef7891916d7</guid>
+      <guid>c806504a-3b5a-431a-a51c-890028d0afc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 006 Menampilkan halaman detail dealer</testCaseId>
@@ -216,65 +216,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4fbd46d0-68c1-4d08-8678-3ef7e1e4fba7</guid>
+      <guid>2afb4a39-ce91-47f1-bc46-cc1c9004b33d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 007 Cari lokasi atau peta dealer</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>23f5095f-dfbf-4762-acb4-68ed0d71f35b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>174c1181-6706-4a14-992d-b2cdbd595094</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2dd130c8-ff08-44e3-85a0-bb90a2956ea3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>679b5dab-f5a8-45a9-b3da-0d902f23273b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>162bdb05-cc8d-44eb-9971-4de8bea6b9e6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d04790e-7f57-4912-957f-174eafb9d02e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7d39cf12-f34c-484e-86a1-1beece4deecf</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>21296202-a50f-4fdc-ad00-2241a570d7b6</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0663a88b-44eb-4e0a-9979-10831380367b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 008 Dapatkan promo</testCaseId>
+      <testCaseId>Test Cases/Dealer Page/DP 007 Dapatkan promo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -338,10 +283,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6652b409-caa4-4bfb-a739-55a8ba4d9f97</guid>
+      <guid>08d5fe53-8b6c-414a-ab83-dc1a583d1ff2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 009 Hubungi agen seva</testCaseId>
+      <testCaseId>Test Cases/Dealer Page/DP 008 Hubungi agen seva</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -402,6 +347,61 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>73c93443-7f49-4a5d-9dd8-8422d6bd79f0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>596c8b7b-85e6-4692-9ef8-4e72d70db5ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealer Page/DP 009 Cari lokasi atau peta dealer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0a829838-e05d-4c51-a120-755db35bec5f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>21355500-7fb1-4a2f-ae57-09632f2198ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f6b61a95-edd3-45bd-bbb5-8b356a2fd0d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cc6be88-5be0-40fa-88cd-648f0cba1cbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>efc45d10-aa46-48e9-9b4b-da19ad0664d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4fc13a14-ff0b-435c-bac7-5bd1f2cd5145</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0ca3019-83dc-452e-9180-f3dd962938e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9fde319a-b55b-4a0b-9cc1-c310ca5b51fd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
