@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textShareLink__FuPE7']</value>
+         <value>//*[@class = 'teman-seva-dashboard_textShareLink__qxrPd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textShareLink__FuPE7</value>
-      <webElementGuid>9cbeba23-42f0-45e2-9702-75cd4f596545</webElementGuid>
+      <value>teman-seva-dashboard_textShareLink__qxrPd</value>
+      <webElementGuid>572de546-b882-4ea2-aaab-2f64dae3a390</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

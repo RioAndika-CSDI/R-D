@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '${dealer}' or . = '${dealer}')]</value>
+         <value>//*[@class = 'dealerBrand_content__Rw0CR']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>73b9e8ef-cc37-42e5-8983-0de26eb691f2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>dealerBrand_content__huYUd</value>
-      <webElementGuid>f7b7dd8e-52f6-4105-8b9a-9a017f711a0e</webElementGuid>
+      <webElementGuid>1f184af4-db20-4801-93d5-85b81a7976dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dealerBrand_content__Rw0CR</value>
+      <webElementGuid>f8926c95-e1df-48df-8857-6c08580f749e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>${dealer}</value>
-      <webElementGuid>f2dffd11-340a-4651-8788-cfd1a5671820</webElementGuid>
+      <webElementGuid>8d2749ff-60a4-4fcf-b89a-f2aa4582deda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealerBrand_container__9z7oT&quot;]/div[@class=&quot;dealerBrand_wrapperContainer__xQxed&quot;]/div[@class=&quot;dealerBrand_boxFilter__9RCqZ&quot;]/div[@class=&quot;dealerBrand_content__huYUd&quot;]</value>
-      <webElementGuid>4ad17d78-7b24-48ea-8c8b-2c1f513f7b8a</webElementGuid>
+      <webElementGuid>58eafb94-0fc5-49c5-8cff-5bd62982094c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[5]/div/div/div</value>
-      <webElementGuid>bfcb5ffb-bd58-4e72-b897-d2c5139faa96</webElementGuid>
+      <webElementGuid>73af34a1-797e-45b6-9222-eac78718e90f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dealer Mobil berdasarkan Merek'])[1]/following::div[3]</value>
-      <webElementGuid>b596b4d0-f62c-4575-bfa0-2f0c1a89d7d4</webElementGuid>
+      <webElementGuid>9bf6640a-6df2-4c65-824a-f1b6887db1c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/following::div[7]</value>
-      <webElementGuid>133aff19-ce0f-4318-be25-d77dc2f2e203</webElementGuid>
+      <webElementGuid>8bd4faa9-ba36-4f26-bf5a-5f3673b427ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/preceding::div[1]</value>
-      <webElementGuid>5158b318-e1fa-44a1-ac11-8442fd67871f</webElementGuid>
+      <webElementGuid>ddc06bf5-c78f-458d-a2e5-39641a42b775</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[1]/preceding::div[1]</value>
-      <webElementGuid>4012dfd2-7ca4-4b3b-939a-2b0cb1a6fdd0</webElementGuid>
+      <webElementGuid>52600b3d-8b36-4b65-8e67-b04e954757a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daihatsu']/parent::*</value>
-      <webElementGuid>3a312ead-4362-4968-acf2-971e3b40ff98</webElementGuid>
+      <webElementGuid>ce317c28-4002-4098-9ece-0b4fe67bea0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[5]/div/div/div</value>
-      <webElementGuid>54cfec31-d345-4a8a-83cf-db6ba1bb795a</webElementGuid>
+      <webElementGuid>7576282e-062b-4393-ab88-8e6a6f326d65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Daihatsu' or . = ' Daihatsu')]</value>
-      <webElementGuid>78b3faaa-368a-4572-9f92-408acedd1f57</webElementGuid>
+      <webElementGuid>b0d79c97-45ea-4f41-ac2c-54140e8c1a46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

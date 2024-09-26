@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'teman-seva-onboarding_bullet__vCJCf'])[2]</value>
+         <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>//*[@class = 'teman-seva-onboarding_bullet__vCJCf']</value>
-      <webElementGuid>7aef14ca-1e93-491f-bf16-7df0246fbf1e</webElementGuid>
+      <value>//*[@class = 'teman-seva-onboarding_bullet__JXUa5']</value>
+      <webElementGuid>b8ae55e4-340a-4908-917b-a95fd92d0bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'teman-seva-onboarding_bullet__vCJCf'])[2]</value>
-      <webElementGuid>2e6a5518-b423-4d24-b12c-633f03e4df1f</webElementGuid>
+      <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[2]</value>
+      <webElementGuid>f0724f34-7ab9-4f94-88dd-3a1343d9605e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

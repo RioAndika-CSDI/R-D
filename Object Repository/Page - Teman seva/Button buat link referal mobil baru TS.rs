@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'temanSevaInformationSection_buttonText__188Ro']</value>
+         <value>//*[@class = 'temanSevaInformationSection_buttonText__nUe5b']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>temanSevaInformationSection_buttonText__188Ro</value>
-      <webElementGuid>fadf3a04-987e-42ec-9f4e-daa94db9be48</webElementGuid>
+      <value>temanSevaInformationSection_buttonText__nUe5b</value>
+      <webElementGuid>b288c611-6094-4eaa-8db7-f4e2f866f6f6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

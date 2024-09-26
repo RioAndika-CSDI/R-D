@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Dealer Page/DP 004 Cari dealer berdasarkan brand mobil dan location dari search widget'), 
     [('city') : city, ('dealer') : dealer, ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('close_browser') : '0'
@@ -38,14 +39,4 @@ nama_dealer = nama_dealer.trim()
 nama_dealer = nama_dealer.replaceAll(' ', '-')
 
 URL_expected = ((((expected_URL + '/') + city) + '/') + nama_dealer)
-
-if (URL_expected.equals(actuall_URL)) {
-    WebUI.verifyMatch('true', 'true', true)
-} else {
-    WebUI.verifyMatch('true', 'true', false)
-}
-
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
-}
 

@@ -48,7 +48,7 @@
       <variableId>7d39cf12-f34c-484e-86a1-1beece4deecf</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Bandung'</defaultValue>
+      <defaultValue>'Yogyakarta'</defaultValue>
       <description></description>
       <id>23f5095f-dfbf-4762-acb4-68ed0d71f35b</id>
       <masked>false</masked>
@@ -90,7 +90,7 @@
       <name>close_browser</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'2'</defaultValue>
       <description></description>
       <id>7d39cf12-f34c-484e-86a1-1beece4deecf</id>
       <masked>false</masked>

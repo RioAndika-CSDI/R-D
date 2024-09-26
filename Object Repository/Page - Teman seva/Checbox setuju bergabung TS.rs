@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'temanSevaOnboarding_boxWrapper__O7toX']</value>
+         <value>//*[@class = 'temanSevaOnboarding_boxWrapper__tZP1Afew']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>temanSevaOnboarding_boxWrapper__O7toX</value>
-      <webElementGuid>36238155-f8dd-4163-9854-b41bd9199c90</webElementGuid>
+      <value>temanSevaOnboarding_boxWrapper__tZP1A</value>
+      <webElementGuid>0584d148-c4c3-4167-87a9-0945cd72e2f2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
