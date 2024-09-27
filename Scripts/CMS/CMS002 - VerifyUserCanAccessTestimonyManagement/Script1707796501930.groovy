@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'superadmin@seva.id')
-
-WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'NbWEQYNoPKhsA2eJ+KpJ/g==')
-
-WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
+WebUI.callTestCase(findTestCase('CMS/CMS001 - VerifyUserCanLoginCmsProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_CMS_new/button_SEVA Content Management'))
 
 WebUI.click(findTestObject('Page_CMS_new/Page_Testimony_Management/sub menu_Testimony Management'))
 
 WebUI.verifyElementText(findTestObject('Page_CMS_new/Page_Testimony_Management/div_Testimony Management'), 'Testimony Management')
+
+//WebUI.closeBrowser()
 
