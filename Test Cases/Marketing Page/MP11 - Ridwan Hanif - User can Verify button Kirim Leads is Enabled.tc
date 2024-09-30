@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PROMO10 - Verify Button Kirim Info Promo is Enabled</name>
+   <name>MP11 - Ridwan Hanif - User can Verify button Kirim Leads is Enabled</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e6a0008-5b87-43d4-b4f8-7bf8b0f77d23</testCaseGuid>
+   <testCaseGuid>5610b89d-b90f-4dc8-b839-41e42e69fcd7</testCaseGuid>
 </TestCaseEntity>

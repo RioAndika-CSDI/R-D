@@ -29,19 +29,17 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.click(findTestObject('Promo Page/promo_hajatan_seva_giiassby2024'))
-
 // Scroll to the specific element
-WebUI.scrollToElement(findTestObject('Promo Page/btn_beli_mobil_dapatkan_hadiah'), 10)
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
 
 // Perform actions on the element after scrolling
-WebUI.click(findTestObject('Promo Page/btn_beli_mobil_dapatkan_hadiah'))
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
 
 WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://astrafinancialevent.com/?utm_source=GIIASPromoPage&utm_medium=PromoPage&utm_campaign=2024Tumbuh'
+String expectedUrl = 'https://www.seva.id/info/promo/cashback-bank-saqu/'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>promo_beli_mobil_cb_2juta</name>
+   <name>btn_cari_beragam_mobil_di_seva</name>
    <tag></tag>
-   <elementGuidId>01048bb8-30bd-4583-85d8-2721d1577b49</elementGuidId>
+   <elementGuidId>6846794e-1439-4704-beb9-576c73f456ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][1]</value>
+         <value>//*[@class=&quot;cta-btn text-[20px] text-white bg-[#05256e] rounded-[8px] px-[23px] py-[9px] hover:shadow-lg&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][1]</value>
-      <webElementGuid>4e37e109-57f1-4960-941d-873cf2bf349f</webElementGuid>
+      <value>//*[@class=&quot;cta-btn text-[20px] text-white bg-[#05256e] rounded-[8px] px-[23px] py-[9px] hover:shadow-lg&quot;]</value>
+      <webElementGuid>e698363f-26fe-44a6-a77f-6325e6324b26</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

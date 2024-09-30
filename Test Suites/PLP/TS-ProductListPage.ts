@@ -81,4 +81,11 @@
       <testCaseId>Test Cases/Product List Page/PLP10 - User can Atur Ulang Car Filters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4a68167b-7736-4564-87f2-fd7f7c89375a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product List Page/PLP11 - User Can Filter Cars based on Transmisi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -36,21 +36,21 @@
       <guid>9d1eb446-d3d5-435f-9581-631d313a1185</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promo Page/PROMO04 - User Can Open GIIAS SBY 2024 Promo</testCaseId>
+      <testCaseId>Test Cases/Promo Page/PROMO04 - User Can Open Promo Beli Mobil Pasti dapat Extra Cashback 2 Juta</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fb31b4cc-313f-438d-b3d8-114ebe03c1bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promo Page/PROMO05 - Promo GIIAS SBY 2024 - User Can Open Astra Financial Event Page</testCaseId>
+      <testCaseId>Test Cases/Promo Page/PROMO05 - User can Open PLP Page from Promo Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>26176576-0603-4bd3-9651-cda8696cc0cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promo Page/PROMO06 - User Can Open Promo Beli Mobil dapat Extra Cashback 2 Juta</testCaseId>
+      <testCaseId>Test Cases/Promo Page/PROMO06 - User Can Open Promo Beli Mobil dapat Extra Cashback 1 Juta</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

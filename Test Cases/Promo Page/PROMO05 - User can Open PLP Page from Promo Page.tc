@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PROMO05 - Promo GIIAS SBY 2024 - User Can Open Astra Financial Event Page</name>
+   <name>PROMO05 - User can Open PLP Page from Promo Page</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>89615634-8a7e-4029-b948-bc9687305e7b</testCaseGuid>
 </TestCaseEntity>

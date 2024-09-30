@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card_promo_bank_saqu</name>
+   <name>input_leads_no_hp</name>
    <tag></tag>
-   <elementGuidId>f93483cf-15c4-4b9a-9d8c-ffbefa662ee0</elementGuidId>
+   <elementGuidId>5a3d6c44-3dab-46bc-bb9d-c991bff40ad5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
+         <value>//*[@data-test-id=&quot;field-input-leads-nomor-hp&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
-      <webElementGuid>7086edce-0529-4c5a-9a97-310028d732a9</webElementGuid>
+      <value>//*[@data-test-id=&quot;field-input-leads-nomor-hp&quot;]</value>
+      <webElementGuid>bf072fd2-b18e-4e26-af6d-8f84b8efd1de</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
