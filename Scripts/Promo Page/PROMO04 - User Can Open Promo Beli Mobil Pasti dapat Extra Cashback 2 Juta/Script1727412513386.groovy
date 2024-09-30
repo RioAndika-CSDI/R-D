@@ -17,29 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
-        , ('URL_tc3') : URL_tc3, ('expected_URL') : URL_tc3, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Page - Detail dealer/Button Dapatkan promo_detail dealer'))
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
+WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.click(findTestObject('Page - Detail dealer/Button kirim'))
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
 
-WebUI.verifyElementVisible(findTestObject('Page - Detail dealer/Popup OTP'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Page - Detail dealer/Field input OTP'))
+String currentUrl = WebUI.getUrl()
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field input OTP'), otp)
+String expectedUrl = 'https://www.seva.id/info/promo/cashback-2-juta/'
 
-WebUI.verifyElementPresent(findTestObject('Page - Detail dealer/validasi popup nomor berhasil diverifikasi'), 0)
+if(currentUrl.toString().equals(expectedUrl)) {
+	WebUI.verifyMatch('true', 'true', true)
+	WebUI.comment('URL MATCH')
+} else {
+	WebUI.verifyMatch('false', 'true', true)
+	WebUI.comment('URL NOT MATCH')
+}
 
 WebUI.closeBrowser()
-

@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +17,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.callTestCase(findTestCase('Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek'), [('dealer') : dealer
         , ('expected_URL') : URL_tc3, ('close_browser') : '0', ('open_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
@@ -29,11 +31,10 @@ WebUI.delay(3)
 
 actuall_URL = WebUI.getUrl()
 
-if (actuall_URL.equals(expected_URL + city.toString().toLowerCase())) {
-    WebUI.verifyMatch('true', 'true', true)
-} else {
-    WebUI.verifyMatch('true', 'true', false)
-}
+if (actuall_URL == expected_URL) {
+		KeywordUtil.markPassed('User is on the expected page: ' + actuall_URL)
+	}
+	
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

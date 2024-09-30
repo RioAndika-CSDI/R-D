@@ -29,13 +29,19 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.click(findTestObject('Promo Page/promo_hajatan_seva_giiassby2024'))
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
+
+// Scroll to the specific element
+WebUI.scrollToElement(findTestObject('Promo Page/btn_cari_beragam_mobil_di_seva'), 10)
+
+// Perform actions on the element after scrolling
+WebUI.click(findTestObject('Promo Page/btn_cari_beragam_mobil_di_seva'))
 
 WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/hajatan-seva-di-giias-sby/'
+String expectedUrl = 'https://www.seva.id/mobil-baru'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

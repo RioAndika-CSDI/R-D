@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
@@ -27,28 +27,26 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_promo_page'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
 
-WebUI.click(findTestObject('Promo Page/promo_hajatan_seva_giiassby2024'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'))
 
-// Scroll to the specific element
-WebUI.scrollToElement(findTestObject('Promo Page/btn_beli_mobil_dapatkan_hadiah'), 10)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-// Perform actions on the element after scrolling
-WebUI.click(findTestObject('Promo Page/btn_beli_mobil_dapatkan_hadiah'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_detail_mobil'))
 
-WebUI.delay(5)
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_transmisi_manual'), 5)
 
-String currentUrl = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_transmisi_manual'))
 
-String expectedUrl = 'https://astrafinancialevent.com/?utm_source=GIIASPromoPage&utm_medium=PromoPage&utm_campaign=2024Tumbuh'
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
 
-if(currentUrl.toString().equals(expectedUrl)) {
-	WebUI.verifyMatch('true', 'true', true)
-	WebUI.comment('URL MATCH')
+boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_mobil_terapply'), 10)
+
+if (isPresent) {
+	println("Element is present.")
 } else {
-	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('URL NOT MATCH')
+	println("Element is not present.")
 }
 
 WebUI.closeBrowser()

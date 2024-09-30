@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textTitle___LxuW']</value>
+         <value>//*[@class = 'teman-seva-dashboard_textTitle__u2oTJ' and (text() = 'Halo, Teman SEVA!' or . = 'Halo, Teman SEVA!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textTitle___LxuW</value>
-      <webElementGuid>b5d42532-edd1-4907-a6d0-feab6a1cab31</webElementGuid>
+      <value>teman-seva-dashboard_textTitle__u2oTJ</value>
+      <webElementGuid>6a8e62c0-0ee6-4f86-a88d-ef38fc39ff27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Halo, Teman SEVA!</value>
+      <webElementGuid>807f3070-706a-4ee2-9439-b055399b88de</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

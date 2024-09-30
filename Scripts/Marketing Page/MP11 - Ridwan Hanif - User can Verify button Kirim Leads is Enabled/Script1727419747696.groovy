@@ -17,36 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
-
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Homepage Component/button_promo_page'))
-
-// Scroll to the specific element
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
-
-// Perform actions on the element after scrolling
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
+WebUI.click(findTestObject('Marketing Page/btn_float_earphone'))
 
 WebUI.delay(5)
 
-String currentUrl = WebUI.getUrl()
+WebUI.setText(findTestObject('Marketing Page/input_leads_nama'), 'Ditha Testing Prod')
+WebUI.setText(findTestObject('Marketing Page/input_leads_no_hp'), '87803827790')
 
-String expectedUrl = 'https://www.seva.id/info/promo/cashback-2-juta/'
+WebUI.delay(3)
 
-if(currentUrl.toString().equals(expectedUrl)) {
-	WebUI.verifyMatch('true', 'true', true)
-	WebUI.comment('URL MATCH')
+// Verify if the button is enabled (clickable)
+boolean isButtonEnabled = WebUI.verifyElementClickable(findTestObject('Marketing Page/btn_kirim_leads'))
+
+if (isButtonEnabled) {
+	WebUI.comment('Button Enabled')
 } else {
-	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('URL NOT MATCH')
+	WebUI.comment('Button is Disabled')
 }
 
 WebUI.closeBrowser()

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'loginAlertModal_styledButton__G5e1C']</value>
+         <value>//*[@class = 'loginAlertModal_styledButton__sFrxz']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>loginAlertModal_styledButton__G5e1C</value>
-      <webElementGuid>c81a8a12-f033-4511-b1ea-f909e0200058</webElementGuid>
+      <value>loginAlertModal_styledButton__sFrxz</value>
+      <webElementGuid>8252b7e8-3ea8-4e9c-bcc0-b8b415b836e8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

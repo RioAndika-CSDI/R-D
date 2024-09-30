@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textNewCar__qb4wP']</value>
+         <value>//*[@class = 'teman-seva-dashboard_textNewCar__NxYLO']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textNewCar__qb4wP</value>
-      <webElementGuid>d7e6fe4b-855e-463a-8109-587d050aaac6</webElementGuid>
+      <value>teman-seva-dashboard_textNewCar__NxYLO</value>
+      <webElementGuid>77da3872-c631-4152-8193-493240e40eca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

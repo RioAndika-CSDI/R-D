@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_leads_nama</name>
+   <tag></tag>
+   <elementGuidId>a5c1342e-d54e-4b0d-ae5f-1f32d2e2216d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id=&quot;field-input-leads-nama-lengkap&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test-id=&quot;field-input-leads-nama-lengkap&quot;]</value>
+      <webElementGuid>43285874-8ac2-45d8-9c6d-200bd81d998f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

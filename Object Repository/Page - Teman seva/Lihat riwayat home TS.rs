@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textHref__K_YlC']</value>
+         <value>//*[@class = 'teman-seva-dashboard_textHref__bkhmv']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textHref__K_YlC</value>
-      <webElementGuid>48ec9f8f-6777-4e4e-b953-5ca09863ae30</webElementGuid>
+      <value>teman-seva-dashboard_textHref__bkhmv</value>
+      <webElementGuid>330f9354-4fbd-464c-9119-456818140d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LIHAT RIWAYAT</value>
+      <webElementGuid>739cc4ce-0b0f-404f-814f-b326739fefe5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

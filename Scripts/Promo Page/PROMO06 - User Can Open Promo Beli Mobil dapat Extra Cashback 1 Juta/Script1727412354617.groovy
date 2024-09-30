@@ -17,27 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
-        , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('seva.id')
 
-WebUI.scrollToElement(findTestObject('Page - Detail dealer/Halaman Submit leads'), 0)
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
+WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.click(findTestObject('Page - Detail dealer/Button kirim'))
+// Scroll to the specific element
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
 
-WebUI.verifyElementVisible(findTestObject('Page - Detail dealer/Popup OTP'))
+// Perform actions on the element after scrolling
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
 
-WebUI.click(findTestObject('Page - Detail dealer/Field input OTP'))
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page - Detail dealer/Field input OTP'), otp)
+String currentUrl = WebUI.getUrl()
 
-WebUI.verifyElementPresent(findTestObject('Page - Detail dealer/validasi popup nomor berhasil diverifikasi'), 0)
+String expectedUrl = 'https://www.seva.id/info/promo/cashback-bank-saqu/'
 
+if(currentUrl.toString().equals(expectedUrl)) {
+	WebUI.verifyMatch('true', 'true', true)
+	WebUI.comment('URL MATCH')
+} else {
+	WebUI.verifyMatch('false', 'true', true)
+	WebUI.comment('URL NOT MATCH')
+}
+
+WebUI.closeBrowser()
