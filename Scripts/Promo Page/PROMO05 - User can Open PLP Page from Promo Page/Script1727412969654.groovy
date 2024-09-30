@@ -29,25 +29,26 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
 
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
+// Scroll to the specific element
+WebUI.scrollToElement(findTestObject('Promo Page/btn_cari_beragam_mobil_di_seva'), 10)
 
-WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
-
-WebUI.click(findTestObject('Promo Page/chevron_right'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Promo Page/chevron_left'))
+// Perform actions on the element after scrolling
+WebUI.click(findTestObject('Promo Page/btn_cari_beragam_mobil_di_seva'))
 
 WebUI.delay(5)
 
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_layanan_surat_kendaraan'), 10)) {
-	WebUI.comment('OBJECT DETECTED')
+String currentUrl = WebUI.getUrl()
+
+String expectedUrl = 'https://www.seva.id/mobil-baru'
+
+if(currentUrl.toString().equals(expectedUrl)) {
+	WebUI.verifyMatch('true', 'true', true)
+	WebUI.comment('URL MATCH')
 } else {
 	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('OBJECT IS NOT PRESENT')
+	WebUI.comment('URL NOT MATCH')
 }
 
 WebUI.closeBrowser()

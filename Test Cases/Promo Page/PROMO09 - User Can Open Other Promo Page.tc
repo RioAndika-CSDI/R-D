@@ -4,5 +4,6 @@
    <name>PROMO09 - User Can Open Other Promo Page</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7d8855f9-d61b-4d38-afbf-7e5ae21aba8d</testCaseGuid>
 </TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>promo_beli_mobil_cb_2juta</name>
+   <name>btn_transmisi_manual</name>
    <tag></tag>
-   <elementGuidId>01048bb8-30bd-4583-85d8-2721d1577b49</elementGuidId>
+   <elementGuidId>36f57d0b-c649-4bcd-a822-9f1c38c56afd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][1]</value>
+         <value>//*[@data-testid=&quot;field-pilih-Manual-th&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][1]</value>
-      <webElementGuid>4e37e109-57f1-4960-941d-873cf2bf349f</webElementGuid>
+      <value>//*[@data-testid=&quot;field-pilih-Manual-th&quot;]</value>
+      <webElementGuid>c4c5be1a-0484-4a96-9b9c-238fb9374d42</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

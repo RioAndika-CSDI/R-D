@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PROMO10 - Verify Button Kirim Info Promo is Enabled</name>
+   <name>PLP11 - User Can Filter Cars based on Transmisi</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e6a0008-5b87-43d4-b4f8-7bf8b0f77d23</testCaseGuid>
+   <testCaseGuid>10b24b01-2b83-4adc-b5c6-94c3707c551c</testCaseGuid>
 </TestCaseEntity>

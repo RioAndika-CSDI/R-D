@@ -17,37 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
-
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Homepage Component/button_promo_page'))
-
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
-
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
-
-WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
-
-WebUI.click(findTestObject('Promo Page/chevron_right'))
+WebUI.click(findTestObject('Marketing Page/btn_float_earphone'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Promo Page/chevron_left'))
+WebUI.setText(findTestObject('Marketing Page/input_leads_nama'), 'Ditha Testing Prod')
+WebUI.setText(findTestObject('Marketing Page/input_leads_no_hp'), '87803827790')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_layanan_surat_kendaraan'), 10)) {
-	WebUI.comment('OBJECT DETECTED')
+// Verify if the button is enabled (clickable)
+boolean isButtonEnabled = WebUI.verifyElementClickable(findTestObject('Marketing Page/btn_kirim_leads'))
+
+if (isButtonEnabled) {
+	WebUI.comment('Button Enabled')
 } else {
-	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('OBJECT IS NOT PRESENT')
+	WebUI.comment('Button is Disabled')
 }
 
 WebUI.closeBrowser()

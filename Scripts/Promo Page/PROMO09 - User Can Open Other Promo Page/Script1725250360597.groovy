@@ -29,21 +29,21 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
 
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
 
 WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Promo Page/card_promo_bank_saqu'))
+WebUI.click(findTestObject('Promo Page/card_layanan_surat_kendaraan'))
 
 WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/cashback-bank-saqu/'
+String expectedUrl = 'https://www.seva.id/info/promo/mudahnya-perpanjang-stnk-di-seva/'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)
