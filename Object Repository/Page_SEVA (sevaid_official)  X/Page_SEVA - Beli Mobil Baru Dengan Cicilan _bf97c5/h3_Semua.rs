@@ -6,15 +6,19 @@
    <elementGuidId>b0741054-e62c-4145-b3e0-9ac884ec666a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.navigationTabV2_container__v2ADA.lpCarRecommendations_tab__ZHR23 > div.tabV2_containerPdp__U_AXv.tabV2_containerActive__SzHfQ > h3.tabV2_text__gtHrZ.tabV2_textActive__MrQHd</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div[5]/div/div/h3</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'navigationTabV4') and (text() = 'Semua' or . = 'Semua')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigationTabV2_container__v2ADA.lpCarRecommendations_tab__ZHR23 > div.tabV2_containerPdp__U_AXv.tabV2_containerActive__SzHfQ > h3.tabV2_text__gtHrZ.tabV2_textActive__MrQHd</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>ac810752-365b-46e1-b01a-ad7b230e1c5c</webElementGuid>
+      <webElementGuid>60399e02-6b43-4273-a8e5-c72b66d20bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tabV2_text__gtHrZ tabV2_textActive__MrQHd</value>
-      <webElementGuid>b99532cf-e6ee-4a2b-a4b0-de6857c6be88</webElementGuid>
+      <value>navigationTabV4</value>
+      <webElementGuid>e64f7759-c8f3-42b3-8a8f-34e2e0d21806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Semua</value>
-      <webElementGuid>cd09d160-8707-4087-9f9f-cd026604fb66</webElementGuid>
+      <webElementGuid>543a3001-0e97-4119-aafe-8520f61e0540</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[@class=&quot;navigationTabV2_container__v2ADA lpCarRecommendations_tab__ZHR23&quot;]/div[@class=&quot;tabV2_containerPdp__U_AXv tabV2_containerActive__SzHfQ&quot;]/h3[@class=&quot;tabV2_text__gtHrZ tabV2_textActive__MrQHd&quot;]</value>
-      <webElementGuid>22d8644d-1040-4069-b453-6e12c47b5de6</webElementGuid>
+      <webElementGuid>6ae946c6-6331-4a10-a3d5-7d0302c92837</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[5]/div/div/h3</value>
-      <webElementGuid>ec04fd7e-2409-4521-8e5e-3592ad76df3c</webElementGuid>
+      <webElementGuid>b4f27000-f341-4305-abab-f5cb763e2b11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/following::h3[1]</value>
-      <webElementGuid>6a3dc8aa-d1e6-4ec0-a543-162b237edb84</webElementGuid>
+      <webElementGuid>30d6d81a-22ce-4677-a42e-e225e1e06ae8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/following::h3[1]</value>
-      <webElementGuid>6222465b-b4b6-4b30-b44e-7721d0ff9597</webElementGuid>
+      <webElementGuid>fd9cf1d7-bc8e-4ccd-9cfc-83b19e8e7233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[1]/preceding::h3[1]</value>
-      <webElementGuid>b2bedc56-e043-4549-bef2-97e73673bd66</webElementGuid>
+      <webElementGuid>dc146b68-c544-438a-8a26-cdd2b189d4e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu'])[1]/preceding::h3[2]</value>
-      <webElementGuid>a85e4edc-a154-42ae-a5d3-c422edcfec0b</webElementGuid>
+      <webElementGuid>2350b663-785a-4568-91fa-644e63dee07a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Semua']/parent::*</value>
-      <webElementGuid>1eb5f3f9-edb1-493f-a859-6916ad68e7bb</webElementGuid>
+      <webElementGuid>2a15af22-4e7b-443e-86c6-111e87e42ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/h3</value>
-      <webElementGuid>b55696c1-b2ed-4a23-abaa-e54c7a07b529</webElementGuid>
+      <webElementGuid>590d15d2-ea86-4283-b095-9015fc3df7af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Semua' or . = 'Semua')]</value>
-      <webElementGuid>c73a5679-7815-4025-beda-775c6570ba35</webElementGuid>
+      <webElementGuid>eeb1f78a-4e9c-46a3-8a69-c985a063ad44</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

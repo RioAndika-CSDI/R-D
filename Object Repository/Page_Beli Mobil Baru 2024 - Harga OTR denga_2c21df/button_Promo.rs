@@ -10,11 +10,14 @@
          <value>//div[@id='__next']/div/header/div/div/div[3]/div/div[2]/div[3]/button</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'menuList_menu') and (text() = 'Promo' or . = 'Promo')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>49c0f3f1-783d-49fd-a244-1cb3be41692e</webElementGuid>
+      <webElementGuid>55d0b5b6-2aac-47e8-b610-35b059857e7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuList_menu__Y_Jkk</value>
-      <webElementGuid>e38f3779-607f-41ac-becc-ab5f5aef5b4a</webElementGuid>
+      <value>menuList_menu</value>
+      <webElementGuid>64fbf960-8821-4d76-aa47-0f06abcb011e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Promo</value>
-      <webElementGuid>309b227a-fd07-4aa0-a915-3b9606d4a59a</webElementGuid>
+      <webElementGuid>bb54d492-3827-4bdf-94c5-2b1ba25eee9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/header[@class=&quot;headerMobile_wrapper__5EaXn headerMobile_showHeader__V_7qB headerMobile_isActive__Zhh3F&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__TYH_L&quot;]/div[@class=&quot;headerMobile_container__hw5N3&quot;]/div[@class=&quot;sidebarMobile_wrapper__xG4L_ sidebarMobile_showSidebar__KnF4h&quot;]/div[@class=&quot;menuList_container__aoPBS&quot;]/div[@class=&quot;menuList_menuContainer__6raFz&quot;]/div[@class=&quot;menuList_parentMenu__mk9Cl&quot;]/button[@class=&quot;menuList_menu__Y_Jkk&quot;]</value>
-      <webElementGuid>a547edf7-83b6-4545-a67d-56b9dc78c273</webElementGuid>
+      <webElementGuid>aec6db12-fc09-4db6-855c-7cb9cb845c0d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/header/div/div/div[3]/div/div[2]/div[3]/button</value>
-      <webElementGuid>1df04eed-4bf5-4163-9466-b3fa34a99ca2</webElementGuid>
+      <webElementGuid>94d5dae4-382f-41bd-9bd8-66a0cac9ba51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/button</value>
-      <webElementGuid>67e277c4-9210-4c21-bd68-38596f1736ea</webElementGuid>
+      <webElementGuid>64de79d9-31e7-4caa-909f-f4936e239466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +73,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Promo' or . = 'Promo')]</value>
-      <webElementGuid>d9ab65ea-91e7-4e89-8e06-48570ef34777</webElementGuid>
+      <webElementGuid>bbd61a95-1437-4d0e-a568-454080988d9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

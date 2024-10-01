@@ -6,16 +6,16 @@
    <elementGuidId>36420de3-d3ed-4e77-8c53-18e789d69da3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/h2</value>
+         <key>CSS</key>
+         <value>h2.leadsFormTertiary_textHeading__ahtYf</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h2[(text() = 'Butuh Bantuan?' or . = 'Butuh Bantuan?')]</value>
+         <value>//h1[(text() = 'Butuh Bantuan?' or . = 'Butuh Bantuan?')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h2.leadsFormTertiary_textHeading__ahtYf</value>
+         <key>XPATH</key>
+         <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,8 +25,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>a1ff84d6-a927-456c-9d90-ac113f4a7b17</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>a4780017-9696-42fd-b898-757481041c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>leadsFormTertiary_textHeading__ahtYf</value>
-      <webElementGuid>64c85f1c-abb0-4d84-a848-543603c9fa2f</webElementGuid>
+      <webElementGuid>d32ef674-920c-42da-a26a-76b19a087b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Butuh Bantuan?</value>
-      <webElementGuid>88231240-2d9e-4f7f-8991-bb2a46e019e0</webElementGuid>
+      <webElementGuid>79e10faf-89e4-47a2-924f-8d5fdb21fe08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;landing-page-leads-form-section&quot;)/div[@class=&quot;leadsFormTertiary_container__eBNAS&quot;]/div[@class=&quot;leadsFormTertiary_wrapper__nOdZt&quot;]/div[@class=&quot;leadsFormTertiary_foreground__2I_to&quot;]/h2[@class=&quot;leadsFormTertiary_textHeading__ahtYf&quot;]</value>
-      <webElementGuid>5b1b74f8-7d0d-40ba-b3af-916c727d5ff6</webElementGuid>
+      <webElementGuid>d8bc2ca4-b526-48ab-9486-0185d7e85ea0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='landing-page-leads-form-section']/div/div/div[2]/h2</value>
-      <webElementGuid>f4eb8d5a-aecf-4ba3-883e-e30000ff6016</webElementGuid>
+      <webElementGuid>ad69f142-8883-46c2-9f0a-3e489333c797</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minta Penawaran'])[5]/following::h2[1]</value>
-      <webElementGuid>4941bd40-e488-4bf0-892c-12473911530e</webElementGuid>
+      <webElementGuid>08cdc9fe-80b8-4411-bb62-9fa67ad53400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Rincian'])[5]/following::h2[1]</value>
-      <webElementGuid>43022d91-37fc-4bc7-b85e-39770a87cadc</webElementGuid>
+      <webElementGuid>6af71024-6d3a-4356-8ee2-f3d32d6d9990</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/preceding::h2[1]</value>
-      <webElementGuid>e53b5d0d-e874-4c32-8cee-72249e8eb4ee</webElementGuid>
+      <webElementGuid>6bf79570-18e9-44f4-9c27-e2240afe54af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Lain dari SEVA'])[1]/preceding::h2[1]</value>
-      <webElementGuid>133f71eb-46e9-4fc4-8931-301a3da74237</webElementGuid>
+      <webElementGuid>52bd8b22-5c56-4da1-b3ca-84ed9770e69d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Butuh Bantuan?']/parent::*</value>
-      <webElementGuid>0994abfa-ce17-4e4a-8a30-eeecf1877365</webElementGuid>
+      <webElementGuid>19f05e12-d712-4ae3-8323-e93059421bca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h2</value>
-      <webElementGuid>d1a831f4-a578-4967-8fb5-163676b26ecf</webElementGuid>
+      <webElementGuid>e0219ade-cd14-4311-9599-2198fa6e8c0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Butuh Bantuan?' or . = 'Butuh Bantuan?')]</value>
-      <webElementGuid>a15bc283-eefc-47aa-a0e5-6a8862423fc6</webElementGuid>
+      <webElementGuid>401a0ffb-672c-4483-8a0b-97402ba3f7aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

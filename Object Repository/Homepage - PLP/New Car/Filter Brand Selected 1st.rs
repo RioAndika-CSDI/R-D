@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'formSelectBrandCar_boxOnclick__5H7Ga'])[1]</value>
+         <value>//*[starts-with(@class, 'formSelectBrandCar_boxOnclick')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,22 +18,22 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-${brand}</value>
-      <webElementGuid>7eed10ae-32c7-4d41-b684-2aac06619516</webElementGuid>
+      <webElementGuid>2bb960d6-44db-4532-9260-aa5bf6ec6e8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSelectBrandCar_boxOnclick</value>
+      <webElementGuid>2a9e7878-cac4-4a42-a1db-d1578ba0d160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>formSelectBrandCar_boxOnclick__5H7Ga</value>
-      <webElementGuid>1b329df8-2722-4241-b323-c17e2d822bba</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'formSelectBrandCar_boxOnclick__5H7Ga'])[1]</value>
-      <webElementGuid>9d394b29-ea3b-4978-85f1-8c7e3ca5a024</webElementGuid>
+      <value>(//*[starts-with(@class, 'formSelectBrandCar_boxOnclick')])[1]</value>
+      <webElementGuid>44ad5a91-f24a-4a2c-bb6b-5ad3e9582f8d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

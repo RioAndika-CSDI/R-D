@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@menucode = 'keuangan']</value>
+         <value>//*[normalize-space(text()) = 'Keuangan']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9cc26f0c-943c-4b07-80b3-09bb5f770751</webElementGuid>
+      <webElementGuid>211cccd4-7dcc-47ac-b0d7-6e0922eaf8c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.seva.id/blog/category/keuangan/</value>
-      <webElementGuid>c81c6875-dde1-4cb1-a9f0-7f826f5765d7</webElementGuid>
+      <webElementGuid>68f728d3-9528-460d-8705-089cfb167710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,23 +43,23 @@
       <type>Main</type>
       <value>
                                                         Keuangan                                                    </value>
-      <webElementGuid>b9b1a816-f73d-452f-af3f-acd97bd1e59b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;subSubMenu_2_4&quot;)/div[4]/a[1]</value>
-      <webElementGuid>7751720c-de27-421c-8138-3484a73df007</webElementGuid>
+      <webElementGuid>58c82a24-df00-49e3-97c7-565a138f0c11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[normalize-space(text()) = 'Keuangan']</value>
+      <webElementGuid>98d572bf-9476-462f-b636-f99e4fa64176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>menucode</name>
       <type>Main</type>
       <value>keuangan</value>
-      <webElementGuid>41f12b84-4d3a-4aa1-ac1a-6219b335e076</webElementGuid>
+      <webElementGuid>335d6173-2f35-46d1-afcd-ee20e53ff672</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subSubMenu_2_4']/div[4]/a</value>
-      <webElementGuid>651f2438-c300-49eb-b4c9-9ce80d9d156a</webElementGuid>
+      <webElementGuid>8ed3749a-bc22-45a8-8deb-34d39e600865</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Keuangan')])[2]</value>
-      <webElementGuid>628d636e-787c-4ff5-ae95-dee2f294b166</webElementGuid>
+      <webElementGuid>cfef6c2b-c145-4a98-a03d-629a73bf46ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.seva.id/blog/category/keuangan/')]</value>
-      <webElementGuid>d3173962-d1b4-44b5-b326-f651c132f745</webElementGuid>
+      <webElementGuid>37922210-c7f9-4c3f-b070-5c576f97f1ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[4]/a</value>
-      <webElementGuid>27d094ae-9d85-4903-975f-aafe8b16b404</webElementGuid>
+      <webElementGuid>cf94493f-3a22-4235-bd91-a41d40f99ca6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <value>//a[@href = 'https://www.seva.id/blog/category/keuangan/' and (text() = '
                                                         Keuangan                                                    ' or . = '
                                                         Keuangan                                                    ')]</value>
-      <webElementGuid>1836d04b-af8f-4b58-85c9-a303be786f8b</webElementGuid>
+      <webElementGuid>25d7bb7b-aa6b-405f-a621-448b7684994d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

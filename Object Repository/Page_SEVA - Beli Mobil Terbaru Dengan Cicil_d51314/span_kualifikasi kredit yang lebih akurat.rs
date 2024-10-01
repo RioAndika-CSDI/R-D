@@ -6,22 +6,19 @@
    <elementGuidId>5737a09c-3505-4337-9192-98de96f8c28a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ant-col.ant-col-21.css-nllxry > p > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[2]</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;kualifikasi kredit yang lebih akurat&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'kualifikasi kredit yang lebih akurat' or . = 'kualifikasi kredit yang lebih akurat')]</value>
       </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-col.ant-col-21.css-nllxry > p > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>47d49e79-e3bf-4b9b-987a-474c90f38b1f</webElementGuid>
+      <webElementGuid>f2d0eb63-14b5-4b8d-b925-524745716688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>kualifikasi kredit yang lebih akurat</value>
-      <webElementGuid>1664abc7-0c6d-44e8-9064-aa05149a0b18</webElementGuid>
+      <webElementGuid>358bbd15-7dee-4111-996c-69fe2de15cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[4]/div[@class=&quot;ant-tooltip calculation-result css-nllxry ant-tooltip-placement-top&quot;]/div[@class=&quot;ant-tooltip-content&quot;]/div[@class=&quot;ant-tooltip-inner&quot;]/div[1]/div[@class=&quot;ant-row css-nllxry&quot;]/div[@class=&quot;ant-col ant-col-21 css-nllxry&quot;]/p[1]/span[1]</value>
-      <webElementGuid>3acb36bd-19b8-45b6-9ec5-0df726a4ee18</webElementGuid>
+      <webElementGuid>c11a788c-ccf5-4008-bd3e-72f1aa0dab12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::span[2]</value>
-      <webElementGuid>0393018d-4848-477f-adf8-932f010ec073</webElementGuid>
+      <webElementGuid>8bc13f90-5d25-465d-ad87-ebc5a478e74f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::span[2]</value>
-      <webElementGuid>c70ad08b-f352-4e0c-9227-1feb9c05df56</webElementGuid>
+      <webElementGuid>953a871b-6c73-4fa7-a9b3-3efd4e7a4593</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='kualifikasi kredit yang lebih akurat']/parent::*</value>
-      <webElementGuid>38a6d76d-bd43-49d5-933f-8978a8e3e310</webElementGuid>
+      <webElementGuid>d63024b4-014c-4588-b723-6bd2b7a23bce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p/span</value>
-      <webElementGuid>3dff91a3-4fad-4e96-8a0c-81d16d0eb328</webElementGuid>
+      <webElementGuid>64693f90-bd56-42e6-800a-bfab28fd4e10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'kualifikasi kredit yang lebih akurat' or . = 'kualifikasi kredit yang lebih akurat')]</value>
-      <webElementGuid>f182d366-8dad-431e-8866-49b524c1d7e4</webElementGuid>
+      <webElementGuid>a56c6699-b083-4e49-a52b-2a017bb54608</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

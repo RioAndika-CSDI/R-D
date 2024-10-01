@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputSelect_dropdownItem__BIFMK']</value>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItem')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItem__BIFMK</value>
-      <webElementGuid>57b1c152-76c1-4d30-adcd-9a513a484433</webElementGuid>
+      <value>inputSelect_dropdownItem</value>
+      <webElementGuid>b1a86162-df64-4448-8278-ceb2e5cffa1c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

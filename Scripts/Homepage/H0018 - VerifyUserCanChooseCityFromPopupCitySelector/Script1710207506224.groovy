@@ -32,6 +32,8 @@ WebUI.click(findTestObject('Homepage - PLP/Icon X city'))
 WebUI.setText(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'), 
     'Jakarta Pusat')
 
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'))
+
 'belumdibuat variable, kalo ganti data di input city jangan lupa ganti value di parameter Test Object'
 WebUI.waitForElementVisible(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']), 0)
 
@@ -42,13 +44,14 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (1)'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Cari Mobil'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mobil Baru'))
+WebUI.click(findTestObject('Homepage - Burger menu/Expand Menu Mobil Baru'))
 
-WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/span_Jakarta Pusat (3)'))
+WebUI.click(findTestObject('Homepage - Burger menu/Menu-Mobil Baru-Lihat Semua Mobil'))
 
-WebUI.click(findTestObject('Page_Daihatsu New Ayla 2024 - Spesifikasi, _167452/span_Jakarta Pusat'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/span_Jakarta Pusat (3)'), 
+    0)
 
 WebUI.closeBrowser()
 

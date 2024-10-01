@@ -32,15 +32,17 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_input_input__MAvlc'), 
-    'Marvin Ariel Johannes')
+    'Marvin Testing')
 
 WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_inputPhone_input__r86Wm false'), 
-    '81225717129')
+    '8752900847')
+
+WebUI.click(findTestObject('Homepage - Burger menu/Checkbox-agreement'))
 
 WebUI.click(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Kirim'))
 
 WebUI.setText(findTestObject('Object Repository/Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
-    '969696')
+    '445566')
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/p_Nomor berhasil diverifikasi. Agen SEVA ak_836ded'))
 
