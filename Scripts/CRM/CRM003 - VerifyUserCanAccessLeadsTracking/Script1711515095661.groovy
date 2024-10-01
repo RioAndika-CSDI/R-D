@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.crmprod)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email'), 'testing-csaleader@seva.id')
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email'), 'testing-csaleader@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
 
 WebUI.click(findTestObject('Page_Login SEVA CRM/button_LOG IN'))
 

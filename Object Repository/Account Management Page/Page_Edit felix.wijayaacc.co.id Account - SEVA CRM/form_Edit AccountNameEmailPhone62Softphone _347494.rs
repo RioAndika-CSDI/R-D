@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Edit AccountNameEmailPhone62Softphone _347494</name>
+   <tag></tag>
+   <elementGuidId>3a784363-5a2b-4303-8e00-f09f319980af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.relative</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>2a2811d3-5cef-4b9b-bbf4-a5850bedb849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>dfdac848-f7fd-4d2c-af7d-3a327fab9f7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative</value>
+      <webElementGuid>09039066-1ec3-4a11-9cee-0d54de07f5fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit AccountNameEmailPhone+62Softphone Extension (optional)Insert the user's extension number from softphone to call customerPassword ActivationPasswordRoleRole cannot be emptyBU Company (optional)Event (optional)CRM Status:CMS Status: ActiveAvatarUpload PNG OnlySave</value>
+      <webElementGuid>ea4234f3-81b8-4f28-81ed-44573cebb302</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-[10px]&quot;]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[2]/div[@class=&quot;h-[calc(var(--crm-screen-height)-10px-44px-19px-18px-16px)] w-[540px] overflow-x-auto rounded-[10px] bg-white font-OpenSans text-xs text-bodyCopy&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/form[@class=&quot;relative&quot;]</value>
+      <webElementGuid>48a0e790-e299-4265-9234-fbe89fb170ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form</value>
+      <webElementGuid>a85e1f57-a2a9-43d3-95b0-2b71cbe760bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[21]/following::form[1]</value>
+      <webElementGuid>54c4174e-907f-45ac-94c0-bfa2274e2e89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[16]/following::form[1]</value>
+      <webElementGuid>df5aecdf-45b5-4288-b576-1385ff5d258e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>7233efd2-b74b-42fc-a7b3-3e8b3ca85c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = concat(&quot;Edit AccountNameEmailPhone+62Softphone Extension (optional)Insert the user&quot; , &quot;'&quot; , &quot;s extension number from softphone to call customerPassword ActivationPasswordRoleRole cannot be emptyBU Company (optional)Event (optional)CRM Status:CMS Status: ActiveAvatarUpload PNG OnlySave&quot;) or . = concat(&quot;Edit AccountNameEmailPhone+62Softphone Extension (optional)Insert the user&quot; , &quot;'&quot; , &quot;s extension number from softphone to call customerPassword ActivationPasswordRoleRole cannot be emptyBU Company (optional)Event (optional)CRM Status:CMS Status: ActiveAvatarUpload PNG OnlySave&quot;))]</value>
+      <webElementGuid>46e91173-b110-4414-b8c5-75cb4479565f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

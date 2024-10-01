@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Create New AccountNameName cannot be e_ad3ae4</name>
+   <tag></tag>
+   <elementGuidId>bab0c142-0664-411a-bddd-ece67f5af6b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>b2a99e79-a8db-4c0e-951f-9b4d07203ac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>a4861327-3b9b-4bd9-8c1b-8503249678c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-10 pl-5 pr-[22px] pt-6</value>
+      <webElementGuid>0ae7b7e6-8876-4239-a347-12306d60e138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New AccountNameName cannot be emptyEmailEmail cannot be emptyAvatarUpload PNG OnlyPhone+62Phone cannot be emptySoftphone Extension (optional)Insert the user's extension number from softphone to call customerRoleRole cannot be emptyPassword ActivationPasswordBU Company (optional)Event (optional)CRM Status:CMS Status: InactiveSave</value>
+      <webElementGuid>817d8942-90d0-4c2d-8e7b-eab159f5ea56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal [&amp;_.ant-modal-content]:rounded-none [&amp;_.ant-modal-content]:p-0&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@class=&quot;pb-10 pl-5 pr-[22px] pt-6&quot;]</value>
+      <webElementGuid>0c61b99f-6dfe-494c-80b3-d93a37afc497</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[21]/following::form[1]</value>
+      <webElementGuid>23557915-887a-498d-aaab-123055ea469f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[16]/following::form[1]</value>
+      <webElementGuid>6bb4ceaa-8ac6-4681-813d-7f6fff7f70bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>5a8b73c7-a2f9-44e4-982f-5e83ec1049e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = concat(&quot;Create New AccountNameName cannot be emptyEmailEmail cannot be emptyAvatarUpload PNG OnlyPhone+62Phone cannot be emptySoftphone Extension (optional)Insert the user&quot; , &quot;'&quot; , &quot;s extension number from softphone to call customerRoleRole cannot be emptyPassword ActivationPasswordBU Company (optional)Event (optional)CRM Status:CMS Status: InactiveSave&quot;) or . = concat(&quot;Create New AccountNameName cannot be emptyEmailEmail cannot be emptyAvatarUpload PNG OnlyPhone+62Phone cannot be emptySoftphone Extension (optional)Insert the user&quot; , &quot;'&quot; , &quot;s extension number from softphone to call customerRoleRole cannot be emptyPassword ActivationPasswordBU Company (optional)Event (optional)CRM Status:CMS Status: InactiveSave&quot;))]</value>
+      <webElementGuid>99d5f614-3cd6-4b32-8296-7bc6c206d056</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

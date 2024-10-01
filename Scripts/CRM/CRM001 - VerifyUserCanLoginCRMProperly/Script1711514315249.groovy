@@ -21,9 +21,9 @@ WebUI.openBrowser(GlobalVariable.crmprod)
 
 WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
 
-WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email_email'), 'testing-csaleader@seva.id')
+WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Email'), GlobalVariable.EmailUserCSALeader)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password'), 'rw3JNN5i/ZAcghJh7hNBqQ==')
+WebUI.setText(findTestObject('Page_Login SEVA CRM/input_Password'), GlobalVariable.PassUserLeader)
 
 WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN'))
 
