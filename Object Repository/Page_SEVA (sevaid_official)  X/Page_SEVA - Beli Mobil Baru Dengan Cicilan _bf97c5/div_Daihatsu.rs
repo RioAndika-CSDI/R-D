@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Daihatsu')]</value>
+         <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Daihatsu')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8959dce6-8109-40c7-86b3-f1890d0caa8b</webElementGuid>
+      <webElementGuid>edc17a83-6858-4096-801a-1fa271ee6f49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>81cf95b1-c813-47d8-96e9-c86d197a7c25</webElementGuid>
+      <webElementGuid>95f73a1d-5233-414b-8778-b59e278078c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_boxOnclick__5H7Ga</value>
-      <webElementGuid>af4945a0-a855-4188-b5b0-39c427ce901d</webElementGuid>
+      <webElementGuid>fb9f6772-5917-4f2e-b8bd-dd79ec79a38e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,23 +49,23 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-daihatsu</value>
-      <webElementGuid>7570c5cf-60ea-4fd3-8fa8-980ea7bb1d5f</webElementGuid>
+      <webElementGuid>9d338902-3a76-4fca-a4a4-a03ae31d02ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <matchCondition>starts with</matchCondition>
+      <name>alt</name>
       <type>Main</type>
-      <value> Daihatsu</value>
-      <webElementGuid>b1646a93-d9a3-41c1-8926-75f8cfa45cd8</webElementGuid>
+      <value>Daihatsu</value>
+      <webElementGuid>854931dd-e12e-4c05-9490-085f784aab61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Daihatsu')]</value>
-      <webElementGuid>e8b2b2e0-1899-45cf-abdc-e9ab24932aa7</webElementGuid>
+      <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Daihatsu')]</value>
+      <webElementGuid>b7031298-c4e3-4523-9265-50e35d07a1c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[2]/following::div[2]</value>
-      <webElementGuid>90691ac1-b8e8-4f36-872b-42fe07d259ea</webElementGuid>
+      <webElementGuid>15ed9685-0947-4fd7-989b-bee029f6f8fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[17]</value>
-      <webElementGuid>b4ee98be-f827-43d8-ba2f-af42047b53d5</webElementGuid>
+      <webElementGuid>a722f4c1-d42a-48e4-98b7-b2eb55647277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Isuzu'])[2]/preceding::div[2]</value>
-      <webElementGuid>02a81116-c07b-4a2e-a5b0-7ec2bcbd12e3</webElementGuid>
+      <webElementGuid>40f1d011-2e89-4e38-81f6-5bb7cbada910</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>15f4dd5d-22dd-4a83-82ea-f0d37035b159</webElementGuid>
+      <webElementGuid>61844538-c402-475e-9e16-635cc992bb7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Daihatsu' or . = ' Daihatsu')]</value>
-      <webElementGuid>45ae9370-ec5d-41c4-9957-85de13275347</webElementGuid>
+      <webElementGuid>8097ef80-3f65-486b-aed6-e13a3b15771c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Isuzu')]</value>
+         <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Isuzu')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>141ec929-2b24-4b34-a9bd-740bdcb2153a</webElementGuid>
+      <webElementGuid>800ca8fd-ddb1-45e4-8d4e-608b337b3fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>930daf7a-8516-4a06-b8c3-11a97551eb55</webElementGuid>
+      <webElementGuid>ed1286e3-89ed-4851-ac71-143f931023e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>9769bf08-65c3-49d5-ba7a-3bc6f48e14ae</webElementGuid>
+      <webElementGuid>45361866-9093-4a02-94e0-6ad5a3a06b2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-isuzu</value>
-      <webElementGuid>05213d9e-57e3-4579-8296-65c44828fd5a</webElementGuid>
+      <webElementGuid>b7429e6d-9236-4a21-9c23-3ee1276f0c24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,15 +57,15 @@
       <name>text</name>
       <type>Main</type>
       <value> Isuzu</value>
-      <webElementGuid>76cc2cfc-121f-4f37-a6b5-aa1e718f8013</webElementGuid>
+      <webElementGuid>3a8fd341-970d-46f5-8481-0203043d7b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Isuzu')]</value>
-      <webElementGuid>eda4fd2c-ef46-4a4d-939a-d5b31168a5f5</webElementGuid>
+      <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Isuzu')]</value>
+      <webElementGuid>4555f074-0efe-4068-ade1-d59f99f2cc9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div</value>
-      <webElementGuid>5a4046d7-73f3-45bc-a938-d807ecbf07cc</webElementGuid>
+      <webElementGuid>264129bc-1c55-48fc-b4dc-7a4f2d4439a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Isuzu' or . = ' Isuzu')]</value>
-      <webElementGuid>4ba73d71-5058-4d62-93c2-30597e5fb139</webElementGuid>
+      <webElementGuid>8397a5dd-3e7f-46c7-b03c-5ede5f4a88a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

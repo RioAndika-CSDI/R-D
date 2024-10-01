@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Label Kualifikasi Kredit Mobil Impian</name>
+   <name>Expand Menu Mobil Baru</name>
    <tag></tag>
-   <elementGuidId>a9d66201-e9db-41b3-8861-418552868436</elementGuidId>
+   <elementGuidId>99c4f478-d1bc-448a-90ee-aa45acd1711b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'howToUse_cardHowToUse') and @data-testid = 'kualifikasi-kredit']</value>
+         <value>//*[starts-with(@class, 'menuItem_menu') and (text() = 'Mobil Baru' or . = 'Mobil Baru')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>howToUse_cardHowToUse</value>
-      <webElementGuid>8aa5af51-9c97-412f-9c7d-36455861b698</webElementGuid>
+      <value>menuItem_menu</value>
+      <webElementGuid>41287994-9e8a-45bb-8f12-9cb45900f47a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>text</name>
       <type>Main</type>
-      <value>kualifikasi-kredit</value>
-      <webElementGuid>3b98dd52-0a38-42cd-abbf-30bfe8b76ed0</webElementGuid>
+      <value>Mobil Baru</value>
+      <webElementGuid>c3ec7017-2a9f-42eb-ad26-c5b226ad3549</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

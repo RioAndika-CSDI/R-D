@@ -11,9 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '
-        Kebijakan Privasi      ' or . = '
-        Kebijakan Privasi      ')]</value>
+         <value>//*[normalize-space(text()) = 'Kebijakan Privasi']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>c644b77c-43fd-4eb9-aa97-8d7bc9a1c7cc</webElementGuid>
+      <webElementGuid>0519d41b-8ce9-442a-8688-83dae0e57330</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,24 +33,24 @@
       <name>class</name>
       <type>Main</type>
       <value>entry-title mb-[52px] mobile:mb-[36px] uppercase font-[KanyonBold] text-[28px] mobile:text-[32px]</value>
-      <webElementGuid>36ee7433-096e-4683-b4c8-9499094185e8</webElementGuid>
+      <webElementGuid>0ce17aa5-38b7-4100-98a0-e2bbb7ef1734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
         Kebijakan Privasi      </value>
-      <webElementGuid>8719844a-f560-441f-97da-f4d6acc3d0fb</webElementGuid>
+      <webElementGuid>9aad8325-186f-4ba4-b7ee-5a23be082648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;container max-w-[1197px] py-[3rem] tablet:py-[107px]&quot;]/h1[@class=&quot;entry-title mb-[52px] mobile:mb-[36px] uppercase font-[KanyonBold] text-[28px] mobile:text-[32px]&quot;]</value>
-      <webElementGuid>d3dcaa01-d645-4e11-a630-11b9d3e76803</webElementGuid>
+      <value>//*[normalize-space(text()) = 'Kebijakan Privasi']</value>
+      <webElementGuid>08c756bd-a9ba-4044-be1e-2cf1dd761174</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>d8e88450-7c2f-4d2e-8fdd-4e71ff041e1e</webElementGuid>
+      <webElementGuid>7e84ec56-7a8f-4d3f-9c0d-40681497d164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +68,6 @@
       <value>//h1[(text() = '
         Kebijakan Privasi      ' or . = '
         Kebijakan Privasi      ')]</value>
-      <webElementGuid>3d1bd3af-4f0d-4dd0-8eea-030761c812a9</webElementGuid>
+      <webElementGuid>61592930-cfd3-4e1a-bd40-41d7d207dfc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
