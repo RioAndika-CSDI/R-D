@@ -10,6 +10,10 @@
          <value>a.testimonyWidget_textLink__sliDz</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'testimonyWidget_textLink') and (text() = 'Lihat semua' or . = 'Lihat semua')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div[10]/div/a</value>
       </entry>
@@ -91,6 +95,7 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerita Pengguna SEVA'])[1]/following::a[1]</value>
       <webElementGuid>c48c9e82-43ba-41a6-8c86-45f1a8cd70d8</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

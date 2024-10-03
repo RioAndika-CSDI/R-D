@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuList_menu__Y_Jkk' and (text() = 'Teman SEVA' or . = 'Teman SEVA')]</value>
+         <value>//*[@class = 'menuList_menu__b7Ngl' and (text() = 'Teman SEVA' or . = 'Teman SEVA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuList_menu__Y_Jkk</value>
-      <webElementGuid>f38d255b-e3a0-4817-9c33-77153dc9ed6d</webElementGuid>
+      <value>menuList_menu__b7Ngl</value>
+      <webElementGuid>79a48e18-1dfd-4306-b51b-b8b0983633f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Teman SEVA</value>
-      <webElementGuid>08c91447-355c-400e-8ead-b568da6587a7</webElementGuid>
+      <webElementGuid>0517364c-7cfa-4b73-96f0-176a88bd56cd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

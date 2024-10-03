@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN undefined']</value>
+         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>d3d7b867-97b8-4ab8-bfb0-363be65788d0</webElementGuid>
+      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
+      <webElementGuid>5869370a-9188-405d-8554-f144193c894e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

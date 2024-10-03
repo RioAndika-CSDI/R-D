@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_leads_no_hp</name>
+   <tag></tag>
+   <elementGuidId>5a3d6c44-3dab-46bc-bb9d-c991bff40ad5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id=&quot;field-input-leads-nomor-hp&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test-id=&quot;field-input-leads-nomor-hp&quot;]</value>
+      <webElementGuid>bf072fd2-b18e-4e26-af6d-8f84b8efd1de</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

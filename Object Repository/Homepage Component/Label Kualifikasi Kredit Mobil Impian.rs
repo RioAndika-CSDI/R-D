@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'howToUse_cardHowToUse__HZeMc' and @data-testid = 'kualifikasi-kredit']</value>
+         <value>//*[starts-with(@class, 'howToUse_cardHowToUse') and @data-testid = 'kualifikasi-kredit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>howToUse_cardHowToUse__HZeMc</value>
-      <webElementGuid>9ee5f485-2490-4283-890c-f41531cdc70a</webElementGuid>
+      <value>howToUse_cardHowToUse</value>
+      <webElementGuid>8aa5af51-9c97-412f-9c7d-36455861b698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>kualifikasi-kredit</value>
-      <webElementGuid>a09a2ade-8ad6-4ac7-99bb-40b131f5b4a3</webElementGuid>
+      <webElementGuid>3b98dd52-0a38-42cd-abbf-30bfe8b76ed0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

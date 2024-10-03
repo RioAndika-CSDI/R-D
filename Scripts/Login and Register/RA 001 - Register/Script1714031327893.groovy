@@ -21,22 +21,14 @@ WebUI.openBrowser('https://www.seva.id/')
 
 WebUI.maximizeWindow()
 
+'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
-    15)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(20)
 
-if (sakuFrame == true) {
-    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
-
-    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
-
-    WebUI.switchToWindowIndex(0)
-}
-
-WebUI.click(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 

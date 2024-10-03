@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'temanSEVAAccountActivity_tab__PVTWz temanSEVAAccountActivity_selectedTabStyle__jHvSf']</value>
+         <value>//*[@class = 'temanSEVAAccountActivity_tab__U1wBL temanSEVAAccountActivity_selectedTabStyle__GA__i']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>temanSEVAAccountActivity_tab__PVTWz temanSEVAAccountActivity_selectedTabStyle__jHvSf</value>
-      <webElementGuid>1e3706d7-7898-479e-98f7-2390e69a6f2c</webElementGuid>
+      <value>temanSEVAAccountActivity_tab__U1wBL temanSEVAAccountActivity_selectedTabStyle__GA__i</value>
+      <webElementGuid>c0106a84-102c-4d11-b5ac-a8196790682e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

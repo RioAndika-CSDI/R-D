@@ -17,6 +17,7 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Perjalanan Finansial Mobil Impianmu' or . = 'Perjalanan Finansial Mobil Impianmu')]</value>
       </entry>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

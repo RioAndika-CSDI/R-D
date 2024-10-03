@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h1_Rekomendasi Mobil Baru di SEVA'))
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
 WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h2_Menampilkan beragam pilihan mobil baru s_598b49'))
 
 WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/div_63 Mobil Baru'))

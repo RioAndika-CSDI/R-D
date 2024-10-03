@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-onboarding_bullet__vCJCf</value>
-      <webElementGuid>fb0a6b99-dbe3-44d0-8e68-da149d63cd36</webElementGuid>
+      <value>teman-seva-onboarding_bullet__JXUa5</value>
+      <webElementGuid>7b0d58cc-5179-43a7-8629-f115aaf90760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'teman-seva-onboarding_bullet__vCJCf'])[3]</value>
-      <webElementGuid>e432c2f2-cea0-4bed-a116-fc2aeaf24a3f</webElementGuid>
+      <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[3]</value>
+      <webElementGuid>0b536d68-3467-4d3f-a289-93c07427270c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

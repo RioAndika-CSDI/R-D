@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bbd9120e-8301-4cd1-be89-f01bb90a13c4</webElementGuid>
+      <webElementGuid>d853168d-56d3-4b0f-a2c7-3981a3648096</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5fca08b6-d919-407c-bbd0-68afbb27233e</webElementGuid>
+      <webElementGuid>602e520f-3a1c-4d6f-a697-e11f3a010222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>0eef8aa7-4958-4db8-864e-2cf70f1fe592</webElementGuid>
+      <webElementGuid>460bec60-1c20-4f88-ba02-be35222afadb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-peugeot</value>
-      <webElementGuid>572c3b9f-67eb-4041-8b0f-79f6729d4369</webElementGuid>
+      <webElementGuid>04590caa-63d7-4002-aed7-73feb12511c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Peugeot</value>
-      <webElementGuid>52f90a39-86fd-4eed-a285-5421697d07ca</webElementGuid>
+      <webElementGuid>30832520-ed70-4843-be81-45cb05b8149c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>c05b6b6f-d023-454c-bdd4-2cabe4e72de3</webElementGuid>
+      <webElementGuid>c942aee2-a6d4-4b87-a54f-67ce207c81b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[2]</value>
-      <webElementGuid>81b16b11-ea71-4c92-a4a3-86b4af11ce10</webElementGuid>
+      <webElementGuid>b215eb55-2e6a-4367-a2a2-5a7c108ee5c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Isuzu'])[2]/following::div[5]</value>
-      <webElementGuid>a902261d-b98e-4634-9e7b-5b129edd2ff7</webElementGuid>
+      <webElementGuid>5ccce99f-03d9-4ef2-8d1c-73bfb74bdae4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hyundai'])[2]/preceding::div[2]</value>
-      <webElementGuid>4bfec2f7-c838-47ad-8bd3-4f146a73ecbf</webElementGuid>
+      <webElementGuid>457c3f06-7b43-4f78-8a2b-c6f70ea29276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[5]/div</value>
-      <webElementGuid>3640c281-1207-4194-b321-b7a95d2a0fb3</webElementGuid>
+      <webElementGuid>73ae3f38-1273-4a0f-8853-991647e45748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Peugeot' or . = ' Peugeot')]</value>
-      <webElementGuid>36011655-9e03-4ce9-90c8-300822c0f5a6</webElementGuid>
+      <webElementGuid>6da822f1-5591-4a40-80d1-0bc1b7d985a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

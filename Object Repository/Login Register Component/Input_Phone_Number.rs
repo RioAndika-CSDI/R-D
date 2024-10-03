@@ -6,12 +6,11 @@
    <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'tel']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +27,7 @@
       <webElementGuid>0e45da7a-77f0-4f92-86e3-dd962874dba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -44,7 +43,7 @@
       <webElementGuid>dd83c66e-6b82-470c-80b0-691c0f0daff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -60,7 +59,7 @@
       <webElementGuid>b2de0893-a7cd-4142-a103-aafefa02475c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>

@@ -49,6 +49,8 @@ WebUI.click(findTestObject('HomeRefinancing/field_nomorHP'))
 
 WebUI.setText(findTestObject('HomeRefinancing/field_nomorHP'), '81229948663')
 
+WebUI.click(findTestObject('HomeRefinancing/checklist'))
+
 WebUI.click(findTestObject('HomeRefinancing/button_selanjutnyaForm1st'))
 
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)

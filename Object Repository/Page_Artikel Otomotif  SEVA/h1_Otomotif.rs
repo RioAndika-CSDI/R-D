@@ -10,11 +10,14 @@
          <value>//h1</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//h1[normalize-space(text()) = 'Berita Utama Otomotif']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>dae17456-6d15-48f2-afef-b389dece9ef2</webElementGuid>
+      <webElementGuid>79e48248-23b0-44d0-99e0-7181d32d5603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,24 +33,24 @@
       <name>class</name>
       <type>Main</type>
       <value>font-bold text-[24px] mb-[20px]</value>
-      <webElementGuid>5ef80031-6bc7-44d4-9c01-525e2fa08185</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                Otomotif            </value>
-      <webElementGuid>6c87a207-bac2-499c-a9ad-01b7af046b53</webElementGuid>
+      <webElementGuid>d991f409-b418-4854-b0a1-6473327bba3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+				Berita Utama Otomotif			</value>
+      <webElementGuid>4704ac7c-a1b9-43c4-9589-0d60d73561a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;w-full top-0 bg-white fixed&quot;]/main[@class=&quot;font-[rubik]&quot;]/div[@class=&quot;container max-w-[1213px] my-[35px]&quot;]/div[@class=&quot;max-w-[760px]&quot;]/h1[@class=&quot;font-bold text-[24px] mb-[20px]&quot;]</value>
-      <webElementGuid>50d7296f-f980-4752-b382-d370e45dc50d</webElementGuid>
+      <value>//h1[normalize-space(text()) = 'Berita Utama Otomotif']</value>
+      <webElementGuid>84dea755-567c-43d1-b633-a35b3837660c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>3d0002df-7877-4efe-8ad2-6001a93ea0c5</webElementGuid>
+      <webElementGuid>572347ae-3da9-42a5-ab80-256c7535d91b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +68,6 @@
       <value>//h1[(text() = '
                 Otomotif            ' or . = '
                 Otomotif            ')]</value>
-      <webElementGuid>33d56bfe-3382-455c-aa1b-3143fe6eec1a</webElementGuid>
+      <webElementGuid>0e10ac7e-513c-4f3f-b11b-a39a99b8d7e1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

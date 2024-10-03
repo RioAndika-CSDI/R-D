@@ -31,11 +31,13 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Cari Mobil'))
+WebUI.click(findTestObject('Homepage - Burger menu/Expand Menu Mobil Baru'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mobil Baru'))
+WebUI.click(findTestObject('Homepage - Burger menu/Menu-Mobil Baru-Lihat Semua Mobil'))
 
 WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h1_Rekomendasi Mobil Baru di SEVA'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (1)'))
 
@@ -76,6 +78,12 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/img'))
 
+WebUI.waitForElementVisible(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Homepage - Burger menu/Label_Produk SEVA'))
+
 WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
 
 WebUI.click(findTestObject('Footer/Artikel 2'))
@@ -88,6 +96,10 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SE
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SEVA/img'))
 
+WebUI.waitForElementVisible(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.delay(5)
+
 WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
 
 WebUI.click(findTestObject('Footer/Artikel 2'))
@@ -99,6 +111,10 @@ WebUI.click(findTestObject('Object Repository/Page_Artikel Tips  Rekomendasi  SE
 WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/h1_Keuangan'))
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/img'))
+
+WebUI.waitForElementVisible(findTestObject('Footer/Artikel 2'), 0)
+
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
 

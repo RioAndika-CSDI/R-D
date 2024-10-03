@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Toyota')]</value>
+         <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Toyota')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>571809d3-5416-4d04-838f-bac5754c4e72</webElementGuid>
+      <webElementGuid>fc795f2b-016b-4a25-ae68-62ab50b683b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +34,15 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bdb6d2e6-b578-4900-829f-5d72b1dde46e</webElementGuid>
+      <webElementGuid>ed48116f-b080-431c-b5c3-96c701c1bb19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tabV2_text__gtHrZ false</value>
-      <webElementGuid>9c721be4-0b90-4c77-9253-b5f7d74c3a7a</webElementGuid>
+      <value>carRecomendations_tabBrand</value>
+      <webElementGuid>a255dc42-7b0a-4a68-b058-b7234bf095da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>navigation-tab-v2-item-[object Object]</value>
-      <webElementGuid>e30a0093-be20-4169-95eb-c90ca11cc6a7</webElementGuid>
+      <webElementGuid>acb69eaa-7f03-47e7-acfa-4fc247440610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +58,15 @@
       <name>text</name>
       <type>Main</type>
       <value> Toyota</value>
-      <webElementGuid>4c135de8-5eec-47e6-9886-a57911f7c5e1</webElementGuid>
+      <webElementGuid>c4a9a9bf-c546-46b7-afeb-40710c0bd7e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Toyota')]</value>
-      <webElementGuid>8db0d201-52b1-4375-bb0c-a3323a4ca635</webElementGuid>
+      <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Toyota')]</value>
+      <webElementGuid>5ebf8fa9-c780-4989-9c70-ee5a05176501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Toyota</value>
-      <webElementGuid>30e72081-db8e-4110-aa51-8da6b717e19e</webElementGuid>
+      <webElementGuid>6a60d397-ed11-49d0-bdeb-ef618333ae84</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[14]</value>
-      <webElementGuid>ec85b3c7-eb7e-4f54-a272-4d088a5447ed</webElementGuid>
+      <webElementGuid>d995514f-46e9-4e04-9ffe-15e5a78f62de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/following::div[14]</value>
-      <webElementGuid>538c49c8-25a1-4448-92c2-c3a76000aeae</webElementGuid>
+      <webElementGuid>41bc65d3-42bc-47f6-b782-238528005d00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu'])[2]/preceding::div[2]</value>
-      <webElementGuid>bb0c5458-3073-4278-8290-66c9c993265f</webElementGuid>
+      <webElementGuid>4047d02d-022b-4bbe-97b5-459a1bcb18fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>52c7e91c-342c-41eb-9217-c6d98f6dfdcf</webElementGuid>
+      <webElementGuid>029d6fa3-381b-4bea-ad13-da22263f83b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Toyota' or . = ' Toyota')]</value>
-      <webElementGuid>b9aac012-02e9-42a8-b05b-0642ce6b6117</webElementGuid>
+      <webElementGuid>4a3cafaa-fbd3-4c4c-9fd2-5ab13a4acc01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

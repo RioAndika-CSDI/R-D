@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'loanCalculator_title__nYR3I']</value>
+         <value>//*[starts-with(@class, 'loanCalculator_title')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>loanCalculator_title__nYR3I</value>
-      <webElementGuid>de0de7d4-9943-4f40-8b33-5d260aff54ea</webElementGuid>
+      <value>loanCalculator_title</value>
+      <webElementGuid>53b93482-5a2d-427b-b10e-8efa7773f4ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

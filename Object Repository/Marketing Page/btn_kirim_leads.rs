@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_kirim_leads</name>
+   <tag></tag>
+   <elementGuidId>87822a9f-e852-4241-9523-38e565900abb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id=&quot;button-kirim-leads&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test-id=&quot;button-kirim-leads&quot;]</value>
+      <webElementGuid>6a687bbd-c925-432f-8ab1-d5cce9778ed6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
