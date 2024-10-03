@@ -135,4 +135,18 @@
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA011 - Ajukan Instant Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ba66402f-cfe7-4e56-b6ed-441e008cdd14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA012 - IA Process - Click Riwayat Pengajuan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f846f83-aec8-4375-b557-824c1f35ac88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA013 - IA Process - Click Cari Mobil Lain</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

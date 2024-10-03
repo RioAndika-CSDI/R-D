@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'), 0)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/button_Nanti saja-Moengage'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-WebUI.click(findTestObject('PopUP/button_Nanti Saja'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('PopUP/button_x'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Button_Cari_Mobil_Baru'))
 

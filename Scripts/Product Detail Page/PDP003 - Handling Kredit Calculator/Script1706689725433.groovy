@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Homepage V.1/H0023 - Access PLP From Homepage - No Filter'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Homepage - PLP/Car-Text-PLP', [('text') : CarName]))
+WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'All New Ayla'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/h2_Kredit'))
 
