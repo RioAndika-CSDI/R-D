@@ -50,7 +50,11 @@ if (sakuFrame == true) {
     WebUI.switchToWindowIndex(0)
 }
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
+
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.waitForElementNotPresent(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 5)
 
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_hitung_kemampuan_2'))
 

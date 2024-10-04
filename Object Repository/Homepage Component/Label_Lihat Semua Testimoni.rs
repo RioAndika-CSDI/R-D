@@ -17,6 +17,10 @@
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div[10]/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'testimonyWidget_textLink') and (text() = 'Lihat semua' or . = 'Lihat semua')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -26,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>98457774-3b49-4a71-aff9-e7a1b206b18e</webElementGuid>
+      <webElementGuid>992e8536-4d73-4d45-96d1-1fc1b493ee7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noopener noreferrer</value>
-      <webElementGuid>fd7904dd-761a-4c45-9a93-f3e022b5c10f</webElementGuid>
+      <webElementGuid>d789ea56-b0da-4b45-bc41-9925aa7fccde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>testimonyWidget_textLink</value>
-      <webElementGuid>16487038-6cee-4d7c-af80-07c6e1a8a8af</webElementGuid>
+      <webElementGuid>9908cc13-c67a-4c85-904a-ee301645d32c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/cerita-pengguna</value>
-      <webElementGuid>3e7a642f-3c57-42c3-baae-5ade5b0697bc</webElementGuid>
+      <webElementGuid>9944dd8b-3174-412f-9ac7-eb5f318fe19b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat semua</value>
-      <webElementGuid>15cce2db-e63c-412d-b0e9-20e445576fea</webElementGuid>
+      <webElementGuid>a9292479-d30d-4606-a0b0-b2374552124c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[@class=&quot;testimonyWidget_row__xhNUr&quot;]/a[@class=&quot;testimonyWidget_textLink__sliDz&quot;]</value>
-      <webElementGuid>c00788d8-592d-45b9-8c8d-3f0bd6548fb0</webElementGuid>
+      <webElementGuid>e3009c84-c7d6-462f-adb3-262a408f3bfe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[10]/div/a</value>
-      <webElementGuid>73c31ada-93c2-45d4-b13d-b68f36b7955f</webElementGuid>
+      <webElementGuid>52e1e1a9-3db3-430a-a3a9-57ac870bbe7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Lihat semua')])[2]</value>
-      <webElementGuid>20ea1fe5-dfff-43eb-9c93-820e6a508463</webElementGuid>
+      <webElementGuid>f3a5cd95-7e37-4c76-b7b2-a0253d80e354</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +94,8 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerita Pengguna SEVA'])[1]/following::a[1]</value>
-      <webElementGuid>6313f94f-fda7-41bc-a09e-e98a46688a6b</webElementGuid>
+      <webElementGuid>c48c9e82-43ba-41a6-8c86-45f1a8cd70d8</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[3]/following::a[1]</value>
-      <webElementGuid>48bedc7a-0895-4c4f-bbf8-a3d0cb471250</webElementGuid>
+      <webElementGuid>60c21b68-5dde-4552-9626-1c83730a6daf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='minggu lalu, Jakarta Pusat'])[1]/preceding::a[1]</value>
-      <webElementGuid>dbdf7e0c-7c50-48b9-ab96-aaf80d03f5df</webElementGuid>
+      <webElementGuid>57b578c2-38e3-423a-9c81-864a9ee1e802</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/cerita-pengguna')]</value>
-      <webElementGuid>5c1d189e-ac08-4ae3-a222-4325d3014e14</webElementGuid>
+      <webElementGuid>536017d3-3656-4800-ae0e-eb11b9416761</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/a</value>
-      <webElementGuid>4946a287-b979-469e-b9bc-51227bb490da</webElementGuid>
+      <webElementGuid>f988626c-88c8-452e-b680-e024bdcc3064</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/cerita-pengguna' and (text() = 'Lihat semua' or . = 'Lihat semua')]</value>
-      <webElementGuid>99fc72cf-0622-4039-9e7a-ed5bcf2ac203</webElementGuid>
+      <webElementGuid>bbf6be62-b5ab-405b-9bb2-71a2d70c1bfc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

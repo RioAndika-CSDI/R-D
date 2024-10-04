@@ -6,16 +6,16 @@
    <elementGuidId>6791686c-bf1e-4c13-aaad-7002b3a05b6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[class='inputSelect_dropdownItem__BIFMK']</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputSelect_dropdownItemText__7p2jg' and (text() = 'Pria' or . = 'Pria')]</value>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItemText') and (text() = 'Pria' or . = 'Pria')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div/div/div</value>
+         <key>CSS</key>
+         <value>div[class='inputSelect_dropdownItem__BIFMK']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f41ee772-e49b-424f-92e4-222c54127828</webElementGuid>
+      <webElementGuid>035f6fe4-b9e9-40dc-912e-4e7aea731903</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemText__7p2jg</value>
-      <webElementGuid>26b8186d-3db2-4b3e-a04d-5cdff396c5d4</webElementGuid>
+      <value>inputSelect_dropdownItemText</value>
+      <webElementGuid>78265aff-b7a7-4e1c-99d6-16482809aefb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pria</value>
-      <webElementGuid>e2a2b194-fb9e-4a35-ad95-0d556c1135a9</webElementGuid>
+      <webElementGuid>53570b97-419b-4474-8976-07517eae89d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/div[5]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo inputSelect_dropdownActive__cH79b&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK inputSelect_active__eu0Ag&quot;]/div[1]/div[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
-      <webElementGuid>77bad942-e0dc-4c93-a577-3a2d0b17cad6</webElementGuid>
+      <webElementGuid>d38396e7-4b1f-49f6-81f7-836bb22177a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Pria</value>
-      <webElementGuid>aceff7da-4055-443d-bc82-b6917e72685f</webElementGuid>
+      <webElementGuid>fb455bb2-b6ab-43a1-b2d4-48ec8aae7615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gender</value>
-      <webElementGuid>8536722c-57d5-4b0a-b673-2d74b2345b95</webElementGuid>
+      <webElementGuid>f319bdfd-2e1d-44fc-9766-4cb92ccb81df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div/div/div</value>
-      <webElementGuid>fd282716-085a-431a-9596-559af90ac9dc</webElementGuid>
+      <webElementGuid>33a3ffe2-ad7a-434c-9406-8d19c9e36c43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Kelamin'])[1]/following::div[8]</value>
-      <webElementGuid>01e91ad4-70c2-44b1-a1b1-712192c72a84</webElementGuid>
+      <webElementGuid>6a8ac1bc-bb57-4a33-ae09-18fd949ff9ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/following::div[11]</value>
-      <webElementGuid>47d00ac1-c815-4c08-b3ea-dac1030c23a3</webElementGuid>
+      <webElementGuid>bd9869b7-4e23-487d-b3e4-50420fffd19d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wanita'])[1]/preceding::div[1]</value>
-      <webElementGuid>7d7bba44-bcf5-49e4-9c7f-99e92722bae3</webElementGuid>
+      <webElementGuid>d876eafe-c696-47d5-8ca3-8baf7b90905d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan Perubahan'])[1]/preceding::div[4]</value>
-      <webElementGuid>6d540da3-afb1-4d50-a193-ff7a4de3054b</webElementGuid>
+      <webElementGuid>e778fd4a-e0ba-4551-843e-eb600b3c4e7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pria']/parent::*</value>
-      <webElementGuid>da399a32-58aa-4bb2-b52d-aa5ff8d20756</webElementGuid>
+      <webElementGuid>8eb72519-9d37-4c77-86b5-f34da2be9cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div/div/div</value>
-      <webElementGuid>39afd4dc-284a-47ba-bd25-263287502de2</webElementGuid>
+      <webElementGuid>97ce3c64-44e9-4211-8b8c-37931d14facb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pria' or . = 'Pria')]</value>
-      <webElementGuid>d2bf90e1-e731-4e30-aad0-f35e76f0bd20</webElementGuid>
+      <webElementGuid>a2669bb5-ab1c-44e3-a5b8-cc00ebab0841</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

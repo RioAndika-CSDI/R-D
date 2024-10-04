@@ -18,6 +18,6 @@
       <name>class</name>
       <type>Main</type>
       <value>sidebarMobile_profileName</value>
-      <webElementGuid>ab7ad1aa-cb0e-4a7c-a7d6-cd7718e154e6</webElementGuid>
+      <webElementGuid>66600f80-1f1b-474d-bf34-14f5b9d5597a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

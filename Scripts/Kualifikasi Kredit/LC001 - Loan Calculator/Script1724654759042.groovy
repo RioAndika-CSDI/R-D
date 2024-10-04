@@ -36,7 +36,7 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
 
 'Click Moengage Ads\r\n'
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
     0)

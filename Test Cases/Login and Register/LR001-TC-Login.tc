@@ -51,7 +51,7 @@
       <name>open_browser</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'0'</defaultValue>
       <description></description>
       <id>5e74fae4-ca4c-4979-86cd-e4ad91254bb9</id>
       <masked>false</masked>

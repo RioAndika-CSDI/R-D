@@ -26,6 +26,7 @@ WebUI.navigateToUrl('https://www.seva.id/')
 WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_cari_mobil'), 
     0)
 
+/**
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
@@ -52,6 +53,37 @@ if (sakuFrame == true) {
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+**/
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+
+aslFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_ASL'), 
+    15)
+
+if (aslFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_ASL'), 0)
+
+    WebUI.click(findTestObject('Homepage Component/Close_ASL_Banner'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
+sakuFrame = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 
+    15)
+
+if (sakuFrame == true) {
+    WebUI.switchToFrame(findTestObject('Homepage Component/Frame_Promo Bank Saku'), 0)
+
+    WebUI.click(findTestObject('Homepage - Burger menu/Bank saqu iklan'))
+
+    WebUI.switchToWindowIndex(0)
+}
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.waitForElementNotPresent(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 5)
+
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_cari_mobil'))
 
 WebUI.waitForElementPresent(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/label_car_name_plp', 
@@ -74,6 +106,8 @@ WebUI.comment(temp.toString())
 
 WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/label_car_name_plp', 
         [('id') : temp]), 0)
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_hitung_kemampuan_plp', 
         [('id') : temp]))

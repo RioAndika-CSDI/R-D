@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'ctaWidget_textCtaHeader__xHWop']</value>
+         <value>//*[starts-with(@class, 'ctaWidget_textCtaHeader') and (text() = 'Yuk, SEVA bantu untuk mewujudkan mobil impian kamu' or . = 'Yuk, SEVA bantu untuk mewujudkan mobil impian kamu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ctaWidget_textCtaHeader__xHWop</value>
-      <webElementGuid>fc01fefb-1720-4579-9c65-d549867e5ffb</webElementGuid>
+      <value>ctaWidget_textCtaHeader</value>
+      <webElementGuid>0244eeb5-c6c3-43a5-921c-0b45bc291556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yuk, SEVA bantu untuk mewujudkan mobil impian kamu</value>
+      <webElementGuid>fd2796d8-b625-4157-8ec4-321cf152cf50</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

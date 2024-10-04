@@ -6,6 +6,10 @@
    <elementGuidId>1b418061-02ae-402c-bb4d-de4093c25172</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h1.mainHeroLp_mainTitle__xtFU_.mainHeroLp_bold___HRWI</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div/div/div[2]/h1</value>
       </entry>
@@ -13,9 +17,6 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Perjalanan Finansial Mobil Impianmu' or . = 'Perjalanan Finansial Mobil Impianmu')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h1.mainHeroLp_mainTitle__xtFU_.mainHeroLp_bold___HRWI</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>d0e1a47e-3aaa-4879-bc41-7016cd90f6fb</webElementGuid>
+      <webElementGuid>3b1ac8fc-4c36-4d75-a3cd-253d3d12f83d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI</value>
-      <webElementGuid>da39198a-3c90-4163-853d-1e98e4866e27</webElementGuid>
+      <webElementGuid>f1bd7983-aa53-43af-8cb5-77d3d96ac7b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Perjalanan Finansial Mobil Impianmu</value>
-      <webElementGuid>254b40b2-a1ad-4f3c-9994-18ad967fb391</webElementGuid>
+      <webElementGuid>a2583fb5-4f6d-41b0-bc17-838e23c59992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;mainHeroLp_supergraphic__jZ0ws&quot;]/div[@class=&quot;mainHeroLp_mainContent___SiZg&quot;]/div[@class=&quot;mainHeroLp_mainWrapper___xj_J&quot;]/h1[@class=&quot;mainHeroLp_mainTitle__xtFU_ mainHeroLp_bold___HRWI&quot;]</value>
-      <webElementGuid>acfffdc9-8f55-4362-80ab-fdf8238d9471</webElementGuid>
+      <webElementGuid>426047b7-a680-4d6f-9773-33148dc101ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/div[2]/h1</value>
-      <webElementGuid>2f326697-1cbc-4c0c-82ff-d295d57c0c29</webElementGuid>
+      <webElementGuid>e0f6d808-4a1a-43d8-ad7a-ab3f6b0f4ae8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>f997f9f3-16ac-43df-bcac-abc6aa53b260</webElementGuid>
+      <webElementGuid>0b31db73-3351-4c41-a15d-84e0b400c746</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Menemani Perjalanan Finansial Mobil Barumu' or . = 'Menemani Perjalanan Finansial Mobil Barumu')]</value>
-      <webElementGuid>88546d7e-2156-412f-8389-d48922d562ec</webElementGuid>
+      <webElementGuid>c2039dd9-8006-4f44-92ce-782249612126</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

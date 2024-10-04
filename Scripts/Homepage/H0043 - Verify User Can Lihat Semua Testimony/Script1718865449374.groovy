@@ -23,11 +23,11 @@ WebUI.navigateToUrl('https://www.seva.id/')
 
 WebUI.scrollToElement(findTestObject('Homepage Component/Label_Layanan Lain dari SEVA'), 0)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.click(findTestObject('Object Repository/Homepage Component/Label_Lihat Semua Testimoni'))
 
