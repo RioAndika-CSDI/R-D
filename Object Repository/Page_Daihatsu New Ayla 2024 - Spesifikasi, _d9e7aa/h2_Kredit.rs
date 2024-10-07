@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[2]/div/div[4]/h2</value>
+         <value>//h2[normalize-space()='Kredit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>29fb75f0-18c4-40c9-9ddb-37a7c718e283</webElementGuid>
+      <webElementGuid>69f024d5-f0b9-482f-9c9b-d4d314782131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tabV1_text__BjghF false</value>
-      <webElementGuid>2e223e48-130f-4f1c-ae85-bd428f001cc4</webElementGuid>
+      <webElementGuid>acc488f2-5598-4873-9720-6fa35959b1e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kredit</value>
-      <webElementGuid>bd6c9b62-ca4e-4b35-853b-f5b91cbcb783</webElementGuid>
+      <webElementGuid>3f4558c0-1a81-4128-89ce-ef05fe630dd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;carVariantList_container__rAWid&quot;]/div[@class=&quot;carVariantList_content__mgYmx&quot;]/div[2]/div[@class=&quot;navigationTabV1_container__pxv4m false&quot;]/div[@class=&quot;tabV1_container__6iv9R false&quot;]/h2[@class=&quot;tabV1_text__BjghF false&quot;]</value>
-      <webElementGuid>e20b606b-f6ed-4c3a-95b2-5f4fbbb43506</webElementGuid>
+      <webElementGuid>ecd97c34-04ac-4eee-8d50-0453a73ae0be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div/div[4]/h2</value>
-      <webElementGuid>22096b1e-e0d6-49bb-b81b-c46509ec8e9b</webElementGuid>
+      <webElementGuid>36b5d485-9f93-4cc6-8d7c-849cc111459e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[1]/following::h2[1]</value>
-      <webElementGuid>d035987a-c93a-4207-a5fd-e40931d52abe</webElementGuid>
+      <webElementGuid>e5321986-0b14-4173-bdc9-52ab8e63e8f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi'])[1]/following::h2[2]</value>
-      <webElementGuid>01d4aa5a-5464-49b9-93b6-49c8c9e39491</webElementGuid>
+      <webElementGuid>30edc456-b9d0-445f-b212-352765bd9fc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/preceding::h2[1]</value>
-      <webElementGuid>c7e701fa-eba3-4219-91d0-277253f43bed</webElementGuid>
+      <webElementGuid>67eb9613-886f-4538-b2a3-cfdfd0311d7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[2]/preceding::h2[1]</value>
-      <webElementGuid>dbbf91e5-289c-4ad7-bc77-e85e3604650e</webElementGuid>
+      <webElementGuid>ae9395dc-2180-4242-809b-9e92f39d359a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kredit']/parent::*</value>
-      <webElementGuid>fbca851b-375a-4a56-af04-d4a739108f54</webElementGuid>
+      <webElementGuid>bdacf29d-8aaf-4eab-b746-6a3544f6420e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/h2</value>
-      <webElementGuid>03927fb9-12f8-47fe-a4d2-3d1e9a2ad8db</webElementGuid>
+      <webElementGuid>f5c11b33-94b1-4a6a-8148-6ec0d787ce8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Kredit' or . = 'Kredit')]</value>
-      <webElementGuid>ad34eb67-3ad6-4843-8767-5813b691d7b4</webElementGuid>
+      <webElementGuid>9c759b17-c008-4fa7-9bd4-285db1af59a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

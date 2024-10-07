@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Hyundai')]</value>
+         <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Hyundai')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>888a7b6a-2e1f-49bc-8dfd-c3f28050e874</webElementGuid>
+      <webElementGuid>31bbb4e0-ba24-4898-a653-b113b653094d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d1a29a9b-8c14-4638-a05e-c7ee94d92467</webElementGuid>
+      <webElementGuid>337fa7ab-af93-4228-8f4c-4a4b5d75067a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>e7c10a19-315a-4a9c-ba85-977d93bc19ff</webElementGuid>
+      <webElementGuid>51ab4ca4-e94d-4b50-9706-8047ed747a77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-hyundai</value>
-      <webElementGuid>17a117da-63cf-4d79-818c-d57a5a8c9133</webElementGuid>
+      <webElementGuid>0a4be8cf-4393-4f65-a76d-264936212f22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +58,15 @@
       <name>text</name>
       <type>Main</type>
       <value> Hyundai</value>
-      <webElementGuid>22600f00-c5d3-45c4-8a40-873e2f4a09bb</webElementGuid>
+      <webElementGuid>e01208a9-574e-4cd1-8336-d3c78787c216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'Hyundai')]</value>
-      <webElementGuid>e5611bf2-fa85-459c-a136-eaf33f946dea</webElementGuid>
+      <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'Hyundai')]</value>
+      <webElementGuid>f7d4ef87-4000-42d9-a4ea-06954cbc0003</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Peugeot'])[2]/following::div[2]</value>
-      <webElementGuid>aa0694a7-457c-4c9d-8537-84d56990018c</webElementGuid>
+      <webElementGuid>059406e9-bd54-456a-8899-65d083c87dec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[2]/following::div[5]</value>
-      <webElementGuid>b8aee2c9-0ecc-48e2-8d0f-cb2ecf82f671</webElementGuid>
+      <webElementGuid>6005e536-0aa4-4084-ab12-fecabbe32478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/preceding::div[2]</value>
-      <webElementGuid>9fe8881d-9dfd-4cd6-ad32-9e7048477b86</webElementGuid>
+      <webElementGuid>5f85168d-ee7a-45c1-9525-b7b488bcb115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[6]/div</value>
-      <webElementGuid>4ccf18b2-74cb-40e3-b02d-a6f20d33aa6c</webElementGuid>
+      <webElementGuid>1e267312-a602-4308-b13b-f73ef79a3be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Hyundai' or . = ' Hyundai')]</value>
-      <webElementGuid>05ffbeee-9b78-43e4-a3be-85c0221b0ec5</webElementGuid>
+      <webElementGuid>d42fb760-9cd1-4989-89ee-44561278766f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

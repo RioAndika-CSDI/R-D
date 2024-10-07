@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'button-lanjutkan' and @class = 'button_disable__1pypX button_big__H6cBN undefined']</value>
+         <value>//*[@data-testid = 'button-lanjutkan' and starts-with(@class, 'button_disable')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-lanjutkan</value>
-      <webElementGuid>45b1e050-e4da-42ee-8444-cfa3fe250d0c</webElementGuid>
+      <webElementGuid>436d62d7-dd46-4d84-9fbc-c6761e9ebcb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_disable__1pypX button_big__H6cBN undefined</value>
-      <webElementGuid>ff7313bb-ae80-4c7c-99ad-26d0d4892857</webElementGuid>
+      <value>button_disable</value>
+      <webElementGuid>c72d6f78-6844-4372-9b6b-5e5e0aedbd7a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

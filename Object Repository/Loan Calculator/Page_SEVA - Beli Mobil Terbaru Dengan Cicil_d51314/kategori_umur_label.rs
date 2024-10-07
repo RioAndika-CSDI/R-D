@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'input_titleText__TQgqy' and (text() = 'Kategori umur' or . = 'Kategori umur')]</value>
+         <value>//*[starts-with(@class, 'input_titleText') and (text() = 'Kategori umur' or . = 'Kategori umur')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_titleText__TQgqy</value>
-      <webElementGuid>82f7f7ef-9fd6-4d5c-b2a6-08fda34c858c</webElementGuid>
+      <value>input_titleText</value>
+      <webElementGuid>82ea4139-3370-470d-917e-54a64f72c333</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Kategori umur</value>
-      <webElementGuid>8e42dac9-707a-4afa-9ffb-733e50213cff</webElementGuid>
+      <webElementGuid>a37989b1-f0c8-486d-9d5e-e8b4e0a4d7d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

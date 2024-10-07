@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/section[2]/button</value>
+         <value>//button[normalize-space()='Simpan Perubahan']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bd3a4d5f-d46b-4a0b-bee5-089055279de5</webElementGuid>
+      <webElementGuid>9aba33a0-3031-4f30-82b2-2b8ff0117cfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>f666f3a2-730e-49c7-a6cb-583b3b1577a8</webElementGuid>
+      <webElementGuid>8456bf16-b114-46a0-90ae-5473d49d106d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-simpan-perubahan</value>
-      <webElementGuid>d11d9faf-be35-46b4-903b-935c018ae11b</webElementGuid>
+      <webElementGuid>f0d4eec8-8c59-46ed-9fca-bf8ef0bfa685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Simpan Perubahan</value>
-      <webElementGuid>204024d5-a31a-4fdb-a8ef-c763852d0688</webElementGuid>
+      <webElementGuid>eb769caa-144e-4913-89fe-450933f64298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__button__xEZBK&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>5199f235-7106-4d9b-a758-acadc75a8dc5</webElementGuid>
+      <webElementGuid>7ea1f25e-39d1-4540-99e8-a72b03da4ec7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section[2]/button</value>
-      <webElementGuid>d3b262f7-f516-4627-b0f0-4008f849daf0</webElementGuid>
+      <webElementGuid>5eab1417-d29d-4942-a6d8-e00b79c16ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wanita'])[1]/following::button[1]</value>
-      <webElementGuid>f984190d-6706-43b5-a506-78e673961292</webElementGuid>
+      <webElementGuid>62e6c400-b0e3-4d64-a614-ca8ae96b1db4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pria'])[1]/following::button[1]</value>
-      <webElementGuid>9cc4c895-ae81-4d7e-acf8-efd7ba557c55</webElementGuid>
+      <webElementGuid>f29d4369-9cc7-4dc9-8cc9-9bb6478b1358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar Akun'])[1]/preceding::button[1]</value>
-      <webElementGuid>e2f2dd33-2ee2-4de2-872f-7d95bfc14507</webElementGuid>
+      <webElementGuid>f6972a19-5e3c-4f28-a210-bacf364132fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Akun'])[1]/preceding::button[2]</value>
-      <webElementGuid>c45fe544-c4be-406a-9e20-f93a6a60f743</webElementGuid>
+      <webElementGuid>ee6644a9-d908-44b1-8fa1-a3f67c60d23f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Simpan Perubahan']/parent::*</value>
-      <webElementGuid>a51b83eb-f989-42cf-acc5-cbdec8c75e83</webElementGuid>
+      <webElementGuid>544090fd-b176-48f7-a21b-adcbe149bff9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/button</value>
-      <webElementGuid>301968b5-5ea5-4b04-abbd-967ba5cae85e</webElementGuid>
+      <webElementGuid>9d22660f-51bf-498f-90d1-eb613cefb4d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Simpan Perubahan' or . = 'Simpan Perubahan')]</value>
-      <webElementGuid>2c256053-e2a7-4cd3-8b6f-94ef7dfced27</webElementGuid>
+      <webElementGuid>365903b0-6ccf-42b1-b4ae-69b2fa8c39a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

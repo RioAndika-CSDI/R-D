@@ -4,26 +4,24 @@
    <name>profile-avatar</name>
    <tag></tag>
    <elementGuidId>d899d7e2-ea22-4b35-b110-5786bb884388</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//section[@class='account-profile_info__nr2u3']//div[@class='avatar_avatar__EF_g_'][normalize-space()='TR']</value>
       </entry>
       <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'avatar_avatar')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>section[class='account-profile_info__nr2u3'] div[class='avatar_avatar__EF_g_']</value>
+         <value>section[class='account-profile_info__xC5R5'] div[class='avatar_avatar__S3R1Y']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c3192aa6-b246-41d5-83a5-512676ac89a6</webElementGuid>
+      <webElementGuid>1878784b-9b88-4044-a454-c4a09beced34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>avatar_avatar__EF_g_</value>
-      <webElementGuid>6d58c492-f476-438b-a9f9-57a634a7c778</webElementGuid>
+      <value>avatar_avatar</value>
+      <webElementGuid>d19774e3-94e7-4d96-8e6f-e01d197e8869</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TP</value>
-      <webElementGuid>4b4a50cd-ad8f-4e32-b75b-b5f07da5c5d8</webElementGuid>
+      <webElementGuid>22be2599-d450-42b3-9729-a86ff6ceff10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/section[@class=&quot;account-profile_info__nr2u3&quot;]/div[@class=&quot;avatar_avatar__EF_g_&quot;]</value>
-      <webElementGuid>89cfa933-17c1-426a-8f20-c3f5ef0092b0</webElementGuid>
+      <webElementGuid>f3be520a-07a1-44fd-85fc-6fbacc518857</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/section/div</value>
-      <webElementGuid>05d1bd3a-0339-4db4-b09f-46893475ce86</webElementGuid>
+      <webElementGuid>21edf721-9f6c-45a5-a8e1-225f0b328562</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU ROCKY 1.2 X M/T 2022'])[1]/following::div[6]</value>
-      <webElementGuid>cd86e22a-48cb-41e3-9b78-826c97b59d6f</webElementGuid>
+      <webElementGuid>55c6bebd-938e-4817-849f-d42e50a19bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA YARIS 1.5 S TRD A/T NEW 2020'])[1]/following::div[11]</value>
-      <webElementGuid>39c43c9c-81eb-451f-ab25-4846edd31c0e</webElementGuid>
+      <webElementGuid>38a31385-3fcc-4992-972b-2d4a6f87d5d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Prod Ruth'])[2]/preceding::div[1]</value>
-      <webElementGuid>a9c0ecaa-35ce-46d3-b589-db256ce7df36</webElementGuid>
+      <webElementGuid>a5f79e1b-074c-4105-920f-8ea44b256494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/preceding::div[4]</value>
-      <webElementGuid>d0532c5e-7749-43f3-b5e0-34d5e07e5d60</webElementGuid>
+      <webElementGuid>e52eeb42-1bdb-4aa4-89c5-35e166f0d305</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/section/div</value>
-      <webElementGuid>85ed1cd6-a842-4579-9e92-56d960289e94</webElementGuid>
+      <webElementGuid>54336f55-7924-4c50-baee-a55fa53da9cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'TP' or . = 'TP')]</value>
-      <webElementGuid>482cca4e-0fdd-4114-913a-cfc6b18fa3f1</webElementGuid>
+      <webElementGuid>36c9c3f0-ce2f-41c9-9525-d58d64898930</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,6 +23,12 @@
       <value></value>
       <variableId>f9c16091-26b6-4253-80bd-f64852028920</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd5ab3f3-5d3e-45b8-96b5-821afa99443d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'jakarta-pusat'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>f9c16091-26b6-4253-80bd-f64852028920</id>
       <masked>false</masked>
       <name>car_model</name>
+   </variable>
+   <variable>
+      <defaultValue>'ADDM'</defaultValue>
+      <description></description>
+      <id>bd5ab3f3-5d3e-45b8-96b5-821afa99443d</id>
+      <masked>false</masked>
+      <name>bayar</name>
    </variable>
 </TestCaseEntity>

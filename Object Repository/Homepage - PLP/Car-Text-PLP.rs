@@ -6,16 +6,15 @@
    <elementGuidId>6f2fb5be-6f01-4d6c-b850-606485a34dd6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined'][normalize-space()='Hitung Kemampuan'])[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '${text}' or . = '${text}')]</value>
+         <value>//*[@data-testid = '[object Object]brand-model-mobil' and (text() = '${Car_Name}' or . = '${Car_Name}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[5]/div/div/div[5]/div/div[2]/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>f731ca3d-72e9-4dea-89fc-c332897d156d</webElementGuid>
+      <webElementGuid>29cdc24f-06b6-4355-9479-ceee99f8d21a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +33,23 @@
       <name>class</name>
       <type>Main</type>
       <value>cardetailcard_brandModelText__H3ZBU</value>
-      <webElementGuid>8f98df93-8911-4f33-845f-30311350b159</webElementGuid>
+      <webElementGuid>96beca1b-024d-4954-af0f-ae3a6a18c7db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>88f59301-185f-458d-9310-87a795a2111e</webElementGuid>
+      <webElementGuid>d39fe4b6-77b9-4058-b034-7f5162960486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${text}</value>
-      <webElementGuid>d45466b2-36b5-4b1c-a13d-880454cc2274</webElementGuid>
+      <value>${Car_Name}</value>
+      <webElementGuid>764c8f37-3f06-44cf-a68e-4c6c7a128aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI mobil-baru_stickypadding__nZG8E&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY undefined&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/h2[@class=&quot;cardetailcard_brandModelText__H3ZBU&quot;]</value>
-      <webElementGuid>25afe5ed-e80f-4ed9-be48-f07bcbafa441</webElementGuid>
+      <webElementGuid>3401c232-3260-49ee-9c9d-295ea497aa2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[5]/div/div/div[5]/div/div[2]/h2</value>
-      <webElementGuid>e2d008a2-8aaf-4e46-8ee6-f2f580163002</webElementGuid>
+      <webElementGuid>28f10375-e610-4b61-ac8a-c39e7b8adbbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='promo'])[5]/following::h2[1]</value>
-      <webElementGuid>2c1038a7-7452-4cbf-ba29-4cf7b84e9964</webElementGuid>
+      <webElementGuid>b253c671-7166-42f4-b255-b4ba8a028825</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[5]/preceding::h2[1]</value>
-      <webElementGuid>203798df-f9e6-409e-9be9-49e28393db25</webElementGuid>
+      <webElementGuid>da15f746-aa52-4762-96b6-cbcec06d61f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[5]/preceding::h2[1]</value>
-      <webElementGuid>19e58989-56ca-4ae3-bc7e-7bce10c5608f</webElementGuid>
+      <webElementGuid>e79a6255-6700-444d-b7a8-147e277bb7bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Toyota']/parent::*</value>
-      <webElementGuid>74740103-6704-4bdb-b2fb-5f8344f03bc2</webElementGuid>
+      <webElementGuid>b4c2a615-327c-45de-8011-535ad61e27a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/h2</value>
-      <webElementGuid>f7acaac1-2ab5-44c0-9d94-cad053ede66e</webElementGuid>
+      <webElementGuid>c68d753d-2f64-4d47-aca7-1d7be729774e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Toyota New Calya' or . = 'Toyota New Calya')]</value>
-      <webElementGuid>5e79e100-8af2-4856-ad20-e1fabfc3fd40</webElementGuid>
+      <webElementGuid>3465296d-5d02-4bc3-894f-8df795f731c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

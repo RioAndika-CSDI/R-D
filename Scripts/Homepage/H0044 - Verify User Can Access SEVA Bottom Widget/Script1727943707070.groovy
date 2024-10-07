@@ -17,34 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
+WebUI.navigateToUrl('https://www.seva.id/')
+
+WebUI.scrollToElement(findTestObject('Homepage Component/label_Yuk, SEVA bantu untuk mewujudkan mobil impian kamu'), 0)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_cari_mobil_cta'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Peugeot'))
+WebUI.back()
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_hitung_kemampuan_cta'))
 
-WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Peugeot']), 0)
-
-WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Peugeot']), 0)
-
-title = WebUI.getText(findTestObject('Page PLP Mobil Baru/Tlitle PLP Mobil Baru by index', [('index') : '1']))
-
-String[] brand = title.split(' ')
-
-WebUI.comment(brand[0])
-
-WebUI.verifyMatch(brand[0], 'Peugeot', true)
-
-WebUI.closeBrowser()

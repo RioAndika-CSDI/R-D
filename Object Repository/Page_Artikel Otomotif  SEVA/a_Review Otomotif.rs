@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@menucode = 'review-otomotif']</value>
+         <value>//*[normalize-space(text()) = 'Review Otomotif']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e3a88457-73d4-47ca-a3f0-0ccf8570aa95</webElementGuid>
+      <webElementGuid>3cf76288-c8a1-4d99-975c-6ecffdad2a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.seva.id/blog/category/otomotif/review-otomotif</value>
-      <webElementGuid>aa2f1fc5-80fd-4139-8e5a-179afd5ee122</webElementGuid>
+      <webElementGuid>fbbf6626-ffc8-483b-ade9-e33a026a901a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,23 +43,24 @@
       <type>Main</type>
       <value>
                                                         Review Otomotif                                                    </value>
-      <webElementGuid>d2919832-5ecc-4b23-a8ef-efb92774f250</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;subSubMenu_2_4&quot;)/div[2]/a[1]</value>
-      <webElementGuid>4b3be8b9-8a34-4c23-bbbb-b6376c66f985</webElementGuid>
+      <webElementGuid>6b5555aa-6df2-48e8-9609-8d2e79ae9418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[normalize-space(text()) = 'Review Otomotif']</value>
+      <webElementGuid>520d5292-6747-4983-aa46-7d428bca6f31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>menucode</name>
       <type>Main</type>
-      <value>review-otomotif</value>
-      <webElementGuid>7a19ed3b-254c-4a8b-90df-2fcdd84854fc</webElementGuid>
+      <value>
+                                                        Review Otomotif                                                    </value>
+      <webElementGuid>9b91a74f-1b6a-43f9-ae6c-9d11688988e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subSubMenu_2_4']/div[2]/a</value>
-      <webElementGuid>1aaa2718-238f-436c-8d7f-f96352000437</webElementGuid>
+      <webElementGuid>51e49d22-c764-40f1-bc22-0aed93584af0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +76,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Review Otomotif')])[2]</value>
-      <webElementGuid>0f66be0a-0203-4f65-b4c6-35a7e5624b91</webElementGuid>
+      <webElementGuid>f2dfb829-f208-4397-8fe9-7a7703954985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +84,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://www.seva.id/blog/category/otomotif/review-otomotif')])[2]</value>
-      <webElementGuid>8537cef5-c674-4206-b468-5d132639c4e3</webElementGuid>
+      <webElementGuid>1a73cbba-d9cc-4aa8-9c3f-076940f9e253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/a</value>
-      <webElementGuid>c5328722-3d42-47b3-9aff-c22632d56d49</webElementGuid>
+      <webElementGuid>f685099d-9545-4125-bf75-b6baea11a313</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +102,6 @@
       <value>//a[@href = 'https://www.seva.id/blog/category/otomotif/review-otomotif' and (text() = '
                                                         Review Otomotif                                                    ' or . = '
                                                         Review Otomotif                                                    ')]</value>
-      <webElementGuid>b74affac-0148-47bb-9385-effd1faa4b55</webElementGuid>
+      <webElementGuid>e09686c5-1038-4868-9022-b116bc42920b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

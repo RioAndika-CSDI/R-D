@@ -6,15 +6,19 @@
    <elementGuidId>b8d9b705-54f7-4e18-ab87-ce13a768b9fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.lpCarRecommendations_title__MWC3Y</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div[5]/h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'lpCarRecommendations_title') and (text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.lpCarRecommendations_title__MWC3Y</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>c025bd6f-10c5-4493-b770-d140ead9c8e8</webElementGuid>
+      <webElementGuid>6f351668-ae72-43fa-9390-e28541594c42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>lpCarRecommendations_title__MWC3Y</value>
-      <webElementGuid>99a573b0-9cd5-4496-a8c0-b7eae9cefac0</webElementGuid>
+      <value>lpCarRecommendations_title</value>
+      <webElementGuid>f91a6771-1e95-44e3-90bd-511943181b86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Rekomendasi</value>
-      <webElementGuid>66316984-09ab-4efd-b6fc-288b37014558</webElementGuid>
+      <webElementGuid>a3b0fd90-173e-4a01-ac83-1baab88182e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/h2[@class=&quot;lpCarRecommendations_title__MWC3Y&quot;]</value>
-      <webElementGuid>158f1f96-5039-4775-b982-2f11e89a0c29</webElementGuid>
+      <webElementGuid>fd5a66e8-6bf1-40ab-9f39-c9adeb8f8b77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[5]/h2</value>
-      <webElementGuid>075eeab8-7033-4ff0-a68f-c02c977fb5b5</webElementGuid>
+      <webElementGuid>582cf756-93b0-44a3-8486-7eda53a4a3b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/following::h2[1]</value>
-      <webElementGuid>ab4122d4-916f-49e4-bbec-476bb1d77017</webElementGuid>
+      <webElementGuid>2e77ad65-208c-4cda-bbea-3972ba608075</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/following::h2[1]</value>
-      <webElementGuid>35b58b71-feb7-4525-b2bc-56250d14e985</webElementGuid>
+      <webElementGuid>266d7fc9-4eca-4931-a4b9-589044cd0199</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[1]/preceding::h2[1]</value>
-      <webElementGuid>3de4a564-e075-4b39-a5eb-d351300d66c2</webElementGuid>
+      <webElementGuid>c1e3ab04-ec2c-4a9b-88a9-8e3c5ebfaa3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[1]/preceding::h2[1]</value>
-      <webElementGuid>69ee9d02-0cd1-4279-b0bc-cb429fe4b5b8</webElementGuid>
+      <webElementGuid>5d967dc6-888e-4310-9cfc-e2c843086fe6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rekomendasi']/parent::*</value>
-      <webElementGuid>1bc98875-bde8-4341-8e3a-ca4472158ccc</webElementGuid>
+      <webElementGuid>5b1a6c62-5ce0-4334-b55e-64fc815ec527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/h2</value>
-      <webElementGuid>7663dc6e-995b-4798-9014-9398facf4b5d</webElementGuid>
+      <webElementGuid>f2e46a2c-0c8c-4ae2-9f2f-6656bc49327d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
-      <webElementGuid>bad46989-3f51-49e5-8dc7-45b2e25243c6</webElementGuid>
+      <webElementGuid>ebee2f4b-2669-402a-924b-26407ed2c239</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

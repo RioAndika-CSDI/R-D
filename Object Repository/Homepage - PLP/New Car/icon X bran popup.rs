@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'bottomSheet_closeBtn__Oei7n']</value>
+         <value>//*[starts-with(@class, 'bottomSheet_closeBtn')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bottomSheet_closeBtn__Oei7n</value>
-      <webElementGuid>6ae8c367-8018-4400-868f-6fef8e816e8c</webElementGuid>
+      <value>bottomSheet_closeBtn</value>
+      <webElementGuid>867cb746-7ffd-478f-a417-4e641834106b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,12 +6,16 @@
    <elementGuidId>48fe46a1-0f9c-4a49-875a-e8bb17dac5f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div:nth-of-type(4) > div.tenureOptionWidget_containerTenure__3m5YW > div.tenureOptionWidget_box__FoPcT</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'tenureOptionWidget_box') and (text() = 'Manual' or . = 'Manual')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > div.tenureOptionWidget_containerTenure__3m5YW > div.tenureOptionWidget_box__FoPcT</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1cd8bcf6-d5b6-4bdb-b1f4-66ffd9bcd036</webElementGuid>
+      <webElementGuid>44b94cf0-feb6-46ae-bb36-d839eab116c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tenureOptionWidget_box__FoPcT</value>
-      <webElementGuid>4861eab3-f883-49f8-9845-6692576261cb</webElementGuid>
+      <value>tenureOptionWidget_box</value>
+      <webElementGuid>fd7d1e89-d518-40ce-8499-bc55541f7674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Manual</value>
-      <webElementGuid>40132004-e87d-4289-b8fd-4426c33d230e</webElementGuid>
+      <webElementGuid>882810a8-c502-411f-b57b-e9eef47c21c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[4]/div[@class=&quot;tenureOptionWidget_containerTenure__3m5YW&quot;]/div[@class=&quot;tenureOptionWidget_box__FoPcT&quot;]</value>
-      <webElementGuid>bcaf0268-17b3-4e69-ae71-c84061c0998a</webElementGuid>
+      <webElementGuid>2df95cd6-009d-4904-9ca9-75d91a8ce397</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div</value>
-      <webElementGuid>0e6ef2a6-0c2d-4723-8fd0-b13c5ac3ff2e</webElementGuid>
+      <webElementGuid>6ae917e1-d8fa-4738-b409-6fbbab22c936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/following::div[2]</value>
-      <webElementGuid>b68c183b-ecfa-477e-b65d-aed362baeaa9</webElementGuid>
+      <webElementGuid>ecb84ebc-7bd0-461f-901a-b2cbb3a1bb0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::div[9]</value>
-      <webElementGuid>0234c57a-f7ee-4046-b0f5-a874f6bb08ca</webElementGuid>
+      <webElementGuid>47c6f801-0747-42ce-93c1-de91ee0c7325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Otomatis'])[1]/preceding::div[1]</value>
-      <webElementGuid>0b883d0e-24d7-42eb-8ffb-1937998fe67c</webElementGuid>
+      <webElementGuid>87cbf70d-f06e-4144-81e3-0d5c42c03146</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[4]/div/div</value>
-      <webElementGuid>6270c952-c815-4e64-95c1-62d565eae51c</webElementGuid>
+      <webElementGuid>4d05046b-160a-444b-9fac-5b827a621908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Manual' or . = 'Manual')]</value>
-      <webElementGuid>de79ee25-c450-49a3-8503-d15849423701</webElementGuid>
+      <webElementGuid>6557ee36-a81a-42e6-9ed5-9bbba181aafe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

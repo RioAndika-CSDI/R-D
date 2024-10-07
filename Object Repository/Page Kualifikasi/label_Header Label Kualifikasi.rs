@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'multi-kk_title__YEMo_']</value>
+         <value>//*[starts-with(@class, 'multi-kk_title')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>multi-kk_title__YEMo_</value>
-      <webElementGuid>2e30579c-9028-4e0c-8dd8-d6223f4a6c1a</webElementGuid>
+      <value>multi-kk_title</value>
+      <webElementGuid>52eb7c56-98ef-42a4-89b0-062b5d6a0ed8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
