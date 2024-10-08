@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,7 +22,7 @@
       <name>class</name>
       <type>Main</type>
       <value> agreement_agreementTerms</value>
-      <webElementGuid>3d9854c8-4453-4759-9c7c-6d9826603ce0</webElementGuid>
+      <webElementGuid>40830ea2-8237-41b2-9f5f-2aea743b63a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
-      <webElementGuid>43e46480-eaa8-4ba4-87ae-a52ebe3a300d</webElementGuid>
+      <webElementGuid>38eedd86-a6e0-4a7a-803f-e75ba40c1bdc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
