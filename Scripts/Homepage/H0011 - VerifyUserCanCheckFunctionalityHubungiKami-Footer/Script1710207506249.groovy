@@ -29,11 +29,15 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Hubungi Kami'))
 
-WebUI.switchToWindowTitle('Share on WhatsApp')
+WebUI.verifyElementPresent(findTestObject('Homepage Component/pop-up-leads-form'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Share on WhatsApp/p_Halo, saya ingin tahu informasi lebih lan_def2d0'))
+WebUI.setText(findTestObject('Homepage Component/leads-form-input-name'), 'Testing Ruth')
 
-WebUI.click(findTestObject('Object Repository/Page_Share on WhatsApp/h3_SEVA by Astra'))
+WebUI.setText(findTestObject('Homepage Component/leads-form-input-no-hp'), '85349524556')
+
+WebUI.click(findTestObject('Homepage Component/checkbox-agreement-pop-up-leads-form'))
+
+WebUI.click(findTestObject('Homepage Component/button-submit-leads-pop-up'))
 
 WebUI.closeBrowser()
 

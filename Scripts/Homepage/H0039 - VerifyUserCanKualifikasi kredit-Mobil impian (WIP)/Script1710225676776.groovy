@@ -63,6 +63,8 @@ WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - 
 
 WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Karyawan Swasta'))
 
+WebUI.click(findTestObject('Homepage - Burger menu/Checkbox-agreement'))
+
 WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Lihat Rekomendasi Mobil'))
 
 WebUI.verifyElementPresent(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/label_Masuk akun kamu dulu yuk'), 
