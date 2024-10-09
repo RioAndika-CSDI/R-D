@@ -152,36 +152,37 @@ WebUI.click(findTestObject('Account Management Page/CRM048/sort_Phone'))
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 3, initialList_Phone)
 
-//'To locate the table element'
-//Table = driver.findElement(By.xpath('//table/tbody'))
-//
-//'To locate the rows of the table; it will capture all rows available in the table'
-//rows_table = Table.findElements(By.tagName('tr'))
-//
-//'Column 4 - Role'
-//List<String> initialList_Role = [] // Initial list for the "Role" column
-//for (WebElement row : rows_table) {
-//	String cellValue = row.findElement(By.xpath("td[4]")).getText()
-//	initialList_Role.add(cellValue)
-//}
-//
-//'Click the sort button for the "Role" column'
-//WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
-//
-//'Verify ascending order'
-//verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, true)
-//
-//'Click the sort button again for descending order'
-//WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
-//
-//'Verify descending order'
-//verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, false)
-//
-//'Click the sort button a third time to reset'
-//WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
-//
-//'Verify if the data state has returned to its initial state before sorting'
-//verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 4, initialList_Role)
+'To locate the table element'
+Table = driver.findElement(By.xpath('//table/tbody'))
+
+'To locate the rows of the table; it will capture all rows available in the table'
+rows_table = Table.findElements(By.tagName('tr'))
+
+'Column 4 - Role'
+List<String> initialList_Role = []
+for (WebElement row : rows_table) {
+	String cellValue = row.findElement(By.xpath("td[4]")).getText()
+	initialList_Role.add(cellValue)
+}
+
+'Click the sort button for the "Role" column'
+WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
+
+'Verify ascending order'
+verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, true)
+
+'Click the sort button again for descending order'
+WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
+
+'Verify descending order'
+verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, false)
+
+'Click the sort button a third time to reset'
+WebUI.click(findTestObject('Account Management Page/CRM048/sort_Role'))
+
+'Verify if the data state has returned to its initial state before sorting'
+verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 4, initialList_Role)
+
 'To locate the table element'
 Table = driver.findElement(By.xpath('//table/tbody'))
 
