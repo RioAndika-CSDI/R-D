@@ -273,7 +273,6 @@ WebUI.click(findTestObject('Account Management Page/Page_User Account - SEVA CRM
 
 //'Verify "GIIAS Tangerang 2023" event has been selected.'
 //WebUI.verifyElementVisible(findTestObject('Account Management Page/selectedItem_Event GIIAS Tangerang 2023'))
-
 'Verify "Edit" button for is visible.'
 WebUI.verifyElementVisible(findTestObject('Account Management Page/button_Edit User Row 1'))
 

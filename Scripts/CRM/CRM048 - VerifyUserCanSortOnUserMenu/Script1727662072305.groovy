@@ -46,78 +46,6 @@ WebUI.verifyElementVisible(findTestObject('Account Management Page/CRM048/sort_C
 'Verify "Edit Account" icon/button is visible by user.'
 WebUI.verifyElementVisible(findTestObject('Account Management Page/CRM048/sort_CRM Status'))
 
-// Function to verify if data is sorted in ascending or descending order
-void verifySorting(List<WebElement> rowsTable, int columnPosition, boolean isAscending) {	
-    // Retrieve all data from the column
-    List<String> sortedList = []
-    for (WebElement row : rowsTable) {
-        String cellValue = row.findElement(By.xpath("td[" + columnPosition + "]")).getText()
-        sortedList.add(cellValue)
-    }
-
-    // Define a regex pattern to match the first letter of each string
-    Pattern pattern = Pattern.compile("^[A-Za-z]")
-
-    boolean isSorted = true
-    String previousFirstLetter = ""	
-
-    for (String item : sortedList) {
-		Matcher matcher = pattern.matcher(item)
-		if (matcher.find()) {
-			String currentFirstLetter = matcher.group(0).toLowerCase()
-
-			// Jika previousFirstLetter masih kosong, ini iterasi pertama, jadi lewati perbandingan
-			if (previousFirstLetter.isEmpty()) {
-				previousFirstLetter = currentFirstLetter
-				continue // Lanjut ke iterasi berikutnya tanpa melakukan pengecekan
-			}
-
-			// Check for ascending or descending order
-			if (isAscending) {
-				if (currentFirstLetter.compareTo(previousFirstLetter) < 0) {
-                	isSorted = false
-                	break
-            	}
-        	} else {
-            	if (currentFirstLetter.compareTo(previousFirstLetter) > 0) {
-                	isSorted = false
-                	break
-            	}
-        	}
-
-        	// Update previousFirstLetter setelah perbandingan
-        	previousFirstLetter = currentFirstLetter
-    	}
-	}
-
-
-    // Verification output
-    if (isSorted) {
-        println("Sorting successful on column " + columnPosition + ". PASSED ✅")
-    } else {
-        println("Sorting failed on column " + columnPosition + ". NOT PASSED ❌")
-        KeywordUtil.markFailedAndStop('Sorting failed on column ' + columnPosition + '!')
-    }
-}
-
-// Function to verify if data returns to the initial state after reset
-void verifyInitialState(List<WebElement> rowsTable, int columnPosition, List<String> initialList) {
-    // Retrieve all data from the column after reset
-    List<String> currentList = []
-    for (WebElement row : rowsTable) {
-        String cellValue = row.findElement(By.xpath("td[" + columnPosition + "]")).getText()
-        currentList.add(cellValue)
-    }
-
-    // Compare current list with the initial list
-    if (currentList.equals(initialList)) {
-        println("Data in column " + columnPosition + " has been reset to initial state. PASSED ✅")
-    } else {
-        println("Data in column " + columnPosition + " did not reset correctly. NOT PASSED ❌")
-        KeywordUtil.markFailedAndStop('Reset to initial state failed on column ' + columnPosition + '!')
-    }
-}
-
 WebDriver driver = DriverFactory.getWebDriver()
 
 'To locate table'
@@ -126,10 +54,17 @@ WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 'To locate rows of table it will Capture all the rows available in the table'
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
+println(rows_table)
+
 'Column 1 - Name'
-List<String> initialList_Name = [] // Initial list untuk kolom "Name"
+List<WebElement> initialList_Name = []
+
 for (WebElement row : rows_table) {
-    String cellValue = row.findElement(By.xpath("td[1]")).getText()
+    String cellValue = row.findElement(By.xpath('td[1]')).getText()
+	println(row)
+	
+	println(cellValue)
+
     initialList_Name.add(cellValue)
 }
 
@@ -158,9 +93,11 @@ Table = driver.findElement(By.xpath('//table/tbody'))
 rows_table = Table.findElements(By.tagName('tr'))
 
 'Column 2 - Email'
-List<String> initialList_Email = [] // Initial list for the "Email" column
+List<WebElement> initialList_Email = []
+
 for (WebElement row : rows_table) {
-    String cellValue = row.findElement(By.xpath("td[2]")).getText()
+    String cellValue = row.findElement(By.xpath('td[2]')).getText()
+
     initialList_Email.add(cellValue)
 }
 
@@ -189,10 +126,12 @@ Table = driver.findElement(By.xpath('//table/tbody'))
 rows_table = Table.findElements(By.tagName('tr'))
 
 'Column 3 - Phone'
-List<String> initialList_Phone = [] // Initial list for the "Phone" column
+List<WebElement> initialList_Phone = []
+
 for (WebElement row : rows_table) {
-	String cellValue = row.findElement(By.xpath("td[3]")).getText()
-	initialList_Phone.add(cellValue)
+    String cellValue = row.findElement(By.xpath('td[3]')).getText()
+
+    initialList_Phone.add(cellValue)
 }
 
 'Click the sort button for the "Phone" column'
@@ -243,7 +182,6 @@ verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 3, initial
 //
 //'Verify if the data state has returned to its initial state before sorting'
 //verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 4, initialList_Role)
-
 'To locate the table element'
 Table = driver.findElement(By.xpath('//table/tbody'))
 
@@ -251,10 +189,12 @@ Table = driver.findElement(By.xpath('//table/tbody'))
 rows_table = Table.findElements(By.tagName('tr'))
 
 'Column 5 - BU Company'
-List<String> initialList_BUCompany = [] // Initial list for the "BU Company" column
+List<WebElement> initialList_BUCompany = []
+
 for (WebElement row : rows_table) {
-	String cellValue = row.findElement(By.xpath("td[5]")).getText()
-	initialList_BUCompany.add(cellValue)
+    String cellValue = row.findElement(By.xpath('td[5]')).getText()
+
+    initialList_BUCompany.add(cellValue)
 }
 
 'Click the sort button for the "BU Company" column'
@@ -282,10 +222,12 @@ Table = driver.findElement(By.xpath('//table/tbody'))
 rows_table = Table.findElements(By.tagName('tr'))
 
 'Column 6 - CMS Status'
-List<String> initialList_CMSStatus = [] // Initial list for the "CMS Status" column
+List<WebElement> initialList_CMSStatus = []
+
 for (WebElement row : rows_table) {
-	String cellValue = row.findElement(By.xpath("td[6]")).getText()
-	initialList_CMSStatus.add(cellValue)
+    String cellValue = row.findElement(By.xpath('td[6]')).getText()
+
+    initialList_CMSStatus.add(cellValue)
 }
 
 'Click the sort button for the "CMS Status" column'
@@ -313,10 +255,12 @@ Table = driver.findElement(By.xpath('//table/tbody'))
 rows_table = Table.findElements(By.tagName('tr'))
 
 'Column 7 - CRM Status'
-List<String> initialList_CRMStatus = [] // Initial list for the "CRM Status" column
+List<WebElement> initialList_CRMStatus = []
+
 for (WebElement row : rows_table) {
-	String cellValue = row.findElement(By.xpath("td[7]")).getText()
-	initialList_CRMStatus.add(cellValue)
+    String cellValue = row.findElement(By.xpath('td[7]')).getText()
+
+    initialList_CRMStatus.add(cellValue)
 }
 
 'Click the sort button for the "CRM Status" column'
@@ -337,6 +281,77 @@ WebUI.click(findTestObject('Account Management Page/CRM048/sort_CRM Status'))
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 7, initialList_CRMStatus)
 
-
 WebUI.closeBrowser()
+
+void verifySorting(List<WebElement> rowsTable, int columnPosition, boolean isAscending) {
+    List<WebElement> sortedList = []
+
+    for (WebElement row : rowsTable) {
+        String cellValue = row.findElement(By.xpath(('td[' + columnPosition) + ']')).getText()
+
+        sortedList.add(cellValue)
+    }
+    
+    Pattern pattern = Pattern.compile('^[A-Za-z]')
+
+    boolean isSorted = true
+
+    String previousFirstLetter = ''
+
+    for (String item : sortedList) {
+        Matcher matcher = pattern.matcher(item)
+
+        if (matcher.find()) {
+            String currentFirstLetter = matcher.group(0).toLowerCase()
+
+            if (previousFirstLetter.isEmpty()) {
+                previousFirstLetter = currentFirstLetter
+
+                continue
+            }
+            
+            if (isAscending) {
+                if (currentFirstLetter.compareTo(previousFirstLetter) < 0) {
+                    isSorted = false
+
+                    break
+                }
+            } else {
+                if (currentFirstLetter.compareTo(previousFirstLetter) > 0) {
+                    isSorted = false
+
+                    break
+                }
+            }
+            
+            previousFirstLetter = currentFirstLetter
+        }
+    }
+    
+    if (isSorted) {
+        println(('Sorting successful on column ' + columnPosition) + '. PASSED ✅')
+    } else {
+        println(('Sorting failed on column ' + columnPosition) + '. NOT PASSED ❌')
+
+        KeywordUtil.markFailedAndStop(('Sorting failed on column ' + columnPosition) + '!')
+    }
+}
+
+void verifyInitialState(List<WebElement> rowsTable, int columnPosition, List<WebElement> initialList) {
+    List<WebElement> currentList = []
+
+    for (WebElement row : rowsTable) {
+        String cellValue = row.findElement(By.xpath(('td[' + columnPosition) + ']')).getText()
+
+        currentList.add(cellValue)
+    }
+    
+    if (currentList.equals(initialList)) {
+        println(('Data in column ' + columnPosition) + ' has been reset to initial state. PASSED ✅')
+    } else {
+        println(('Data in column ' + columnPosition) + ' did not reset correctly. NOT PASSED ❌')
+
+        KeywordUtil.markFailedAndStop(('Reset to initial state failed on column ' + columnPosition) + '!')
+    }
+}
 
