@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Menemani Perjalanan Finansial Mobil Barumu</name>
+   <name>button-submit-leads-pop-up</name>
    <tag></tag>
-   <elementGuidId>d9b88ee6-1b7f-4f17-8ae5-18d0372c7172</elementGuidId>
+   <elementGuidId>cb206e02-a04a-437b-bcd9-b8beba7ba817</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>data-test-id</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'mainHeroLp_mainTitle')]</value>
+         <value>//*[@data-test-id = 'button-kirim-leads']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>mainHeroLp_mainTitle</value>
-      <webElementGuid>52580e3a-222e-482a-894a-680e021a2104</webElementGuid>
+      <value>button-kirim-leads</value>
+      <webElementGuid>0bc03856-170d-45c3-8a3b-c9a1c8c136bb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
