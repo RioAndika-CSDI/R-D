@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close Edit Account</name>
+   <tag></tag>
+   <elementGuidId>fe588462-bf21-4a84-8592-9383cd0140ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Account'])[1]//*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>66eeef7f-af3a-45b9-a3f2-4ea9cc98f114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>af376ac4-65b4-4c4d-8f70-6329abff09ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>1623565a-8539-4547-914d-b3c44e82797b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>fba5b660-09bf-403a-a739-8ec31de37b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>c30724fd-fad3-4c02-abf9-f166dc10a353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>a82d7b23-32fd-4169-a073-f9691b5fadb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-[10px]&quot;]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[2]/div[@class=&quot;h-[calc(var(--crm-screen-height)-10px-44px-19px-18px-16px)] w-[540px] overflow-x-auto rounded-[10px] bg-white font-OpenSans text-xs text-bodyCopy&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/form[@class=&quot;relative&quot;]/div[@class=&quot;flex items-center justify-between border-0 border-b border-solid border-line px-3 pb-4 text-sm/[19px] font-bold text-bodyCopy sticky top-0 z-20 ml-6 mr-[22px] bg-white pt-3&quot;]/button[@class=&quot;border-none bg-transparent p-0 text-primaryRed outline-none !text-label&quot;]/svg[1]</value>
+      <webElementGuid>dfa7fb2a-90cb-428c-8d2d-ba854b019abe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Account'])[1]//*[name()='svg'][1]</value>
+      <webElementGuid>ad9882ee-ec54-46ae-b1a2-0f40ea8e4b1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[21]/following::*[name()='svg'][4]</value>
+      <webElementGuid>760b3d3b-e96f-4d8d-8d61-a99d763552a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>73e478c1-3f86-4307-afaa-9585e0359eff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>1864dd1a-4e51-4e3e-90d3-f26ddc440aa3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

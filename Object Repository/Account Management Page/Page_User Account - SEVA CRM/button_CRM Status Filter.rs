@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CRM Status Filter</name>
+   <tag></tag>
+   <elementGuidId>fa199cd1-d190-4f6f-afcd-59ad4c9b30eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f1b3eae1-9942-410c-9225-92b4be3ff4f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white</value>
+      <webElementGuid>dc975ce9-bd66-4777-ada3-1c2fa88574b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CRM Status</value>
+      <webElementGuid>251bf5e8-981e-4ab4-85ab-aaf2df5b1637</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rh:&quot;)/div[@class=&quot;flex w-[215.6px] flex-col items-center gap-2 rounded border-[1px] border-solid border-line bg-white py-4 font-OpenSans&quot;]/div[@class=&quot;w-full px-2&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/button[@class=&quot;block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white&quot;]</value>
+      <webElementGuid>e3f64e07-1971-4083-aff9-1f469f9046f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[2]</value>
+      <webElementGuid>f97e7809-f207-428d-969b-e1b03d7a0134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/following::button[1]</value>
+      <webElementGuid>39c02120-6ab7-47f9-b0e8-d5510d9b0347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::button[1]</value>
+      <webElementGuid>5e2967b3-43cf-4cc8-a04a-65db700c0fe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button[2]</value>
+      <webElementGuid>8512adda-63ac-4c38-a694-01531a71fde7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'CRM Status' or . = 'CRM Status')]</value>
+      <webElementGuid>0661500f-34b6-472b-b8a2-6ce7c62acaa2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

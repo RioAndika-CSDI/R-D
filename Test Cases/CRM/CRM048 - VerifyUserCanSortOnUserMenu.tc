@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM048 - VerifyUserCanSortOnUserMenu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bfa65fba-d9a6-4f3c-a4ab-c171618c3c37</testCaseGuid>
+</TestCaseEntity>

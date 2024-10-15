@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_Softphone Extension</name>
+   <tag></tag>
+   <elementGuidId>1d1d5ca8-ef02-48ac-ae2d-6477fb65aef7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='softphone']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;softphone&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8b3d5172-8dba-4c0e-8e31-ab045749ba15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Write your softphone ext. here</value>
+      <webElementGuid>40ec6476-aa99-439b-b75e-bf9f9786aeed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>inputmode</name>
+      <type>Main</type>
+      <value>numeric</value>
+      <webElementGuid>921d2ffa-9f7e-4746-9ebd-9ccb57cd906f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>softphone</value>
+      <webElementGuid>a57ab1db-d0d4-4d66-8045-16b3d517389d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-10 w-full rounded border-[1px] border-solid px-4 text-xs/[14px] text-bodyCopy outline-none placeholder:text-placeholder disabled:bg-inputBg disabled:text-placeholder border-line</value>
+      <webElementGuid>cde6cf07-f0d1-4e35-bbff-f84bddfc88d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal [&amp;_.ant-modal-content]:rounded-none [&amp;_.ant-modal-content]:p-0&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@class=&quot;pb-10 pl-5 pr-[22px] pt-6&quot;]/div[@class=&quot;mb-[66px] grid grid-cols-2 gap-[87px] font-OpenSans text-xs text-bodyCopy&quot;]/section[@class=&quot;flex flex-col gap-[23px]&quot;]/div[4]/input[@class=&quot;h-10 w-full rounded border-[1px] border-solid px-4 text-xs/[14px] text-bodyCopy outline-none placeholder:text-placeholder disabled:bg-inputBg disabled:text-placeholder border-line&quot;]</value>
+      <webElementGuid>f5ddc0a9-5213-4b13-9a0a-62e27106a8f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='softphone']</value>
+      <webElementGuid>c48807fe-413e-4b05-847e-0692e6662a15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/input</value>
+      <webElementGuid>a96d4728-618e-495d-bd73-6be69f1d416b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Write your softphone ext. here' and @name = 'softphone']</value>
+      <webElementGuid>25f70d3b-5d49-4b98-a418-213c687ae6c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
