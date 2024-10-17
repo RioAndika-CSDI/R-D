@@ -6,30 +6,4 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>742e74cb-b6a1-42e2-ba2d-3fd41a340f31</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>feb863e8-4a3c-45b8-88ce-8884a57a5f24</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>528ff605-2cdd-4ed7-81fd-2420cab84273</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'Showing 1-20 of 156 accounts'</defaultValue>
-      <description></description>
-      <id>feb863e8-4a3c-45b8-88ce-8884a57a5f24</id>
-      <masked>false</masked>
-      <name>dataLength_page1</name>
-   </variable>
-   <variable>
-      <defaultValue>'Page 1 of 8'</defaultValue>
-      <description></description>
-      <id>528ff605-2cdd-4ed7-81fd-2420cab84273</id>
-      <masked>false</masked>
-      <name>pageIndicator_page1</name>
-   </variable>
 </TestCaseEntity>
