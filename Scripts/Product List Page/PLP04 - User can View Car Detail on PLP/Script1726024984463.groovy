@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
@@ -27,14 +27,18 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
+
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
+
+WebUI.delay(5)
 
 // Daihatsu All New Ayla
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_detail_mobil'))
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/mobil-baru/daihatsu/all-new-ayla?loanRankCVL=Green&source=plp'
+String expectedUrl = 'https://www.seva.id/mobil-baru/daihatsu/all-new-ayla?loanRankCVL=Green&source=plp&dp=23560000'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)
