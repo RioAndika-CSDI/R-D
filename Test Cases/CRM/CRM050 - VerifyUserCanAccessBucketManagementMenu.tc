@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test verifies that the user can successfully access the 'User' menu from the Welcome page. After clicking the sidebar menu and selecting the 'User' option, the system should redirect the user to the 'User' page as expected.</description>
+   <name>CRM050 - VerifyUserCanAccessBucketManagementMenu</name>
+   <tag>UserMenu</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c195647b-b73f-4612-8ed6-94d182e1b78d</testCaseGuid>
+</TestCaseEntity>

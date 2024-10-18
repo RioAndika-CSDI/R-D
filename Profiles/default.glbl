@@ -39,4 +39,29 @@
       <initValue>'https://crm-fe.prod.seva.id/login'</initValue>
       <name>crmprod</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testing-qa@seva.id'</initValue>
+      <name>EmailUserQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testing-csaleader@seva.id'</initValue>
+      <name>EmailUserCSALeader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testing-cmleader@seva.id'</initValue>
+      <name>EmailUserCMLeader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pass123@'</initValue>
+      <name>PassUserQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pass123~'</initValue>
+      <name>PassUserLeader</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM054 - VerifyUserCanSearchDefaultTabOnLeadsGroupSubMenu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a97349c9-a549-4681-b194-70095ed406ea</testCaseGuid>
+</TestCaseEntity>

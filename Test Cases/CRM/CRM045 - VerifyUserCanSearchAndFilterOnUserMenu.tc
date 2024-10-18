@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRM045 - VerifyUserCanSearchAndFilterOnUserMenu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1891546-1d1d-46c6-965e-a9825c7e1414</testCaseGuid>
+</TestCaseEntity>
