@@ -17,11 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+systemos = System.getProperty('os.name')
+
+String[] os = systemos.split(' ')
+
+WebUI.comment(os[0])
+
 if (open_browser.equals('1')) {
     WebUI.callTestCase(findTestCase('Loan Calculator/LC001 - Loan Calculator Access Homepage'), [('close_browser') : '0'], 
         FailureHandling.STOP_ON_FAILURE)
 }
 
+/**
 'kota yang sudah ada value nya'
 WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_SEVA Dropdown Icon'))
 
@@ -32,11 +39,36 @@ WebUI.setText(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli
     kota)
 
 WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Jakarta Pusat'))
+**/
+
+//SELECT CITY
+'Select city'
+WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
+
+if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'A'))
+} else {
+	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.COMMAND, 'A'))
+}
+
+//WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), kota)
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/div_dropdown list city', [('kota') : kota]))
 
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'))
 
-WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
-    Keys.chord(Keys.CONTROL, 'a'))
+//WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
+//    Keys.chord(Keys.CONTROL, 'a'))
+
+if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+	WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), Keys.chord(Keys.CONTROL, 'A'))
+} else {
+	WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), Keys.chord(Keys.COMMAND, 'A'))
+}
 
 WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
     Keys.chord(Keys.BACK_SPACE))
@@ -58,6 +90,7 @@ WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru De
 WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/p_Pembayaran cicilan pertama'), 
     0)
 
+/**
 if (bayar.toString().equalsIgnoreCase('ADDM')) {
     WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_nonactive'))
 
@@ -67,6 +100,14 @@ if (bayar.toString().equalsIgnoreCase('ADDM')) {
 } else {
     WebUI.verifyElementPresent(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDB_active'), 
         0)
+}
+**/
+
+//Jenis Pembayaran Option
+if (bayar.toString().equalsIgnoreCase('ADDM')) {
+	WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Bayar di Muka (ADDM)Dibayar bersama dengan DP'))
+} else if (bayar.toString().equalsIgnoreCase('ADDB')) {
+	WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Bayar di Belakang (ADDB)Dibayar sebulan setelah DP'))
 }
 
 WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/Cicilan_Mobil_label'), 

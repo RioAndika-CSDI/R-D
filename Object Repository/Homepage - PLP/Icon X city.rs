@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'field-input-city']/following::*[@class='inputSelect_iconWrapper__UIVlB']</value>
+         <value>//*[@data-testid = 'field-input-city']/following::*[starts-with(@class, 'inputSelect_iconWrapper')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'field-input-city']/following::*[@class='inputSelect_iconWrapper__UIVlB']</value>
-      <webElementGuid>ee164c9b-cdd2-41cb-a2ba-a853145aadc4</webElementGuid>
+      <value>//*[@data-testid = 'field-input-city']/following::*[starts-with(@class, 'inputSelect_iconWrapper')]</value>
+      <webElementGuid>74a83831-f678-4776-8b6a-b319854bc865</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_iconWrapper</value>
+      <webElementGuid>597162fc-900b-46f6-878e-45075d6f6cc8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

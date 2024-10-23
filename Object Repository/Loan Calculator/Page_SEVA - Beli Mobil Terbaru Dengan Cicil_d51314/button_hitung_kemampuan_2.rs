@@ -7,17 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_secondaryDark__M9xOi button_big__H6cBN undefined']</value>
+         <value>//*[starts-with(@class, 'button_secondaryDark') and (text() = 'Hitung Kemampuan' or . = 'Hitung Kemampuan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>classs</name>
       <type>Main</type>
       <value>button_secondaryDark__M9xOi button_big__H6cBN undefined</value>
-      <webElementGuid>9a192fb2-a25b-4fff-b2ca-1df18f51cbc4</webElementGuid>
+      <webElementGuid>1c477fc0-f28b-48db-b65a-ba19dc9a9cb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_secondaryDark</value>
+      <webElementGuid>78f1327f-e95c-43fe-bc78-8bbf8ba5cc88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hitung Kemampuan</value>
+      <webElementGuid>9750b4a2-af89-4a63-aabe-6b8ab5b55639</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

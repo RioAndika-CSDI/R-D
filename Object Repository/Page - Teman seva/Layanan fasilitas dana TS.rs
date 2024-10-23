@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textRefinancing__NXrlc']</value>
+         <value>//*[@class = 'teman-seva-dashboard_textRefinancing__PcG_m']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textRefinancing__NXrlc</value>
-      <webElementGuid>79a21144-3f16-4939-bdaa-9fee2f6146f5</webElementGuid>
+      <value>teman-seva-dashboard_textRefinancing__PcG_m</value>
+      <webElementGuid>5a23387c-975a-4719-b2cb-f7bf89b1e1bb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_transmisi_manual</name>
+   <tag></tag>
+   <elementGuidId>36f57d0b-c649-4bcd-a822-9f1c38c56afd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;field-pilih-Manual-th&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;field-pilih-Manual-th&quot;]</value>
+      <webElementGuid>c4c5be1a-0484-4a96-9b9c-238fb9374d42</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[starts-with(@class, 'dealerDetail_mainTitle')])[${id}]</value>
+         <value>(//*[starts-with(@class, 'dealerCard_cardTitle')])[${id}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>class</name>
       <type>Main</type>
       <value>dealerDetail_mainTitle</value>
-      <webElementGuid>49342906-87cc-4961-881a-276a78d88e3e</webElementGuid>
+      <webElementGuid>fbf3b0f2-c6f1-4163-89a0-9681d1e4cc95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[starts-with(@class, 'dealerDetail_mainTitle')])[${id}]</value>
-      <webElementGuid>d5e43d04-bfca-439b-9e04-70f528b0023a</webElementGuid>
+      <value>(//*[starts-with(@class, 'dealerCard_cardTitle')])[${id}]</value>
+      <webElementGuid>8fefc4b1-c4b3-4b56-99da-9b6adc1b29dc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

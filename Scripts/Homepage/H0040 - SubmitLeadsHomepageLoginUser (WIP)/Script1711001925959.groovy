@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.scrollToElement(findTestObject('Homepage Component/Text Butuh Bantuan'), 0)
 
+WebUI.click(findTestObject('Homepage - Burger menu/Checkbox-agreement'))
+
 WebUI.click(findTestObject('Homepage Component/button_Kirim'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/p_Nomor berhasil diverifikasi. Agen SEVA ak_836ded'))

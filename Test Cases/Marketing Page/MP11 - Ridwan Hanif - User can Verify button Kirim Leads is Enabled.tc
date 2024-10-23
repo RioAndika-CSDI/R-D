@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MP11 - Ridwan Hanif - User can Verify button Kirim Leads is Enabled</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5610b89d-b90f-4dc8-b839-41e42e69fcd7</testCaseGuid>
+</TestCaseEntity>

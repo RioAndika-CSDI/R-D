@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'sidebarMobile_profileName__uX_Y3']</value>
+         <value>//*[starts-with(@class, 'sidebarMobile_profileName')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sidebarMobile_profileName__uX_Y3</value>
-      <webElementGuid>92ab5739-2e3f-4689-ab17-651ce32ef54a</webElementGuid>
+      <value>sidebarMobile_profileName</value>
+      <webElementGuid>66600f80-1f1b-474d-bf34-14f5b9d5597a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

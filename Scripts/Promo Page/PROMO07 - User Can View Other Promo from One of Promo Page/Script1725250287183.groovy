@@ -29,9 +29,9 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
 
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
+WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
 
 WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Promo Page/chevron_left'))
 
 WebUI.delay(5)
 
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_promo_bank_saqu'), 10)) {
+if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_layanan_surat_kendaraan'), 10)) {
 	WebUI.comment('OBJECT DETECTED')
 } else {
 	WebUI.verifyMatch('false', 'true', true)

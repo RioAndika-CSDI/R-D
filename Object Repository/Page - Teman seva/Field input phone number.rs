@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputPhone_input__r86Wm false ']</value>
+         <value>//*[@class = 'inputPhone_input__4xYEC false ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__r86Wm false </value>
-      <webElementGuid>2e51c103-ab3f-4265-9d7c-9af70b19cd07</webElementGuid>
+      <value>inputPhone_input__4xYEC false </value>
+      <webElementGuid>29a80c54-9262-4ac8-b031-5200d59b0f33</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

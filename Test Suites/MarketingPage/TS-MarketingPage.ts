@@ -81,4 +81,11 @@
       <testCaseId>Test Cases/Marketing Page/MP10 - SEVA OLX - Verify Button Selanjutnya is Enabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f089df63-9dd3-4b94-8b0e-7f6beafffab5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Marketing Page/MP11 - Ridwan Hanif - User can Verify button Kirim Leads is Enabled</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

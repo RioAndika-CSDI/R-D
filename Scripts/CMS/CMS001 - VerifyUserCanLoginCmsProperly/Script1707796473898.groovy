@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'superadmin@seva.id')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'testing-qa@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'NbWEQYNoPKhsA2eJ+KpJ/g==')
+WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'Yb04Xw983OgGCKWozO10aQ==')
 
 WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 

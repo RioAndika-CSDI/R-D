@@ -6,16 +6,15 @@
    <elementGuidId>36ca5a45-8eb4-4046-9d73-31cc10746387</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div[2]/div/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputSelect_dropdownItemText__7p2jg' and (text() = 'Wanita' or . = 'Wanita')]</value>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItemText') and (text() = 'Wanita' or . = 'Wanita')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div[2]/div/div</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e5c85739-e1d0-4864-b731-0d97e081eef6</webElementGuid>
+      <webElementGuid>2d756421-2f9b-4b92-b4c9-24cbb0b0c126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemText__7p2jg</value>
-      <webElementGuid>3276e843-95fb-4571-a062-8cb15740f0b2</webElementGuid>
+      <value>inputSelect_dropdownItemText</value>
+      <webElementGuid>b2c4eb58-4b38-4d3e-9912-ad04e43f3d8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Wanita</value>
-      <webElementGuid>d4c007d4-bb99-4662-984d-84d9d30192d8</webElementGuid>
+      <webElementGuid>dc44b0b8-912b-40bc-999b-daae6113edb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/main[@class=&quot;account-profile_wrapper__syRey&quot;]/section[@class=&quot;account-profile_wrapper__form__ZYlFA&quot;]/div[5]/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_dropdown__2SfXo inputSelect_dropdownActive__cH79b&quot;]/div[@class=&quot;inputSelect_dropdownItem__BIFMK&quot;]/div[1]/div[@class=&quot;inputSelect_dropdownItemText__7p2jg&quot;]</value>
-      <webElementGuid>1af46cb3-fedf-46ff-8d19-9ca464ae2a01</webElementGuid>
+      <webElementGuid>77958624-02e5-44f8-9c20-a92810a92020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gender</value>
-      <webElementGuid>2ea50a98-d799-4008-af53-4d1a346249d8</webElementGuid>
+      <webElementGuid>bb8fe616-a69c-4f7c-bd1f-946fb6c30355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Wanita</value>
-      <webElementGuid>bcbf9d65-eb1b-49a7-8c73-47a5c3548001</webElementGuid>
+      <webElementGuid>f8f664cc-43d4-4b48-b166-83ca25adf5df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div[2]/div/div</value>
-      <webElementGuid>ac9f3089-f230-4e8a-bd56-7cdd68d85c27</webElementGuid>
+      <webElementGuid>542d6557-3f7f-4b52-9c1f-0d1f302ecc2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pria'])[1]/following::div[3]</value>
-      <webElementGuid>2c7d5d8f-2729-4931-9e24-f45298644694</webElementGuid>
+      <webElementGuid>2629b563-b347-4d5e-860e-467665ddf74e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Kelamin'])[1]/following::div[11]</value>
-      <webElementGuid>bd76bdd5-65d5-4147-965e-70098eb64328</webElementGuid>
+      <webElementGuid>22a6d263-e9b7-43ab-ad22-97648e0e1ea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan Perubahan'])[1]/preceding::div[1]</value>
-      <webElementGuid>44ff9318-d583-4d77-aa0c-79ff5380da23</webElementGuid>
+      <webElementGuid>e3bb0a94-056c-42f5-b438-99fbf2917b51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar Akun'])[1]/preceding::div[1]</value>
-      <webElementGuid>83bcebb5-c70a-4d62-9eb9-d8a557114ccf</webElementGuid>
+      <webElementGuid>ca401e89-cba4-4221-bcbb-f763401a9159</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Wanita']/parent::*</value>
-      <webElementGuid>c78cb8f5-55eb-4ab8-9289-3795ba4be051</webElementGuid>
+      <webElementGuid>53ff6d94-5b21-4a4a-8d25-a6550f4f5e6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div[2]/div/div</value>
-      <webElementGuid>a626cc9f-87e2-4298-a17e-3b5f7071a12d</webElementGuid>
+      <webElementGuid>74d09406-3a3d-469e-8971-7246229878c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Wanita' or . = 'Wanita')]</value>
-      <webElementGuid>892aa093-e5db-427d-8185-7dc8d7391aef</webElementGuid>
+      <webElementGuid>0daf95d3-1b56-48d5-be0b-4b6c7f8c2b2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

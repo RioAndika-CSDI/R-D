@@ -7,25 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN undefined' and @data-testid = 'button-cari-mobil']</value>
+         <value>//*[starts-with(@class, 'button_primaryDarkBlue') and (text() = 'Cari Mobil Baru' or . = 'Cari Mobil Baru')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>640d029a-5af7-4005-9732-20d7da202304</webElementGuid>
+      <value>button_primaryDarkBlue</value>
+      <webElementGuid>70befe36-6e9e-402e-aa78-898995ce37f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>button-cari-mobil</value>
-      <webElementGuid>87f63e65-a6ee-4abb-96e2-9a2681b0e1a2</webElementGuid>
+      <webElementGuid>c8c4dcd5-d785-4d5c-affa-e96877de1958</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cari Mobil Baru</value>
+      <webElementGuid>e2dae2d7-4932-4309-899a-9748f0b85863</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

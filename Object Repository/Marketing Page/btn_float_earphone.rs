@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_float_earphone</name>
+   <tag></tag>
+   <elementGuidId>ce7ed29d-0901-4685-9adc-cbec76c74e80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;ant-float-btn-body&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;ant-float-btn-body&quot;]</value>
+      <webElementGuid>fe074aa0-3208-4dfa-8aea-4e7166643c4b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

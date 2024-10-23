@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'BMW')]</value>
+         <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'BMW')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d3521be4-7237-4ccb-ab8f-df8f43d35af6</webElementGuid>
+      <webElementGuid>746dc914-aa3a-41d0-92d1-4fc54d764038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>37cdb301-b32f-4be7-ae2b-b5fae9b16444</webElementGuid>
+      <webElementGuid>a174494e-40b1-4050-ad91-bb586f953b0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>341b0999-b665-424d-bd91-88ffb395513a</webElementGuid>
+      <webElementGuid>81e6bd8d-c327-4e04-8f76-0daca2f2ff21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-BMW</value>
-      <webElementGuid>85ff087b-aa50-4805-8f52-b71068c53900</webElementGuid>
+      <webElementGuid>a816dd3b-1c66-431b-8de4-4a188f423d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,15 +57,15 @@
       <name>text</name>
       <type>Main</type>
       <value> BMW</value>
-      <webElementGuid>64f994ab-6b0e-43f2-a824-4cdd28cd90ea</webElementGuid>
+      <webElementGuid>24944765-2641-4669-9e81-8d297c36b61b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'navigation-tab-v2-item-[object Object]']//*[starts-with(@alt, 'BMW')]</value>
-      <webElementGuid>7463dad3-9c77-4b1d-9b99-b9754deb38b0</webElementGuid>
+      <value>//*[starts-with(@class, 'carRecomendations_tabBrand')]//*[starts-with(@alt, 'BMW')]</value>
+      <webElementGuid>ef6a088d-870f-4714-832b-53c91c9b0e5b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div</value>
-      <webElementGuid>d587386a-d89b-49b0-8f09-bc9dccee1b54</webElementGuid>
+      <webElementGuid>4a95fd35-d24d-488b-9f63-9e194b08b764</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' BMW' or . = ' BMW')]</value>
-      <webElementGuid>be376f11-8cb9-4274-a40c-fec099110569</webElementGuid>
+      <webElementGuid>e5e37bcf-5599-4d12-8384-65c7d534ae03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

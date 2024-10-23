@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'otpV2_otpError__IK4h1 otpV2_otpInput__Q6C6J']</value>
+         <value>//*[starts-with(@class, 'otpV2_otpError')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>otpV2_otpError__IK4h1 otpV2_otpInput__Q6C6J</value>
-      <webElementGuid>d48ce62d-1ebc-488d-b3ed-099b013ca1bb</webElementGuid>
+      <value>otpV2_otpError</value>
+      <webElementGuid>29866dc7-bdbd-4009-ade2-71d221a094e5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

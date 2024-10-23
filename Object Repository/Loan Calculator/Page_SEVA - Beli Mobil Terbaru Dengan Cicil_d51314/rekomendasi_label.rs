@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'lpCarRecommendations_title__MWC3Y']</value>
+         <value>//*[starts-with(@class, 'lpCarRecommendations_title')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>lpCarRecommendations_title__MWC3Y</value>
-      <webElementGuid>8c251bec-207b-4184-b413-005286855864</webElementGuid>
+      <value>lpCarRecommendations_title</value>
+      <webElementGuid>2337302c-e955-4bc1-b3d6-3c8d4603247a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

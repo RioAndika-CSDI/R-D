@@ -35,6 +35,8 @@ WebUI.setText(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/P
 WebUI.setText(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Butuh Bantuan_inputPhone_input__r86Wm false'), 
     '87859282828')
 
+WebUI.click(findTestObject('Homepage - Burger menu/Checkbox-agreement'))
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Kirim'))
 
 WebUI.setText(findTestObject('Test/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checklist</name>
+   <tag></tag>
+   <elementGuidId>ccb89e01-76d2-4e42-b9d3-dca63d1bc94f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
+      <webElementGuid>fd1aeaca-a8e1-4fb2-9af8-6bda14931a88</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
