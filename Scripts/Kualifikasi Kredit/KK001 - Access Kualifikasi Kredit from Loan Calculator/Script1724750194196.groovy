@@ -51,9 +51,18 @@ if (currentUrl == loginUrl) {
 
     WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 
+    if (WebUI.waitForElementVisible(findTestObject('Login Register Component/Error-msg-too-many-request'), 0, FailureHandling.OPTIONAL))  {
+        WebUI.delay(120)
+		WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+    } else {
+		KeywordUtil.markPassed('There is no error')
+	}
+    
     WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
     WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0)
+	
+    
 }
 
 WebUI.delay(5)

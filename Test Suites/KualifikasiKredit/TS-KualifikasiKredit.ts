@@ -86,12 +86,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Kualifikasi Kredit/KK004 - Kualifikasi Kredit Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>57fea0bf-6652-415c-bc9e-1e02d3d8ee77</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2ccc2d2f-4358-4d3c-9aca-e945f49816aa</guid>
@@ -164,5 +158,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Kualifikasi Kredit/KK010 - KK Review - Close bottom sheet</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba00eff4-c950-4776-8c2e-06e07c9379b8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

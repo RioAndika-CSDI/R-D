@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK004 - Kualifikasi Kredit Review'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+
 left = WebUI.getElementHeight(findTestObject('Kualifikasi-Kredit/KK Used/Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/grey_area_bottom_sheet_lanjut_ia'))
 
 WebUI.clickOffset(findTestObject('Kualifikasi-Kredit/KK Used/Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/grey_area_bottom_sheet_lanjut_ia'), 
