@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+systemos = System.getProperty('os.name')
+
+String[] os = systemos.split(' ')
+
+WebUI.comment(os[0])
+
 if (open_browser.equals('1')) {
     WebUI.callTestCase(findTestCase('Loan Calculator/LC001 - VerifyUserCanAccessLoanCalculatorFromHomepage'), [('close_browser') : '0'
             , ('call_tc') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -38,7 +44,13 @@ WebUI.click(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli M
 'Select city'
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
 
-WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'a'))
+if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'A'))
+} else {
+	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.COMMAND, 'A'))
+}
+
+//WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'a'))
 
 WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.BACK_SPACE))
 
@@ -48,8 +60,14 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/div_dropdown list
 
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'))
 
-WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
-    Keys.chord(Keys.CONTROL, 'a'))
+//WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
+//    Keys.chord(Keys.CONTROL, 'a'))
+
+if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
+	WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), Keys.chord(Keys.CONTROL, 'A'))
+} else {
+	WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), Keys.chord(Keys.COMMAND, 'A'))
+}
 
 WebUI.sendKeys(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Model mobil pilihan saya_inputSelect__bc5d4b'), 
     Keys.chord(Keys.BACK_SPACE))

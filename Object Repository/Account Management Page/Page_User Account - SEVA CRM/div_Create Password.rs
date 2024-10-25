@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Create Password</name>
+   <tag></tag>
+   <elementGuidId>1ac8213f-2cb9-4eac-b204-3a535ba2bf95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='downshift-:r2u:-item-0']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d835c5c2-94c9-451a-8dc3-27418485df98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full cursor-pointer whitespace-normal rounded p-2 hover:bg-primaryRed-10 active:bg-primaryRed-50</value>
+      <webElementGuid>19f49f1c-e7ab-4592-baa7-7fdf8ed8020c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Create Password</value>
+      <webElementGuid>fc1b6aca-1aee-493b-adc9-1568ad0a1111</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Password</value>
+      <webElementGuid>8ccbc72f-8782-4286-aa37-6cfcbb04c435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;downshift-:r2u:-item-0&quot;)/div[@class=&quot;w-full cursor-pointer whitespace-normal rounded p-2 hover:bg-primaryRed-10 active:bg-primaryRed-50&quot;]</value>
+      <webElementGuid>8f1d6bda-6489-4901-b82a-c4a2c4394731</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='downshift-:r2u:-item-0']/div</value>
+      <webElementGuid>ebc77ee2-0caf-4339-85cc-2b2c99ad1326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[4]</value>
+      <webElementGuid>f9077dbe-885e-4d6a-b3fc-ad4dcbf9ded9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[17]/following::div[5]</value>
+      <webElementGuid>1d475b40-92c0-4511-88b5-cc939345def1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div</value>
+      <webElementGuid>52cc2041-26f6-4cdb-acec-b406bc75567e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Create Password' and (text() = 'Create Password' or . = 'Create Password')]</value>
+      <webElementGuid>bf46e7bc-f645-453a-b0ed-c0c919983b5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

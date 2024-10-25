@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_Name</name>
+   <tag></tag>
+   <elementGuidId>f481da60-023c-4f21-a987-aaba5e15dcad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;name&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1c265e03-7a9d-4ab2-9ecc-94077306c385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Write your name here</value>
+      <webElementGuid>164eadbe-2a3b-4f87-8545-a156b0611afc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>95f2720e-c10d-4966-b80d-f862e773ba2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-10 w-full rounded border-[1px] border-solid px-4 text-xs/[14px] text-bodyCopy outline-none placeholder:text-placeholder disabled:bg-inputBg disabled:text-placeholder border-line</value>
+      <webElementGuid>5b842050-3828-42e8-a8ca-3d04d87e39b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal [&amp;_.ant-modal-content]:rounded-none [&amp;_.ant-modal-content]:p-0&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@class=&quot;pb-10 pl-5 pr-[22px] pt-6&quot;]/div[@class=&quot;mb-[66px] grid grid-cols-2 gap-[87px] font-OpenSans text-xs text-bodyCopy&quot;]/section[@class=&quot;flex flex-col gap-[23px]&quot;]/div[1]/input[@class=&quot;h-10 w-full rounded border-[1px] border-solid px-4 text-xs/[14px] text-bodyCopy outline-none placeholder:text-placeholder disabled:bg-inputBg disabled:text-placeholder border-line&quot;]</value>
+      <webElementGuid>c2dc4416-9560-462a-9d50-13bd3c5a8f4d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='name']</value>
+      <webElementGuid>ed5fc185-7ce4-477e-b5a3-f2b8cf0bf46c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/input</value>
+      <webElementGuid>155e7a18-15b1-4af8-b0af-ec54728de5b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Write your name here' and @name = 'name']</value>
+      <webElementGuid>e2a7c1f4-cd16-473f-8aa9-ac6a7aa0040b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

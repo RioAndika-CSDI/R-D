@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b59440dd-68a3-4374-8114-6b90cb3ccf78</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba00eff4-c950-4776-8c2e-06e07c9379b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'85349524555'</defaultValue>
+      <description></description>
+      <id>ba00eff4-c950-4776-8c2e-06e07c9379b8</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
 </TestCaseEntity>

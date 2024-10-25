@@ -4,6 +4,7 @@
    <name>LC002 - VerifyUserCanInputLoanCalculatorForm</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5ce8fce4-fa6c-4f85-ba7c-e57c3911b58c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
