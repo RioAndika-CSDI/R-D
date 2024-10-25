@@ -31,14 +31,12 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('peker
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
-	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.CONTROL, 'a'))
+    WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.CONTROL, 'a'))
 
-	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.BACK_SPACE))
+    WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.BACK_SPACE))
 
-	WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), pendapatan)
+    WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), pendapatan)
 }
-
-
 
 // Input Reff Code
 if (update_reff_code.toString().equalsIgnoreCase('1')) {

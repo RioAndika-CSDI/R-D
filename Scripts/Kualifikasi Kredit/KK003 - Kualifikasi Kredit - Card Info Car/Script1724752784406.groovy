@@ -22,8 +22,7 @@ WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK001 - Access Kualifikasi K
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/cta section car kk'))
 
-WebUI.verifyElementPresent(findTestObject('Kualifikasi-Kredit/KK Used/div_Mobil yang kamu pilih'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Kualifikasi-Kredit/KK Used/div_Mobil yang kamu pilih'), 0)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/x button - close pop up car info'))
 

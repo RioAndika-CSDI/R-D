@@ -6,16 +6,16 @@
    <elementGuidId>13046d45-a3ac-406a-92e2-b12f2d17f840</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='ktp-review_checkboxOptionWrapper__1aDtj']//button[@class='ktp-review_iconWrapper__HV3Ls']//*[name()='svg']//*[name()='rect']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'ktp-review_iconWrapper')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>svg > rect</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='ktp-review_checkboxOptionWrapper__1aDtj']//button[@class='ktp-review_iconWrapper__HV3Ls']//*[name()='svg']//*[name()='rect']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>rect</value>
-      <webElementGuid>d9832f50-2436-425c-a489-c9e65d43526c</webElementGuid>
+      <webElementGuid>2746d490-a927-472e-9b1f-7e3f297bc4fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>2f9f3f1e-8a5f-4c4e-98b9-14fd2a0c7e4b</webElementGuid>
+      <webElementGuid>e2c9e494-3335-4f65-8f0b-f818398600a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>y</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>9c8fe2a4-1b52-4b5d-b33c-fe783fdb64c9</webElementGuid>
+      <webElementGuid>8883109e-032d-4b5a-bcba-444e7bebea6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>width</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>03236c27-d367-49ac-a6fa-603eb907fbab</webElementGuid>
+      <webElementGuid>06c64486-fdc0-4b86-b696-35c897dc935d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>height</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>1560eb30-b165-43b4-9a22-bf4bbd2c1f67</webElementGuid>
+      <webElementGuid>5049f8a9-c156-42b9-a001-a6d81f88fcc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>rx</name>
       <type>Main</type>
       <value>3.5</value>
-      <webElementGuid>43d0bd63-c8bc-4318-af56-c51059f2113f</webElementGuid>
+      <webElementGuid>09c69b49-45e4-4350-a5c2-9bbb87a98487</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>white</value>
-      <webElementGuid>dd781adc-b450-4fb4-8372-7d1529595435</webElementGuid>
+      <webElementGuid>7dd74ced-de70-4b92-ae3e-bf18590b3af8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_ktpSection__P_ZI3&quot;]/div[@class=&quot;ktp-review_ktpDataWrapper__ZYUWP&quot;]/div[@class=&quot;ktp-review_ktpDataRow__f_JZL&quot;]/div[@class=&quot;ktp-review_checkboxOptionWrapper__1aDtj&quot;]/button[@class=&quot;ktp-review_iconWrapper__HV3Ls&quot;]/svg[1]/rect[1]</value>
-      <webElementGuid>f90ed6a8-3d02-4787-b9ee-069dc8080f74</webElementGuid>
+      <webElementGuid>fc13a47a-5cff-4ff1-a332-0f281141ab7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,6 +90,6 @@
       <name>class</name>
       <type>Main</type>
       <value>ktp-review_iconWrapper</value>
-      <webElementGuid>8934ec62-8d00-472f-8454-c1dbe3d236e1</webElementGuid>
+      <webElementGuid>2b46b481-ca53-4614-8f9f-f98bc9f7665e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
