@@ -13,39 +13,44 @@
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;result-loan-calculator&quot;] div >> internal:has-text=&quot;Cek Kualifikasi KreditHubungi Agen SEVA&quot;i >> div >> nth=1</value>
+         <key>BASIC</key>
+         <value>(//span[starts-with(@class, 'calculationResultItem_checkOtherPromo') and (contains(text(), 'Cek Promo Lain') or contains(., 'Cek Promo Lain'))])[1]</value>
       </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>bac146ca-c52c-4c2b-a06c-c90ba94925a5</webElementGuid>
+      <value>span</value>
+      <webElementGuid>9b5764d4-290c-4720-b7c4-84c541b522b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>overlay_overlay__NPcCZ overlay_showOverlay__13TB1 calculationResult_overlayAdditionalStyle__jJLzm</value>
-      <webElementGuid>72ab9eab-2d36-4490-98c5-15b7e6f66213</webElementGuid>
+      <value>calculationResultItem_checkOtherPromo</value>
+      <webElementGuid>de1cbdca-7c23-454e-9cec-8fb10a4a993c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;loanCalculator_content__CB3cD&quot;]/div[@class=&quot;calculationResult_container__jBjul&quot;]/div[@class=&quot;calculationResult_ctaGroup__SvD9f&quot;]/div[@class=&quot;overlay_overlay__NPcCZ overlay_showOverlay__13TB1 calculationResult_overlayAdditionalStyle__jJLzm&quot;]</value>
-      <webElementGuid>38dfd64b-1594-4ceb-9564-30916eb86e00</webElementGuid>
+      <value>(//span[starts-with(@class, 'calculationResultItem_checkOtherPromo') and (contains(text(), 'Cek Promo Lain') or contains(., 'Cek Promo Lain'))])[1]</value>
+      <webElementGuid>96d63ab8-aa7b-4832-8a84-e17a32c8b4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cek Promo Lain</value>
+      <webElementGuid>c43f7891-e7d0-43b4-927f-07b1cfa18703</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
-      <webElementGuid>6fb034b2-7db2-44da-84bb-8cf3eabe62e0</webElementGuid>
+      <webElementGuid>d4428cd0-9da5-4794-aa6b-d265485cd3c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[4]/div[2]</value>
-      <webElementGuid>fee22514-be04-4936-b2e1-85b5617bfc36</webElementGuid>
+      <webElementGuid>ed37ddec-9cff-4c27-9bd2-d4651adfaa5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

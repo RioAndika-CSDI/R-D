@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_cekPromoLain</name>
+   <tag></tag>
+   <elementGuidId>bff07539-f09d-4ccc-b29c-7f33da748114</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.calculationResultItem_interestText__cv_h8.calculationResultItem_bestPromoCounter__PUCRS</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div/div[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f6dd71ed-20c0-458c-85dc-cee83ca9e81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>calculationResultItem_interestText__cv_h8 calculationResultItem_bestPromoCounter__PUCRS</value>
+      <webElementGuid>934bc623-90de-4565-9c24-cf54cdc97c91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 promo diterapkan</value>
+      <webElementGuid>b124217d-ff1c-46f6-8f66-7e7a9f6939e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_listWrapper__HyHi3&quot;]/div[@class=&quot;calculationResultItem_container__Sszxu&quot;]/div[@class=&quot;calculationResultItem_bottomInfo__BIY51 calculationResultItem_bottomInfoBestPromo__97pwF calculationResultItem_bottomInfoGreen__JNykg&quot;]/span[@class=&quot;calculationResultItem_interestText__cv_h8 calculationResultItem_bestPromoCounter__PUCRS&quot;]</value>
+      <webElementGuid>c2d1fc25-f99f-442b-8351-60145b7ab19e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div/div[4]/span</value>
+      <webElementGuid>296d7f84-6dd1-4b9c-8c43-0e6e7d5e6134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Terbaik!'])[1]/following::span[1]</value>
+      <webElementGuid>8960e295-bb40-4957-9153-77051c48bff8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x 60'])[1]/following::span[1]</value>
+      <webElementGuid>643a84f7-7fca-4353-a135-6a06c2e537f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Promo Lain'])[1]/preceding::span[1]</value>
+      <webElementGuid>d954dee3-a4a9-4b5a-a398-77bcca75ff57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal Untukmu'])[2]/preceding::span[2]</value>
+      <webElementGuid>50210efe-8849-40b5-961e-06dcc736b1b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>96701c81-3a63-428e-88f8-a09ba5c776c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>2b02bf5b-25b7-491c-9544-9cbdd0570c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '1 promo diterapkan' or . = '1 promo diterapkan')]</value>
+      <webElementGuid>3415d7ce-7512-4a06-a145-ed70bd2b5e5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

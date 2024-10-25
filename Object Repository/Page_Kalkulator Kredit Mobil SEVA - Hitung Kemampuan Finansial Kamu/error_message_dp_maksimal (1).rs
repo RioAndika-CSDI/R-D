@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error_message_dp_maksimal (1)</name>
+   <tag></tag>
+   <elementGuidId>d7532912-ffa2-426f-8e07-80989f6b000e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.dpform_errorMessage__6_Ebi</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-dp']/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6a8d5485-100d-49db-99d8-e36f4d5f44ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dpform_errorMessage__6_Ebi</value>
+      <webElementGuid>55abd04c-d2b8-4b4c-adac-80b6ca638abf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Berdasarkan harga mobil yang Anda pilih, maks. DP Rp120.020.000</value>
+      <webElementGuid>69813023-391c-463b-a3d2-f8961c5ee263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-dp&quot;)/div[@class=&quot;dpform_wrapper__b9kNf&quot;]/div[@class=&quot;dpform_errorMessageWrapper__M4yCx&quot;]/span[@class=&quot;dpform_errorMessage__6_Ebi&quot;]</value>
+      <webElementGuid>79ca4001-7979-4aac-ae1b-d90f5c1addf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-dp']/div/div/span</value>
+      <webElementGuid>09ef5939-59f1-439f-b9f9-cd93fab25b88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::span[1]</value>
+      <webElementGuid>ba0357ab-be02-45e8-939f-6f94578dcf81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::span[1]</value>
+      <webElementGuid>caf335b3-7836-4ca2-9b9e-aa079826048f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicil Mobil Impianmu dengan Mudah!'])[1]/preceding::span[1]</value>
+      <webElementGuid>52b78a0e-a6f4-459e-a6c5-213eed00c90c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Berdasarkan harga mobil yang Anda pilih, maks. DP']/parent::*</value>
+      <webElementGuid>a5717968-350e-4ee6-9d4e-ac0b9b22396d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/span</value>
+      <webElementGuid>fd527411-f747-4641-bca5-f51af1a5102c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Berdasarkan harga mobil yang Anda pilih, maks. DP Rp120.020.000' or . = 'Berdasarkan harga mobil yang Anda pilih, maks. DP Rp120.020.000')]</value>
+      <webElementGuid>72fff947-e133-4738-8037-030dc14e6230</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

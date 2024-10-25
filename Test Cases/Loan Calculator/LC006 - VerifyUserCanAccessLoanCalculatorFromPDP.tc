@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access loan calculator page from PLP and process loan calculator in condition car data is already autofilled.</description>
+   <name>LC006 - VerifyUserCanAccessLoanCalculatorFromPDP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68c71900-16ba-44cd-9ed0-5d34b263e0cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8cad235-0003-4cce-b841-7e4dc2007b1f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Daihatsu Sigra'</defaultValue>
+      <description>brand and model</description>
+      <id>c8cad235-0003-4cce-b841-7e4dc2007b1f</id>
+      <masked>false</masked>
+      <name>car_name</name>
+   </variable>
+</TestCaseEntity>

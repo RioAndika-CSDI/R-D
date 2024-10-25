@@ -59,10 +59,13 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/d
 WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Kode Referral Teman SEVA (Opsional)_inp_97a83d'), 
     kode_referral)
 
+'checkbox S&K dan KP'
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/check_box_snk_mkk'))
+
 'button lihat rekomendasi mobil'
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Lihat Rekomendasi Mobil (1)'))
 
-WebUI.verifyElementVisible(findTestObject('Page_/button_Lanjut Instant Approval'))
+WebUI.verifyElementPresent(findTestObject('Page_/button_Lanjut Instant Approval'), 0)
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
