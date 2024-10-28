@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LC011 - VerifyErrorMessageMinimumIncomeField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ae45cd2-ff12-4e0a-91ff-cfc0779fc229</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e3d3b1b1-2e61-435a-b347-1a78d00e0b4a</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bandung'</defaultValue>
+      <description></description>
+      <id>09a49cf5-d1cf-454e-8950-4887b17f09d6</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+   <variable>
+      <defaultValue>'Toyota All New Agya'</defaultValue>
+      <description></description>
+      <id>9dcd74e1-58a1-4812-948c-dd2818dd4770</id>
+      <masked>false</masked>
+      <name>car_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'ADDM'</defaultValue>
+      <description></description>
+      <id>08d40e98-fc6e-4d67-a8b7-415b27ee4401</id>
+      <masked>false</masked>
+      <name>jenis_bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>702f2903-6a24-46b8-b0d2-dfb0f6f663df</id>
+      <masked>false</masked>
+      <name>DP</name>
+   </variable>
+</TestCaseEntity>

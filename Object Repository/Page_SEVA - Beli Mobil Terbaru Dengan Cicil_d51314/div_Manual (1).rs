@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Manual (1)</name>
+   <tag></tag>
+   <elementGuidId>851eb30f-0224-429c-86ab-35fb6da11e37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > div.tenureOptionWidget_containerTenure__x0PJy > div.tenureOptionWidget_box__GvHGI</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>86145185-f943-4ebb-a228-9d4a2a2ff155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tenureOptionWidget_box__GvHGI</value>
+      <webElementGuid>7272cad1-bff0-4833-8015-f77d43684cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manual</value>
+      <webElementGuid>d5fba54c-1da5-4fe0-b923-8f017edafc4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[4]/div[@class=&quot;tenureOptionWidget_containerTenure__x0PJy&quot;]/div[@class=&quot;tenureOptionWidget_box__GvHGI&quot;]</value>
+      <webElementGuid>50faaf81-c8d1-416d-903d-22b450e6c184</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div</value>
+      <webElementGuid>f2ad3c29-daf7-4b4a-a5be-c1c08130ac98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/following::div[2]</value>
+      <webElementGuid>cbba40c5-4b69-488e-9f38-36b880eda957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::div[9]</value>
+      <webElementGuid>7464f90d-baa8-4c97-8e39-af6695c90cc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Otomatis'])[1]/preceding::div[1]</value>
+      <webElementGuid>94a0e7d3-62b7-4b21-9019-12997e88de0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/div/div</value>
+      <webElementGuid>2485533a-d3e1-49d1-85f2-5f00d202ed99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Manual' or . = 'Manual')]</value>
+      <webElementGuid>4fd10c11-ce77-43fa-8c74-a3bd50c4ea7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

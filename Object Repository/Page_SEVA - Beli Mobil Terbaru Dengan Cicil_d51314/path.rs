@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>d0fcb3ff-50a8-4c40-a993-4423a7b522c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>g > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>fe806441-d52f-4fbf-bf53-8f56049fdeb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M6.50008 10.3584L4.41508 8.27336L3.70508 8.97836L6.50008 11.7734L12.5001 5.77336L11.7951 5.06836L6.50008 10.3584Z</value>
+      <webElementGuid>4045aa27-d8e0-44c5-b073-cc85d5045e9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>daccd734-773a-42ec-b8a1-13d4f0ab0ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[@class=&quot;multi-kk_spacingAgreementAndButton__KuWCP&quot;]/div[@class=&quot;agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/div[1]/svg[1]/g[1]/path[1]</value>
+      <webElementGuid>44d3c1dd-f28c-45ce-a29b-d424cf554bff</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

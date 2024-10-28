@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Pendapatan Bulananmu</name>
+   <tag></tag>
+   <elementGuidId>f39a2ad3-9e46-4f02-b5d2-0384737b5cae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[5]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.input_titlePrimaryText__F8tSU</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>bab3487a-1db3-4e66-a30b-4a3edb6c1547</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_titlePrimaryText__F8tSU</value>
+      <webElementGuid>d5f5d84b-3116-4744-85bd-7a2e6cb3248c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendapatan Bulananmu</value>
+      <webElementGuid>0df74a42-0fd1-49f2-ae5a-4e4e670ae1eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormIncome__yDYDw&quot;]/div[1]/div[@class=&quot;undefined undefined&quot;]/p[@class=&quot;input_titlePrimaryText__F8tSU&quot;]</value>
+      <webElementGuid>3c419cdf-9ae4-4353-8ed5-97b5f3767836</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[5]/div/div/p</value>
+      <webElementGuid>e3ccf02b-dd6f-431a-8913-11eb45ab0e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::p[1]</value>
+      <webElementGuid>b5786914-c148-4ab9-a246-e91569239779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desainer &amp; Pekerja Seni'])[1]/following::p[1]</value>
+      <webElementGuid>9bcf3501-3200-4b13-8906-2a1b7d98a2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/preceding::p[1]</value>
+      <webElementGuid>c222fa70-daf7-4dea-bd5a-de3a8b28c7de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::p[1]</value>
+      <webElementGuid>e3197672-e0c0-4f84-91fa-6a171ef27d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pendapatan Bulananmu']/parent::*</value>
+      <webElementGuid>2cf40b1e-6f24-4ce9-acd6-6702630e8c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/p</value>
+      <webElementGuid>97b0ec5a-a608-4d7e-b9f6-5269e8e29ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Pendapatan Bulananmu' or . = 'Pendapatan Bulananmu')]</value>
+      <webElementGuid>4005b7ad-fc1f-4ae5-b4d8-2dd9a322767c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

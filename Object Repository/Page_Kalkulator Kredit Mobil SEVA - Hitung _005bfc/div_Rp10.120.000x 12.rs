@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rp10.120.000x 12</name>
+   <tag></tag>
+   <elementGuidId>c636a768-9eb6-4a10-9835-180a011926ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div[5]/div[2]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c42866cf-3dea-4d8d-bd71-c88a1ba9f0a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>calculationResultItem_priceTextWrapper__Of8G7</value>
+      <webElementGuid>61ab6ec2-cbb9-40f8-93c3-fe9e528cb6a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp10.120.000x 12</value>
+      <webElementGuid>c528bffe-d06b-4558-bcb2-df34c647d67e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_listWrapper__HyHi3&quot;]/div[@class=&quot;calculationResultItem_container__Sszxu&quot;]/div[@class=&quot;calculationResultItem_detailSection__9qwEX&quot;]/div[@class=&quot;calculationResultItem_priceTextWrapper__Of8G7&quot;]</value>
+      <webElementGuid>33c050e4-b144-46a3-988b-fd6f3cf391ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div[5]/div[2]/div[3]</value>
+      <webElementGuid>8d752988-5b1c-4765-b8ee-b75508251f8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp30.110.000'])[5]/following::div[1]</value>
+      <webElementGuid>da8f5b44-b683-4688-895b-f4c8710635b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp26.110.000'])[5]/following::div[2]</value>
+      <webElementGuid>faf14470-91b3-4b2c-8973-5cff0c17f4ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div[3]</value>
+      <webElementGuid>60744d6f-6089-4417-9424-26cf01a58daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp10.120.000x 12' or . = 'Rp10.120.000x 12')]</value>
+      <webElementGuid>b7dc655b-6e9a-4a24-b288-985cb949b3e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

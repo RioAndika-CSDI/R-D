@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_3 Tahun</name>
+   <tag></tag>
+   <elementGuidId>112173e7-ff38-4253-b5d2-bb4182d11f01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div[3]/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c75fc338-8b03-47d9-93bb-e7dbedaf1fff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>calculationResultItem_priceText__QvRuU</value>
+      <webElementGuid>64fd40c1-b5a1-423b-af18-70bb78a9cfc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3 Tahun</value>
+      <webElementGuid>850732e1-00ff-405d-9fbf-0557801fd6e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_listWrapper__HyHi3&quot;]/div[@class=&quot;calculationResultItem_container__Sszxu&quot;]/div[@class=&quot;calculationResultItem_detailSection__9qwEX&quot;]/div[@class=&quot;calculationResultItem_rankTenureInterestWrapper__1kHfK&quot;]/div[@class=&quot;calculationResultItem_tenureInterestWrapper__uM6TD&quot;]/span[@class=&quot;calculationResultItem_priceText__QvRuU&quot;]</value>
+      <webElementGuid>f7b56292-732e-427d-988c-a8a6e45654ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div[3]/div[2]/div/div[2]/span</value>
+      <webElementGuid>9a295a60-427b-44f2-a7b3-90c61d2d8a07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal Untukmu'])[3]/following::span[1]</value>
+      <webElementGuid>064aee43-31f1-4b12-8c92-411aca91db4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Promo Lain'])[2]/following::span[1]</value>
+      <webElementGuid>5216c743-9be1-43e1-a09a-abb0516f591c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp26.110.000'])[3]/preceding::span[1]</value>
+      <webElementGuid>dab9b9a9-b499-485d-930e-24bf38e65901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp30.110.000'])[3]/preceding::span[2]</value>
+      <webElementGuid>ecfb5df1-efac-4b9d-8cb8-9dc033befbb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3 Tahun']/parent::*</value>
+      <webElementGuid>31b79585-2902-4e7c-b470-ca4ac2fcea90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div[2]/div/div[2]/span</value>
+      <webElementGuid>22ba2878-06f8-4e58-bb9d-b33b59858353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '3 Tahun' or . = '3 Tahun')]</value>
+      <webElementGuid>0ffe71ea-aacb-4dba-8b22-b9a273473499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

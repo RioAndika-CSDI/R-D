@@ -13,24 +13,28 @@
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN undefined' and (text() = 'Lihat Rekomendasi Mobil' or . = 'Lihat Rekomendasi Mobil')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4d540738-d2f6-432c-8420-76088adb1e4e</webElementGuid>
+      <webElementGuid>f339a0c9-0485-4d6f-b1a7-c0ebecbfa08c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>46ae5242-38cf-44ac-98f7-8b0e823eccb8</webElementGuid>
+      <webElementGuid>6c11270c-23ad-4066-8575-d9528d69baa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Rekomendasi Mobil</value>
-      <webElementGuid>0f5c5160-c658-4e92-b17a-b41e33747c27</webElementGuid>
+      <webElementGuid>6cfaa310-97dd-4bbc-bfb9-a8a098fdc741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>6587a8fc-f320-4d07-8148-d2616e44c8e0</webElementGuid>
+      <webElementGuid>b28554b8-7729-492b-a4f4-25bfc5327fd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/button</value>
-      <webElementGuid>81b1bb65-d13d-4e42-8914-144439dc572c</webElementGuid>
+      <webElementGuid>2c31762d-8bd6-4535-8746-dac5e9c8cc62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[3]/button</value>
-      <webElementGuid>cfd14a6c-389c-4065-abf2-4f03c2a22a74</webElementGuid>
+      <webElementGuid>619a530f-d37e-4bab-abd4-27c3ca2621e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lihat Rekomendasi Mobil' or . = 'Lihat Rekomendasi Mobil')]</value>
-      <webElementGuid>6010486d-bfeb-4b73-ac14-5b71e7d49120</webElementGuid>
+      <webElementGuid>83949b53-c2f6-428e-8d46-3e52e45cee02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

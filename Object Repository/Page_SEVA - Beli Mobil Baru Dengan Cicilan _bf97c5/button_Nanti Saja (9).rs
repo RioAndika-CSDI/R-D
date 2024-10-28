@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Nanti Saja (9)</name>
+   <tag></tag>
+   <elementGuidId>22dbe711-8377-4d8e-b315-8c7df3070b36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='moe-dontallow_button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#moe-dontallow_button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5b01a7b6-ccaa-4417-9170-21e04cfe9843</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>moe-dontallow_button</value>
+      <webElementGuid>3a03d084-7f1e-4e28-b2e3-93a31e175af4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Nanti Saja
+          </value>
+      <webElementGuid>85bd3901-0bc6-42a0-b996-895e38996473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;moe-dontallow_button&quot;)</value>
+      <webElementGuid>6b3768b0-a04f-4e9d-a3d5-07af56516b22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='moe-dontallow_button']</value>
+      <webElementGuid>a270fb48-82c8-488d-8dbc-cb07e531d02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='desktopBannerWrapped']/div/div[3]/div/button</value>
+      <webElementGuid>36c21a1a-6472-414e-bdb7-4ed76517f004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA punya banyak promo &amp; info menarik nih'])[1]/following::button[1]</value>
+      <webElementGuid>42a65919-0f12-44b2-b855-52612ff7b0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau'])[1]/preceding::button[1]</value>
+      <webElementGuid>fa5daf64-455b-404e-8a1c-89149b3185aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk / Register'])[1]/preceding::button[2]</value>
+      <webElementGuid>ff48bb54-0613-41a2-9c10-6250a70ab233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nanti Saja']/parent::*</value>
+      <webElementGuid>ad85ac67-5684-4593-8c27-b8a943d5f46b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>4c8e4682-44e8-40d2-878d-e76ea6d140d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'moe-dontallow_button' and (text() = '
+            Nanti Saja
+          ' or . = '
+            Nanti Saja
+          ')]</value>
+      <webElementGuid>1114eff0-0666-4528-a89c-74b031528a70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

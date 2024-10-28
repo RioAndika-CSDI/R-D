@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pendapatan_Pendapatan yang kamu masukkan terlalu rendah</name>
+   <tag></tag>
+   <elementGuidId>81dc93cc-a73f-4186-b96c-34f773b692ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@class, 'loanCalculator_errorMessage__XqA_G') and (text() = 'Pendapatan yang kamu masukkan terlalu rendah' or . = 'Pendapatan yang kamu masukkan terlalu rendah')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.creditTab_errorMessage__6tOVz</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-income']/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b8ce3c9e-c0ef-45ee-b328-97a0377deffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>loanCalculator_errorMessage__XqA_G</value>
+      <webElementGuid>1f8ac311-884a-4063-9f00-21e6760f078e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendapatan yang kamu masukkan terlalu rendah</value>
+      <webElementGuid>0cb4b9e4-e0fa-48ed-8034-313b984ef3ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-income&quot;)/div[@class=&quot;creditTab_errorMessageWrapper__w6CN3&quot;]/span[@class=&quot;creditTab_errorMessage__6tOVz&quot;]</value>
+      <webElementGuid>5d353192-0453-45f2-be4a-079f11136535</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-income']/div[2]/span</value>
+      <webElementGuid>e4de9edd-226a-4a70-8b41-e7c30ca77ece</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal'])[1]/following::span[1]</value>
+      <webElementGuid>e4b999bd-ce89-4e93-a1e5-b1bb0c47b557</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::span[1]</value>
+      <webElementGuid>3b8c05ee-4ca8-4968-9e03-9c3a7fd22a40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[1]/preceding::span[1]</value>
+      <webElementGuid>63e35864-eefa-4902-a4e0-3436571c8a38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pendapatan yang kamu masukkan terlalu rendah']/parent::*</value>
+      <webElementGuid>9c342dd8-bbf4-4a75-b1f5-12d88bd2aaa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div/div[2]/span</value>
+      <webElementGuid>1779147f-021c-4e39-a44b-2aeaa0b71eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pendapatan yang kamu masukkan terlalu rendah' or . = 'Pendapatan yang kamu masukkan terlalu rendah')]</value>
+      <webElementGuid>6340557d-b87a-43aa-a1ed-eaea3c3b71f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
