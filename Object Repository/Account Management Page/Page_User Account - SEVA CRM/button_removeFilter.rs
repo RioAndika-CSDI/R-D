@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div/div/div/button/div[1]</value>
+         <value>//div[@class=&quot;cursor-pointer&quot;]//*[@id=&quot;Close&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
