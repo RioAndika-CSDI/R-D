@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_article_rh_2</name>
+   <name>card_astra_auto_fest</name>
    <tag></tag>
-   <elementGuidId>5db93297-e12e-468d-9a29-c55da0e45579</elementGuidId>
+   <elementGuidId>f93483cf-15c4-4b9a-9d8c-ffbefa662ee0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
+         <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
-      <webElementGuid>edf930ba-6093-4911-87e3-28c237f67b28</webElementGuid>
+      <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
+      <webElementGuid>7086edce-0529-4c5a-9a97-310028d732a9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

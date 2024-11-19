@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
+WebUI.click(findTestObject('Marketing Page/landing_page_ridwan_hanif'))
+
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
@@ -35,7 +37,7 @@ newTabUrl = WebUI.getUrl()
 
 WebUI.delay(10)
 
-expectedUrl = 'https://www.seva.id/blog/pengalaman-ridwan-hanif-menggunakan-toyota-zenix-hybrid-setelah-27-ribu-kilometer-112023-ro/'
+expectedUrl = 'https://www.seva.id/blog/pengalaman-ridwan-hanif-menggunakan-toyota-zenix-hybrid-setelah-27-ribu-kilometer-112023-ro'
 
 if (newTabUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

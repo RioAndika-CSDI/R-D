@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_article_rh_2</name>
+   <name>leads_form_rh</name>
    <tag></tag>
-   <elementGuidId>5db93297-e12e-468d-9a29-c55da0e45579</elementGuidId>
+   <elementGuidId>9e8813a9-afe8-48fd-a1e5-6fbb4c9f3da4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
+         <value>//*[@class=&quot;leadsFormPrimary_foreground__gJa9b&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
-      <webElementGuid>edf930ba-6093-4911-87e3-28c237f67b28</webElementGuid>
+      <value>//*[@class=&quot;leadsFormPrimary_foreground__gJa9b&quot;]</value>
+      <webElementGuid>9e6b7ef0-0cbf-4704-97ac-63934f0b973c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

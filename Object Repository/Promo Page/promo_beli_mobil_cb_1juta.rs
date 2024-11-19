@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][2]</value>
+         <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='mt-[18px]']//*[@class='bg-[white]  rounded-[16px] w-full desktop:h-[100%] flex flex-col  gap-[20px] relative mb-[20px]'][2]</value>
-      <webElementGuid>53951076-0f1a-492f-aa2a-a7ef6f330391</webElementGuid>
+      <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][5]</value>
+      <webElementGuid>97910f50-c11f-45ca-9e71-6998b1442cdf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -33,9 +33,13 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_bar
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Leads PLP/btn_leads_floating'))
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Leads PLP/input_nama_leads'), 'Ditha Testing Pd')
 
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Leads PLP/input_nomor_leads'), '87805428944')
+
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Leads PLP/checkbox_leads'))
 
 WebUI.delay(3)
 

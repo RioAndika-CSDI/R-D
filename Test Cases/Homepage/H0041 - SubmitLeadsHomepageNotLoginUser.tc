@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>H0040 - SubmitLeadsHomepageNotLoginUser</name>
+   <name>H0041 - SubmitLeadsHomepageNotLoginUser</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2107c71c-91eb-4f68-9ff2-c3ba50756407</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

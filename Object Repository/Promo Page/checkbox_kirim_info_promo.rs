@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_article_rh_2</name>
+   <name>checkbox_kirim_info_promo</name>
    <tag></tag>
-   <elementGuidId>5db93297-e12e-468d-9a29-c55da0e45579</elementGuidId>
+   <elementGuidId>ffa886b0-6f78-4887-8023-92e0c495bb36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
+         <value>//*[@class=&quot;consent-checkbox&quot;]//*[@id=&quot;consent-promo-mobile&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
-      <webElementGuid>edf930ba-6093-4911-87e3-28c237f67b28</webElementGuid>
+      <value>//*[@class=&quot;consent-checkbox&quot;]//*[@id=&quot;consent-promo-mobile&quot;]</value>
+      <webElementGuid>d53a7d35-ca85-49ed-a72b-6a421b0a0f3e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

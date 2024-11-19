@@ -19,18 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Marketing Page/btn_float_earphone'))
+
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Marketing Page/input_leads_nama'), 'Ditha Testing Prod')
 WebUI.setText(findTestObject('Marketing Page/input_leads_no_hp'), '87803827790')
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Leads PLP/checkbox_leads'))
 
 WebUI.delay(3)
 

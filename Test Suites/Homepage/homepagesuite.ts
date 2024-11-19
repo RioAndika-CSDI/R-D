@@ -78,14 +78,14 @@
       <guid>63dcad67-082e-4f07-9103-a1f7080ec2b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7c72b94d-e422-4bbf-8407-bf1c41b7c616</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -295,7 +295,7 @@
       <guid>0a1e89e9-70cf-4bfb-b864-a536eb4c763c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0040 - SubmitLeadsHomepageNotLoginUser</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0041 - SubmitLeadsHomepageNotLoginUser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -308,21 +308,21 @@
       <guid>ada5375d-3e56-4c61-b8f7-bc87bd00c93f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0041 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0042 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f0f3c42c-c08c-4447-8853-eeade4b8d948</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0042 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0043 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b6fc26a1-1649-41af-a663-647cea03f46d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0044 - Verify User Can Access SEVA Bottom Widget</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0046 - Verify User Can Access SEVA Bottom Widget</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

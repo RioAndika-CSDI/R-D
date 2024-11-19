@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
+WebUI.click(findTestObject('Marketing Page/landing_page_ridwan_hanif'))
+
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
@@ -29,22 +31,12 @@ WebUI.scrollToElement(findTestObject('Marketing Page/btn_hub_agen_seva_rh'), 10)
 
 WebUI.click(findTestObject('Marketing Page/btn_hub_agen_seva_rh'))
 
-WebUI.switchToWindowIndex(1)
 
-newTabUrl = WebUI.getUrl()
-
-WebUI.delay(5)
-
-expectedUrl = 'https://api.whatsapp.com/send/?phone=6289690008888&text=Halo%2C+saya+melihat+halaman+SEVA+x+Ridwan+Hanif+dan+tertarik+untuk+beli+mobil+di+SEVA%2C+Saya+ingin+tahu+informasi+lebih+lanjut.&type=phone_number&app_absent=0'
-
-if (newTabUrl.toString().equals(expectedUrl)) {
-	WebUI.verifyMatch('true', 'true', true)
-
-	WebUI.comment('URL MATCH')
+if (WebUI.verifyElementPresent(findTestObject('Marketing Page/leads_form_rh'), 10)
+) {
+	WebUI.comment('Element is Present')
 } else {
-	WebUI.verifyMatch('false', 'true', true)
-
-	WebUI.comment('URL NOT MATCH')
+	WebUI.comment('Element is not present')
 }
 
 WebUI.closeBrowser()

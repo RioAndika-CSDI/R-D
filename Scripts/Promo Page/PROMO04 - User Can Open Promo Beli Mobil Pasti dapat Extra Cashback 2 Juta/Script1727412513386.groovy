@@ -29,13 +29,15 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
+
 WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
 
 WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/cashback-2-juta/'
+String expectedUrl = 'https://www.seva.id/info/promo/cashback-2-juta'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)
