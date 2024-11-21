@@ -4,5 +4,6 @@
    <name>MP06 - Ridwan Hanif - User Can See SEVA FAQ</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1f142d34-c878-425f-8825-2220ca28a854</testCaseGuid>
 </TestCaseEntity>

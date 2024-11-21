@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Promo Page/dropdown_text_terbaru'))
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/?order=terbaru'
+String expectedUrl = 'https://www.seva.id/info/promo?order=terbaru'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

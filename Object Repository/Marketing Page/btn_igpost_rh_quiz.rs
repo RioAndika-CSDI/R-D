@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='instagramPost_container__ghWgz']</value>
+         <value>//*[@class='ridwanHanifUpdate_instagramPostContainerSingle__OzrHx']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='instagramPost_container__ghWgz']</value>
-      <webElementGuid>01169566-500d-447a-be6e-56fd2c7fc114</webElementGuid>
+      <value>//*[@class='ridwanHanifUpdate_instagramPostContainerSingle__OzrHx']</value>
+      <webElementGuid>af3cdb22-b87c-4ddd-a84c-ec2fc1a68316</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -37,13 +37,13 @@ WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Promo Page/card_layanan_surat_kendaraan'))
+WebUI.click(findTestObject('Promo Page/card_astra_auto_fest'))
 
 WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/mudahnya-perpanjang-stnk-di-seva/'
+String expectedUrl = 'https://www.seva.id/info/promo/astra-autofest'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

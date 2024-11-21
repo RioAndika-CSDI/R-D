@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='order_dropdown absolute right-0 w-[328px] bg-[white] border border-[#e4e9f1] rounded-[16px] top-[64px] p-[9px]']//*[@class='text-left w-full px-[12px] py-[9px] rounded-[10px] hover:bg-[#def1fa] hover:font-bold'][1]</value>
+         <value>//*[@class='order_dropdown absolute right-0 w-[328px] bg-[white] border border-[#e4e9f1] rounded-[16px] top-[64px] p-[9px]']//*[@class='text-left w-full px-[12px] py-[9px] rounded-[10px] hover:bg-[#def1fa] hover:font-bold'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='order_dropdown absolute right-0 w-[328px] bg-[white] border border-[#e4e9f1] rounded-[16px] top-[64px] p-[9px]']//*[@class='text-left w-full px-[12px] py-[9px] rounded-[10px] hover:bg-[#def1fa] hover:font-bold'][1]</value>
-      <webElementGuid>f14816cf-5f11-4a1a-b2d1-21349b6e03cc</webElementGuid>
+      <value>//*[@class='order_dropdown absolute right-0 w-[328px] bg-[white] border border-[#e4e9f1] rounded-[16px] top-[64px] p-[9px]']//*[@class='text-left w-full px-[12px] py-[9px] rounded-[10px] hover:bg-[#def1fa] hover:font-bold'][2]</value>
+      <webElementGuid>72d31fb3-4ee5-49f6-89c8-144d6f6d508f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

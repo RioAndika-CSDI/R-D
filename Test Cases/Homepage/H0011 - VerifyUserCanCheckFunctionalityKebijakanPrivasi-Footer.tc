@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</name>
+   <name>H0011 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>210d1047-639f-4f7f-aba0-f2a662e28bc8</testCaseGuid>
 </TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][2]//*[@class='menuList_menu__b7Ngl']</value>
+         <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][3]//*[@class='menuList_menu__b7Ngl']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][2]//*[@class='menuList_menu__b7Ngl']</value>
-      <webElementGuid>6213292e-34f5-43ca-a0df-487b36af55dd</webElementGuid>
+      <value>//*[@class='menuList_menuContainer__AnYdr'][2]//*[@class='menuList_parentMenu__C1joT'][3]//*[@class='menuList_menu__b7Ngl']</value>
+      <webElementGuid>e774e332-fc2d-4b01-933f-cd0281b55c48</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
