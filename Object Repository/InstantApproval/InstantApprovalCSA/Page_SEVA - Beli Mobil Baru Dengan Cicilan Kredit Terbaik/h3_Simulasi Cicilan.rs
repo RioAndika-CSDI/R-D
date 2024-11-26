@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Simulasi Cicilan</name>
+   <tag></tag>
+   <elementGuidId>bbbaa02e-50fc-474d-a10c-5ad565434024</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3.cardVariantOptions_title__bCm_7</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Simulasi Cicilan' or . = 'Simulasi Cicilan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>4e85a2ca-fd1d-4b99-8ddf-0e864ab83858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardVariantOptions_title__bCm_7</value>
+      <webElementGuid>06971563-6d1a-413f-9af9-9357849c0cd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasi Cicilan</value>
+      <webElementGuid>9f997baf-a21f-4eda-a855-b7b2d8153bb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;lcNewCarGenerateIa_content__Ay2NT&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[1]/h3[@class=&quot;cardVariantOptions_title__bCm_7&quot;]</value>
+      <webElementGuid>5e116b63-f8c1-4e84-a964-dbd8284fb36d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div/h3</value>
+      <webElementGuid>d8ac44e3-9588-4910-bb65-bda925c762f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan Customer'])[1]/following::h3[1]</value>
+      <webElementGuid>a367392a-0378-471c-9fd7-b914afcdfba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/following::h3[1]</value>
+      <webElementGuid>e582212c-4a78-41df-a6eb-907776c14611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BYD Atto 3'])[2]/preceding::h3[1]</value>
+      <webElementGuid>a7e130ad-bfec-4f7f-8e3d-4e80ae514d95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='di Surabaya'])[1]/preceding::h3[1]</value>
+      <webElementGuid>7abb9cf6-ebaf-4e69-b894-48a3fd0f3074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simulasi Cicilan']/parent::*</value>
+      <webElementGuid>e8603a47-b2e2-4b4d-9b6f-aadd09600e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>5d540651-574e-42a3-93a8-a203f9af76ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Simulasi Cicilan' or . = 'Simulasi Cicilan')]</value>
+      <webElementGuid>c4c7ba09-5990-44e1-8b30-3ac1ed6e75d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

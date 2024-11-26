@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>percentage</name>
+   <tag></tag>
+   <elementGuidId>b3b0a365-82f6-4885-9804-996353550055</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputWithIcon_inputArea__n1wI7.false.false.dpFormWithPercentage_additionalInputWithIconInputAreaClassname__xBBJ2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '%' or . = '%')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-generate-ia-form-dp']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6cf1fe3d-1e2b-4557-aef9-e0dccc53954e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputWithIcon_inputArea__n1wI7 false false dpFormWithPercentage_additionalInputWithIconInputAreaClassname__xBBJ2</value>
+      <webElementGuid>013f8fa9-fabc-4de3-93ae-9c570ea637f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>%</value>
+      <webElementGuid>6afe6d7d-636d-4279-afb4-4177f6dd9c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-dp&quot;)/div[@class=&quot;dpFormWithPercentage_wrapper__uK_Vx&quot;]/div[@class=&quot;dpFormWithPercentage_inputGroup__wkV0p&quot;]/div[@class=&quot;inputWithIcon_container__g3dBI dpFormWithPercentage_additionalInputWithIconContainerClassname__aYM7A&quot;]/div[@class=&quot;inputWithIcon_inputArea__n1wI7 false false dpFormWithPercentage_additionalInputWithIconInputAreaClassname__xBBJ2&quot;]</value>
+      <webElementGuid>e8c524d8-01d7-4f10-93d5-c45188cca999</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-dp']/div/div/div/div</value>
+      <webElementGuid>2936d7ac-ead8-4038-9c82-9f83ea140e74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::div[3]</value>
+      <webElementGuid>a5f1f054-7cdf-490e-b565-1ca5eacdabc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::div[3]</value>
+      <webElementGuid>f1e313fc-ce9b-497c-8aa4-5fc8191c27ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perusahaan Pembiayaan'])[1]/preceding::div[7]</value>
+      <webElementGuid>d7121434-63b6-4337-b02c-e4dd00972fe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div</value>
+      <webElementGuid>20a26920-149d-4989-ae22-937a3de4c841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '%' or . = '%')]</value>
+      <webElementGuid>2d3697c8-81bd-450e-aee0-a2da92918950</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

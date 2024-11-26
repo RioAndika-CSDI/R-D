@@ -12,7 +12,50 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>508284ac-ea74-4187-a0c5-8b931ec17dba</testSuiteGuid>
    <testCaseLink>
-      <guid>1dca4085-4e60-4f20-8eea-647779f8e48d</guid>
+      <guid>06a1887a-d9f5-41cc-998d-8eef7a816324</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA001 - Verify User Can Submit Instant Approval</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6efb618b-97c5-492c-af77-cb7babc7f6fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8edc4e6-7d78-4cc4-9b55-503d400d3ddb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a3ddae7-59dc-4e31-9db8-e6bc7f814365</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac1121b4-f487-42a4-9405-102ac72a23bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>391545e3-3c4d-4da8-95cd-c966109da6b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>527be1bd-5f15-4ac8-920f-8d74e3a3ad6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA002 - Edit KTP</testCaseId>
@@ -49,14 +92,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>648bd014-e48c-430a-ad8c-4824059bd456</guid>
+      <guid>f489f8b5-4caf-4056-a536-de38639b3baf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA003 - KTP Review - Checklist Kota Domisili</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1cc79f5-312b-4703-a6f6-081cff6154c0</guid>
+      <guid>133e8d64-9e11-4479-917f-8de3ec53389c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA004 - KTP Review - Select Kota Domisili</testCaseId>
@@ -69,7 +112,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2fbfae8d-5629-47a7-b41e-86d84b115949</guid>
+      <guid>a84d1d00-9c16-4666-97da-a0031f5db04b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA005 - Pilih Perusahaan Pembiayaan - Check SnK</testCaseId>
@@ -82,7 +125,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a545a948-d8a2-48da-9935-b84bece7d5c5</guid>
+      <guid>c93ed511-646f-4a73-838e-a0450d23cb6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA006 - Pilih Perusahaan Pembiayaan - Unchecked Checkbox</testCaseId>
@@ -95,7 +138,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>77e190e1-dce6-46c2-b599-6d25222bd31f</guid>
+      <guid>70dfcff9-7654-47c0-9ddc-17a3cf6697ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA007 - Pilih Perusahaan Pembiayaan - Option Not Selected</testCaseId>
@@ -108,42 +151,42 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d443ef8-dd9a-499e-aeb4-9ffffef522bd</guid>
+      <guid>4bb38dd9-7dbd-493c-8b82-febdd738c3cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA008 - Pilih Perusahaan Pembiayaan - Syarat Ketentuan Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>91eb8303-becd-4500-bc57-2b6449c549e1</guid>
+      <guid>58cbb3d8-4c4c-44da-99c3-6038bec7ef29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA009 - Pilih Perusahaan Pembiayaan - Kebijakan Privasi Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8258462-7e98-4a28-acc6-3d7bdaea2a82</guid>
+      <guid>e947f058-11ab-4418-bc43-752d85b41541</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA010 - Instant Approval Review - Lihat Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63575c7f-3051-4592-95b0-fbb01df6f38c</guid>
+      <guid>c2ee3201-0a68-46f6-ad1e-29cce60e5601</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA011 - Ajukan Instant Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba66402f-cfe7-4e56-b6ed-441e008cdd14</guid>
+      <guid>76886b0f-8562-42e5-b622-dc587bbf6c8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA012 - IA Process - Click Riwayat Pengajuan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f846f83-aec8-4375-b557-824c1f35ac88</guid>
+      <guid>db6de498-f290-47ce-a8d7-2442f9950c9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA013 - IA Process - Click Cari Mobil Lain</testCaseId>

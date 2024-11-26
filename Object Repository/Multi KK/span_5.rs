@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_5</name>
+   <tag></tag>
+   <elementGuidId>0893b979-b81c-4e7f-8b5c-f164d3b44c1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c08b4d83-5cac-456d-af14-754e41caac34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>c53bca5a-36f7-473f-9ada-873d75a27f15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[3]/div[@class=&quot;tenureOptionWidget_containerTenure__3m5YW&quot;]/div[@class=&quot;tenureOptionWidget_box__FoPcT&quot;]/span[1]</value>
+      <webElementGuid>d26197f2-ae91-4fab-9dde-ee86eaf28e1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]/span</value>
+      <webElementGuid>fa67169b-5090-4d18-8b2a-839beaa0a5d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[5]/span</value>
+      <webElementGuid>85a71415-d2c1-4bc7-a483-abcb8e6918c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '5' or . = '5')]</value>
+      <webElementGuid>37ef3f45-b8ae-4b4b-b4b7-4174e831bd43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

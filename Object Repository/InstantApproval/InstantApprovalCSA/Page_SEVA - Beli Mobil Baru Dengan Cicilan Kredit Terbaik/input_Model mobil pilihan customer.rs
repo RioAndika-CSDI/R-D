@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Model mobil pilihan customer</name>
+   <tag></tag>
+   <elementGuidId>d3b90c07-022c-47b2-b3f6-fff30d0e50fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#loan-calculator-generate-ia-form-model > div.inputSelect_container__q11Yp.undefined > div.inputSelect_inputArea__QvNq3 > div.inputSelect_inputWrapper__hQnH0.undefined > input.inputSelect_inputField__Zpc6V</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Pilih merek dan model']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>3216f5f7-5afd-4350-94fd-055644110130</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>74f47bed-1f63-4f49-93f3-3d3b4baafa63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_inputField__Zpc6V</value>
+      <webElementGuid>aaec2248-ca7c-431b-bae0-f81c2dbbeccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pilih merek dan model</value>
+      <webElementGuid>d8c5662a-4e0b-4a02-a7c1-29f658f6eb0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-car-mobil</value>
+      <webElementGuid>93d43c9a-6a01-4655-b1f7-698e17fdb38e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-model&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
+      <webElementGuid>b953f286-57e0-4db5-b222-9303b0365765</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[5]</value>
+      <webElementGuid>572fe1d3-94b4-491a-a20b-100e2f180666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-model']/div[2]/div/div/input</value>
+      <webElementGuid>4cedb9f4-7f18-488b-8e64-a1f9fefbafaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/input</value>
+      <webElementGuid>17b4c0df-9ab3-4398-b4f7-d9b6612e4d67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Pilih merek dan model']</value>
+      <webElementGuid>de1bd83f-11f8-4d1d-8f34-41ab4fbf9a33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

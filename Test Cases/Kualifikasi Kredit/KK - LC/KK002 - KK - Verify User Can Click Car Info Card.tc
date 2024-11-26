@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>KK002 - KK - Verify User Can Click Car Info Card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>520a2dda-0dce-4a5f-bda2-b63b0fb4868d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5 Tahun'</defaultValue>
+      <description></description>
+      <id>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</id>
+      <masked>false</masked>
+      <name>tenor</name>
+   </variable>
+   <variable>
+      <defaultValue>'85349524555'</defaultValue>
+      <description></description>
+      <id>50899afb-8254-4d1d-bd42-98253ee48e7f</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>2b93c5a2-df6e-496c-bf26-64fcda608ec8</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

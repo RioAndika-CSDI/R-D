@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = '${tenor}' or . = '${tenor}')]</value>
+         <value>//*[starts-with(@class, 'calculationResultItem_priceText') and (text() = '${tenor}' or . = '${tenor}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,20 +21,20 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>005c88a5-a053-42b8-b870-c3cb566d26cd</webElementGuid>
+      <webElementGuid>4b432dc7-7b5f-4806-9a33-5f44a6e6b0d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>calculationResultItem_priceText__QvRuU</value>
-      <webElementGuid>6228a9e0-9396-4b70-9e25-ff9132e3bcc0</webElementGuid>
+      <value>calculationResultItem_priceText</value>
+      <webElementGuid>a623d52b-7a4c-47a7-a8e4-c43d992da7fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${tenor}</value>
-      <webElementGuid>0f568141-a4e3-47bc-83e9-ea29e35a816c</webElementGuid>
+      <webElementGuid>d0e8e582-7d40-4cd1-a3b9-61637c7747c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_listWrapper__HyHi3&quot;]/div[@class=&quot;calculationResultItem_container__Sszxu&quot;]/div[@class=&quot;calculationResultItem_detailSection__9qwEX calculationResultItem_detailSectionGreen__r4wxp&quot;]/div[@class=&quot;calculationResultItem_rankTenureInterestWrapper__1kHfK&quot;]/div[@class=&quot;calculationResultItem_tenureInterestWrapper__uM6TD&quot;]/span[@class=&quot;calculationResultItem_priceText__QvRuU&quot;]</value>
-      <webElementGuid>3c1b508a-9219-41fa-a368-9ee0c6b242fb</webElementGuid>
+      <webElementGuid>b3aa9ee6-d63d-4737-be0a-f00692321888</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/span</value>
-      <webElementGuid>123e3861-3d9a-471d-bc00-295d2b46872b</webElementGuid>
+      <webElementGuid>75738ada-192f-43da-b60e-bde158a43dd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal Untukmu'])[1]/following::span[1]</value>
-      <webElementGuid>688e6f2a-bc33-464b-95f2-b444bd4fe688</webElementGuid>
+      <webElementGuid>fabdc07e-2175-4ea4-add0-ada7a4815323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[1]/following::span[1]</value>
-      <webElementGuid>38fd807d-64c9-46a9-959b-1f8c23beb7da</webElementGuid>
+      <webElementGuid>d9dcd069-704d-46fd-b171-85f394565291</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp26.110.000'])[1]/preceding::span[1]</value>
-      <webElementGuid>52071399-7342-4d38-823f-f54a859e1d26</webElementGuid>
+      <webElementGuid>fd758c4d-8e32-44d4-b8d7-98c10406e9e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp30.110.000'])[1]/preceding::span[2]</value>
-      <webElementGuid>abe177f9-2521-496c-bb5f-dbdaf26d40da</webElementGuid>
+      <webElementGuid>f23f4e89-2507-4b9e-8b18-e0a61122af49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='5 Tahun']/parent::*</value>
-      <webElementGuid>cb269ef1-5baf-4c70-baec-f8c93249b443</webElementGuid>
+      <webElementGuid>f3b4b49f-8d96-4e8a-9e2a-8a149d0ee9f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div[2]/span</value>
-      <webElementGuid>0a0f0067-96fc-4085-85f0-e09204456712</webElementGuid>
+      <webElementGuid>74c85ddc-0007-4977-bc6c-9bd60d0f9ea3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '5 Tahun' or . = '5 Tahun')]</value>
-      <webElementGuid>4cb5c667-9165-42cf-a90e-7a3687e083e1</webElementGuid>
+      <webElementGuid>013d9bc4-1c18-4210-9f84-090b9a203c62</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

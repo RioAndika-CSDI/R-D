@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AdvancedRp475.000.000SEVA Dropdown Icon</name>
+   <tag></tag>
+   <elementGuidId>d7bd9849-3029-46a0-92c5-b06970a821d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-generate-ia-form-variant']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputMultilineSelect_inputArea__LD9YF</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>87dc512d-d3ca-4398-a385-6538abd87fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputMultilineSelect_inputArea__LD9YF</value>
+      <webElementGuid>2aca16d9-85ec-4ae7-bbf5-d5a15576b2bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdvancedRp475.000.000SEVA Dropdown Icon</value>
+      <webElementGuid>b9266cb1-9ae3-40bf-9ad1-18f98972322a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-variant&quot;)/div[@class=&quot;inputMultilineSelect_container__pfjb9&quot;]/div[@class=&quot;inputMultilineSelect_inputArea__LD9YF&quot;]</value>
+      <webElementGuid>54ff5a6c-0689-4f46-b82a-b5f631e33c54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-variant']/div[2]/div</value>
+      <webElementGuid>b4227cf1-a24d-49e4-9d99-8a5f10eee8bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Varian mobil'])[1]/following::div[2]</value>
+      <webElementGuid>66a83568-bcbf-4fe5-9985-ddfedb2edc94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wuling Cloud EV'])[1]/following::div[4]</value>
+      <webElementGuid>e978498d-13e4-4900-93c7-10f74ee6218d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp475.000.000'])[2]/preceding::div[4]</value>
+      <webElementGuid>af4356dc-3cd1-4211-82e8-c8c2e617e425</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp545.000.000'])[1]/preceding::div[6]</value>
+      <webElementGuid>15390ea0-7c9e-4b22-97e6-8781cc8c9c42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div</value>
+      <webElementGuid>8cdce3bc-8614-4c59-a484-9c94ea13f412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AdvancedRp475.000.000SEVA Dropdown Icon' or . = 'AdvancedRp475.000.000SEVA Dropdown Icon')]</value>
+      <webElementGuid>e39ecfbb-487f-4843-979a-89a5508b1cb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_car_model</name>
+   <tag></tag>
+   <elementGuidId>5f2a192e-c0e6-4a64-80dc-7f6587da7293</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '${car_model}']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='BYD Atto 3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>94babaff-8b7d-4956-8d05-9d1028655fb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${car_model}</value>
+      <webElementGuid>5ca28e0d-4715-4e2a-97a2-d29b26337329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__oStPv</value>
+      <webElementGuid>7b6b4a20-ff70-4439-bdb8-9ae70521af3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BYD Atto 3</value>
+      <webElementGuid>39a42530-2b59-46c2-8273-b0ea041688b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BYD Atto 3&quot;)</value>
+      <webElementGuid>de689b95-0a76-4502-8ab7-87082ada12d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='BYD Atto 3']</value>
+      <webElementGuid>2eb48885-e947-4ce4-b504-d10d5746842c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-model']/div[2]/div[2]/div[13]</value>
+      <webElementGuid>624673ad-735b-4995-beb6-88a48198a16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW X7 xDrive40i Opulence'])[1]/following::div[1]</value>
+      <webElementGuid>3036e327-0ec3-4b74-b902-13bfa4843994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW X5 xDrive40i X Line'])[1]/following::div[4]</value>
+      <webElementGuid>306f8c7e-e149-4e74-b8be-991a3ff2b1af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BYD Dolphin'])[1]/preceding::div[3]</value>
+      <webElementGuid>05ac3960-d903-4307-b3b8-2b4a14575530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[13]</value>
+      <webElementGuid>7f257299-ac37-40a6-bea4-4270d9758b33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'BYD Atto 3' and (text() = 'BYD Atto 3' or . = 'BYD Atto 3')]</value>
+      <webElementGuid>ae4d8cd3-529b-46df-b4e4-2c8f461aae1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

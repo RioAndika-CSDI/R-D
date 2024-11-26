@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_umur</name>
+   <tag></tag>
+   <elementGuidId>8a58df24-c442-43a7-8fb4-ff4c11477deb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItem') and @data-testid = 'field-pilih-kategori-umur-${age}' and @id = '${age}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem</value>
+      <webElementGuid>79ecd53e-2362-4a66-81e4-344c67156ffe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-pilih-kategori-umur-${age}</value>
+      <webElementGuid>1058754b-54a4-4dd2-b334-6c64b7e82579</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${age}</value>
+      <webElementGuid>124993a9-5b21-47d5-801b-fdfeb56a0216</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

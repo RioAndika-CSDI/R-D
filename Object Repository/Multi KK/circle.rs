@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>circle</name>
+   <tag></tag>
+   <elementGuidId>63731c2b-29fe-49b4-ab3c-a0541ade9904</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputSelect_iconWrapper__UIVlB > div > svg > circle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#loan-calculator-form-age circle</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>circle</value>
+      <webElementGuid>3753f276-7d1a-4748-8126-ef0f24ce9e39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cx</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>db992ce8-046a-44bd-b37e-bddf465ef876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cy</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>c1f1b343-22a9-47c4-aba0-683bbc05d60a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>r</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>8938b99e-b34e-4d3c-b381-f7eb10f65d80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#13131B</value>
+      <webElementGuid>aeb074b0-a491-406b-a2a0-40301db94194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-age&quot;)/div[@class=&quot;inputSelect_container__sv8Xm undefined&quot;]/div[@class=&quot;inputSelect_inputArea__gzgj4&quot;]/div[@class=&quot;inputSelect_iconWrapper__UIVlB&quot;]/div[1]/svg[1]/circle[1]</value>
+      <webElementGuid>8dea3bc0-4f80-4217-96b5-424439ca5a84</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
