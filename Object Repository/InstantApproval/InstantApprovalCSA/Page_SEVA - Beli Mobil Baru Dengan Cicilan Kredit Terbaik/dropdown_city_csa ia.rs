@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_city_csa ia</name>
+   <tag></tag>
+   <elementGuidId>512a56a4-2f01-4bb0-8af9-313683dbe922</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Surabaya</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'Surabaya']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Surabaya']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>92cc088b-18c3-4d92-84ac-077b82f2ce6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${city}</value>
+      <webElementGuid>299ef92b-17bf-4d88-a295-a8c29bdb444b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__oStPv inputSelect_active__MgNJZ</value>
+      <webElementGuid>71548bc9-ca4a-42a7-8691-566ddb40178a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Surabaya</value>
+      <webElementGuid>a1644dc5-5cc4-4e7d-8530-5c3b5bc19324</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-city&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO&quot;]/div[@id=&quot;Surabaya&quot;]</value>
+      <webElementGuid>a391d9f7-a8d6-4881-b4e0-8d1fa3a47cef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='Surabaya']</value>
+      <webElementGuid>05fe6f0a-11ac-410c-8589-3d4983637746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-city']/div/div[2]/div[3]</value>
+      <webElementGuid>9de00b67-ddfe-4777-a1df-f9279b5140c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/following::div[1]</value>
+      <webElementGuid>5dcf7ef5-3a5b-4dc0-b04f-2a1925d6d750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/following::div[4]</value>
+      <webElementGuid>8500d848-897a-4e7b-94bd-96c0cddc6f3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandung'])[1]/preceding::div[3]</value>
+      <webElementGuid>8591d0f1-0fc9-4971-8e7e-9cd2dfc575ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div[3]</value>
+      <webElementGuid>07751225-0cc6-4ab0-aeb2-aeb70ad1b0e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'Surabaya' and (text() = 'Surabaya' or . = 'Surabaya')]</value>
+      <webElementGuid>611fc0f9-52ba-4329-bf4d-e5bde598db0c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

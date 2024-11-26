@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Instant Approval/IA - Loan Calculator/IA011 - Ajukan Instant Approval'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Instant Approval/IA - Loan Calculator/IA001 - Verify User Can Submit Instant Approval'), 
+    [('kota') : 'Jakarta Pusat', ('marriage') : 'Belum Kawin', ('dob_year') : '1990', ('dob_month') : 'Desember', ('dob_day') : '29'
+        , ('perusahaan_pembiayaan') : 'ACC (Astra Credit Companies)'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Cari Mobil Lain - ia_process'))
 

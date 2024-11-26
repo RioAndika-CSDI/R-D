@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Link tersalin</name>
+   <tag></tag>
+   <elementGuidId>e900c7a9-90b5-4b7e-beb9-2222b3e5842e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/button/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-float-btn-description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e9fa5dc-e2dd-422a-9587-39de06b34ae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-float-btn-description</value>
+      <webElementGuid>808d2975-0147-479b-aae1-fba53cb0d3a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Link tersalin.</value>
+      <webElementGuid>59b7bacf-9eb8-41d1-a533-49b42a701e26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/button[@class=&quot;css-1fumvat ant-float-btn csa-button float-success-generated-link ant-float-btn-default ant-float-btn-circle&quot;]/div[@class=&quot;ant-float-btn-body&quot;]/div[@class=&quot;ant-float-btn-content&quot;]/div[@class=&quot;ant-float-btn-description&quot;]</value>
+      <webElementGuid>21f38926-d927-48bb-9fc2-1ba5c468f8f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/button/div/div/div[2]</value>
+      <webElementGuid>1d84e8be-1d01-4034-aeac-bf100691bdf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[6]</value>
+      <webElementGuid>bb0db6e8-8895-4d4a-b533-823f8f41c4d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::div[8]</value>
+      <webElementGuid>3837e354-6704-4edc-b8d7-8692b8d11ca6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[1]</value>
+      <webElementGuid>dcea9521-6396-416b-bf12-22f830c41820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[1]</value>
+      <webElementGuid>76bf0169-c2f0-4b63-ab5f-c335a4bd1eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Link tersalin.']/parent::*</value>
+      <webElementGuid>938478f4-dd63-4fbb-809b-17ff6e1fa138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/div/div[2]</value>
+      <webElementGuid>2878627e-227f-447f-befb-025687b9f912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Link tersalin.' or . = 'Link tersalin.')]</value>
+      <webElementGuid>204829b9-6b2b-40e1-a958-50eaf893aa5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CRM Leads ID</name>
+   <tag></tag>
+   <elementGuidId>c0530371-f8b1-4b30-9c30-fc050d1602f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#loan-calculator-generate-ia-form-zoho > div.undefined.undefined > input.input_input__c0tP8</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Masukkan CRM Leads ID' and @type = 'tel']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>610011a0-6bbd-4eca-8659-110c9c8fd699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_input__c0tP8</value>
+      <webElementGuid>1f586be9-48c4-4d0d-8062-60bcad840418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan CRM Leads ID</value>
+      <webElementGuid>8b84b31b-dbac-4040-ab10-802eed20c45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>00596aac-85e8-40ff-8f2a-c1732b7846e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-zoho&quot;)/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__c0tP8&quot;]</value>
+      <webElementGuid>fe2a35be-09c7-4955-a6ce-caaa6ad9ff71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>12c6c39e-e8be-47e5-afff-615b60e9700d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-zoho']/div/input</value>
+      <webElementGuid>a4abbade-1f8a-4e05-96e1-145a9ff218da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>21ae96b3-ece0-4dd1-aa24-4ac4dc499478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan Zoho ID customer' and @type = 'tel']</value>
+      <webElementGuid>94607ba3-301b-4b08-89c9-1272c22c1162</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

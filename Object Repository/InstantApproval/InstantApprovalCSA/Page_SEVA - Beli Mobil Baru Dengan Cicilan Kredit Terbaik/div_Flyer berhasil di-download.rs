@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Flyer berhasil di-download</name>
+   <tag></tag>
+   <elementGuidId>3d199a3e-8d01-451b-922b-3ee235d55518</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/button/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-float-btn-description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>673a6ff5-7ff9-4f18-a827-d0d8a5a97260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-float-btn-description</value>
+      <webElementGuid>594280ed-9d9a-4a80-a18a-f7f354c2f27d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flyer berhasil di-download.</value>
+      <webElementGuid>76e478d5-b228-40e2-a8dc-9cb177f970ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/button[@class=&quot;css-1fumvat ant-float-btn csa-button float-success-generated-link ant-float-btn-default ant-float-btn-circle&quot;]/div[@class=&quot;ant-float-btn-body&quot;]/div[@class=&quot;ant-float-btn-content&quot;]/div[@class=&quot;ant-float-btn-description&quot;]</value>
+      <webElementGuid>a3a4027e-144b-4e25-8f92-c0d668c6ddef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/button/div/div/div[2]</value>
+      <webElementGuid>c155934b-568a-4d8e-9047-21fc4645100a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[6]</value>
+      <webElementGuid>4a0334dd-78f7-4a71-b328-110db8b511e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::div[8]</value>
+      <webElementGuid>2b9c6064-0fe1-4248-9614-36156307f43c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[1]</value>
+      <webElementGuid>9ed5e942-e5d8-47a6-8437-b0dc3df5761f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[1]</value>
+      <webElementGuid>9f8e5438-de49-45ff-b76e-381aef52a389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Flyer berhasil di-download.']/parent::*</value>
+      <webElementGuid>74844f49-d127-4e24-8d22-7a66ff4b435b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/div/div[2]</value>
+      <webElementGuid>79ee7857-a124-40a5-9ffe-84efc0c03b5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Flyer berhasil di-download.' or . = 'Flyer berhasil di-download.')]</value>
+      <webElementGuid>cd447154-0434-47f6-baca-e801ac527a1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

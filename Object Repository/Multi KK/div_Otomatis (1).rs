@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Otomatis (1)</name>
+   <tag></tag>
+   <elementGuidId>700dfa49-4268-4278-aa50-af21d4b97a70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'tenureOptionWidget_box') and (text() = '${transmisi}' or . = '${transmisi}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9dee2da7-7624-4ce3-b199-5f7a45c60cf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tenureOptionWidget_box</value>
+      <webElementGuid>2b39385a-258d-48b6-83b1-447d25bce617</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${transmisi}</value>
+      <webElementGuid>0bf4571b-b91e-4f8c-b8ee-7803621158de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[4]/div[@class=&quot;tenureOptionWidget_containerTenure__x0PJy&quot;]/div[@class=&quot;tenureOptionWidget_box__GvHGI&quot;]</value>
+      <webElementGuid>de3ebd50-c6f7-4cb3-ae5a-e0150f9043c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div[2]</value>
+      <webElementGuid>a69f2ce3-2eca-42c1-892e-7f564c127c63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manual'])[1]/following::div[1]</value>
+      <webElementGuid>6b8dbe4d-792c-4faa-85cc-86d9c0b4e7b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/following::div[3]</value>
+      <webElementGuid>df0e7f15-7f5b-4061-ae6a-ff7afd655e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerjaan'])[1]/preceding::div[1]</value>
+      <webElementGuid>77eac313-3de5-4d9f-94d3-7f04a6e1c51d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/div/div[2]</value>
+      <webElementGuid>fd28394f-593a-4920-b168-624e82edb8b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Otomatis' or . = 'Otomatis')]</value>
+      <webElementGuid>1387bf9d-e9a9-4ab3-b15b-ab448519d26e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

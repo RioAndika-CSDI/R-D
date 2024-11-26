@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IA001 - Verify User Can Submit Instant Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e7cff72-4057-4c9d-a7c8-f1e21b30c69f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6efb618b-97c5-492c-af77-cb7babc7f6fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8edc4e6-7d78-4cc4-9b55-503d400d3ddb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a3ddae7-59dc-4e31-9db8-e6bc7f814365</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac1121b4-f487-42a4-9405-102ac72a23bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>391545e3-3c4d-4da8-95cd-c966109da6b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Pusat'</defaultValue>
+      <description></description>
+      <id>6efb618b-97c5-492c-af77-cb7babc7f6fe</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+   <variable>
+      <defaultValue>'Belum Kawin'</defaultValue>
+      <description></description>
+      <id>e8edc4e6-7d78-4cc4-9b55-503d400d3ddb</id>
+      <masked>false</masked>
+      <name>marriage</name>
+   </variable>
+   <variable>
+      <defaultValue>'1990'</defaultValue>
+      <description></description>
+      <id>5a3ddae7-59dc-4e31-9db8-e6bc7f814365</id>
+      <masked>false</masked>
+      <name>dob_year</name>
+   </variable>
+   <variable>
+      <defaultValue>'Desember'</defaultValue>
+      <description></description>
+      <id>ac1121b4-f487-42a4-9405-102ac72a23bb</id>
+      <masked>false</masked>
+      <name>dob_month</name>
+   </variable>
+   <variable>
+      <defaultValue>'29'</defaultValue>
+      <description></description>
+      <id>391545e3-3c4d-4da8-95cd-c966109da6b7</id>
+      <masked>false</masked>
+      <name>dob_day</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACC (Astra Credit Companies)'</defaultValue>
+      <description></description>
+      <id>e3d0b1af-c5ce-4fd4-9593-2ab4268614b6</id>
+      <masked>false</masked>
+      <name>perusahaan_pembiayaan</name>
+   </variable>
+</TestCaseEntity>

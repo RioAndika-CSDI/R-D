@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nama Customer_input_input__c0tP8</name>
+   <tag></tag>
+   <elementGuidId>835bce51-8a32-4005-b8bc-3a2110379285</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#loan-calculator-generate-ia-form-customer > div.undefined.undefined > input.input_input__c0tP8</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Masukkan nama lengkap customer']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8ac973b7-2dd4-4f2b-a29b-968909c9ce99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_input__c0tP8</value>
+      <webElementGuid>7f2ff62f-c70f-4fa8-b9d9-efc7a6f10bbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan nama lengkap customer</value>
+      <webElementGuid>e342ad66-2dab-4aff-bdc5-876409be6fcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-generate-ia-form-customer&quot;)/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__c0tP8&quot;]</value>
+      <webElementGuid>2776bd8c-fab3-4772-80b4-b4266c714647</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[4]</value>
+      <webElementGuid>e9b82157-a473-4d6d-be78-cf2825a9f8c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-generate-ia-form-customer']/div/input</value>
+      <webElementGuid>2067e33e-5ba8-4167-95b8-e7448a88ded4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>bcf43b86-bde4-4328-918a-f2d6361c06df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan nama lengkap customer']</value>
+      <webElementGuid>7f53e29d-f698-4513-a9dd-f0fa8eaa5b1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

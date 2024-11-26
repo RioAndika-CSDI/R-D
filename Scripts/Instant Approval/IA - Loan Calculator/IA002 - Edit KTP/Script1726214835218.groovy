@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK004 - Kualifikasi Kredit Review'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/KK001 - Verify User Can Check Kualifikasi Kredit From LC - Not Login'), 
+    [('tenor') : '5 Tahun', ('nomorHP') : '85349524556', ('OTP') : '212121', ('pekerjaan') : 'Desainer & Pekerja Seni', ('pendapatan') : '25000000'
+        , ('reff_code') : '', ('update_pendapatan') : '0', ('update_reff_code') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Lanjut Instant Approval'))
 
