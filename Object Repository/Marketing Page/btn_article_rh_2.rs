@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='articleItem_container__g3b6o'][2]</value>
+         <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='articleItem_container__g3b6o'][2]</value>
-      <webElementGuid>3c41304f-b161-474e-86b7-ba9d6dcc746c</webElementGuid>
+      <value>//*[@class='articleItem_containerUspm__y9dxk'][2]</value>
+      <webElementGuid>edf930ba-6093-4911-87e3-28c237f67b28</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

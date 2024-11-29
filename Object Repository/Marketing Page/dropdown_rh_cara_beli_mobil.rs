@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][2]</value>
+         <value>//*[@class='ridwanHanifFaq_detail__G6niX'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][2]</value>
-      <webElementGuid>36273ab7-8e00-4bc9-85fa-375e58e4dfa0</webElementGuid>
+      <value>//*[@class='ridwanHanifFaq_detail__G6niX'][2]</value>
+      <webElementGuid>39db636c-ebd7-4aae-bd1e-713b322e81fb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

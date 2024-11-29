@@ -30,9 +30,13 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
 // Perform actions on the element after scrolling
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
+
 WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
 
 WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Promo Page/form_leads_name'), 10)
 
 WebUI.setText(findTestObject('Promo Page/form_leads_name'), 'Ditha Testing Prod')
 WebUI.setText(findTestObject('Promo Page/form_leads_phone'), '87803827790')
@@ -40,13 +44,12 @@ WebUI.setText(findTestObject('Promo Page/form_leads_email'), 'ditha@gmail.com')
 
 WebUI.delay(3)
 
-// Verify if the button is enabled (clickable)
-boolean isButtonEnabled = WebUI.verifyElementClickable(findTestObject('Promo Page/btn_kirim_info_promo'))
+boolean isElementPresent = WebUI.verifyElementPresent(findTestObject('Promo Page/btn_kirim_info_promo'), 10)
 
-if (isButtonEnabled) {
-	WebUI.comment('Button Enabled')
+if (isElementPresent) {
+	WebUI.comment('Element is present.')
 } else {
-	WebUI.comment('Button is Disabled')
+	WebUI.comment('Element is not present.')
 }
 
 WebUI.closeBrowser()

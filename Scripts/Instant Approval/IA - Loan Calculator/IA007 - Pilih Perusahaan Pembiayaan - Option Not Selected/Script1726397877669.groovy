@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('Instant Approval/IA - Loan Calculator/IA003 - KTP Review - Checklist Kota Domisili'), [:],
-	FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('Instant Approval/IA - Loan Calculator/IA003 - KTP Review - Checklist Kota Domisili'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

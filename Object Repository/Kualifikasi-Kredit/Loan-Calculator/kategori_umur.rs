@@ -13,20 +13,16 @@
          <key>CSS</key>
          <value>#loan-calculator-form-age > div.inputSelect_container__q11Yp.undefined > div.inputSelect_inputArea__QvNq3 > div.inputSelect_inputWrapper__hQnH0.undefined > input.inputSelect_inputField__Zpc6V</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'inputSelect_inputField__Zpc6V' and @placeholder = 'Pilih kategori umur' and @data-testid = 'button-kategori-umur']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>87f0ef12-6720-44a5-a32c-b8bbd48a482f</webElementGuid>
+      <webElementGuid>d96e2a4e-e926-4651-9da9-f9af053982f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>226770ac-7377-478b-83b0-6cced1cc05cb</webElementGuid>
+      <webElementGuid>b732ce08-c5c5-4e65-9f91-84a5f13070fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField__Zpc6V</value>
-      <webElementGuid>d26c8733-8c73-4f72-bb5f-c65df07204b8</webElementGuid>
+      <webElementGuid>bf0e986c-8851-43ba-b3b6-401a8cd57b3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,15 +46,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih kategori umur</value>
-      <webElementGuid>a53eb926-1598-43d1-af8f-88d12b67c61e</webElementGuid>
+      <webElementGuid>6ad63624-dd7a-43ec-b1b7-3847e6c6f5ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>button-kategori-umur</value>
-      <webElementGuid>11922c82-5703-4a7f-a722-af2356495325</webElementGuid>
+      <webElementGuid>72de0e5c-eaa6-4a09-8809-6c4a071bfe1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-age&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
-      <webElementGuid>86dedaed-62fc-4214-8408-373cf6f9d8aa</webElementGuid>
+      <webElementGuid>fb160be8-e1e2-4b9b-ae82-e31a14b0938c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[6]</value>
-      <webElementGuid>7b72ecdb-a8f0-4d7e-a158-607727c23faa</webElementGuid>
+      <webElementGuid>b5f43fbb-c701-4e41-9191-bc829db3a935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-age']/div/div/div/input</value>
-      <webElementGuid>2c0e3629-bcd3-444b-bead-a5c67a137dff</webElementGuid>
+      <webElementGuid>085642cc-14b4-4be6-8a65-946c044dd676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div[2]/div/div/div/input</value>
-      <webElementGuid>e09219ef-99d4-41aa-b166-7c11a156b209</webElementGuid>
+      <webElementGuid>6dd26885-d8a7-49d4-8070-0d3f1fcb2d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih kategori umur']</value>
-      <webElementGuid>a3635e1d-d12a-470d-9be6-74d6c329be03</webElementGuid>
+      <webElementGuid>cf0dbdbd-628e-433d-968c-e47b4d70032d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

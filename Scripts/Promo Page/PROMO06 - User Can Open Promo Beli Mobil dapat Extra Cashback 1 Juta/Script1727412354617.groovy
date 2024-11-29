@@ -39,7 +39,7 @@ WebUI.delay(5)
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/cashback-bank-saqu/'
+String expectedUrl = 'https://www.seva.id/info/promo/cashback-bank-saqu'
 
 if(currentUrl.toString().equals(expectedUrl)) {
 	WebUI.verifyMatch('true', 'true', true)

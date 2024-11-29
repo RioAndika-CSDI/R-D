@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit
 WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_tertinggi'), 'Rp400.000.000')
 
 'maksimum DP field'
-WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rp2.659.100.000_downPaymentAmount'), 
+WebUI.setText(findTestObject('Object Repository/Multi KK/input_Rp2.659.100.000_downPaymentAmount'), 
     'Rp60.000')
 
 'error message'

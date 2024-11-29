@@ -13,12 +13,8 @@
          <key>CSS</key>
          <value>#28-34</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[starts-with(@class, 'inputSelect_dropdownItem') and @data-testid = 'field-pilih-kategori-umur-28-34']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,39 +22,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b0b38afa-0f4b-454f-b4c0-ee7d8c937b5f</webElementGuid>
+      <webElementGuid>de369430-11a1-476c-8059-2615e1f61cbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>28-34</value>
-      <webElementGuid>f483aa88-6d6b-45a2-b6c9-29e979294137</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>inputSelect_dropdownItem</value>
-      <webElementGuid>f9047343-f9b8-4668-8469-93eab415a382</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>field-pilih-kategori-umur-28-34</value>
-      <webElementGuid>6ae4a924-e439-4c38-b879-cb64fe376612</webElementGuid>
+      <webElementGuid>6a5490eb-8ad4-4793-907b-a6811d82f1d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__oStPv inputSelect_active__MgNJZ</value>
+      <webElementGuid>ce0ae5cf-4f9d-4015-bb8b-d4f2a2cccf29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-pilih-kategori-umur-28-34</value>
+      <webElementGuid>a46dcbf2-fb3f-4a63-8376-276c698fe46c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>28-34</value>
-      <webElementGuid>6f4acfbe-abb8-40c2-9b0b-db4e1e211ae3</webElementGuid>
+      <webElementGuid>5e2284e6-4b1e-4f34-a2f7-d75ee31c6cac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;28-34&quot;)</value>
-      <webElementGuid>14cf4a33-914a-41b4-8780-fa2c8f5705c8</webElementGuid>
+      <webElementGuid>2a6e950c-dabc-4693-8a69-18713f02838d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='28-34']</value>
-      <webElementGuid>de1fcb2f-c7bb-403f-bf0f-c3b12f6dd875</webElementGuid>
+      <webElementGuid>ec6a9136-4625-41ba-ad16-6a963942ff67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-age']/div/div[2]/div[2]</value>
-      <webElementGuid>df92c376-fd50-43a4-8aeb-40738af0ba8f</webElementGuid>
+      <webElementGuid>d30b8560-2ed0-49b1-9d78-d433f95c1ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal'])[1]/following::div[15]</value>
-      <webElementGuid>1fc5988e-53d9-4609-99e8-6ec8269f4910</webElementGuid>
+      <webElementGuid>97f61126-7640-4a15-a969-d135ec100344</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::div[6]</value>
-      <webElementGuid>3be5e0a9-d022-4bc7-9310-fab778f6fdf9</webElementGuid>
+      <webElementGuid>fa3b748c-2ecb-4dde-a816-8e52a70b602e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[1]/preceding::div[9]</value>
-      <webElementGuid>54970d3d-f028-4056-ab50-1e90a42cc0f6</webElementGuid>
+      <webElementGuid>7efd94d0-e1a0-4edf-87b3-45f0b2882e3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>081806d9-6bc7-4270-99ab-63644df1b321</webElementGuid>
+      <webElementGuid>422603ca-209a-41eb-bf7a-291b85715474</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = '28-34' and (text() = '28-34' or . = '28-34')]</value>
-      <webElementGuid>7a7bc614-ef9d-400a-87b4-333288979301</webElementGuid>
+      <webElementGuid>2b4cc455-507f-4b53-90fe-251198a38e37</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

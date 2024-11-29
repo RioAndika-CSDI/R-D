@@ -21,6 +21,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.callTestCase(findTestCase('Instant Approval/IA - Loan Calculator/IA004 - KTP Review - Select Kota Domisili'), [('kota') : 'Jakarta Pusat'], 
     FailureHandling.OPTIONAL)
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('InstantApproval/InstantApproval/a_Kebijakan Privasi'))
 
 WebUI.delay(3)
