@@ -101,6 +101,12 @@
       <value></value>
       <variableId>a30ed676-52e4-46a4-9aeb-51963ebbf8de</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a956a755-7334-48a7-aea6-12bafddd9163</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>' Test Edittt Eui'</defaultValue>
       <description></description>
@@ -212,5 +218,12 @@
       <id>a30ed676-52e4-46a4-9aeb-51963ebbf8de</id>
       <masked>false</masked>
       <name>gender2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a956a755-7334-48a7-aea6-12bafddd9163</id>
+      <masked>false</masked>
+      <name>close_browser</name>
    </variable>
 </TestCaseEntity>

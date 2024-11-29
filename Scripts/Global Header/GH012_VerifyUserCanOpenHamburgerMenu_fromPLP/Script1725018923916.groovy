@@ -31,7 +31,6 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'))
 
-'dropdown location'
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))

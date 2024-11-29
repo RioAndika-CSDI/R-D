@@ -17,6 +17,12 @@
       <value></value>
       <variableId>eb01bd9c-2d2b-42ae-9817-8edbe5effc85</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>122c8788-011f-4f18-97ed-757acc447189</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>eb01bd9c-2d2b-42ae-9817-8edbe5effc85</id>
       <masked>false</masked>
       <name>email_null</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>122c8788-011f-4f18-97ed-757acc447189</id>
+      <masked>false</masked>
+      <name>close_browser</name>
    </variable>
 </TestCaseEntity>

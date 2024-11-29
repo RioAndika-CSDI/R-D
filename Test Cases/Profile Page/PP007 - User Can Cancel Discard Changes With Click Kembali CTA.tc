@@ -83,6 +83,12 @@
       <value></value>
       <variableId>06e31498-3b0b-4d94-8edf-8db4e6fe68ff</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4835de7-bed5-42f7-87eb-b88bac540716</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Testing TC7'</defaultValue>
       <description></description>
@@ -173,5 +179,12 @@
       <id>06e31498-3b0b-4d94-8edf-8db4e6fe68ff</id>
       <masked>false</masked>
       <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f4835de7-bed5-42f7-87eb-b88bac540716</id>
+      <masked>false</masked>
+      <name>close_browser</name>
    </variable>
 </TestCaseEntity>

@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eb049e61-ff70-4fac-8ea7-d02834c30938</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>566a1ca5-99a5-478c-a849-b2f439216f1e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Bogor'</defaultValue>
+      <description></description>
+      <id>566a1ca5-99a5-478c-a849-b2f439216f1e</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
 </TestCaseEntity>

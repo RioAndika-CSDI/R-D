@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
-        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '8752900848'
+        , ('OTP') : '445566', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Nama Lengkap'), 0)
 
@@ -136,4 +136,8 @@ WebUI.click(findTestObject('Profile/Profile_Page/button_Simpan Perubahan'))
 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/label_Perubahan akun berhasil disimpan'), 
     0)
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

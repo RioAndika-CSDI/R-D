@@ -83,6 +83,12 @@
       <value></value>
       <variableId>ad56394f-6aae-44a7-a753-545ad8400dbc</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f88fd0f5-265b-4017-bb59-bd56d0436b77</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'TC09 Continue Discard'</defaultValue>
       <description></description>
@@ -173,5 +179,12 @@
       <id>ad56394f-6aae-44a7-a753-545ad8400dbc</id>
       <masked>false</masked>
       <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f88fd0f5-265b-4017-bb59-bd56d0436b77</id>
+      <masked>false</masked>
+      <name>close_browser</name>
    </variable>
 </TestCaseEntity>

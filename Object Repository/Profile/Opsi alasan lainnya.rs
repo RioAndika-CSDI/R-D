@@ -7,25 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputSelect_dropdownItemText__7p2jg' and (text() = 'Alasan lainnya' or . = 'Alasan lainnya')]</value>
+         <value>//*[@id = '${alasan}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItemText__7p2jg</value>
-      <webElementGuid>f7a3567e-bcca-416e-b5b4-44b1f7263aca</webElementGuid>
+      <webElementGuid>7e8faa55-9917-40b9-ac99-e9849bda7496</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Alasan lainnya</value>
-      <webElementGuid>2398bcdd-4859-4a53-86da-588cf961312b</webElementGuid>
+      <webElementGuid>8645cba5-5cb6-4f3f-abbc-a43247bc3855</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${alasan}</value>
+      <webElementGuid>f0655280-9cfa-4180-b6db-80db03c246be</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
