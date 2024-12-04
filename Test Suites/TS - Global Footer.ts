@@ -12,70 +12,70 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>19859408-83b5-40fb-a1f4-2b3981366f37</testSuiteGuid>
    <testCaseLink>
-      <guid>77de05df-994a-4066-be3a-5b6a849e2c93</guid>
+      <guid>8de54aab-ad3b-4130-9e11-d86d6a5fc21a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF001_VerifyUserCanClickTentangSeva</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ecc3c9c-4e2b-40e3-aeab-b2a9fd3d982f</guid>
+      <guid>613533d4-e950-4c99-9c31-012242cc2c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF002_VerifyUserCanClickSyaratdanKetentuan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3dc09b0f-5190-45c5-9827-7ed1cd47cf94</guid>
+      <guid>ff5d289d-ad8e-42cb-a852-a38ed4c36010</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF003_VerifyUserCanClickKebijakanPrivasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>af77ad8b-7bdf-416c-9fe8-1f90899ce274</guid>
+      <guid>ab5318d5-637c-4b88-b049-a9f927a269bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF004_VerifyUserCanClickHubungiKami</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f473fa4-897f-4f42-b4f3-6913426fb436</guid>
+      <guid>57ffef47-9aaf-44cc-89a7-bf1f20ffe810</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF005_VerifyUserCanClickInstagramIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f93c8ffe-c6d7-40f4-ad7b-7c76cafd6ae9</guid>
+      <guid>dde4a427-7e58-4c8f-abe5-79b9c078aeb6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF006_VerifyUserCanClickXicon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bb4f94b9-d7d4-4dab-b288-d2df7df3c53f</guid>
+      <guid>d106b887-822b-4fb1-acac-ab625c7f6597</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF007_VerifyUserCanClickFacebookIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6402c8e5-2888-40ea-b867-9174cc10cab7</guid>
+      <guid>11860695-de0d-4ac9-b275-9d5864b094de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF008_VerifyUserCanClickYoutubeIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7769297-eef9-4fff-a3dd-2a3d46a6a6ad</guid>
+      <guid>71c322c6-c365-4c64-b38a-acd5c7d85559</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF009_VerifyUserCanClickLinkedInIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b8fc534-9feb-4c1b-88f5-b1e966d6c45c</guid>
+      <guid>626eca65-6ae4-489e-8fa4-a6e121bac5e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF010_VerifyUserCanClickFloatingIcon</testCaseId>

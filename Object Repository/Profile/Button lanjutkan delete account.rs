@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__SJzXm button_big__H6cBN undefined']</value>
+         <value>//*[starts-with(@class, 'button_primaryDarkBlue__jOQA0 button_big__')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>7f11aeec-2d99-4d36-b22a-45313ea96a8f</webElementGuid>
+      <value>button_primaryDarkBlue__jOQA0 button_big__</value>
+      <webElementGuid>5ed5c9df-e4dc-4107-bdd4-540a840b7041</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

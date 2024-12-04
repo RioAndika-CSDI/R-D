@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
-        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '8752900847'
+        , ('OTP') : '445566', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile/Profile_Page/input_email'))
 
@@ -32,4 +32,8 @@ WebUI.sendKeys(findTestObject('Profile/Profile_Page/input_fullname'), Keys.chord
 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Profile Page - Alert Message/p_Gunakan format yang benar. Contoh johnmail.com'), 
     0)
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

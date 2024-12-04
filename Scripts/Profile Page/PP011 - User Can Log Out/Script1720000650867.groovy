@@ -15,8 +15,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
-        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : 0], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '8752900848'
+        , ('OTP') : '445566', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile/Profile_Page/button_Keluar Akun'))
 
@@ -27,6 +27,10 @@ String expectedUrl = 'https://www.seva.id/'
 
 // Verify the current URL matches the expected URL
 if (currentUrl == expectedUrl) {
-	KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
+}
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
 }
 

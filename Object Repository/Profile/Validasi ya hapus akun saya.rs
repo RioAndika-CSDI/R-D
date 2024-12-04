@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'textButton_primary__rbz0L deleteAccountModal_ctaConfirm__ND8d8']</value>
+         <value>//*[starts-with(@class, 'textButton_primary__ISRqx deleteAccountModal_ctaConfirm__')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textButton_primary__rbz0L deleteAccountModal_ctaConfirm__ND8d8</value>
-      <webElementGuid>60a3059b-258b-46e5-b853-5e5da03192af</webElementGuid>
+      <value>textButton_primary__ISRqx deleteAccountModal_ctaConfirm__</value>
+      <webElementGuid>c0e86ec4-16da-4e8d-95fb-8f9f280ceda1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

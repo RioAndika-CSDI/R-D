@@ -36,3 +36,4 @@ String expectedUrl = 'https://www.seva.id/info/promo'
 WebUI.verifyMatch(currentUrl, expectedUrl, true)
 
 WebUI.closeBrowser()
+

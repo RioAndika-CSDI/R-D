@@ -4,7 +4,6 @@
    <name>RA 003 - Register Negative Case Null Input</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>1c3ed97f-d307-462e-bacc-e247c18690da</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -43,14 +42,14 @@
       <variableId>f824c801-0768-4812-8cb4-be8298bb8810</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'08892428461'</defaultValue>
+      <defaultValue>'816335373'</defaultValue>
       <description></description>
       <id>12f16fdc-7641-45a3-8191-5dc4d6ea6225</id>
       <masked>false</masked>
       <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'123456'</defaultValue>
       <description></description>
       <id>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</id>
       <masked>false</masked>

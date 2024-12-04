@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nom
 
 WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.verifyElementPresent(findTestObject('Login Register Component/OTP_Fail'), 0)
 

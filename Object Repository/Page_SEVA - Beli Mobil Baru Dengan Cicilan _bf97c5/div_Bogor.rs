@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>#Bogor</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItemText__') and (text() = '${kota}' or . = '${kota}')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,39 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>23ae4c32-bf77-4015-8aac-592af4580ca3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>Bogor</value>
-      <webElementGuid>7a18c054-1562-4dff-9cbb-e0d1e4f80d6a</webElementGuid>
+      <webElementGuid>768cb5df-27d0-4c95-bbb5-08b32c872a32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Bogor</value>
+      <webElementGuid>e7d7f398-f987-4f84-bfe3-c78e5ca36228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItem__oStPv inputSelect_active__MgNJZ</value>
-      <webElementGuid>7b2d779d-2a95-43f3-8582-b31b1fe3551d</webElementGuid>
+      <value>inputSelect_dropdownItemText__</value>
+      <webElementGuid>e065c25c-39f9-4496-8589-a38542648e9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bogor</value>
-      <webElementGuid>2286938a-87f4-4de5-86ad-a6a7ef44ba4c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;Bogor&quot;)</value>
-      <webElementGuid>bb5d682f-2b17-4da0-b58c-59a0d1766736</webElementGuid>
+      <value>${kota}</value>
+      <webElementGuid>797cc4e1-dc63-4913-9edf-a8975ad1ba35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='Bogor']</value>
-      <webElementGuid>3bb4ba88-4d3c-4a6f-8f46-e66802b676b4</webElementGuid>
+      <webElementGuid>645ad14b-1fe6-4295-bd29-bee98035e776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih lokasi pembelian mobilmu'])[1]/following::div[8]</value>
-      <webElementGuid>fe9e919e-1fe2-44a4-b9b0-1976609c6a6c</webElementGuid>
+      <webElementGuid>4c1131e8-eb0a-4075-aec9-523c01c1c623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'Bogor', '&quot;', ')')])[1]/following::div[17]</value>
-      <webElementGuid>eca9c727-aa4b-416d-b6d4-4992815a6e8c</webElementGuid>
+      <webElementGuid>ed3f0d95-70e8-4faf-a3f4-b9f01e60af2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/preceding::div[3]</value>
-      <webElementGuid>3ced0ecb-36e9-4d64-bc26-ed45dbdb4f0c</webElementGuid>
+      <webElementGuid>91fcc8d3-4bbf-4d26-880f-363935c22c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div[2]/div/div/div/div/div[2]/div</value>
-      <webElementGuid>b2418aae-48b5-43b4-9d13-7df1a222b780</webElementGuid>
+      <webElementGuid>ac9d6a02-4169-4fc5-98fb-35447b01b6c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'Bogor' and (text() = 'Bogor' or . = 'Bogor')]</value>
-      <webElementGuid>2f4125f0-b405-4478-9a70-e48cea527c7f</webElementGuid>
+      <webElementGuid>5f652631-8aa6-45d2-ab17-d6ed309ce5ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
