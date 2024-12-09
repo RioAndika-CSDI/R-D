@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
+         <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_container__wvuqm</value>
-      <webElementGuid>3562852d-c43a-4d16-b41e-ac09c0943409</webElementGuid>
+      <value>formSearchYear_container</value>
+      <webElementGuid>b814f2e7-2634-4e8a-ae93-16bdafa64234</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hingga</value>
-      <webElementGuid>85bdcd93-741d-401d-b357-fcbc8184e1f4</webElementGuid>
+      <webElementGuid>fb9b410b-fa30-422b-9844-41e315e4cf94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>2242d71e-1170-4aa3-8919-cf7c8099dbd8</webElementGuid>
+      <webElementGuid>c9425ca2-32a2-47c9-a98f-158d61be0c1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,14 +42,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>53751708-05b1-4088-856f-eee740912786</webElementGuid>
+      <webElementGuid>882353a4-bfe7-4c87-8e4b-3c4d5d746800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'formSearchYear_container__wvuqm' and (. = 'Hingga')]//input[@type = 'tel']</value>
-      <webElementGuid>53df5cbf-d58d-410b-bdbf-f7c156b5e9fd</webElementGuid>
+      <value>//*[starts-with(@class, 'formSearchYear_container') and (. = 'Hingga')]//input[@type = 'tel']</value>
+      <webElementGuid>ab4ba35b-6399-4865-b7f8-acd8d33b6e5a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

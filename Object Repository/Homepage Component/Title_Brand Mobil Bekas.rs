@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Merek' or . = 'Merek') and @class = 'selectWidgetUsedCar_title__uPL51']</value>
+         <value>//*[(text() = 'Merek' or . = 'Merek') and starts-with(@class, 'selectWidgetUsedCar_title')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Merek</value>
-      <webElementGuid>6be11b9d-1f07-4029-9dcc-73358c155bda</webElementGuid>
+      <webElementGuid>8c0f02e6-402c-426c-9d6f-1b08aac20217</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selectWidgetUsedCar_title__uPL51</value>
-      <webElementGuid>90a25447-402c-4042-939a-e4cbc7f9c1c2</webElementGuid>
+      <value>selectWidgetUsedCar_title</value>
+      <webElementGuid>a85cb267-c4fd-4772-9f25-905175afa971</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
