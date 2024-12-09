@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_kirim_info_promo</name>
+   <tag></tag>
+   <elementGuidId>ffa886b0-6f78-4887-8023-92e0c495bb36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;consent-checkbox&quot;]//*[@id=&quot;consent-promo-mobile&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;consent-checkbox&quot;]//*[@id=&quot;consent-promo-mobile&quot;]</value>
+      <webElementGuid>d53a7d35-ca85-49ed-a72b-6a421b0a0f3e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

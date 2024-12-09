@@ -23,6 +23,10 @@ WebUI.callTestCase(findTestCase('Setir Kanan/SKMB003-Cari Mobil Bekas Hompage'),
 
 WebUI.click(findTestObject('Page Mobil Bekas/button_Filter Setelah Filter'))
 
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+WebUI.click(findTestObject('Page Mobil Bekas/Filter/Label_Detail Mobil'))
+
 WebUI.callTestCase(findTestCase('Setir Kanan/SKMB007-Menghapus Data Filter'), [('url_skmb001_Filter') : expected_url_Search
         , ('body_Filter') : brand_Search, ('brand_Filter') : brand_Search, ('tahun_Filter') : tahun_Search, ('transmisi_Filter') : transmisi_Search
         , ('plat_Filter') : '', ('lokasi_Filter') : '', ('kilometer_Filter') : '', ('harga_Filter') : '', ('screen') : screen

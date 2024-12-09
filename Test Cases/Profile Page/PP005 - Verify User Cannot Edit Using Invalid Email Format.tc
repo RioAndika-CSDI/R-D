@@ -11,11 +11,24 @@
       <value></value>
       <variableId>33fb016d-1c15-4621-adc4-f441225e6203</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>188aaa52-b4f9-4712-9cfc-c660c91cebc2</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'email@'</defaultValue>
       <description></description>
       <id>33fb016d-1c15-4621-adc4-f441225e6203</id>
       <masked>false</masked>
       <name>email_invalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>188aaa52-b4f9-4712-9cfc-c660c91cebc2</id>
+      <masked>false</masked>
+      <name>close_browser</name>
    </variable>
 </TestCaseEntity>

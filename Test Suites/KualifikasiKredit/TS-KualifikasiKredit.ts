@@ -12,36 +12,196 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7d6af083-7985-4cf8-bd93-64e7f0b7101e</testSuiteGuid>
    <testCaseLink>
-      <guid>380e4460-51f4-489e-9cb6-0f27127a3d29</guid>
+      <guid>5247bb9b-200f-49c4-8b3f-4dd75c377a7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK001 - Access Kualifikasi Kredit from Loan Calculator</testCaseId>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK001 - Verify User Can Check Kualifikasi Kredit From LC - Not Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7ba90c61-14ed-4683-8242-79ae3cd06bf3</variableId>
+         <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c603d611-0f0f-4e67-b621-760fb6bccea0</variableId>
+         <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>308b3b7c-5654-4d42-89eb-78e3dbd16feb</variableId>
+         <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74b0cc60-7878-4f12-a286-1c70b8b2f301</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e4cb064-f118-4399-a20d-b005956a13f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ee86098-7690-4878-84e6-64492ca900dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>742e7f88-9dd9-4987-80d4-38d130ac68e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>60fb2a04-a512-4c28-b8d9-be0bb7fea9ba</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bbf652e8-ab0e-4223-b4b8-b777e905215a</guid>
+      <guid>dbecfe36-2631-4650-9298-97d90b0ede51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK002 - Kualifikasi Kredit - Sumber Pendapatan - Pilih Pekerjaan</testCaseId>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK002 - KK - Verify User Can Click Car Info Card</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>972b41b9-d018-4057-a8bd-67763236e5c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK003 - KK Review - Verify User Can Click Lihat Detail Mobil</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74b0cc60-7878-4f12-a286-1c70b8b2f301</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e4cb064-f118-4399-a20d-b005956a13f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ee86098-7690-4878-84e6-64492ca900dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>742e7f88-9dd9-4987-80d4-38d130ac68e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>60fb2a04-a512-4c28-b8d9-be0bb7fea9ba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00e55107-b00e-46c9-9d2c-62219a326600</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK004 - KK Result - User Can Click Hubungi Agen SEVA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>549ebb68-817a-4a48-92f7-3f1a57b86c6a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK005 - Sumber Pendapatan - Pekerjaan Saya Empty</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ea75c0a8-e6ab-42c3-9c73-f8d4eb0c63bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK006 - KK - Invalid Teman SEVA Reff Code</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cff981a0-d349-4eaf-8fc2-9cbfaf3ffca4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50899afb-8254-4d1d-bd42-98253ee48e7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b93c5a2-df6e-496c-bf26-64fcda608ec8</variableId>
+      </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,95 +234,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ccb8bb5-a378-4c46-b7ab-03458f958390</guid>
+      <guid>a5075390-80fc-4241-9f94-7490c4f30a6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK003 - Kualifikasi Kredit - Card Info Car</testCaseId>
+      <testCaseId>Test Cases/Kualifikasi Kredit/KK - LC/KK007 - KK Review - Close Detail Mobil Pop Up</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f001c571-2ab7-4d2d-8f8e-aa0d9bce2283</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK004 - Kualifikasi Kredit Review</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ccc2d2f-4358-4d3c-9aca-e945f49816aa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK005 - KK Review - Lihat Detail Mobil</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cc18509a-708f-47a5-b1bb-5174a53902f4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK006 - KK Review - Not Continue to IA</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6cf55b8e-89a6-4fe6-981d-210e222afd26</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK007 - KK Result - Hubungi Agen SEVA</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>82178d8a-dafe-4cd6-a6ea-f1f48cd9f064</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK008 - KK - Pekerjaan Saya Empty</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07fd648b-f9fb-4c5b-8546-0f75787b72d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK009 - KK - Invalid Teman SEVA Reff Code</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03a1b50b-1453-4350-b8b3-15b782b27923</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a0d837ce-4227-4aba-8bf8-98a8718cdd11</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b59ec0a6-cfee-4114-808f-2f024d2a8af4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>78b22938-58f2-44f6-8763-01e339d6137e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>41c0b41d-26a5-4957-87b4-de1ab54adc0a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9ef774b1-7d06-4065-8113-a8dc6e18a5dd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kualifikasi Kredit/KK010 - KK Review - Close bottom sheet</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ba00eff4-c950-4776-8c2e-06e07c9379b8</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

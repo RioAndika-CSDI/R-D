@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0046 - Verify User Can Access SEVA Bottom Widget</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e90a3b3e-7611-4044-beb4-2b76aed62353</testCaseGuid>
+</TestCaseEntity>

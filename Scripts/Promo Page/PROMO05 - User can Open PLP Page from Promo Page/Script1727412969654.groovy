@@ -29,6 +29,8 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
+WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'), 10)
+
 WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_2juta'))
 
 // Scroll to the specific element

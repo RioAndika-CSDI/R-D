@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>leads_form_rh</name>
+   <tag></tag>
+   <elementGuidId>9e8813a9-afe8-48fd-a1e5-6fbb4c9f3da4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;leadsFormPrimary_foreground__gJa9b&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;leadsFormPrimary_foreground__gJa9b&quot;]</value>
+      <webElementGuid>9e6b7ef0-0cbf-4704-97ac-63934f0b973c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

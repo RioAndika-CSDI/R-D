@@ -68,6 +68,8 @@ WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
 
+WebUI.delay(3)
+
 boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_mobil_terapply'), 
     10)
 

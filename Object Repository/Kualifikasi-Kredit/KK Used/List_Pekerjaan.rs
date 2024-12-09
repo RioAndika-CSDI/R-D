@@ -6,27 +6,26 @@
    <elementGuidId>3541a201-72f4-4b6e-b790-bf8cb5395409</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Desainer &amp; Pekerja Seni']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div[@id = '${pekerjaan}']</value>
+         <value>//*[@id = '${pekerjaan}']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Desainer &amp; Pekerja Seni']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b9c644d0-9401-4857-ae31-b87bcb9654a1</webElementGuid>
+      <webElementGuid>0c7ce40c-2309-4152-8fc3-5ef425c03aa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +33,7 @@
       <name>id</name>
       <type>Main</type>
       <value>${pekerjaan}</value>
-      <webElementGuid>26fc87e1-b263-441a-8724-5a271fd2e9a6</webElementGuid>
+      <webElementGuid>0f5bafb3-f7e1-45bf-9634-bd8c049ebc87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv</value>
-      <webElementGuid>b6c79ef5-8459-4879-8ba2-e5a0f63f72f0</webElementGuid>
+      <webElementGuid>860f804b-a1cf-4e8c-981c-46b67b919ccf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Desainer &amp; Pekerja Seni</value>
-      <webElementGuid>c63702ee-51ab-4da2-a2dd-e64401cf23e2</webElementGuid>
+      <webElementGuid>02302512-44ff-4087-b2bf-1b052548842a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Desainer &amp; Pekerja Seni&quot;)</value>
-      <webElementGuid>16ccd11e-2d35-4c55-a4cc-5be3a907cdbb</webElementGuid>
+      <webElementGuid>8012b849-d979-4cbd-9766-e55bad4a970f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='Desainer &amp; Pekerja Seni']</value>
-      <webElementGuid>30188a71-5d7b-4989-96dc-c23ff7079376</webElementGuid>
+      <webElementGuid>1e777ab6-8c1a-45e9-9149-01c61c228e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div[4]/div/div[2]/div[13]</value>
-      <webElementGuid>4cef2c66-1b8d-4f72-b5b1-6560e32baa7c</webElementGuid>
+      <webElementGuid>5abbd3f8-defb-4bff-b67b-164df286b922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerja Informal'])[1]/following::div[1]</value>
-      <webElementGuid>e2ddf911-1845-46dd-acfd-2a524bb6738f</webElementGuid>
+      <webElementGuid>670e8fa0-49a5-4dd3-942e-ea4573da5358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pensiunan'])[1]/following::div[4]</value>
-      <webElementGuid>099a8676-cdda-4fcf-aefe-bfa2aa65a1a6</webElementGuid>
+      <webElementGuid>b3ee9d29-9218-49aa-944a-78c7904d0339</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/preceding::div[3]</value>
-      <webElementGuid>62ba58c5-07c0-4bd5-baec-b40d3cf88b77</webElementGuid>
+      <webElementGuid>3595e6ac-3613-4662-8ba8-33895d31762b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[13]</value>
-      <webElementGuid>992d5585-d727-472f-b3b9-5c9c0419d361</webElementGuid>
+      <webElementGuid>3bb0d64d-8a50-42db-bc61-2cf19b0f7ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'Desainer &amp; Pekerja Seni' and (text() = 'Desainer &amp; Pekerja Seni' or . = 'Desainer &amp; Pekerja Seni')]</value>
-      <webElementGuid>f8de0e70-1925-4fad-ac1a-0b89d86bda2c</webElementGuid>
+      <webElementGuid>79261439-70fa-4502-a6b2-01a21ae42efa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

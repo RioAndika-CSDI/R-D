@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manual</name>
+   <tag></tag>
+   <elementGuidId>be6dc3a4-4d24-4537-8e5d-4075f3358ae8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > div.tenureOptionWidget_containerTenure__3m5YW > div.tenureOptionWidget_box__FoPcT > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>202c1847-3c65-46eb-891e-c34f2f3c3a86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manual</value>
+      <webElementGuid>5996f306-f313-4d00-802b-ed2300dcef78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[4]/div[@class=&quot;tenureOptionWidget_containerTenure__3m5YW&quot;]/div[@class=&quot;tenureOptionWidget_box__FoPcT&quot;]/span[1]</value>
+      <webElementGuid>6f17423f-390d-4c6b-9e45-a88d114d81c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[4]/div/div/span</value>
+      <webElementGuid>1411f2a5-a7b1-43a6-90b7-fe79987bda2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/span</value>
+      <webElementGuid>4a8b5080-5a0e-40f9-a623-2d56f598bd8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Manual' or . = 'Manual')]</value>
+      <webElementGuid>3c95da15-4a32-4075-ab94-60a73d31e556</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

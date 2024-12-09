@@ -29,6 +29,9 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.scrollToElement(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Lihat Detail_carRecomendation'), 
+    0)
+
 'lihat detail'
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Lihat Detail_carRecomendation'))
 
@@ -45,9 +48,9 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/close_icon_location'))
 
 WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_38171a'), 
-    'Bogor')
+    kota)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Bogor'))
+WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Bogor', [('kota') : kota]))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mulai Cari Mobil'))
 

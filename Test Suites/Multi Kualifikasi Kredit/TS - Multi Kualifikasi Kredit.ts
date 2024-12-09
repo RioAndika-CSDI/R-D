@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>edb400b3-8be0-4905-afbd-89e360ae9c7d</testSuiteGuid>
    <testCaseLink>
-      <guid>7fe6e81c-bfe2-43d9-9374-48756a37ea29</guid>
+      <guid>d4b92e88-6ae8-4745-b707-4305a861826c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK001_VerifyUserCanCekKualifikasiKredit</testCaseId>
@@ -49,7 +49,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e6c2d7d5-02fb-47eb-814b-d7b25f4af14e</guid>
+      <guid>212074ca-cb40-4ef7-8306-af9b1a73f476</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK002_VerifyUserCanCekKualifikasiKredit_UserAlreadyLogin</testCaseId>
@@ -86,7 +86,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ceeed8b-d7ff-49c5-abb9-32871d3b1a44</guid>
+      <guid>22e0d11b-34da-40a3-8e93-df8cc059ae10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK003_VerifyUserCanCekKualifikasiKredit_section_mobil_impian</testCaseId>
@@ -123,7 +123,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0cbc0bd-6b5a-43c5-b8dd-a81aa87b876f</guid>
+      <guid>b3456d23-63d9-42e7-b7e5-e577a09c1265</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK004_VerifyUserCanCekKualifikasiKredit_UserAlreadyLogin_section_mobil_impian</testCaseId>
@@ -160,7 +160,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5a75ce32-454e-423d-865f-76b75c12feef</guid>
+      <guid>e105759d-04fc-4f59-8a65-5292f68fbb50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK005_VerifyUserCekKualifikasiKreditandChangeCityLocation</testCaseId>
@@ -203,7 +203,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a4a7c6cd-ba47-4bfe-a923-abb262df9f72</guid>
+      <guid>84292037-f7ad-4a11-b508-b0db88e584ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK006_VerifyUserCekKualifikasiKreditandCanceltoChangeCityLocation</testCaseId>
@@ -246,7 +246,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6be5aba3-5f42-49f6-bc75-844df16b1816</guid>
+      <guid>4afc314d-a8cd-4d96-9833-30d1b1184e35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK007_VerifyUserCanCloseLoginPopUp</testCaseId>
@@ -283,7 +283,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e26ddfca-dbd2-47fc-8b02-3edbea110603</guid>
+      <guid>e113a3ee-a252-4a41-99bc-4eed16d4e409</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK008_VerifyErrorMessage_HargaTerendah</testCaseId>
@@ -320,7 +320,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec4c6957-768d-40f2-8c88-8a58c35eef3b</guid>
+      <guid>e0905dec-e098-4ca8-9896-1c4b0d6b5fa4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK009_VerifyErrorMessage_HargaTertinggiKurangDariHargaTerendah</testCaseId>
@@ -357,7 +357,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8e14c0ee-a569-426b-bd4e-ebcb65ba06de</guid>
+      <guid>3af7c3a9-8635-4f63-aacb-25737b6590d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK010_VerifyErrorMessage_MaksimumDP</testCaseId>
@@ -394,7 +394,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>946d9cd6-6cdf-42e7-a671-96cf3fd00feb</guid>
+      <guid>e9f09061-d879-4091-b162-e24d4c8c3651</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Kualifikasi Kredit/MKK011_VerifyErrorMessage_PendapatanTerlaluRendah</testCaseId>

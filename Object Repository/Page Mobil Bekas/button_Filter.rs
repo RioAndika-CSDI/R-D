@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = ' Filter Mobil' or . = ' Filter Mobil')]</value>
+         <value>//button[(starts-with(text(), ' Filter Mobil') or starts-with(., ' Filter Mobil'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Filter Mobil</value>
-      <webElementGuid>7b2f41c1-7679-480c-84b9-f670c9d45769</webElementGuid>
+      <webElementGuid>3b590e96-51cd-4608-8cef-2187e3736bed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2f4efdda-a865-4d00-bed5-85153d5bd806</webElementGuid>
+      <webElementGuid>f9134367-3607-4898-babe-876b508a4913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text_awal</name>
+      <type>Main</type>
+      <value> Filter Mobil</value>
+      <webElementGuid>cce3c6b8-b72c-452e-9190-888b8d7246c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

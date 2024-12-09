@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.seva.id/ridwan-hanif')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Marketing Page/landing_page_ridwan_hanif'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 

@@ -6,6 +6,10 @@
    <elementGuidId>52da532b-418d-47ff-8120-acf9706fcade</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-hubungi-agen-seva']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@class='credit-qualification-result_whatsappButtonContent__oCShT']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.button_secondary___MM2b.button_big__WTbQS.undefined</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e787f111-9356-4e6b-b59c-2d71ca4b62b4</webElementGuid>
+      <webElementGuid>a1766b25-0acc-4cb8-a45c-86f9dce4375c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>button_secondary___MM2b button_big__WTbQS undefined</value>
-      <webElementGuid>48c57f41-33ab-430b-b732-3e7b198e09ce</webElementGuid>
+      <webElementGuid>311407f0-c4df-4426-8ea0-70b4ca66b676</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hubungi Agen SEVA</value>
-      <webElementGuid>32c2d6e6-004c-4bae-a819-690b75ae087a</webElementGuid>
+      <value>Hubungi Agen SEVA sekarang!</value>
+      <webElementGuid>288ce68c-dc78-4f14-be5b-5c006c829fd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq credit-qualification-result_container__4CQFk&quot;]/div[@class=&quot;credit-qualification-result_content__3M7TH&quot;]/div[@class=&quot;credit-qualification-result_buttonSection__lU2g8&quot;]/button[@class=&quot;button_secondary___MM2b button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>67782d45-8031-45c5-8d73-498c68a11c80</webElementGuid>
+      <webElementGuid>53eb57d2-f3f3-4845-b7d6-a5252ccd35bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-hubungi-agen-seva</value>
+      <webElementGuid>17af570a-b328-4b1b-9bb2-92a7549039d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/button[2]</value>
-      <webElementGuid>bd33e2a0-a047-4511-b776-e3f2d98c0845</webElementGuid>
+      <webElementGuid>d6df13cd-51fd-44d3-a3c2-2580e5151f94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Instant Approval'])[1]/following::button[1]</value>
-      <webElementGuid>09c7bfb0-efc1-4357-91a5-86aa2b7d1fc7</webElementGuid>
+      <webElementGuid>d68edbf2-4c5a-4468-8b49-7923d86ca491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::button[2]</value>
-      <webElementGuid>6eccf5d7-81e9-4b55-8995-a7b066a3d7b8</webElementGuid>
+      <webElementGuid>26ac77bf-d8d6-498e-b7b8-1d48e5c9e174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami menjamin datamu aman dan terlindungi'])[1]/preceding::button[1]</value>
-      <webElementGuid>326d439a-a930-405f-a1b1-54e8dfb00f28</webElementGuid>
+      <webElementGuid>9a6d636e-dcce-4bf7-ac76-7a0c21a16e60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>c5944ae5-aa6a-4fac-933e-0ac8dffc1357</webElementGuid>
+      <webElementGuid>edc35077-5eac-4e6e-b7d8-73926345ba38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Hubungi Agen SEVA' or . = 'Hubungi Agen SEVA')]</value>
-      <webElementGuid>7393c199-869e-4710-9838-ed6dbaebc44e</webElementGuid>
+      <webElementGuid>0ead3d55-4450-49bd-b0ad-aa275d4c4489</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

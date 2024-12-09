@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSearchYear_left__Ffhwc']</value>
+         <value>//*[starts-with(@class, 'formSearchYear_left')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchYear_left__Ffhwc</value>
-      <webElementGuid>302661ec-6708-4730-a360-ca7832da7375</webElementGuid>
+      <value>formSearchYear_left</value>
+      <webElementGuid>0de00f40-7658-454a-9821-5666df08df33</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

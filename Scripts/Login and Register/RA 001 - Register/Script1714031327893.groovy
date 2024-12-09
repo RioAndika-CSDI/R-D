@@ -34,9 +34,11 @@ WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), Phone_number)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('InstantApproval/InstantApprovalPDP/Page_Masuk Akun - SEVA/button_Lanjutkan'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.setText(findTestObject('Login Register Component/Field nama lengkap'), Nama_lengkap)
 

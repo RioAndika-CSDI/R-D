@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '85349524555'
-        , ('OTP') : '212121', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Profile Page/PP001 - Verify User Can Access Profile Page'), [('nomorHP') : '8752900847'
+        , ('OTP') : '445566', ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/label_Tanggal Lahir'), 0)
 
@@ -29,4 +29,8 @@ WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/Page_/div_Pilih 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/cta_Batal_Pick Date'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Profile/Profile_Page/cta_Simpan_Pick Date'), 0)
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
 

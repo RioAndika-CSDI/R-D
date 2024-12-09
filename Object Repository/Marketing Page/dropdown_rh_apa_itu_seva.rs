@@ -11,18 +11,19 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][1]</value>
+         <value>//*[@class='ridwanHanifFaq_detail__G6niX'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='ridwanHanifFaq_detail__oHoB1'][1]</value>
-      <webElementGuid>cab3b2cc-93a6-4d91-a6f9-fd01c33d257b</webElementGuid>
+      <value>//*[@class='ridwanHanifFaq_detail__G6niX'][1]</value>
+      <webElementGuid>f7dbff5e-69bf-49bb-9f7c-b01ab0175aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Apa itu SEVA?</value>
-      <webElementGuid>8084f79a-64d9-4508-9edf-4132dde97841</webElementGuid>
+      <webElementGuid>b7eb5274-d85e-4e6f-b155-53e77c6abff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,6 +39,6 @@
       <name>class</name>
       <type>Main</type>
       <value>ridwanHanifFaq_questionText__ilgkt</value>
-      <webElementGuid>48905e43-4b5a-4922-8739-355d1b0ce26f</webElementGuid>
+      <webElementGuid>f633e4fb-afd9-4906-9446-3ec303273778</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

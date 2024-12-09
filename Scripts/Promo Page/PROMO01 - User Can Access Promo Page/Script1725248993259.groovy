@@ -31,8 +31,9 @@ WebUI.click(findTestObject('Homepage Component/button_promo_page'))
 
 String currentUrl = WebUI.getUrl()
 
-String expectedUrl = 'https://www.seva.id/info/promo/'
+String expectedUrl = 'https://www.seva.id/info/promo'
 
 WebUI.verifyMatch(currentUrl, expectedUrl, true)
 
 WebUI.closeBrowser()
+

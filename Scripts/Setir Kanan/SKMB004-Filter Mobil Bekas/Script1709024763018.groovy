@@ -24,22 +24,27 @@ String[] os = systemos.split(' ')
 WebUI.comment(os[0])
 
 if (open_browser.toString().equals('1')) {
-    WebUI.callTestCase(findTestCase('Setir Kanan/SKMB001-Search Widget Mobil Bekas'), [('expected_url') : url_skmb001, ('open_browser') : '1'
-            , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+    //  WebUI.callTestCase(findTestCase('Setir Kanan/SKMB001-Search Widget Mobil Bekas'), [('expected_url') : url_skmb001, ('open_browser') : '1'
+    //         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas Melalui Icon Hamburger'), [('expected_url') : 'https://www.seva.id/mobil-bekas/c'
+            , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Page Mobil Bekas/button_Filter'))
+
+    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+
+    WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Terapkan Filter'), 0)
+
+    WebUI.click(findTestObject('Page Mobil Bekas/Filter/Label_Detail Mobil'))
 }
 
 String navigateFilter = navigateFilter_tambahan.toString()
 
-
-WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Terapkan Filter'), 0)
+WebUI.waitForElementVisible(findTestObject('Page Mobil Bekas/Filter/label_Merek Mobil'), 0)
 
 '--Bagian Pilih Brand--'
 if (brand.toString().length() > 0) {
     WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Merek Mobil'), 0)
-
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
     String[] brandMobil = brand.toString().split(';')
 
@@ -60,12 +65,12 @@ if (brand.toString().length() > 0) {
     String[] bodyMobil = body.toString().split(';')
 
     for (int i = 0; i < bodyMobil.length; i++) {
-        navigateFilter = ((navigateFilter + ';') + (bodyMobil[i].toString().toUpperCase()))
+        navigateFilter = ((navigateFilter + ';') + (bodyMobil[i]).toString().toUpperCase())
 
         WebUI.click(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type unselected', [('body') : bodyMobil[i]]))
 
-        WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type selected', [('body') : bodyMobil[i]]), 
-            5)
+        WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Filter/selectItem_Body type selected', [('body') : bodyMobil[
+                    i]]), 5)
     }
 }
 
@@ -87,6 +92,8 @@ if (tahun.toString().length() > 0) {
         cek_tahun = 1
 
         WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Dari Filter'), 0)
+
+        WebUI.delay(2)
 
         WebUI.doubleClick(findTestObject('Page Mobil Bekas/Filter/Input_Tahun Dari Filter'))
 
@@ -111,6 +118,8 @@ if (tahun.toString().length() > 0) {
 '--Bagian Pilih Transmisi--'
 if (transmisi.toString().length() > 0) {
     WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Filter/label_Transmisi'), 0)
+
+    WebUI.delay(2)
 
     String[] pilihTransmisi = transmisi.toString().split(';')
 

@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@role = 'button' and (text() = 'Tidak, Terima Kasih ' or . = 'Tidak, Terima Kasih ')]</value>
+         <value>//*[@role = 'button' and (text() = 'Tidak, Terima Kasih' or . = 'Tidak, Terima Kasih')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>67716a9c-9d54-44cd-87ef-9d779e7b071c</webElementGuid>
+      <webElementGuid>e737c55a-5005-4265-90c3-6a4d5f6b4886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +34,15 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f73904ca-7872-49ce-b867-d11a520ee314</webElementGuid>
+      <webElementGuid>1637e135-a8f2-4162-99c4-2e245631cbc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tidak, Terima Kasih </value>
-      <webElementGuid>84471548-6c53-47e7-a617-3ea8eab993ea</webElementGuid>
+      <value>Tidak, Terima Kasih</value>
+      <webElementGuid>ef78534b-763d-46a7-9e76-af70d4f17e2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;landing-ia-bottom-sheet&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;landingIA_body__1hFOv&quot;]/div[@class=&quot;landingIA_rejectButtonWrapper__GIMKf&quot;]/div[1]</value>
-      <webElementGuid>8842b438-390e-4728-849a-38352c095161</webElementGuid>
+      <webElementGuid>b1cbc2c3-233b-4175-88be-6af6a52f5d95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Instant Approval'])[1]/following::div[2]</value>
-      <webElementGuid>e53bc36b-bc06-4406-ae1d-bb6ce5023e8c</webElementGuid>
+      <webElementGuid>44aa0f49-2af5-4327-aeff-d752a1d67785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='hasil persetujuan kredit instan'])[1]/following::div[2]</value>
-      <webElementGuid>ba46285f-65a9-4046-b2ac-4a56dde71ea0</webElementGuid>
+      <webElementGuid>499634c1-40fc-4986-9518-69a87b8a1350</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami menjamin datamu aman dan terlindungi'])[1]/preceding::div[1]</value>
-      <webElementGuid>c6bc5599-57aa-4f22-b238-4cc8b939d889</webElementGuid>
+      <webElementGuid>0279a858-0c64-4a4b-a274-a3b8aef23705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tidak, Terima Kasih']/parent::*</value>
-      <webElementGuid>2710e234-3be1-4249-b7a3-5780aa6f0b64</webElementGuid>
+      <webElementGuid>ab8e8b23-fe88-47d2-95ed-92fefb03b609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/div</value>
-      <webElementGuid>25594a20-94b7-4c51-acf0-276fb9612933</webElementGuid>
+      <webElementGuid>373fb77a-80ee-459d-9808-5ef4bb2883bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Tidak, Terima Kasih ' or . = 'Tidak, Terima Kasih ')]</value>
-      <webElementGuid>662ca365-9fa4-420b-85ef-d9f2bb06f295</webElementGuid>
+      <webElementGuid>4b1eefca-383b-4c3e-bb0e-1f3006325f28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
