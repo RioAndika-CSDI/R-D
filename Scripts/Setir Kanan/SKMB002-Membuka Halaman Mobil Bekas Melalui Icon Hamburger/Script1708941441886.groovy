@@ -35,6 +35,10 @@ WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mo
 
 WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
 
+WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 0)
+
+WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
+
 WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 0)
 
 String actual_url = WebUI.getUrl()

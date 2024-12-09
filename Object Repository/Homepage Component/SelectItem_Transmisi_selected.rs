@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSearchTransmission_boxOnclick__qLiXo' and (contains(text(), '${transmisi}') or contains(., '${transmisi}'))]</value>
+         <value>//*[starts-with(@class, 'formSearchTransmission_boxOnclick') and (contains(text(), '${transmisi}') or contains(., '${transmisi}'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formSearchTransmission_boxOnclick__qLiXo</value>
-      <webElementGuid>d47b57e7-7501-4048-9530-30c245b7a28a</webElementGuid>
+      <value>formSearchTransmission_boxOnclick</value>
+      <webElementGuid>a0a0e41a-e737-48b9-bf94-37a366b30007</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${transmisi}</value>
-      <webElementGuid>bf14ea47-c0a8-4964-8a87-f010d4f78f7f</webElementGuid>
+      <webElementGuid>0985455a-3b30-4c83-aa01-a1acd0aa7e11</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
