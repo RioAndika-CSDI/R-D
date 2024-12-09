@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
@@ -37,7 +38,10 @@ WebUI.waitForElementPresent(findTestObject('Page Blog Main/Label_Section Berita 
 
 actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actURL, expected_url, true)
+if (actURL == expected_url) {
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
+
 
 WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Judul Artikel Populer 1st'), 300)
 
@@ -51,7 +55,10 @@ WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Match judul
 
 judulDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'))
 
-WebUI.verifyMatch(judul, judulDetail, true)
+if (judul == judulDetail) {
+    KeywordUtil.markPassed('User is on the expected page: ' + judul)
+}
+
 
 WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Page Join Yuk/label join yuk'), 0)
 

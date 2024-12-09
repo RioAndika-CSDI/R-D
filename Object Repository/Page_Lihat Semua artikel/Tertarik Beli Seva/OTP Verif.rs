@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='ant-modal-content']//*[@class='otp_titleText__gSCN4']</value>
+         <value>//*[@inputmode = 'numeric']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='ant-modal-content']//*[@class='otp_titleText__gSCN4']</value>
-      <webElementGuid>64872509-f616-4077-af5a-ebbd1167842b</webElementGuid>
+      <value>//*[@inputmode = 'numeric']</value>
+      <webElementGuid>c8dfcc67-3a60-49ae-83ed-51c01d7e9ae1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

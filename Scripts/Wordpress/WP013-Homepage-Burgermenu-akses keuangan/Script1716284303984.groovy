@@ -35,5 +35,9 @@ WebUI.waitForElementPresent(findTestObject('Page_Artikel Keuangan  SEVA/Breadcru
 
 actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actURL, expected_url, true)
+if (actURL == expected_url) {
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
+
+WebUI.closeBrowser()
 

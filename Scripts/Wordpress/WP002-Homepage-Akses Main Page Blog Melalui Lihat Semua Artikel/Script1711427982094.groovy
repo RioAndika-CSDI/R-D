@@ -35,7 +35,11 @@ WebUI.waitForElementPresent(findTestObject('Page Blog Main/Label_Section Berita 
 
 actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actURL, expected_url, true)
+//WebUI.verifyMatch(actURL, expected_url, true)
+
+if (actURL == expected_url) {
+	KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

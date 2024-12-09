@@ -24,7 +24,7 @@
       <variableId>e563324e-e41b-4849-9397-13e5a2ca63da</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://www.seva.id/blog/'</defaultValue>
+      <defaultValue>'https://www.seva.id/blog'</defaultValue>
       <description></description>
       <id>0b4ddb1d-a9d9-49e5-9f19-6a1e9edd54c2</id>
       <masked>false</masked>

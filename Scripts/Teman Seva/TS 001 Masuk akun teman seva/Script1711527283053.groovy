@@ -35,9 +35,7 @@ WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 2'))
-
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 3'))
+WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
 
 WebUI.click(findTestObject('Page - Teman seva/Checbox setuju bergabung TS'))
 
@@ -67,7 +65,6 @@ cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarnin
 //
 //    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
 //}
-
 WebUI.verifyElementPresent(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 0)
 
 if (close_browser.toString().equals('1')) {

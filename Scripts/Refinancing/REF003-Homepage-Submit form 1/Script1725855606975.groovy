@@ -65,7 +65,3 @@ actURL2 = WebUI.getUrl()
 
 WebUI.verifyMatch(actURL2, ExpectedURL2, true)
 
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
-}
-
