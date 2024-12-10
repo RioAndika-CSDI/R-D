@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='formModal_styledInputTextArea__YUy8U']</value>
+         <value>//*[@class='textArea_textArea__vHPsn textArea_disableResize__58wMV']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='formModal_styledInputTextArea__YUy8U']</value>
-      <webElementGuid>0d112114-a37b-499e-b985-bd0540a801db</webElementGuid>
+      <value>//*[@class='textArea_textArea__vHPsn textArea_disableResize__58wMV']</value>
+      <webElementGuid>1b4791f1-a7b2-4d0b-9d53-23ef6292ca29</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

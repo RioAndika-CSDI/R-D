@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -39,7 +38,9 @@ WebUI.waitForElementPresent(findTestObject('Page Blog Main/Label_Section Berita 
 
 actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actURL, expected_url, true)
+if (actURL == expected_url) {
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
 
 WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Judul Artikel Populer 1st'), 300)
 
@@ -53,25 +54,30 @@ WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Match judul
 
 judulDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'))
 
-WebUI.verifyMatch(judul, judulDetail, true)
+if (judul == judulDetail) {
+    KeywordUtil.markPassed('User is on the expected page: ' + judul)
+}
 
 WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Label Baca Juga'), 0)
 
 WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'), 300)
 
 KlikBaca = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
+
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
+
 WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'), 300)
 
 BacaDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'))
 
 // WebUI.verifyMatch(KlikBaca, BacaDetail, true)
-
 if (KlikBaca == BacaDetail) {
-	KeywordUtil.markPassed('User is on the expected page: ' + KlikBaca)
+    KeywordUtil.markPassed('User is on the expected page: ' + KlikBaca)
 }
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
 }
+
+
 

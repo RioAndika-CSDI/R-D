@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TemanSEVA-Running</name>
+   <name>Temansevatestsuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>8d276cbf-5063-447e-bb49-4d07328621cd</testSuiteGuid>
+   <testSuiteGuid>8efd4543-4cb7-43d4-88f8-2172b4c616b1</testSuiteGuid>
    <testCaseLink>
-      <guid>a197ed64-4a23-4ae6-a805-38429cfe520b</guid>
+      <guid>8ae8a9b7-c86f-4814-bbcd-79407ddaa84c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 001 Masuk akun teman seva</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c857d788-d5d6-48e5-8d1b-b0d41d545fce</guid>
+      <guid>53fd9d4f-65eb-46d2-8529-7298f5e81939</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 002 Lihat riwayat transaksi</testCaseId>
@@ -62,7 +62,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>31c71db7-53eb-4e5d-89c6-a452f818cb0a</guid>
+      <guid>49df9dc5-79b2-48b4-ae40-f2b106057f1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 003 Lihat daftar teman seva</testCaseId>
@@ -87,7 +87,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>682f5ff6-e6ea-4e96-af3a-d122d6d478c4</guid>
+      <guid>7001c2a3-1070-4e7a-8d27-1260a506b411</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 004 Bagikan kode referal</testCaseId>
@@ -112,7 +112,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a43935ce-8366-4d8e-8948-65623d4c4582</guid>
+      <guid>09ba2ba4-1a36-4126-8d6a-003966c17f08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 005 Referal mobil baru teman seva</testCaseId>
@@ -137,7 +137,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>99299b5b-fe47-4d71-98cd-aac02d2c0c2c</guid>
+      <guid>ce452cc5-b43c-49d9-b5e4-b3fa4032273b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teman Seva/TS 006 Referal fasilitas dana teman seva</testCaseId>

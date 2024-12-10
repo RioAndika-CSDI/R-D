@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='newInput_styledInput__3vryL'])[4]</value>
+         <value>(//*[@class='inputPhone_input__4xYEC false '])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='newInput_styledInput__3vryL'])[4]</value>
-      <webElementGuid>91b10f84-8594-4f9f-9a1d-b2e53861ed7d</webElementGuid>
+      <value>(//*[@class='inputPhone_input__4xYEC false '])[2]</value>
+      <webElementGuid>0d3fca23-d872-43ac-b9b2-389ba6e4655b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

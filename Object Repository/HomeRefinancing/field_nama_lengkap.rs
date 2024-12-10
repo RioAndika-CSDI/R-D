@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'newInput_styledContainer__pf4Mq undefined']//*[@data-testid='input-nama-lengkap-refi']</value>
+         <value>//*[@class = 'input_input__c0tP8']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'newInput_styledContainer__pf4Mq undefined']//*[@data-testid='input-nama-lengkap-refi']</value>
-      <webElementGuid>567c8afb-e7bb-429d-bd43-b1e4f0e16302</webElementGuid>
+      <value>//*[@class = 'input_input__c0tP8']</value>
+      <webElementGuid>7b4209f6-4ff7-4a12-b486-42af32cffbc9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

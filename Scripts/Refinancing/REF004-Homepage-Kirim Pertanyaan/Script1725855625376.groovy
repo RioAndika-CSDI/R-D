@@ -51,7 +51,13 @@ WebUI.click(findTestObject('HomeRefinancing/pertanyaan_nomer'))
 
 WebUI.setText(findTestObject('HomeRefinancing/pertanyaan_nomer'), '81229948663')
 
+WebUI.waitForElementPresent(findTestObject('HomeRefinancing/quaestion checklist'), 0)
+
+WebUI.click(findTestObject('HomeRefinancing/quaestion checklist'))
+
 WebUI.click(findTestObject('HomeRefinancing/klik_selanjutnyaPertanyaan'))
+
+WebUI.waitForElementPresent(findTestObject('HomeRefinancing/Deskripsi_pertanyaan'), 300)
 
 WebUI.click(findTestObject('HomeRefinancing/Deskripsi_pertanyaan'))
 
