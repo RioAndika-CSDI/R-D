@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='formModal_styledButton__HMcci']</value>
+         <value>//*[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='formModal_styledButton__HMcci']</value>
-      <webElementGuid>da2d8463-e546-4a86-9f3a-437c012bec78</webElementGuid>
+      <value>//*[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
+      <webElementGuid>226a0845-993f-473d-890e-a3054977a658</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

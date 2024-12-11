@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[3]</value>
+         <value>//*[@id= '2019']//*[@class='inputSelectRefinancing_dropdownItemText__8k_OV']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[3]</value>
-      <webElementGuid>da4477b4-5e9a-414c-a4c2-08873159bc5c</webElementGuid>
+      <value>//*[@id= '2019']//*[@class='inputSelectRefinancing_dropdownItemText__8k_OV']</value>
+      <webElementGuid>1310b5a5-c15f-4029-8f34-829599453055</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='toastSevaRefi_styledToast__CkQQZ undefined']</value>
+         <value>//*[@class=&quot;toast_textToast__x5IXs&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='toastSevaRefi_styledToast__CkQQZ undefined']</value>
-      <webElementGuid>d6e65c81-6711-42dc-a22a-46641f6e85a1</webElementGuid>
+      <value>//*[@class=&quot;toast_textToast__x5IXs&quot;]</value>
+      <webElementGuid>ffbfdc0b-da95-4228-986c-6b771e479597</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

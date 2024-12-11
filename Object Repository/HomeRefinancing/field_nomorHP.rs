@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'newInput_styledContainer__pf4Mq undefined']//*[@data-testid='input-nomor-handphone-refi']</value>
+         <value>//*[@class = 'inputPhone_input__4xYEC false ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'newInput_styledContainer__pf4Mq undefined']//*[@data-testid='input-nomor-handphone-refi']</value>
-      <webElementGuid>511505d5-e402-4d82-8351-fc59a40ab42b</webElementGuid>
+      <value>//*[@class = 'inputPhone_input__4xYEC false ']</value>
+      <webElementGuid>54dade31-63bb-44cd-b2b2-9fc0ffb1c687</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[1]</value>
+         <value>//*[@id= 'Ford']//*[(text() = 'Ford' or . = 'Ford')]//*[@class='inputSelectRefinancing_dropdownItemText__8k_OV']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='refinancingFormPage_searchIconWrapper__ShlCQ'])[1]</value>
-      <webElementGuid>151499d8-c62f-481b-8dbd-c6c2ae684793</webElementGuid>
+      <value>//*[@id= 'Ford']//*[(text() = 'Ford' or . = 'Ford')]//*[@class='inputSelectRefinancing_dropdownItemText__8k_OV']</value>
+      <webElementGuid>7ca3f281-0e67-481e-9068-a21a9739c33f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ford</value>
+      <webElementGuid>ff2fab06-89fc-42cf-b77e-678b7ec9f746</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

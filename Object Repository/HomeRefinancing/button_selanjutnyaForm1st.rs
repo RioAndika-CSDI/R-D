@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'discussionRefiForm_styledButton__XRsTJ']</value>
+         <value>//*[@data-test-id = 'submit-pdp-leads']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'discussionRefiForm_styledButton__XRsTJ']</value>
-      <webElementGuid>6021001d-2015-4f3a-9eb2-8417a7ad476f</webElementGuid>
+      <value>//*[@data-test-id = 'submit-pdp-leads']</value>
+      <webElementGuid>d267d901-441a-4363-888f-b287661e2685</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
