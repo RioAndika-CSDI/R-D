@@ -165,6 +165,10 @@ if (currentUrl_ia == iareview_url) {
     KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_ia)
 }
 
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-ia'), 0)
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/checkbox-kk'))
+
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 
 WebUI.delay(5)

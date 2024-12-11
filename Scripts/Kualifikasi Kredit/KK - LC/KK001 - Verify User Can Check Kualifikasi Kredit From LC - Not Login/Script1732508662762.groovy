@@ -115,7 +115,7 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/checkbox-kk'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit - kk review'))
 
-WebUI.delay(60)
+WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Kualifikasi-Kredit/KK Used/text-Hasil-Kualifikasi-Kredit'), 60)
 
