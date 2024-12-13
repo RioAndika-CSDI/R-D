@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP18 - User Can See Available Promo on Choosen Car</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a289cc53-b675-426f-9bf8-f0a89bd4712f</testCaseGuid>
+</TestCaseEntity>

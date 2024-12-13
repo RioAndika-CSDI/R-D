@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP15 - User Can Change City on PLP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4fe6ab3-872a-41f9-986c-42dcc1c00bed</testCaseGuid>
+</TestCaseEntity>

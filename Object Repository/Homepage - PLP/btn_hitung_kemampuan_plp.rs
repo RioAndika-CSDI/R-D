@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>promo_beli_mobil_cb_1juta</name>
+   <name>btn_hitung_kemampuan_plp</name>
    <tag></tag>
-   <elementGuidId>40b58d2a-ac9d-466e-85a1-45888aef42c9</elementGuidId>
+   <elementGuidId>450cca38-b1b7-4f61-b611-6118ab9fdcc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][4]</value>
+         <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][4]</value>
-      <webElementGuid>6287c76a-3e5f-460b-9467-ae89bbf9a862</webElementGuid>
+      <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+      <webElementGuid>e713bca2-c637-4adc-a745-a159b6020d1e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>promo_beli_mobil_cb_1juta</name>
+   <name>icon_location</name>
    <tag></tag>
-   <elementGuidId>40b58d2a-ac9d-466e-85a1-45888aef42c9</elementGuidId>
+   <elementGuidId>29460546-52f7-4cfc-980f-54f84909e263</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][4]</value>
+         <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='bg-[white] rounded-[16px] w-full desktop:h-[100%] flex flex-col gap-[20px] relative mb-[20px]'][4]</value>
-      <webElementGuid>6287c76a-3e5f-460b-9467-ae89bbf9a862</webElementGuid>
+      <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
+      <webElementGuid>fc8fa985-b0c3-49b4-a1cb-937e8b9bfc1c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

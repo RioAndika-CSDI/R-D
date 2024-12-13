@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP17 - User Can Access PLP from Hamburger Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc32dfcb-ba54-448b-8065-f00a85927f2f</testCaseGuid>
+</TestCaseEntity>

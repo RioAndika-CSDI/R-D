@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
@@ -27,27 +27,24 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_promo_page'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
 
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Header Page/search_input'))
 
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
+WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('Promo Page/chevron_right'))
+WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Header Page/search_input'), 'Daihatsu')
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
 
-WebUI.click(findTestObject('Promo Page/chevron_left'))
+boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_mobil_terapply'), 10)
 
-WebUI.delay(5)
-
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_sevaganza'), 10)) {
-	WebUI.comment('OBJECT DETECTED')
+if (isPresent) {
+	println("Element is present.")
 } else {
-	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('OBJECT IS NOT PRESENT')
+	println("Element is not present.")
 }
 
 WebUI.closeBrowser()
