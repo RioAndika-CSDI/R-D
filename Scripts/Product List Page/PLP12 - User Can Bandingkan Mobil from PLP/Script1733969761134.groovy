@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('seva.id')
 
@@ -31,31 +32,38 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
 
-WebUI.waitForElementPresent(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'), 0)
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/bandingkan_mobil'))
 
-WebUI.click(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/tambah_mbl_1'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-//WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_finansial_mobil'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/pilih_model_mbl'))
 
-WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_maks_dp'), '30000000')
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/dropdown_mbl_bmw_3'))
 
-WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_input_pendapatan'), '25000000')
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/btn_pilih_mobil'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/kategori_umur_18_27'), 10)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/kategori_umur_18_27'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/tambah_mbl_2'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/pilih_model_mbl'))
 
-boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_mobil_terapply'), 
-    10)
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/dropdown_mbl_daihatsu_ayla'))
 
-if (isPresent) {
-    println('Element is present.')
-} else {
-    println('Element is not present.')
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/btn_pilih_mobil'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/btn_bandingkan'))
+
+String currentUrl = WebUI.getUrl()
+
+String expectedUrl = 'https://www.seva.id/mobil-baru/bandingkan-mobil/hasil/jakarta-pusat/3-series-320i-sport-a6e5a85b-cd84-477f-afe7-88fbc699470e&320i-sport-bmw320isport-81063752-cf24-4eb9-bbad-8f382c256b5e/all-new-ayla-5f96c023-35e4-4d1b-b1ee-34984cf7f410&10-m-mt-a350rs-gmrej-t9-4b83d64e-943c-48e5-8da1-0969549c7kl3'
+
+if (currentUrl == expectedUrl) {
+		KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
 }
 
 WebUI.closeBrowser()

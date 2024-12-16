@@ -16,10 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
@@ -27,27 +28,24 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_promo_page'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
 
-WebUI.scrollToElement(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'), 10)
-
-WebUI.click(findTestObject('Promo Page/promo_beli_mobil_cb_1juta'))
-
-WebUI.scrollToElement(findTestObject('Promo Page/lihat_promo_lain'), 10)
-
-WebUI.click(findTestObject('Promo Page/chevron_right'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Promo Page/chevron_left'))
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/btn_hitung_kemampuan_plp'))
 
 WebUI.delay(5)
 
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_sevaganza'), 10)) {
-	WebUI.comment('OBJECT DETECTED')
-} else {
-	WebUI.verifyMatch('false', 'true', true)
-	WebUI.comment('OBJECT IS NOT PRESENT')
+String currentUrl = WebUI.getUrl()
+
+String expectedUrl = 'https://www.seva.id/kalkulator-kredit/jakarta-pusat/daihatsu/all-new-ayla?loanRankCVL=Green&dp=23560000'
+
+if (currentUrl == expectedUrl) {
+		KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
 }
 
 WebUI.closeBrowser()

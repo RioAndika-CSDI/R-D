@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP13 - User Can Open Loan Calculator from PLP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d549bb5c-f8d1-4c0e-b057-95f2c06b3953</testCaseGuid>
+</TestCaseEntity>

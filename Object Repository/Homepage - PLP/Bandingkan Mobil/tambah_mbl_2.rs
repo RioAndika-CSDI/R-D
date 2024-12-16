@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card_astra_auto_fest</name>
+   <name>tambah_mbl_2</name>
    <tag></tag>
-   <elementGuidId>f93483cf-15c4-4b9a-9d8c-ffbefa662ee0</elementGuidId>
+   <elementGuidId>c7b5f2fb-2a8d-4742-b94b-574b9bd1e6f0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
+         <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][2]</value>
-      <webElementGuid>7086edce-0529-4c5a-9a97-310028d732a9</webElementGuid>
+      <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][2]</value>
+      <webElementGuid>6b37967b-5e80-40d7-a4ae-3f5b5a6d0f75</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
