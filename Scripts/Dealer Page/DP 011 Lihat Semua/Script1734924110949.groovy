@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -19,24 +18,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-if (open_browser.toString().equals('1')) {
-    WebUI.callTestCase(findTestCase('Wordpress/WP001-Homepage-Akses Main Page Blog Melalui Burgaer Menu'), [('expected_url') : expected_url
-            , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : 'Yogyakarta', ('dealer') : 'Daihatsu'
+        , ('URL_tc3') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer/'
+        , ('open_browser') : '1', ('close_browser') : '1', ('kontak_dealer_ke') : '2'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Blog Main/Label_ Berita Baru_Lihat Semua'))
+WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
 
-WebUI.waitForElementPresent(findTestObject('Page Blog Main/Page Berita/breadcrumb'), 300)
+WebUI.scrollToElement(findTestObject('Page - Detail dealer/Lihatsemua'), 10)
+
+WebUI.click(findTestObject('Page - Detail dealer/Lihatsemua'))
+
+WebUI.waitForElementPresent(findTestObject('Page Blog Main/Page Berita/breadcrumb'), 50)
 
 actURL = WebUI.getUrl()
 
 //WebUI.verifyMatch(actUrl, expected_url_berita, true)
-
 if (actURL == expected_url_berita) {
-	KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
 }
 
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

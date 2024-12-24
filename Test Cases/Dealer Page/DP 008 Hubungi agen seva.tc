@@ -51,13 +51,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</variableId>
+      <variableId>e1cd0502-f792-407e-a13e-822463485632</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e1cd0502-f792-407e-a13e-822463485632</variableId>
+      <variableId>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -115,18 +115,18 @@
       <name>kontak_dealer_ke</name>
    </variable>
    <variable>
-      <defaultValue>'Nandiel Testing'</defaultValue>
-      <description></description>
-      <id>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</id>
-      <masked>false</masked>
-      <name>nama_lengkap</name>
-   </variable>
-   <variable>
       <defaultValue>'8892428460'</defaultValue>
       <description></description>
       <id>e1cd0502-f792-407e-a13e-822463485632</id>
       <masked>false</masked>
       <name>nomor_handphone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nandiel Testing'</defaultValue>
+      <description></description>
+      <id>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</id>
+      <masked>false</masked>
+      <name>nama_lengkap</name>
    </variable>
    <variable>
       <defaultValue>'212121'</defaultValue>

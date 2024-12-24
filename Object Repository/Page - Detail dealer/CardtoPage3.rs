@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist leads form dealer</name>
+   <name>CardtoPage3</name>
    <tag></tag>
-   <elementGuidId>7f93a02e-ce11-4416-a238-a98c02c29345</elementGuidId>
+   <elementGuidId>b9c268a9-5428-45d6-a68b-a73fc08b4a83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
+         <value>//*[@class='dealerCard_cardDealer__gX_2M'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
-      <webElementGuid>ff55dce7-716e-42df-81ab-68b03b005d50</webElementGuid>
+      <value>//*[@class='dealerCard_cardDealer__gX_2M'][1]</value>
+      <webElementGuid>2a5763ee-13d4-4685-83f6-5e4fbf374462</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

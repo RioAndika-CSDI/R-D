@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist leads form dealer</name>
+   <name>Headphone</name>
    <tag></tag>
-   <elementGuidId>7f93a02e-ce11-4416-a238-a98c02c29345</elementGuidId>
+   <elementGuidId>4e0eecc3-cc41-4639-b939-a3b10805c339</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
+         <value>//*[@class='ant-float-btn-content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
-      <webElementGuid>ff55dce7-716e-42df-81ab-68b03b005d50</webElementGuid>
+      <value>//*[@class='ant-float-btn-content']</value>
+      <webElementGuid>86f26fdc-3053-4058-9a14-6556b7d6ab77</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
