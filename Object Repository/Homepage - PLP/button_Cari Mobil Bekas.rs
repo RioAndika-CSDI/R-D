@@ -18,7 +18,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil Bekas</value>
-      <webElementGuid>4ea2f526-8f91-4aee-9e9f-3e6d595c1448</webElementGuid>
+      <webElementGuid>a0afcded-0f68-4f21-a81e-8d77f4443ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0cdcee4e-8e48-4ec4-b145-7175f082b992</webElementGuid>
+      <webElementGuid>c05e7c14-86fe-4901-ad2d-ea3d257c2ca1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

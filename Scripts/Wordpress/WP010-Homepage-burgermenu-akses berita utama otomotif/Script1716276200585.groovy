@@ -27,6 +27,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Artikel-berita utama otomotif'))

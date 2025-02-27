@@ -7,13 +7,21 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
+         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = '.agreement_agreementTerms__kLT2Y > button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>.agreement_agreementTerms__kLT2Y > button</value>
+      <webElementGuid>2dc07c14-e5cc-4db8-b403-5d91f703f569</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

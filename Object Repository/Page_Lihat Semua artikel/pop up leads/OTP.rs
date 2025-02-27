@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_yukDiskusi</name>
+   <name>OTP</name>
    <tag></tag>
-   <elementGuidId>4dd5f972-5085-4299-91bf-6e6d4a84ade1</elementGuidId>
+   <elementGuidId>24cd660d-078e-49ed-8e16-ddfab31d74e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'leadsFormTertiary_textHeading__oS9SV' and (text() = 'Yuk, diskusi dengan SEVA!' or . = 'Yuk, diskusi dengan SEVA!')]</value>
+         <value>//*[@class = 'otp-input']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>leadsFormTertiary_textHeading__oS9SV</value>
-      <webElementGuid>9f1473ed-9597-4b49-ba19-19ea2cc023e7</webElementGuid>
+      <value>//*[@inputmode = 'numeric']</value>
+      <webElementGuid>e2dd0d9e-b54f-4fe5-8a3b-8b36789acc9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Yuk, diskusi dengan SEVA!</value>
-      <webElementGuid>167947fa-8aaf-4d1b-8219-7cbc8c48e44b</webElementGuid>
+      <value>otp-input</value>
+      <webElementGuid>24bb9b9e-5d2f-4bb4-b742-6d6f6efeb6b9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

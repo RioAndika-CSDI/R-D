@@ -6,15 +6,19 @@
    <elementGuidId>c15338e9-9cf0-46d5-ad42-93180afcecfb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-cari-mobil']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,31 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>82685115-7ec9-408d-a64e-cebfee10c8ee</webElementGuid>
+      <webElementGuid>a6ea143c-c067-4ef6-a073-e8e44a7699f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>b1895508-5456-474d-90dc-1a48797de696</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>button-cari-mobil</value>
-      <webElementGuid>a6f6c458-520d-419f-b3d9-4fc7b20b2724</webElementGuid>
+      <value>bottomSheetCookies_wrapperButton__eLJ4a</value>
+      <webElementGuid>35d0b453-821f-478f-90ba-b0ec80c35254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-cari-mobil</value>
+      <webElementGuid>fa5eb392-b1e5-4b31-b9ea-974827e790ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Cari Dealer</value>
-      <webElementGuid>599458b9-ce55-4e25-a4fc-8fe97069c45a</webElementGuid>
+      <webElementGuid>dc25b6fb-08a7-448e-9a2e-497f9c88988d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_buttonWrapper__HOK_J&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>fcef5c69-d029-4777-a081-d5724d407915</webElementGuid>
+      <webElementGuid>426236a2-7281-42b9-94e1-c9c331d8adc6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>fd672802-6d11-4594-874c-a65729561af0</webElementGuid>
+      <webElementGuid>ce6cbd31-7786-414e-9293-bf9510e7fbf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::button[1]</value>
-      <webElementGuid>3af27deb-da36-4426-975f-763288927eb7</webElementGuid>
+      <webElementGuid>e6825e41-7ea8-4044-8c5c-2093fa7d46d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tegal'])[1]/following::button[1]</value>
-      <webElementGuid>8bc2e22f-b36e-44d8-b80a-26e6b1c25b50</webElementGuid>
+      <webElementGuid>4c5fbcf1-b1f5-474b-a11f-f04fcbb7126c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/preceding::button[1]</value>
-      <webElementGuid>07f67278-9c24-4988-9177-be868c15bff5</webElementGuid>
+      <webElementGuid>e0d545b3-71ab-41ee-8335-fa65a4fff5b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dealer Mobil berdasarkan Merek'])[1]/preceding::button[1]</value>
-      <webElementGuid>561d1f73-2e19-401b-be60-7abbd7d1b0d3</webElementGuid>
+      <webElementGuid>8498c159-c8cf-4d23-9467-c5d504aa54d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cari Dealer']/parent::*</value>
-      <webElementGuid>f6ce3959-df93-4ea7-ac8f-d11c4286fc2c</webElementGuid>
+      <webElementGuid>75d25999-1b61-4b09-a50c-041c46aebe88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/button</value>
-      <webElementGuid>128006ba-d942-46b2-9395-5d797d390da7</webElementGuid>
+      <webElementGuid>09ca1d16-4a2a-4eb7-b1af-675ccf96f9a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Cari Dealer' or . = 'Cari Dealer')]</value>
-      <webElementGuid>74dfba24-d05e-4505-9aca-0e541cd5a370</webElementGuid>
+      <webElementGuid>226def0c-53f4-4d39-af44-a4f18c6cf9e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

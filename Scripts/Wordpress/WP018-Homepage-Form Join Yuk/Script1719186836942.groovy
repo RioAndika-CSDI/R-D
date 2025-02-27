@@ -30,6 +30,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel_Semua Artikel'))
@@ -41,7 +43,6 @@ actURL = WebUI.getUrl()
 if (actURL == expected_url) {
     KeywordUtil.markPassed('User is on the expected page: ' + actURL)
 }
-
 
 WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Judul Artikel Populer 1st'), 300)
 
@@ -59,8 +60,28 @@ if (judul == judulDetail) {
     KeywordUtil.markPassed('User is on the expected page: ' + judul)
 }
 
-
 WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Page Join Yuk/label join yuk'), 0)
+
+WebUI.delay(30)
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/nama'))
+
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/nama'), 'Hilmy Testing')
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/nomer'))
+
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/nomer'), '85641210080')
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/checklist'))
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/button kirim'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Lihat Semua artikel/pop up leads/otp title'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Page_Lihat Semua artikel/pop up leads/otp title'), 15)
+
+//WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/pop up leads/OTP'), 300)
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/OTP'), OTP)
 
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Page Join Yuk/input email'))
 

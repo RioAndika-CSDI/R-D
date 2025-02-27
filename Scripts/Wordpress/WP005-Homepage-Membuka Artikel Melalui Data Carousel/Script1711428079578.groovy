@@ -30,9 +30,11 @@ if (open_browser.toString().equals('1')) {
 
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-    
+    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+    WebUI.click(findTestObject('Homepage Component/click terima artikel'))
 
     String randomNumber = '1'
 
@@ -85,7 +87,6 @@ if (open_browser.toString().equals('1')) {
 //WebUI.verifyGreaterThan(autor.length(), 0)
 //
 //WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_Date Artikel', [('tanggal') : date]), 0)
-
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
 }

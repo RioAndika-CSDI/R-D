@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@role = 'button' and (text() = '${sort}' or . = '${sort}')]</value>
+         <value>//*[starts-with(@class, 'bottomSheetList') and (text() = '${sort}' or . = '${sort}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -25,23 +25,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>61d27e5a-db9e-4dff-8b8c-2d753a0229ec</webElementGuid>
+      <webElementGuid>0a21e805-7897-4c63-8159-7b441464071a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bottomSheetList</value>
+      <webElementGuid>ab006ebd-9a30-4723-b00b-7938d36b8743</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>bottomSheetList_listOption__6wR7a </value>
-      <webElementGuid>486e295a-9ead-4318-992f-1d7b6c8e80d4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6f39c166-065d-4a9e-beac-b765c6cc5d02</webElementGuid>
+      <webElementGuid>16e5e864-14f4-4cc0-8bfa-e29ef4437a5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-pilih-sorting-harga-terendah</value>
-      <webElementGuid>ea3e397a-0796-470a-9efc-212a425a67f5</webElementGuid>
+      <webElementGuid>41f4b56b-9f3f-431e-b90d-e09f09dba896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${sort}</value>
-      <webElementGuid>5f72dad4-f73c-4c71-a6c4-fca5cb0c7f82</webElementGuid>
+      <webElementGuid>b568deb3-101c-44ef-9356-2ab512d54691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;sortingMobile_bottomSheet__6rGDt&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;bottomSheetList_listWrapper__pPdZ0&quot;]/div[@class=&quot;bottomSheetList_listOption__6wR7a&quot;]</value>
-      <webElementGuid>ab483ca7-5605-47da-a951-b60461db4516</webElementGuid>
+      <webElementGuid>79d212c7-d7fd-48fb-b295-efbfe687e45b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[14]</value>
-      <webElementGuid>fe98e6dc-4333-4e1c-8082-1593c9009147</webElementGuid>
+      <webElementGuid>e76d4a3b-7b8d-4205-b699-17fd7af0053d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::div[16]</value>
-      <webElementGuid>fe8e1908-571e-47b8-a72f-bcc412e7274b</webElementGuid>
+      <webElementGuid>cb6b84b1-619c-4829-93d6-591c535ba338</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tertinggi'])[1]/preceding::div[2]</value>
-      <webElementGuid>3c681e4b-68b3-4923-9268-e1e1dad9e341</webElementGuid>
+      <webElementGuid>7c67ca4a-2772-4a9a-b3f0-9e52e36ee54b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Terbaru'])[2]/preceding::div[4]</value>
-      <webElementGuid>dee0c5c6-5475-4757-88c0-2d5bdc6e3811</webElementGuid>
+      <webElementGuid>6d359894-7df6-4d7a-8062-e4cae5aef9ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Harga Terendah']/parent::*</value>
-      <webElementGuid>54e2ad71-4f7d-4a5e-8ed7-b452c600a8f4</webElementGuid>
+      <webElementGuid>abe593e8-f401-459c-8908-11942a60bd31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]/div[2]/div/div[2]/div</value>
-      <webElementGuid>0fd35583-2884-415a-8201-24abe549e3b1</webElementGuid>
+      <webElementGuid>9952b836-2e3f-496d-a1aa-dbf80067aa38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Harga Terendah' or . = 'Harga Terendah')]</value>
-      <webElementGuid>5ac4d94d-893f-432a-b91c-f0dee38f9a1f</webElementGuid>
+      <webElementGuid>31cdb19d-913b-4f2b-8390-258b3098c6a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

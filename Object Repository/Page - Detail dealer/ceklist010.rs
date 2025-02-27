@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/div[7]/div/div/div[2]/div/div[3]/div</value>
+         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
