@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,8 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
-
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('https://www.seva.id?utm_source=testing&utm_medium=testing&utm_campaign=testing&utm_id=testing&utm_term=testing&utm_content=testing')
 
@@ -29,6 +27,11 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.waitForElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
+    15)
+
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Cari Mobil'), 15)
 
@@ -41,9 +44,8 @@ WebUI.waitForPageLoad(50)
 actuall_URL = WebUI.getUrl()
 
 //WebUI.verifyMatch(actuall_URL, expected_URL, true)
-
 if (actuall_URL == expected_URL) {
-	KeywordUtil.markPassed('User is on the expected page: ' + actuall_URL)
+    KeywordUtil.markPassed('User is on the expected page: ' + actuall_URL)
 }
 
 if (close_browser.toString().equals('1')) {

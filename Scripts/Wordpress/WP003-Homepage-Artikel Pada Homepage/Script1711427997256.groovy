@@ -29,6 +29,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.verifyElementPresent(findTestObject('Homepage Component/Data_Artikel Carousel', [('id') : '1']), 0)
 
 WebUI.verifyElementPresent(findTestObject('Homepage Component/label_Lihat Semua Artikel'), 0)

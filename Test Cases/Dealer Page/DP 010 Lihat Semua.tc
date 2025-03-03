@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DP 011 Lihat Semua</name>
+   <name>DP 010 Lihat Semua</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>171e7754-f26b-41de-bf5b-9e8ebbea7727</testCaseGuid>

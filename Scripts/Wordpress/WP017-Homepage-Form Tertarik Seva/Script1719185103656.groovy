@@ -30,6 +30,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel_Semua Artikel'))
@@ -50,7 +52,7 @@ judul = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Judul Artikel Pop
 
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Judul Artikel Populer 1st'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'), 300)
+WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'), 20)
 
 judulDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'))
 
@@ -60,21 +62,42 @@ if (judul == judulDetail) {
 
 WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/label tertarik beli seva'), 0)
 
+WebUI.delay(30)
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/nama'))
+
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/nama'), 'Hilmy Testing')
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/nomer'))
+
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/nomer'), '85641210080')
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/checklist'))
+
+WebUI.click(findTestObject('Page_Lihat Semua artikel/pop up leads/button kirim'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Lihat Semua artikel/pop up leads/otp title'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Page_Lihat Semua artikel/pop up leads/otp title'), 15)
+
+//WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/pop up leads/OTP'), 300)
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/pop up leads/OTP'), OTP)
+
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/form nama lengkap'))
 
 WebUI.setText(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/form nama lengkap'), 'Hilmy Testing')
 
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/form nomor telepon'))
 
-WebUI.setText(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/form nomor telepon'), '81802793462')
+WebUI.setText(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/form nomor telepon'), '85641210080')
 
 WebUI.click(findTestObject('Page_Lihat Semua artikel/checklist_wp_leads'))
 
 WebUI.click(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/klik kirim'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/OTP Verif'), 300)
+//WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/OTP Verif'), 300)
 
-WebUI.getText(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/OTP Verif'))
+//WebUI.setText(findTestObject('Page_Lihat Semua artikel/Tertarik Beli Seva/OTP Verif'), OTP)
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

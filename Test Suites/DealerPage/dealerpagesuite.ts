@@ -405,35 +405,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f7b2d1c-bf04-4607-87d1-411c0497488d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 010 Submit leads from Headphone</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0b933f9b-a354-4f68-ba78-cd246c4ff226</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>52f172ef-cbe4-4f64-9200-eb8260ca8ee9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1fcc9450-aa77-470a-8383-0a0f67ca091d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>db734e7b-d143-4203-bfb8-8b82a0c6c63a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 011 Lihat Semua</testCaseId>
+      <testCaseId>Test Cases/Dealer Page/DP 010 Lihat Semua</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -446,7 +421,7 @@
       <guid>b01b69d1-db6a-4f30-a1dc-aa2b736464d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer Page/DP 12 Baca Selengkapnya</testCaseId>
+      <testCaseId>Test Cases/Dealer Page/DP 11 Baca Selengkapnya</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

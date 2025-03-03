@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail d
 
 WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
 
+WebUI.click(findTestObject('Page - Detail dealer/detail-dealer'))
+
 WebUI.click(findTestObject('Page - Detail dealer/Lihat peta_CTA'))
 
 WebUI.switchToWindowIndex(1)
@@ -30,13 +32,13 @@ WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Page - Dealer Location/Rute'), 300)
 
 url = WebUI.getUrl()
+
 WebUI.comment(url)
 
 // Directly compare the whole URL without slicing
 // WebUI.verifyMatch(url, map_url.toString(), true)
-
 if (url == map_url) {
-	KeywordUtil.markPassed('User is on the expected page: ' + url)
+    KeywordUtil.markPassed('User is on the expected page: ' + url)
 }
 
 if (close_browser.toString().equals('1')) {

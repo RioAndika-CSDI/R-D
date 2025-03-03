@@ -1,6 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -32,6 +30,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel_Semua Artikel'))
@@ -55,11 +55,10 @@ WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Match judul
 judulDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Match judul artikel populer 1st'))
 
 if (judul == judulDetail) {
-	KeywordUtil.markPassed('User is on the expected page: ' + judul)
+    KeywordUtil.markPassed('User is on the expected page: ' + judul)
 }
 
 // WebUI.verifyMatch(judul, judulDetail, true)
-
 // WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Page_Lihat Semua artikel/verify_cicilan calya'), 0)
 //WebUI.click(findTestObject('Object Repository/Page_Lihast Semua artikel/TemukanArtikel_KenapaMmemilihToyotaCalya'))
 //WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Page_Lihat Semua artikel/VerifyElemen_KenapaMmeilihToyotaCalya'),  0)

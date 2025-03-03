@@ -381,6 +381,12 @@
          <value></value>
          <variableId>61837091-5897-4647-9db4-d187b0922212</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c66a0f7-2bf9-4ee6-935b-d4e7fee30798</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>aef3cfe0-198c-4dea-a618-6877556cfacb</guid>
@@ -405,6 +411,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>5e78d058-b628-4197-bb0b-f33a2c99f31d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12740d22-9947-42b0-9ee8-b509a0dfa251</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

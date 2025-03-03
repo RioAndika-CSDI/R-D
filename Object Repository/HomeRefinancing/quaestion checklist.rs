@@ -6,12 +6,11 @@
    <elementGuidId>f8a6cbe4-a502-4ae7-bf76-8da1d7cbad0a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button)[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div[5]/div</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

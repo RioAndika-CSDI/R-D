@@ -29,6 +29,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel_Semua Artikel'))
@@ -38,11 +40,9 @@ WebUI.waitForElementPresent(findTestObject('Page Blog Main/Label_Section Berita 
 actURL = WebUI.getUrl()
 
 //WebUI.verifyMatch(actURL, expected_url, true)
-
 if (actURL == expected_url) {
-	KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
 }
-
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

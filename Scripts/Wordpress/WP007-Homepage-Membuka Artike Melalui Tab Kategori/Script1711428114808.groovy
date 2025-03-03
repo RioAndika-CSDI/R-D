@@ -29,6 +29,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 tabKategoriId = 1
 
 dataArtikelId = 1
@@ -48,12 +50,12 @@ for (int i = 0; i < 3; i++) {
     }
 }
 
-cekIgnore=WebUI.getText(findTestObject('Homepage Component/label_Tab Kategori Artikel by id', [('id') : tabKategoriId]))
+cekIgnore = WebUI.getText(findTestObject('Homepage Component/label_Tab Kategori Artikel by id', [('id') : tabKategoriId]))
 
 WebUI.comment(cekIgnore)
 
-if(cekIgnore.equalsIgnoreCase(kecualikanKatehori.toString())) {
-	tabKategoriId=1
+if (cekIgnore.equalsIgnoreCase(kecualikanKatehori.toString())) {
+    tabKategoriId = 1
 }
 
 WebUI.click(findTestObject('Homepage Component/label_Tab Kategori Artikel by id', [('id') : tabKategoriId]))

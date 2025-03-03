@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checklist</name>
+   <tag></tag>
+   <elementGuidId>4aed5fcc-4e0d-42b8-a3f8-1928aa0c4e77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@class = 'consent-checkbox'])[3]
+</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>#consent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>#consent</value>
+      <webElementGuid>e577b312-a222-4d5f-8ad7-858757935005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>98469eea-5b60-4819-9361-5b951e38385a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@class = 'consent-checkbox'])[3]
+</value>
+      <webElementGuid>17fbc21c-74c5-4a0a-9d0f-07bcad5734d6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

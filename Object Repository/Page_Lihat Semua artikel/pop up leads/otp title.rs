@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist leads form dealer</name>
+   <name>otp title</name>
    <tag></tag>
-   <elementGuidId>7f93a02e-ce11-4416-a238-a98c02c29345</elementGuidId>
+   <elementGuidId>17a03382-fa3a-45a0-8465-b7e886ba3771</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
+         <value>//*[(text() = 'Verifikasi Nomor Kamu' or . = 'Verifikasi Nomor Kamu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
-      <webElementGuid>7e2506df-cd0b-4245-a7d2-8b1a0d18c68e</webElementGuid>
+      <value>Verifikasi Nomor Kamu</value>
+      <webElementGuid>d1e17d9b-5415-48d1-adb8-b790d34aa6e5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

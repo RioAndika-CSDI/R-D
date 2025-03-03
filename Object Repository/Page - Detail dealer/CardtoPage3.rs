@@ -7,17 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='dealerCard_cardDealer__gX_2M'][1]</value>
+         <value>//*[starts-with(@class, 'dealerCarousel_cardTitle') and (text() = 'Balikpapan' or . = 'Balikpapan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class='dealerCard_cardDealer__gX_2M'][1]</value>
-      <webElementGuid>2a5763ee-13d4-4685-83f6-5e4fbf374462</webElementGuid>
+      <webElementGuid>9619c689-d347-4733-bcd5-d239f0b3a9a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dealerCarousel_cardTitle</value>
+      <webElementGuid>8c5ee0d7-31be-477d-9d25-fc066f8bc4c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Balikpapan</value>
+      <webElementGuid>bc0b6dcc-b9c4-44f5-a2ec-a68e1f83285c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

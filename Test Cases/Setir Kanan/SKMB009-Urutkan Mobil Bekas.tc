@@ -44,7 +44,7 @@
       <name>open_browser</name>
    </variable>
    <variable>
-      <defaultValue>'Harga Terendah'</defaultValue>
+      <defaultValue>'Iklan terbaru'</defaultValue>
       <description>Contoh : Harga Terendah/Harga Tertinggi/Mobil Terbaru/Mobil Terlama</description>
       <id>0b666979-93fa-43e7-a6b5-191fba6c26fd</id>
       <masked>false</masked>

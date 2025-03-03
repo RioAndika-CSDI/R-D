@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist leads form dealer</name>
+   <name>button kirim</name>
    <tag></tag>
-   <elementGuidId>7f93a02e-ce11-4416-a238-a98c02c29345</elementGuidId>
+   <elementGuidId>61d07efa-51c3-47b8-ad65-bf29148edf5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
+         <value>//*[@id = 'submitLeads']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
-      <webElementGuid>7e2506df-cd0b-4245-a7d2-8b1a0d18c68e</webElementGuid>
+      <value>submitLeads</value>
+      <webElementGuid>05af42dc-f07a-4d8b-b618-a44c237a6591</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

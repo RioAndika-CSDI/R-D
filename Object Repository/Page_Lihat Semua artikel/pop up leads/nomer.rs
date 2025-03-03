@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist leads form dealer</name>
+   <name>nomer</name>
    <tag></tag>
-   <elementGuidId>7f93a02e-ce11-4416-a238-a98c02c29345</elementGuidId>
+   <elementGuidId>60cdc569-5c13-4a88-81c8-6717e10830bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
+         <value>//*[@id = 'phone']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
-      <webElementGuid>7e2506df-cd0b-4245-a7d2-8b1a0d18c68e</webElementGuid>
+      <value>phone</value>
+      <webElementGuid>ba0b4ad6-1f66-445b-b6ee-a04625f13371</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
