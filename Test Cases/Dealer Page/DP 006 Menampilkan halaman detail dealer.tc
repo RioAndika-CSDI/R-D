@@ -69,7 +69,7 @@
       <name>URL_tc3</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/mobil-baru/daihatsu/dealer/'</defaultValue>
+      <defaultValue>'https://www.seva.id/mobil-baru/toyota/dealer/balikpapan'</defaultValue>
       <description></description>
       <id>679b5dab-f5a8-45a9-b3da-0d902f23273b</id>
       <masked>false</masked>
