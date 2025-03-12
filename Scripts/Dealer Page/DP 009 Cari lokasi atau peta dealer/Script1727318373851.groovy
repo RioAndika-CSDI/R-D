@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail d
 
 WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
 
-WebUI.click(findTestObject('Page - Detail dealer/detail-dealer'))
+//WebUI.click(findTestObject('Page - Detail dealer/detail-dealer'))
 
 WebUI.click(findTestObject('Page - Detail dealer/Lihat peta_CTA'))
 

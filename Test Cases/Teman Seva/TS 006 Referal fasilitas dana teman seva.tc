@@ -24,14 +24,14 @@
       <variableId>663090b5-7957-4787-9833-e6e48bf52d72</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'85641210080'</defaultValue>
+      <defaultValue>'85349524556'</defaultValue>
       <description></description>
       <id>35acc39e-6905-42d9-8c55-95c5ba1eb8f6</id>
       <masked>false</masked>
       <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'999900'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
       <id>86bb13e1-b01e-49e1-840c-4a3b55990584</id>
       <masked>false</masked>

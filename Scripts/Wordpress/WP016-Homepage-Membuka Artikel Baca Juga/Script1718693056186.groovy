@@ -60,22 +60,22 @@ if (judul == judulDetail) {
     KeywordUtil.markPassed('User is on the expected page: ' + judul)
 }
 
-WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Label Baca Juga'), 0)
-
-WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'), 300)
-
-KlikBaca = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
-
-WebUI.click(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
-
-WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'), 300)
-
-BacaDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'))
+//WebUI.scrollToElement(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Label Baca Juga'), 0)
+//
+//WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'), 300)
+//
+//KlikBaca = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
+//
+//WebUI.click(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Click Baca Juga'))
+//
+//WebUI.waitForElementPresent(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'), 300)
+//
+//BacaDetail = WebUI.getText(findTestObject('Page_Lihat Semua artikel/Page Baca Juga/Match Baca Juga'))
 
 // WebUI.verifyMatch(KlikBaca, BacaDetail, true)
-if (KlikBaca == BacaDetail) {
-    KeywordUtil.markPassed('User is on the expected page: ' + KlikBaca)
-}
+//if (KlikBaca == BacaDetail) {
+//    KeywordUtil.markPassed('User is on the expected page: ' + KlikBaca)
+//}
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

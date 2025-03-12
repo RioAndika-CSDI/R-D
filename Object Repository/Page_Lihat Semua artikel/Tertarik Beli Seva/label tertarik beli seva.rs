@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h3[(contains(text(), 'Tertarik Beli Mobil di SEVA??') or contains(., 'Tertarik Beli Mobil di SEVA??'))]</value>
+         <value>//h3[(contains(text(), 'Butuh Mobil atau Layanan Surat Kendaraan?') or contains(., 'Butuh Mobil atau Layanan Surat Kendaraan?'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>88106a4a-dd89-496b-b76f-2bde7c175120</webElementGuid>
+      <webElementGuid>18c1e555-eb44-44c6-a769-2d30eedfb34a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tertarik Beli Mobil di SEVA??</value>
-      <webElementGuid>66e38247-5817-46dd-b40b-7f003aa7ee41</webElementGuid>
+      <value>Butuh Mobil atau Layanan Surat Kendaraan?</value>
+      <webElementGuid>b98cad0c-a462-46ff-9c60-3a2ad50bb05c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
