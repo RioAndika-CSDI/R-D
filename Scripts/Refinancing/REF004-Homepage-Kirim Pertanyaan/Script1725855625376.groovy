@@ -29,6 +29,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 
 WebUI.waitForElementPresent(findTestObject('HomeRefinancing/label_fasilitasDana'), 400)
@@ -51,7 +53,13 @@ WebUI.click(findTestObject('HomeRefinancing/pertanyaan_nomer'))
 
 WebUI.setText(findTestObject('HomeRefinancing/pertanyaan_nomer'), '81229948663')
 
+WebUI.waitForElementPresent(findTestObject('HomeRefinancing/quaestion checklist'), 0)
+
+WebUI.click(findTestObject('HomeRefinancing/quaestion checklist'))
+
 WebUI.click(findTestObject('HomeRefinancing/klik_selanjutnyaPertanyaan'))
+
+WebUI.waitForElementPresent(findTestObject('HomeRefinancing/Deskripsi_pertanyaan'), 300)
 
 WebUI.click(findTestObject('HomeRefinancing/Deskripsi_pertanyaan'))
 

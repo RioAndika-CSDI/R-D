@@ -48,28 +48,28 @@
       <variableId>55d2854d-fc1f-4da9-810d-efc45bb34024</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'08892428461'</defaultValue>
+      <defaultValue>'816335374'</defaultValue>
       <description></description>
       <id>12f16fdc-7641-45a3-8191-5dc4d6ea6225</id>
       <masked>false</masked>
       <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'123456'</defaultValue>
       <description></description>
       <id>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>
    <variable>
-      <defaultValue>'Nandiel'</defaultValue>
+      <defaultValue>'User Test Production'</defaultValue>
       <description></description>
       <id>9b9de51b-8dd6-4a52-857e-c810cc6a9e69</id>
       <masked>false</masked>
       <name>Nama_lengkap</name>
    </variable>
    <variable>
-      <defaultValue>'nandiel.d.a'</defaultValue>
+      <defaultValue>'testing.email'</defaultValue>
       <description></description>
       <id>bd4e1d7d-049a-41aa-bf39-2c9b62325c2d</id>
       <masked>false</masked>
@@ -90,7 +90,7 @@
       <name>tanggal_lahir</name>
    </variable>
    <variable>
-      <defaultValue>'TestingSalah'</defaultValue>
+      <defaultValue>'TESTREF1'</defaultValue>
       <description></description>
       <id>55d2854d-fc1f-4da9-810d-efc45bb34024</id>
       <masked>false</masked>

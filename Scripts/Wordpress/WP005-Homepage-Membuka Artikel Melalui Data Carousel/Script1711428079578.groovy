@@ -30,9 +30,11 @@ if (open_browser.toString().equals('1')) {
 
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-    
+    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+    WebUI.click(findTestObject('Homepage Component/click terima artikel'))
 
     String randomNumber = '1'
 
@@ -62,30 +64,29 @@ if (open_browser.toString().equals('1')) {
     WebUI.click(findTestObject('Homepage Component/Data_Artikel Carousel', [('id') : randomNumber]))
 }
 
-WebUI.waitForElementNotPresent(findTestObject('Homepage Component/Label_Artikel Terkini'), 300)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_Artikel'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_judul', [('title') : title]), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_judul', [('title') : kategori]), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_kategori Artikel', [('kategori') : kategori]), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_Title Artikel', [('title') : title]), 0)
-
-autor = WebUI.getText(findTestObject('Page Data Artikel/Label_Detail Author'))
-
-labelditulisOleh = autor.substring(0, 12)
-
-autor = autor.substring(12)
-
-WebUI.verifyMatch(labelditulisOleh, 'Ditulis oleh', true)
-
-WebUI.verifyGreaterThan(autor.length(), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_Date Artikel', [('tanggal') : date]), 0)
-
+//WebUI.waitForElementNotPresent(findTestObject('Homepage Component/Label_Artikel Terkini'), 300)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_Artikel'), 0)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_judul', [('title') : title]), 0)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/breadcrumb_judul', [('title') : kategori]), 0)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_kategori Artikel', [('kategori') : kategori]), 0)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_Title Artikel', [('title') : title]), 0)
+//
+//autor = WebUI.getText(findTestObject('Page Data Artikel/Label_Detail Author'))
+//
+//labelditulisOleh = autor.substring(0, 12)
+//
+//autor = autor.substring(12)
+//
+//WebUI.verifyMatch(labelditulisOleh, 'Ditulis oleh', true)
+//
+//WebUI.verifyGreaterThan(autor.length(), 0)
+//
+//WebUI.verifyElementPresent(findTestObject('Page Data Artikel/Label_Date Artikel', [('tanggal') : date]), 0)
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()
 }

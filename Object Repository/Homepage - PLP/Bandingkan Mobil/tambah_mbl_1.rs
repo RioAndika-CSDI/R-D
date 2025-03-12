@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tambah_mbl_1</name>
+   <tag></tag>
+   <elementGuidId>559a25cd-e928-4d5c-ba0c-0fc70c30a5b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][1]</value>
+      <webElementGuid>79c54700-21c7-4355-8f4b-8c2108483257</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

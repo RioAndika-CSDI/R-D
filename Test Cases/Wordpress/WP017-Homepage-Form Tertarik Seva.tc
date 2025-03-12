@@ -23,6 +23,12 @@
       <value></value>
       <variableId>61837091-5897-4647-9db4-d187b0922212</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c66a0f7-2bf9-4ee6-935b-d4e7fee30798</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'https://www.seva.id/blog/'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>61837091-5897-4647-9db4-d187b0922212</id>
       <masked>false</masked>
       <name>close_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'999900'</defaultValue>
+      <description></description>
+      <id>7c66a0f7-2bf9-4ee6-935b-d4e7fee30798</id>
+      <masked>false</masked>
+      <name>OTP</name>
    </variable>
 </TestCaseEntity>

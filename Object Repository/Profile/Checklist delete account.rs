@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'delete-account_iconWrapper__nmcQW']</value>
+         <value>//*[starts-with(@class, 'delete-account_iconWrapper') and @role = 'button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>delete-account_iconWrapper__nmcQW</value>
-      <webElementGuid>9b6bdd02-b1d0-4d76-9d94-d2ce9745d28f</webElementGuid>
+      <value>delete-account_iconWrapper</value>
+      <webElementGuid>0d13a0a5-4cab-4cc0-b120-f7a099025167</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>092f146c-68d3-4397-bdff-6523d49d7291</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

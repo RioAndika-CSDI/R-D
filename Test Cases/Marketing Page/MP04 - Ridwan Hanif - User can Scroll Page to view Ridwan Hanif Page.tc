@@ -4,5 +4,6 @@
    <name>MP04 - Ridwan Hanif - User can Scroll Page to view Ridwan Hanif Page</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9ecb069b-2d14-4f4c-8fd2-602b5c2918bf</testCaseGuid>
 </TestCaseEntity>

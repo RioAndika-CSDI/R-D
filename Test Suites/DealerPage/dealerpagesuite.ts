@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0c93dc0d-636b-4e02-8bde-9e5d640d80f1</testSuiteGuid>
    <testCaseLink>
-      <guid>03114394-a7ca-4a6e-9daf-c35b3aa8d6ff</guid>
+      <guid>4abff951-3122-44bc-b40e-e86e32acebf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 001 Menampilkan halaman dealer page</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1966b6ff-44f5-4aed-be94-2cf059ea8037</guid>
+      <guid>d0fbd3f9-6e8a-4b00-b666-f35e93811c20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 002 Cari dealer berdasarkan brand mobil dari search widget</testCaseId>
@@ -56,7 +56,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5f92c5dc-1c24-4203-8bea-36ae1e3084e1</guid>
+      <guid>b088135a-c421-44a2-a9cf-61475da472d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 003 Cari dealer berdasarkan tab Dealer mobil berdasarkan merek</testCaseId>
@@ -87,7 +87,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>00dfe72b-e7b2-4209-aab1-32a490fa17fc</guid>
+      <guid>1d705995-f50b-4602-91d0-7d88f2ab4b0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 004 Cari dealer berdasarkan brand mobil dan location dari search widget</testCaseId>
@@ -124,7 +124,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3189e154-ae6b-4ef3-a007-f541e3a29af6</guid>
+      <guid>194083aa-81d9-4170-89cd-60ab56ac28f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 005 Cari dealer berdasarkan brand mobil dan location dari tab Dealer Mobil Daihatsu di Kota Besar</testCaseId>
@@ -167,7 +167,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c806504a-3b5a-431a-a51c-890028d0afc5</guid>
+      <guid>cfb52a65-3696-4b01-8d72-38cfd9807ac7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 006 Menampilkan halaman detail dealer</testCaseId>
@@ -216,7 +216,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2afb4a39-ce91-47f1-bc46-cc1c9004b33d</guid>
+      <guid>6c0f1e36-9cf9-455c-aea9-16c1e4f21db9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 007 Dapatkan promo</testCaseId>
@@ -283,7 +283,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>08d5fe53-8b6c-414a-ab83-dc1a583d1ff2</guid>
+      <guid>ff8eaab8-2795-4cc6-adf9-083213ed3506</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 008 Hubungi agen seva</testCaseId>
@@ -334,13 +334,13 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</variableId>
+         <variableId>e1cd0502-f792-407e-a13e-822463485632</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e1cd0502-f792-407e-a13e-822463485632</variableId>
+         <variableId>85da3ba9-5c69-4dbb-a02d-6fe042f04e9e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -350,7 +350,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>596c8b7b-85e6-4692-9ef8-4e72d70db5ce</guid>
+      <guid>3e5f8051-ced3-408f-bee8-68b0b798f070</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dealer Page/DP 009 Cari lokasi atau peta dealer</testCaseId>
@@ -403,5 +403,25 @@
          <value></value>
          <variableId>9fde319a-b55b-4a0b-9cc1-c310ca5b51fd</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db734e7b-d143-4203-bfb8-8b82a0c6c63a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealer Page/DP 010 Lihat Semua</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9973cf8-9e74-4196-8b06-3106601d8af2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b01b69d1-db6a-4f30-a1dc-aa2b736464d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealer Page/DP 11 Baca Selengkapnya</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,8 +6,12 @@
    <elementGuidId>27a3270c-b6b8-46a7-88fb-877b8aca67b0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]</value>
+         <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]</value>
-      <webElementGuid>a60f11b9-94b8-4d09-bfbc-0818a1b2af1a</webElementGuid>
+      <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
+      <webElementGuid>44afc7d4-9f93-4005-9b83-fe47ade46661</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

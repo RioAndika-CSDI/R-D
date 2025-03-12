@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Page - Detail dealer/Checklist leads form dealer'))
 
 WebUI.click(findTestObject('Page - Detail dealer/Button kirim'))
 
+WebUI.waitForAlert(15)
+
 WebUI.verifyElementVisible(findTestObject('Page - Detail dealer/Popup OTP'))
 
 WebUI.click(findTestObject('Page - Detail dealer/Field input OTP'))

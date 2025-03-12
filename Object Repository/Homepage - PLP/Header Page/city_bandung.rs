@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>city_bandung</name>
+   <tag></tag>
+   <elementGuidId>bc97107e-67d9-48a4-bd72-782ebb6a27d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][3]</value>
+      <webElementGuid>e01d64d6-68ef-4e69-bd56-7046426e0ee0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -122,14 +122,14 @@
       <name>nama_lengkap</name>
    </variable>
    <variable>
-      <defaultValue>'8892428460'</defaultValue>
+      <defaultValue>'82025030705'</defaultValue>
       <description></description>
       <id>bec63f6d-c152-415a-8885-bdbcf472d8e2</id>
       <masked>false</masked>
       <name>nomor_handphone</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'123456'</defaultValue>
       <description></description>
       <id>2c4e1813-ade7-42ab-a6ff-f2bc0c59da49</id>
       <masked>false</masked>

@@ -6,15 +6,19 @@
    <elementGuidId>b0bcb83f-9481-43e1-88b8-d1b8e14a0328</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-cari-mobil']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>67dab8e9-f26c-484e-8dbd-89b95b778143</webElementGuid>
+      <webElementGuid>2e346f56-509f-42ac-882a-12d3a40851de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>73847f4c-b7db-4308-9572-86c1f543ab9f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>button-cari-mobil</value>
-      <webElementGuid>dbe15f74-34cb-4f2b-9df2-04e99095ffa4</webElementGuid>
+      <webElementGuid>0f2a3d5c-b0e5-4e81-a801-52147ea111e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-cari-mobil</value>
+      <webElementGuid>4b1a7bd4-3c65-4fe2-be0c-60acc479b9bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Cari Dealer</value>
-      <webElementGuid>1c0ac5c7-a1c5-4931-abf8-9a9ecadc2b3a</webElementGuid>
+      <webElementGuid>b9554384-fc57-4d87-9d04-844d7012d270</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;dealer_container__hkOVF&quot;]/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;dealer_searchContainer__HFsqI&quot;]/div[@class=&quot;dealer_cardContainer__NizkU cardshadow_alternativeCardShadow__Q_ufV&quot;]/div[@class=&quot;dealerSearchWidget_container__TYbqq&quot;]/div[@class=&quot;dealerSearchWidget_buttonWrapper__HOK_J&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>87b66a92-2487-45dd-9d56-4c7238d206af</webElementGuid>
+      <webElementGuid>d32835c2-f2c6-43df-b10d-12ccc44d64a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>d9a682da-84dd-4790-9a9a-13f5fe31423a</webElementGuid>
+      <webElementGuid>136cbc30-2634-46a4-9814-ed8d188b8469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandung'])[1]/following::button[1]</value>
-      <webElementGuid>67c7df4b-e391-40b9-b48c-a327abecbc0b</webElementGuid>
+      <webElementGuid>441b45bf-d603-45a7-b08a-63c4ca77fab0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/following::button[1]</value>
-      <webElementGuid>a0f0feb1-d2f6-45d4-b5a0-89d7293e81d3</webElementGuid>
+      <webElementGuid>7ab862af-897e-4836-85b2-d7c84f1beaa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandar Lampung'])[1]/preceding::button[1]</value>
-      <webElementGuid>d2125f33-045e-4088-a1fb-9de6467d6b51</webElementGuid>
+      <webElementGuid>5eb88c62-a698-41b0-92b5-d745b771fc86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cari Dealer']/parent::*</value>
-      <webElementGuid>5cbb0fc6-b510-4653-8de8-00a22c85f438</webElementGuid>
+      <webElementGuid>f66db1c6-0359-44a9-9b5d-a9054dd8f241</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/button</value>
-      <webElementGuid>5b5301b3-ab8d-4d83-bc5f-ff0ce367fd1b</webElementGuid>
+      <webElementGuid>78995824-6c84-46f0-9f4c-8a889f7532ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Cari Dealer' or . = 'Cari Dealer')]</value>
-      <webElementGuid>a3f05ff1-ea40-484e-9d82-6a907e8b7d0c</webElementGuid>
+      <webElementGuid>40e5648a-69e7-4845-b11a-8c0e02fb1733</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

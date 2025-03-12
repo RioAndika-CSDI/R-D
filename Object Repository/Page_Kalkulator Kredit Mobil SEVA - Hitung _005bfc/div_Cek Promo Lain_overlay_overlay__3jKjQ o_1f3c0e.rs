@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cek Promo Lain_overlay_overlay__3jKjQ o_1f3c0e</name>
+   <tag></tag>
+   <elementGuidId>eaa4ce17-5462-4f10-927c-ddf4717ad4e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overlay_overlay__3jKjQ.overlay_showOverlay__MbArC.calculationResult_overlayAdditionalStyle__Fv3r_</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3614aaa7-13bf-49c2-aaa0-b426f1433931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overlay_overlay__3jKjQ overlay_showOverlay__MbArC calculationResult_overlayAdditionalStyle__Fv3r_</value>
+      <webElementGuid>569caa20-f748-4344-ac9e-f4ca5b944168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_ctaGroup__kD_an&quot;]/div[@class=&quot;overlay_overlay__3jKjQ overlay_showOverlay__MbArC calculationResult_overlayAdditionalStyle__Fv3r_&quot;]</value>
+      <webElementGuid>243c53df-9ffd-454d-8e19-a371fe6275ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
+      <webElementGuid>0fe05f7d-c49a-4404-aaac-d064a763cf3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div[2]</value>
+      <webElementGuid>8ce9711d-85b8-47b3-b3bd-41707d2efd97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Promo Page/chevron_left'))
 
 WebUI.delay(5)
 
-if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_layanan_surat_kendaraan'), 10)) {
+if(WebUI.verifyElementPresent(findTestObject('Promo Page/card_sevaganza'), 10)) {
 	WebUI.comment('OBJECT DETECTED')
 } else {
 	WebUI.verifyMatch('false', 'true', true)

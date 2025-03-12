@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LC013 - VerifyUserCanClickPromoLain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44417ee1-e745-4c07-ab5c-5fb0f7d9e70c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41828f95-12e5-4a9b-b218-1790cff2f249</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4da2d69b-104b-41f1-afdf-d98da6732c59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f40434f-f43c-445e-b7d4-3d837a5c9f96</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd50da8a-261b-474c-9191-e7d4775bf70d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa7c427a-76e8-4b47-b84b-542901fc8dfd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>41828f95-12e5-4a9b-b218-1790cff2f249</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bandung'</defaultValue>
+      <description></description>
+      <id>4da2d69b-104b-41f1-afdf-d98da6732c59</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+   <variable>
+      <defaultValue>'Toyota All New Agya'</defaultValue>
+      <description></description>
+      <id>6f40434f-f43c-445e-b7d4-3d837a5c9f96</id>
+      <masked>false</masked>
+      <name>car_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'ADDM'</defaultValue>
+      <description></description>
+      <id>fd50da8a-261b-474c-9191-e7d4775bf70d</id>
+      <masked>false</masked>
+      <name>jenis_bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'2 Tahun Comprehensive + 3 Tahun TLO'</defaultValue>
+      <description></description>
+      <id>fa7c427a-76e8-4b47-b84b-542901fc8dfd</id>
+      <masked>false</masked>
+      <name>pilih_asuransi</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_hitung_kemampuan_plp</name>
+   <tag></tag>
+   <elementGuidId>450cca38-b1b7-4f61-b611-6118ab9fdcc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+      <webElementGuid>e713bca2-c637-4adc-a745-a159b6020d1e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

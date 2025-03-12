@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b8fd60a2-cdcb-496f-99b3-15ad1f31ceb4</testSuiteGuid>
    <testCaseLink>
-      <guid>6589c524-6eb8-4bca-8fd4-86164732c8aa</guid>
+      <guid>011c514f-88e9-4060-a1f9-6264aab6ce7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP001 - Verify User Can Access Profile Page</testCaseId>
@@ -43,7 +43,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2055ee56-f7d4-4ee6-811f-53071356457c</guid>
+      <guid>7a7e0c35-c447-414c-b3e2-75b7563fea1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP002 - User Can Edit All Field Profile Page</testCaseId>
@@ -144,9 +144,15 @@
          <value></value>
          <variableId>a30ed676-52e4-46a4-9aeb-51963ebbf8de</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a956a755-7334-48a7-aea6-12bafddd9163</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>87cff871-1dfe-4ba4-b4e7-2bc6e90cc9b6</guid>
+      <guid>663d423b-fe71-46e6-913e-3599e06c76e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP003 - User Can Open DOB Picker Pop Up</testCaseId>
@@ -211,9 +217,15 @@
          <value></value>
          <variableId>95177605-882a-40a2-8e9d-6e1eb8a7b685</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e27d708-c10d-4400-997b-c37f65047b0f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a1fb478-69d0-4b61-b1cf-4b75bc4973f0</guid>
+      <guid>86849c00-a3fb-4ca2-b9e5-32b491e4983f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP004 - User Can Close DOB Picker Pop Up</testCaseId>
@@ -278,9 +290,15 @@
          <value></value>
          <variableId>1094ec65-4464-40e5-a3b7-d30e0f9f123c</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75ed9920-df32-4336-b577-e0681407711b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf0d3ad1-c156-4dde-999a-12002ab2cff9</guid>
+      <guid>2b07d5e0-7afe-4c77-b0f9-6ac340ffdd3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP005 - Verify User Cannot Edit Using Invalid Email Format</testCaseId>
@@ -291,9 +309,15 @@
          <value></value>
          <variableId>33fb016d-1c15-4621-adc4-f441225e6203</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>188aaa52-b4f9-4712-9cfc-c660c91cebc2</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>455cb2b7-b452-4866-a794-04fb5dfd4a29</guid>
+      <guid>5849d133-b273-42ea-807f-98b692d0a8c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP006 - Verify User Cannot Edit With Empty Mandatory Field</testCaseId>
@@ -310,9 +334,15 @@
          <value></value>
          <variableId>eb01bd9c-2d2b-42ae-9817-8edbe5effc85</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>122c8788-011f-4f18-97ed-757acc447189</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>eeec6f57-a0b4-4837-8c38-79e42c27e86e</guid>
+      <guid>6bdfaf32-b295-40d8-9fce-5396d0ac931c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP007 - User Can Cancel Discard Changes With Click Kembali CTA</testCaseId>
@@ -395,9 +425,15 @@
          <value></value>
          <variableId>06e31498-3b0b-4d94-8edf-8db4e6fe68ff</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4835de7-bed5-42f7-87eb-b88bac540716</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>93fdd9ea-6ce2-46e1-b65c-dd7c41534896</guid>
+      <guid>f68a1701-4ec3-45e6-8cf3-3d188b4a2c7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP008 - User Can Cancel Discard Changes With Click Close button</testCaseId>
@@ -480,9 +516,15 @@
          <value></value>
          <variableId>00a3b363-a8ba-493b-b36c-c7012812283d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9bc4c8e1-1749-467f-9ce2-d37c1cf30381</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>02933d27-c3dc-4c30-bed2-660addb0ee0d</guid>
+      <guid>eef9d42f-6602-43fa-8d28-767cd2e7e7c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP009 - User Can Continue Discard Changes - Keluar Akun</testCaseId>
@@ -565,16 +607,28 @@
          <value></value>
          <variableId>ad56394f-6aae-44a7-a753-545ad8400dbc</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f88fd0f5-265b-4017-bb59-bd56d0436b77</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7c71cf7-ce0b-42c2-bf2b-6f1926bfcf4d</guid>
+      <guid>ba31aea2-ad7f-4564-8790-a6608ac90814</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP010 - Verify Save Button Disable - No Data Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d53b22d-87cd-4682-aca1-d3cd60b1ff6a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9661ebcb-c6d4-427a-bf70-28a96b94e29a</guid>
+      <guid>e0a7ef78-e9d8-4de6-88f8-a40fdb444a15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile Page/PP011 - User Can Log Out</testCaseId>

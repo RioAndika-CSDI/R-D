@@ -31,11 +31,13 @@ WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
 
 WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
 
-WebUI.waitForElementPresent(findTestObject('Page - Detail dealer/Checklist leads form dealer'), 15)
+WebUI.waitForElementPresent(findTestObject('Page - Detail dealer/ceklistDP007'), 15)
 
-WebUI.click(findTestObject('Page - Detail dealer/Checklist leads form dealer'))
+WebUI.click(findTestObject('Page - Detail dealer/ceklistDP007'))
 
 WebUI.click(findTestObject('Page - Detail dealer/Button kirim'))
+
+WebUI.waitForAlert(15)
 
 WebUI.verifyElementVisible(findTestObject('Page - Detail dealer/Popup OTP'))
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DP 010 Lihat Semua</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>171e7754-f26b-41de-bf5b-9e8ebbea7727</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9973cf8-9e74-4196-8b06-3106601d8af2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/blog'</defaultValue>
+      <description></description>
+      <id>c9973cf8-9e74-4196-8b06-3106601d8af2</id>
+      <masked>false</masked>
+      <name>expected_url_berita</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_mbl_daihatsu_ayla</name>
+   <tag></tag>
+   <elementGuidId>8fa5a739-329c-47f4-b5ec-5f4bc3ae2d05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][17]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][17]</value>
+      <webElementGuid>a8235695-04e8-4ff9-9b19-b8c800adb721</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

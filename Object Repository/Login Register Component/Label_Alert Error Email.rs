@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'input_errorText__HpK2m' and (text() = 'Format email tidak valid' or . = 'Format email tidak valid')]</value>
+         <value>//*[starts-with(@class, 'input_errorText__') and (text() = 'Format email tidak valid' or . = 'Format email tidak valid')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_errorText__HpK2m</value>
-      <webElementGuid>df8fdf0c-7968-4283-8ec1-3c4f279f2035</webElementGuid>
+      <value>input_errorText__</value>
+      <webElementGuid>7e355122-f3de-43c1-81e7-40bdae952538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Format email tidak valid</value>
-      <webElementGuid>9436d2dd-d567-4d8b-b61a-5578dae52c0c</webElementGuid>
+      <webElementGuid>0ecc465c-98f6-403c-9cd1-270fbace4ff7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

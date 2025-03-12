@@ -23,15 +23,27 @@
       <value></value>
       <variableId>d4ce0763-0d3f-49bc-8781-99380123e924</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>521cffc1-b29a-4d3e-a4fd-9a919ff1e4e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0475285-1b22-4638-b5b5-5d51531dea69</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'8892428460'</defaultValue>
+      <defaultValue>'87887578067'</defaultValue>
       <description></description>
       <id>e00f082d-6c3f-4089-b30a-32aa163c4587</id>
       <masked>false</masked>
       <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'006900'</defaultValue>
       <description></description>
       <id>e89a7bf1-7b19-425d-a4c1-470feb69870e</id>
       <masked>false</masked>
@@ -43,5 +55,19 @@
       <id>d4ce0763-0d3f-49bc-8781-99380123e924</id>
       <masked>false</masked>
       <name>close_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'87887578067'</defaultValue>
+      <description></description>
+      <id>521cffc1-b29a-4d3e-a4fd-9a919ff1e4e6</id>
+      <masked>false</masked>
+      <name>newPhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'006900'</defaultValue>
+      <description></description>
+      <id>b0475285-1b22-4638-b5b5-5d51531dea69</id>
+      <masked>false</masked>
+      <name>OTPNEW</name>
    </variable>
 </TestCaseEntity>

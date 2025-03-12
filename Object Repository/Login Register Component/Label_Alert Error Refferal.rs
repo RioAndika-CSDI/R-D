@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formReferralCode_textMessageReferralCode__FxaEm formReferralCode_redText__4rEjx' and (text() = 'Kode referral tidak ditemukan' or . = 'Kode referral tidak ditemukan')]</value>
+         <value>//*[starts-with(@class, 'formReferralCode_textMessageReferralCode__BLl47 formReferralCode_redText__') and (text() = 'Kode referral tidak ditemukan' or . = 'Kode referral tidak ditemukan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formReferralCode_textMessageReferralCode__FxaEm formReferralCode_redText__4rEjx</value>
-      <webElementGuid>235c9c42-8fc8-435b-9b4b-e05b0d4b4980</webElementGuid>
+      <value>formReferralCode_textMessageReferralCode__BLl47 formReferralCode_redText__</value>
+      <webElementGuid>229411e0-3374-4344-8455-df0915e22828</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Kode referral tidak ditemukan</value>
-      <webElementGuid>88259b95-b5ec-4098-931b-63a3dc0673d0</webElementGuid>
+      <webElementGuid>d73b5525-c13b-47a4-ba7b-c81942ec1635</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

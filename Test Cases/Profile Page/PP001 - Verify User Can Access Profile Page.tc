@@ -30,14 +30,14 @@
       <variableId>5e74fae4-ca4c-4979-86cd-e4ad91254bb9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'85349524555'</defaultValue>
+      <defaultValue>'8752900847'</defaultValue>
       <description>85349524555</description>
       <id>0f36f9fe-cd27-440d-9a45-f5b110b26cb2</id>
       <masked>false</masked>
       <name>nomorHP</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'445566'</defaultValue>
       <description></description>
       <id>5b4fb5ab-e57f-4309-b540-fffbe58f35f6</id>
       <masked>false</masked>
@@ -51,7 +51,7 @@
       <name>open_browser</name>
    </variable>
    <variable>
-      <defaultValue>'0'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>5e74fae4-ca4c-4979-86cd-e4ad91254bb9</id>
       <masked>false</masked>

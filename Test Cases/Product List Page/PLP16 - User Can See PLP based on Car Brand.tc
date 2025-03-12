@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP16 - User Can See PLP based on Car Brand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64e59cbf-17b4-44e8-b353-06549f603f5e</testCaseGuid>
+</TestCaseEntity>

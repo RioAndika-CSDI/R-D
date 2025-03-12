@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='footerMobile_contentContainer__5sHM0']</value>
+         <value>//*[@class='footerMobile_contentContainer__jRnMy']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='footerMobile_contentContainer__5sHM0']</value>
-      <webElementGuid>a905fae4-57c6-4390-bd98-1ecea88dd205</webElementGuid>
+      <value>//*[@class='footerMobile_contentContainer__jRnMy']</value>
+      <webElementGuid>6054fe7d-345a-4886-9f77-31fcf6e9a2ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

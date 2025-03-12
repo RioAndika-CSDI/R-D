@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +17,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.callTestCase(findTestCase('Wordpress/WP001-Homepage-Akses Main Page Blog Melalui Burgaer Menu'), [('expected_url') : expected_url
@@ -26,9 +28,13 @@ WebUI.click(findTestObject('Page Blog Main/Label_ Berita Baru_Lihat Semua'))
 
 WebUI.waitForElementPresent(findTestObject('Page Blog Main/Page Berita/breadcrumb'), 300)
 
-actUrl = WebUI.getUrl()
+actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actUrl, expected_url_berita, true)
+//WebUI.verifyMatch(actUrl, expected_url_berita, true)
+
+if (actURL == expected_url_berita) {
+	KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

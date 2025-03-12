@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Headphone</name>
+   <tag></tag>
+   <elementGuidId>4e0eecc3-cc41-4639-b939-a3b10805c339</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='ant-float-btn-content']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='ant-float-btn-content']</value>
+      <webElementGuid>86f26fdc-3053-4058-9a14-6556b7d6ab77</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

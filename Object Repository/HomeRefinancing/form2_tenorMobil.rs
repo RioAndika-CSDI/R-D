@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='refinancingFormPage_tenureOption__CaN3Z'])[1]</value>
+         <value>(//*[@class='formTenure_content__wfU63'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='refinancingFormPage_tenureOption__CaN3Z'])[1]</value>
-      <webElementGuid>d910914d-2ce0-454a-9f5a-f62b5908113e</webElementGuid>
+      <value>(//*[@class='formTenure_content__wfU63'])[2]</value>
+      <webElementGuid>c3b62b25-45af-4435-be90-f03d8c119bdc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

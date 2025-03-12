@@ -15,7 +15,7 @@
       <guid>38b6b8cd-8701-4be0-919e-19a8e2b3d987</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0043 - Verify User Can Lihat Semua Testimony</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0044 - Verify User Can Lihat Semua Testimony</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,7 +28,7 @@
       <guid>6312013d-5aa2-4485-83d7-ea0f32833bfb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0044 - Verify User Can Access SEVA Bottom Widget</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0046 - Verify User Can Access SEVA Bottom Widget</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

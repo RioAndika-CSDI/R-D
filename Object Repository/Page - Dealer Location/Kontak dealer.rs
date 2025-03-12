@@ -6,38 +6,30 @@
    <elementGuidId>2dd1743f-723e-49a0-b346-888362795dc0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@class = 'dealerCarousel_cardWrapper__H5rRB']//*[(text() = 'Balikpapan' or . = 'Balikpapan')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div/div/div/div[5]/div/div/div[2]/div/h3</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'dealerCarousel_cardWrapper__H5rRB']//*[(text() = 'Balikpapan' or . = 'Balikpapan')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class = 'dealerCarousel_cardWrapper__H5rRB']//*[(text() = 'Balikpapan' or . = 'Balikpapan')]</value>
+      <webElementGuid>bcf7d3da-d21d-4eb6-8aab-567fe20b634c</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kontak</value>
-      <webElementGuid>1a38b5a1-8798-41ff-9864-56b91022fc3d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>(//*[(text() = 'dealerCarousel_cardWrapper__H5rRB')])[${id}]</value>
-      <webElementGuid>02e67393-6e56-4001-9038-870afa6109a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>dealerCarousel_cardWrapper__H5rRB</value>
-      <webElementGuid>4ebd1d76-dd09-4993-893f-9f4bbde4c64c</webElementGuid>
+      <value>Balikpapan</value>
+      <webElementGuid>4a608d21-3681-4e56-a502-0184fba21456</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

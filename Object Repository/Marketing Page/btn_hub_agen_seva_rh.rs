@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='button_primaryDarkBlue__xpm9G button_big__E9R81']</value>
+         <value>//*[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='button_primaryDarkBlue__xpm9G button_big__E9R81']</value>
-      <webElementGuid>996a850a-92db-4e39-892f-5e75d4f62df9</webElementGuid>
+      <value>//*[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined']</value>
+      <webElementGuid>61913222-1e19-41ce-a1cc-d460846847a0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

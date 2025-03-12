@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), Pho
 
 WebUI.click(findTestObject('InstantApproval/InstantApprovalPDP/Page_Masuk Akun - SEVA/button_Lanjutkan'))
 
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), OTP)
+WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.scrollToElement(findTestObject('Login Register Component/label_syarat dan ketentuan'), 0)
 

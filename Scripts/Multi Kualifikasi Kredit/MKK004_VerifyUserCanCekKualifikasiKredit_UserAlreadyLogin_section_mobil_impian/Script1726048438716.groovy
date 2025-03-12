@@ -38,31 +38,30 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit
 WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_tertinggi'), 'Rp400.000.000')
 
 'maksimum DP field'
-WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rp2.659.100.000_downPaymentAmount'), 
-    'Rp60.000.000')
+WebUI.setText(findTestObject('Object Repository/Multi KK/input_Rp2.659.100.000_downPaymentAmount'), 'Rp60.000.000')
 
 'pendapatan bulanan field'
-WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rp2.659.100.000_monthlyIncome'), 
-    'Rp20.000.000')
+WebUI.setText(findTestObject('Object Repository/Multi KK/input_Rp2.659.100.000_monthlyIncome'), 'Rp20.000.000')
 
 'Tenor'
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_5 (1)', [('tenor') : tenor]))
+WebUI.click(findTestObject('Multi KK/div_5 (1)', [('tenor') : tenor]))
 
 'transmisi\r\n'
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Otomatis (1)', [('transmisi') : transmisi]))
+WebUI.click(findTestObject('Multi KK/div_Otomatis (1)', [('transmisi') : transmisi]))
 
 'dropdown pekerjaan'
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/svg_SEVA Dropdown Icon'))
+WebUI.click(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'))
 
 'karyawan swasta'
-WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Karyawan Swasta', [('pekerjaan') : pekerjaan]))
+WebUI.click(findTestObject('Multi KK/div_Karyawan Swasta', [('pekerjaan') : pekerjaan]))
 
 'kode referral field'
-WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Kode Referral Teman SEVA (Opsional)_inp_97a83d'), 
-    kode_referral)
+WebUI.setText(findTestObject('Object Repository/Multi KK/div_Kode Referral Teman SEVA (Opsional)_inp_97a83d'), kode_referral)
+
+WebUI.click(findTestObject('Multi KK/check-snk'))
 
 'button lihat rekomendasi mobil'
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Lihat Rekomendasi Mobil (1)'))
+WebUI.click(findTestObject('Object Repository/Multi KK/button_Lihat Rekomendasi Mobil (1)'))
 
 WebUI.verifyElementVisible(findTestObject('Page_/button_Lanjut Instant Approval'))
 

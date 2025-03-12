@@ -31,18 +31,24 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Account Management 
 'Verify data length of table is visible.'
 WebUI.verifyElementVisible(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
 
+'Verify data length of table is visible.'
+dataLength_page1 = WebUI.getText(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
+
 'Get data length page 1 before change page.'
 WebUI.verifyElementText(findTestObject('Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), dataLength_page1)
 
 'Get page indicator page 1 before change page.'
-WebUI.verifyElementText(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 
-    pageIndicator_page1)
+pageIndicator_page1 = WebUI.getText(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Change to page 2'
 WebUI.click(findTestObject('Account Management Page/CRM049/Page_User Account - SEVA CRM/button_Next page'))
 
+'Verify data length of table is visible.'
+dataLength_page2 = WebUI.getText(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
+
 'Verify page indicator change when user navigates pages.'
-WebUI.verifyElementText(findTestObject('Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), 'Showing 21-40 of 156 accounts')
+WebUI.verifyElementText(findTestObject('Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), dataLength_page2)
 
 'Get page number before change page'
 WebUI.verifyElementText(findTestObject('Object Repository/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 

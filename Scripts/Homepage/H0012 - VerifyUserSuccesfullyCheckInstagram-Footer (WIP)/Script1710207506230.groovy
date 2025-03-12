@@ -29,12 +29,7 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Footer/logo Instagram'))
 
-WebUI.switchToWindowUrl('https://www.instagram.com/sevabyastra', FailureHandling.OPTIONAL)
-
-WebUI.switchToWindowUrl('https://www.instagram.com/sevabyastra/', FailureHandling.OPTIONAL)
-
-WebUI.switchToWindowUrl('https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsevabyastra%2F&is_from_rle', 
-    FailureHandling.OPTIONAL)
+WebUI.switchToWindowIndex(1)
 
 url = WebUI.getUrl()
 

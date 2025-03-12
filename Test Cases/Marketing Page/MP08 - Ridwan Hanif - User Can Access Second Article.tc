@@ -4,5 +4,6 @@
    <name>MP08 - Ridwan Hanif - User Can Access Second Article</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>56352a9f-1b1a-48ed-b9e6-43702ad9a991</testCaseGuid>
 </TestCaseEntity>

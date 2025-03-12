@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
+         <value>/html/body/div/div/div[2]/div[7]/div/div/div[2]/div/div[4]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;landing-page-leads-form-section&quot;]/div/div/div[4]/div</value>
-      <webElementGuid>fd1aeaca-a8e1-4fb2-9af8-6bda14931a88</webElementGuid>
+      <value>/html/body/div/div/div[2]/div[7]/div/div/div[2]/div/div[4]/div</value>
+      <webElementGuid>23dbb397-5547-42b3-8362-ea6857ba1892</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

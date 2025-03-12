@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hamburger_mobil_baru</name>
+   <tag></tag>
+   <elementGuidId>5ae2aa67-aa70-47bd-addb-ac53522579f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;menuList_menuContainer__AnYdr&quot;][1]//*[@class=&quot;menuItem_parentMenu__sR5aI&quot;][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;menuList_menuContainer__AnYdr&quot;][1]//*[@class=&quot;menuItem_parentMenu__sR5aI&quot;][1]</value>
+      <webElementGuid>5e5fbeb7-fffd-416d-84e8-86706ef79d3a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

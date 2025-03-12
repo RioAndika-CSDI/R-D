@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_mbl_bmw_3</name>
+   <tag></tag>
+   <elementGuidId>ce85553d-2b18-453a-a203-d94ae949dfde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][1]</value>
+      <webElementGuid>20960aff-e4a1-46da-a3a2-4bdca7cfca98</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

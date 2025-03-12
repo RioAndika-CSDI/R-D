@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_choose_city</name>
+   <tag></tag>
+   <elementGuidId>b2d3cb21-9dfd-481d-9b7a-9167c64b6546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+      <webElementGuid>ae63363a-27d1-44f4-9165-152e5a84f450</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

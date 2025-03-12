@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_location</name>
+   <tag></tag>
+   <elementGuidId>29460546-52f7-4cfc-980f-54f84909e263</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
+      <webElementGuid>fc8fa985-b0c3-49b4-a1cb-937e8b9bfc1c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
+         <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div/div/div/div/div[8]/div/div/div[2]/div/div[3]/div</value>
-      <webElementGuid>dc9aeb57-9b20-40e5-a1f0-b2b46dc5760e</webElementGuid>
+      <value>//div[contains(@class, 'agreement_agreementTerms__kLT2Y')]/button</value>
+      <webElementGuid>7e2506df-cd0b-4245-a7d2-8b1a0d18c68e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

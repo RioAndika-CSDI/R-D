@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'discussionRefiForm_title__bsceJ' and (text() = 'Yuk, diskusi dengan SEVA!' or . = 'Yuk, diskusi dengan SEVA!')]</value>
+         <value>//*[@class = 'leadsFormTertiary_textHeading__oS9SV' and (text() = 'Yuk, diskusi dengan SEVA!' or . = 'Yuk, diskusi dengan SEVA!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>discussionRefiForm_title__bsceJ</value>
-      <webElementGuid>2e98fef2-2227-413e-a4c7-d3f01286a0e6</webElementGuid>
+      <value>leadsFormTertiary_textHeading__oS9SV</value>
+      <webElementGuid>9f1473ed-9597-4b49-ba19-19ea2cc023e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Yuk, diskusi dengan SEVA!</value>
-      <webElementGuid>66c73d32-f6cc-4daa-8391-d33fbf2090e9</webElementGuid>
+      <webElementGuid>167947fa-8aaf-4d1b-8219-7cbc8c48e44b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

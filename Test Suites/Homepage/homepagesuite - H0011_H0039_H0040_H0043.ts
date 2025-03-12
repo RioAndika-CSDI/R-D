@@ -15,7 +15,7 @@
       <guid>94fc8138-c244-4869-b58f-90437952caad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -36,7 +36,7 @@
       <guid>42f04881-a2fe-4b52-9d04-3d354163f0af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0043 - Verify User Can Lihat Semua Testimony</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0044 - Verify User Can Lihat Semua Testimony</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

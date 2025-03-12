@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='swiper swiper-initialized swiper-horizontal ridwanHanifHero_wrapper__d9UYB swiper-backface-hidden']</value>
+         <value>//*[@class='swiper swiper-initialized swiper-horizontal ridwanHanifHero_wrapper__xTDHA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='swiper swiper-initialized swiper-horizontal ridwanHanifHero_wrapper__d9UYB swiper-backface-hidden']</value>
-      <webElementGuid>d01e6dda-939c-472a-9056-3c103e492e30</webElementGuid>
+      <value>//*[@class='swiper swiper-initialized swiper-horizontal ridwanHanifHero_wrapper__xTDHA']</value>
+      <webElementGuid>50894789-dfac-45a1-8f91-3ff6e01361bd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

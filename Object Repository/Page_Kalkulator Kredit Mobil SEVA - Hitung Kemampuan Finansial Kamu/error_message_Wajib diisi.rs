@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error_message_Wajib diisi</name>
+   <tag></tag>
+   <elementGuidId>1315b4e9-0b55-460d-aea3-36a4a7297eee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.dpform_errorMessage__6_Ebi</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-dp']/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3331e174-30cf-49e0-8a2f-3e0c1e48e46d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dpform_errorMessage__6_Ebi</value>
+      <webElementGuid>fa2325f3-a9ef-42ab-a128-1faa3dfeebb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Wajib diisi</value>
+      <webElementGuid>6bdfbd62-56a5-4f10-9fbd-ca6ed428a819</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loan-calculator-form-dp&quot;)/div[@class=&quot;dpform_wrapper__b9kNf&quot;]/div[@class=&quot;dpform_errorMessageWrapper__M4yCx&quot;]/span[@class=&quot;dpform_errorMessage__6_Ebi&quot;]</value>
+      <webElementGuid>6c42ed34-fe50-43d9-aff6-019346a2acc5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-dp']/div/div/span</value>
+      <webElementGuid>5497e344-6306-4ad6-8dcf-0e9b312479e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::span[1]</value>
+      <webElementGuid>c93112a2-e25f-437e-988f-7b7621a551d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::span[1]</value>
+      <webElementGuid>4c283115-bf72-4a47-8e62-08caf93c846c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicil Mobil Impianmu dengan Mudah!'])[1]/preceding::span[1]</value>
+      <webElementGuid>781f04ef-01cf-44a7-b665-4fb299488784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Wajib diisi']/parent::*</value>
+      <webElementGuid>e766daca-e381-40bd-a28d-4751aedcf71b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/span</value>
+      <webElementGuid>99f20a4f-c338-4b4e-b3ac-303487f6ed04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Wajib diisi' or . = 'Wajib diisi')]</value>
+      <webElementGuid>97d5e699-c49f-43cc-9ea4-937a9df1fcdc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

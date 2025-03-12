@@ -6,11 +6,11 @@
    <elementGuidId>10720dcf-d1fb-4453-96b6-0922702a6f13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(contains(text(), 'Temukan di artikel ini:') or contains(., 'Temukan di artikel ini:')) and @class = 'ez-toc-title ']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Temukan di artikel ini:') or contains(., 'Temukan di artikel ini:')) and @class = 'ez-toc-title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>a68ee634-cb74-42de-a34c-ba710f791be6</webElementGuid>
+      <webElementGuid>975eb2a9-043c-4a64-96b6-d107bfad6e69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,14 +29,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Temukan di artikel ini:</value>
-      <webElementGuid>be5d5cee-3392-4edc-83f0-47a7ad4968c3</webElementGuid>
+      <webElementGuid>1ec91945-a57f-40b8-b5b0-03c596861520</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ez-toc-title </value>
-      <webElementGuid>759adca9-f57d-4f23-be5b-47e9db57d266</webElementGuid>
+      <value>ez-toc-title</value>
+      <webElementGuid>e7f475d5-febe-4689-a2cd-198bd95524fd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

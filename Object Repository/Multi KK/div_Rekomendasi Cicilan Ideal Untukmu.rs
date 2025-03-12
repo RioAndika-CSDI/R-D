@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rekomendasi Cicilan Ideal Untukmu</name>
+   <tag></tag>
+   <elementGuidId>2e555f1b-5fb1-432b-a74d-57dd4355f308</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'info-kualifikasi-kredit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.calculationResultItem_upperInfo__yfJNZ.calculationResultItem_upperInfoGreen__sMoE8</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>28b2f2f6-f3c3-4e74-8b30-0d6d8778d5cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>calculationResultItem_upperInfo__yfJNZ calculationResultItem_upperInfoGreen__sMoE8</value>
+      <webElementGuid>ea516377-96de-4694-8fc3-9892ee9ae540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rekomendasi Cicilan Ideal Untukmu</value>
+      <webElementGuid>ca7ebb64-338a-4d41-a1f1-082fd90bf9d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;loanCalculator_content__CB3cD&quot;]/div[@class=&quot;calculationResult_container__jBjul&quot;]/div[@class=&quot;calculationResult_listWrapper__EMCvK&quot;]/div[@class=&quot;calculationResultItem_container__8ea1z&quot;]/div[@class=&quot;calculationResultItem_upperInfo__yfJNZ calculationResultItem_upperInfoGreen__sMoE8&quot;]</value>
+      <webElementGuid>658ea9ab-dfec-4992-8306-0b89f8b8c760</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>info-kualifikasi-kredit</value>
+      <webElementGuid>d0ca97e8-28a4-4571-872b-51ce3ba00dcd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[4]/div[3]/div/div</value>
+      <webElementGuid>ef40c9be-7467-423b-8abf-b5558496d00a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[1]/following::div[3]</value>
+      <webElementGuid>45144dcb-119e-4732-8668-6175427c3bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp25.660.000'])[1]/preceding::div[4]</value>
+      <webElementGuid>67da6c30-17c7-4430-afbb-a8840ae19ccd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rekomendasi Cicilan Ideal Untukmu']/parent::*</value>
+      <webElementGuid>e5ab2356-e7c5-40b6-838e-545510c75c21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/div</value>
+      <webElementGuid>d9929359-e66d-452d-9025-7b9775527f20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rekomendasi Cicilan Ideal Untukmu' or . = 'Rekomendasi Cicilan Ideal Untukmu')]</value>
+      <webElementGuid>6c59d5ce-a837-465c-a971-38796794ca85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_disable__1pypX button_big__H6cBN undefined']</value>
+         <value>//*[starts-with(@class, 'button_disable__SDrCP button_big__') and @data-testid = 'button-daftar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_disable__1pypX button_big__H6cBN undefined</value>
-      <webElementGuid>63d0afbe-77a8-4d74-baae-ec7efafa01f8</webElementGuid>
+      <value>button_disable__SDrCP button_big__</value>
+      <webElementGuid>dcf59737-34cb-4233-8034-be5d1d1f2839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-daftar</value>
+      <webElementGuid>593776be-fce6-48b0-91e4-168faf10745c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

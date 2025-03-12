@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hamburger_lihat_semua_mbl</name>
+   <tag></tag>
+   <elementGuidId>cfd9228f-071d-456c-8d43-6d1b14482e5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;menuItem_submenu__OrcK_&quot;][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;menuItem_submenu__OrcK_&quot;][1]</value>
+      <webElementGuid>3965f241-3a61-4683-9b4d-14684263a6aa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

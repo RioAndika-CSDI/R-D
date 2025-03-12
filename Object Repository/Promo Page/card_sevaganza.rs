@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_sevaganza</name>
+   <tag></tag>
+   <elementGuidId>f93483cf-15c4-4b9a-9d8c-ffbefa662ee0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='other-promo-limit']//*[@class='other-promo-item'][1]</value>
+      <webElementGuid>372ffb31-1bef-469f-a1b2-9aaa0a96740e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

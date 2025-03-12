@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[4]</value>
+         <value>(//*[@class='inputSelectRefinancing_inputField__ZkMfJ'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='oldSelect_styledSelect__jXzo_'])[4]</value>
-      <webElementGuid>c3050969-975d-4bd8-9506-854872f0fe65</webElementGuid>
+      <value>(//*[@class='inputSelectRefinancing_inputField__ZkMfJ'])[4]</value>
+      <webElementGuid>2b440487-9a65-4ae2-92d9-8c5d085dc17e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

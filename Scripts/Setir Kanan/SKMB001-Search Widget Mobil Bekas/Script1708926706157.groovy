@@ -22,13 +22,15 @@ if (open_browser.toString().equals('1')) {
         )
 }
 
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'), 0)
+WebUI.scrollToElement(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'), 15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 WebUI.click(findTestObject('Homepage - PLP/Submenu_Mobil Bekas'))
 

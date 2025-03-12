@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Profile/Button lanjutkan delete account'))
 
 WebUI.click(findTestObject('Profile/Field pilih alasan delete account'))
 
-WebUI.click(findTestObject('Profile/Opsi alasan lainnya'))
+WebUI.click(findTestObject('Profile/Opsi alasan lainnya', [('alasan') : alasan]))
 
 WebUI.click(findTestObject('Profile/Button selanjutnya delete account'))
 

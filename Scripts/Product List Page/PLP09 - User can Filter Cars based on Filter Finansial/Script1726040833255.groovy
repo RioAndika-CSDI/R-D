@@ -37,11 +37,13 @@ WebUI.click(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_finansial_mobil'))
+//WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_finansial_mobil'))
 
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_maks_dp'), '30000000')
 
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_input_pendapatan'), '25000000')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/kategori_umur_18_27'), 10)
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/kategori_umur_18_27'))
 

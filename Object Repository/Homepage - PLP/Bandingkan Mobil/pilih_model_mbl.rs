@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pilih_model_mbl</name>
+   <tag></tag>
+   <elementGuidId>c3ae5a14-1a8a-4362-b36d-b5a0f19c8682</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+      <webElementGuid>ffc0ae75-475f-4711-aaf0-1774bfa6869f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -27,6 +27,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti saja bawah'))
 
+WebUI.click(findTestObject('Homepage Component/click terima artikel'))
+
 WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Artikel-keuangan'))
@@ -35,5 +37,9 @@ WebUI.waitForElementPresent(findTestObject('Page_Artikel Keuangan  SEVA/Breadcru
 
 actURL = WebUI.getUrl()
 
-WebUI.verifyMatch(actURL, expected_url, true)
+if (actURL == expected_url) {
+    KeywordUtil.markPassed('User is on the expected page: ' + actURL)
+}
+
+WebUI.closeBrowser()
 

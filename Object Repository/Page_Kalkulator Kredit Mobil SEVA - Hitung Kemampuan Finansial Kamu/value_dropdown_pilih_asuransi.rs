@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>value_dropdown_pilih_asuransi</name>
+   <tag></tag>
+   <elementGuidId>a2f5423f-0487-40a2-bece-5d79dd1ed4a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='1 Tahun Comprehensive + 4 Tahun TLO']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = '${pilih_asuransi}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e188b159-6a53-4d70-903b-7c68527fe00c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${pilih_asuransi}</value>
+      <webElementGuid>c71d5835-bcb4-4a44-a23b-3e98be0bb5ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect_dropdownItem__oStPv</value>
+      <webElementGuid>eedd138e-2366-438f-ad34-60bd3054fbfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 Tahun Comprehensive + 4 Tahun TLO</value>
+      <webElementGuid>9b8c7d14-5fa7-4f60-9ae5-25c52f0df27e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1 Tahun Comprehensive + 4 Tahun TLO&quot;)</value>
+      <webElementGuid>daed34e9-a962-49bf-a794-b831fbb756f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='1 Tahun Comprehensive + 4 Tahun TLO']</value>
+      <webElementGuid>733f6226-1ae6-4d3e-a3d0-ca7e8180791d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive'])[1]/following::div[1]</value>
+      <webElementGuid>2175ba78-1872-465e-9514-96b2fbfdcb42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[3]/following::div[10]</value>
+      <webElementGuid>745ce796-1038-4b45-8082-4b11ad532645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asuransi yang kamu pilih mempengaruhi promo yang tersedia.'])[1]/preceding::div[12]</value>
+      <webElementGuid>dcb1e1bc-e03b-45cc-9d43-96b05f902b17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Promo'])[1]/preceding::div[14]</value>
+      <webElementGuid>012d7506-6553-454a-864f-344ce01bd1a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/div[2]/div[2]</value>
+      <webElementGuid>d34bb6df-f1d3-43b9-b0b9-df377fca4903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '1 Tahun Comprehensive + 4 Tahun TLO' and (text() = '1 Tahun Comprehensive + 4 Tahun TLO' or . = '1 Tahun Comprehensive + 4 Tahun TLO')]</value>
+      <webElementGuid>d491d0d7-4137-4cb3-9c63-56395b8a9368</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
