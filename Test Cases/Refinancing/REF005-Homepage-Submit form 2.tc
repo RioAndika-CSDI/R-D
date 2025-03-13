@@ -70,7 +70,7 @@
       <name>ExpectedURL2</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
       <id>03cce51d-9b02-4142-adff-6fdf06728b26</id>
       <masked>false</masked>

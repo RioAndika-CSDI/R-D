@@ -26,30 +26,32 @@ WebUI.click(findTestObject('Page Blog Main/Label_Section Berita Baru'), FailureH
 
 WebUI.scrollToElement(findTestObject('Page Blog Main/Label_Section Berita Baru'), 0)
 
-for (int i = 0; i < 3; i++) {
-    WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i + 1]))
+//Codingan ini hilang ketika update plugin WP (jika terdapat lagi carousel, maka bisa dipake lagi)
 
-    WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
-
-    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]), 
-        5)
-
-    WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]))
-
-    WebUI.verifyElementPresent(findTestObject('Page Blog Main/Icon_Carousel Aktif by id', [('id') : i + 1]), 1)
-}
-
-for (int i = 2; i > 0; i--) {
-    WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i]))
-
-    WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i - 1]))
-
-    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]), 5)
-
-    WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
-
-    WebUI.verifyElementPresent(findTestObject('Page Blog Main/Icon_Carousel Aktif by id', [('id') : i]), 1)
-}
+//for (int i = 0; i < 3; i++) {
+//    WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i + 1]))
+//
+//    WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
+//
+//    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]), 
+//        5)
+//
+//    WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i + 1]))
+//
+//    WebUI.verifyElementPresent(findTestObject('Page Blog Main/Icon_Carousel Aktif by id', [('id') : i + 1]), 1)
+//}
+//
+//for (int i = 2; i > 0; i--) {
+//    WebUI.click(findTestObject('Page Blog Main/Icon_Carousel by id', [('id') : i]))
+//
+//    WebUI.verifyElementVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i - 1]))
+//
+//    WebUI.waitForElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]), 5)
+//
+//    WebUI.verifyElementNotVisible(findTestObject('Page Blog Main/Data_Berita Terbaru_Slider by id', [('id') : i]))
+//
+//    WebUI.verifyElementPresent(findTestObject('Page Blog Main/Icon_Carousel Aktif by id', [('id') : i]), 1)
+//}
 
 if (close_browser.toString().equals('1')) {
     WebUI.closeBrowser()

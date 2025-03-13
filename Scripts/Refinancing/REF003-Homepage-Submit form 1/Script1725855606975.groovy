@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('HomeRefinancing/field_nama_lengkap'), 'Hilmy Testi
 
 WebUI.click(findTestObject('HomeRefinancing/field_nomorHP'))
 
-WebUI.setText(findTestObject('HomeRefinancing/field_nomorHP'), '81229948663')
+WebUI.setText(findTestObject('HomeRefinancing/field_nomorHP'), '85349524557')
 
 WebUI.waitForElementPresent(findTestObject('Page - Detail dealer/ceklistDP007'), 0)
 
