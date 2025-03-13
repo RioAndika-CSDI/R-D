@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +17,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
+
 
 WebUI.openBrowser('seva.id')
 
@@ -33,7 +36,7 @@ WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Artikel-tips dan rekomendasi'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Artikel Tips  Rekomendasi  SEVA/Breadcrumb tips rekomendasi'), 400)
+//WebUI.waitForElementPresent(findTestObject('Page_Artikel Tips  Rekomendasi  SEVA/Breadcrumb tips rekomendasi'), 400)
 
 actURL = WebUI.getUrl()
 

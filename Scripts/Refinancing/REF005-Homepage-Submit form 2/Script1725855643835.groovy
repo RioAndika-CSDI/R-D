@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Refinancing/REF003-Homepage-Submit form 1'), [('expected_url') : 'https://www.seva.id/fasilitas-dana'
-        , ('open_browser') : '1', ('close_browser') : '1', ('ExpectedURL2') : 'https://www.seva.id/fasilitas-dana/form', ('OTP') : '123456'], 
+        , ('open_browser') : '1', ('close_browser') : '1', ('ExpectedURL2') : 'https://www.seva.id/fasilitas-dana/form', ('OTP') : '212121'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('HomeRefinancing/label_form2'), 400)
@@ -58,9 +58,8 @@ WebUI.click(findTestObject('HomeRefinancing/kirim_form2'))
 SuccessURL = WebUI.getUrl()
 
 // WebUI.verifyMatch(SuccessURL, successRefi, true)
-
 if (SuccessURL == successRefi) {
-	KeywordUtil.markPassed('User is on the expected page: ' + SuccessURL)
+    KeywordUtil.markPassed('User is on the expected page: ' + SuccessURL)
 }
 
 if (close_browser.toString().equals('1')) {

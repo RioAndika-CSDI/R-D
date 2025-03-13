@@ -31,7 +31,7 @@
       <name>Phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'212121'</defaultValue>
+      <defaultValue>'123456'</defaultValue>
       <description></description>
       <id>86bb13e1-b01e-49e1-840c-4a3b55990584</id>
       <masked>false</masked>

@@ -64,7 +64,7 @@
       <name>ExpectedURL2</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
       <id>417179c1-105e-4fc6-adb3-fc4f29ebde09</id>
       <masked>false</masked>
