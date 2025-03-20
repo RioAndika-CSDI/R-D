@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Preset Manage Column</name>
+   <tag></tag>
+   <elementGuidId>0f6961c3-cc38-4f1f-b3a4-51abacf97941</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5dda3231-83f7-4683-95ea-ab5a854f30e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7</value>
+      <webElementGuid>9bf37a5e-1f3c-4cb3-93bf-d35be7a2c9ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>65d5dca4-b045-44a7-a711-424703226a91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r14e:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[1]/div[@class=&quot;relative h-10 w-full mb-2&quot;]/input[@class=&quot;peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7&quot;]</value>
+      <webElementGuid>84169651-9b8c-4b99-941b-b6295b371645</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>880c0fae-f144-4268-a549-d13f32ba3639</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r14e:']/div[2]/div/div/input</value>
+      <webElementGuid>366dae4d-d96c-4d3c-b814-29abc8049509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>9f8333f2-ddfa-47bd-94dc-30acefb24415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search...']</value>
+      <webElementGuid>2236c365-4f5c-4dce-a7fa-22e81ce81276</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

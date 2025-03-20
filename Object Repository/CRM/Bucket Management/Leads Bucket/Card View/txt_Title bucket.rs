@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Title bucket</name>
+   <tag></tag>
+   <elementGuidId>89d2df39-e14f-4711-8cff-e496c9a265ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.truncate.px-6.py-4.text-body-regular.font-bold.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0fe849f8-4876-45e2-9ba8-f98ec33b5d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>truncate px-6 py-4 text-body-regular font-bold text-text-primary</value>
+      <webElementGuid>3e436509-8d92-485a-b51d-dffacefab92e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Organic New Car</value>
+      <webElementGuid>275bab4f-4b97-4aed-a657-5a18e3071ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/div[@class=&quot;relative overflow-clip rounded-lg h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;mt-2 w-full overflow-x-auto rounded-lg rounded-b-none bg-surface-plain bg-opacity-100 h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;flex flex-col gap-6 px-4 py-[21px]&quot;]/div[@class=&quot;cursor-pointer select-none rounded-lg border border-solid bg-surface-plain border-line&quot;]/div[@class=&quot;truncate px-6 py-4 text-body-regular font-bold text-text-primary&quot;]</value>
+      <webElementGuid>e2c5ad41-da62-45ba-b59c-9fcdef8b25e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>f362f86c-0367-4be0-affe-38a2b6d66218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/following::div[18]</value>
+      <webElementGuid>aec355fa-7234-47d9-a834-6706da11fe73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Table Fast Track'])[1]/preceding::div[1]</value>
+      <webElementGuid>0757bc98-6370-4c5d-90dc-db3ffa061215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Organic New Car']/parent::*</value>
+      <webElementGuid>e655f5e2-6eae-4196-960d-79ceaf30b049</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>a9bac5c7-d157-4f51-9e32-0ed06caabf1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Organic New Car' or . = 'Organic New Car')]</value>
+      <webElementGuid>48c40627-30b9-4f55-b1d9-d5c4a21ae81d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

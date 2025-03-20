@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_QL Leads Counter</name>
+   <tag></tag>
+   <elementGuidId>eef0b105-861a-46bd-9cf3-dde41b6de7a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-body-regular.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1q:-content-QUALIFIED']/div/section/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4dd47ed6-700d-4624-bfeb-5d28f19db358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body-regular text-text-primary</value>
+      <webElementGuid>d9ee0491-fa40-4922-8289-f44610413fa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1-100 of 82885 leads.</value>
+      <webElementGuid>937c8015-9eec-4fa0-a737-8bda17b923ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1q:-content-QUALIFIED&quot;)/div[1]/section[@class=&quot;flex w-full items-center justify-between mb-4&quot;]/div[@class=&quot;flex items-center&quot;]/div[@class=&quot;text-body-regular text-text-primary&quot;]</value>
+      <webElementGuid>af30bb2c-12f0-4bd0-b57f-f69166659cbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1q:-content-QUALIFIED']/div/section/div/div</value>
+      <webElementGuid>f19b080a-bf54-489c-bf26-c27ae773a3ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Data'])[1]/preceding::div[1]</value>
+      <webElementGuid>496e2be0-14bd-44e5-b8c4-1aec1846ea34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1-100 of 82885 leads.']/parent::*</value>
+      <webElementGuid>002f5fb5-03d5-4109-90a6-c865aa78dea6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/section/div/div</value>
+      <webElementGuid>92cffe69-9011-4fb3-927b-9669ea9bd1c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1-100 of 82885 leads.' or . = '1-100 of 82885 leads.')]</value>
+      <webElementGuid>0a739154-5887-487a-9815-2119f5b1a196</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search Leads Tracking</name>
+   <tag></tag>
+   <elementGuidId>69d43a34-111f-4b8a-8b60-cc11971da2d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0d824b51-64af-4194-8ca0-9346a294c7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7</value>
+      <webElementGuid>f3b3c0b6-11b8-41e4-8952-9349fb740d87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search keyword</value>
+      <webElementGuid>f9bb732b-43cb-4797-baa3-414990cadadc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/section[@class=&quot;mb-1 mt-4 flex h-10 w-full items-center gap-4&quot;]/div[@class=&quot;relative h-10 w-[252px] flex-shrink-0&quot;]/input[@class=&quot;peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7&quot;]</value>
+      <webElementGuid>b2a8c5ff-2d1a-487d-8714-25d1fac02787</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>28c9b9f0-0dba-4fe3-a54d-69565feae337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/section/div/input</value>
+      <webElementGuid>f6f2bde3-92fb-4875-b4b3-ceaf3c0ddf9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>5015987e-ec93-4aed-98c2-de0c7913e323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search keyword']</value>
+      <webElementGuid>26183eac-da3d-4ba5-9297-b009e134979d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_BSTK</name>
+   <tag></tag>
+   <elementGuidId>ef7e6ba9-af3e-49dc-91ae-784718a23f83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/button[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d822a65c-22e4-463e-952f-fc7051a45fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-[10px]</value>
+      <webElementGuid>db02ae92-f6c1-453b-8903-1b8ea5fdab3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BSTK </value>
+      <webElementGuid>c2ba10e8-1dc2-4394-880b-8ebc1429f047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;relative inline-flex gap-2 border-0 border-b border-solid border-line w-full&quot;]/button[@class=&quot;flex-none cursor-pointer select-none bg-transparent font-OpenSans text-sm/[19px] text-bodyCopy aria-disabled:cursor-default aria-disabled:text-placeholder font-normal p-4&quot;]/div[@class=&quot;flex items-center gap-[10px]&quot;]</value>
+      <webElementGuid>503fdbf3-b72b-4e98-9280-4169a87fa642</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/button[4]/div</value>
+      <webElementGuid>ea55d4e9-0a35-460a-b517-173688fe0c94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPK'])[1]/following::div[1]</value>
+      <webElementGuid>6aabebdb-c5ed-41c0-b817-27fc4634407e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualified Leads'])[1]/following::div[2]</value>
+      <webElementGuid>07bdaefb-4276-4e39-aeff-037a15f7a7d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Link'])[1]/preceding::div[2]</value>
+      <webElementGuid>dc4ed273-2a48-4bbc-a1b6-6401e9e137c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::div[3]</value>
+      <webElementGuid>e6a91340-3810-48f8-a67f-4757ddecf2de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BSTK']/parent::*</value>
+      <webElementGuid>43477690-6299-4bac-9ca3-e0c59c87c814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/div</value>
+      <webElementGuid>407dcea3-30dd-4ded-82df-31dac98daed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BSTK ' or . = 'BSTK ')]</value>
+      <webElementGuid>3028b2c7-9b14-4885-b5d1-79b5a12aee0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Filter Remaining Leads</name>
+   <tag></tag>
+   <elementGuidId>cbe18068-f7e5-44f7-b2ba-addcd20a3ea6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1ek:']/button[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>15de9301-5659-4817-9909-817b1b5e7ed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block</value>
+      <webElementGuid>6b25370f-dd7a-45c8-b164-3b844294beaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remaining Leads</value>
+      <webElementGuid>a6752290-f3b5-4589-abf0-146ebe66762b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1ek:&quot;)/button[@class=&quot;group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block&quot;]</value>
+      <webElementGuid>86ba50c8-5ec7-43d6-abf0-ef24a28998f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1ek:']/button[4]</value>
+      <webElementGuid>a15e4e28-6b78-4fff-9071-8952fc8ef5bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/following::button[1]</value>
+      <webElementGuid>93f2bd4f-44c2-4bd2-a8a5-b7c480608b22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='r'])[3]/following::button[1]</value>
+      <webElementGuid>40ec2c3e-15fd-462c-846e-aaa436872b82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]</value>
+      <webElementGuid>d27e36b4-29a1-43c3-a8ff-de497ae3dbe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Remaining Leads' or . = 'Remaining Leads')]</value>
+      <webElementGuid>45568448-6111-4369-9e6d-f45f5b6e30f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

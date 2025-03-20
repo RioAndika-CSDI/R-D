@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM033 - VerifyUserCanAccessSearchOnTasksTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b810e3f0-5ec0-4dc5-b79b-bcc0103fbdba</testCaseGuid>
-</TestCaseEntity>

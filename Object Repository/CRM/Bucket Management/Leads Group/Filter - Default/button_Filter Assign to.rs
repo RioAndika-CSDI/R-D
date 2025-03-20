@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Filter Assign to</name>
+   <tag></tag>
+   <elementGuidId>6f8e23c0-5f20-4b99-8e9c-dcb7bd794ab4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1ek:']/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3ac4d10b-4479-4e92-96aa-4dbe94b8c158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block</value>
+      <webElementGuid>08bd8484-3aeb-47a4-8293-4292b1ad88f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Assign to</value>
+      <webElementGuid>683e4b79-63c2-41ee-816c-3834ce931e75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1ek:&quot;)/button[@class=&quot;group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block&quot;]</value>
+      <webElementGuid>26c35796-1d0d-4b0f-8df4-4fc426ecbab0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1ek:']/button</value>
+      <webElementGuid>1a4a48e3-2635-41e3-b054-2aa2cc7978da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by fields'])[1]/following::button[1]</value>
+      <webElementGuid>2f5f3a41-7605-495e-be6e-1fc445010037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have not received any filters from others'])[1]/following::button[2]</value>
+      <webElementGuid>53381924-462f-4578-b1ff-e8fdbb116ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/button</value>
+      <webElementGuid>d509c40e-34f7-4cc9-8e64-9db6996c4a47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Assign to' or . = 'Assign to')]</value>
+      <webElementGuid>27cacabb-b0ff-4235-a253-5017b553c835</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

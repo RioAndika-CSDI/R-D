@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Add New Bucket</name>
+   <tag></tag>
+   <elementGuidId>42b70157-068e-4377-8406-91ff1193fe15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-heading-2.font-bold.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rj:']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>be64919b-19ef-4b98-91f8-d9c24bb62ba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-heading-2 font-bold text-text-primary</value>
+      <webElementGuid>7358ea62-55fc-4255-92c7-bbb22f8ea669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add New Bucket</value>
+      <webElementGuid>19dbec70-5bc9-4e2b-bcea-e782ec679dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rj:&quot;)/div[@class=&quot;p-6 pb-0&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-heading-2 font-bold text-text-primary&quot;]</value>
+      <webElementGuid>ead50c86-b66d-4acb-a658-68a4b3b501c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rj:']/div/div/div</value>
+      <webElementGuid>fc3f70c2-1428-41cb-ae44-12fd6940b84d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[6]</value>
+      <webElementGuid>518ddbf2-57a1-438a-9345-68e971891849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[6]</value>
+      <webElementGuid>b9a2f558-17b0-4e0a-b077-8188b1d655ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please choose the Reengagement Type first to create a bucket'])[1]/preceding::div[2]</value>
+      <webElementGuid>0abc5efc-888b-4510-9a85-a629186ab645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div</value>
+      <webElementGuid>8a20a656-9c9e-4e1e-932e-3355e1e471dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add New Bucket' or . = 'Add New Bucket')]</value>
+      <webElementGuid>dd58c56b-b6a9-48a4-8309-92f9ddc74c37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

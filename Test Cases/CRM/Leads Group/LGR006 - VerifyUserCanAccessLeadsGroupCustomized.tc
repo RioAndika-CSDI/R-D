@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGR006 - VerifyUserCanAccessLeadsGroupCustomized</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa5237ad-72f9-42fd-9aaa-eb99fe48f834</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Customer Info</name>
+   <tag></tag>
+   <elementGuidId>ff6c9bee-28c3-488a-856e-437ec18305ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='radix-:r9a:-trigger-Customer Info']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e040562a-f51f-4769-925e-49878ff391a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f1841984-c008-4731-bb15-435b9237292b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>506c21b2-5618-4b2a-9786-858724591a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3b7c6909-3047-48ca-9413-818e54f872c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>radix-:r9a:-content-Customer Info</value>
+      <webElementGuid>67e0dae6-5a59-4eef-9a1c-acfe150cf863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>inactive</value>
+      <webElementGuid>1caf5e94-db4b-4376-bdd5-728b530713a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radix-:r9a:-trigger-Customer Info</value>
+      <webElementGuid>53aaf1a3-6d21-4c30-9d02-50bab983b9d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group/trigger relative mr-6 inline-flex min-h-12 cursor-pointer items-center justify-center gap-[10px] whitespace-nowrap border-b-[3px] border-transparent bg-transparent text-body-regular font-normal text-text-placeholder transition-all hover:border-line disabled:pointer-events-none data-[state=active]:font-semibold data-[state=active]:text-text-primary [&amp;[data-state='active']_.counter]:hover:bg-hover-brand-red</value>
+      <webElementGuid>20e49696-baae-4462-8e74-d545ca2ef703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>e1d4719d-5583-4fb7-aa8a-64b8722062d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-orientation</name>
+      <type>Main</type>
+      <value>horizontal</value>
+      <webElementGuid>aa51a8b7-2910-43e9-bc2d-e87dcdf9561f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Info</value>
+      <webElementGuid>1be4ffc4-7576-4631-9581-c24f9c7a1512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r9a:-trigger-Customer Info&quot;)</value>
+      <webElementGuid>eb6135b5-ef56-4de3-9daa-b4f8491237b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='radix-:r9a:-trigger-Customer Info']</value>
+      <webElementGuid>d2553aa1-4ca3-49e5-bd69-b3ef21d73b42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/button</value>
+      <webElementGuid>0158288f-c018-4f50-9071-387467c37ddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='There is no data shown here'])[1]/following::button[1]</value>
+      <webElementGuid>6cf3a41b-a253-4315-8c49-802aff539ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Log'])[1]/following::button[1]</value>
+      <webElementGuid>4da4ec87-7735-49c2-8f16-02715292e64c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[2]/preceding::button[1]</value>
+      <webElementGuid>10b94266-21ff-4266-b9b6-ef837e5fbfba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tasks'])[1]/preceding::button[2]</value>
+      <webElementGuid>02d0572c-3546-40bb-aa5e-ea19ca8ab6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Info']/parent::*</value>
+      <webElementGuid>051c50f0-4b34-4848-a8f7-ab875b57f2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>85101cae-18c5-40fd-aad9-8b251b80c44c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'radix-:r9a:-trigger-Customer Info' and (text() = 'Customer Info' or . = 'Customer Info')]</value>
+      <webElementGuid>af5d0560-58d0-44ce-b4a0-ff6337596a10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM046 - VerifyUserCanAccessCreateNewAccountFormOnUserMenu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>92534b44-84be-45f7-a9f3-46ba3220f141</testCaseGuid>
-</TestCaseEntity>

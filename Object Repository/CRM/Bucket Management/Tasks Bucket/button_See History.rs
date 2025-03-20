@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_See History</name>
+   <tag></tag>
+   <elementGuidId>e5946739-015b-4af0-bac6-a9c2cdc51940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f3b8353-fc82-465a-8d4e-c952519a9340</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3928cce7-dca1-4608-9635-1f4923645313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group inline-flex items-center gap-1 m-0 bg-transparent outline-none border-none transition-all font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small justify-start text-left text-text-link</value>
+      <webElementGuid>eef8934a-711e-4a16-90c6-72512103c6ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-button-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>28ba53bd-c175-4ecd-a9ae-e820d5fa49d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See History</value>
+      <webElementGuid>4fede121-d73b-4362-98ab-98e456529c20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;flex gap-5&quot;]/div[@class=&quot;w-[530px]&quot;]/div[2]/div[@class=&quot;overflow-hidden rounded-lg border border-line bg-surface-plain&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-virtual ant-table-fixed-header ant-table-scroll-horizontal&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-tbody-virtual ant-table-tbody&quot;]/div[@class=&quot;ant-table-tbody-virtual-holder&quot;]/div[1]/div[@class=&quot;ant-table-tbody-virtual-holder-inner&quot;]/div[@class=&quot;ant-table-row group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal cursor-pointer [&amp;_.ant-table-cell]:flex bg-surface-informational&quot;]/div[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]/div[@class=&quot;my-auto flex flex-col gap-1&quot;]/button[@class=&quot;group inline-flex items-center gap-1 m-0 bg-transparent outline-none border-none transition-all font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small justify-start text-left text-text-link&quot;]</value>
+      <webElementGuid>87ac4bbd-7e78-4230-969c-a5793db1df7a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>4b1a0bdf-ae06-4abc-9346-5c10f009f741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/div[4]/div/button</value>
+      <webElementGuid>ac7e9a45-c7db-452c-9841-bee4e2cec1a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stefhany Nababan'])[1]/following::button[1]</value>
+      <webElementGuid>7edac15d-7916-475a-b772-40f6776ed4c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recycle - Meta Refinancing'])[1]/following::button[1]</value>
+      <webElementGuid>52652387-2194-4642-b7cb-e2c60dbf0459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recycle - Testing'])[1]/preceding::button[1]</value>
+      <webElementGuid>ce2b1831-3d85-4f80-a6b8-53b93968a3aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Abyaska CSA Leader'])[1]/preceding::button[1]</value>
+      <webElementGuid>dbdff10d-4d80-4b5c-8412-ff1e0fa65a9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See History']/parent::*</value>
+      <webElementGuid>67a75a1f-6c8b-4f01-8afb-be0145c44f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/button</value>
+      <webElementGuid>208f318b-fa43-45c9-a1c2-c65b4359ca89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'See History' or . = 'See History')]</value>
+      <webElementGuid>527f9177-d5ae-4429-9e5f-ac975bb8be50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

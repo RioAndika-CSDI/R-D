@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_Upload Avatar</name>
+   <tag></tag>
+   <elementGuidId>674faab0-4c95-411c-bb25-c8068e0cfca1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[11]/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4e697591-3773-44f5-8a0e-81e07b8a645e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>avatar</value>
+      <webElementGuid>ff8b9259-1fb5-445e-919d-e1d679ba7c77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 flex h-[40px] w-full cursor-pointer items-center justify-center gap-2 rounded border border-solid border-line font-normal</value>
+      <webElementGuid>606d6910-73b3-4c4e-8811-e210a91bb321</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload PNG Only</value>
+      <webElementGuid>2fe7ef0d-f5b2-4e71-b954-247a20945b3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-[10px]&quot;]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[2]/div[@class=&quot;h-[calc(var(--crm-screen-height)-10px-44px-19px-18px-16px)] w-[540px] overflow-x-auto rounded-[10px] bg-white font-OpenSans text-xs text-bodyCopy&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/form[@class=&quot;relative&quot;]/div[@class=&quot;ml-6 mr-[22px] mt-6 flex flex-col gap-[23px] pb-6 pl-[calc(38px-24px)] pr-[calc(50px-22px)]&quot;]/div[@class=&quot;w-[152px] flex-none&quot;]/label[@class=&quot;mb-0 flex h-[40px] w-full cursor-pointer items-center justify-center gap-2 rounded border border-solid border-line font-normal&quot;]</value>
+      <webElementGuid>bafc5c0c-983d-4f0a-a9ee-c8fb48387293</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[11]/label[2]</value>
+      <webElementGuid>d298f6f4-a551-471a-b7f2-f3946f856a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avatar'])[1]/following::label[1]</value>
+      <webElementGuid>bf07deb1-1f79-4801-8f9d-db8eb705e2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[22]/following::label[2]</value>
+      <webElementGuid>033c62c9-3df3-485b-90ea-89479cf8eadd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::label[1]</value>
+      <webElementGuid>b588530d-89e5-4e3b-924f-c4b4802d75e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]</value>
+      <webElementGuid>797022f4-f478-457a-91f0-784c972633cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Upload PNG Only' or . = 'Upload PNG Only')]</value>
+      <webElementGuid>4e13c669-3c59-4106-9a86-a7de75688467</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

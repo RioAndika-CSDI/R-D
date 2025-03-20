@@ -12,87 +12,136 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8f9b12b7-eb63-45ab-ae2c-27a1d514e48d</testSuiteGuid>
    <testCaseLink>
-      <guid>3567e2b1-3230-428d-9ade-27aa47fe47a3</guid>
+      <guid>7241b37d-4f62-4598-a30c-2199d9c06105</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM003 - VerifyUserCanAccessLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR001 - VerifyUserCanAccessLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9585f790-000c-4cf9-8b5c-c44745c76ec0</guid>
+      <guid>6873e072-d800-4e98-84d4-f576ea56dd2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM017 - VerifyUserCanAccessAllUnassignedLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR002 - VerifyUserCanAccessAllLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fa315648-11f3-4753-a645-78790a653054</guid>
+      <guid>ce08d5e0-2998-4abd-9c60-2852be3c2a4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM018 - VerifyUserCanAccessAllAssignedLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR003 - VerifyUserCanAccessAllUnassignedLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4a52a3c-85f1-46b1-9679-f574fbdbf865</guid>
+      <guid>e6f75004-89b0-40b2-8c26-8ff076726f3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM019 - VerifyUserCanAccessPostponedLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR004 - VerifyUserCanAccessAllAssignedLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e48840ec-7f39-41e8-b53f-1a3f6a822b9b</guid>
+      <guid>6975ab80-a788-414b-8b01-9acea81a7899</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM020 - VerifyUserCanAccessQualifiedLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR005 - VerifyUserCanAccessPostponedLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>30734956-e816-430e-99d0-56c2051fff2c</guid>
+      <guid>d8d1fdbb-599a-40c2-b36d-69c1b09f9466</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM021 - VerifyUserCanAccessFollowupQLOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR006 - VerifyUserCanAccessQualifiedLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a05c0bfc-7170-4f68-9a63-febb9055b570</guid>
+      <guid>6f8e1f7b-079a-4186-942c-a703a6b8ce01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM022 - VerifyUserCanAccessPostponedFUQLOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR007 - VerifyUserCanAccessFollowupQLOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>875401e1-5859-42ca-97f7-a4b040fdb334</guid>
+      <guid>97cc1784-b15f-408b-99af-b53039fba7f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM023 - VerifyUserCanAccessRefollowupLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR008 - VerifyUserCanAccessPostponedFUQLOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1c10f46d-6a11-4a9f-a4a7-9d8e0325241e</guid>
+      <guid>a7cc73df-90c4-4382-a828-1da46a364da0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM024 - VerifyUserCanAccessSPKOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR009 - VerifyUserCanAccessRefollowupLeadsOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f360a33-6276-4331-84aa-33167550040a</guid>
+      <guid>b57c12ec-f23b-432c-b50e-ca43b7f92a23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM025 - VerifyUserCanAccessBSTKOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR010 - VerifyUserCanAccessSPKOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>21379b69-1978-4f0c-bd00-a3241ec405c4</guid>
+      <guid>e6c52436-a3a9-4fc0-a094-8617fdb868df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM026 - VerifyUserCanAccessDroppedLeadsOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR011 - VerifyUserCanAccessBSTKOnLeadsTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c857b890-70de-4e9b-a6de-724c0731dc0f</guid>
+      <guid>24b464c1-6a3c-40d3-9014-d60ee13dc709</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM027 - VerifyUserCanAccessSearchOnLeadsTracking</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR012 - VerifyUserCanAccessDroppedLeadsOnLeadsTracking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ca11db6-d823-4728-95e4-220b781bec2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR013 - VerifyUserCanAccessLeadsInfoOnLeadsTracking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23948a38-2ee6-4be7-b0cd-39a53c7a3736</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR014 - VerifyUserCanSearchOnLeadsTracking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19bffa31-c167-435f-a502-48447cf95f3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR015 - VerifyUserCanFilterOnLeadsTracking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4d09b8b-b7a1-400a-90c6-f37915166675</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR016 - VerifyUserCanManageColumnOnLeadsTracking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>122d4a5c-8661-4ba5-8249-9a5808d0d2aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR017 - VerifyUserCanAccessCreateNewQLNewCar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5c52041-c39f-493d-8ea5-b634fda29a89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR018 - VerifyUserCanAccessCreateNewQLRefinancing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8136e7ec-5d38-457d-ba5b-b5889b8998d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR019 - VerifyUserCanAccessCreateNewQLUsedCar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

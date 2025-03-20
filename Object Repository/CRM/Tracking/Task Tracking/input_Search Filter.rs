@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search Filter</name>
+   <tag></tag>
+   <elementGuidId>b17d190d-bbef-46bb-9bf3-c93d13189441</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>26e90594-7a03-4cec-ab4e-25df6483e832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7</value>
+      <webElementGuid>0928d644-82f0-4262-b12b-1bcbc820ec90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search Filter...</value>
+      <webElementGuid>1fdd6f55-2026-411b-a450-d462b41f0bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r12t:&quot;)/div[@class=&quot;flex w-[--width] flex-col items-center gap-2 rounded border border-line bg-surface-plain py-4 text-body-regular&quot;]/div[@class=&quot;relative h-10 w-[--width-search]&quot;]/input[@class=&quot;peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7&quot;]</value>
+      <webElementGuid>a35657c1-aed9-4284-b99d-d1d072059c5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>60fabf42-8ffe-4b5d-ac8a-3d438b6fc6a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r12t:']/div/div/input</value>
+      <webElementGuid>a608487e-54e6-487c-bd80-bb2bd6707b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>bbf4a145-0188-4bae-b843-6f4d60cee16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search Filter...']</value>
+      <webElementGuid>20112f8e-9d07-4eb2-a575-7f58ff407f65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

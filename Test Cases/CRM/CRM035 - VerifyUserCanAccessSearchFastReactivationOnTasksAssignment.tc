@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM035 - VerifyUserCanAccessSearchFastReactivationOnTasksAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0c294bda-1e9a-4c51-a0c6-c9748bb371b4</testCaseGuid>
-</TestCaseEntity>

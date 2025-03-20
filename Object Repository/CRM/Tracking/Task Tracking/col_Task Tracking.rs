@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_Task Tracking</name>
+   <tag></tag>
+   <elementGuidId>6b112368-673f-482f-818a-53b6ff4b83e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-table-cell.whitespace-normal.ant-table-cell-row-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rsb:-content-ALL']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>789f5c2d-b538-43b7-b74a-c0ffc4531e3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell whitespace-normal ant-table-cell-row-hover</value>
+      <webElementGuid>44fe500c-c498-4500-8cb5-b272e07c0ebe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>C004</value>
+      <webElementGuid>93c0e72a-9a6d-4a8c-bd50-5aa3108f469d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rsb:-content-ALL&quot;)/div[1]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[@class=&quot;relative w-full overflow-hidden&quot;]/div[@class=&quot;overflow-hidden rounded-lg border border-line bg-surface-plain&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-virtual ant-table-fixed-header ant-table-scroll-horizontal&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-tbody-virtual ant-table-tbody&quot;]/div[@class=&quot;ant-table-tbody-virtual-holder&quot;]/div[1]/div[@class=&quot;ant-table-tbody-virtual-holder-inner&quot;]/div[@class=&quot;[&amp;_.ant-checkbox-wrapper]:m-auto [&amp;_.ant-table-cell]:grid ant-table-row group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal cursor-pointer focus-visible:shadow-[inset_-0.5px_-0.5px_0px_3px_rgba(36,110,212,1)] focus-visible:rounded transition-all&quot;]/div[@class=&quot;ant-table-cell whitespace-normal ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>a3b1e4c9-bcd7-4cc2-a2a8-a42bbff88894</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rsb:-content-ALL']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>b3ad1f34-ef24-4040-9aac-e4c930ca1abb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Task Created Date'])[1]/following::div[7]</value>
+      <webElementGuid>33b95802-7230-418f-a8e9-e46c77102530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Task Age'])[1]/following::div[8]</value>
+      <webElementGuid>708be6ac-611f-4092-a4cb-0b428d70f901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reactivation WA 1'])[1]/preceding::div[6]</value>
+      <webElementGuid>a93f052d-bf10-4d9d-9a7c-c8c4186bdba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>67f6274f-81db-4fd8-9b9b-f17ac6302c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'C004' or . = 'C004')]</value>
+      <webElementGuid>a8094065-2d06-4ce1-af35-7f49143e1975</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM028 - VerifyUserCanAccessAllUnassignedTasksOnTasksTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fbf068a7-a41e-448a-9cac-b60b1ebb719d</testCaseGuid>
-</TestCaseEntity>

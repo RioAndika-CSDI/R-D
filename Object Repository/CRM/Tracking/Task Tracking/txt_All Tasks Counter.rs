@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_All Tasks Counter</name>
+   <tag></tag>
+   <elementGuidId>0c390365-e485-4133-a2bf-98b32ec574cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-body-regular.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rsb:-content-ALL']/div/section/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6ebcdafd-6a3a-49a4-a6fd-d15d1e3c05fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body-regular text-text-primary</value>
+      <webElementGuid>7d356fc3-3f16-4622-8dc6-02bddc45a81b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1-100 of 43895 tasks.</value>
+      <webElementGuid>5e960479-4f05-441d-8e6a-a90831eb215b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rsb:-content-ALL&quot;)/div[1]/section[@class=&quot;flex w-full items-center justify-between mb-4&quot;]/div[@class=&quot;flex items-center&quot;]/div[@class=&quot;text-body-regular text-text-primary&quot;]</value>
+      <webElementGuid>3a95aa2d-ee21-4bf2-b8c9-0f95eb2e69f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rsb:-content-ALL']/div/section/div/div</value>
+      <webElementGuid>064e5eef-31ac-4f18-a19a-989c8a8a8337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Data'])[1]/preceding::div[1]</value>
+      <webElementGuid>52c18d22-f5e9-4dfd-881e-e90e34bbccfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1-100 of 43895 tasks.']/parent::*</value>
+      <webElementGuid>3f851f1d-8575-43b9-8dd0-85c07c68c112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/section/div/div</value>
+      <webElementGuid>c4acb07f-8097-476b-ac61-55dea797e456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1-100 of 43895 tasks.' or . = '1-100 of 43895 tasks.')]</value>
+      <webElementGuid>b8dceedb-6c4c-428f-9a42-25c805b51d3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

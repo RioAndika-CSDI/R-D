@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Create New Leads Group</name>
+   <tag></tag>
+   <elementGuidId>43c89ad5-cd92-4f53-b510-6b18283dac86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-heading-2.font-bold.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:reb:']/form/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eafa1941-f2ca-4871-8f81-e584bed24b6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-heading-2 font-bold text-text-primary</value>
+      <webElementGuid>271d58e4-de06-40c4-ae07-83e3a6cf210a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New Leads Group</value>
+      <webElementGuid>274dbc6a-74ce-411c-b039-5638edbcfc1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:reb:&quot;)/form[1]/div[@class=&quot;p-6 pb-0&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-heading-2 font-bold text-text-primary&quot;]</value>
+      <webElementGuid>c6432cb7-6408-47a7-9c0a-d07c6cc0087f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:reb:']/form/div/div/div</value>
+      <webElementGuid>7ce391bf-55ba-4ddf-802c-ed49241314af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[6]</value>
+      <webElementGuid>3a6871f0-641d-402b-ba3c-9549497401b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[6]</value>
+      <webElementGuid>0a3f119f-7eb7-4c3f-9650-de00e037cb19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Creating a new Leads Group will only apply to new leads and will not affect existing leads.'])[1]/preceding::div[2]</value>
+      <webElementGuid>01f596eb-e6cf-4e65-86ee-006bc3fd607c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div</value>
+      <webElementGuid>93dec414-0afc-41fa-a651-7fab0e3e5df3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create New Leads Group' or . = 'Create New Leads Group')]</value>
+      <webElementGuid>9b685d8a-d4d3-413c-b9bf-11a78d142e18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search Preset Manage Column</name>
+   <tag></tag>
+   <elementGuidId>921194ae-466e-45b6-986f-0d926c2ea26e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0459b0a3-91da-4c21-9704-081623be3c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7</value>
+      <webElementGuid>01bf17eb-9b4a-4fda-bc3d-604fa5d2e236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>176eedd2-eb1b-41dd-add6-be8df0fe634c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rlk:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[1]/div[@class=&quot;relative h-10 w-full mb-2&quot;]/input[@class=&quot;peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7&quot;]</value>
+      <webElementGuid>f5e47917-451c-4c9e-84ff-ed699abbad7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>8d0fa764-4135-4c6a-8310-f86bf344d741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rlk:']/div[2]/div/div/input</value>
+      <webElementGuid>2446e2b7-3776-4529-89b8-95a7aeddc350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>3503787e-a350-4031-a5bc-f092820ed320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search...']</value>
+      <webElementGuid>cee5dba3-43da-42ea-a229-5552a34e4cf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

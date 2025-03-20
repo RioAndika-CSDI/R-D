@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RBC001 - VerifyUserCanAccessReengagementTasksBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c523763a-fbf7-4026-ad36-c8d368a64df7</testCaseGuid>
+</TestCaseEntity>

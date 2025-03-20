@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Refollowup Leads Counter</name>
+   <tag></tag>
+   <elementGuidId>f6676942-a3e2-4472-bf43-e6d18e8868b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-body-regular.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1q:-content-REFOLLOWUP']/div/section/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d11ab05-9f05-48cc-8848-429a159b9dfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body-regular text-text-primary</value>
+      <webElementGuid>be79a146-72e9-4a15-89ea-13ad98e2ac9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1-100 of 209 leads.</value>
+      <webElementGuid>604cdc54-1e1a-49c5-ad47-d597d3f48a5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1q:-content-REFOLLOWUP&quot;)/div[1]/section[@class=&quot;flex w-full items-center justify-between mb-4&quot;]/div[@class=&quot;flex items-center&quot;]/div[@class=&quot;text-body-regular text-text-primary&quot;]</value>
+      <webElementGuid>7aa36462-c248-4dba-aa3b-e77dcf963514</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1q:-content-REFOLLOWUP']/div/section/div/div</value>
+      <webElementGuid>f4199fd0-a374-45b4-9457-c4fb3e65b3b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Data'])[1]/preceding::div[1]</value>
+      <webElementGuid>ebbaa5db-7117-4614-84eb-781ffb77f9b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1-100 of 209 leads.']/parent::*</value>
+      <webElementGuid>b2aabb1a-4ca5-4427-92f4-e7fab0ec7a65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/section/div/div</value>
+      <webElementGuid>f8665de4-6009-46d1-ba03-cd7e10abfdca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1-100 of 209 leads.' or . = '1-100 of 209 leads.')]</value>
+      <webElementGuid>852c4ddf-47dc-4dc1-b5cc-ec66b1dd5493</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Filter Leads Name</name>
+   <tag></tag>
+   <elementGuidId>4805202b-856b-48c7-a5f6-c1807a3bc271</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.font-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rfh:']/button/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b441cd85-8b69-4706-9ff2-23473dd2b571</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-bold</value>
+      <webElementGuid>1ded81d6-2cdd-4a79-9854-8aef86695e7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads Name</value>
+      <webElementGuid>3ae472a4-bc57-4ba3-a203-b6d6c7f87ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rfh:&quot;)/button[@class=&quot;group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block&quot;]/span[@class=&quot;font-bold&quot;]</value>
+      <webElementGuid>959050c4-672e-4862-83e2-3376c4f715c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rfh:']/button/span[2]</value>
+      <webElementGuid>26dafc9e-2dd6-48b1-8157-d504cb0b70a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by fields'])[1]/following::span[2]</value>
+      <webElementGuid>e9b6e33e-43c2-431f-a12a-c676bc480483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have not received any filters from others'])[1]/following::span[2]</value>
+      <webElementGuid>fad24a54-05ee-4b44-ad3a-574fa5da3f53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leads Name']/parent::*</value>
+      <webElementGuid>0710f391-e67d-4a16-82a8-d63d5109498a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span[2]</value>
+      <webElementGuid>37e0008b-17c0-4a39-a15a-256cc47424f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Leads Name' or . = 'Leads Name')]</value>
+      <webElementGuid>ea6d4d9f-9c23-4b4b-ad86-f88a5231a2c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt SEVA CRM Homepage</name>
+   <tag></tag>
+   <elementGuidId>39ac885e-369a-477e-afda-02935790b936</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-span-1.my-auto.flex.items-baseline.gap-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d29649b-e7c3-44bf-a4d3-2ab35039202b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-span-1 my-auto flex items-baseline gap-2</value>
+      <webElementGuid>1efd6930-1792-4519-9fbd-d28de1dcc118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEVA CRM Homepage</value>
+      <webElementGuid>c7920174-e3e4-43b0-ac34-56713daef268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-1 my-auto flex items-baseline gap-2&quot;]</value>
+      <webElementGuid>7b94d149-5c70-487c-87b8-5e4943a0318a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div</value>
+      <webElementGuid>417964e3-b1ed-4e7a-a167-5b6abc95d188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ongoing Workstation:'])[1]/preceding::div[1]</value>
+      <webElementGuid>128bfb75-4b4e-44ea-a5d3-0b0f9b9c8248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[1]/preceding::div[1]</value>
+      <webElementGuid>91c70ede-1731-4e58-be79-983e33f18bff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SEVA CRM Homepage']/parent::*</value>
+      <webElementGuid>7daae9c9-b0a8-495c-ae04-bad7581c5886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div</value>
+      <webElementGuid>99be7e12-4052-4245-a8cf-b497baceb7a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SEVA CRM Homepage' or . = 'SEVA CRM Homepage')]</value>
+      <webElementGuid>534e1c8b-fda9-4b48-a15e-d319966be4d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

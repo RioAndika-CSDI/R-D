@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RBC002 - VerifyUserCanAccessDetailTasksBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72f8461f-9eeb-4eab-8af9-78cc719ff089</testCaseGuid>
+</TestCaseEntity>

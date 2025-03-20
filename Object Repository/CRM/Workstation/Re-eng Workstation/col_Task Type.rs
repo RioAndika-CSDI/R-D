@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_Task Type</name>
+   <tag></tag>
+   <elementGuidId>dd9a8d58-e296-4e7d-bd2f-f96aeec80b99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>189e1413-442b-4882-89cb-42d595608e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell ant-table-cell-row-hover</value>
+      <webElementGuid>75ea8f2d-8e04-4ba2-9adf-ad3bd186d937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recycle</value>
+      <webElementGuid>2d99de18-ab79-4b11-ae18-d1b6e2cc34aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/div[@class=&quot;overflow-x-clip&quot;]/div[1]/div[2]/div[@class=&quot;overflow-hidden rounded-lg border border-line bg-surface-plain&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-fixed-header&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal cursor-pointer&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>e8b40717-ca94-4b7f-b63c-3ea0db3b9f6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>510ca497-6637-42d7-ab79-d53f3877936d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Egbert Dimara'])[1]/following::td[1]</value>
+      <webElementGuid>0751c3ad-ce4f-4fe4-adc1-e766d50f4be0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[7]</value>
+      <webElementGuid>95024bff-42a0-4e03-87cb-50d040014cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri 14 Mar 25 15:42'])[1]/preceding::td[1]</value>
+      <webElementGuid>bedec468-41a0-4ca5-bb8a-c13808f59662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>0f15e17a-186c-4681-9fe4-1eeabc1bb09e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Recycle' or . = 'Recycle')]</value>
+      <webElementGuid>373d59b0-fc95-4e6c-9e26-ab872ac61c48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

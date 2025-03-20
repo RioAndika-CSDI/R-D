@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Recycle</name>
+   <tag></tag>
+   <elementGuidId>933a29c2-47c6-407e-916c-d918341fb6c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/section/div/button[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3ba25aff-ce96-4845-a41e-767578392c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-[10px]</value>
+      <webElementGuid>75599d31-ef6c-4a50-a477-9d5b58c5f686</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recycle </value>
+      <webElementGuid>e1645cda-5fec-4de5-a2e0-e1c3cf08d1b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/section[@class=&quot;sticky top-12 z-10 bg-surface-neutral pb-6&quot;]/div[@class=&quot;relative inline-flex gap-2 border-0 border-b border-solid border-line w-full&quot;]/button[@class=&quot;flex-none cursor-pointer select-none bg-transparent font-OpenSans text-sm/[19px] text-bodyCopy aria-disabled:cursor-default aria-disabled:text-placeholder font-normal p-4&quot;]/div[@class=&quot;flex items-center gap-[10px]&quot;]</value>
+      <webElementGuid>d7d33f77-dde2-4e48-adac-30e284f10c34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/section/div/button[3]/div</value>
+      <webElementGuid>58730e0a-c458-4359-8c72-221ab23627cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reactivation WA'])[1]/following::div[1]</value>
+      <webElementGuid>c04ad80d-ad4b-4f8d-aad4-32f18eeb67e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fast Reactivation'])[1]/following::div[2]</value>
+      <webElementGuid>e9d4549c-a814-4fa7-a4f6-fe33c79142e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Week’s Completed Task'])[1]/preceding::div[1]</value>
+      <webElementGuid>768f04ab-671a-4d7e-8022-23a2471dba2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fast Reactivation 1'])[1]/preceding::div[3]</value>
+      <webElementGuid>6438162c-8190-4c94-b057-2b90795d4823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Recycle']/parent::*</value>
+      <webElementGuid>c71e2d45-6025-446e-9c88-6431fe6dda14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/div</value>
+      <webElementGuid>22f569c9-fa6d-461c-93f6-e9da62113590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Recycle ' or . = 'Recycle ')]</value>
+      <webElementGuid>167a6a20-35bd-48d7-8ade-5f6910002c84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

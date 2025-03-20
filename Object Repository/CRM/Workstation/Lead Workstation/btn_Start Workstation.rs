@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Start Workstation</name>
+   <tag></tag>
+   <elementGuidId>a5432018-ed05-416c-bd34-5e3935f21faf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b4d59a53-f28b-480f-ad9f-962e35ce5460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a15dc2fe-5c14-45be-bf79-5011597f9542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[200px]</value>
+      <webElementGuid>e35f6c82-c387-4f3c-b800-a1dea6253d5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start Workstation</value>
+      <webElementGuid>4a122d27-b538-4056-bbe1-c6d6876cc329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-3 my-auto ml-auto flex items-center gap-4&quot;]/div[@class=&quot;flex items-center gap-6&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[200px]&quot;]</value>
+      <webElementGuid>fa451800-b4fb-4a66-a7f5-ff415ffd1b42</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>37cef197-401a-478b-8286-544e6247423c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div[2]/div/button</value>
+      <webElementGuid>6260fb5b-1b8a-4780-86c6-8d53bc084f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[1]/following::button[1]</value>
+      <webElementGuid>b02c92a3-5170-4621-8ede-3e61dfb25ef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[1]/preceding::button[2]</value>
+      <webElementGuid>35369077-cf1f-4eaa-bafb-57f81e2a059d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualified Leads'])[1]/preceding::button[3]</value>
+      <webElementGuid>7d8a14d6-02a2-4505-9602-4ae1ec0d6a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Start Workstation']/parent::*</value>
+      <webElementGuid>96f7921d-8132-49b7-8f67-a772e5aa131a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>897289d9-95d8-4444-9fa0-2732d57b03d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Start Workstation' or . = 'Start Workstation')]</value>
+      <webElementGuid>332c1a93-8fa1-43cd-aab5-a7cdb135fe8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

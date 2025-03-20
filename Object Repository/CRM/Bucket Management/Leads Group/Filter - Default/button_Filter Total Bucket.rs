@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Filter Total Bucket</name>
+   <tag></tag>
+   <elementGuidId>e3ae250b-7e85-47fd-95a6-e14d59a5b8dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1ek:']/button[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>62a4688f-2744-4e6c-ab06-37e968822f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block</value>
+      <webElementGuid>be380e6b-9163-4eb7-a8d0-d31b3c5e59b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Bucket</value>
+      <webElementGuid>150f373b-c158-4bf4-b493-108d7a811117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1ek:&quot;)/button[@class=&quot;group min-h-9 w-full cursor-pointer select-none justify-between rounded border-0 bg-surface-plain p-2 text-left text-body-regular text-text-primary hover:bg-hover-white active:bg-hover-white has-[[data-state=open].more-button]:bg-hover-white block&quot;]</value>
+      <webElementGuid>776471cf-509e-4a6c-b990-f4f0da1c9747</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1ek:']/button[5]</value>
+      <webElementGuid>6b96689d-f5de-40bd-8ffe-3f69a32b242e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='s'])[3]/following::button[1]</value>
+      <webElementGuid>b82abdb3-0b1e-43d6-ba7d-3b88d03109ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='d'])[2]/following::button[1]</value>
+      <webElementGuid>1051a5d0-a9e9-434b-be9c-972b5f752f1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[5]</value>
+      <webElementGuid>4477d680-7788-46aa-a336-00483ee9bd69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Total Bucket' or . = 'Total Bucket')]</value>
+      <webElementGuid>c6f92cd8-28ab-4bc1-b080-937e9403ff1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

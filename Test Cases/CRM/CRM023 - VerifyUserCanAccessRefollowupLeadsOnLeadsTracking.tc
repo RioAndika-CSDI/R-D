@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM023 - VerifyUserCanAccessRefollowupLeadsOnLeadsTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e6800727-857e-496c-943c-b789243d395d</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM021 - VerifyUserCanAccessFollowupQLOnLeadsTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>55e5985e-f7a4-4041-a6ee-04b7d34fd82a</testCaseGuid>
-</TestCaseEntity>

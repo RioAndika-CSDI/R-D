@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add New Bucket</name>
+   <tag></tag>
+   <elementGuidId>d21246ce-e633-468b-9619-722e7a38995a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>60178af4-f4e0-4e5c-9ee9-dbab3cb56332</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6733b2d1-75fb-4d43-a0a2-e33b30101935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 flex-none</value>
+      <webElementGuid>6bebab26-042d-42f2-a9c4-4343015f28a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add New Bucket</value>
+      <webElementGuid>42f71ca3-b445-4f76-ad0e-9ab42c3dd7b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mb-3 mt-3 flex w-full items-center justify-between gap-[14px]&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 flex-none&quot;]</value>
+      <webElementGuid>5151f8f9-d177-45a8-b489-22e8fea550da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>5505dca2-b476-4759-87fb-3e7bb6d823ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/button</value>
+      <webElementGuid>bafd876a-3714-40b0-9859-11c204140cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[1]</value>
+      <webElementGuid>c76a8104-7b6f-4897-9cf8-05e181ffbb67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Bucket Management'])[1]/following::button[4]</value>
+      <webElementGuid>34d9147a-5b44-4662-8e0c-c3db21e86bfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organic New Car'])[1]/preceding::button[1]</value>
+      <webElementGuid>7a5eb770-7587-4fcc-bcf2-f0e9c3ccf3b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add New Bucket']/parent::*</value>
+      <webElementGuid>a429a1bd-cb6e-46bf-a240-93001e514e5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button</value>
+      <webElementGuid>592dec74-fdd2-4a78-a4f0-ea03f7a5ede8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Add New Bucket' or . = ' Add New Bucket')]</value>
+      <webElementGuid>14637b46-f29d-4e9e-beeb-141ccbfaf580</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

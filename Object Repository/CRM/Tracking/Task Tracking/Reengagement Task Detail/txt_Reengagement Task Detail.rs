@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Reengagement Task Detail</name>
+   <tag></tag>
+   <elementGuidId>c58d3663-a227-4e6e-8fb3-a67acd3e3618</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-span-1.my-auto.flex.items-baseline.gap-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ba6a71e0-1335-40b3-9883-258a7c66f392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-span-1 my-auto flex items-baseline gap-2</value>
+      <webElementGuid>f6525718-2a52-45d7-859c-f914e9b7f035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reengagement Task Detail</value>
+      <webElementGuid>a5ed46af-f7c1-4abb-b49f-5dd1ead54485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-1 my-auto flex items-baseline gap-2&quot;]</value>
+      <webElementGuid>2553ef0a-50d3-4719-b950-6afa7814441c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div</value>
+      <webElementGuid>bdf95e44-c6b6-489b-832b-8f348c694794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Name'])[1]/preceding::div[5]</value>
+      <webElementGuid>e2197b50-293c-4990-8acb-16f64e407cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Meylisa'])[1]/preceding::div[6]</value>
+      <webElementGuid>47dbb134-79c4-4592-b091-e4f82b40a65e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reengagement Task Detail']/parent::*</value>
+      <webElementGuid>dc06db55-99a3-4731-959a-662a54fd73fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div</value>
+      <webElementGuid>480e481d-c1c1-42fa-84d2-0419de430a8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Reengagement Task Detail' or . = 'Reengagement Task Detail')]</value>
+      <webElementGuid>f2aed204-95b6-45b8-bf01-8d30a110ee81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

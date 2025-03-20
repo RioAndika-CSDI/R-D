@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_Table type</name>
+   <tag></tag>
+   <elementGuidId>1a230264-ed24-4f8f-81ba-a82b29ac84e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-col.gap-4.border-b.border-line.px-6.py-2.bg-surface-informational</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2f439ce3-a9d4-40a9-9886-cb77e5cb8d5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col gap-4 border-b border-line px-6 py-2 bg-surface-informational</value>
+      <webElementGuid>6d98c777-5275-4b04-a620-ddf205d0c579</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Table Fast Track2190 tasks remainingTable FIFO 11068 tasks remainingTable FIFO 227 tasks remainingTotal 3 tablesTotal 3285 tasks remaining</value>
+      <webElementGuid>eb373e0d-df54-45aa-9a88-c06b8d5d7938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;flex gap-5&quot;]/div[@class=&quot;w-[530px]&quot;]/div[2]/div[@class=&quot;overflow-clip rounded-lg border border-line&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;flex flex-col gap-6 bg-surface-plain p-5&quot;]/div[@class=&quot;cursor-pointer overflow-clip rounded-lg border border-line-informational&quot;]/div[@class=&quot;flex flex-col gap-4 border-b border-line px-6 py-2 bg-surface-informational&quot;]</value>
+      <webElementGuid>12cb643a-440f-4175-a8c3-a82b5add09c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>bc1d0505-947b-4319-b512-d4e9fc023d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recycle - Meta Refinancing'])[1]/following::div[1]</value>
+      <webElementGuid>9414dee2-9510-40ae-9b19-a106e54449dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>ddbf1c87-355b-418f-bd4c-8470828bffab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Table Fast Track2190 tasks remainingTable FIFO 11068 tasks remainingTable FIFO 227 tasks remainingTotal 3 tablesTotal 3285 tasks remaining' or . = 'Table Fast Track2190 tasks remainingTable FIFO 11068 tasks remainingTable FIFO 227 tasks remainingTotal 3 tablesTotal 3285 tasks remaining')]</value>
+      <webElementGuid>1417bab4-54e3-411e-bae8-faabb10f635b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

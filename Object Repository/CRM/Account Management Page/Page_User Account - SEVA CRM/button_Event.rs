@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Event</name>
+   <tag></tag>
+   <elementGuidId>9e86d2c3-bbcf-4aa1-bb06-b647fc65e309</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a733989c-5312-426c-bfeb-b004b22e99e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white</value>
+      <webElementGuid>c2a7633f-0af9-4df4-bebe-a00c177fb635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Event</value>
+      <webElementGuid>d4df4cc8-cd1b-4cfe-8791-7597f97bd6c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rh:&quot;)/div[@class=&quot;flex w-[215.6px] flex-col items-center gap-2 rounded border-[1px] border-solid border-line bg-white py-4 font-OpenSans&quot;]/div[@class=&quot;w-full px-2&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/button[@class=&quot;block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white&quot;]</value>
+      <webElementGuid>5e76b582-71cd-4cd8-95d4-1ed0fbf0e1a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[2]</value>
+      <webElementGuid>a8e8aede-8fab-48b7-b695-bdd0b43489fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/following::button[1]</value>
+      <webElementGuid>0d9a02b2-cc87-4cdb-b806-56739986f76a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::button[1]</value>
+      <webElementGuid>52289a8b-52c1-4818-9bb2-af1804e11ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button[2]</value>
+      <webElementGuid>6f90212f-22a5-42b5-95dd-5908a4061319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Event' or . = 'Event')]</value>
+      <webElementGuid>118a3087-ff16-414a-a435-04247dab2ff9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM012 - VerifyUserCanAccessCancelEditCSAOnLeadWorkstation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dc43e1cd-ba6e-47b8-95f8-59dd5477c348</testCaseGuid>
-</TestCaseEntity>

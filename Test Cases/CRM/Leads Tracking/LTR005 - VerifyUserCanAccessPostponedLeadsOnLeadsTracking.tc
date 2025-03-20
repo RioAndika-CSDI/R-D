@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR005 - VerifyUserCanAccessPostponedLeadsOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b107b871-36e6-433a-a01f-25e9779c9f72</testCaseGuid>
+</TestCaseEntity>

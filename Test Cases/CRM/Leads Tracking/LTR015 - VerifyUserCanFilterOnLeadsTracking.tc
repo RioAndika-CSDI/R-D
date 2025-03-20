@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR015 - VerifyUserCanFilterOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e091b445-767d-4294-84b8-e00a05b0c46c</testCaseGuid>
+</TestCaseEntity>

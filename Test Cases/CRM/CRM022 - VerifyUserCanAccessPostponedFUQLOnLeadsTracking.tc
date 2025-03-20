@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM022 - VerifyUserCanAccessPostponedFUQLOnLeadsTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8baaaa64-aaae-46b6-82a2-41c4216fd434</testCaseGuid>
-</TestCaseEntity>

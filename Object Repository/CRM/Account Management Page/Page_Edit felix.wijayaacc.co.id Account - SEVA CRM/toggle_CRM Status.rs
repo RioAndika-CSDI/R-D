@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_CRM Status</name>
+   <tag></tag>
+   <elementGuidId>dd1e6cd9-f605-47f6-ade1-15fc9f787149</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[10]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a0b4887-96d4-444d-99ea-4127086a6a3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CRM Status:</value>
+      <webElementGuid>2b2cfd93-f8c7-4d42-a938-47688d7f77d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-[10px]&quot;]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[2]/div[@class=&quot;h-[calc(var(--crm-screen-height)-10px-44px-19px-18px-16px)] w-[540px] overflow-x-auto rounded-[10px] bg-white font-OpenSans text-xs text-bodyCopy&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/form[@class=&quot;relative&quot;]/div[@class=&quot;ml-6 mr-[22px] mt-6 flex flex-col gap-[23px] pb-6 pl-[calc(38px-24px)] pr-[calc(50px-22px)]&quot;]/div[@class=&quot;flex items-center gap-[46px]&quot;]/div[1]</value>
+      <webElementGuid>a2d2c7bb-3c2c-46db-b808-fd7b05914960</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[10]/div</value>
+      <webElementGuid>af69e9e2-87db-4bf1-8a60-1712082d7833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[3]/following::div[4]</value>
+      <webElementGuid>f2a35c9a-a326-4312-ab36-9dac536971a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[22]/preceding::div[2]</value>
+      <webElementGuid>632ce054-2a30-410e-bf01-963ceae053c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CRM Status:']/parent::*</value>
+      <webElementGuid>de536e77-ea69-42dd-9e94-c6606723a105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div</value>
+      <webElementGuid>3c072924-cb02-4adc-9f89-7c7a709d7a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CRM Status:' or . = 'CRM Status:')]</value>
+      <webElementGuid>8596b08e-21d9-4830-83cd-297357808f8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

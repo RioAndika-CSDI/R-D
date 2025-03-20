@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Customized</name>
+   <tag></tag>
+   <elementGuidId>7af78c7b-4156-4242-8586-0475b6953138</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.absolute.inset-0.rounded.border.border-line.bg-surface-plain.shadow-elevation-7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='radix-:rj:-trigger-customized']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c2d30f8-26bf-41b1-9d6e-3dfb78a153c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute inset-0 rounded border border-line bg-surface-plain shadow-elevation-7</value>
+      <webElementGuid>1721cf47-9a8f-4a1a-b3e5-57e92cf0c518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-projection-id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>f9d8d97f-1dfa-4706-b11c-2a0b3947728c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rj:-trigger-customized&quot;)/div[@class=&quot;absolute inset-0 rounded border border-line bg-surface-plain shadow-elevation-7&quot;]</value>
+      <webElementGuid>d0b00e13-672d-4dec-9f96-a283603294eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='radix-:rj:-trigger-customized']/div[2]</value>
+      <webElementGuid>5bdad7a2-db17-4bb4-9bb7-ef773efe908e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/div[2]</value>
+      <webElementGuid>d6e30cb2-b5a1-4323-9ac4-28b304b375ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

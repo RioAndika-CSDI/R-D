@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TTR001 - VerifyUserCanAccessTasksTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c339563b-3c72-48a8-8f45-67af2234e8c8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGR005 - VerifyUserCanFilterDefaultTabOnLeadsGroup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fe21368-716d-4bf5-9abe-e8a0b04e7d47</testCaseGuid>
+</TestCaseEntity>

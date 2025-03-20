@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR001 - VerifyUserCanAccessLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d39aea3d-5b55-4c7f-b767-248e3a044e07</testCaseGuid>
+</TestCaseEntity>

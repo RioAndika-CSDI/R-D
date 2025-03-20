@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_AllLeads</name>
+   <tag></tag>
+   <elementGuidId>c64fa190-30c8-4515-b0fa-cfd79204369f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rb:']/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b3b80fba-534e-49db-9835-7e328a5054b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical</value>
+      <webElementGuid>08ad83c3-16c8-4f95-85ae-8a75b298520d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Leads &amp; Tasks</value>
+      <webElementGuid>e65533b0-f59a-49fe-a9fe-4e7cde407456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rb:&quot;)/div[@class=&quot;flex items-center gap-6&quot;]/p[@class=&quot;hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical&quot;]</value>
+      <webElementGuid>4bed3962-423a-467b-bff7-29573d95bc00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rb:']/div/p</value>
+      <webElementGuid>649ac542-627b-4074-b53a-6b4aeeae5154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::p[4]</value>
+      <webElementGuid>12d708bb-aef3-4d7f-a52b-a486f850dbd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::p[4]</value>
+      <webElementGuid>7fc75500-d828-4e51-80c4-f0cbf4846a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[3]</value>
+      <webElementGuid>9d1d3dd8-806e-4fd0-8636-4e68f5077e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[3]</value>
+      <webElementGuid>0e3daeff-af8f-4bf8-99c5-19acb8eabd73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All Leads &amp; Tasks']/parent::*</value>
+      <webElementGuid>ad99d691-0680-489a-a5f2-970e83a8f8c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/h3/div/div/p</value>
+      <webElementGuid>d59a9849-80cb-4c2e-a61d-d08ed0801c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'All Leads &amp; Tasks' or . = 'All Leads &amp; Tasks')]</value>
+      <webElementGuid>45827d65-78ce-4e56-9fcc-12270b4ac982</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

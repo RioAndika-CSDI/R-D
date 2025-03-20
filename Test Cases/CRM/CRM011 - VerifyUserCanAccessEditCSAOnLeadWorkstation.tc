@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM011 - VerifyUserCanAccessEditCSAOnLeadWorkstation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>71afdb7d-488d-46b9-a334-630dd8d64fd8</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_(optional)_flex h-10 gap-0.5 overflow-h_fcc0f1</name>
+   <tag></tag>
+   <elementGuidId>9d97d604-afb8-40d2-93c1-1684e6039fee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[2]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7925353d-7563-498b-a3ce-d7f2276d98b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-10 gap-0.5 overflow-hidden rounded border border-solid bg-white border-line</value>
+      <webElementGuid>ce36e216-3925-4c72-8dc0-ad966901462a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>42e749fb-356a-4322-801c-e6558568e28f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b85efc75-eb21-424e-ae94-3849f68a6429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>radix-:r31:</value>
+      <webElementGuid>8881d6be-0701-41c6-903c-fae0199b59c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>closed</value>
+      <webElementGuid>8d82cc80-c8aa-4801-afe2-ea6acf555dc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal [&amp;_.ant-modal-content]:rounded-none [&amp;_.ant-modal-content]:p-0&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@class=&quot;pb-10 pl-5 pr-[22px] pt-6&quot;]/div[@class=&quot;mb-[66px] grid grid-cols-2 gap-[87px] font-OpenSans text-xs text-bodyCopy&quot;]/section[2]/div[@class=&quot;flex flex-col gap-[23px]&quot;]/div[3]/div[@class=&quot;relative&quot;]/div[@class=&quot;flex h-10 gap-0.5 overflow-hidden rounded border border-solid bg-white border-line&quot;]</value>
+      <webElementGuid>08fb3525-1c60-4481-9f1b-f66a7a61bfc0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[2]/following::div[2]</value>
+      <webElementGuid>9681eab0-3b4c-4651-8052-8d3f6dbea0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[3]/preceding::div[1]</value>
+      <webElementGuid>0f676a05-7327-4d9a-9f89-c8b09bc48d4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div</value>
+      <webElementGuid>e63b56f8-475a-4596-91e2-38772b5ba04a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

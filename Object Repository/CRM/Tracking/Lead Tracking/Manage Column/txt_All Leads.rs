@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_All Leads</name>
+   <tag></tag>
+   <elementGuidId>e2decbe6-0dac-4424-acfd-872468c170bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.truncate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rmg:']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>43e1ca77-e56a-4ec6-988b-5d1f18fe3f80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>truncate</value>
+      <webElementGuid>59fe547f-2e2d-4a45-a831-859bd3b60806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Leads</value>
+      <webElementGuid>0d8479a2-c7f0-4879-841a-21ad9263d33c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rmg:&quot;)/div[@class=&quot;group flex w-full cursor-pointer select-none items-center justify-between rounded border-0 p-2 text-left text-body-small hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white bg-white&quot;]/div[@class=&quot;truncate&quot;]</value>
+      <webElementGuid>d4a7e0a7-acca-4ce7-a248-f9d454998065</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rmg:']/div/div</value>
+      <webElementGuid>702b5508-d8a3-4564-80a4-001f66aa952f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public Columns'])[1]/following::div[3]</value>
+      <webElementGuid>3ae06d10-7e1e-49d1-8c83-3fe57d64a063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Column not found. Try other keywords'])[2]/following::div[6]</value>
+      <webElementGuid>2a50ef6b-39bc-4ced-a0ce-a497746d6ba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[1]/preceding::div[4]</value>
+      <webElementGuid>fc1af9ce-f90d-4106-a747-11a02789e429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::div[4]</value>
+      <webElementGuid>87648dea-0e59-439e-9df3-c023ed0d5432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>61b8da91-6876-4280-9382-02eacefa9d7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All Leads' or . = 'All Leads')]</value>
+      <webElementGuid>4275b559-363d-4167-b3a5-327d605e6ecc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

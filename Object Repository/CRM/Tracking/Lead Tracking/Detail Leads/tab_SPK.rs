@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_SPK</name>
+   <tag></tag>
+   <elementGuidId>1b86101b-314f-4b62-82c6-a6684995e241</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/button[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>33da4c7b-afe7-42e1-8877-b77a8239e74c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-[10px]</value>
+      <webElementGuid>6d0d7f92-c03d-437f-a2da-bddc68086f3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SPK </value>
+      <webElementGuid>c734e473-cfc1-4c80-86da-025c390b374f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;relative inline-flex gap-2 border-0 border-b border-solid border-line w-full&quot;]/button[@class=&quot;flex-none cursor-pointer select-none bg-transparent font-OpenSans text-sm/[19px] text-bodyCopy aria-disabled:cursor-default aria-disabled:text-placeholder font-normal p-4&quot;]/div[@class=&quot;flex items-center gap-[10px]&quot;]</value>
+      <webElementGuid>db122a81-4c9c-4195-bf8b-8f65185aaeac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/button[3]/div</value>
+      <webElementGuid>94ecaa2c-81b8-44c6-827f-62bb92eff35f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualified Leads'])[1]/following::div[1]</value>
+      <webElementGuid>26d6612e-912b-4456-9bec-48cc0da585b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[1]/following::div[2]</value>
+      <webElementGuid>96cff703-7618-48df-9b33-f0935a40dc37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BSTK'])[1]/preceding::div[1]</value>
+      <webElementGuid>15b015d5-373b-4f7d-9f4d-ded06f0936ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Link'])[1]/preceding::div[3]</value>
+      <webElementGuid>838018f0-5304-4e9a-8533-107594549cc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SPK']/parent::*</value>
+      <webElementGuid>6d88bb07-c99c-4eec-8143-02c0089f5721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/div</value>
+      <webElementGuid>8732742b-c439-4d33-b132-f2487e706318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SPK ' or . = 'SPK ')]</value>
+      <webElementGuid>60015109-6267-43f2-b05a-33c452c4b7b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

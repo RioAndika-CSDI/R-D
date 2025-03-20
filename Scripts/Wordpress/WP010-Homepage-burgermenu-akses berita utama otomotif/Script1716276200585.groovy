@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Homepage Component/SubMenu_Artikel'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Artikel-berita utama otomotif'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Artikel Otomotif  SEVA/Breadcrumb otomotif'), 400)
+WebUI.waitForElementPresent(findTestObject('Page_Artikel Keuangan  SEVA/Page_Artikel Otomotif  SEVA/Breadcrumb otomotif'), 400)
 
 actURL = WebUI.getUrl()
 

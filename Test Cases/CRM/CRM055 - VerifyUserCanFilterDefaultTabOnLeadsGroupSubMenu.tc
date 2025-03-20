@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM055 - VerifyUserCanFilterDefaultTabOnLeadsGroupSubMenu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0fe21368-716d-4bf5-9abe-e8a0b04e7d47</testCaseGuid>
-</TestCaseEntity>

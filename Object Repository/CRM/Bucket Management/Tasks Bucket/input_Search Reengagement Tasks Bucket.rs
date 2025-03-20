@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search Reengagement Tasks Bucket</name>
+   <tag></tag>
+   <elementGuidId>e187fb16-3f61-459f-a46f-d9414bff6b47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>efe3d82a-176b-4782-8e1d-4bb545ef0c03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7 min-w-[240px]</value>
+      <webElementGuid>a7c66bfa-5180-49e8-86de-c6465c3b8028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>85cd0eaf-2889-4cf9-b880-3d1d83189af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mb-2.5 mt-3 flex items-center justify-between gap-4&quot;]/div[@class=&quot;flex items-center gap-4&quot;]/div[@class=&quot;relative h-10 w-full&quot;]/input[@class=&quot;peer h-full truncate rounded border border-solid border-line bg-surface-plain px-2 py-4 pr-7 text-body-small text-text-primary outline-none placeholder:text-text-placeholder transition-all focus-within:border-line-bold read-only:bg-surface-disabled read-only:text-text-primary disabled:bg-surface-disabled disabled:text-text-disabled w-full pl-7 min-w-[240px]&quot;]</value>
+      <webElementGuid>3a5efabb-3527-46b6-9ef9-9e7d1bda8883</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/input</value>
+      <webElementGuid>f22395b2-fd1d-4e4b-bf44-25b575417501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>b52659bc-9bf0-474c-915d-991b8c023cc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search']</value>
+      <webElementGuid>2489b686-694f-4f0c-a92d-8695338b3ac6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

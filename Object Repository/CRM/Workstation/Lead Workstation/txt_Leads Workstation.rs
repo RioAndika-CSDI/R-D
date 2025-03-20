@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Leads Workstation</name>
+   <tag></tag>
+   <elementGuidId>4c6aed79-bb08-480d-86a4-dbe5287c53b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-span-1.my-auto.flex.items-baseline.gap-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eb068b3a-1c74-4b71-b919-c418c42fe1be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-span-1 my-auto flex items-baseline gap-2</value>
+      <webElementGuid>d2a7e3b0-315a-4aba-8b47-714cee236104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads Workstation</value>
+      <webElementGuid>82556824-aeaf-4b50-8bf7-94e5422a3b6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-1 my-auto flex items-baseline gap-2&quot;]</value>
+      <webElementGuid>6ad3a3fa-e0d3-48b6-9f0d-3fcef86fe92d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div</value>
+      <webElementGuid>bbca8fa7-d317-40d3-9e9e-242583343b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Workstation'])[1]/preceding::div[1]</value>
+      <webElementGuid>5337a978-91d0-43df-a6b3-265385410d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[1]/preceding::div[4]</value>
+      <webElementGuid>b2d6a529-e634-45f3-9bf6-6938f8f99c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leads Workstation']/parent::*</value>
+      <webElementGuid>95435572-d75b-4ffb-a8eb-6a01b659b003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div</value>
+      <webElementGuid>25e9352f-4f1e-4b04-a747-40797317eb7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Leads Workstation' or . = 'Leads Workstation')]</value>
+      <webElementGuid>510a4f2b-e90a-49df-a4ad-06e5db2ba255</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
