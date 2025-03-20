@@ -6,12 +6,16 @@
    <elementGuidId>fd72382d-e03d-4e81-a6c7-0b83b02ba9e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.navigationfiltermobile_sortSection__5jSi4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div/div[3]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'navigationfiltermobile_sortSection')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigationfiltermobile_sortSection__5jSi4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>41e8963d-5978-4fa6-935b-d2de1b9b14a7</webElementGuid>
+      <webElementGuid>683d168a-9219-4f87-98db-ef5134dc8e31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationfiltermobile_sortSection</value>
+      <webElementGuid>7caab868-1331-49f9-8eff-763717f442d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>navigationfiltermobile_sortSection__5jSi4</value>
-      <webElementGuid>4acabb95-0d22-402d-af77-d8c2c2325a92</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>26981dc5-364d-42ab-b040-3cd79c6781d4</webElementGuid>
+      <webElementGuid>23e513f8-8026-4a8a-b5a8-fc9f0f091b4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-sorting-harga</value>
-      <webElementGuid>e664c171-59cc-47f4-9bb5-58e57b7e14eb</webElementGuid>
+      <webElementGuid>fb613918-0a89-4128-ac24-2b7fe670e68e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Urutkan</value>
-      <webElementGuid>e9b93dec-4497-42f8-b32e-32546bd211e3</webElementGuid>
+      <webElementGuid>3d492837-9f48-46de-856d-f8dfbe14a5d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;plpUsed_mobile__doyXR&quot;]/div[@class=&quot;mobil-bekas_wrapper__YqLcx&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_bottomSection__Wm4sY&quot;]/div[@class=&quot;navigationfiltermobile_sortSection__5jSi4&quot;]</value>
-      <webElementGuid>3cc62845-1531-4d34-a6e1-3386dd84e1c5</webElementGuid>
+      <webElementGuid>7bb32470-d8ef-47ae-be65-c03b92ead7d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div[3]/div[2]/div</value>
-      <webElementGuid>dc7a8f30-46c9-44bf-9ef0-b9fd15a332bf</webElementGuid>
+      <webElementGuid>4f538c24-f521-4314-a7a2-75419b80a861</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil bekas sesuai kebutuhanmu.'])[1]/following::div[4]</value>
-      <webElementGuid>1bf81483-6c97-44f3-91bb-6c1770d267c3</webElementGuid>
+      <webElementGuid>f37d26f2-2fba-4119-98a5-730794fdb1ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp145.125.000'])[1]/preceding::div[2]</value>
-      <webElementGuid>1aef7332-d101-455f-bf70-22ef86e943b0</webElementGuid>
+      <webElementGuid>e8fe52c6-4e33-4f55-bdfb-529f954f193c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Urutkan:']/parent::*</value>
-      <webElementGuid>41bef630-8591-4772-90df-35a82effdf72</webElementGuid>
+      <webElementGuid>a1cf0999-7510-4697-9bfd-cb81b1b610bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div</value>
-      <webElementGuid>db21c44d-df19-43f2-8dde-667356094d0d</webElementGuid>
+      <webElementGuid>43fecd7d-fb8d-4784-b9db-d4cdd528f8cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'SEVA List icon Urutkan: Mobil TerbaruSEVA Dropdown Icon' or . = 'SEVA List icon Urutkan: Mobil TerbaruSEVA Dropdown Icon')]</value>
-      <webElementGuid>b18ca3ec-96ac-4f7d-943d-5da35118c0b4</webElementGuid>
+      <webElementGuid>43378864-f9f3-467a-93f2-11651a8f9d6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
