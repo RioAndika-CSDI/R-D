@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Password Activation_flex h-10 gap-0.5 o_d1c71d</name>
+   <tag></tag>
+   <elementGuidId>e809e074-e48a-4a52-8c80-7be9fef70832</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password Activation'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>713e6976-3cfc-4061-9836-1e759bb8f7da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-10 gap-0.5 overflow-hidden rounded border border-solid bg-white border-line</value>
+      <webElementGuid>e81b143f-00f0-46c7-903c-2643fc82c08c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>edf78b7e-df56-436e-ad8e-f5b47c21fa88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>46b8773b-f411-4f24-a486-7d6c33705ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>radix-:r2v:</value>
+      <webElementGuid>7c4ab3d8-2c41-4cd3-b639-6d25a6acfd54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>1cea814e-e7f6-4f60-ac62-cf2dfd3bf7db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal [&amp;_.ant-modal-content]:rounded-none [&amp;_.ant-modal-content]:p-0&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@class=&quot;pb-10 pl-5 pr-[22px] pt-6&quot;]/div[@class=&quot;mb-[66px] grid grid-cols-2 gap-[87px] font-OpenSans text-xs text-bodyCopy&quot;]/section[2]/div[@class=&quot;flex flex-col gap-[23px]&quot;]/div[1]/div[@class=&quot;relative&quot;]/div[@class=&quot;flex h-10 gap-0.5 overflow-hidden rounded border border-solid bg-white border-line&quot;]</value>
+      <webElementGuid>5a7b90a8-1faa-4be1-9303-7a260ee844c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password Activation'])[1]/following::div[2]</value>
+      <webElementGuid>9901b699-ceb2-49f4-a9a1-b50563125ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role cannot be empty'])[1]/following::div[4]</value>
+      <webElementGuid>6657e372-11dc-4d98-a51b-da333a09b0e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[1]</value>
+      <webElementGuid>d4a265a7-3362-4d43-bcbc-2f2eee9fc3c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div/div</value>
+      <webElementGuid>e6dada7f-fe8e-4c95-9200-f8f945880d1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM010 - VerifyUserCanAccessShowLeadsInformationOnLeadWorkstation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1d5b92a1-5b1f-4be6-aa71-3178dc428381</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_reset</name>
+   <tag></tag>
+   <elementGuidId>d2767efb-7aeb-4d5d-a0c2-631f5eb7287a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.size-3.text-icon-neutral</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reengagement Tasks Bucket'])[1]/following::*[name()='svg'][3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>8387e729-c3d8-4a57-99c7-645e93f5f26f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>26614141-99b5-43cd-b9ae-e865c06473e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>c7bf065a-7f1f-4c57-b0e2-e9cd027981e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>c6fc4aa6-684d-49db-8c6b-d2dbd9a15535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>d2e300af-8ee5-4514-ae68-7beb1740f2cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>aecc840c-3774-4909-94c2-82258fc72fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-3 text-icon-neutral</value>
+      <webElementGuid>8c26397b-f302-4e3e-ac2b-e692bef7f26d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mb-2.5 mt-3 flex items-center justify-between gap-4&quot;]/div[@class=&quot;flex items-center gap-4&quot;]/div[@class=&quot;relative h-10 w-full&quot;]/button[@class=&quot;absolute top-1/2 hidden size-4 -translate-y-1/2 transform appearance-none rounded-full bg-surface-neutral peer-[:not(:placeholder-shown):focus]:flex peer-[:not(:placeholder-shown):focus]:items-center peer-[:not(:placeholder-shown):focus]:justify-center right-2&quot;]/svg[@class=&quot;size-3 text-icon-neutral&quot;]</value>
+      <webElementGuid>9fe99be5-1b39-4e72-ac9a-13f629eff041</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reengagement Tasks Bucket'])[1]/following::*[name()='svg'][3]</value>
+      <webElementGuid>62254d8d-46ab-44f6-b1d6-ce93aee02f57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>25b60101-76c1-403b-a3e6-0d0e50606efd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>024c5489-e236-4293-bc80-aa87cee43024</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

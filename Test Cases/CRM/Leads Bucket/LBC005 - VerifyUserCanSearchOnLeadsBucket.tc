@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LBC005 - VerifyUserCanSearchOnLeadsBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b76fe2a-726b-4a4b-9d2b-dbbd92b963bd</testCaseGuid>
+</TestCaseEntity>

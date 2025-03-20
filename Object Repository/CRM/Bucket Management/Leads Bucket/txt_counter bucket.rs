@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_counter bucket</name>
+   <tag></tag>
+   <elementGuidId>4e6a1368-3399-4b93-83ef-7925bb297d90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-body-small.text-text-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/section/section/section/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>431a3c6a-82f6-4074-91ee-7477775d6c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body-small text-text-placeholder</value>
+      <webElementGuid>c4f6a9d6-85ad-4566-b830-4d30393a3ea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showing 9 Buckets</value>
+      <webElementGuid>b306e617-b779-4a0f-a522-1cf243d2bef9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/section[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-body-small text-text-placeholder&quot;]</value>
+      <webElementGuid>1234841d-694e-4cd2-92f5-6f184e6990ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/section/section/div</value>
+      <webElementGuid>067f354e-05fc-4222-99f1-f2c81b004b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/following::div[1]</value>
+      <webElementGuid>44e1e94f-6154-49bb-908d-9a8b0257b7e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[17]</value>
+      <webElementGuid>8add92dd-52ec-4ba7-ad5f-c0f655c3df5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bucket'])[1]/preceding::div[8]</value>
+      <webElementGuid>51a169bf-c0ad-467a-a692-6c3ddfc78fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CSA Assigned'])[1]/preceding::div[9]</value>
+      <webElementGuid>49f4ead8-0ca5-43ab-afe2-dc67ff842d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Showing']/parent::*</value>
+      <webElementGuid>d3169c5a-ca1e-4152-8e73-c4447db6d83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/section/section/div</value>
+      <webElementGuid>702c669d-d514-4b59-aa7c-110bdea94b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Showing 9 Buckets' or . = 'Showing 9 Buckets')]</value>
+      <webElementGuid>15b2ab61-5d4b-4331-8b44-a5ef58785d72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

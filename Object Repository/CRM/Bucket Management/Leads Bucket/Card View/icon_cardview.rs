@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_cardview</name>
+   <tag></tag>
+   <elementGuidId>02e5fef3-5d68-401d-82cd-3b99b5b82e51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.px-1.text-primaryDarkBlue > svg.absolute.top-1.h-4.w-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>68b06d61-7cf4-4ad3-a516-e61bfa6167bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>04dd8151-f67a-4f43-8145-ef6295b0d55d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>81d4cb0a-dedc-4163-ac2f-2edbcba231c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>7ce896ba-70ef-40ec-b3dd-e2555ad553f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>a53569ba-7bf3-4a9b-83ae-0537cc534d6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>c41238ab-9773-466b-bca5-b45a97060230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute top-1 h-4 w-4</value>
+      <webElementGuid>062107ff-6615-44e9-82d5-1bedc6318080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/section[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;relative flex h-6 w-12 cursor-pointer rounded-full border border-solid border-[#EBECEE] bg-white justify-start&quot;]/div[@class=&quot;absolute grid w-full select-none grid-cols-2&quot;]/div[@class=&quot;px-1 text-primaryDarkBlue&quot;]/svg[@class=&quot;absolute top-1 h-4 w-4&quot;]</value>
+      <webElementGuid>95b6205e-9c54-4342-a84b-845bfc3cd9ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>a256d416-1596-4766-94ba-4ce2701795e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bucket'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5c8d4ce2-9694-4259-9086-24cdeeb26afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CSA Assigned'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>de35e782-c1fe-4261-8dd5-eecdf931206b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

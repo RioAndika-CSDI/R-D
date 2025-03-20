@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGR009 - VerifyUserCanAccessHistoryOnCustomizedLeadsGroup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>683406e0-dc07-4c37-aa26-9504ecd5158e</testCaseGuid>
+</TestCaseEntity>

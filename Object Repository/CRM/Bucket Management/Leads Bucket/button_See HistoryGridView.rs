@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_See HistoryGridView</name>
+   <tag></tag>
+   <elementGuidId>5dffb30f-9ee7-4fae-93dd-9bead0b0d19e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3ab81973-642d-4267-941d-b825999a83d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ebe4d866-21fb-4402-9602-ec9603291d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group inline-flex items-center justify-center gap-1 m-0 bg-transparent outline-none border-none transition-all text-center font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small mt-1 text-text-link</value>
+      <webElementGuid>dd1ec331-65c1-4058-8b6e-45d7d8d0906e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-button-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b62941da-d05f-422a-b310-eb0cf88524c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See History</value>
+      <webElementGuid>bf7d5dce-51f4-4ed8-822b-b2570d76db0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/div[@class=&quot;relative overflow-clip rounded-lg h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;mt-2 w-full overflow-x-auto rounded-lg rounded-b-none bg-surface-plain bg-opacity-100 h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;rounded-lg border border-line bg-surface-plain overflow-clip&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle [&amp;_.ant-table-thead]:sticky [&amp;_.ant-table-thead]:top-0 [&amp;_.ant-table-thead]:z-50 [&amp;_.ant-table-thead_.ant-table-cell]:py-[7px] [&amp;_.ant-table-column-title]:flex-grow-0 pb-[7px]&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-content&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal [&amp;_.ant-table-cell]:table-cell cursor-pointer bg-surface-informational&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]/div[1]/button[@class=&quot;group inline-flex items-center justify-center gap-1 m-0 bg-transparent outline-none border-none transition-all text-center font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small mt-1 text-text-link&quot;]</value>
+      <webElementGuid>56b77220-08f0-40f2-8964-03ace9241ef5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>43a5afa0-61d7-4ef7-9e1f-e08964da3af8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/table/tbody/tr/td[4]/div/button</value>
+      <webElementGuid>18ade277-7c57-4e67-87f9-459d21e92f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/following::button[2]</value>
+      <webElementGuid>41fa3bed-b8fd-4d64-9410-70e8bc5232f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Leads'])[1]/following::button[3]</value>
+      <webElementGuid>a1791eaf-a52b-4e58-ab79-50674a7a90eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See History'])[2]/preceding::button[1]</value>
+      <webElementGuid>bc472581-4d89-47f5-9e10-2aa6337a6604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See History'])[3]/preceding::button[2]</value>
+      <webElementGuid>6de58efe-3c29-4ae1-9767-5958a63853b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See History']/parent::*</value>
+      <webElementGuid>ff18ac1d-c830-49dc-a4e0-392966c863f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/button</value>
+      <webElementGuid>ab84c87e-998d-456a-95f4-0cf9fabcccdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'See History' or . = 'See History')]</value>
+      <webElementGuid>5016880f-fd2a-44a1-a8fa-e59d324364dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

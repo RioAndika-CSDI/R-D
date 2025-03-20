@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_gridview</name>
+   <tag></tag>
+   <elementGuidId>a27049a0-3ccb-487a-af6b-61439761fe5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.ant-table-cell.ant-table-cell-row-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>158af5cb-2b3b-418f-bcb4-a74b48018a06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell ant-table-cell-row-hover</value>
+      <webElementGuid>5d06ac17-43ff-4680-a880-3cb770b363a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads Offsite Used Car</value>
+      <webElementGuid>3e241c99-f5d1-4245-b66f-76e137a4d5c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/div[@class=&quot;relative overflow-clip rounded-lg h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;mt-2 w-full overflow-x-auto rounded-lg rounded-b-none bg-surface-plain bg-opacity-100 h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;rounded-lg border border-line bg-surface-plain overflow-clip&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle [&amp;_.ant-table-thead]:sticky [&amp;_.ant-table-thead]:top-0 [&amp;_.ant-table-thead]:z-50 [&amp;_.ant-table-thead_.ant-table-cell]:py-[7px] [&amp;_.ant-table-column-title]:flex-grow-0 pb-[7px]&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-content&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal [&amp;_.ant-table-cell]:!border-b-transparent [&amp;_.ant-table-cell]:table-cell cursor-pointer&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>9dc14107-c6ac-4d9f-8f76-539d55b7eed9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/table/tbody/tr/td</value>
+      <webElementGuid>3f42bc00-2853-4591-bd2d-f99e948570a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/following::td[1]</value>
+      <webElementGuid>c2a942c5-d3aa-452c-a121-67bdbcbb86af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Leads'])[1]/following::td[1]</value>
+      <webElementGuid>f42f3a28-71ed-4823-b5ff-8ca1f4b825d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See History'])[1]/preceding::td[3]</value>
+      <webElementGuid>38a005e8-c50e-4ebd-912b-08db4ed62657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organic New Car'])[1]/preceding::td[4]</value>
+      <webElementGuid>14bf00cd-38d8-4eac-a397-bc980e642e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>19542c5e-935b-4ef2-b1ef-90f0f71fe925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Leads Offsite Used Car' or . = 'Leads Offsite Used Car')]</value>
+      <webElementGuid>6ef9857b-0f8e-4a7b-ab73-c43608b91f97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CRM - ReEngagement Workstation</name>
+   <name>CRM - Reengagement Workstation</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,38 +12,31 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>10c51e04-5eea-4f92-9b2a-ec37bc70c398</testSuiteGuid>
    <testCaseLink>
-      <guid>37c2b7f4-c06d-48ad-b908-c13bf597e275</guid>
+      <guid>3ec0fd0e-8efe-4d1d-9c27-4e2f2ff5a553</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM004 - VerifyUserCanAccessReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS001 - VerifyUserCanAccessReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>03f1f2dd-7ad9-45fa-8cba-46157c95ace8</guid>
+      <guid>4fc31172-71e1-4ac8-b3aa-f0cbe86b5352</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM013 - VerifyUserCanAccessReactiveationWAOnReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS002 - VerifyUserCanAccessFastReactivationOnReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0aae2cda-6b61-4727-b149-784f8ee482ca</guid>
+      <guid>7ca4780f-83a2-455b-babc-aae400c2b8b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM014 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS004 - VerifyUserCanAccessReactivationWAOnReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b1e2bd9-3e11-4b43-b188-65c53cf6426a</guid>
+      <guid>8ba7221e-e7d8-442f-96af-fc0cb657fb7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM015 - VerifyUserCanAccessCompleteTasksOnReEngagementWorkstation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e3444f71-7e21-4932-8031-7a74a411bc0c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/CRM016 - VerifyUserCanAccessSearchCompleteTasksOnReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS005 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

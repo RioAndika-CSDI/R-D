@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_filter type Is not empty</name>
+   <tag></tag>
+   <elementGuidId>3de0b47c-2f3d-4f66-86c3-75d43b61f865</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1ic:']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6654a9f6-256a-45c3-9e88-b0b81b6398e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>4b9698e9-ce29-480a-bdd4-631a073b7b2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex w-[176px] cursor-pointer items-center justify-between gap-2 rounded bg-surface-plain p-2 hover:bg-hover-white font-semibold</value>
+      <webElementGuid>8b076299-8517-4844-a8d6-a33281c04c58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>ee53f40d-17a1-4b56-83e0-6da46cbaade2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-orientation</name>
+      <type>Main</type>
+      <value>vertical</value>
+      <webElementGuid>ab47bf68-757c-4a84-8d93-778c5f7b013e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Is not empty</value>
+      <webElementGuid>3f233eab-2e9b-45e7-84cd-a7653eafda45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1ic:&quot;)/div[@class=&quot;flex w-[176px] cursor-pointer items-center justify-between gap-2 rounded bg-surface-plain p-2 hover:bg-hover-white font-semibold&quot;]</value>
+      <webElementGuid>c8983454-68a5-4813-823c-a073f9a1b62c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1ic:']/div[2]</value>
+      <webElementGuid>e807731b-f7d3-4c9c-a041-172a3cf3d9f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is empty'])[1]/following::div[1]</value>
+      <webElementGuid>5c1aff79-932c-4bd0-b792-f008af621b1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='is not empty'])[1]/following::div[4]</value>
+      <webElementGuid>ea145569-ee7f-4e7f-aea1-adf48c9b2df9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]</value>
+      <webElementGuid>73222666-71c2-48ee-be82-1f88f96d73c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Is not empty' or . = 'Is not empty')]</value>
+      <webElementGuid>5d19e625-7913-420e-9afd-1d953eddc9fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

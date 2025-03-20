@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create New Leads Group</name>
+   <tag></tag>
+   <elementGuidId>f7cf1056-349a-40d1-8f92-ed60a213142e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>db393f2b-bd21-4d7b-bb35-08645e3f5f14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d448bfdb-1c5a-43e7-905d-da43c090fdf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[211px]</value>
+      <webElementGuid>65de80d7-e5aa-4ba7-a9e0-6ff8de6bcde8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New Leads Group</value>
+      <webElementGuid>ed7e5422-eac5-416e-a7be-cd0ce03f6c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-3 w-full&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;mb-3 flex gap-3&quot;]/div[@class=&quot;ml-auto flex items-center gap-2&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[211px]&quot;]</value>
+      <webElementGuid>50930725-fef8-4793-b935-5c93597fa776</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>ff019d96-64cd-4613-977f-07423d233f60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[3]/button</value>
+      <webElementGuid>61d81201-9f10-4725-a812-3ddb7d20a386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reorder'])[1]/following::button[2]</value>
+      <webElementGuid>05fc6001-57ce-4578-a538-236988f42f7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[3]</value>
+      <webElementGuid>c7377242-69c5-43ce-9b4d-e3d453eb6a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Group'])[2]/preceding::button[1]</value>
+      <webElementGuid>48568f8e-e13a-434c-b3c3-35de32f88233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Category'])[1]/preceding::button[1]</value>
+      <webElementGuid>b5aebef2-a279-4a85-b4c1-09e38ede6d21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create New Leads Group']/parent::*</value>
+      <webElementGuid>f7fb6d72-c2ff-4107-9bca-2be2e252889d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>b36a590c-ba38-4f53-823d-9db34621dd3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create New Leads Group' or . = 'Create New Leads Group')]</value>
+      <webElementGuid>14644a88-718e-43d8-97d8-af464c000df5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

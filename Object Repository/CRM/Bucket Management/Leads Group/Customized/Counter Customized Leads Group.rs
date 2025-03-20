@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Counter Customized Leads Group</name>
+   <tag></tag>
+   <elementGuidId>3cf494d7-9ada-443d-90b5-c064992db098</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mb-3.text-body-small.text-text-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rj:-content-customized']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>28a52826-3e5a-47fa-bb5f-afc6467d9a8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-3 text-body-small text-text-placeholder</value>
+      <webElementGuid>e884c390-6844-45ac-8cbc-5d41b22af8e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>45 Customized Leads Group</value>
+      <webElementGuid>b194eca7-d6dd-4d63-ba46-0d4e2295a13d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rj:-content-customized&quot;)/div[@class=&quot;mb-3 text-body-small text-text-placeholder&quot;]</value>
+      <webElementGuid>f2ccd933-4ffd-4620-94f1-3ca2fd79e9a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rj:-content-customized']/div</value>
+      <webElementGuid>5c0a0d9f-0345-43fe-a30d-dc9aab7a14a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Leads Group'])[1]/following::div[3]</value>
+      <webElementGuid>f528d091-daf3-4d0a-92c0-e4484ad61296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reorder'])[1]/following::div[3]</value>
+      <webElementGuid>0a4054c6-c7fb-4806-9b62-9d1e9273a15b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Group'])[2]/preceding::div[1]</value>
+      <webElementGuid>e20d8bb6-9397-48c6-ad03-038790012f52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Category'])[1]/preceding::div[1]</value>
+      <webElementGuid>4d8faf65-f825-4e5a-a01c-b19455156b74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='45']/parent::*</value>
+      <webElementGuid>a6d28fc3-3b03-4e4d-b034-ee6787f2e112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div</value>
+      <webElementGuid>24bb6431-cf27-453e-beb4-b87cfc926c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '45 Customized Leads Group' or . = '45 Customized Leads Group')]</value>
+      <webElementGuid>d64f8584-c0a6-4189-b6c7-387da63f9640</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

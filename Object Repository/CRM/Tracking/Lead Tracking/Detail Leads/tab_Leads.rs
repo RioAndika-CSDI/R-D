@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Leads</name>
+   <tag></tag>
+   <elementGuidId>46491171-f343-439c-a534-7f35f2274d0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>acb17cc7-9bd2-43ce-8b2b-df3f20595e10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-[10px]</value>
+      <webElementGuid>7af95744-ad1f-4736-80ef-8315de2ebe9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads </value>
+      <webElementGuid>245fda31-a224-4842-9acb-208de48a205d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;relative inline-flex gap-2 border-0 border-b border-solid border-line w-full&quot;]/button[@class=&quot;flex-none cursor-pointer select-none bg-transparent font-OpenSans text-sm/[19px] text-bodyCopy aria-disabled:cursor-default aria-disabled:text-placeholder font-semibold p-4&quot;]/div[@class=&quot;flex items-center gap-[10px]&quot;]</value>
+      <webElementGuid>353b0d63-6a7e-4dcf-b80c-21ec5c03347b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/button/div</value>
+      <webElementGuid>a9b47ba0-36cc-4e97-bd8f-851beeae6822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow-up History'])[1]/following::div[5]</value>
+      <webElementGuid>b90cd67b-ef2f-4caf-95db-ac9135b20824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::div[7]</value>
+      <webElementGuid>80902da2-26f0-4b1e-bfd9-db491f4bca93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualified Leads'])[1]/preceding::div[1]</value>
+      <webElementGuid>be475f62-0f99-4094-b9d0-fc416cbb00bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPK'])[1]/preceding::div[2]</value>
+      <webElementGuid>f447ed07-7ae0-4ef7-aa1e-e59d9ab225ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leads']/parent::*</value>
+      <webElementGuid>3b827cf6-d3d3-44c3-a16c-987588636b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>30da8706-81f9-4fc9-ba03-d33451f279cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Leads ' or . = 'Leads ')]</value>
+      <webElementGuid>1f53e8dd-c3a4-4707-a787-758170e3f392</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

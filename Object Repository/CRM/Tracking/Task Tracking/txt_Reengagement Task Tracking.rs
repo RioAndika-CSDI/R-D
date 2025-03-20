@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Reengagement Task Tracking</name>
+   <tag></tag>
+   <elementGuidId>d5c01ff6-5f84-4c20-87fa-6fe8f41373c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-span-1.my-auto.flex.items-baseline.gap-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>90051c58-af2a-4284-9c4d-027aa2aafa80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-span-1 my-auto flex items-baseline gap-2</value>
+      <webElementGuid>c6f288d4-0a07-4a17-a4a8-61921488fa5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reengagement Task Tracking</value>
+      <webElementGuid>2535ea78-09d7-49e2-a70f-62b85befa950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-1 my-auto flex items-baseline gap-2&quot;]</value>
+      <webElementGuid>5eb35af6-cc9c-4ead-b63e-ac0ccad6197c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div</value>
+      <webElementGuid>5d2ffe1b-59f9-444a-bdde-ce5376f353e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::div[6]</value>
+      <webElementGuid>f0cc0e0d-f81f-4ae1-b010-a675460f4aef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reengagement Task Tracking']/parent::*</value>
+      <webElementGuid>20cf06b0-08a3-46b0-bb2c-9e060954066d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div</value>
+      <webElementGuid>56b07cdd-77fa-4906-bf6e-d211ec5c6965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Reengagement Task Tracking' or . = 'Reengagement Task Tracking')]</value>
+      <webElementGuid>1a791daa-a1e6-4de1-8998-424acdc899a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

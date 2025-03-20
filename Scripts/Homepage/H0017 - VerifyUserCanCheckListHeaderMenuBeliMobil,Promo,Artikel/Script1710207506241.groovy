@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bula
 
 WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bulan March 2_dcd451/a_Berita Utama Otomotif'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/h1_Otomotif'))
+WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/Page_Artikel Otomotif  SEVA/h1_Otomotif'))
 
 boolean promo = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Footer/Iframe_Promo Footer'), 
     10)
@@ -66,13 +66,13 @@ if (promo == true) {
     WebUI.switchToWindowIndex(0)
 }
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/img'))
+WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/Page_Artikel Otomotif  SEVA/img'))
 
 WebUI.scrollToElement(findTestObject('Footer/Artikel 2'), 0)
 
 WebUI.click(findTestObject('Footer/Artikel 2'))
 
-WebUI.click(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/a_Review Otomotif'))
+WebUI.click(findTestObject('Object Repository/Page_Artikel Keuangan  SEVA/Page_Artikel Otomotif  SEVA/a_Review Otomotif'))
 
 WebUI.click(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/h1_Review Otomotif'))
 

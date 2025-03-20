@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM034 - VerifyUserCanAccessFastReactivationOnTasksAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5a3ee453-60f4-41f3-9e44-2839d91a9691</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Leads Bucket Management</name>
+   <tag></tag>
+   <elementGuidId>4994ced6-dfd6-4312-bb26-588b3a49fb2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:re:']/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1b928007-1e14-4fd2-8a47-97b702a38098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical</value>
+      <webElementGuid>6f5331b0-a559-4cab-a4ab-57ec5d98eb62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>93e124b1-0268-4e01-882d-af7edc902fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/leads-bucket</value>
+      <webElementGuid>0253a8b3-c71a-4e46-adf9-ceb589bd872d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-discover</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9e3ea821-9bb1-4244-a709-5f2958552e85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads Bucket Management</value>
+      <webElementGuid>9a60273d-a2c1-4342-b784-ca374f264755</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:re:&quot;)/div[@class=&quot;pb-0 pt-0&quot;]/a[@class=&quot;flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical&quot;]</value>
+      <webElementGuid>207259a2-3b16-4a51-9638-96b05930d05a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:re:']/div/a[2]</value>
+      <webElementGuid>ad855fe2-60d8-42e1-b9cd-98898343b6bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Leads Bucket Management')]</value>
+      <webElementGuid>118bcecb-3f32-4ad9-bf9a-9b18f16607e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Group'])[1]/following::a[1]</value>
+      <webElementGuid>e5edf5e3-768f-4e72-8e30-c0090a73c017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::a[5]</value>
+      <webElementGuid>43ce11b8-8c7c-43e9-88a0-e4061841c525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reengagement Tasks Bucket'])[1]/preceding::a[1]</value>
+      <webElementGuid>e44b6d44-204f-4ae4-8e25-803d763cf1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>4d9c9f0e-b403-4cd4-8007-923198c5456c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leads Bucket Management']/parent::*</value>
+      <webElementGuid>b6b381fd-2eb7-4d12-ab05-7eebbb784a85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/leads-bucket')]</value>
+      <webElementGuid>1946f4a5-481c-416e-80b1-fff7a21535b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>e2a76850-54a1-4ed5-ba0f-6bb76e81af80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/leads-bucket' and (text() = 'Leads Bucket Management' or . = 'Leads Bucket Management')]</value>
+      <webElementGuid>b9c04b4d-87b6-4ba2-9903-309b13abb048</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

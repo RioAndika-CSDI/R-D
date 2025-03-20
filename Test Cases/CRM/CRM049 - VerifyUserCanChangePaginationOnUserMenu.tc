@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM049 - VerifyUserCanChangePaginationOnUserMenu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>742e74cb-b6a1-42e2-ba2d-3fd41a340f31</testCaseGuid>
-</TestCaseEntity>

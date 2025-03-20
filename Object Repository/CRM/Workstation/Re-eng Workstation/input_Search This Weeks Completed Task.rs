@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search This Weeks Completed Task</name>
+   <tag></tag>
+   <elementGuidId>4f473ad7-12fc-45db-afd7-87b85332d8e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c0637337-6400-49a9-a51c-d3dca684a070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>b2912661-97b5-4e49-97ea-bcc53e6170e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search customer name or phone number</value>
+      <webElementGuid>0655756f-aa49-4136-9ca9-e5b69b460b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative h-10 w-full rounded border border-solid border-line py-[13px]  font-OpenSans text-xs/[14px] placeholder:text-placeholder pl-2 pr-[calc(16px+8px+4px)]</value>
+      <webElementGuid>2db87527-f7cd-4d64-9fba-d59cc1187d66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[1]/div[@class=&quot;overflow-x-clip&quot;]/div[1]/div[@class=&quot;flex h-[calc(40px+20px)] w-full items-center gap-4 pb-5&quot;]/div[@class=&quot;relative w-[302px] max-w-full shrink-0 h-10&quot;]/input[@class=&quot;relative h-10 w-full rounded border border-solid border-line py-[13px]  font-OpenSans text-xs/[14px] placeholder:text-placeholder pl-2 pr-[calc(16px+8px+4px)]&quot;]</value>
+      <webElementGuid>b5cbd6ed-ac91-4888-899c-3aba8b19ccab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>4a9b3e0d-e009-437a-9bb8-339efd1a1373</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/input</value>
+      <webElementGuid>3b8940ea-8536-410d-8e93-be11aa8e1306</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>e169cfce-db21-4fb5-a85e-816b6cc102a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Search customer name or phone number']</value>
+      <webElementGuid>626af124-04a1-4307-a1f0-ce099471f8fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

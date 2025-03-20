@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM039 - VerifyUserCanAccessRefinancingOnLeadsAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5b958e03-c50f-4f2d-8f42-169f61841113</testCaseGuid>
-</TestCaseEntity>

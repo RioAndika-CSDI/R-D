@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR016 - VerifyUserCanManageColumnOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de328ab1-8229-4a49-87f4-031404262e57</testCaseGuid>
+</TestCaseEntity>

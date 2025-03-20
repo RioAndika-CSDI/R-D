@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_title bucket</name>
+   <tag></tag>
+   <elementGuidId>92e42ca9-1c8e-44a2-ab30-21aa91fc170c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.truncate.border-b.border-line.px-6.py-4.text-body-regular.font-bold.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e6ed5643-0a13-47d2-8421-723558b81bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>truncate border-b border-line px-6 py-4 text-body-regular font-bold text-text-primary</value>
+      <webElementGuid>c43cbd0f-cca2-4c5b-b521-04cfab136ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recycle - Meta Refinancing</value>
+      <webElementGuid>c9c326bc-8a9a-4a2e-adb9-48ddb2c60768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;flex gap-5&quot;]/div[@class=&quot;w-[530px]&quot;]/div[2]/div[@class=&quot;overflow-clip rounded-lg border border-line&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;flex flex-col gap-6 bg-surface-plain p-5&quot;]/div[@class=&quot;cursor-pointer overflow-clip rounded-lg border border-line-informational&quot;]/div[@class=&quot;truncate border-b border-line px-6 py-4 text-body-regular font-bold text-text-primary&quot;]</value>
+      <webElementGuid>5f72bba7-ca4c-4211-b170-bd260d636be8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>c3246427-8b68-415f-8522-97a824433f65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Bucket'])[1]/following::div[21]</value>
+      <webElementGuid>af9e7d3d-68fa-440e-891c-9a7748294bab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Recycle - Meta Refinancing']/parent::*</value>
+      <webElementGuid>d8b60ae9-35ba-4f47-8d7e-4d82dfd9e2f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>55140ae0-f689-48fc-a339-596a07c8ae5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Recycle - Meta Refinancing' or . = 'Recycle - Meta Refinancing')]</value>
+      <webElementGuid>daadf85d-51bd-4df8-9d40-a0566494dbef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Leads Workstation</name>
+   <tag></tag>
+   <elementGuidId>234f8373-1af6-4f50-847b-f4973b8e3ea1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:ra:']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>300864e3-3386-4811-8886-0f864db1da46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical</value>
+      <webElementGuid>593b9e04-e414-4689-8e4e-ec4d3404f23b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>073e9a57-0367-4f84-8f1c-06be5391f54d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/leads-workstation</value>
+      <webElementGuid>0cdfb9e2-e0b2-4d56-ad4f-1d845c717764</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-discover</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>24adc7b3-085b-4ee5-8ae5-5084296f8b21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads Workstation</value>
+      <webElementGuid>bae49a86-f1de-4a32-b315-8fd43216e17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:ra:&quot;)/div[@class=&quot;pb-0 pt-0&quot;]/a[@class=&quot;flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical&quot;]</value>
+      <webElementGuid>27927519-2992-4a79-9144-39a2167b4dd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:ra:']/div/a</value>
+      <webElementGuid>57c6883d-8c21-4dd7-8c49-e9d9c27ab601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Leads Workstation')]</value>
+      <webElementGuid>a7125acc-abe4-4624-a2be-6ed94866a563</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::a[4]</value>
+      <webElementGuid>297da8b1-c4bb-4d8b-a734-39772af749bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::a[4]</value>
+      <webElementGuid>6bc1f158-81fb-4adb-bdb1-74e7f70fd759</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-engagement Workstation'])[1]/preceding::a[1]</value>
+      <webElementGuid>9ac971c6-83d4-4e14-ae6a-c77e6aa1a2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>bf0a70db-61db-4c53-acac-689f9854d312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leads Workstation']/parent::*</value>
+      <webElementGuid>17c0b67b-b977-4a10-b9f5-c8341911406d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/leads-workstation')]</value>
+      <webElementGuid>570e627d-9064-40ed-9bd2-f2481f380cfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/a</value>
+      <webElementGuid>3b603d24-7ee6-451b-919a-bbe42090e6ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/leads-workstation' and (text() = 'Leads Workstation' or . = 'Leads Workstation')]</value>
+      <webElementGuid>ed2ae273-f278-45aa-9b86-e574a65a06e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

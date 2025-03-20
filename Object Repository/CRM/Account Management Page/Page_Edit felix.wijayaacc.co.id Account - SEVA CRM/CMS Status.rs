@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CMS Status</name>
+   <tag></tag>
+   <elementGuidId>a5cf8297-c5d2-4b7b-a18c-b2ba49fd9df1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[10]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c9b61c8-da33-4f52-8f69-99e59df46ec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CMS Status: Active</value>
+      <webElementGuid>e359b586-68c0-48a9-b4b2-07cd9fece160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;mt-[10px]&quot;]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[2]/div[@class=&quot;h-[calc(var(--crm-screen-height)-10px-44px-19px-18px-16px)] w-[540px] overflow-x-auto rounded-[10px] bg-white font-OpenSans text-xs text-bodyCopy&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/form[@class=&quot;relative&quot;]/div[@class=&quot;ml-6 mr-[22px] mt-6 flex flex-col gap-[23px] pb-6 pl-[calc(38px-24px)] pr-[calc(50px-22px)]&quot;]/div[@class=&quot;flex items-center gap-[46px]&quot;]/div[2]</value>
+      <webElementGuid>ac6115e6-98a8-4139-9bae-cf554b43a3e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div[2]/div[10]/div[2]</value>
+      <webElementGuid>7cb80e51-f3a3-4889-850f-5f661052a2c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CRM Status:'])[1]/following::div[1]</value>
+      <webElementGuid>8bcea31e-5b65-4f88-ae3d-80137165b9e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[3]/following::div[6]</value>
+      <webElementGuid>81abde45-fb79-4a64-b63a-c4a4a84f63b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avatar'])[1]/preceding::div[1]</value>
+      <webElementGuid>2c4405a6-5de5-45f5-b4e5-9c156edef9e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CMS Status:']/parent::*</value>
+      <webElementGuid>3a81381c-f9a5-42d5-8dc7-3acb812a3b6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]</value>
+      <webElementGuid>3467055d-5426-496c-990a-5a015b2bb53b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CMS Status: Active' or . = 'CMS Status: Active')]</value>
+      <webElementGuid>94719e1c-5a08-47e6-8268-32327965ce70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM044 - VerifyUserCanFilterOnUserMenu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>29ef13a7-c6f1-4a51-9926-6649371a1111</testCaseGuid>
-</TestCaseEntity>

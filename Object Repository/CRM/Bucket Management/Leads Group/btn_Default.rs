@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Default</name>
+   <tag></tag>
+   <elementGuidId>c4efdb49-7ad8-4bf3-b164-9471f7dfb6cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.absolute.inset-0.rounded.border.border-line.bg-surface-plain.shadow-elevation-7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='radix-:rj:-trigger-default']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1b166ec3-d8b3-424c-a0ce-be5b6e0e684c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute inset-0 rounded border border-line bg-surface-plain shadow-elevation-7</value>
+      <webElementGuid>692d3fa8-f9e0-40b4-bf14-5361a2f390b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rj:-trigger-default&quot;)/div[@class=&quot;absolute inset-0 rounded border border-line bg-surface-plain shadow-elevation-7&quot;]</value>
+      <webElementGuid>315195cd-73cc-44a3-af26-12a5ab1f3c5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='radix-:rj:-trigger-default']/div[2]</value>
+      <webElementGuid>c1c2af50-4cc1-427e-a05d-7e05f052f7ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div[2]</value>
+      <webElementGuid>69b9d16f-fa8e-409d-a52a-3f3db77a8995</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

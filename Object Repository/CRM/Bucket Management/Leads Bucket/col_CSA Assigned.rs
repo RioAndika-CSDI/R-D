@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_CSA Assigned</name>
+   <tag></tag>
+   <elementGuidId>402277ac-c89e-4892-b465-a8cf14e75105</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/table/thead/tr/th[2]/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>6a451762-d317-4287-b11d-2ce3d97a5e5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CSA Assigned</value>
+      <webElementGuid>49696103-15ac-4d36-b968-18420d44422b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/section[@class=&quot;flex w-full gap-[11px]&quot;]/section[@class=&quot;w-[530px] flex-none&quot;]/div[@class=&quot;relative overflow-clip rounded-lg h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;mt-2 w-full overflow-x-auto rounded-lg rounded-b-none bg-surface-plain bg-opacity-100 h-[calc(var(--crm-screen-height)-12px-16px-40px-16px-16px)]&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;rounded-lg border border-line bg-surface-plain overflow-clip&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle [&amp;_.ant-table-thead]:sticky [&amp;_.ant-table-thead]:top-0 [&amp;_.ant-table-thead]:z-50 [&amp;_.ant-table-thead_.ant-table-cell]:py-[7px] [&amp;_.ant-table-column-title]:flex-grow-0 pb-[7px]&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-content&quot;]/table[1]/thead[@class=&quot;ant-table-thead&quot;]/tr[1]/th[@class=&quot;ant-table-cell&quot;]/div[@class=&quot;flex items-center gap-2&quot;]/h2[1]</value>
+      <webElementGuid>16d1e0ec-25fe-4aa5-a983-9892295b320f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/section/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/table/thead/tr/th[2]/div/h2</value>
+      <webElementGuid>f867c698-cb39-4598-98ed-758f39f9b790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bucket'])[1]/following::h2[1]</value>
+      <webElementGuid>d527edcb-f811-4668-b429-f02a6e181900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Leads'])[1]/preceding::h2[1]</value>
+      <webElementGuid>fd896dba-df24-4cdc-8b0e-c8642cb0e8fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/preceding::h2[2]</value>
+      <webElementGuid>80f91bcd-e2a3-4806-8437-36b24c46d11c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CSA Assigned']/parent::*</value>
+      <webElementGuid>c6961f0a-a294-46f5-9aa6-c75ab6bc9ee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]/div/h2</value>
+      <webElementGuid>67f2c04a-862e-40c8-bd90-174a076e0821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'CSA Assigned' or . = 'CSA Assigned')]</value>
+      <webElementGuid>ec8e2b91-02ab-4135-9748-26d0c97db805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

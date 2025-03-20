@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM041 - VerifyUserCanAccessSearchLeadsGroupOnLeadsAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>61beb11a-cedb-4852-b398-b92b80569eb8</testCaseGuid>
-</TestCaseEntity>

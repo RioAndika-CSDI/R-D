@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RBC003 - VerifyUserCanAccessCardViewDetailTasksBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b344cd3a-80ab-41d7-a04c-02f99bb29f74</testCaseGuid>
+</TestCaseEntity>
