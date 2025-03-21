@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'HATCHBACK' or . = 'HATCHBACK')]</value>
+         <value>//span[(text() = 'HATCHBACK' or . = 'HATCHBACK')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,14 +19,15 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>235cae1b-6fa3-4ded-809c-375e1a8e2ced</webElementGuid>
+      <webElementGuid>84b3ae16-6af8-476d-8b04-71c0e5d3084e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>97c06902-9d71-4acc-bfcf-6188ec37b6f9</webElementGuid>
+      <webElementGuid>17c634ce-d56e-49df-a57d-88eb53c1879d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>HATCHBACK</value>
-      <webElementGuid>e15acc07-f207-42cf-94fd-f6e4ee88b70b</webElementGuid>
+      <webElementGuid>766db558-95a8-493d-87a5-dd88fa8f1818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>019f8f08-f291-491b-8b7f-db0bebcd81ed</webElementGuid>
+      <webElementGuid>66781f0e-feae-4235-9447-2656112e9e80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>7449c544-d9f6-405f-97a5-e200f0dd7930</webElementGuid>
+      <webElementGuid>8875fa05-50fa-43c7-b59b-7279ea534263</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>ddd9233d-6b79-4bce-b461-bfd3aa8cd992</webElementGuid>
+      <webElementGuid>49fe1efd-da74-4946-8f22-8014ff27d2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>8ec2fb92-e38b-45db-95a5-1fea95f2d853</webElementGuid>
+      <webElementGuid>f9d4b9e3-ddbb-4680-8010-a2aaf744ce53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='HATCHBACK']/parent::*</value>
-      <webElementGuid>7333b859-a3dc-4c74-8ab8-9cb3f26a32bf</webElementGuid>
+      <webElementGuid>9f44af36-218f-4d41-bbcd-eadcb4752847</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>6c654be2-a171-4a85-a175-0157eeca829d</webElementGuid>
+      <webElementGuid>9ef09b22-fb84-4349-a4da-1225f82a0e1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'HATCHBACK' or . = 'HATCHBACK')]</value>
-      <webElementGuid>e32de228-0de4-4deb-98f1-810f94a0f399</webElementGuid>
+      <webElementGuid>ad7d6e60-792d-42a0-9f90-7718cfb2df83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

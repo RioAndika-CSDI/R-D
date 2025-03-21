@@ -183,7 +183,7 @@
       <guid>036492cc-6c46-4e9d-89c4-9b13c930bc2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Homepage/H0025 - (sudah tidak terpakai karna peugeot sudah tidak ada) VerifyUserCanFilterCarPeugeot</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0025 - VerifyUserCanFilterCarByBrandIsuzu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

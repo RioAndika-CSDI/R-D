@@ -11,13 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Sport' or . = ' Sport')]</value>
+         <value>//*[@data-testid = 'type-sport']</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>64941568-ff3e-4ed7-96bd-b9ba2e1aab5d</webElementGuid>
+      <webElementGuid>2d949bca-d019-490d-aa8b-e8545db7c325</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9c36baeb-4d15-4d29-8729-2ecfcc31f2ab</webElementGuid>
+      <webElementGuid>743e4b89-444f-48d7-8d0b-8dc9091e235b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>63cada26-b68c-49d4-824a-776a13d88725</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>type-sport</value>
-      <webElementGuid>2e5e1809-5541-4319-8970-fa33b8119eb6</webElementGuid>
+      <webElementGuid>34c22a6b-33b6-4818-8bd0-dc5e7ce8113a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>type-sport</value>
+      <webElementGuid>1691fc27-fd03-4731-afb8-037a42088f43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Sport</value>
-      <webElementGuid>81c195ed-e3fb-457d-8dcd-af99b123e933</webElementGuid>
+      <webElementGuid>f4d3ebcd-7745-4c9c-8ac1-4d1b0ff75620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>343138cc-7436-4b74-bba2-4072c3227401</webElementGuid>
+      <webElementGuid>0731d9b0-02df-498a-afb1-21b1d154163b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hatchback'])[1]/following::div[2]</value>
-      <webElementGuid>1dd0f4f9-35fa-487b-b61a-c9cde7a676fb</webElementGuid>
+      <webElementGuid>6745d429-3d97-4960-bc9b-510cd472e759</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sedan'])[1]/following::div[5]</value>
-      <webElementGuid>f7a0b14b-8d9b-4e1b-8e37-bb949c71b80d</webElementGuid>
+      <webElementGuid>f6466280-5fd0-43ed-ad3f-1a93ab66c2eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/preceding::div[2]</value>
-      <webElementGuid>79d54fc6-483e-4d8c-9009-1b4757df7c4d</webElementGuid>
+      <webElementGuid>eb4b1857-b8c8-439e-b6aa-7ec9d7786a4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[5]/div</value>
-      <webElementGuid>a3f4ace1-24ea-4a1d-9c4b-471f7e3350ca</webElementGuid>
+      <webElementGuid>9452e125-39f2-4a47-9c0f-ad5f4c7e7f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Sport' or . = ' Sport')]</value>
-      <webElementGuid>8b9556a4-8d72-4db6-b3aa-013efecfbf85</webElementGuid>
+      <webElementGuid>1c7b1c1e-037b-41bb-8f50-220cfd372fff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

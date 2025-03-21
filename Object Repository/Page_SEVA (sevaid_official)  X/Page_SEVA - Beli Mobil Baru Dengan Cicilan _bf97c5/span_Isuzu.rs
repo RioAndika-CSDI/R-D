@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Menemani Perjalanan Finansial Mobil Barumu</name>
+   <name>span_Isuzu</name>
    <tag></tag>
-   <elementGuidId>d9b88ee6-1b7f-4f17-8ae5-18d0372c7172</elementGuidId>
+   <elementGuidId>b23f23fa-afce-4ec1-813b-dcf10a94f20e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[starts-with(@class, 'mainHeroLp_mainTitle')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//span[(text() = 'Isuzu' or . = 'Isuzu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,18 +15,18 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
       <type>Main</type>
-      <value>mainHeroLp_mainTitle</value>
-      <webElementGuid>d81f0be6-9081-493e-a40d-e951869a194c</webElementGuid>
+      <value>span</value>
+      <webElementGuid>43ef555f-8f01-4aa9-92a7-4830f79f3008</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>text</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>413da040-592e-484b-b5a3-f2401ef898f6</webElementGuid>
+      <value>Isuzu</value>
+      <webElementGuid>a36bfd7f-5526-4f40-bc32-127a653f2920</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (1)'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Expand Menu Mobil Baru'))
 
