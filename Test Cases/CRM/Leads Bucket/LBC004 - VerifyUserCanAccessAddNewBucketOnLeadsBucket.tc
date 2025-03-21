@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LBC004 - VerifyUserCanAccessAddNewBucketOnLeadsBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b85d0092-c5d3-4396-ac0f-83b1ed9ab69d</testCaseGuid>
+</TestCaseEntity>

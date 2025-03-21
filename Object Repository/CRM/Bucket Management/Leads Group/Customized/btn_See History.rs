@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_See History</name>
+   <tag></tag>
+   <elementGuidId>523b86e3-30d9-437b-99b6-d1c262ec02db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:ret:']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c5d9681-a558-4286-9d35-cb66d089c826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See History</value>
+      <webElementGuid>2c2fc654-391e-40ad-bee6-dc62b6fbf121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:ret:&quot;)/div[@class=&quot;relative flex cursor-pointer items-center justify-between rounded p-2 text-body-small text-text-primary outline-none transition-colors data-[highlighted]:bg-surface-neutral data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:mr-2 [&amp;_svg]:size-4 [&amp;_svg]:text-icon-neutral&quot;]/div[1]</value>
+      <webElementGuid>d79a845d-44b1-4757-a56f-7082741c282b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:ret:']/div/div</value>
+      <webElementGuid>7dcfd749-0e04-4fd7-9da0-a777dffc7ba0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[5]</value>
+      <webElementGuid>52fa905b-6e4b-4171-8d8b-93bcf45a515f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[5]</value>
+      <webElementGuid>2f1b4313-5743-41a8-a447-24b142ae6e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See History']/parent::*</value>
+      <webElementGuid>a4ad3e8b-53e7-4bb1-a293-b5da2406a809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div</value>
+      <webElementGuid>f01d42d8-54d9-426e-984e-367678605296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'See History' or . = 'See History')]</value>
+      <webElementGuid>97b4b724-7d95-4ce3-9ce5-e69df4abf308</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

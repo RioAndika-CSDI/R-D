@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Send Email Activation</name>
+   <tag></tag>
+   <elementGuidId>ba664299-4ba2-4d0c-bf97-4af0f78bad3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='downshift-:r8t:-item-1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c024bebb-3b35-4549-95ce-489279afc1b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full cursor-pointer whitespace-normal rounded p-2 hover:bg-primaryRed-10 active:bg-primaryRed-50</value>
+      <webElementGuid>05ca4c68-f100-42b4-bee9-a91a757c8580</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Send Email Activation</value>
+      <webElementGuid>2509255d-fcbb-41f6-b2bb-f0e98afb6689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send Email Activation</value>
+      <webElementGuid>5d3d1705-95ba-47bd-ad98-9ccc701f55a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;downshift-:r8t:-item-1&quot;)/div[@class=&quot;w-full cursor-pointer whitespace-normal rounded p-2 hover:bg-primaryRed-10 active:bg-primaryRed-50&quot;]</value>
+      <webElementGuid>28ebc65e-1ed4-49b1-acac-9a14258c9bc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='downshift-:r8t:-item-1']/div</value>
+      <webElementGuid>fca7717c-a48d-43c3-8583-3ed4e44c5cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='d'])[1]/following::div[1]</value>
+      <webElementGuid>9009606b-dce5-48f2-8771-74462640fec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='r'])[2]/following::div[1]</value>
+      <webElementGuid>468695c9-7b6d-4e2a-a4b4-4940d07aa494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div</value>
+      <webElementGuid>3851b1da-19f6-4f07-b047-5c9163d10c9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Send Email Activation' and (text() = 'Send Email Activation' or . = 'Send Email Activation')]</value>
+      <webElementGuid>27c24477-d7bd-4677-bf86-166377b7ca06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

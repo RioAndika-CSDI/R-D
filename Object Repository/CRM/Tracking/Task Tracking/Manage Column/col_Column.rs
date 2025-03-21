@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_Column</name>
+   <tag></tag>
+   <elementGuidId>b193c180-9607-4242-acc0-e1db79589e20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r14e:']/div[2]/div[3]/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ce09ba84-5df8-410d-ad6f-d691c3f917b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-scrollbar h-[384px] overflow-y-auto</value>
+      <webElementGuid>979add60-7389-41a5-ba93-5423b284616f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads GroupLeads ChannelLeads Origination</value>
+      <webElementGuid>755b5c10-7608-412a-9427-30344b79dc64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r14e:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[3]/div[@class=&quot;custom-scrollbar h-[384px] overflow-y-auto&quot;]</value>
+      <webElementGuid>9406187b-78a2-4c22-8a84-e3868ea4664f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r14e:']/div[2]/div[3]/div[3]</value>
+      <webElementGuid>97bb368e-778b-4ded-b9d5-86aa8c04156f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[1]</value>
+      <webElementGuid>64c3b024-0a74-4d71-b105-87dd277d71e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[2]/following::div[1]</value>
+      <webElementGuid>06c6d431-dcc9-4cd5-9021-f1002fc778f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div[3]</value>
+      <webElementGuid>57a62fce-8fd1-4929-b4e6-d188c4ab0f31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Leads GroupLeads ChannelLeads Origination' or . = 'Leads GroupLeads ChannelLeads Origination')]</value>
+      <webElementGuid>90f72fe4-3db5-4e64-b598-f0360a2ae34a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

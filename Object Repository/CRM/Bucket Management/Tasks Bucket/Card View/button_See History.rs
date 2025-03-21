@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_See History</name>
+   <tag></tag>
+   <elementGuidId>83e6d25c-2d67-4504-a33f-f4d1b480b716</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>86a3996b-6629-4596-89fe-a0e5863d4c4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7c6ebd3f-8817-4068-be3e-b359bb307b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group inline-flex items-center gap-1 m-0 bg-transparent outline-none border-none transition-all font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small justify-start text-left text-text-link</value>
+      <webElementGuid>891dfcdf-248d-44a7-8a99-d898fddb7974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-button-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f9254710-68f4-4dff-9e37-56834c5e5d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See History</value>
+      <webElementGuid>0fc19a45-be19-43d2-a392-43bcde2d6ba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;flex gap-5&quot;]/div[@class=&quot;w-[530px]&quot;]/div[2]/div[@class=&quot;overflow-clip rounded-lg border border-line&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;flex flex-col gap-6 bg-surface-plain p-5&quot;]/div[@class=&quot;cursor-pointer overflow-clip rounded-lg border border-line-informational&quot;]/div[@class=&quot;flex items-center justify-between bg-surface-subtle px-4 py-3&quot;]/button[@class=&quot;group inline-flex items-center gap-1 m-0 bg-transparent outline-none border-none transition-all font-semibold rounded [&amp;_svg]:size-3 [&amp;_svg]:text-icon-brand-red [&amp;_svg]:active:text-hover-brand-red [&amp;_svg]:flex-none focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 hover:data-[button-disabled=false]:underline data-[button-disabled=true]:text-text-disabled [&amp;_svg]:data-[button-disabled=true]:text-icon-disabled data-[button-disabled=true]:pointer-events-none active:text-hover-brand-red text-body-small justify-start text-left text-text-link&quot;]</value>
+      <webElementGuid>3860ae4d-b9b2-4fc7-9a60-45d0bdf307fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>70a981f1-a32a-48af-8ad3-e3370a2a4fff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div[4]/button</value>
+      <webElementGuid>15d166ec-e4c8-4464-8188-deca69e3f95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CSA Assigned (11)'])[1]/following::button[1]</value>
+      <webElementGuid>f81acf47-d830-4d52-b980-856fe3d2eaa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recycle - Testing'])[1]/preceding::button[1]</value>
+      <webElementGuid>0693ce30-419d-4f5e-a3da-4905d4666c91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See History']/parent::*</value>
+      <webElementGuid>e039309e-b609-488c-ba38-e3c8e35a542c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button</value>
+      <webElementGuid>66a3d66f-7232-443d-a4f3-c5e0926a0dbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'See History' or . = 'See History')]</value>
+      <webElementGuid>034e0bbe-8840-4370-95a8-4ffd065a8c03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

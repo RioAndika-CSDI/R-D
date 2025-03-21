@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_leadstracking</name>
+   <tag></tag>
+   <elementGuidId>fff7d15f-dc34-48b7-a57d-9f9b23cca670</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r10:-content-ALL']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a2443a88-2702-4d3b-b249-24650a5ee2f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell whitespace-normal ant-table-cell-row-hover</value>
+      <webElementGuid>43eb2375-861c-425c-9d88-f2efe60ca435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>To be Assigned to Sales Agent</value>
+      <webElementGuid>227552b0-85a8-4563-83ff-676ed493177c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r10:-content-ALL&quot;)/div[1]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[@class=&quot;relative w-full overflow-hidden&quot;]/div[@class=&quot;overflow-hidden rounded-lg border border-line bg-surface-plain&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-virtual ant-table-ping-right ant-table-fixed-header ant-table-scroll-horizontal&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-tbody-virtual ant-table-tbody&quot;]/div[@class=&quot;ant-table-tbody-virtual-holder&quot;]/div[1]/div[@class=&quot;ant-table-tbody-virtual-holder-inner&quot;]/div[@class=&quot;[&amp;_.ant-checkbox-wrapper]:m-auto [&amp;_.ant-table-cell]:grid ant-table-row group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal cursor-pointer focus-visible:shadow-[inset_-0.5px_-0.5px_0px_3px_rgba(36,110,212,1)] focus-visible:rounded transition-all&quot;]/div[@class=&quot;ant-table-cell whitespace-normal ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>e17e53f6-eeba-4b72-a845-83c2d93cbbdf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r10:-content-ALL']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[3]</value>
+      <webElementGuid>c52f303a-3e51-489f-90b2-5578cd1c142c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::div[1]</value>
+      <webElementGuid>38a231bb-850c-4655-87ec-cee535c69898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go Live Date'])[1]/following::div[9]</value>
+      <webElementGuid>c3b047c2-5c8d-446d-9486-c20992d11990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C003'])[1]/preceding::div[2]</value>
+      <webElementGuid>f5081fca-29de-4a10-a304-81db8794b3d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[3]</value>
+      <webElementGuid>21b06689-9ea7-432e-8f43-7bf71fee4ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'To be Assigned to Sales Agent' or . = 'To be Assigned to Sales Agent')]</value>
+      <webElementGuid>bcad9992-61a0-48e8-a798-9d378c505453</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR010 - VerifyUserCanAccessSPKOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>373290b8-b90d-465d-8e13-2341b4b7ba81</testCaseGuid>
+</TestCaseEntity>

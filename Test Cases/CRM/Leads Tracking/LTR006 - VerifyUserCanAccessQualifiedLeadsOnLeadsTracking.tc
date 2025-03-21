@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR006 - VerifyUserCanAccessQualifiedLeadsOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d93144d5-72f6-49bb-95c1-84fe6fa57e03</testCaseGuid>
+</TestCaseEntity>

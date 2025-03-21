@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM009 - VerifyUserCanAccessTasksInfoOnLeadWorkstation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>aec5538b-ebf7-4f51-92d2-af650a654a39</testCaseGuid>
-</TestCaseEntity>

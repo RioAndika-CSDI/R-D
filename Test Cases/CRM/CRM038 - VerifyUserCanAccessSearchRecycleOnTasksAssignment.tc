@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM038 - VerifyUserCanAccessSearchRecycleOnTasksAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0f01d023-236a-4e23-a648-5b6f13aad989</testCaseGuid>
-</TestCaseEntity>

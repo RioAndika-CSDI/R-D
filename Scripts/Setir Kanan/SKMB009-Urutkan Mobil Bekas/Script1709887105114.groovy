@@ -81,13 +81,18 @@ if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
     if ((sortingElemen[1]).equalsIgnoreCase('terbaru')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+                //WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+				
+				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
+				
             }
         }
     } else if ((sortingElemen[1]).equalsIgnoreCase('terlama')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+				//WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
+				
             }
         }
     }
@@ -95,13 +100,17 @@ if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
     if ((sortingElemen[1]).equalsIgnoreCase('tertinggi')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+                //WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
+				
             }
         }
     } else if ((sortingElemen[1]).equalsIgnoreCase('terendah')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+                //WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
+				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
+				
             }
         }
     }

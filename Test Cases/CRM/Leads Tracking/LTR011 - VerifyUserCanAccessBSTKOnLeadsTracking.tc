@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR011 - VerifyUserCanAccessBSTKOnLeadsTracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03132a75-2471-4b84-9278-066e0c8c31e8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LTR018 - VerifyUserCanAccessCreateNewQLRefinancing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5baf42e-4ac1-451e-b80b-5a4ca501d4d7</testCaseGuid>
+</TestCaseEntity>

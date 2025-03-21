@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LWS001 - VerifyUserCanAccessLeadsWorkstation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f01fd362-205a-437e-9863-c1c7c7f6eece</testCaseGuid>
+</TestCaseEntity>

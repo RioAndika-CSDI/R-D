@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>col_Leads Tracking</name>
+   <tag></tag>
+   <elementGuidId>a7044b02-fca8-43ce-8a6a-4e63e1820352</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-table-cell.whitespace-normal.ant-table-cell-row-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1q:-content-DROP']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>301b7e38-4e06-4423-ae15-dbdb9f3e474b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell whitespace-normal ant-table-cell-row-hover</value>
+      <webElementGuid>ed578101-23ec-4b10-a467-9bcd87829d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop</value>
+      <webElementGuid>bbbc14ac-f514-45ac-bbac-b623f652978c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1q:-content-DROP&quot;)/div[1]/div[@class=&quot;flex gap-4 overflow-hidden&quot;]/div[@class=&quot;relative w-full overflow-hidden&quot;]/div[@class=&quot;overflow-hidden rounded-lg border border-line bg-surface-plain&quot;]/div[@class=&quot;ant-table-wrapper [&amp;_.ant-table-thead_.ant-table-cell]:h-12 [&amp;_.ant-table-thead_.ant-table-cell]:py-0 [&amp;_.ant-table-thead_.ant-table-cell]:text-body-regular [&amp;_.ant-table-thead_.ant-table-cell]:before:hidden [&amp;_.ant-table-thead_.ant-table-cell_.ant-table-column-title]:text-body-regular [&amp;_.ant-table-body]:!overflow-y-auto [&amp;_td.ant-table-column-sort]:bg-inherit [&amp;_td]:!transition-none [&amp;_th.ant-table-column-sort]:!bg-surface-subtle&quot;]/div[@class=&quot;ant-spin-nested-loading [&amp;_.ant-spin-blur]:z-50&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-virtual ant-table-fixed-header ant-table-scroll-horizontal&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-tbody-virtual ant-table-tbody&quot;]/div[@class=&quot;ant-table-tbody-virtual-holder&quot;]/div[1]/div[@class=&quot;ant-table-tbody-virtual-holder-inner&quot;]/div[@class=&quot;[&amp;_.ant-checkbox-wrapper]:m-auto [&amp;_.ant-table-cell]:grid ant-table-row group/tr [&amp;_.ant-table-cell]:text-body-regular [&amp;_.ant-table-cell]:font-normal cursor-pointer focus-visible:shadow-[inset_-0.5px_-0.5px_0px_3px_rgba(36,110,212,1)] focus-visible:rounded transition-all&quot;]/div[@class=&quot;ant-table-cell whitespace-normal ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>e6685463-716b-452a-9ac1-84bdbd6e9382</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1q:-content-DROP']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>977e9317-971b-4987-bb67-85e2aa0dc83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last FU QL - Last Call Time'])[1]/following::div[7]</value>
+      <webElementGuid>6ce8b5d1-0746-49e2-ba22-71bf947ba2c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last FU QL - Last Call Result'])[1]/following::div[8]</value>
+      <webElementGuid>38d8e436-7a7a-4cce-a1b6-76c951cf2ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N456'])[1]/preceding::div[2]</value>
+      <webElementGuid>f18b91ca-90ca-4af8-a923-5de7812e3897</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>12f9fff3-f9d5-4357-995a-7756ddb6a526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop' or . = 'Drop')]</value>
+      <webElementGuid>39a62d48-6a4c-4ab9-b841-c6dc64c611f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

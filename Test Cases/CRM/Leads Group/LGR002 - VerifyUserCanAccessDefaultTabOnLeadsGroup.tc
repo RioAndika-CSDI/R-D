@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGR002 - VerifyUserCanAccessDefaultTabOnLeadsGroup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f75cefa1-a7c3-4801-8914-9e21bee216a8</testCaseGuid>
+</TestCaseEntity>

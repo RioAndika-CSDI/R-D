@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit Account</name>
+   <tag></tag>
+   <elementGuidId>f91fbfd7-ba27-4b4e-a13b-d7476b3e5181</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[12]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/div/button[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>19dbbfc7-44b4-4af0-b62b-747b24e923c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>34181452-1f9c-4a90-8966-0cd4d8eca2d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-plain text-text-primary border border-line [&amp;_svg]:text-icon-brand-red hover-active:enabled:bg-hover-white [&amp;_svg]:active:enabled:text-[#821D1D] text-button-regular gap-2 shadow-elevation-7 p-0 size-8 [&amp;_svg]:size-4 flex-none</value>
+      <webElementGuid>ab76a2a8-d2ff-451e-a3d4-c30bf288a3c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>closed</value>
+      <webElementGuid>48dc7325-f69a-43d7-b29b-1f9edbee3ded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/div/button</value>
+      <webElementGuid>23011d79-da36-4029-976f-00e6bde33e4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/div/button</value>
+      <webElementGuid>e0ccc90e-eb35-4bad-9a74-6a24bdab6a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>e70e9875-5fb4-4214-97c9-9449b9825df7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

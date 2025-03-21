@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Pag
 
 WebUI.click(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/button_Promo'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Promo cicilan mobil baru bulan March 2_dcd451/b_Promo yang Sedang Berlangsung di SEVA'), 10)
+WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bulan March 2_dcd451/b_Promo yang Sedang Berlangsung di SEVA'))
 
 WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bulan March 2_dcd451/div_rocket-lazyload entered lazyloaded'))
 
@@ -58,4 +58,3 @@ WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bula
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/h1_Otomotif'), 10)
 
 WebUI.closeBrowser()
-

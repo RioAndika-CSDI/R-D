@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CRM037 - VerifyUserCanAccessSearchFastReactivationWAOnTasksAssignment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>51f1a914-4777-47bf-8390-ef28c1269834</testCaseGuid>
-</TestCaseEntity>

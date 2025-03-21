@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Stop Workstation</name>
+   <tag></tag>
+   <elementGuidId>531ccad2-d4d6-4f7f-b2f5-4fbbb87d8f98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e3b67a73-80a3-4aa1-b391-4283bfb64e35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ffbd350a-2341-4461-ad03-af4cbb07a36c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-plain text-text-primary border border-line [&amp;_svg]:text-icon-brand-red hover-active:enabled:bg-hover-white [&amp;_svg]:active:enabled:text-[#821D1D] h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[200px]</value>
+      <webElementGuid>1e51a0bc-f347-4e5b-81a7-2b02a2905a7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stop Workstation</value>
+      <webElementGuid>cb863b67-4788-4d49-9de6-12c41eb0ac97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-3 my-auto ml-auto flex items-center gap-4&quot;]/div[@class=&quot;flex items-center gap-6&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-plain text-text-primary border border-line [&amp;_svg]:text-icon-brand-red hover-active:enabled:bg-hover-white [&amp;_svg]:active:enabled:text-[#821D1D] h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 min-w-[200px]&quot;]</value>
+      <webElementGuid>a5001308-9331-4457-aa72-5debfb0dea3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>3f20b0a9-a47d-4c00-9023-41a0c27ea7e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div[2]/div/button</value>
+      <webElementGuid>3cef3ddf-84aa-422f-8093-1e0c5cffba95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[2]/following::button[1]</value>
+      <webElementGuid>57c20d9f-8d07-487d-b805-0d149dc32376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ongoing Workstation:'])[1]/following::button[1]</value>
+      <webElementGuid>21d6ca57-bfaf-4d9d-a0cb-f4d2995877f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Name'])[1]/preceding::button[2]</value>
+      <webElementGuid>60486b5f-6f1d-4fe0-90bb-453167d0af49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='marcell testing'])[1]/preceding::button[2]</value>
+      <webElementGuid>6a9d9d88-e0a6-45d0-b1f9-98d7dd7bd981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Stop Workstation']/parent::*</value>
+      <webElementGuid>7b80f458-e6c1-479b-89d3-7662d886ca11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>d059a364-55b0-4f0b-aebc-1fc36fd19302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Stop Workstation' or . = 'Stop Workstation')]</value>
+      <webElementGuid>765be7eb-d5f1-41c0-935b-b425215486cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

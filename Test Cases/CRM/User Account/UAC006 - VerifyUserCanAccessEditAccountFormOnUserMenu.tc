@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UAC006 - VerifyUserCanAccessEditAccountFormOnUserMenu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a97e5294-463e-4d2b-9122-18b98f5988ed</testCaseGuid>
+</TestCaseEntity>

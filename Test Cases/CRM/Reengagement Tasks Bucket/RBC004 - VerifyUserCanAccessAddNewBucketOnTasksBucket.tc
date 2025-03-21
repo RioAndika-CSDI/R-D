@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RBC004 - VerifyUserCanAccessAddNewBucketOnTasksBucket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3aa1b0d3-fb23-45e0-b704-d34b56af0be3</testCaseGuid>
+</TestCaseEntity>

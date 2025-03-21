@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CRM Role Filter</name>
+   <tag></tag>
+   <elementGuidId>88a71085-6676-4307-88ac-fff0d632b881</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>30b11f88-db37-41a1-a11e-e1855ff79266</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white</value>
+      <webElementGuid>3aaf4c5c-cdd0-4ebf-902d-4bc0e7221b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CRM Role</value>
+      <webElementGuid>2a1440d0-23c2-45ea-bc5e-fbc82e677667</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rh:&quot;)/div[@class=&quot;flex w-[215.6px] flex-col items-center gap-2 rounded border-[1px] border-solid border-line bg-white py-4 font-OpenSans&quot;]/div[@class=&quot;w-full px-2&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/button[@class=&quot;block w-full select-none rounded border-0 bg-white p-2 text-left text-xs hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white&quot;]</value>
+      <webElementGuid>55ba77f7-552f-42c1-aa94-ca2560462a21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rh:']/div/div[2]/div/div[2]/div/div/div/button[2]</value>
+      <webElementGuid>ab961b0c-efbb-4c78-9fdc-9ae74f126d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/following::button[1]</value>
+      <webElementGuid>a0f02645-a54f-42a6-941d-4cab3ddeefd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::button[1]</value>
+      <webElementGuid>1924efad-a001-4b4f-8772-585dfe403a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button[2]</value>
+      <webElementGuid>18fc76b4-e901-49be-bdca-84f44101ce81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'CRM Role' or . = 'CRM Role')]</value>
+      <webElementGuid>f9c73664-c9bd-4b2d-94e8-d7f7dc578d32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

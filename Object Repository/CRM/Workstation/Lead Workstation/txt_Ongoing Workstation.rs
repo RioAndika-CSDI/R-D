@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Ongoing Workstation</name>
+   <tag></tag>
+   <elementGuidId>4385551b-a908-4c18-b16a-a593c44440eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div[2]/div/div/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c25a0185-8597-4c19-b602-c2e370f68872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ongoing Workstation: </value>
+      <webElementGuid>356fe131-706c-45ba-a239-b5156d7394ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;sticky top-0 z-[1002] grid h-[--crm-header-height] grid-cols-4 bg-surface-plain px-10 py-2 pl-3 text-heading-2 font-bold text-text-primary ml-20&quot;]/div[@class=&quot;col-span-3 my-auto ml-auto flex items-center gap-4&quot;]/div[@class=&quot;flex items-center gap-6&quot;]/div[@class=&quot;inline-flex items-center gap-1 text-body-small font-normal text-text-placeholder&quot;]/span[@class=&quot;inline-flex items-center gap-2&quot;]/span[2]</value>
+      <webElementGuid>485abdaf-4c42-490f-b1b3-1f6ce6714b02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div[2]/div/div/span/span[2]</value>
+      <webElementGuid>b6c4078f-29b8-474f-853f-6fa1a30e7cd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[1]/following::span[3]</value>
+      <webElementGuid>eb836c8b-648b-4d03-b9e8-e7504230d637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Workstation'])[2]/preceding::span[1]</value>
+      <webElementGuid>f064dc4a-ed9a-44da-8fc0-cd74d7b3c7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stop Workstation'])[1]/preceding::span[2]</value>
+      <webElementGuid>d47ce77a-4465-4119-9651-96de2be1e47e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ongoing Workstation:']/parent::*</value>
+      <webElementGuid>227d1c9c-cf76-4a29-9243-180ccda86f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span[2]</value>
+      <webElementGuid>9c890d22-82f9-4e7c-a75c-71a98b16cab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ongoing Workstation: ' or . = 'Ongoing Workstation: ')]</value>
+      <webElementGuid>63ae66e8-13c1-4de4-a921-97a6161e9185</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
