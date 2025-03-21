@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_otomotif</name>
+   <tag></tag>
+   <elementGuidId>3e7a14b9-aefa-4597-ac56-5bcd620662c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class=&quot;font-[Kanyon]&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h1[@class=&quot;font-[Kanyon]&quot;]</value>
+      <webElementGuid>67f6245e-1f6b-416d-b702-c6e11b885ee4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

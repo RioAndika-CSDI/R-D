@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -55,6 +56,10 @@ WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bula
 
 WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bulan March 2_dcd451/a_Berita Utama Otomotif'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Artikel Otomotif  SEVA/h1_Otomotif'), 10)
+headerPage = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/h1_otomotif'), 10)
+
+if (headerPage) {
+	KeywordUtil.markPassed('Already Expected')
+}
 
 WebUI.closeBrowser()
