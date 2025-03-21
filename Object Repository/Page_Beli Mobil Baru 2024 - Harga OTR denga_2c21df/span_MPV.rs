@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'MPV' or . = 'MPV')]</value>
+         <value>//span[(text() = 'MPV' or . = 'MPV')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,14 +19,15 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ddd2bb07-94a8-4581-ae03-27e620b2d735</webElementGuid>
+      <webElementGuid>9770ad4a-60b7-4cf2-a682-878d8069b0d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>a3da386c-c0c6-4a64-8a49-2b6cd794ff66</webElementGuid>
+      <webElementGuid>f74b62b8-f692-46ee-9266-35e9e5d31725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MPV</value>
-      <webElementGuid>8358a30c-bc7e-459d-8ee3-ba9d3bbdacf7</webElementGuid>
+      <webElementGuid>5854cce6-4484-4235-a4e9-93e92465c3cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>6208f31b-f86e-49a6-8f46-aabfa087d878</webElementGuid>
+      <webElementGuid>366d4cb2-b88c-4acb-a099-dc5eb8747fbf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>6e3b10a0-028e-48bc-ba1f-0157089f2bcb</webElementGuid>
+      <webElementGuid>8ee87e8d-af0b-4061-bddc-a58dbe7ba25f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>a4ab86f1-d1ef-48d5-b294-0be0fe1b1350</webElementGuid>
+      <webElementGuid>78de8d5a-d7a6-4eaf-9bef-a5f8daf02628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>9caf19f8-0fe3-45e5-9cae-69f1eaf79084</webElementGuid>
+      <webElementGuid>5a35dda7-814f-4fcc-b9ef-7e0853d2cddf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MPV']/parent::*</value>
-      <webElementGuid>c89a7bd9-b68c-4bde-bd67-94ad15777271</webElementGuid>
+      <webElementGuid>04974829-33f6-45ba-896c-424b1140f73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>c7c0b6f2-85c0-4121-aec6-062718f36957</webElementGuid>
+      <webElementGuid>e5825837-ec14-4c46-a05e-6ab9c60c48a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'MPV' or . = 'MPV')]</value>
-      <webElementGuid>528628cf-7e61-40e3-b2ef-aaefa088487b</webElementGuid>
+      <webElementGuid>a047c608-6a7a-42fb-ad89-375c107301f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

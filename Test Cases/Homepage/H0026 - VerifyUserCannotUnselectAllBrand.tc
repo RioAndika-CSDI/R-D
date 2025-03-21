@@ -4,5 +4,6 @@
    <name>H0026 - VerifyUserCannotUnselectAllBrand</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fab3083a-8218-4368-88bb-8c9d2e629af6</testCaseGuid>
 </TestCaseEntity>

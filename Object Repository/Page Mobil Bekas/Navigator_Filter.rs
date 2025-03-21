@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'navigationfiltermobile_navOuter') and (contains(text(), '${filter}') or contains(., '${filter}'))]</value>
+         <value>//*[starts-with(@class, 'navigationfiltermobile_navOuter')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,14 +19,6 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_navOuter</value>
-      <webElementGuid>c2770a45-4032-4dbd-a702-234447a01cd1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>${filter}</value>
-      <webElementGuid>21ee4dc0-a3c6-4a07-8db2-f75a67848262</webElementGuid>
+      <webElementGuid>7ec8e675-9766-4e4d-b9ef-4cfac42fa36c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

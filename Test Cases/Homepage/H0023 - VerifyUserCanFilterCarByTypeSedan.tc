@@ -4,5 +4,6 @@
    <name>H0023 - VerifyUserCanFilterCarByTypeSedan</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6f25074e-c32f-4b4a-b9d0-9ab398d4357d</testCaseGuid>
 </TestCaseEntity>

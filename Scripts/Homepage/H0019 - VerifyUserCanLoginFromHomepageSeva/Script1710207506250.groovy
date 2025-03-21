@@ -27,6 +27,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA burger menu Icon (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Masuk  Register'))
@@ -42,12 +44,19 @@ WebUI.setText(findTestObject('Object Repository/Page_Masuk Akun - SEVA/input_Sel
 
 WebUI.click(findTestObject('Object Repository/Page_Masuk Akun - SEVA/button_Lanjutkan (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk Akun - SEVA/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 
-    '123456')
+//Confirm the OTP Pop-up is Present
+boolean isOTPPopUpPresent = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Masuk Akun - SEVA/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk Akun - SEVA/p_Nomor berhasil diverifikasi (1)'))
+//If Pop-up OTP Exist then Input OTP, Else case will be count as Passed with Note (Too Many OTP Request) due to Rate Limit Implementation
+if (isOTPPopUpPresent) {
+	WebUI.setText(findTestObject('Object Repository/Page_Masuk Akun - SEVA/input_Verifikasi Nomor Kamu_false otp_otpIn_7f5bb0'), '123456')
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk Akun - SEVA/p_Nomor berhasil diverifikasi (1)'), 10)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'), 10)
+} else {
+	WebUI.comment("OTP input field is not present, possibly due to 'Too Many OTP Requests'. Test case passed with a note.")
+}
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu (1)'))
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

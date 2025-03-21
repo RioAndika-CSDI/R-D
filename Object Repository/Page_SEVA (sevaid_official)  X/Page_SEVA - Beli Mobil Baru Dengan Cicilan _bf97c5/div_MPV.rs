@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' MPV' or . = ' MPV')]</value>
+         <value>//*[@data-testid = 'type-mpv']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b08d328c-f9a9-477d-97c5-899d03e6f957</webElementGuid>
+      <webElementGuid>7fcb6c6e-f880-4f7f-8064-085682db3473</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b7e62ac2-5fef-4dce-ba55-c71ba6d928d7</webElementGuid>
+      <webElementGuid>f745fcf4-f17c-40c8-9ad1-e16fdc1d6d57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,23 +43,23 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>acf4652f-aaaa-4e22-853a-a3a103b2b4fd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>type-mpv</value>
-      <webElementGuid>18a9ffd3-2c5e-4bd1-bae1-0ec9f58bafc5</webElementGuid>
+      <webElementGuid>c6d82e99-e57a-4d45-8925-14ffd8a757b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>type-mpv</value>
+      <webElementGuid>a56e915a-3463-42e6-b147-8fdfbefff7a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> MPV</value>
-      <webElementGuid>4e270f51-9b0e-4f61-9925-048f89831245</webElementGuid>
+      <webElementGuid>45ff57c1-2f07-4529-aa4c-8daa9472ffb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>6177d2ab-4706-448b-adc6-a176f68771fd</webElementGuid>
+      <webElementGuid>e89d1857-01d5-4734-ad77-ee1d5626bbd4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[14]</value>
-      <webElementGuid>9e33ffde-6a73-4fdf-a14f-c71b8859fe42</webElementGuid>
+      <webElementGuid>904721d1-27c6-4fd6-9ecc-e32ed565cb71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/following::div[14]</value>
-      <webElementGuid>a78d736d-9ffc-4919-a149-42bda5118bad</webElementGuid>
+      <webElementGuid>34b428fd-5ea8-4176-8850-f7e47d7831ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SUV'])[1]/preceding::div[2]</value>
-      <webElementGuid>7b6cad35-d065-4fbf-9944-b4982fa7b202</webElementGuid>
+      <webElementGuid>29a4f35d-ca2c-4ea2-a72b-434c4da9c3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>5484eebc-ceeb-4f22-ad70-eae78465196c</webElementGuid>
+      <webElementGuid>83441959-e970-4977-b7b2-40ca23536bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' MPV' or . = ' MPV')]</value>
-      <webElementGuid>8cd1f841-958e-4f16-b0a3-0c8839d5cf48</webElementGuid>
+      <webElementGuid>ce76220a-8a1f-4c98-bf3c-e7b5dbcf8c33</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

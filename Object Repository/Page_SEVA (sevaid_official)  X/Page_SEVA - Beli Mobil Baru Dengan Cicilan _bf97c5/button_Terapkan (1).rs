@@ -6,23 +6,28 @@
    <elementGuidId>a3a1f884-9c3c-42cb-b3b5-a8162f46fc81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.gridOptionWidget_actionButtonWrapper__dyAlB > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Terapkan' or . = 'Terapkan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gridOptionWidget_actionButtonWrapper__dyAlB > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3049e3f-9299-4ff0-8923-0155af59d86c</webElementGuid>
+      <webElementGuid>b79b6e1d-d379-4bbf-9919-80ed97b17ca3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>85605613-f026-4061-a412-7fe006e299e2</webElementGuid>
+      <webElementGuid>da143d84-d64b-4b9d-9fb8-a98e90653ec1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-terapkan</value>
-      <webElementGuid>1ff7c8e0-e56e-47bb-89cf-b2518ffa4923</webElementGuid>
+      <webElementGuid>cb696f11-02ac-4aa7-afd1-7b8ca0a6ee6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Terapkan</value>
-      <webElementGuid>9dccb324-861e-424a-b3b2-ac9db346d378</webElementGuid>
+      <webElementGuid>e57679ce-34bd-43fd-8d3e-35c76ac50aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;gridOptionWidget_actionButtonWrapper__dyAlB&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>92f5f3a5-d874-430d-a89e-cc36215b71dd</webElementGuid>
+      <webElementGuid>a341bda1-cbe6-4260-9d84-59bd7657f698</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
-      <webElementGuid>52190707-5ada-47bb-8518-cd46f0b34ff2</webElementGuid>
+      <webElementGuid>4e8cfdbf-aa7c-4c56-961f-7b096d95cd06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sport'])[1]/following::button[2]</value>
-      <webElementGuid>a0dc42e0-ccbd-484e-9108-be3a765e761e</webElementGuid>
+      <webElementGuid>8887c697-e6a1-47a7-83ca-93a607b38c5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terapkan']/parent::*</value>
-      <webElementGuid>a43320f4-f069-4862-b6a9-386b08e3d6cd</webElementGuid>
+      <webElementGuid>97fb352e-3233-411f-9d96-f2f76a759db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button[2]</value>
-      <webElementGuid>e1e29842-cb8b-4bfc-8057-ca5dfc2fa3da</webElementGuid>
+      <webElementGuid>d26cbeaf-2980-47f4-8bc9-3fa654adb7ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Terapkan' or . = 'Terapkan')]</value>
-      <webElementGuid>94e17cb3-3b8a-4137-8eab-c34f5c3aedba</webElementGuid>
+      <webElementGuid>837111f4-bfbd-4323-81ef-5e233d6dd3f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

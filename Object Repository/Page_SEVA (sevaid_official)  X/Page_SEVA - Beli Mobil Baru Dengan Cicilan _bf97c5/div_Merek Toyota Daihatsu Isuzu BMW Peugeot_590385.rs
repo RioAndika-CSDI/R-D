@@ -6,15 +6,20 @@
    <elementGuidId>d0132a98-9579-4187-ad9d-c50cc80dd921</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>reach-portal > div > div:nth-of-type(2)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Merek Toyota Daihatsu Isuzu BMW Peugeot HyundaiAtur UlangTerapkan' or . = 'Merek Toyota Daihatsu Isuzu BMW Peugeot HyundaiAtur UlangTerapkan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>reach-portal > div > div:nth-of-type(2)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cdcf007c-a948-4200-a2a1-e0edec96c35a</webElementGuid>
+      <webElementGuid>c6d7db54-b7fb-4323-bf8e-de42682e5141</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2a9fee13-759e-4509-9c4e-f35ba1b34eea</webElementGuid>
+      <webElementGuid>da29c60b-58f6-422d-8c84-cbd1f70bb1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>159d8fab-91ba-4016-8a0b-5eca7001ce00</webElementGuid>
+      <webElementGuid>acc12a8b-14df-4ffb-894a-102682faa627</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>data-rsbs-overlay</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>debb7db5-8557-4941-a4f6-a38556a118c8</webElementGuid>
+      <webElementGuid>afc27c6a-cc89-4229-ab06-cdd5d688ad8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>1579c107-7c93-4c2c-aeea-a1c4f2951247</webElementGuid>
+      <webElementGuid>38cd07d0-332b-41f6-a0f6-35b1e09f54cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Merek Toyota Daihatsu Isuzu BMW Peugeot HyundaiAtur UlangTerapkan</value>
-      <webElementGuid>57485d07-3ce2-405a-af97-be631c10bf6b</webElementGuid>
+      <webElementGuid>250ef4a3-82a5-4f12-8217-3e08d6240abb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]</value>
-      <webElementGuid>d548552d-4357-4797-a5c5-60531e60b3dc</webElementGuid>
+      <webElementGuid>bf4fc09a-e96f-4cab-8b62-760ab6fdea8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/following::div[4]</value>
-      <webElementGuid>dc36093b-21e7-4f15-bcf3-c18abe9c02e2</webElementGuid>
+      <webElementGuid>df9428e8-5219-4c9b-8975-9978651ee641</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti saja'])[1]/following::div[4]</value>
-      <webElementGuid>47f9725e-4b72-4f8f-909e-638b9c1ad24e</webElementGuid>
+      <webElementGuid>acb13d9f-929f-4a74-aae0-ee6005772670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//reach-portal/div/div[2]</value>
-      <webElementGuid>cdc1c4de-328b-44fe-a05d-30c7aa45bbc3</webElementGuid>
+      <webElementGuid>5956c0b6-5847-41dd-93c7-2d138cdd7d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Merek Toyota Daihatsu Isuzu BMW Peugeot HyundaiAtur UlangTerapkan' or . = 'Merek Toyota Daihatsu Isuzu BMW Peugeot HyundaiAtur UlangTerapkan')]</value>
-      <webElementGuid>8aeff445-f56b-45dd-805b-b292f444a822</webElementGuid>
+      <webElementGuid>b7fe693d-15e5-4472-8842-e70a9161b927</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

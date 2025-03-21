@@ -11,13 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Sedan' or . = ' Sedan')]</value>
+         <value>//*[@data-testid = 'type-sedan']</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bea29ff1-d2c5-481b-ae9c-2a2687c7d850</webElementGuid>
+      <webElementGuid>38a35947-2feb-44f9-95d0-a515bb3542e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4dd47a57-c8f4-4b0b-a461-d50b84d0625a</webElementGuid>
+      <webElementGuid>02668381-1124-41d7-b811-5f2591f8c9e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_box__5OnGr</value>
-      <webElementGuid>ab7759b1-c48d-43fb-9eaf-3c3c06ccb6e6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>type-sedan</value>
-      <webElementGuid>8939efd5-b7a5-48d4-a09b-087f21e3616b</webElementGuid>
+      <webElementGuid>e22af59a-793f-4adc-bef6-c37ca01eb1b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>type-sedan</value>
+      <webElementGuid>555288bc-6266-422c-994b-4e7e3c815777</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Sedan</value>
-      <webElementGuid>62f150e3-8123-4f96-a9aa-2557d7810ef8</webElementGuid>
+      <webElementGuid>51949a08-803e-4594-8d42-30648aad168e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[1]/div[2]/div[2]/div[1]/div[@class=&quot;formSelectBrandCar_container__JyNan&quot;]/div[@class=&quot;ant-space css-nllxry ant-space-horizontal ant-space-align-center&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;formSelectBrandCar_box__5OnGr&quot;]</value>
-      <webElementGuid>e8afbeb3-d8f3-4a01-8c35-531add2850e5</webElementGuid>
+      <webElementGuid>e4f10cea-8d93-416d-a018-1acb816bf7df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SUV'])[1]/following::div[2]</value>
-      <webElementGuid>af36d951-e525-4401-8831-89d362773b6c</webElementGuid>
+      <webElementGuid>58389052-7f96-4a16-886c-1915799f5d6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MPV'])[1]/following::div[5]</value>
-      <webElementGuid>f688a3fb-ff3b-463e-b1c1-476a704a6383</webElementGuid>
+      <webElementGuid>d9689481-a171-4733-a48f-afce868433bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hatchback'])[1]/preceding::div[2]</value>
-      <webElementGuid>7dd8814c-07e8-48c0-a211-db8ad79edcd7</webElementGuid>
+      <webElementGuid>87d4195a-fb9e-41ef-82a2-8acfaf67be74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div</value>
-      <webElementGuid>bf905b06-bb21-4ef5-a193-141cdd134c40</webElementGuid>
+      <webElementGuid>3147381e-bd11-4460-8ed4-5e02fa2944e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Sedan' or . = ' Sedan')]</value>
-      <webElementGuid>643aca5d-4559-4208-adb6-d7a2fd0dcbc0</webElementGuid>
+      <webElementGuid>90360489-26fd-4c5b-87f6-5be19892cd08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_MPV, SUV, Sedan, Hatchback, Sport</name>
+   <name>div_TipeMobil</name>
    <tag></tag>
    <elementGuidId>aa12d304-5f55-4554-ab9e-e71c1b5b0e68</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pdp-upper-content']/div[2]/div/div/div[2]/div/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class = 'selectWidget_placeholder__oBYXe'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,31 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a1f64f0e-9b55-4333-9ddd-6db6099114a8</webElementGuid>
+      <webElementGuid>a5e1db17-cb09-49ad-b689-710d4f7cfd2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selectWidget_textArrowWrapper__JpQqv</value>
-      <webElementGuid>9b0f9a8d-dbe8-4a3c-b7ce-804c5b561e87</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>MPV, SUV, Sedan, Hatchback, Sport</value>
-      <webElementGuid>46190c48-98d1-4cf8-b6f7-50a76cf042f1</webElementGuid>
+      <value>selectWidget_placeholder__oBYXe</value>
+      <webElementGuid>787e5693-a2ae-4f8c-9e78-0c9a5fa061f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MPV, SUV, Sedan, Hatchback, Sport, Truk Pickup, Minivan, Coupe</value>
+      <webElementGuid>978a0dea-ad62-4729-8956-c1b4f44e3cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__SiBmi&quot;]/div[@class=&quot;searchWidget_container__nJgb2&quot;]/div[@class=&quot;searchWidget_cardContainer__9qyDq&quot;]/div[@class=&quot;selectWidget_container__yuLbY&quot;]/div[@class=&quot;selectWidget_fieldContainer__6hrAa&quot;]/div[@class=&quot;selectWidget_fieldWrapper__WE4d5&quot;]/div[@class=&quot;selectWidget_textArrowWrapper__JpQqv&quot;]</value>
-      <webElementGuid>c400a4f3-041e-4d35-9eec-587ad54808ea</webElementGuid>
+      <value>(//div[@class = 'selectWidget_placeholder__oBYXe'])[2]</value>
+      <webElementGuid>092be82d-7153-41a9-94d5-9ce62498e3c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pdp-upper-content']/div[2]/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>440d9c02-0340-49e8-8a2d-6ff977af9b24</webElementGuid>
+      <webElementGuid>f03077ed-cba7-4e04-ac6c-ad52b6015174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe'])[1]/following::div[1]</value>
-      <webElementGuid>22f4e81b-9b4b-494d-a00a-2145139e846d</webElementGuid>
+      <webElementGuid>9c6e7d61-0cbb-450a-a999-34d02aa064e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'])[1]/following::div[7]</value>
-      <webElementGuid>b7de0657-c7bf-4fb6-97a1-5bfdae43c1bc</webElementGuid>
+      <webElementGuid>76dacfa7-4159-4fbc-9a35-2222b94eddbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimasi Harga'])[1]/preceding::div[5]</value>
-      <webElementGuid>4d4f7876-0902-490c-97a4-d9de31ba6b1e</webElementGuid>
+      <webElementGuid>20b8dc28-2073-412e-8bad-1cf171f7acfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>4d8ceb22-cdff-41ac-95e3-5123d23e3022</webElementGuid>
+      <webElementGuid>b25654c6-bbba-43c8-a9ef-7f9346adcfda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'MPV, SUV, Sedan, Hatchback, Sport' or . = 'MPV, SUV, Sedan, Hatchback, Sport')]</value>
-      <webElementGuid>ac36d4b1-39e1-4d68-8f8b-9f0c467859ae</webElementGuid>
+      <webElementGuid>68c71fa2-020c-4832-bd40-17d953e3bde0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
