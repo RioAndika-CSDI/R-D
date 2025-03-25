@@ -27,6 +27,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Hubungi Kami'))
 
 WebUI.verifyElementPresent(findTestObject('Homepage Component/pop-up-leads-form'), 0)
@@ -37,7 +39,8 @@ WebUI.setText(findTestObject('Homepage Component/leads-form-input-no-hp'), '8534
 
 WebUI.click(findTestObject('Homepage Component/checkbox-agreement-pop-up-leads-form'))
 
+WebUI.click(findTestObject('Homepage Component/checkbox-agreement-promo-terms-pop-up-leads-form'))
+
 WebUI.click(findTestObject('Homepage Component/button-submit-leads-pop-up'))
 
 WebUI.closeBrowser()
-

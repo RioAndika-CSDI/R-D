@@ -23,17 +23,19 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Pag
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(120)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_Cek Kualifikasi Kredit'))
+WebUI.waitForElementNotVisible(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 20)
 
-WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label Kualifikasi'), 100)
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-Url_act = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Kebijakan Privasi'))
 
-WebUI.verifyMatch(Url_act, 'https://www.seva.id/kualifikasi-kredit/multi', true)
+WebUI.switchToWindowTitle('Kebijakan Privasi - SEVA')
+
+WebUI.click(findTestObject('Object Repository/Page_Kebijakan Privasi - SEVA/h1_Kebijakan Privasi'))
 
 WebUI.closeBrowser()
 

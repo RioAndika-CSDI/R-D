@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@datatest-id = 'footer-logo-facebook']</value>
+         <value>//*[@data-testid = 'footer-logo-facebook']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>datatest-id</name>
+      <name>data-testid</name>
       <type>Main</type>
       <value>footer-logo-facebook</value>
-      <webElementGuid>70c842a4-7203-4d0d-b17c-8c89e1f07f1e</webElementGuid>
+      <webElementGuid>8473893f-d92a-42a1-853e-fdc34d824d5f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

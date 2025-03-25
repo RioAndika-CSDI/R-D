@@ -29,7 +29,7 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_MerekMobil'))
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/selectWidget_filterMerek'))
 
 WebUI.verifyElementPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Homepage - PLP/New Car/Filter Brand Unselected 1st')
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Terapkan'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_MerekMobil'))
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/selectWidget_filterMerek'))
 
 WebUI.verifyElementNotPresent(findTestObject('Homepage - PLP/New Car/button_Terapkan Disable'), 0)
 

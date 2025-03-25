@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
 WebUI.click(findTestObject('Homepage - Burger menu/Expand Menu Mobil Baru'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Homepage - Burger menu/Menu-Mobil Baru-Lihat Semua Mobil'))
 
 title_card = WebUI.getText(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : 1]))
@@ -43,8 +45,7 @@ WebUI.click(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : 
 
 WebUI.waitForElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (id-test)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (variable)', [('title') : title_card]), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (variable)', [('title') : title_card]),
+	0)
 
 WebUI.closeBrowser()
-

@@ -27,9 +27,22 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/svg_SEVA Twitter Icon'))
 
-WebUI.switchToWindowUrl('https://x.com/i/flow/login?redirect_after_login=%2Fsevaid_official')
+//WebUI.switchToWindowUrl('https://x.com/i/flow/login?redirect_after_login=%2Fsevaid_official')
+
+WebUI.switchToWindowIndex(1)
+
+url = WebUI.getUrl()
+
+if (url.contains('https://x.com/sevabyastra')) {
+	WebUI.verifyMatch('true', 'true', true)
+}
+ else {
+	WebUI.verifyMatch('false', 'true', true)
+}
 
 WebUI.closeBrowser()
 
