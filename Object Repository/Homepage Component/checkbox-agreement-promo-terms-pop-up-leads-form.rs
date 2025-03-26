@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox-agreement-pop-up-leads-form</name>
+   <name>checkbox-agreement-promo-terms-pop-up-leads-form</name>
    <tag></tag>
-   <elementGuidId>1f667584-8d24-4191-869f-8d38e35a2564</elementGuidId>
+   <elementGuidId>0c110e28-e71f-49ef-b5b2-3624b683a4d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='ant-modal-body']//div[contains(@class, 'agreement_agreementTerms') and contains(@class, 'agreement_primary')]</value>
+         <value>//div[@class='ant-modal-body']//div[contains(@class, ' agreement_agreementPromoTerms') and contains(@class, 'agreement_primary')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

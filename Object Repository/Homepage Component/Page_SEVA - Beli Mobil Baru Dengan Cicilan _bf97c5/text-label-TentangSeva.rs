@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox-agreement-pop-up-leads-form</name>
+   <name>text-label-TentangSeva</name>
    <tag></tag>
-   <elementGuidId>1f667584-8d24-4191-869f-8d38e35a2564</elementGuidId>
+   <elementGuidId>94685119-816b-4196-9146-9aa02aaf1e84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='ant-modal-body']//div[contains(@class, 'agreement_agreementTerms') and contains(@class, 'agreement_primary')]</value>
+         <value>//*[@data-testid = 'footer-tentang-kami']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

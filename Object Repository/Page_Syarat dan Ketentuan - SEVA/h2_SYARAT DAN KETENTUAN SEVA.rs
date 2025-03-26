@@ -6,12 +6,12 @@
    <elementGuidId>e9b6b508-e4f0-4291-a2b3-a7f863db6a2e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h2</value>
+         <key>BASIC</key>
+         <value>//h1[normalize-space()='Syarat dan Ketentuan']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h2[(text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
+         <key>XPATH</key>
+         <value>//h2</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,14 +19,15 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>2581f2ae-ec34-4a50-bb1b-ad8dd66aa661</webElementGuid>
+      <webElementGuid>12dc8e1a-2d17-408f-9a2b-62e6b5d4959b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +35,24 @@
       <name>class</name>
       <type>Main</type>
       <value>title1</value>
-      <webElementGuid>f93aa7a9-2137-4dd4-8e1b-f291e1b2ed93</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>SYARAT DAN KETENTUAN SEVA</value>
-      <webElementGuid>4c513c92-9e4b-4394-92c1-83f28553a64f</webElementGuid>
+      <webElementGuid>9f6bde83-715c-438c-9449-4ef45d430d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>&#xd;
+        Syarat dan Ketentuan      </value>
+      <webElementGuid>12821030-fc6f-4b35-a3c2-8910fce28e72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;shadow-lg w-full top-0 z-10 bg-transparent&quot;]/div[@class=&quot;box&quot;]/h2[@class=&quot;title1&quot;]</value>
-      <webElementGuid>8917f82d-3dc6-4675-9429-339a11f0c2f4</webElementGuid>
+      <value>//h1[normalize-space()='Syarat dan Ketentuan']</value>
+      <webElementGuid>2c0bfb4a-733c-4321-8e3c-2373a214478d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +60,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>dc1714e9-e868-4e32-ab76-3943e6bf14df</webElementGuid>
+      <webElementGuid>38b4e577-7a50-4252-989e-a04258c2cb62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +68,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
-      <webElementGuid>e9919be3-592e-4cb6-a10d-b564629b0833</webElementGuid>
+      <webElementGuid>10ac1cba-fa89-4af6-8027-4817b4c155a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_MerekMobil</name>
+   <name>selectWidget_filterMerek</name>
    <tag></tag>
    <elementGuidId>1dedcec7-f532-4e58-b9da-38ae49c9b01e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pdp-upper-content']/div[2]/div/div/div/div/div[2]/div/div</value>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'selectWidget_placeholder') and (text() = 'Toyota, Daihatsu, Isuzu, BMW, Hyundai, Wuling, BYD' or . = 'Toyota, Daihatsu, Isuzu, BMW, Hyundai, Wuling, BYD')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>(//div[@class = 'selectWidget_placeholder__oBYXe'])[1]</value>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[2]/div/div/div/div/div[2]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,31 +27,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3727026c-511e-4b7a-9056-f85ddcbc5c36</webElementGuid>
+      <webElementGuid>8dfd983e-3ed1-4df6-8509-eec061c98747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selectWidget_placeholder__oBYXe</value>
-      <webElementGuid>ce51933a-3386-42a9-ac34-389e126080ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Toyota, Daihatsu, Isuzu, BMW, Hyundai, Wuling, BYD</value>
-      <webElementGuid>2514b376-c5ea-4b21-a46f-3b9ac1422bc8</webElementGuid>
+      <value>selectWidget_placeholder</value>
+      <webElementGuid>b6ed2dcb-2db1-4127-a536-654749a15b23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Toyota, Daihatsu, Isuzu, BMW, Hyundai, Wuling, BYD</value>
+      <webElementGuid>1af08f51-b846-4f11-8846-9c488c01d881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>(//div[@class = 'selectWidget_placeholder__oBYXe'])[1]</value>
-      <webElementGuid>eaf6abb1-f20f-4ee2-80f4-d835ae1b237f</webElementGuid>
+      <webElementGuid>a01820d8-513f-441f-93ba-40e6d4d49f77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pdp-upper-content']/div[2]/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>52c5aa44-7886-4318-a341-9c8a2bcd4eeb</webElementGuid>
+      <webElementGuid>d4d67716-b625-412a-9687-ff446b7473b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>abc70772-ca17-4da2-85ae-74fc7eab1e4e</webElementGuid>
+      <webElementGuid>88981e04-3eed-418e-ad4c-7e800e88dc0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai' or . = 'Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai')]</value>
-      <webElementGuid>2eed7498-4e6e-424f-ab8f-0b1a5be48595</webElementGuid>
+      <webElementGuid>4529fdef-6dc2-4343-8fac-d120b57c34c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

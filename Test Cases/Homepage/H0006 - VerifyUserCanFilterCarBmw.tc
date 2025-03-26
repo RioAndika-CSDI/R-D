@@ -4,5 +4,6 @@
    <name>H0006 - VerifyUserCanFilterCarBmw</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>61f9f308-2cbe-4e60-b56e-40e8de2b1899</testCaseGuid>
 </TestCaseEntity>

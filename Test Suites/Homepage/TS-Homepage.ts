@@ -29,7 +29,7 @@
       <guid>a008df8b-9b1b-4d4d-b988-b39e6b90cddb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0003 - Verify user can click cek kualifikasi kredit from homepage (WIP)</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0003 - VerifyUserCanClickCekPeluangKreditFromHomepage (WIP)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -78,14 +78,14 @@
       <guid>7b9fbc80-4ffe-4f9d-9a5d-5535c973f7e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f401409c-9f49-4c0a-bfb8-ffdfb7c63000</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
