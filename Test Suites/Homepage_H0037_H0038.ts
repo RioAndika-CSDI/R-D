@@ -15,7 +15,7 @@
       <guid>5edb5527-76a9-4833-9809-903cdeefab4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanHitungKemampuanCarMobilImpian</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanOpenSimulasiKreditCarMobilImpian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

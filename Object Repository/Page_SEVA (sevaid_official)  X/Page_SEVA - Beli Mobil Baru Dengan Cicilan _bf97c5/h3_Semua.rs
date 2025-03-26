@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'navigationTabV4') and (text() = 'Semua' or . = 'Semua')]</value>
+         <value>//*[starts-with(@class, 'navigationTabV4_bottomBlueLine__kxrev') and (text() = 'Semua' or . = 'Semua')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>60399e02-6b43-4273-a8e5-c72b66d20bb2</webElementGuid>
+      <webElementGuid>8d9a2cba-68e6-41f5-9888-54b935b85824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navigationTabV4</value>
-      <webElementGuid>e64f7759-c8f3-42b3-8a8f-34e2e0d21806</webElementGuid>
+      <value>navigationTabV4_bottomBlueLine__kxrev</value>
+      <webElementGuid>28709409-cc05-48f9-8b68-b45dc7ac14af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Semua</value>
-      <webElementGuid>543a3001-0e97-4119-aafe-8520f61e0540</webElementGuid>
+      <webElementGuid>efb3cadf-f37e-47bd-b132-14cea0640116</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/div[@class=&quot;testimonyWidget_container__8vQ9D&quot;]/div[@class=&quot;navigationTabV2_container__v2ADA lpCarRecommendations_tab__ZHR23&quot;]/div[@class=&quot;tabV2_containerPdp__U_AXv tabV2_containerActive__SzHfQ&quot;]/h3[@class=&quot;tabV2_text__gtHrZ tabV2_textActive__MrQHd&quot;]</value>
-      <webElementGuid>6ae946c6-6331-4a10-a3d5-7d0302c92837</webElementGuid>
+      <webElementGuid>2c68ad07-6693-4f89-8233-78fadf11f742</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[5]/div/div/h3</value>
-      <webElementGuid>b4f27000-f341-4305-abab-f5cb763e2b11</webElementGuid>
+      <webElementGuid>43b1fac5-f40b-4516-9602-c02cedc25169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/following::h3[1]</value>
-      <webElementGuid>30d6d81a-22ce-4677-a42e-e225e1e06ae8</webElementGuid>
+      <webElementGuid>d7977e6b-86e5-49b1-8d2a-23d43b0de5d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/following::h3[1]</value>
-      <webElementGuid>fd9cf1d7-bc8e-4ccd-9cfc-83b19e8e7233</webElementGuid>
+      <webElementGuid>08ea8d84-3430-4398-9033-1b40a0821083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota'])[1]/preceding::h3[1]</value>
-      <webElementGuid>dc146b68-c544-438a-8a26-cdd2b189d4e0</webElementGuid>
+      <webElementGuid>cc88d76b-c1aa-4c81-adf6-eefb649d0e57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu'])[1]/preceding::h3[2]</value>
-      <webElementGuid>2350b663-785a-4568-91fa-644e63dee07a</webElementGuid>
+      <webElementGuid>646c8bed-1a69-4e76-aa2a-4e753d46e7b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Semua']/parent::*</value>
-      <webElementGuid>2a15af22-4e7b-443e-86c6-111e87e42ebf</webElementGuid>
+      <webElementGuid>a5458c64-da31-478b-b915-ad01b6c10fdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/h3</value>
-      <webElementGuid>590d15d2-ea86-4283-b095-9015fc3df7af</webElementGuid>
+      <webElementGuid>b07a39ff-2f15-4816-8872-b70169816115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Semua' or . = 'Semua')]</value>
-      <webElementGuid>eeb1f78a-4e9c-46a3-8a69-c985a063ad44</webElementGuid>
+      <webElementGuid>58120f36-4189-49c1-8704-d1e0f71e5f11</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

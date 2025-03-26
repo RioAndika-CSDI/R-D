@@ -27,32 +27,11 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.waitForElementPresent(findTestObject('Page Kemampuan Kredit/Title Kemampuan Kredit'), 0)
+WebUI.click(findTestObject('Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/cta_Simulasi_Kredit'))
 
-WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/Model Mobil Null'), 0)
-
-WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/Varian Mobil Null'), 0)
-
-WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/DP Mobil Null'), 0)
-
-WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rekomendasi Cicilan Ideal_0 input_inp_acd316'), 
-    'Rp20.000.000')
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rekomendasi Cicilan Ideal_inputSelect_f8ef70'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_18-27'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Hitung Kemampuan'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_kualifikasi kredit yang lebih akurat'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Cek Promo Lain_overlay_overlay__NPcCZ o_00c5ad'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Rekomendasi Cicilan Ideal Untukmu'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_Rekomendasi'))
+WebUI.verifyElementVisible(findTestObject('Homepage Component/Page_Kalkulator Kredit Mobil SEVA - Hitung Kemampuan Finansial Kamu/h1_Cari Tahu Kemampuan Finansialmu'))
 
 WebUI.closeBrowser()
 

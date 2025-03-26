@@ -27,6 +27,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.scrollToElement(findTestObject('Footer/logo Youtube'), 0)
 
 WebUI.click(findTestObject('Footer/logo Youtube'), FailureHandling.STOP_ON_FAILURE)

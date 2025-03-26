@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Cari Tahu Kemampuan Finansialmu</name>
+   <tag></tag>
+   <elementGuidId>4508763b-a67f-4f5b-a77e-aa806b5f08e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.loanCalculator_title__mG2bm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5e5689f2-93fb-420f-b9fd-ce27059fc06c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>loanCalculator_title</value>
+      <webElementGuid>16a30218-d95f-4435-8cea-4c16c20035ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cari Tahu Kemampuan Finansialmu</value>
+      <webElementGuid>2cd3f8cf-1eb1-417e-8ac5-2549520156a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;loanCalculator_titleWrapper__MBf0H&quot;]/h1[@class=&quot;loanCalculator_title__mG2bm&quot;]</value>
+      <webElementGuid>ea05342e-3d44-4141-97aa-92f5576f9843</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/h1</value>
+      <webElementGuid>576a94e9-b4dc-463b-8953-07816084e8c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA ALL NEW RUSH 1.5 S A/T GR SPORT 2024'])[1]/following::h1[1]</value>
+      <webElementGuid>e7685f85-67b2-4848-a36c-bf8c9dec5257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU SIGRA 1.2 R A/T MC 2023'])[1]/following::h1[1]</value>
+      <webElementGuid>73422587-d809-471e-832d-f1ef418ce07d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/preceding::h1[1]</value>
+      <webElementGuid>1dc4f767-6166-4002-8b73-c681fb1a5412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::h1[1]</value>
+      <webElementGuid>9e95680f-a47a-4bd9-aa3d-53328d86498f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cari Tahu Kemampuan Finansialmu']/parent::*</value>
+      <webElementGuid>9bb10cd7-ab1a-43a9-8d35-bf4eeddf45a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>82457f81-5a03-4603-82f5-4452070e19f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Cari Tahu Kemampuan Finansialmu' or . = 'Cari Tahu Kemampuan Finansialmu')]</value>
+      <webElementGuid>d67e4dee-659d-40f2-aa7f-59919267d10f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>H0039 - VerifyUserCanKualifikasi kredit-Mobil impian (WIP)</name>
+   <name>H0039 - VerifyUserCanOpenPeluangKredit-Mobil impian (WIP)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e92b959f-0c43-4ae2-8c95-5e2329dc2004</testCaseGuid>

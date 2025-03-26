@@ -255,13 +255,37 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Homepage/H0035 - VerifyUserCanSeeDetailRekomendation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c776c539-596e-478c-b6a3-55c0db3a0744</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc90e647-8999-427e-8854-b119a304757e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b2904419-1839-4dcd-908b-505cec39bc53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0036 -VerifyUserCanHitungkemampuanFromRekomendasi</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0036 -VerifyUserCanOpenSimulasiKreditFromRekomendasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da14553c-bd35-4b32-b980-424d9521da32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3258f474-0a01-40aa-92f4-292dca66e5ea</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>02d31003-0149-4d66-a793-d784ae4edd7e</guid>
@@ -274,14 +298,14 @@
       <guid>0d6869a6-ce2b-4c1d-b29b-bede4cb8b60d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanHitungKemampuanCarMobilImpian</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0038 - VerifyUserCanOpenSimulasiKreditCarMobilImpian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0e4ccfa0-8f5f-45b8-8d84-bfcdd77027f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0039 - VerifyUserCanKualifikasi kredit-Mobil impian (WIP)</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0039 - VerifyUserCanOpenPeluangKredit-Mobil impian (WIP)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

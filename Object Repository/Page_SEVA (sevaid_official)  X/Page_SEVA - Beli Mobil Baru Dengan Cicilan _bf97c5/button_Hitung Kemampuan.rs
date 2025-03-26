@@ -6,16 +6,16 @@
    <elementGuidId>145e4653-039e-427b-8b0d-71c3338959ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.alternativeCarCard_cardWrapper__If92O.cardshadow_cardShadow__Pr8Ek > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@data-testid = 'button-hitung-kemampuan-plp' and (text() = 'Hitung Kemampuan' or . = 'Hitung Kemampuan')])[1]</value>
+         <value>//a[@href=&quot;/kalkulator-kredit/${mobil}&quot;]//button[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alternativeCarCard_cardWrapper__If92O.cardshadow_cardShadow__Pr8Ek > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9327fd8f-980f-4a65-81df-76bda7694ce5</webElementGuid>
+      <webElementGuid>d2141326-fc64-49a4-b929-3aa2d3262897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>49ca5bf3-1fba-412f-a6dc-0ff952a906fc</webElementGuid>
+      <webElementGuid>2a2b771e-d567-4a0c-95e0-7aa0e2ff9d1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-hitung-kemampuan-plp</value>
-      <webElementGuid>ccae84a2-9ebf-4361-afcd-5efeed930578</webElementGuid>
+      <webElementGuid>0205e894-acf4-41f3-b02c-1cff6b337697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Hitung Kemampuan</value>
-      <webElementGuid>c3e892cc-057e-4337-8d12-89ac3801ab26</webElementGuid>
+      <webElementGuid>7986c823-3b59-4f79-82eb-5628c4f27519</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@data-testid = 'button-hitung-kemampuan-plp' and (text() = 'Hitung Kemampuan' or . = 'Hitung Kemampuan')])[1]</value>
-      <webElementGuid>d921270b-a724-40dd-ae87-faf946d5d847</webElementGuid>
+      <value>//a[@href=&quot;/kalkulator-kredit/${mobil}&quot;]//button[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+      <webElementGuid>ffc3e93c-25fd-4474-95ac-ac44b637e6b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div[5]/div[2]/div/div/div/div/div/button[2]</value>
-      <webElementGuid>ba0b3445-708d-4f82-af64-84490fc3557b</webElementGuid>
+      <webElementGuid>1d753c97-65d7-4d06-a601-eb2f2ce908ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[1]/following::button[1]</value>
-      <webElementGuid>eaf3807d-bc2b-4ca6-9286-080ff55ba56b</webElementGuid>
+      <webElementGuid>9823d340-24f6-4fbb-addd-e981fa6bb7c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.550.000/bln'])[1]/following::button[2]</value>
-      <webElementGuid>7528e442-695c-40de-89d5-d8ce2f86c4f8</webElementGuid>
+      <webElementGuid>4a488708-658e-4702-98b9-2cf72c7d9266</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu All New Ayla'])[1]/preceding::button[1]</value>
-      <webElementGuid>f2f09f08-73c5-4d6e-8f3e-d0c7f57fdb9f</webElementGuid>
+      <webElementGuid>9f75a1c7-77ce-424a-934d-20bbcac2afd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Hitung Kemampuan']/parent::*</value>
-      <webElementGuid>fedb5914-dee1-496c-a4e1-2eba6002339a</webElementGuid>
+      <webElementGuid>61ae38e0-5446-4fc0-93e5-87a39bfaebbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/button[2]</value>
-      <webElementGuid>d806bc90-42d2-43cf-abec-aa7b5508fe63</webElementGuid>
+      <webElementGuid>5b82bf98-07d8-428d-8256-42daa7e4763d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Hitung Kemampuan' or . = 'Hitung Kemampuan')]</value>
-      <webElementGuid>3a4e2bd5-01ed-402f-aa9a-51de9b4246c3</webElementGuid>
+      <webElementGuid>479026ab-e26a-4dfc-be12-33e5cb1286a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
