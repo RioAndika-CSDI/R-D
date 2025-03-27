@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cta_RememberMe</name>
+   <tag></tag>
+   <elementGuidId>cf1423c0-a2dd-493f-be0f-7bb8254fd823</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/form/div[3]/label/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3636d315-28d0-4d12-bcd8-30054a2ea6d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-4 w-4 rounded border-[1.5px] border-solid border-line bg-white peer-checked:hidden</value>
+      <webElementGuid>9c32096a-0b13-4d9d-9df7-6482611c2390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;flex w-full flex-col gap-4&quot;]/div[@class=&quot;mt-2 flex justify-between&quot;]/label[@class=&quot;mb-0 flex select-none items-center justify-center font-OpenSans text-base text-bodyCopy cursor-pointer&quot;]/div[@class=&quot;h-4 w-4 rounded border-[1.5px] border-solid border-line bg-white peer-checked:hidden&quot;]</value>
+      <webElementGuid>d0ab27c6-d45d-45ea-8b5f-bf8b33278e0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/form/div[3]/label/div</value>
+      <webElementGuid>d1259b36-8d19-4dc7-83e1-5169ab4842a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+      <webElementGuid>9fca8156-f323-43b1-a36b-7b3c523c45a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
