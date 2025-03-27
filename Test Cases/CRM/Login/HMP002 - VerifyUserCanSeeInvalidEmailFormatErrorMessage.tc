@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HMP002 - VerifyUserCanSeeInvalidEmailFormatErrorMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4bca1ed-988d-4574-a63a-c5a0b021f6ad</testCaseGuid>
+</TestCaseEntity>
