@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>H0036 -VerifyUserCanHitungkemampuanFromRekomendasi</name>
+   <name>H0038 - VerifyUserCanOpenSimulasiKreditCarMobilImpian</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c0234704-267b-4ca2-92e7-c16dba1cc3ca</testCaseGuid>
+   <testCaseGuid>1d6901da-cdc3-40d7-8712-eda7cbd7549e</testCaseGuid>
 </TestCaseEntity>

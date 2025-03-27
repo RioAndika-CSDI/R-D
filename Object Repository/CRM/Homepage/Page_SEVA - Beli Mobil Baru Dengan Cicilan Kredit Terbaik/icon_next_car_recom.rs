@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_next_car_recom</name>
+   <tag></tag>
+   <elementGuidId>4a1cb676-3a56-4fba-baf5-f3ba2d02bd79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.navigationTabV4_chevronButton__wkRX8.navigationTabV4_nextButton__BomH5.swiper-button-next-car-spec-modalcar-recom-nav-tab > svg</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;testimonyWidget_container__OiQKA&quot;]/div[1]/div[@class=&quot;navigationTabV4_container__suaBc carRecomendations_tabMenuContainer__aL6YY&quot;]/button[@class=&quot;navigationTabV4_chevronButton__wkRX8 navigationTabV4_nextButton__BomH5 swiper-button-next-car-spec-modalcar-recom-nav-tab&quot;]/svg[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='BYD'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>8e414bd8-f90e-4d55-8657-f8a5522f4659</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>fe5f0d31-1ce5-41c4-b521-ed4cc5b9bd5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>bf3cb43c-fd50-4bc5-b87a-c2b1c58405a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 40 40</value>
+      <webElementGuid>7d99b9b4-83b7-4f59-84b4-937e497b12ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>0c043089-abae-4552-be70-1f8fe1838fa9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>2ab19cf5-ee10-4d82-b140-e1ad44c01927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;testimonyWidget_container__OiQKA&quot;]/div[1]/div[@class=&quot;navigationTabV4_container__suaBc carRecomendations_tabMenuContainer__aL6YY&quot;]/button[@class=&quot;navigationTabV4_chevronButton__wkRX8 navigationTabV4_nextButton__BomH5 swiper-button-next-car-spec-modalcar-recom-nav-tab&quot;]/svg[1]</value>
+      <webElementGuid>20d14bca-0fcc-4422-a619-76a091f86aea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BYD'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>81c9c90a-68e7-4372-8627-dd6d084b5751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wuling'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>82d16d63-1f5c-4f36-98f4-0c39325c016c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu All New Ayla'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>3390a8f9-9f25-4e4e-8f2e-9eb1c27af805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

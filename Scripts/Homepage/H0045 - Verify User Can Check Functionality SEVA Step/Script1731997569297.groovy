@@ -29,6 +29,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Homepage Component/how_to_use_pilih-mobil-impian'))
 
 WebUI.back()
@@ -44,4 +46,6 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 WebUI.click(findTestObject('Homepage Component/how_to_use_kualifikasi-kredit'))
 
 WebUI.back()
+
+WebUI.closeBrowser()
 

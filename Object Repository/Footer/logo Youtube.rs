@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@datatest-id = 'footer-logo-youtube']</value>
+         <value>//*[@href = 'https://www.youtube.com/@sevabyastra']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>datatest-id</name>
       <type>Main</type>
       <value>footer-logo-youtube</value>
-      <webElementGuid>de0fc2f3-7b64-4684-9bb9-aef2b1122577</webElementGuid>
+      <webElementGuid>1d2344a6-4593-48d8-b67e-34928471a501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.youtube.com/@sevabyastra</value>
+      <webElementGuid>a86ea698-75c0-489a-87d4-498294a42da0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cta_Simulasi_Kredit</name>
+   <tag></tag>
+   <elementGuidId>bf46b5ff-3b4f-49d1-8023-133bf1ba9bec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[8]/div/a[2]/div/h3/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6c7563e4-1dc0-4884-b70a-8a794f718a87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>howToUse_cardTextBold</value>
+      <webElementGuid>d79a2684-2346-42b8-8f81-3bb99137992f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasi </value>
+      <webElementGuid>1625e98c-d110-41c3-9945-e3fc3f6d3028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;howToUse_wrapper__rRJu1&quot;]/div[@class=&quot;howToUse_cardSpacing__SKQjC&quot;]/a[@class=&quot;howToUse_cardHowToUse__OQ5Nj&quot;]/div[1]/h3[1]/p[@class=&quot;howToUse_cardTextBold__lWgZ4&quot;]</value>
+      <webElementGuid>bf45ebed-5788-4b4a-968b-f52faff76c34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[8]/div/a[2]/div/h3/p</value>
+      <webElementGuid>907fb5b7-0c7a-46ff-9035-d5833b7bbce9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara Dapatkan Mobil Impian di SEVA'])[1]/following::p[4]</value>
+      <webElementGuid>c3d6dc4d-f13f-44e2-9129-4ada06e7831a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua mobil'])[1]/following::p[4]</value>
+      <webElementGuid>7c510f9f-0658-45a4-8e9a-7e7fe4eee67b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA Car of The Month'])[1]/preceding::p[6]</value>
+      <webElementGuid>9306c61c-eef5-49f9-a9cb-c068b6ce3103</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All New BZ4X'])[1]/preceding::p[6]</value>
+      <webElementGuid>1057c580-1d8f-4113-ae61-c6d204567e30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simulasi']/parent::*</value>
+      <webElementGuid>1deff7bf-834f-4368-89b1-cfaeea2434e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/div/h3/p</value>
+      <webElementGuid>59b289b9-7ca2-4c2e-9270-d61adce7c531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Simulasi ' or . = 'Simulasi ')]</value>
+      <webElementGuid>866e615d-398f-4950-be41-130d193e9966</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

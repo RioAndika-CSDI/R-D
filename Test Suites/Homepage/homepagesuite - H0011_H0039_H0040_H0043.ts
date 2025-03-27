@@ -22,7 +22,7 @@
       <guid>0b9580b9-7d93-4a7b-8bb5-7100c3b9f561</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0039 - VerifyUserCanKualifikasi kredit-Mobil impian (WIP)</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0039 - VerifyUserCanOpenPeluangKredit-Mobil impian (WIP)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

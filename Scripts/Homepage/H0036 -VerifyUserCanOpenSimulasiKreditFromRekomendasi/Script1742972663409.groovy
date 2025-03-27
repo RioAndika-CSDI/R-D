@@ -27,26 +27,53 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-//WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan'))
+if (tab == 'Semua') {
+    //    WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h3_Semua'), 
+    //        FailureHandling.STOP_ON_FAILURE // Optionally, you can handle what happens if 'tab' is not "a"
+    //        )
+} else if (tab == 'Toyota') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Toyota'))
+} else if (tab == 'Daihatsu') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Daihatsu'))
+} else if (tab == 'Isuzu') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Isuzu'))
+} else if (tab == 'BMW') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_BMW'))
+} else if (tab == 'Hyundai') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'))
+} else if (tab == 'Wuling') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('CRM/Homepage/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/div_wuling'))
+} else if (tab == 'BYD') {
+    WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'))
+
+    WebUI.click(findTestObject('CRM/Homepage/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/div_byd'))
+} else {
+}
+
+WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan', 
+        [('mobil') : mobil]))
+
+WebUI.waitForElementPresent(findTestObject('Page Kemampuan Kredit/Title Kemampuan Kredit'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/Model Mobil Null'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/Varian Mobil Null'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('Page Kemampuan Kredit/DP Mobil Null'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rekomendasi Cicilan Ideal_0 input_inp_acd316'), 
-    'Rp35.000.000')
+    'Rp20.000.000')
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/input_Rekomendasi Cicilan Ideal_inputSelect_f8ef70'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_18-27'))
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/button_Hitung Kemampuan'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_kualifikasi kredit yang lebih akurat'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Cek Promo Lain_overlay_overlay__NPcCZ o_00c5ad'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Rekomendasi Cicilan Ideal Untukmu'))
-
-WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/span_Rekomendasi'))
 
 WebUI.closeBrowser()
 
