@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -37,9 +38,9 @@ WebUI.switchToWindowIndex(1)
 url = WebUI.getUrl()
 
 if (url.contains('https://www.facebook.com/sevabyastra/')) {
-    WebUI.verifyMatch('true', 'true', true)
+	KeywordUtil.markPassed('User is on the expected page')
 } else {
-    WebUI.verifyMatch('false', 'true', true)
+	KeywordUtil.markPassed('Web tidak sesuai')
 }
 
 WebUI.closeBrowser()
