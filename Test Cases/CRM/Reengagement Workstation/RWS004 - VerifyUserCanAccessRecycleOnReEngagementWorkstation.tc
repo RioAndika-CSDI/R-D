@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RWS005 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</name>
+   <name>RWS004 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>367bfbe7-08be-4b52-86a8-281090984f05</testCaseGuid>

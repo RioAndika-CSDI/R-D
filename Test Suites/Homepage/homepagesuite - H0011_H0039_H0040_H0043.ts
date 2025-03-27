@@ -15,7 +15,7 @@
       <guid>94fc8138-c244-4869-b58f-90437952caad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

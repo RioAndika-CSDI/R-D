@@ -4,5 +4,6 @@
    <name>H0002 - VerifyUserCanChooseCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>541a6388-9454-41fd-86f1-d796c00117ce</testCaseGuid>
 </TestCaseEntity>

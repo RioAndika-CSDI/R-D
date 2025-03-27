@@ -6,12 +6,12 @@
    <elementGuidId>a4be6e48-e7e5-4718-83de-06073ce1b585</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//svg[(text() = 'SEVA Twitter Icon' or . = 'SEVA Twitter Icon')]</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'footer-logo-twitter']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@datatest-id = 'footer-logo-twitter']</value>
+         <key>XPATH</key>
+         <value>//svg[(text() = 'SEVA Twitter Icon' or . = 'SEVA Twitter Icon')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>0351599c-ab62-4370-89e8-a2d03399a0e9</webElementGuid>
+      <webElementGuid>51e1a9e4-a27e-4497-bfa4-e79d99a69c72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>width</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>ec0f4844-45c5-4bd2-9fc1-403f4f17a169</webElementGuid>
+      <webElementGuid>4e8e7c3e-a151-4861-83b6-ce3f6ff8ba6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>height</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>d94bc3c8-e680-4263-a37e-db0f8926b586</webElementGuid>
+      <webElementGuid>482c11ca-522a-452f-8fc1-065b9afa21bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>2fea3529-b184-4d87-a25b-3e1d5fa6c4ba</webElementGuid>
+      <webElementGuid>81fe84a8-1dfa-4f1d-a703-12cad17b64af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>cf231c0e-f87a-4196-8925-83ef33b7581d</webElementGuid>
+      <webElementGuid>990e1632-3148-469a-b6e5-1e617fe7f8ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>b2a16a2e-64ae-4839-b7c2-c102ef621840</webElementGuid>
+      <webElementGuid>d229927e-0167-45f6-944b-f2f9741b99da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEVA Twitter Icon</value>
-      <webElementGuid>cf854c5c-34de-4ded-977f-8e7f2d36fffd</webElementGuid>
+      <webElementGuid>ef28dfea-bbce-4c13-8753-7f09123377e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,15 +83,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_socialWrapper__UDqS9&quot;]/a[2]/svg[1]</value>
-      <webElementGuid>74bb5271-b975-4519-b8ab-7908b878206b</webElementGuid>
+      <webElementGuid>9b2b8802-ee4a-4575-8f9b-10d5192726ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>datatest-id</name>
+      <name>data-testid</name>
       <type>Main</type>
       <value>footer-logo-twitter</value>
-      <webElementGuid>66717fcd-45d2-4553-b69e-ed821604c2b5</webElementGuid>
+      <webElementGuid>29212066-a88d-4fb5-87b2-41662576bfb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//svg[(text() = 'SEVA Twitter Icon' or . = 'SEVA Twitter Icon')]</value>
-      <webElementGuid>b874b443-2a28-4978-9994-784bb8d1be49</webElementGuid>
+      <webElementGuid>3f07fbbe-5b3b-447d-ba3a-fa544cbe0ab8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

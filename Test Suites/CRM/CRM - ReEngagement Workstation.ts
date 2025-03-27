@@ -29,14 +29,14 @@
       <guid>7ca4780f-83a2-455b-babc-aae400c2b8b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS004 - VerifyUserCanAccessReactivationWAOnReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS003 - VerifyUserCanAccessReactivationWAOnReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8ba7221e-e7d8-442f-96af-fc0cb657fb7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS005 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</testCaseId>
+      <testCaseId>Test Cases/CRM/Reengagement Workstation/RWS004 - VerifyUserCanAccessRecycleOnReEngagementWorkstation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

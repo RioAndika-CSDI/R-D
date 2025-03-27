@@ -17,27 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser(GlobalVariable.crmprod)
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
+WebUI.maximizeWindow()
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserLeader)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.verifyElementClickable(findTestObject('CRM/Login/cta_SeePassword'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Hubungi Kami'))
+WebUI.click(findTestObject('CRM/Login/cta_SeePassword'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage Component/pop-up-leads-form'), 0)
-
-WebUI.setText(findTestObject('Homepage Component/leads-form-input-name'), 'Testing Ruth')
-
-WebUI.setText(findTestObject('Homepage Component/leads-form-input-no-hp'), '85349524556')
-
-WebUI.click(findTestObject('Homepage Component/checkbox-agreement-pop-up-leads-form'))
-
-WebUI.click(findTestObject('Homepage Component/button-submit-leads-pop-up'))
-
-WebUI.closeBrowser()
+WebUI.getText(findTestObject('CRM/Login/field_password'))
 

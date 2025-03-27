@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@datatest-id = 'footer-logo-instagram']</value>
+         <value>//*[@data-testid = 'footer-logo-instagram']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>datatest-id</name>
+      <name>data-testid</name>
       <type>Main</type>
       <value>footer-logo-instagram</value>
-      <webElementGuid>cb48a456-3310-4de7-8f1d-0b8d156267b9</webElementGuid>
+      <webElementGuid>fa731fad-820e-4eab-8553-80ae8eeb9c18</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

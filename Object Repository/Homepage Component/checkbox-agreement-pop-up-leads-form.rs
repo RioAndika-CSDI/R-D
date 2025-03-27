@@ -6,14 +6,14 @@
    <elementGuidId>1f667584-8d24-4191-869f-8d38e35a2564</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='leadsFormPrimary_form__Z__oW']//div[contains(@class,'agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE')]//div//*[name()='svg']//*[name()='rect']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='ant-modal-body']//div[contains(@class, 'agreement_agreementTerms') and contains(@class, 'agreement_primary')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

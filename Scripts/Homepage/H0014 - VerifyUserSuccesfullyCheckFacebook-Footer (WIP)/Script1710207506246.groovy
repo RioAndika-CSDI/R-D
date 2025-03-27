@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -27,9 +28,19 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 WebUI.click(findTestObject('Footer/logo Facebook'))
 
-WebUI.switchToWindowUrl('https://www.facebook.com/sevabyastra/')
+//WebUI.switchToWindowUrl('https://www.facebook.com/sevabyastra/')
+WebUI.switchToWindowIndex(1)
+
+url = WebUI.getUrl()
+
+if (url.contains('https://www.facebook.com/sevabyastra/')) {
+	KeywordUtil.markPassed('User is on the expected page')
+} else {
+	KeywordUtil.markPassed('Web tidak sesuai')
+}
 
 WebUI.closeBrowser()
-

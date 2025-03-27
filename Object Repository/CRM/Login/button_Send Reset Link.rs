@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Send Reset Link</name>
+   <tag></tag>
+   <elementGuidId>81649f87-a8c0-46b5-ae98-02cf3eede5e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>33ce2a3e-c65b-4da2-b62f-1ea7c76cdb65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 outline-none transition duration-150 ease-out text-center font-Kanyon font-bold bg-primaryRed text-white flex items-center justify-center gap-2 px-4 rounded hover:enabled:bg-[#AD2726] active-focus-visible:enabled:bg-[#821D1D] disabled:bg-placeholder w-full h-16 text-2xl/[29.35px] mt-[97px]</value>
+      <webElementGuid>1e1bcb5a-3370-4041-b55e-12eb5da04ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>3ec292f4-449f-4671-bbaf-dd6db6bc3dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send Reset Link</value>
+      <webElementGuid>49571dae-070c-4255-9d2c-b3aaa5945696</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;mt-3 w-full&quot;]/button[@class=&quot;m-0 outline-none transition duration-150 ease-out text-center font-Kanyon font-bold bg-primaryRed text-white flex items-center justify-center gap-2 px-4 rounded hover:enabled:bg-[#AD2726] active-focus-visible:enabled:bg-[#821D1D] disabled:bg-placeholder w-full h-16 text-2xl/[29.35px] mt-[97px]&quot;]</value>
+      <webElementGuid>68945f2b-c009-4ac7-9b1d-b0892d8a19ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>30210a21-3fe0-44b2-b680-6fe84a531e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/form/button</value>
+      <webElementGuid>4a129bff-2233-4f0a-a824-6805363087d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter your email and instructions will be sent to you.'])[1]/following::button[1]</value>
+      <webElementGuid>1df2fe64-3d20-4e8e-9a15-b014b3274c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::button[1]</value>
+      <webElementGuid>1390095e-c3f2-4b35-94d3-7e84d0814a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::button[1]</value>
+      <webElementGuid>f8eaa7b8-36c4-466d-bcf8-cd44d56c3b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Send Reset Link']/parent::*</value>
+      <webElementGuid>c2a426c9-1e28-44ce-b18e-59c626f0bd89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>95d88598-8632-456b-9d87-e8d7d47c6c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Send Reset Link' or . = 'Send Reset Link')]</value>
+      <webElementGuid>81a31de9-308c-4aa7-8f14-988741d59a74</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

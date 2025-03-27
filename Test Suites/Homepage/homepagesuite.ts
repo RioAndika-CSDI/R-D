@@ -29,7 +29,7 @@
       <guid>e01d92bb-9505-4815-a6d5-c2e0e2b9ea8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0003 - Verify user can click cek kualifikasi kredit from homepage (WIP)</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0003 - VerifyUserCanClickCekPeluangKreditFromHomepage (WIP)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -78,14 +78,14 @@
       <guid>63dcad67-082e-4f07-9103-a1f7080ec2b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0011 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7c72b94d-e422-4bbf-8407-bf1c41b7c616</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityHubungiKami-Footer</testCaseId>
+      <testCaseId>Test Cases/Homepage/H0010 - VerifyUserCanCheckFunctionalityKebijakanPrivasi-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -119,63 +119,63 @@
    <testCaseLink>
       <guid>4bdda629-ef0e-4156-8d06-4e1721a1ea06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0016 - VerifyUserSeeAboutISOCertificate-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6b7b85c6-fc5f-4bfe-88f2-ff97894d98d5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0017 - VerifyUserCanCheckListHeaderMenuBeliMobil,Promo,Artikel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>585b54dd-9a9e-44c8-84b9-82dfffbdc3b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0018 - VerifyUserCanChooseCityFromPopupCitySelector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fa8526e7-6242-4439-855a-9518162ece3b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0019 - VerifyUserCanLoginFromHomepageSeva</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fdeeb096-59ec-43de-a6c2-6dc6e59a4cba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0020 - VerifyUserCanFilterCarByTypeMPV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>82f63dc1-b2eb-498f-bac9-c2e832f08525</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0021 - VerifyUserCanFilterCarByTypeSUV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8560fc85-e76a-44e8-94bc-97739c079449</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0022- VerifyUserCanFilterCarByTypeSport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>069e7962-11cf-48c5-8111-b4b53d2e487e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0023 - VerifyUserCanFilterCarByTypeSedan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ad51220d-90b0-46e3-98df-2ffef6bd56ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0024 - VerifyUserCanFilterCarByTypeHatchback</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -189,70 +189,70 @@
    <testCaseLink>
       <guid>1e0ce30b-cc02-4769-a909-4e7ecaad8211</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0026 - VerifyUserCannotUnselectAllBrand</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3c9c2d63-5bf7-47bd-8c0a-0a2f1e9504bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0027 - VerifyUserCannotUnselectAllType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>99f29fee-3799-41f5-8221-ccd7e51dac13</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0028 - CekFunctionalityButtonAturUlangBrandTray</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>eda74781-f53a-4e3a-a55f-db3d2e9a6eb9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0029 - CekFunctionalityButtonAturUlangTypeTray</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9f0c100e-2e6f-4bad-b993-d1c85ab1c214</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0030 - VerifyUserCanSearchCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8b5ffb8a-8583-462c-88dc-e14f3ddb7e4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0031 - VerifyUserCanSearchACarWithoutInputFilter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>535b85fa-f673-48d9-8998-2c6d8ca2879a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0032 - VerifyResponseWhenInputAllFormButuhBantuan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2187cff9-1eca-4643-b556-1b2567d24a1e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0033 - VerifyCheckResponseWhenFormNameIsEmpty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>767e165d-546d-4ab7-9672-482f9ae0eba0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0034 - VerifyUserCanClickLogoSeva</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c39844d5-ea5a-4457-830c-6799ede64bba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0035 - VerifyUserCanSeeDetailRekomendation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -290,7 +290,7 @@
    <testCaseLink>
       <guid>02d31003-0149-4d66-a793-d784ae4edd7e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0037 - VerifyUserCanChooseCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -311,14 +311,14 @@
    <testCaseLink>
       <guid>e3cbfc02-2dc4-41a3-8746-b9ebcfd80cff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0040 - SubmitLeadsHomepageLoginUser (WIP)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0a1e89e9-70cf-4bfb-b864-a536eb4c763c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0041 - SubmitLeadsHomepageNotLoginUser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -331,28 +331,28 @@
    <testCaseLink>
       <guid>ada5375d-3e56-4c61-b8f7-bc87bd00c93f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0042 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f0f3c42c-c08c-4447-8853-eeade4b8d948</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0043 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b6fc26a1-1649-41af-a663-647cea03f46d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0046 - Verify User Can Access SEVA Bottom Widget</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9f4c848e-0ace-4ac2-8af3-576b04b02db7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Homepage/H0045 - Verify User Can Check Functionality SEVA Step</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
