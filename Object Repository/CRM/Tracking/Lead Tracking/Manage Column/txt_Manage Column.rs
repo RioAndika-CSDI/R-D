@@ -3,7 +3,7 @@
    <description></description>
    <name>txt_Manage Column</name>
    <tag></tag>
-   <elementGuidId>2807576b-d94c-49d4-9a52-76307e0cc2a3</elementGuidId>
+   <elementGuidId>8526e3aa-fb36-4034-8c98-cd5361da58ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='radix-:rlk:']/div/div/div</value>
+         <value>//div[@id='radix-:r24:']/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a68b18cf-6a14-4764-8ec4-4b421e4e5d6f</webElementGuid>
+      <webElementGuid>81bbf79c-e85c-4f9d-b096-b73bbc2173fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-heading-2 font-bold text-text-primary</value>
-      <webElementGuid>d1bd3eda-76a3-41a5-9a25-cda5f9b6f28b</webElementGuid>
+      <webElementGuid>f3880557-92bc-4924-96f6-069d90d76978</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Manage Column</value>
-      <webElementGuid>3333f9a2-1c35-435c-bd49-26c3f22c491b</webElementGuid>
+      <webElementGuid>c02be9be-9c52-4b8c-8213-9de096600b98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:rlk:&quot;)/div[@class=&quot;p-6 pb-0&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-heading-2 font-bold text-text-primary&quot;]</value>
-      <webElementGuid>dc9b577b-de5b-4e4f-aefd-b0da229fd433</webElementGuid>
+      <value>id(&quot;radix-:r24:&quot;)/div[@class=&quot;p-6 pb-0&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-heading-2 font-bold text-text-primary&quot;]</value>
+      <webElementGuid>ada31b56-bdbb-4c8a-9e5a-78881dc9c1cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='radix-:rlk:']/div/div/div</value>
-      <webElementGuid>bb8a2fd3-2588-490f-8a8b-ea410c4d9faa</webElementGuid>
+      <value>//div[@id='radix-:r24:']/div/div/div</value>
+      <webElementGuid>113b2e13-8163-4780-97b1-0ac190635803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[6]</value>
-      <webElementGuid>8d091cb5-6887-4ce9-b02f-1efe9259d64f</webElementGuid>
+      <webElementGuid>bbf10d6e-8ec5-4c45-b5f9-d84e760334b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[6]</value>
-      <webElementGuid>a92bb92d-c3a9-41df-8a8a-98195d172bae</webElementGuid>
+      <webElementGuid>738e065f-9e8a-4b99-8870-e46fd17606d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created By Me'])[1]/preceding::div[5]</value>
-      <webElementGuid>0c5c9d05-f027-4a22-b38d-d931e421ee30</webElementGuid>
+      <webElementGuid>b3074f51-d7cf-4f1b-ac4e-a612bab9e043</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[1]/preceding::div[6]</value>
-      <webElementGuid>68c2630d-dcc5-4b7d-bfb3-5760e7d1c7ef</webElementGuid>
+      <webElementGuid>b7c26a66-7e26-46a1-b491-01498c52ee4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Manage Column']/parent::*</value>
-      <webElementGuid>81c20745-6628-492f-a916-51343a5fdec6</webElementGuid>
+      <webElementGuid>e02a925d-78cf-4564-ae5f-e6779e331f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div</value>
-      <webElementGuid>7d6ac44f-5dfb-4777-8495-91f8942fa087</webElementGuid>
+      <webElementGuid>ebbf035d-225f-438c-bfdf-22a3cb3afc7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Manage Column' or . = 'Manage Column')]</value>
-      <webElementGuid>fb635742-bac6-4f13-bc05-04092364a23e</webElementGuid>
+      <webElementGuid>c04b7852-8600-4401-9406-52e4c1bda596</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

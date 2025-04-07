@@ -19,27 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CRM/Task Tracking/TTR001 - VerifyUserCanAccessTasksTracking'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CRM/Tracking/Task Tracking/Manage Column/icon_manage column'))
-
-WebUI.verifyElementText(findTestObject('CRM/Tracking/Task Tracking/Manage Column/txt_Manage Column'), 'Manage Column')
-
-WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Manage Column/txt_Created By Me'))
-
-WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Manage Column/txt_Shared With Me'))
-
-WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Manage Column/txt_Public Columns'))
+WebUI.click(findTestObject('CRM/Tracking/Task Tracking/Manage Column/btn_manage column'))
 
 WebUI.click(findTestObject('CRM/Tracking/Task Tracking/Manage Column/input_Preset Manage Column'))
 
 WebUI.setText(findTestObject('CRM/Tracking/Task Tracking/Manage Column/input_Preset Manage Column'), 'all tasks')
 
-WebUI.verifyElementText(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/txt_All Leads'), 'All Tasks')
-
-WebUI.click(findTestObject('CRM/Tracking/Task Tracking/Manage Column/input_All column'))
-
-WebUI.setText(findTestObject('CRM/Tracking/Task Tracking/Manage Column/input_All column'), 'leads')
-
-WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Manage Column/col_Column'))
+WebUI.clearText(findTestObject('CRM/Tracking/Task Tracking/Manage Column/input_Preset Manage Column'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -3,15 +3,15 @@
    <description></description>
    <name>txt_Created By Me</name>
    <tag></tag>
-   <elementGuidId>247d63bd-7c3b-4bfd-ac6f-d35ee9492b11</elementGuidId>
+   <elementGuidId>c2b2f2db-383b-4d22-b572-f0785d1c6ad0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.text-body-regular.font-semibold.text-text-primary</value>
+         <value>h3.m-0.flex</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='radix-:rmb:']/div[2]</value>
+         <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,16 +21,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>7b610409-166e-46c4-8621-1966ce830d8b</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>d5adc82e-2bbc-4a4f-96d2-5de8ea700ca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-orientation</name>
+      <type>Main</type>
+      <value>vertical</value>
+      <webElementGuid>9ea6738b-1e7e-4fa7-9d8a-70dab61c9867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>9eaea0fe-e4ca-43b5-a40d-2c4b09bfda7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-body-regular font-semibold text-text-primary</value>
-      <webElementGuid>5012b638-daf5-4c4d-9476-9eb8deb5c57d</webElementGuid>
+      <value>m-0 flex</value>
+      <webElementGuid>c214094c-343e-4e10-9ebd-7da18b37ef8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,78 +54,62 @@
       <name>text</name>
       <type>Main</type>
       <value>Created By Me</value>
-      <webElementGuid>fa7d6e3f-5c1b-485c-8625-4b110ec849b3</webElementGuid>
+      <webElementGuid>ca4999fa-7028-4e62-9a39-52251b817e49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:rmb:&quot;)/div[@class=&quot;text-body-regular font-semibold text-text-primary&quot;]</value>
-      <webElementGuid>77a73ab5-ec47-48b4-9156-7621bafd63ac</webElementGuid>
+      <value>id(&quot;radix-:r24:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[1]/div[2]/div[1]/h3[@class=&quot;m-0 flex&quot;]</value>
+      <webElementGuid>68a298d0-4d98-42b7-9a68-9dcae4656199</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='radix-:rmb:']/div[2]</value>
-      <webElementGuid>a7a53f1c-edaa-4756-b8b9-676a3421eef8</webElementGuid>
+      <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div/h3</value>
+      <webElementGuid>bf509675-2b2e-44e1-9550-aafa5aac01bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Column'])[1]/following::div[9]</value>
-      <webElementGuid>7447eeff-0284-46ef-8f61-fc6266dba0b3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Column'])[1]/following::h3[1]</value>
+      <webElementGuid>54580d08-86bd-44c8-9c8a-de24c8c31f5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[15]</value>
-      <webElementGuid>03e261dc-6e81-481c-b59a-5da63ab31c77</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h3[1]</value>
+      <webElementGuid>ac36d3c7-99fa-4700-a754-a0b96bf1c7bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[1]/preceding::div[1]</value>
-      <webElementGuid>fe527049-0d14-44af-8d01-a170b3e5d599</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[2]/preceding::div[4]</value>
-      <webElementGuid>a82d3775-710b-4ae6-b685-b76701a9c660</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Created By Me']/parent::*</value>
-      <webElementGuid>77321d4b-a859-4026-b99b-da409ddc153f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[1]/preceding::h3[1]</value>
+      <webElementGuid>5e9154d2-6d52-40c5-96c9-19e747814d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/div[2]</value>
-      <webElementGuid>a8b0a9d9-4eb9-4933-b885-045b31adb109</webElementGuid>
+      <value>//div[2]/div/div[2]/div/h3</value>
+      <webElementGuid>4122b305-f288-4a11-8c7e-a0a1cb745657</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Created By Me' or . = 'Created By Me')]</value>
-      <webElementGuid>c282e303-56a0-48a1-abc2-da45259f1bba</webElementGuid>
+      <value>//h3[(text() = 'Created By Me' or . = 'Created By Me')]</value>
+      <webElementGuid>00aebe5a-a0f3-4140-996d-587df37cf11b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

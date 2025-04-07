@@ -3,15 +3,15 @@
    <description></description>
    <name>txt_Public Columns</name>
    <tag></tag>
-   <elementGuidId>6f3362c3-221d-4b9d-b1e4-0fe30d0ccec8</elementGuidId>
+   <elementGuidId>e303e774-009d-4194-9ecd-f8c8c85502a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div:nth-of-type(3) > h3.m-0.flex</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='radix-:rmf:']/div[2]</value>
+         <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div[3]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,16 +21,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>e3cb7ddf-344f-40cc-adf0-af8f71f5ef76</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>1edfe1d7-0d47-4c31-8c8b-150d17466e2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-orientation</name>
+      <type>Main</type>
+      <value>vertical</value>
+      <webElementGuid>76715e06-117b-470b-9df4-73e43b25a449</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>3fbd1cbb-dbae-4fd4-950e-289f9df3fc14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-body-regular font-semibold text-text-primary</value>
-      <webElementGuid>dfbee111-a6ea-4220-af38-9c8458de44bf</webElementGuid>
+      <value>m-0 flex</value>
+      <webElementGuid>9a53e517-f7df-46a5-84e3-0a8958f09746</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,78 +54,62 @@
       <name>text</name>
       <type>Main</type>
       <value>Public Columns</value>
-      <webElementGuid>2a68264f-3f22-4af5-87ad-9d029c9bd50c</webElementGuid>
+      <webElementGuid>fec4d1bc-3141-402f-b92e-6fbecd1ae5eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:rmf:&quot;)/div[@class=&quot;text-body-regular font-semibold text-text-primary&quot;]</value>
-      <webElementGuid>3eea885e-c771-454c-ba89-4a8e6239cf50</webElementGuid>
+      <value>id(&quot;radix-:r24:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[1]/div[2]/div[3]/h3[@class=&quot;m-0 flex&quot;]</value>
+      <webElementGuid>344ccc57-fcd2-4ff6-8aba-ced1d908c092</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='radix-:rmf:']/div[2]</value>
-      <webElementGuid>d0877ab7-92f8-4853-b72b-f3f4bf54b7fa</webElementGuid>
+      <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div[3]/h3</value>
+      <webElementGuid>ef4a8876-d3e9-4729-bb5f-73f0060c02b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='nik &amp; call'])[1]/following::div[4]</value>
-      <webElementGuid>f0002988-e84d-4b1d-b9de-9377a31dab9a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nik &amp; call'])[1]/following::h3[1]</value>
+      <webElementGuid>95d946da-bd86-4a63-8f9f-ea32da9b9f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared With Me'])[1]/following::div[8]</value>
-      <webElementGuid>4c398214-ac64-40e9-944c-216fe311be6d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared With Me'])[1]/following::h3[1]</value>
+      <webElementGuid>ecd0e78a-0ab5-4330-b90c-eadd94f5c562</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Leads'])[1]/preceding::div[1]</value>
-      <webElementGuid>449ef408-7181-43c2-9cf9-55592361c3cb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[2]/preceding::div[7]</value>
-      <webElementGuid>2985a3b0-80be-4980-9453-eed192468090</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Public Columns']/parent::*</value>
-      <webElementGuid>64dfff5e-d7b3-47d1-b4f3-1be3f317e8c5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Leads'])[1]/preceding::h3[1]</value>
+      <webElementGuid>26a07fc0-afdc-474c-980f-b687cf5179e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/h3/button/div[2]</value>
-      <webElementGuid>8002f15a-275c-4f4b-be4f-9c1a36f84c57</webElementGuid>
+      <value>//div[2]/div/div[2]/div[3]/h3</value>
+      <webElementGuid>54f5a6f1-93fa-4c6a-af7b-6f5faed2a44e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Public Columns' or . = 'Public Columns')]</value>
-      <webElementGuid>1c84e39d-21c9-4d83-9c70-903f2af15a15</webElementGuid>
+      <value>//h3[(text() = 'Public Columns' or . = 'Public Columns')]</value>
+      <webElementGuid>2c978b61-4938-46d1-a713-21c8ba681670</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
