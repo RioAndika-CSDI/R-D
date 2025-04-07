@@ -3,15 +3,15 @@
    <description></description>
    <name>txt_Shared With Me</name>
    <tag></tag>
-   <elementGuidId>69465e15-e3f8-44ed-b93f-78d7654c3d64</elementGuidId>
+   <elementGuidId>d31d65d4-c313-4e1b-a79c-24f8e9f8b8ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div:nth-of-type(2) > h3.m-0.flex</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='radix-:rmd:']/div[2]</value>
+         <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div[2]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,16 +21,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>613c4715-f3ee-4f8e-a179-ddcde9a7a3e2</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>43cb7b76-0e9d-48f8-8379-932975f66f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-orientation</name>
+      <type>Main</type>
+      <value>vertical</value>
+      <webElementGuid>86d9a329-c919-4db1-a784-cbafb0e9b3b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>b36e378b-6b66-4602-b758-1471b1b8984a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-body-regular font-semibold text-text-primary</value>
-      <webElementGuid>7715d5fc-57b7-4ab1-a9dd-c3ab0355f4b2</webElementGuid>
+      <value>m-0 flex</value>
+      <webElementGuid>b8ae43c2-e22b-4f98-aa96-8b5f6b5dbb2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,78 +54,62 @@
       <name>text</name>
       <type>Main</type>
       <value>Shared With Me</value>
-      <webElementGuid>e5679821-6e6c-498a-a7d2-2441ec7b86cf</webElementGuid>
+      <webElementGuid>fc7fd89a-5cf5-46f1-94e4-30d5411ea8af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:rmd:&quot;)/div[@class=&quot;text-body-regular font-semibold text-text-primary&quot;]</value>
-      <webElementGuid>35b1c5a4-51de-4a28-91fe-5304f9519b13</webElementGuid>
+      <value>id(&quot;radix-:r24:&quot;)/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4 grid grid-cols-[1fr_1px_1fr] gap-4&quot;]/div[1]/div[2]/div[2]/h3[@class=&quot;m-0 flex&quot;]</value>
+      <webElementGuid>8ac7e072-597b-4f7f-b6bd-930f17ce57b5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='radix-:rmd:']/div[2]</value>
-      <webElementGuid>14258bd6-607f-4669-acab-190362eef096</webElementGuid>
+      <value>//div[@id='radix-:r24:']/div[2]/div/div[2]/div[2]/h3</value>
+      <webElementGuid>77e8193d-d49b-4fe8-acdb-f6f30585c46e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 2'])[1]/following::div[4]</value>
-      <webElementGuid>bfb09b23-350b-4c49-9dfc-e90bccca2324</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 2'])[1]/following::h3[1]</value>
+      <webElementGuid>769d5c12-db67-44cb-ab36-ec4272b1025c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='call'])[1]/following::div[7]</value>
-      <webElementGuid>16eca419-0fb2-43d1-90be-baad22ab136d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='call'])[1]/following::h3[1]</value>
+      <webElementGuid>b8065a42-9c44-4305-9130-7c8b236bc290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='nik &amp; call'])[1]/preceding::div[1]</value>
-      <webElementGuid>74becc4f-bbf4-4f82-9884-c6b893ba9992</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public Columns'])[1]/preceding::div[7]</value>
-      <webElementGuid>4b0540c1-3a67-4b96-a906-c1f01fe1b353</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Shared With Me']/parent::*</value>
-      <webElementGuid>716518f0-72ca-4678-8740-c4ad7f8cf7d2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nik &amp; call'])[1]/preceding::h3[1]</value>
+      <webElementGuid>b1f6ea5d-738c-4966-a60c-a34ac26e361f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/h3/button/div[2]</value>
-      <webElementGuid>aa044719-c395-4bc9-9b55-3a23e8a30965</webElementGuid>
+      <value>//div[2]/div[2]/h3</value>
+      <webElementGuid>3bf4a75d-0948-4c7c-a068-0ac079386561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Shared With Me' or . = 'Shared With Me')]</value>
-      <webElementGuid>e38689c5-4a48-4268-9640-92e0eee0d7ac</webElementGuid>
+      <value>//h3[(text() = 'Shared With Me' or . = 'Shared With Me')]</value>
+      <webElementGuid>bb337934-0e62-4e94-b183-bfeba547dd06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

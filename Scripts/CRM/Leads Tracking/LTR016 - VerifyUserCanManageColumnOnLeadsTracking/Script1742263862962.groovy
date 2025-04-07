@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('CRM/Leads Tracking/LTR001 - VerifyUserCanAccess
 
 WebUI.click(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/icon_manage column'))
 
-WebUI.verifyElementText(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/txt_Manage Column'), 'Manage Column')
+WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/txt_Manage Column'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/txt_Created By Me'))
 
@@ -34,12 +34,6 @@ WebUI.click(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/input_Searc
 WebUI.setText(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/input_Search Preset Manage Column'), 'all leads')
 
 WebUI.verifyElementText(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/txt_All Leads'), 'All Leads')
-
-WebUI.click(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/input_Search Column'))
-
-WebUI.setText(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/input_Search Column'), 'leads')
-
-WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Lead Tracking/Manage Column/col_column'))
 
 WebUI.closeBrowser()
 

@@ -3,15 +3,15 @@
    <description></description>
    <name>txt_All Leads</name>
    <tag></tag>
-   <elementGuidId>e2decbe6-0dac-4424-acfd-872468c170bf</elementGuidId>
+   <elementGuidId>4828b993-5098-48e9-bf1c-f478ec1cdefd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.truncate</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='radix-:rmg:']/div/div</value>
+         <value>//div[@id='radix-:r30:']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>43e1ca77-e56a-4ec6-988b-5d1f18fe3f80</webElementGuid>
+      <webElementGuid>07decb32-1d1e-4331-83e5-69129598605c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>truncate</value>
-      <webElementGuid>59fe547f-2e2d-4a45-a831-859bd3b60806</webElementGuid>
+      <value>group flex w-full cursor-pointer select-none items-center justify-between rounded border-0 p-2 text-left text-body-small hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white bg-white</value>
+      <webElementGuid>a6ad979a-b133-490f-86fa-a8f2015f7610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,63 +38,55 @@
       <name>text</name>
       <type>Main</type>
       <value>All Leads</value>
-      <webElementGuid>0d8479a2-c7f0-4879-841a-21ad9263d33c</webElementGuid>
+      <webElementGuid>a617a6af-6f1e-420b-96fc-e97e618361f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:rmg:&quot;)/div[@class=&quot;group flex w-full cursor-pointer select-none items-center justify-between rounded border-0 p-2 text-left text-body-small hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white bg-white&quot;]/div[@class=&quot;truncate&quot;]</value>
-      <webElementGuid>d4a7e0a7-acca-4ce7-a248-f9d454998065</webElementGuid>
+      <value>id(&quot;radix-:r30:&quot;)/div[@class=&quot;group flex w-full cursor-pointer select-none items-center justify-between rounded border-0 p-2 text-left text-body-small hover:bg-primaryRed-10 focus:bg-primaryRed-50 disabled:hover:bg-white bg-white&quot;]</value>
+      <webElementGuid>1e52dfa7-bdf9-459a-a100-64df415bd2b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='radix-:rmg:']/div/div</value>
-      <webElementGuid>702b5508-d8a3-4564-80a4-001f66aa952f</webElementGuid>
+      <value>//div[@id='radix-:r30:']/div</value>
+      <webElementGuid>59e0e153-fd66-43fd-8e5e-08f2b06ebefc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public Columns'])[1]/following::div[3]</value>
-      <webElementGuid>3ae06d10-7e1e-49d1-8c83-3fe57d64a063</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public Columns'])[1]/following::div[2]</value>
+      <webElementGuid>1ad61af2-7f3a-4d1e-843b-cd66254d85bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Column not found. Try other keywords'])[2]/following::div[6]</value>
-      <webElementGuid>2a50ef6b-39bc-4ced-a0ce-a497746d6ba5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nik &amp; call'])[1]/following::div[6]</value>
+      <webElementGuid>9e9d0cd1-2d5e-4ad5-8af7-2d0e1a431490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[1]/preceding::div[4]</value>
-      <webElementGuid>fc1af9ce-f90d-4106-a747-11a02789e429</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::div[4]</value>
-      <webElementGuid>87648dea-0e59-439e-9df3-c023ed0d5432</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test column 1'])[2]/preceding::div[5]</value>
+      <webElementGuid>b9e21414-754f-4153-9771-54e59ad26b7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div</value>
-      <webElementGuid>61b8da91-6876-4280-9382-02eacefa9d7a</webElementGuid>
+      <value>//div[2]/div/div[2]/div[3]/div/div</value>
+      <webElementGuid>9d3aeb6d-57e6-4815-afbc-e7bc63fcba94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'All Leads' or . = 'All Leads')]</value>
-      <webElementGuid>4275b559-363d-4167-b3a5-327d605e6ecc</webElementGuid>
+      <webElementGuid>fdc837f8-e9c2-43b7-a230-743bb125c3d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

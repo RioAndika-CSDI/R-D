@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CRM/CRM - Reengagement Workstation</testSuiteEntity>
+         <testSuiteEntity>Test Suites/CRM/CRM - Reengagement Tasks Workstation</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
