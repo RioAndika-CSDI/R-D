@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Password reset link has been sent to your email' or . = 'Password reset link has been sent to your email')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG IN'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b611920e-a737-4045-95ec-8f68d8f3a472</webElementGuid>
+      <webElementGuid>9c8eef0c-8fa3-4736-ab7f-be6af25b81dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>relative max-w-full min-w-[640px] whitespace-nowrap text-text-primary flex py-4 px-[37px] items-center gap-4 [&amp;>svg]:size-5 bg-surface-success [&amp;>svg]:text-icon-success</value>
-      <webElementGuid>9b04e744-7d2c-4c5d-b0f4-0418e70fbc15</webElementGuid>
+      <webElementGuid>27b350b7-75d4-4a5a-866e-30138bbf81f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Password reset link has been sent to your email</value>
-      <webElementGuid>f16fbb4a-a295-4a0d-a283-e2196a23ab72</webElementGuid>
+      <webElementGuid>073ec122-03d6-4fc1-8f97-3add6e5969dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[2]/section[1]/ol[@class=&quot;pointer-events-auto&quot;]/li[1]/div[@class=&quot;relative max-w-full min-w-[640px] whitespace-nowrap text-text-primary flex py-4 px-[37px] items-center gap-4 [&amp;>svg]:size-5 bg-surface-success [&amp;>svg]:text-icon-success&quot;]</value>
-      <webElementGuid>d666820b-5419-4a64-a40c-af468d6ecf94</webElementGuid>
+      <webElementGuid>b45672ce-fd81-470e-ae85-3db936dd881f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG IN'])[1]/following::div[2]</value>
-      <webElementGuid>1ec7b274-cb43-40c8-ae1d-03f1604cbd59</webElementGuid>
+      <webElementGuid>c6942075-9d62-4e19-8b62-caf9b466f394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::div[3]</value>
-      <webElementGuid>c9cf502a-787e-44df-a5e0-a7fb255555fe</webElementGuid>
+      <webElementGuid>31fb080e-8fa8-4ac3-ab12-a4dd0edd73a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[1]</value>
-      <webElementGuid>974a81f8-385f-48fe-9d78-8d94f2061ca7</webElementGuid>
+      <webElementGuid>685f25a1-3e99-41bd-8897-dac79f6b63f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div</value>
-      <webElementGuid>eeaddfc6-ea14-4f0c-9932-5daada1ed0c3</webElementGuid>
+      <webElementGuid>e11fc0a4-a045-4f9c-9e88-d47ef88162fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Password reset link has been sent to your email' or . = 'Password reset link has been sent to your email')]</value>
-      <webElementGuid>f6975490-d5d9-4161-a0cd-f76b687121a5</webElementGuid>
+      <webElementGuid>45d867ea-d2b5-4809-9e94-5730b1d95817</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
