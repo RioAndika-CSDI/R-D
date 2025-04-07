@@ -3,113 +3,50 @@
    <description></description>
    <name>cta_HidePassword</name>
    <tag></tag>
-   <elementGuidId>1deafd48-3d75-4304-a63b-0451965067a1</elementGuidId>
+   <elementGuidId>5d6eaf40-132d-42db-9ced-de76f0cbe553</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[name()='path' and contains(@d,'M2 5.27L3.')]</value>
+         <value>//button[@type='button']//*[name()='svg']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>svg.text-bodyCopy</value>
+         <value>svg.text-bodyCopy > path</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>svg</value>
-      <webElementGuid>95c47973-68ee-4eab-9330-3f2b41d11625</webElementGuid>
+      <value>path</value>
+      <webElementGuid>32625f31-516f-46f1-a418-e782016d228f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>d</name>
       <type>Main</type>
-      <value>24</value>
-      <webElementGuid>832d3cc7-7900-4600-9864-421d193ace2a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>height</name>
-      <type>Main</type>
-      <value>24</value>
-      <webElementGuid>59c5e76c-769e-4a4a-8474-6956b66ab5a3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>viewBox</name>
-      <type>Main</type>
-      <value>0 0 24 24</value>
-      <webElementGuid>f366b240-98f0-410f-9955-a238419bddf1</webElementGuid>
+      <value>M2 5.27L3.28 4L20 20.72L18.73 22L15.65 18.92C14.5 19.3 13.28 19.5 12 19.5C7 19.5 2.73 16.39 1 12C1.69 10.24 2.79 8.69 4.19 7.46L2 5.27ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15.0005 12.3406 14.943 12.6787 14.83 13L11 9.17C11.3213 9.05698 11.6594 8.99949 12 9ZM12 4.5C17 4.5 21.27 7.61 23 12C22.1839 14.0732 20.7969 15.8727 19 17.19L17.58 15.76C18.9629 14.8034 20.0782 13.5091 20.82 12C20.0116 10.3499 18.7564 8.95977 17.1973 7.9875C15.6381 7.01524 13.8375 6.49988 12 6.5C10.91 6.5 9.84 6.68 8.84 7L7.3 5.47C8.74 4.85 10.33 4.5 12 4.5ZM3.18 12C3.98844 13.6501 5.24357 15.0402 6.80273 16.0125C8.36189 16.9848 10.1625 17.5001 12 17.5C12.69 17.5 13.37 17.43 14 17.29L11.72 15C11.0242 14.9254 10.3748 14.6149 9.87997 14.12C9.38512 13.6252 9.07458 12.9758 9 12.28L5.6 8.87C4.61 9.72 3.78 10.78 3.18 12Z</value>
+      <webElementGuid>5e6fade5-2a2a-4c4a-b14f-f4b4d336a8d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>fill</name>
       <type>Main</type>
-      <value>none</value>
-      <webElementGuid>0e9853f5-d1c7-4cf9-8077-de62d69a3bae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xmlns</name>
-      <type>Main</type>
-      <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>f028046d-0780-439c-b0bd-d5172989aa0f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-bodyCopy</value>
-      <webElementGuid>7eb55b59-2791-4787-9be6-f16fda38994c</webElementGuid>
+      <value>currentColor</value>
+      <webElementGuid>515fbec5-1b3a-45e2-a632-4d5f78e4594d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;flex w-full flex-col gap-4&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;w-[333px]&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;flex h-full select-none items-center rounded rounded-l-none border border-l-0 border-solid bg-white py-3 pl-2 pr-4 border-placeholder peer-hover:border-label peer-focus:border-label&quot;]/button[@class=&quot;appearance-none bg-transparent&quot;]/svg[@class=&quot;text-bodyCopy&quot;]</value>
-      <webElementGuid>5e13290a-46db-405c-8b30-eeeeb6750a22</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;flex w-full flex-col gap-4&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;w-[333px]&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;flex h-full select-none items-center rounded rounded-l-none border border-l-0 border-solid bg-white py-3 pl-2 pr-4 border-placeholder peer-hover:border-label peer-focus:border-label&quot;]/button[@class=&quot;appearance-none bg-transparent&quot;]/svg[@class=&quot;text-bodyCopy&quot;]/path[1]</value>
+      <webElementGuid>de3d5854-5daf-4eb5-bc19-4c166b850124</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>5e8d0205-02d4-423e-ac11-129f3bec276b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>19f5da7c-3a7c-4ee1-9049-3cac4c7fbe83</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>cfb0d156-c811-4b01-964e-d48ec0cc3036</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>d686d045-4a46-4b5f-9eb8-7ff1898778dd</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

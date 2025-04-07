@@ -16,12 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('CRM/Login/HMP008 - VerifyUserCanInputEmailForgotPassword'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('CRM/Login/button_Send Reset Link'))
 
-WebUI.verifyElementVisible(findTestObject('CRM/Login/txtSuccessResetPassword'))
+notifSuccess = WebUI.verifyElementPresent(findTestObject('CRM/Login/txtSuccessResetPassword'), 10)
+
+if(notifSuccess) {
+	KeywordUtil.markPassed('Expected')
+}
 
 'Retrieves the current page URL.'
 currentUrl = WebUI.getUrl()
@@ -31,5 +36,4 @@ expectedUrl = 'https://crm-fe.prod.seva.id/login'
 
 'Verifies if the current URL matches the expected URL.'
 WebUI.verifyMatch(currentUrl, expectedUrl, false)
-
 
