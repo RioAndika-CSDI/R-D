@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LTR019 - VerifyUserCanAccessCreateNewQLUsedCar</name>
+   <name>LTR018 - VerifyUserCanAccessCreateNewQLUsedCar</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1261f86b-f2fb-44a5-9541-92239b309d51</testCaseGuid>
 </TestCaseEntity>
