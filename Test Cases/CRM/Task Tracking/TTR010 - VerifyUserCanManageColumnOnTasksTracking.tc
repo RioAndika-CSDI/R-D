@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TTR010 - VerifyUserCanManageColumnOnTasksTracking</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>593beb3e-c9f8-4bf9-9e46-75a2f85149f2</testCaseGuid>
-</TestCaseEntity>

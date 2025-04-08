@@ -24,14 +24,15 @@ WebUI.click(findTestObject('CRM/Login/button_Send Reset Link'))
 
 notifSuccess = WebUI.verifyElementPresent(findTestObject('CRM/Login/txtSuccessResetPassword'), 10)
 
-if(notifSuccess) {
-	KeywordUtil.markPassed('Expected')
+if (notifSuccess) {
+    KeywordUtil.markPassed('Expected')
 }
+
+WebUI.delay(10)
 
 'Retrieves the current page URL.'
 currentUrl = WebUI.getUrl()
 
-'Sets the expected URL for the "Customized Leads Group" page.'
 expectedUrl = 'https://crm-fe.prod.seva.id/login'
 
 'Verifies if the current URL matches the expected URL.'

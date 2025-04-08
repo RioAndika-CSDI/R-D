@@ -74,11 +74,4 @@
       <testCaseId>Test Cases/CRM/Task Tracking/TTR009 - VerifyUserCanFilterOnTaskTracking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>2a590672-f81c-421e-8b8c-ae0c6ba26abf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Task Tracking/TTR010 - VerifyUserCanManageColumnOnTasksTracking</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

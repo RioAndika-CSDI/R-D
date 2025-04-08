@@ -117,31 +117,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4d09b8b-b7a1-400a-90c6-f37915166675</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Leads Tracking/LTR016 - VerifyUserCanManageColumnOnLeadsTracking</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>122d4a5c-8661-4ba5-8249-9a5808d0d2aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Leads Tracking/LTR017 - VerifyUserCanAccessCreateNewQLNewCar</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR016 - VerifyUserCanAccessCreateNewQLNewCar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e5c52041-c39f-493d-8ea5-b634fda29a89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Leads Tracking/LTR018 - VerifyUserCanAccessCreateNewQLRefinancing</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR017 - VerifyUserCanAccessCreateNewQLRefinancing</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8136e7ec-5d38-457d-ba5b-b5889b8998d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CRM/Leads Tracking/LTR019 - VerifyUserCanAccessCreateNewQLUsedCar</testCaseId>
+      <testCaseId>Test Cases/CRM/Leads Tracking/LTR018 - VerifyUserCanAccessCreateNewQLUsedCar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
