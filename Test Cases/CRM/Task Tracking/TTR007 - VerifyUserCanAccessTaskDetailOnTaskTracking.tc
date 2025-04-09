@@ -4,5 +4,6 @@
    <name>TTR007 - VerifyUserCanAccessTaskDetailOnTaskTracking</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1c4860e9-122d-408d-9f80-f00012b8f535</testCaseGuid>
 </TestCaseEntity>
