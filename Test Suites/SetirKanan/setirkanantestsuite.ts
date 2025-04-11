@@ -560,19 +560,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b08dcec9-e9c5-4c93-8bee-220501eaba8d</guid>
+      <guid>f91b2d17-f320-4acc-93bd-20f5a169469e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Setir Kanan/SKMB009-Urutkan Mobil Bekas</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6d23d6e5-a12e-49ec-b4e1-162ee1f5c6c0</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-2</value>
-         </iterationEntity>
-         <testDataId>Data Files/Data Urutkan Mobil</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -587,9 +578,9 @@
          <variableId>981e510e-7b3c-4d54-b6fd-eb8606db0d50</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6d23d6e5-a12e-49ec-b4e1-162ee1f5c6c0</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>sorting</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0b666979-93fa-43e7-a6b5-191fba6c26fd</variableId>
       </variableLink>
       <variableLink>

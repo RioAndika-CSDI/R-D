@@ -77,7 +77,7 @@ WebUI.comment(data.toString())
 data = data.trim()
 String[] dataArray = data.split(' ')
 
-if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
+if ((sortingElemen[1]).equalsIgnoreCase('mobil')) {
     if ((sortingElemen[1]).equalsIgnoreCase('terbaru')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
@@ -96,20 +96,22 @@ if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
             }
         }
     }
-} else if ((sortingElemen[0]).equalsIgnoreCase('harga')) {
+} else if ((sortingElemen[1]).equalsIgnoreCase('harga')) {
     if ((sortingElemen[1]).equalsIgnoreCase('tertinggi')) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                //WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
-				
+				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i].replaceAll(",", "")),
+            Long.parseLong(dataArray[j].replaceAll(",", ""))
+        )
+		
             }
         }
     } else if ((sortingElemen[1]).equalsIgnoreCase('terendah')) {
-        for (int i = 0; i < dataArray.length; i++) {
+        for (int i = 1; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                //WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
+				WebUI.verifyLessThanOrEqual(Long.parseLong(dataArray[i].replaceAll(",", "")),
+            Long.parseLong(dataArray[j].replaceAll(",", ""))
+        )
 				
             }
         }
