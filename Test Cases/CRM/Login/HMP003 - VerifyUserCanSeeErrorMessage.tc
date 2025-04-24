@@ -4,5 +4,6 @@
    <name>HMP003 - VerifyUserCanSeeErrorMessage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>18aee021-8306-425e-8767-f545e918d4ef</testCaseGuid>
 </TestCaseEntity>

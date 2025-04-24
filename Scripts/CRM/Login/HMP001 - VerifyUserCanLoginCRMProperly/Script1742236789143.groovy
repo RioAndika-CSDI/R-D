@@ -25,12 +25,12 @@ WebUI.maximizeWindow()
 'Verify field "Email" is visible by user.'
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_email'))
 
-WebUI.setText(findTestObject('Object Repository/CRM/Login/field_email'), GlobalVariable.EmailUserCSALeader)
+WebUI.setText(findTestObject('Object Repository/CRM/Login/field_email'), GlobalVariable.EmailUserQA)
 
 'Verify field "Password" is visible by user.'
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))
 
-WebUI.setText(findTestObject('Object Repository/CRM/Login/field_password'), GlobalVariable.PassUserLeader)
+WebUI.setText(findTestObject('Object Repository/CRM/Login/field_password'), GlobalVariable.PassUserQA)
 
 'Verify button "Login" is visible by user.'
 WebUI.verifyElementVisible(findTestObject('CRM/Login/button_login'))
@@ -38,8 +38,10 @@ WebUI.verifyElementVisible(findTestObject('CRM/Login/button_login'))
 WebUI.click(findTestObject('Object Repository/CRM/Login/button_login'))
 
 'Verify txt \'SEVA CRM Homepage\' is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Homepage/txt SEVA CRM Homepage'))
+WebUI.verifyElementClickable(findTestObject('CRM/Login/button_CSA Leader'))
+
+WebUI.click(findTestObject('CRM/Login/button_CSA Leader'))
 
 'Verify txt \'Welcome to SEVA CRM\' is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Homepage/txt Welcome to SEVA CRM'))
+WebUI.verifyElementVisible(findTestObject('CRM/Login/txt_Welcome to SEVA CRM'))
 

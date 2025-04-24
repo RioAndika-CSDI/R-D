@@ -4,5 +4,6 @@
    <name>HMP002 - VerifyUserCanSeeInvalidEmailFormatErrorMessage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c4bca1ed-988d-4574-a63a-c5a0b021f6ad</testCaseGuid>
 </TestCaseEntity>

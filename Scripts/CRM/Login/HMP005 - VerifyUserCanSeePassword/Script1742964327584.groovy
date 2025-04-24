@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))
 
-WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserLeader)
+WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserQA)
 
 WebUI.verifyElementClickable(findTestObject('CRM/Login/cta_SeePassword'))
 

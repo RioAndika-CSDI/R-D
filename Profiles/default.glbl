@@ -41,27 +41,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testing-qa@seva.id'</initValue>
+      <initValue>'ayu.anggraini@seva.id'</initValue>
       <name>EmailUserQA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testing-csaleader@seva.id'</initValue>
-      <name>EmailUserCSALeader</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'testing-cmleader@seva.id'</initValue>
-      <name>EmailUserCMLeader</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Pass123@'</initValue>
+      <initValue>'April@2025'</initValue>
       <name>PassUserQA</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Pass123~'</initValue>
-      <name>PassUserLeader</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
