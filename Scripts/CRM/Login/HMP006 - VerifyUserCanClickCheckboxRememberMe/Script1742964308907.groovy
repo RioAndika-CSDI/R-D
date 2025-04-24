@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_email'))
 
-WebUI.setText(findTestObject('CRM/Login/field_email'), GlobalVariable.EmailUserCSALeader)
+WebUI.setText(findTestObject('CRM/Login/field_email'), GlobalVariable.EmailUserQA)
 
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))
 
-WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserLeader)
+WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserQA)
 
 notChecked = WebUI.verifyElementNotChecked(findTestObject('CRM/Login/cta_RememberMe'), 0)
 
@@ -39,15 +39,13 @@ if (notChecked == true) {
 
 WebUI.click(findTestObject('CRM/Login/button_login'))
 
-WebUI.click(findTestObject('CRM/Login/cta_profile'))
+WebUI.click(findTestObject('CRM/Login/button_CSA Leader'))
 
-WebUI.click(findTestObject('CRM/Login/cta_Logout'))
+WebUI.click(findTestObject('CRM/Login/chevron_profile'))
 
+WebUI.click(findTestObject('CRM/Login/div_Logout'))
 
 if (Checked == true) {
-	Checked = WebUI.verifyElementChecked(findTestObject('CRM/Login/cta_RememberMe'), 0)
+    Checked = WebUI.verifyElementChecked(findTestObject('CRM/Login/cta_RememberMe'), 0)
 }
-
-
-
 

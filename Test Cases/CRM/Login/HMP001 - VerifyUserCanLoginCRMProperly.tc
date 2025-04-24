@@ -4,5 +4,6 @@
    <name>HMP001 - VerifyUserCanLoginCRMProperly</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0b1cd5ae-4451-438f-a14d-88277158ce37</testCaseGuid>
 </TestCaseEntity>

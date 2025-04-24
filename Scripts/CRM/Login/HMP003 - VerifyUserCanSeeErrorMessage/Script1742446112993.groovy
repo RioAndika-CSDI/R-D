@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('CRM/Login/field_email'), 'testing-csaleaderr@seva.
 
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))
 
-WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserLeader)
+WebUI.setText(findTestObject('CRM/Login/field_password'), GlobalVariable.PassUserQA)
 
 WebUI.click(findTestObject('CRM/Login/button_login'))
 

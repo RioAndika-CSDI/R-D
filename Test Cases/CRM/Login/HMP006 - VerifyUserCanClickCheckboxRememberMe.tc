@@ -4,6 +4,7 @@
    <name>HMP006 - VerifyUserCanClickCheckboxRememberMe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3de03400-1c26-4c4e-9122-8dbcb3621d21</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
