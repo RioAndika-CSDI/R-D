@@ -26,25 +26,25 @@ import java.util.regex.*
 WebUI.callTestCase(findTestCase('CRM/User Account/UAC001 - VerifyUserCanAccessUserMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_Name'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_Name'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_Email'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_Email'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_Phone'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_Phone'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_Role'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_Role'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_BU Company'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_BU Company'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_CMS Status'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_CMS Status'))
 
 'Verify "Edit Account" icon/button is visible by user.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM048/sort_CRM Status'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/Sort/sort_CRM Status'))
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -69,19 +69,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "Name" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Name'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Name'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 1, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Name'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Name'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 1, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Name'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Name'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 1, initialList_Name)
@@ -102,19 +102,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "Email" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Email'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Email'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 2, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Email'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Email'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 2, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Email'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Email'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 2, initialList_Email)
@@ -135,19 +135,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "Phone" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Phone'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Phone'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 3, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Phone'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Phone'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 3, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Phone'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Phone'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 3, initialList_Phone)
@@ -166,19 +166,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "Role" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Role'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Role'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Role'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Role'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 4, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_Role'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_Role'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 4, initialList_Role)
@@ -199,19 +199,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "BU Company" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_BU Company'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_BU Company'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 5, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_BU Company'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_BU Company'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 5, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_BU Company'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_BU Company'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 5, initialList_BUCompany)
@@ -232,19 +232,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "CMS Status" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CMS Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CMS Status'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 6, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CMS Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CMS Status'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 6, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CMS Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CMS Status'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 6, initialList_CMSStatus)
@@ -265,19 +265,19 @@ for (WebElement row : rows_table) {
 }
 
 'Click the sort button for the "CRM Status" column'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CRM Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CRM Status'))
 
 'Verify ascending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 7, true)
 
 'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CRM Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CRM Status'))
 
 'Verify descending order'
 verifySorting(driver.findElements(By.xpath('//table/tbody/tr')), 7, false)
 
 'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM048/sort_CRM Status'))
+WebUI.click(findTestObject('CRM/Account Management/Sort/sort_CRM Status'))
 
 'Verify if the data state has returned to its initial state before sorting'
 verifyInitialState(driver.findElements(By.xpath('//table/tbody/tr')), 7, initialList_CRMStatus)

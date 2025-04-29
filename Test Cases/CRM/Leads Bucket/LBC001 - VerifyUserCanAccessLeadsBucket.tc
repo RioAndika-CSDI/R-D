@@ -4,5 +4,6 @@
    <name>LBC001 - VerifyUserCanAccessLeadsBucket</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0bf9e165-6c54-499b-94cd-8591325080d2</testCaseGuid>
 </TestCaseEntity>

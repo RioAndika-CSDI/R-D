@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HMP013 - VerifyUserCanLoginCRMProperlyasQA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fef7d5d1-8ad6-4149-806a-c58bbdb23712</testCaseGuid>
+</TestCaseEntity>

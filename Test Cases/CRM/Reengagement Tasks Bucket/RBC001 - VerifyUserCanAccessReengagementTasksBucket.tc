@@ -4,5 +4,6 @@
    <name>RBC001 - VerifyUserCanAccessReengagementTasksBucket</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c523763a-fbf7-4026-ad36-c8d368a64df7</testCaseGuid>
 </TestCaseEntity>

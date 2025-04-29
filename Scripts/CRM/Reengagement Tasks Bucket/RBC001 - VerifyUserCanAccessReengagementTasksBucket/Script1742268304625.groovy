@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('CRM/Side Menu/icon_Bucket Management'))
+WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Bucket Management'))
+WebUI.click(findTestObject('CRM/Side Menu/Menu_Bucket Management'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Reengagement Tasks Bucket'))
+WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Reengagement Tasks Bucket'))
 
 WebUI.verifyElementText(findTestObject('CRM/Bucket Management/Tasks Bucket/txt_Reengagement Tasks Bucket'), 'Reengagement Tasks Bucket')
 
@@ -37,5 +37,5 @@ expectedUrl = 'https://crm-fe.prod.seva.id/reengagement-tasks-bucket'
 WebUI.verifyMatch(currentUrl, expectedUrl, false)
 
 'Click in any element to hide sidebar menu.'
-WebUI.click(findTestObject('CRM/Account Management Page/element_Header'))
+WebUI.click(findTestObject('CRM/Account Management/element_Header'))
 

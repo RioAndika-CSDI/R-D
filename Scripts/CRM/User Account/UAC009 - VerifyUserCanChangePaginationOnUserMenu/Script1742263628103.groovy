@@ -20,48 +20,48 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('CRM/User Account/UAC001 - VerifyUserCanAccessUserMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify "Previous Page" button is visible.'
-WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/button_Previous page'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management/User Account/button_Previous page'))
 
 'Verify "Next Page" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/button_Next page'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_Next page'))
 
 'Verify page number is visible.'
-WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management/User Account/page_Number'))
 
 'Verify data length of table is visible.'
-WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Account Management/User Account/data_Length'))
 
 'Verify data length of table is visible.'
-dataLength_page1 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
+dataLength_page1 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management/User Account/data_Length'))
 
 'Get data length page 1 before change page.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), dataLength_page1)
+WebUI.verifyElementText(findTestObject('CRM/Account Management/User Account/data_Length'), dataLength_page1)
 
 'Get page indicator page 1 before change page.'
-pageIndicator_page1 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 
+pageIndicator_page1 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management/User Account/page_Number'), 
     FailureHandling.STOP_ON_FAILURE)
 
 'Change to page 2'
-WebUI.click(findTestObject('CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/button_Next page'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_Next page'))
 
 'Verify data length of table is visible.'
-dataLength_page2 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'))
+dataLength_page2 = WebUI.getText(findTestObject('Object Repository/CRM/Account Management/User Account/data_Length'))
 
 'Verify page indicator change when user navigates pages.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), dataLength_page2)
+WebUI.verifyElementText(findTestObject('CRM/Account Management/User Account/data_Length'), dataLength_page2)
 
 'Get page number before change page'
-WebUI.verifyElementText(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 
+WebUI.verifyElementText(findTestObject('Object Repository/CRM/Account Management/User Account/page_Number'), 
     'Page 2 of 8')
 
 'Back to page 1'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/button_Previous page'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Previous page'))
 
 'Verify that the table data length remains the same as page 1 when the user navigates back to page 1.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/data_Length'), dataLength_page1)
+WebUI.verifyElementText(findTestObject('CRM/Account Management/User Account/data_Length'), dataLength_page1)
 
 'Verify that the page indicator remains the same as page 1 when the user navigates back to page 1.'
-WebUI.verifyElementText(findTestObject('Object Repository/CRM/Account Management Page/CRM049/Page_User Account - SEVA CRM/page_Number'), 
+WebUI.verifyElementText(findTestObject('Object Repository/CRM/Account Management/User Account/page_Number'), 
     pageIndicator_page1)
 
 WebUI.closeBrowser()

@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CRM/Login/HMP013 - VerifyUserCanLoginCRMProperlyasQA'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('CRM/Side Menu/menu_user'))
+WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
+
+WebUI.click(findTestObject('CRM/Side Menu/Menu_Settings'))
 
 'Verify menu "User" is visible by user.'
-WebUI.verifyElementVisible(findTestObject('Object Repository/CRM/Side Menu/menu_user'))
+WebUI.click(findTestObject('CRM/Side Menu/SubMenu_User Management'))
 
-WebUI.click(findTestObject('Object Repository/CRM/Side Menu/menu_user'))
-
-'Verify that the user is on the "Account Management" page.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/page_tittle'), 'Account Management')
+'Verify that the user is on the "User Management" page.'
+WebUI.verifyElementText(findTestObject('CRM/Account Management/page_tittle'), 'User Management')
 
 'Click in any element to hide sidebar menu.'
-WebUI.click(findTestObject('CRM/Account Management Page/element_Header'))
+WebUI.click(findTestObject('CRM/Account Management/element_Header'))
 
