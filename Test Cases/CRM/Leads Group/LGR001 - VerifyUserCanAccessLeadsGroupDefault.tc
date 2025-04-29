@@ -4,5 +4,6 @@
    <name>LGR001 - VerifyUserCanAccessLeadsGroupDefault</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>49d8c779-93bc-471f-bf9d-8453bcc59362</testCaseGuid>
 </TestCaseEntity>

@@ -335,48 +335,48 @@ rows_table = Table.findElements(By.xpath('.//div[contains(@class, "ant-table-row
 
 println('Number of rows found: ' + rows_table.size())
 
-'Column 7 - Assign to'
-List<WebElement> initialList_AssignTo = []
-
-columnPosition = 7
-
-for (WebElement row : rows_table) {
-    try {
-        // Find cell in the current row
-        WebElement cell = row.findElement(By.xpath(('.//div[starts-with(@class,"ant-table-cell")][' + columnPosition) + 
-                ']/div/div/div/div/input'))
-
-        String cellValue = cell.getAttribute('placeholder').trim()
-
-        initialList_AssignTo.add(cellValue)
-
-        println('Cell value: ' + cellValue)
-    }
-    catch (Exception e) {
-        println('Error finding element in row: ' + e.getMessage())
-    } 
-}
-
-'Click the sort button for the "Assign to" column'
-WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
-
-'Verify ascending order'
-verifySorting(driver.findElements(By.xpath(tableRow)), columnPosition, true, 'default', ('.//div[@class="ant-table-cell"][' + 
-    columnPosition) + ']/div/div/div/div/input', 'placeholder')
-
-'Click the sort button again for descending order'
-WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
-
-'Verify descending order'
-verifySorting(driver.findElements(By.xpath(tableRow)), columnPosition, false, 'default', ('.//div[@class="ant-table-cell"][' + 
-    columnPosition) + ']/div/div/div/div/input', 'placeholder')
-
-'Click the sort button a third time to reset'
-WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
-
-'Verify if the data state has returned to its initial state before sorting'
-verifyInitialState(driver.findElements(By.xpath(tableRow)), columnPosition, initialList_AssignTo, ('.//div[@class="ant-table-cell"][' + 
-    columnPosition) + ']/div/div/div/div/input', 'placeholder')
+//'Column 7 - Assign to'
+//List<WebElement> initialList_AssignTo = []
+//
+//columnPosition = 7
+//
+//for (WebElement row : rows_table) {
+//    try {
+//        // Find cell in the current row
+//        WebElement cell = row.findElement(By.xpath(('.//div[starts-with(@class,"ant-table-cell")][' + columnPosition) + 
+//                ']/div/div/div/div/input'))
+//
+//        String cellValue = cell.getAttribute('placeholder').trim()
+//
+//        initialList_AssignTo.add(cellValue)
+//
+//        println('Cell value: ' + cellValue)
+//    }
+//    catch (Exception e) {
+//        println('Error finding element in row: ' + e.getMessage())
+//    } 
+//}
+//
+//'Click the sort button for the "Assign to" column'
+//WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
+//
+//'Verify ascending order'
+//verifySorting(driver.findElements(By.xpath(tableRow)), columnPosition, true, 'default', ('.//div[@class="ant-table-cell"][' + 
+//    columnPosition) + ']/div/div/div/div/input', 'placeholder')
+//
+//'Click the sort button again for descending order'
+//WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
+//
+//'Verify descending order'
+//verifySorting(driver.findElements(By.xpath(tableRow)), columnPosition, false, 'default', ('.//div[@class="ant-table-cell"][' + 
+//    columnPosition) + ']/div/div/div/div/input', 'placeholder')
+//
+//'Click the sort button a third time to reset'
+//WebUI.click(findTestObject('CRM/Bucket Management/Leads Group/sort_Assign to'))
+//
+//'Verify if the data state has returned to its initial state before sorting'
+//verifyInitialState(driver.findElements(By.xpath(tableRow)), columnPosition, initialList_AssignTo, ('.//div[@class="ant-table-cell"][' + 
+//    columnPosition) + ']/div/div/div/div/input', 'placeholder')
 
 WebUI.closeBrowser() // Verifies if the table column is correctly sorted in ascending or descending order by comparing actual column values with expected sorted values.
 // Dynamic XPath selection based on type

@@ -24,25 +24,25 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('CRM/User Account/UAC001 - VerifyUserCanAccessUserMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify "Search Bar" is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/field_searchBar'))
 
 'Search by "Name" in search bar.'
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'), 'Cynthia Devina Santoso')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/field_searchBar'), 'Cynthia Devina Santoso')
 
 'Verfiy "Add Filter" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_Add Filter'))
 
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_Add Filter'))
 
 'Verfiy "BU Company" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_BU Company Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_BU Company Filter'))
 
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_BU Company Filter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_BU Company Filter'))
 
 'Verify Search Bar is visible in the filter control.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'ACC')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'ACC')
 
 WebUI.click(findTestObject('Account Management Page/Page_User Account - SEVA CRM/selectItem_filter'))
 

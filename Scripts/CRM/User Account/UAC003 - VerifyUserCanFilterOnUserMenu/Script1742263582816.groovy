@@ -28,33 +28,33 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('CRM/User Account/UAC001 - VerifyUserCanAccessUserMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verfiy "Add Filter" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_Add Filter'))
 
 'Open Filter'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Add Filter'))
 
 'Verfiy "BU Company" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_BU Company Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_BU Company Filter'))
 
 'Verfiy "CMS Status" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CMS Status Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_CMS Status Filter'))
 
 'Verfiy "CRM Role" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CRM Role Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_CRM Role Filter'))
 
 'Verfiy "CRM Status" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CRM Status Filter'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_CRM Status Filter'))
 
 'Verfiy "Event" button is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_Event'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/button_Event'))
 
 'Filter data by "BU Company".'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_BU Company Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_BU Company Filter'))
 
 'Verify Search Bar is visible in the filter control.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'Astra Life')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'Astra Life')
 
 WebUI.delay(3)
 
@@ -100,15 +100,15 @@ Loop: for (int row = 1; row < rows_count; row++) {
 }
 
 'Remove Filter.'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_removeFilter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_removeFilter'))
 
 'Open Filter'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Add Filter'))
 
 'Filter data by "CMS Status".'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CMS Status Filter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_CMS Status Filter'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'Inactive')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'Inactive')
 
 WebUI.delay(3)
 
@@ -152,15 +152,15 @@ Loop: for (int row = 1; row < rows_count; row++) {
 }
 
 'Remove Filter.'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_removeFilter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_removeFilter'))
 
 'Open Filter'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Add Filter'))
 
 'Filter data by "CRM Role".'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CRM Role Filter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_CRM Role Filter'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'QA')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'QA')
 
 WebUI.delay(3)
 
@@ -204,15 +204,15 @@ Loop: for (int row = 1; row < rows_count; row++) {
 }
 
 'Remove Filter.'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_removeFilter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_removeFilter'))
 
 'Open Filter'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Add Filter'))
 
 'Filter data by "CRM Status".'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_CRM Status Filter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_CRM Status Filter'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'Inactive')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'Inactive')
 
 WebUI.delay(3)
 
@@ -256,15 +256,15 @@ Loop: for (int row = 1; row < rows_count; row++) {
 }
 
 'Remove Filter.'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_removeFilter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_removeFilter'))
 
 'Open Filter'
-WebUI.click(findTestObject('Object Repository/CRM/Account Management Page/Page_User Account - SEVA CRM/button_Add Filter'))
+WebUI.click(findTestObject('Object Repository/CRM/Account Management/User Account/button_Add Filter'))
 
 'Filter data by "Event".'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_Event'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_Event'))
 
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/searchBar_filterControl'), 'GIIAS Tangerang 2023')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/searchBar_filterControl'), 'GIIAS Tangerang 2023')
 
 WebUI.delay(3)
 
@@ -272,18 +272,18 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Account Management Page/Page_User Account - SEVA CRM/selectItem_filter'))
 
 //'Verify "GIIAS Tangerang 2023" event has been selected.'
-//WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/selectedItem_Event GIIAS Tangerang 2023'))
+//WebUI.verifyElementVisible(findTestObject('CRM/Account Management/selectedItem_Event GIIAS Tangerang 2023'))
 'Verify "Edit" button for is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/button_Edit User Row 1'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/button_Edit User Row 1'))
 
 'Verify "Edit" button for is visible.'
-WebUI.click(findTestObject('CRM/Account Management Page/button_Edit User Row 1'))
+WebUI.click(findTestObject('CRM/Account Management/button_Edit User Row 1'))
 
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/field_Edit Event User Row 1'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/field_Edit Event User Row 1'))
 
-WebUI.waitForElementAttributeValue(findTestObject('CRM/Account Management Page/field_Edit Event User Row 1'), 'placeholder', 
+WebUI.waitForElementAttributeValue(findTestObject('CRM/Account Management/field_Edit Event User Row 1'), 'placeholder', 
     'GIIAS Tangerang 2023', 0)
 
 'Remove Filter.'
-WebUI.click(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/button_removeFilter'))
+WebUI.click(findTestObject('CRM/Account Management/User Account/button_removeFilter'))
 

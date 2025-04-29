@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('CRM/Side Menu/icon_Bucket Management'))
+WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Bucket Management'))
+WebUI.click(findTestObject('CRM/Side Menu/Menu_Bucket Management'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Leads Bucket Management'))
+WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Leads Bucket Management'))
 
 'Verify that the user is on the "Leads Bucket Management" page.'
 WebUI.verifyElementText(findTestObject('CRM/Bucket Management/Leads Bucket/txt_Leads Bucket Management'), 'Leads Bucket Management')

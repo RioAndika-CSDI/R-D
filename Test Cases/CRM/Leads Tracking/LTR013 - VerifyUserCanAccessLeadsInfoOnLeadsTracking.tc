@@ -4,5 +4,6 @@
    <name>LTR013 - VerifyUserCanAccessLeadsInfoOnLeadsTracking</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>514f6166-a7e8-4c5a-b5b6-f04b0f427eeb</testCaseGuid>
 </TestCaseEntity>

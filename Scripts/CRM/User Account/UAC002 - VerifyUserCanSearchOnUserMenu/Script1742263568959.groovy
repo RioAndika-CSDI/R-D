@@ -20,37 +20,37 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('CRM/User Account/UAC001 - VerifyUserCanAccessUserMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify "Search Bar" is visible.'
-WebUI.verifyElementVisible(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'))
+WebUI.verifyElementVisible(findTestObject('CRM/Account Management/User Account/field_searchBar'))
 
 'Search by "Name" in search bar.'
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'), 'Dadi hendriadi')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/field_searchBar'), 'Dadi hendriadi')
 
 WebUI.delay(3)
 
 'Verify that the search results are displayed correctly in the table.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/name_cell'), 'Dadi Hendriadi')
+WebUI.verifyElementText(findTestObject('CRM/Account Management/name_cell'), 'Dadi Hendriadi')
 
 'Search by "Email" in search bar.'
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'), 'Prawestri@seva.id')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/field_searchBar'), 'Prawestri@seva.id')
 
 WebUI.delay(3)
 
 'Verify that the search results are displayed correctly in the table.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/email_cell'), 'Prawestri@seva.id')
+WebUI.verifyElementText(findTestObject('CRM/Account Management/email_cell'), 'Prawestri@seva.id')
 
 'Search by "Phone" in search bar.'
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'), '082242603707')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/field_searchBar'), '082242603707')
 
 WebUI.delay(3)
 
 'Verify that the search results are displayed correctly in the table.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/Phone Cell'), '082242603707')
+WebUI.verifyElementText(findTestObject('CRM/Account Management/Phone Cell'), '082242603707')
 
 'Search random value in search bar.'
-WebUI.setText(findTestObject('CRM/Account Management Page/Page_User Account - SEVA CRM/field_searchBar'), 'asdx')
+WebUI.setText(findTestObject('CRM/Account Management/User Account/field_searchBar'), 'asdx')
 
 WebUI.delay(3)
 
 'Verify that when a search returns no matching data, the message \'There is nothing to be shown here.\' is displayed.'
-WebUI.verifyElementText(findTestObject('CRM/Account Management Page/There is nothing message'), 'There is nothing to be shown here.')
+WebUI.verifyElementText(findTestObject('CRM/Account Management/There is nothing message'), 'There is nothing to be shown here.')
 

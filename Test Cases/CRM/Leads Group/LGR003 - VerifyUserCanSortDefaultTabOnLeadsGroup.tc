@@ -4,5 +4,6 @@
    <name>LGR003 - VerifyUserCanSortDefaultTabOnLeadsGroup</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7fa96299-9054-49ba-ae6e-13de4651723a</testCaseGuid>
 </TestCaseEntity>

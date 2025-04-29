@@ -4,5 +4,6 @@
    <name>LGR006 - VerifyUserCanAccessLeadsGroupCustomized</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fa5237ad-72f9-42fd-9aaa-eb99fe48f834</testCaseGuid>
 </TestCaseEntity>

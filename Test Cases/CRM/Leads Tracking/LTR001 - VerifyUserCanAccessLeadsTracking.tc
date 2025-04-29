@@ -4,5 +4,6 @@
    <name>LTR001 - VerifyUserCanAccessLeadsTracking</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d39aea3d-5b55-4c7f-b767-248e3a044e07</testCaseGuid>
 </TestCaseEntity>

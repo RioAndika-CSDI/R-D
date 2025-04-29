@@ -33,10 +33,10 @@ WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Reengageme
 
 WebUI.verifyElementVisible(findTestObject('CRM/Tracking/Task Tracking/Reengagement Task Detail/tab_Leads'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('CRM/Tracking/Task Tracking/Page_Reengagement Task Detail - SEVA CRM/txt_Task Information'), 
+WebUI.verifyElementText(findTestObject('CRM/Tracking/Task Tracking/Reengagement Task Detail/txt_Task Information'), 
     'Task Information')
 
-WebUI.verifyElementText(findTestObject('CRM/Tracking/Task Tracking/Page_Reengagement Task Detail - SEVA CRM/txt_Leads Information'), 
+WebUI.verifyElementText(findTestObject('CRM/Tracking/Task Tracking/Reengagement Task Detail/txt_Leads Information (1)'), 
     'Leads Information')
 
 WebUI.scrollToElement(findTestObject('CRM/Tracking/Task Tracking/Reengagement Task Detail/tab_Leads'), 0)

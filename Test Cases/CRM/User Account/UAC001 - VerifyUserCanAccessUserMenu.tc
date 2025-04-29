@@ -4,5 +4,6 @@
    <name>UAC001 - VerifyUserCanAccessUserMenu</name>
    <tag>UserMenu</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>91233653-77a9-4bdf-8ee0-0ee8f2844cbb</testCaseGuid>
 </TestCaseEntity>

@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('CRM/Side Menu/icon_Workstation'))
+WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Workstation'))
+WebUI.click(findTestObject('CRM/Side Menu/Menu_Workstation'))
 
-WebUI.click(findTestObject('CRM/Side Menu/menu_Re-engagement Workstation'))
+WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Re-engagement Workstation'))
 
 'Verify that the user is on the "Re-engagement Workstation" page.'
 WebUI.verifyElementText(findTestObject('CRM/Workstation/Re-eng Workstation/txt_Re-engagement Workstation'), 'Re-engagement Workstation')
 
 'Click in any element to hide sidebar menu.'
-WebUI.click(findTestObject('CRM/Account Management Page/element_Header'))
+WebUI.click(findTestObject('CRM/Account Management/element_Header'))
 
