@@ -16,18 +16,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+
 
 WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
 
-WebUI.click(findTestObject('CRM/Side Menu/Menu_Workstation'))
+TestObject menuWorkstation = findTestObject('CRM/Side Menu/Menu_Workstation')
+WebUI.waitForElementVisible(menuWorkstation, 10)
+WebUI.waitForElementClickable(menuWorkstation, 10)
+WebUI.scrollToElement(menuWorkstation, 5)
+WebUI.click(menuWorkstation)
 
-WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Leads Workstation'))
+TestObject submenuLeads = findTestObject('CRM/Side Menu/SubMenu_Leads Workstation')
+WebUI.waitForElementVisible(submenuLeads, 10)
+WebUI.waitForElementClickable(submenuLeads, 10)
 
-'Verify that the user is on the "Leads Workstation" page.'
+WebElement leadsElement = WebUiCommonHelper.findWebElement(submenuLeads, 10)
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+js.executeScript("arguments[0].scrollIntoView(true);", leadsElement)
+js.executeScript("arguments[0].click();", leadsElement)
+
+// verify halaman terbuka
 WebUI.verifyElementText(findTestObject('CRM/Workstation/Lead Workstation/txt_Leads Workstation'), 'Leads Workstation')
 
-'Click in any element to hide sidebar menu.'
+// close sidebar
 WebUI.click(findTestObject('CRM/Account Management/element_Header'))
 
+//WebUI.click(findTestObject('CRM/Side Menu/Menu_Workstation'))
+//
+//WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Leads Workstation'))
+//
+//WebUI.click(menuWorkstation)
+//
+//WebUI.click(findTestObject('CRM/Side Menu/SubMenu_Leads Workstation'))
+//
+//'Verify that the user is on the "Leads Workstation" page.'
+//WebUI.verifyElementText(findTestObject('CRM/Workstation/Lead Workstation/txt_Leads Workstation'), 'Leads Workstation')
+//
+//'Click in any element to hide sidebar menu.'
+//WebUI.click(findTestObject('CRM/Account Management/element_Header'))
