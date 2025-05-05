@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('CRM/Login/HMP007 - VerifyUserCanClickForgotPass
 
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_emailForgotPassword'))
 
-WebUI.setText(findTestObject('CRM/Login/field_emailForgotPassword'), GlobalVariable.EmailUserCSALeader)
+WebUI.setText(findTestObject('CRM/Login/field_emailForgotPassword'), GlobalVariable.EmailUserQA)
 
