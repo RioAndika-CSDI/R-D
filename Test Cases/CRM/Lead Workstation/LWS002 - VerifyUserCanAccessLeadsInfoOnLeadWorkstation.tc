@@ -4,5 +4,6 @@
    <name>LWS002 - VerifyUserCanAccessLeadsInfoOnLeadWorkstation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0d1782ba-8d39-48d5-98b0-4709395f69d6</testCaseGuid>
 </TestCaseEntity>
