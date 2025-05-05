@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/div</value>
+         <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/div</value>
-      <webElementGuid>b1d02d02-d90a-40e0-92f2-19468f2f53ba</webElementGuid>
+      <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/button</value>
+      <webElementGuid>36e8f4d8-5a91-4c11-876b-8f113ea31c39</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

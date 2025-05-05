@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class=&quot;headerMobile_right__40Snk&quot;]//*[count(. | //*[(text() = 'SEVA search Icon' or . = 'SEVA search Icon')]) = count(//*[(text() = 'SEVA search Icon' or . = 'SEVA search Icon')])])[1]</value>
+         <value>(//*[@data-testid = 'icon-search-header'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class=&quot;headerMobile_right__40Snk&quot;]//*[count(. | //*[(text() = 'SEVA search Icon' or . = 'SEVA search Icon')]) = count(//*[(text() = 'SEVA search Icon' or . = 'SEVA search Icon')])])[1]</value>
-      <webElementGuid>ba488cbe-4252-42d3-baed-bf0564064d3f</webElementGuid>
+      <value>(//*[@data-testid = 'icon-search-header'])[1]</value>
+      <webElementGuid>8ab1453f-deac-45c5-baad-d2ae57c2f0bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>icon-search-header</value>
+      <webElementGuid>e7fe5966-ed88-49dd-a5ef-4faefd80361e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

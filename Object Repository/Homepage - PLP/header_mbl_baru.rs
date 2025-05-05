@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_leads_floating</name>
+   <name>header_mbl_baru</name>
    <tag></tag>
-   <elementGuidId>e554ec5c-ec27-4602-bda0-adb408963004</elementGuidId>
+   <elementGuidId>586425d5-0081-441d-bdc3-850cad60bbf9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class=&quot;ant-float-btn-body&quot;])[2]</value>
+         <value>(//*[@class=&quot;navbarDesktop_menuItem__yEHMI&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class=&quot;ant-float-btn-body&quot;])[2]</value>
-      <webElementGuid>10f3120f-40df-4f64-b976-200e47ac2542</webElementGuid>
+      <value>(//*[@class=&quot;navbarDesktop_menuItem__yEHMI&quot;])[1]</value>
+      <webElementGuid>dc4fa586-0eaf-4a4b-94f0-e03c6fce382f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
