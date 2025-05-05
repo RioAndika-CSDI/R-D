@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='radix-:r8:']/div/a</value>
+         <value>//p[text()=('Workstation')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>49318fe9-4d57-48a4-bab6-2a0e0bd92b58</webElementGuid>
+      <webElementGuid>6050b490-f16c-49d1-9423-ec0d17c31492</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical</value>
-      <webElementGuid>1f2e8068-b537-4d82-8ed4-052e193395c1</webElementGuid>
+      <webElementGuid>37383509-17ab-4c0a-b7dc-5b6e696572be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7bca1b80-f4dc-4b7f-aae4-acbac2f5483f</webElementGuid>
+      <webElementGuid>b2b3ac3a-25d8-4d2b-9910-577aad7a225d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/leads-workstation</value>
-      <webElementGuid>c482b5fe-8d13-4f7e-87f3-95e3aff6c9c8</webElementGuid>
+      <webElementGuid>5307ce91-564a-43f1-8e96-5d74b26a3094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>data-discover</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bca8e194-687a-4dc2-8009-7bf5153d0321</webElementGuid>
+      <webElementGuid>3e9b4fd4-bb9c-4e92-90d5-04de5fb4d3f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Leads Workstation</value>
-      <webElementGuid>8f45028b-8ce9-4646-8f76-7d92693b0ea7</webElementGuid>
+      <webElementGuid>c5abe015-3b65-4d63-aff8-7c9fc71fbcc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r8:&quot;)/div[@class=&quot;pb-0 pt-0&quot;]/a[@class=&quot;flex h-20 w-full items-center justify-start bg-surface-plain pl-[76px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder hover:bg-hover-white hover:text-text-placeholder aria-selected:pointer-events-none aria-selected:bg-surface-plain aria-selected:font-bold aria-selected:text-text-critical&quot;]</value>
-      <webElementGuid>4961f7cb-d520-4461-9c6e-6a5ce3db6c28</webElementGuid>
+      <webElementGuid>da149cef-b97f-43d2-9aa2-b5043312aab2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r8:']/div/a</value>
-      <webElementGuid>7219e920-c82f-4c24-806e-2ad9bfc9e703</webElementGuid>
+      <webElementGuid>5f6b5b99-f7ef-4d2d-9ee3-2741cffa40e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Leads Workstation')]</value>
-      <webElementGuid>43170016-2ac5-48f8-b1f2-5db977bd486e</webElementGuid>
+      <webElementGuid>78d4efb3-2d01-4c59-9069-630e5e2c0cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::a[3]</value>
-      <webElementGuid>f0f2665a-7173-4263-bf72-806f76c83d3c</webElementGuid>
+      <webElementGuid>af9921a3-7508-46f5-af9b-9af5838d28d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::a[3]</value>
-      <webElementGuid>36ac0c08-b52a-4ce4-8152-143ea9bd4f58</webElementGuid>
+      <webElementGuid>95c15c73-e4bd-4b28-8dcc-01b768b04ee2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-engagement Workstation'])[1]/preceding::a[1]</value>
-      <webElementGuid>c15c3da2-1e17-4fe0-a548-157b4662b8fe</webElementGuid>
+      <webElementGuid>52070521-e9f6-4a52-9a67-62c9a41c3b11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Leads Workstation']/parent::*</value>
-      <webElementGuid>ca2d3255-16f0-4d96-a138-bfcf06a36003</webElementGuid>
+      <webElementGuid>ac573fd0-c8d1-4253-86a8-de229f9de25a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/leads-workstation')]</value>
-      <webElementGuid>b223c56a-4050-472b-a9ea-57d72812dcdb</webElementGuid>
+      <webElementGuid>15ed7b2c-1687-4a61-95ac-49609cb1ad20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/a</value>
-      <webElementGuid>60a61c61-52a6-4eb0-9db8-aa1e3034781a</webElementGuid>
+      <webElementGuid>1d51ca47-e16d-418e-8793-4fee009e4b11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,6 +152,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/leads-workstation' and (text() = 'Leads Workstation' or . = 'Leads Workstation')]</value>
-      <webElementGuid>b3058bce-ddb5-41e5-a9c5-4eb9c3502889</webElementGuid>
+      <webElementGuid>1b053f21-8c2f-4ab2-bc36-f9199199b54a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
