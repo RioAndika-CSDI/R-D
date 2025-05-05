@@ -22,17 +22,29 @@ WebUI.openBrowser('seva.id')
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+try {
+    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+} catch (Exception e) {
+    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
+}
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+try {
+    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+} catch (Exception e) {
+    println("Popup Update Seva tidak muncul, dilewati.")
+}
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+try {
+    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+} catch (Exception e) {
+    println("Popup Pilih Lokasi tidak muncul, dilewati.")
+}
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/hamburger_mobil_baru'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/header_mbl_baru'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/hamburger_lihat_semua_mbl'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/header_mbl_baru_lihat_semua_mbl'))
 
 String currentUrl = WebUI.getUrl()
 

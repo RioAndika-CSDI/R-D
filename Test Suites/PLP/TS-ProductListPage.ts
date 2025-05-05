@@ -127,7 +127,7 @@
       <guid>6f28bdb6-13c4-499d-97ec-20871acc8ace</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page/PLP17 - User Can Access PLP from Hamburger Menu</testCaseId>
+      <testCaseId>Test Cases/Product List Page/PLP17 - User Can Access PLP from Header Menu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

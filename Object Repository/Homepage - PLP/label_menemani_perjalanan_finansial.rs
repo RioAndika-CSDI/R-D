@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;mainHeroLp_mainTitle__Ot_O9 mainHeroLp_bold__HLXWr&quot;]</value>
+         <value>//*[@class=&quot;mainHeroLp_mainTitle__Ot_O9 undefined&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class=&quot;mainHeroLp_mainTitle__Ot_O9 mainHeroLp_bold__HLXWr&quot;]</value>
-      <webElementGuid>0a4174c8-e3fb-4574-b58f-bfea73e99ab1</webElementGuid>
+      <value>//*[@class=&quot;mainHeroLp_mainTitle__Ot_O9 undefined&quot;]</value>
+      <webElementGuid>e4f9bb91-a8f2-4bba-b572-67d4dcc073ab</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
+         <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y searchComponent_linkAllCarDesktop__e6UiJ&quot;]//p)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
-      <webElementGuid>44afc7d4-9f93-4005-9b83-fe47ade46661</webElementGuid>
+      <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y searchComponent_linkAllCarDesktop__e6UiJ&quot;]//p)[1]</value>
+      <webElementGuid>26fc1907-a569-4974-a2e4-d81bb68d58c2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
