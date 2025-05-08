@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'ktp-review_iconWrapper')]</value>
+         <value>//div[contains(@class, 'ktp-review_checkboxOptionWrapper')]//button[contains(@class, 'ktp-review_iconWrapper')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//div[@class='ktp-review_checkboxOptionWrapper__1aDtj']//button[@class='ktp-review_iconWrapper__HV3Ls']//*[name()='svg']//*[name()='rect']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>rect</value>
-      <webElementGuid>2746d490-a927-472e-9b1f-7e3f297bc4fa</webElementGuid>
+      <webElementGuid>fa3e5bf6-9a83-492b-8cbe-de412db5dfd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>e2c9e494-3335-4f65-8f0b-f818398600a3</webElementGuid>
+      <webElementGuid>374b436c-8e66-4e34-ba84-2d3c4329fc43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>y</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>8883109e-032d-4b5a-bcba-444e7bebea6e</webElementGuid>
+      <webElementGuid>3ddcbdc4-6d59-46fa-90e2-f3ae762e0d25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>width</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>06c64486-fdc0-4b86-b696-35c897dc935d</webElementGuid>
+      <webElementGuid>cf108cc1-4d91-49d3-a5a1-2064b0ce4a53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>height</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>5049f8a9-c156-42b9-a001-a6d81f88fcc5</webElementGuid>
+      <webElementGuid>4e2432e9-93e1-4032-a90d-bf5810421e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>rx</name>
       <type>Main</type>
       <value>3.5</value>
-      <webElementGuid>09c69b49-45e4-4350-a5c2-9bbb87a98487</webElementGuid>
+      <webElementGuid>70dfee32-6656-40ef-af06-0a881b181762</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,22 +74,22 @@
       <name>fill</name>
       <type>Main</type>
       <value>white</value>
-      <webElementGuid>7dd74ced-de70-4b92-ae3e-bf18590b3af8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;ktp-review_content__3QzXr&quot;]/div[@class=&quot;ktp-review_ktpContent__YDvor&quot;]/div[@class=&quot;ktp-review_ktpSection__P_ZI3&quot;]/div[@class=&quot;ktp-review_ktpDataWrapper__ZYUWP&quot;]/div[@class=&quot;ktp-review_ktpDataRow__f_JZL&quot;]/div[@class=&quot;ktp-review_checkboxOptionWrapper__1aDtj&quot;]/button[@class=&quot;ktp-review_iconWrapper__HV3Ls&quot;]/svg[1]/rect[1]</value>
-      <webElementGuid>fc13a47a-5cff-4ff1-a332-0f281141ab7f</webElementGuid>
+      <webElementGuid>925eddcf-1a7e-463b-bf86-cdd92858ae8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class, 'ktp-review_checkboxOptionWrapper')]//button[contains(@class, 'ktp-review_iconWrapper')]</value>
+      <webElementGuid>8968108a-83ba-4a43-92ed-277ce15d6f6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ktp-review_iconWrapper</value>
-      <webElementGuid>2b46b481-ca53-4614-8f9f-f98bc9f7665e</webElementGuid>
+      <webElementGuid>b82198c1-e0e5-4729-847d-342628b3efa8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

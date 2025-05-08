@@ -6,12 +6,12 @@
    <elementGuidId>03010795-aeba-46a4-a1db-1dfc01f0c8ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-hitung-kemampuan-lc' and (text() = 'Simulasikan Kredit Customer' or . = 'Simulasikan Kredit Customer')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-testid = 'button-hitung-kemampuan-lc' and (text() = 'Hitung Kemampuan Customer' or . = 'Hitung Kemampuan Customer')]</value>
+         <key>CSS</key>
+         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8ac58887-fd70-4246-8fb9-112d3cf9f40b</webElementGuid>
+      <webElementGuid>9ba0be2b-2062-4eaf-bbea-d48b49e10a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>26d7e64e-8b99-4b2a-ad19-3b2ed0bc947e</webElementGuid>
+      <webElementGuid>986ae8b8-7547-42b7-9946-0601e630b8de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +42,15 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-hitung-kemampuan-lc</value>
-      <webElementGuid>4491c924-d828-4fb4-9318-6ad4ba68b5b8</webElementGuid>
+      <webElementGuid>8d3c3910-67f7-4825-bdaa-5f742c6f16cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hitung Kemampuan Customer</value>
-      <webElementGuid>040096a3-9662-47ae-a771-ad9b53a1e38d</webElementGuid>
+      <value>Simulasikan Kredit Customer</value>
+      <webElementGuid>59bbac30-369b-4954-9dc8-05b84835df2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;lcNewCarGenerateIa_content__Ay2NT&quot;]/div[@class=&quot;lcNewCarGenerateIa_formAndResultSection__MgNFZ&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>21c466c7-39ca-4419-b9c8-b5daecb78293</webElementGuid>
+      <webElementGuid>3ba99812-a287-473b-8420-7b51dc19e7c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/button</value>
-      <webElementGuid>29087be7-f214-4c30-9538-f97059692bd7</webElementGuid>
+      <webElementGuid>22c24f0c-37f0-48b3-a01a-6ad1a745e1fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/following::button[1]</value>
-      <webElementGuid>8bd4d4cc-ecac-4760-bcd9-4922830f34d7</webElementGuid>
+      <webElementGuid>6f2eb7e3-4537-47ff-bfa4-577fc06bfb77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='paling sesuai'])[1]/following::button[1]</value>
-      <webElementGuid>17206e98-33b8-401d-9d30-9035ea1cfe31</webElementGuid>
+      <webElementGuid>7834e6de-f1ea-485b-a1a1-5b491367c069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang SEVA'])[2]/preceding::button[1]</value>
-      <webElementGuid>6faa0942-eacd-44c4-9d9d-3b965116ae91</webElementGuid>
+      <webElementGuid>3e484779-c775-46c8-a35e-2d88327d02d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::button[1]</value>
-      <webElementGuid>f1d150e9-5fc6-46b4-9e3a-42c75737284d</webElementGuid>
+      <webElementGuid>5d254cfd-0da5-4c69-a3e3-970295dd5f3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Hitung Kemampuan Customer']/parent::*</value>
-      <webElementGuid>b9e98796-8e25-4239-9f94-57b2fab4dcce</webElementGuid>
+      <webElementGuid>4c11cfaf-93ea-4744-a6fc-58793caaf80b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button</value>
-      <webElementGuid>a96a9e6f-b928-45a5-b3a4-388beeb18889</webElementGuid>
+      <webElementGuid>e718d4cc-60ca-4713-97a5-ad0c5e2b3f25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Hitung Kemampuan Customer' or . = 'Hitung Kemampuan Customer')]</value>
-      <webElementGuid>95e1d477-f18e-4ddf-bb27-35274c7ee30c</webElementGuid>
+      <webElementGuid>86c68296-6c96-4a60-8c8e-6f6da2490045</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

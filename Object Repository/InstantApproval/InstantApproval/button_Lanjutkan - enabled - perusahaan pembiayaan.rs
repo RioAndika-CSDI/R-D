@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Lanjutkan']</value>
+         <value>//button[normalize-space()='Selanjutnya']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5646f452-7f24-45c1-bbf7-29fd1df0e68d</webElementGuid>
+      <webElementGuid>c4b49b92-9084-429a-8a3d-5af23f918c71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>6541940a-1f8e-4571-9216-4d9b519d1ebf</webElementGuid>
+      <webElementGuid>0339020a-3212-428c-8c01-d4c0fbe67fa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjutkan</value>
-      <webElementGuid>0667c327-b80c-48c1-9c8e-94593d9fb345</webElementGuid>
+      <webElementGuid>1fddc9bb-4534-4043-ad5d-312256781b47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;perusahaan-pembiayaan_button__y4ELW&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>13e46adf-5b30-4e62-ab19-e9ce9057ddbd</webElementGuid>
+      <webElementGuid>2b9439e3-579f-44b4-abcb-2627779ebda1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[4]/button</value>
-      <webElementGuid>feafc4e2-1d25-4941-9fbf-0c1be2658872</webElementGuid>
+      <webElementGuid>d24b13c8-6f84-4c8a-8a5f-14ea26153d61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::button[1]</value>
-      <webElementGuid>b1ee18d0-094e-4e88-9df2-8bef2842c529</webElementGuid>
+      <webElementGuid>4e00d7c2-8529-4c4f-92e6-bce9dcbdb72f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/following::button[1]</value>
-      <webElementGuid>5767080b-06c0-4820-8d0c-f36bf21d4487</webElementGuid>
+      <webElementGuid>e8784c9c-1e2f-47b6-a628-b8831cee06b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>86551c1b-c566-4b9b-9498-6b301fdea89b</webElementGuid>
+      <webElementGuid>ea314ec9-054b-4722-b384-6db4726a4aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>a0f93589-d157-4f75-8540-639d70460a34</webElementGuid>
+      <webElementGuid>994ded07-6a16-4596-90a6-bab3a94d218a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjutkan']/parent::*</value>
-      <webElementGuid>0fa9d07c-7374-432d-b9a2-87d517fb7436</webElementGuid>
+      <webElementGuid>2a02cfa8-9f59-4d3f-82cc-0055b57ec050</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>c9a4535f-04dc-42fb-99c9-6ed4aa6c80ca</webElementGuid>
+      <webElementGuid>1ac433d5-f017-4740-9360-1bd96e875f09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
-      <webElementGuid>f5df6f4d-818a-4ee0-9ae3-253553b1d582</webElementGuid>
+      <webElementGuid>01dbc68f-540d-41b6-bdb3-cbfdb0933bf4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>61a8b2b2-96df-45fb-96b9-77b953103ecb</testSuiteGuid>
    <testCaseLink>
-      <guid>a01df3dc-2623-475b-a084-81ea103066dd</guid>
+      <guid>a2e101ab-32a6-4395-b078-98a219acb1fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - CSA/IA001 CSA - Verify CSA Can Access Generate Link IA</testCaseId>
@@ -43,7 +43,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8e29fb42-7886-4f26-8d20-c8892d51f82c</guid>
+      <guid>62e1cc23-dc18-4101-9e87-bcb1f53e4266</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - CSA/IA002 CSA - Verify CSA Can Input Link IA Form - DP Nominal</testCaseId>
@@ -134,14 +134,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c00b138-ba60-4fb9-80da-d83d2e3ce101</guid>
+      <guid>d95fd035-bfcd-439d-97d8-226fee5d31a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - CSA/IA003 CSA - Verify CSA Can Click Hitung Kemampuan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff507ebf-c8ea-4e1e-b411-29a982115c4e</guid>
+      <guid>05601d54-789b-48fa-90d3-855d9177aaed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - CSA/IA004 CSA - Verify CSA Can Buat Link IA</testCaseId>

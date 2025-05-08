@@ -27,5 +27,5 @@ WebUI.verifyElementClickable(findTestObject('InstantApproval/InstantApprovalCSA/
 
 WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Hitung Kemampuan Customer'))
 
-WebUI.verifyTextPresent('Simulasi Cicilan', false)
+WebUI.verifyTextPresent('Simulasi Kredit', false)
 

@@ -6,6 +6,10 @@
    <elementGuidId>164082e5-0063-41f5-afd6-5bbc8305b367</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'dropdown-status-perkawinan']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='marriage']</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>CSS</key>
          <value>#marriage</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = '${marriage}']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5a40a45f-1b2d-48d7-b203-9ad0101a103e</webElementGuid>
+      <webElementGuid>99ccc880-17fb-4aee-936d-2fe196742a05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>470a5a11-a56e-4ba4-8352-f0958478490f</webElementGuid>
+      <webElementGuid>3fd86276-8ab9-40e2-8f4e-c29bcf4d00cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField__Zpc6V</value>
-      <webElementGuid>3e81f878-fb4d-444e-8a2e-077f46c1e8c0</webElementGuid>
+      <webElementGuid>791831fb-6069-4056-a74d-b5b903691091</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih Status Perkawinan</value>
-      <webElementGuid>88d5c7f2-f786-436b-ab51-8a0f2347a0c4</webElementGuid>
+      <webElementGuid>b185514e-a124-4b7d-857e-ec40dacd30d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>${marriage}</value>
-      <webElementGuid>d9d7e4b4-ed7f-431a-9ca9-c6f5e7db39eb</webElementGuid>
+      <webElementGuid>184ec3a8-fedd-43cc-ad6b-6981144b0dde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +66,15 @@
       <name>name</name>
       <type>Main</type>
       <value>marriage</value>
-      <webElementGuid>221e30ce-b5d4-462a-8e9b-c4b8303ca88c</webElementGuid>
+      <webElementGuid>9f584f82-b28b-4143-849c-a521d11ea50e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>dropdown-status-perkawinan</value>
-      <webElementGuid>99051c71-8c75-4143-a7b4-24dc8df4f823</webElementGuid>
+      <webElementGuid>bb12d37a-3106-499a-ac43-7aae3d1c92eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;marriage&quot;)</value>
-      <webElementGuid>2a256488-f477-4be9-a348-6d41d2e4bbf3</webElementGuid>
+      <webElementGuid>ebf180dd-f7cd-4e9e-82d3-7672314a8aa7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='marriage']</value>
-      <webElementGuid>9459df91-67d7-4db6-adc8-529c8256617c</webElementGuid>
+      <webElementGuid>85422b54-b93d-46b8-a70d-eaa8dd40fac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[5]/div/div/div/input</value>
-      <webElementGuid>8e21ec0f-16e2-4860-ba2f-d13c1b91629e</webElementGuid>
+      <webElementGuid>e2facdb7-d954-4ebd-b891-30c12d860871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/input</value>
-      <webElementGuid>011cc671-9e86-4323-9370-c35c2527d99e</webElementGuid>
+      <webElementGuid>01e80df3-2e3e-4be6-8210-a37c3388bf26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih Status Perkawinan' and @id = 'marriage' and @name = 'marriage']</value>
-      <webElementGuid>b400a439-f56c-4d66-9a29-4c698b01e316</webElementGuid>
+      <webElementGuid>0339e942-8b53-4fd4-b7d7-90792bb17574</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

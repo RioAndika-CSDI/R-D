@@ -6,16 +6,16 @@
    <elementGuidId>fb25217c-8e79-4112-9f79-7c5a71e7ba12</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;perusahaan-pembiayaan_agreementTerms__k7etZ&quot;]/div[@class=&quot;perusahaan-pembiayaan_checkBox__N1nmA&quot;]/svg[1]/rect[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>rect</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='perusahaan-pembiayaan_checkBox__N1nmA']//*[name()='svg']//*[name()='rect']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;perusahaan-pembiayaan_agreementTerms__k7etZ&quot;]/div[@class=&quot;perusahaan-pembiayaan_checkBox__N1nmA&quot;]/svg[1]/rect[1]</value>
+         <value>//div[contains(@class, 'perusahaan-pembiayaan_agreementTerms')]//button[contains(@class, 'perusahaan-pembiayaan_checkBox')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>rect</value>
-      <webElementGuid>b147b275-eb43-4b5b-a639-8a73e1e91b61</webElementGuid>
+      <webElementGuid>c1ac46a2-8dcf-418d-b253-84a953b0c6f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>c6b7306a-e0c3-4a77-9f9d-653bb7f40439</webElementGuid>
+      <webElementGuid>6c00934b-2185-434f-a2a8-19657e994629</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>y</name>
       <type>Main</type>
       <value>0.773438</value>
-      <webElementGuid>121ab6b0-8e68-4670-a0f0-9b011ab639f2</webElementGuid>
+      <webElementGuid>bf42a9f5-e542-410f-81e7-66ae4bf632ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>width</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>06127eef-93b6-4d24-a8ac-a220e03baba9</webElementGuid>
+      <webElementGuid>6bf5879d-2ea4-42de-8f79-4f6170b678e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>height</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>f9797168-2563-476d-a33b-77aab9881ecc</webElementGuid>
+      <webElementGuid>e2644585-67c3-4723-9df2-4790ef58a09c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>rx</name>
       <type>Main</type>
       <value>3.5</value>
-      <webElementGuid>099e2c07-1724-41b5-ab2b-f55b201398a6</webElementGuid>
+      <webElementGuid>5fe2b6a3-0235-4374-81db-de4822d1413c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>white</value>
-      <webElementGuid>2b403747-7541-4169-8540-efa013ece265</webElementGuid>
+      <webElementGuid>afce7dc7-7c45-4a6a-8556-4ac65398ff06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;perusahaan-pembiayaan_agreementTerms__k7etZ&quot;]/div[@class=&quot;perusahaan-pembiayaan_checkBox__N1nmA&quot;]/svg[1]/rect[1]</value>
-      <webElementGuid>50b3fe0e-05df-4cd7-9ed3-a8df5ecd035f</webElementGuid>
+      <webElementGuid>8bf488ed-1e6e-4a85-9799-1dd90195f82e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
