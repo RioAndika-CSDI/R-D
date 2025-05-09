@@ -6,15 +6,19 @@
    <elementGuidId>c178f073-c63e-400e-8a41-48693c61d2db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space()='Konfirmasi']</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-konfirmasi']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Konfirmasi']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fb0e065d-7e55-47ec-8a8f-63386c01c8ca</webElementGuid>
+      <webElementGuid>07fdca64-2230-4a84-8fa8-9fdfb30ee20e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>421d061c-7b6c-4b12-868d-f5dc7eaa4c44</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>button-konfirmasi</value>
-      <webElementGuid>fb2083c1-6c45-44f6-8dcb-8b994c00e875</webElementGuid>
+      <webElementGuid>419ef581-b48e-4dbb-b2b6-a027bae0aead</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-konfirmasi</value>
+      <webElementGuid>9fbf7f84-1337-4c9f-9221-4da0f4d8fa52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Konfirmasi</value>
-      <webElementGuid>83d9ffa2-08a9-461e-aaf7-3d3718e03515</webElementGuid>
+      <webElementGuid>09617e10-cdd7-43e3-9e6e-5aa1d0ec06ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2 ktp-edit_form_header__wQrVw&quot;]/main[@class=&quot;ktp-edit_wrapper__b5vQk&quot;]/section[@class=&quot;ktp-edit_wrapper__form__psNep&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>01c5135d-c61f-4b29-a857-da81a94ddf72</webElementGuid>
+      <webElementGuid>8358593b-836a-453f-9e2e-864e851d5a64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/button</value>
-      <webElementGuid>538972f3-4749-4d05-a47a-e539df1e0b6a</webElementGuid>
+      <webElementGuid>f204343c-f274-431f-89d2-b20561b3b277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/following::button[2]</value>
-      <webElementGuid>021891d8-2003-4c97-9f41-44b1efd7a85d</webElementGuid>
+      <webElementGuid>5a203830-c38b-42c3-b7aa-b4c26759f374</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerai Mati'])[1]/following::button[2]</value>
-      <webElementGuid>0838d7e2-8f3e-4cdd-aa87-5b0630131b44</webElementGuid>
+      <webElementGuid>5d7208c3-2f2a-436d-b5e6-ad3b07b93ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>e69da095-99bd-41c1-8b3c-0d255525d6f6</webElementGuid>
+      <webElementGuid>17fd2e35-c1c8-4b94-84a2-840cac29097e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>57b0196c-212b-43e4-9dd8-10c3d8862775</webElementGuid>
+      <webElementGuid>8c939750-69f7-4a05-9c86-4e82d9feeb6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Konfirmasi']/parent::*</value>
-      <webElementGuid>1bfc826e-5ac5-4236-b516-307cb2c5cc21</webElementGuid>
+      <webElementGuid>51b58eee-d1b4-47d1-bc83-7579100df164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/button</value>
-      <webElementGuid>02970aed-c4ce-460a-a4c5-d7df41070942</webElementGuid>
+      <webElementGuid>d4aaf2be-dd3e-4652-a910-6a6b9ab118ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Konfirmasi' or . = 'Konfirmasi')]</value>
-      <webElementGuid>d4a19313-2520-408e-9e1f-fdadf9e3f5f3</webElementGuid>
+      <webElementGuid>1f6b2d21-f615-4720-9a41-06ec5079a5ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

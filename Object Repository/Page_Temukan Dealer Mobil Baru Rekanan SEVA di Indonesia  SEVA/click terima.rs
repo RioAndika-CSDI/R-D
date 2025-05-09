@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'bottomSheetCookies_wrapperButton__eLJ4a']</value>
+         <value>//div[contains(@class, 'bottomSheetCookies_wrapperButton')]//button[text()='Terima']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class = 'bottomSheetCookies_wrapperButton__eLJ4a']</value>
-      <webElementGuid>bc50bb1f-e50e-4fb6-b498-bb465c034236</webElementGuid>
+      <value>//div[contains(@class, 'bottomSheetCookies_wrapperButton')]//button[text()='Terima']</value>
+      <webElementGuid>48484098-2f1c-46e7-a5b9-0ace42814a34</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

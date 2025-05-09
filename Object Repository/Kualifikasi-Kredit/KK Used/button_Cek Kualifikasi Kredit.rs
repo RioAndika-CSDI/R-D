@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'calculationResult_continueKkSectionCta' and (text() = 'Cek Kualifikasi Kredit' or . = 'Cek Kualifikasi Kredit')]</value>
+         <value>//*[starts-with(@class, 'calculationResult_continueKkSectionCta') and (text() = 'Cek Peluang Kredit' or . = 'Cek Peluang Kredit')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d2ddc90-b7b2-45d1-a11b-9858005cb500</webElementGuid>
+      <webElementGuid>37d9f1dc-3719-49f4-8311-17c44079e21b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>calculationResult_continueKkSectionCta</value>
-      <webElementGuid>1a38e588-0ac6-4254-a9d2-1638e95f88e2</webElementGuid>
+      <webElementGuid>a8a84b9a-f709-44b6-b9cb-619d7d428032</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>info-kualifikasi-kredit</value>
-      <webElementGuid>d5fe13d3-c3bf-4692-ad3d-bf7e944eecde</webElementGuid>
+      <webElementGuid>d2b25d7d-2992-4a78-bc52-cf2a65d7dc22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cek Kualifikasi Kredit</value>
-      <webElementGuid>599fc2fe-926b-4323-8afd-b40997f06708</webElementGuid>
+      <value>Cek Peluang Kredit</value>
+      <webElementGuid>e0e32133-0ffa-4ec7-87f8-8a1cbe23a4cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;loanCalculator_content__8TsqO&quot;]/div[@class=&quot;calculationResult_container__Ezztd&quot;]/div[@class=&quot;calculationResult_ctaGroup__kD_an&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>71c991e8-9288-41bf-a2f5-b40cbf429a48</webElementGuid>
+      <webElementGuid>f9d658b2-41b0-451b-85d5-f97e3e9058d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/button</value>
-      <webElementGuid>03ee6c6d-aebc-4edf-b773-f0b4a33fd462</webElementGuid>
+      <webElementGuid>0ac54afa-4e5b-4ca9-b3af-943d263db323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Promo Lain'])[5]/following::button[1]</value>
-      <webElementGuid>0aec50ea-7579-44da-946d-a7e7c9e7b1d6</webElementGuid>
+      <webElementGuid>b6d22e9a-37bb-47d1-8142-79ad6d068055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Terbaik!'])[5]/following::button[2]</value>
-      <webElementGuid>0709dd84-d61c-40b1-8d56-39e50d6e0878</webElementGuid>
+      <webElementGuid>ad9217b9-0d03-4c92-8601-c8d25c87e8f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Agen SEVA'])[1]/preceding::button[1]</value>
-      <webElementGuid>0cbdf641-dde2-4ada-83bf-605bc94e9e32</webElementGuid>
+      <webElementGuid>ab02e815-069a-42fe-9799-840a628477bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keuntungan Kualifikasi Kredit dengan SEVA'])[1]/preceding::button[2]</value>
-      <webElementGuid>c70c6863-245d-4b5d-9b73-61c0b870d534</webElementGuid>
+      <webElementGuid>8c4120f1-6fc9-475c-9d84-ad14e7abc630</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cek Kualifikasi Kredit']/parent::*</value>
-      <webElementGuid>68e19e78-8c0a-427b-9347-aac669d134d5</webElementGuid>
+      <webElementGuid>15d28699-cc0f-486b-934b-e3e5d2d2e069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[4]/button</value>
-      <webElementGuid>41fa139c-dce8-4044-86d7-1da69d519ac8</webElementGuid>
+      <webElementGuid>58365112-a39c-40bf-865f-02f9e6858b3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Cek Kualifikasi Kredit' or . = 'Cek Kualifikasi Kredit')]</value>
-      <webElementGuid>ea734dac-d645-470d-bd1a-a51f3b924f44</webElementGuid>
+      <webElementGuid>5c0e8ef3-7976-46db-8caa-99423d729897</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

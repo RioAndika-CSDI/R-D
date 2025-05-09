@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Bayar di Belakang (ADDB)Dibayar sebulan setelah DP' or . = 'Bayar di Belakang (ADDB)Dibayar sebulan setelah DP')]</value>
+         <value>//*[starts-with(@class, 'cicilform_buttonOptionText') and (text() = 'Bayar di Belakang (ADDB)' or . = 'Bayar di Belakang (ADDB)')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c5bf8ff9-b503-424e-990b-b8f04be5a030</webElementGuid>
+      <webElementGuid>29c25f4e-464a-4cd3-9580-9fbaec969a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,31 +34,31 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-addb</value>
-      <webElementGuid>b44346fa-c646-4a72-8033-268ab35486cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>3486aea0-058c-4084-90b6-e36ad86775f0</webElementGuid>
+      <webElementGuid>f65e2995-5deb-478a-9d39-31dcaeacda95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9cb3e259-238b-42ca-b68a-fe90af36a25e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn css-1fumvat ant-btn-default cicilform_buttonOption__vF5GL cicilform_selectedStyle__p6s_s</value>
-      <webElementGuid>40bb8eeb-8470-4e26-a2f7-1f414e28f2be</webElementGuid>
+      <value>cicilform_buttonOptionText</value>
+      <webElementGuid>5ad37bea-33d8-4ca2-8bcb-f71c3ae95f04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bayar di Belakang (ADDB)Dibayar sebulan setelah DP</value>
-      <webElementGuid>e9469754-64e9-44b2-8df6-f0540506eb7f</webElementGuid>
+      <value>Bayar di Belakang (ADDB)</value>
+      <webElementGuid>bde952c8-beda-4b33-b56d-915efb8e53bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-installment-type&quot;)/div[@class=&quot;cicilform_container__N9Fqa undefined&quot;]/div[@class=&quot;cicilform_cicilOptionForm__v9Z7c&quot;]/div[@class=&quot;ant-row css-1fumvat&quot;]/button[@class=&quot;ant-btn css-1fumvat ant-btn-default cicilform_buttonOption__vF5GL cicilform_selectedStyle__p6s_s&quot;]</value>
-      <webElementGuid>769fb913-ab68-4756-8e0f-7ada7d3441dd</webElementGuid>
+      <webElementGuid>6914af81-fc3d-4ba2-af0c-f8af172c53f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>735a655f-9bf8-4fb7-9785-814da720eece</webElementGuid>
+      <webElementGuid>ff2ccc4a-79ef-4b74-98e0-a03662554749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-installment-type']/div/div[2]/div[2]/button</value>
-      <webElementGuid>29faceea-4772-490e-aa3a-5c63d121e135</webElementGuid>
+      <webElementGuid>eb73560f-475a-43e6-9d5e-f2c4a365fedc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::button[2]</value>
-      <webElementGuid>62026900-5fd5-4609-a1e3-000ea0c00d9a</webElementGuid>
+      <webElementGuid>c159719e-10aa-4d53-aa44-b000f2e38210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::button[2]</value>
-      <webElementGuid>c1ea19c6-bcc3-481e-9ad2-8a6dc974cfa5</webElementGuid>
+      <webElementGuid>66dc23d5-79a5-4e34-927c-d1d6bd9fa3dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicil Mobil Impianmu dengan Mudah!'])[1]/preceding::button[1]</value>
-      <webElementGuid>9fb99cec-b2de-49a6-99ae-53677edc68db</webElementGuid>
+      <webElementGuid>bfa183ad-9d42-4cfa-b839-143baf0cca92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div[2]/button</value>
-      <webElementGuid>21154b08-8c32-4e05-809a-d7cef4a9218e</webElementGuid>
+      <webElementGuid>7bbc29a3-cc67-4938-bc87-b1cbfa835c8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Bayar di Belakang (ADDB)Dibayar sebulan setelah DP' or . = 'Bayar di Belakang (ADDB)Dibayar sebulan setelah DP')]</value>
-      <webElementGuid>c74c6415-77b6-4ef9-8de5-4760cd114501</webElementGuid>
+      <webElementGuid>68728961-3f5b-40ae-9753-cd80360344ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

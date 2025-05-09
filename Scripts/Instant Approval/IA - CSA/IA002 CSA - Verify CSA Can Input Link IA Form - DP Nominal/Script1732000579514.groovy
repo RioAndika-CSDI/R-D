@@ -38,6 +38,8 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
 'Click Moengage Ads\r\n'
 WebUI.delay(5)
 
@@ -95,14 +97,21 @@ WebUI.sendKeys(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Be
 WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/dropdown_car_model', 
         [('car_model') : car_model]))
 
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/field title - car variant csa'), 
+    5)
+
+WebUI.delay(5)
+
 'Input DP'
 if ((os[0]).equalsIgnoreCase('Windows') || (os[0]).equalsIgnoreCase('Linux')) {
     WebUI.sendKeys(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/input_downPaymentAmount'), 
-        Keys.chord(Keys.CONTROL, 'A'))
+        Keys.chord(Keys.CONTROL, 'a'))
 } else {
     WebUI.sendKeys(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/input_downPaymentAmount'), 
         Keys.chord(Keys.COMMAND, 'A'))
 }
+
+WebUI.delay(5)
 
 //WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city empty field'), Keys.chord(Keys.CONTROL, 'a'))
 WebUI.sendKeys(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/input_downPaymentAmount'), 
@@ -119,8 +128,6 @@ if (jenis_bayar.toString().equalsIgnoreCase('ADDM')) {
 }
 
 if (perusahaan_pembiayaan.toString().equalsIgnoreCase('ACC')) {
-    WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/input_Kota KTP Customer_inputSelect'))
-
     WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_ACC'))
 } else if (perusahaan_pembiayaan.toString().equalsIgnoreCase('TAF')) {
     WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_TAF'))

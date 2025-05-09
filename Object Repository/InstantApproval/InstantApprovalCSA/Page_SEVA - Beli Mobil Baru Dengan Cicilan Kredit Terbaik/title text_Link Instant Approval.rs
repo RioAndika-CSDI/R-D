@@ -6,16 +6,16 @@
    <elementGuidId>faa24d6f-cef7-4014-8fed-8ddfe6ada4c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.lcNewCarGenerateIa_headingText__ANB_5</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Hitung Kemampuan Customer' or . = 'Hitung Kemampuan Customer')]</value>
+         <value>//*[starts-with(@class, 'lcNewCarGenerateIa_headingText')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.lcNewCarGenerateIa_headingText__ANB_5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>b233073e-2d1e-4d90-b306-3855ee7a41fd</webElementGuid>
+      <webElementGuid>c5f32a34-ceff-4f7b-b764-3514c0849339</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcNewCarGenerateIa_headingText</value>
+      <webElementGuid>b80d0cc3-81a5-4855-8ab1-f8f64da702ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>lcNewCarGenerateIa_headingText__ANB_5</value>
-      <webElementGuid>99c106e1-c20b-427c-a4df-6b426dfe28d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Hitung Kemampuan Customer</value>
-      <webElementGuid>5f794bf1-ee62-4fc0-bdbe-0f0f67958ceb</webElementGuid>
+      <webElementGuid>4451b76e-fcdd-4cc2-8f91-a314ca09b58c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;lcNewCarGenerateIa_content__Ay2NT&quot;]/div[@class=&quot;lcNewCarGenerateIa_headingSection__JpPUN&quot;]/h2[@class=&quot;lcNewCarGenerateIa_headingText__ANB_5&quot;]</value>
-      <webElementGuid>59b5665d-482c-40f3-bb2a-88f4ae825d35</webElementGuid>
+      <webElementGuid>5836fdd9-04d6-4df2-8e4d-bc32256cdb37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div/h2</value>
-      <webElementGuid>83fd9765-e86f-4fb6-90d0-4327d6517747</webElementGuid>
+      <webElementGuid>d580a987-d4d8-4ad1-9ac0-d2b49b655a9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA GRAND AVANZA 1.3 G M/T 2021'])[1]/following::h2[1]</value>
-      <webElementGuid>46d77277-ff37-4e1c-b392-3cc3ffaac47a</webElementGuid>
+      <webElementGuid>819ada42-5d92-430a-b310-d710bdedcc36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU XENIA 1.3 X M/T GRAND 2020'])[1]/following::h2[1]</value>
-      <webElementGuid>d6c80f11-fac2-405f-9c95-2700e254116d</webElementGuid>
+      <webElementGuid>2d60b679-e8be-437a-b154-862a8aaf464e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Isi data secara lengkap untuk membuat link Instant Approval untuk customermu.'])[1]/preceding::h2[1]</value>
-      <webElementGuid>0e766f6f-6c9d-4b84-a312-614b60a464a6</webElementGuid>
+      <webElementGuid>d1f10446-09fb-48a7-bc0b-6857656fc9b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama CSA'])[1]/preceding::h2[1]</value>
-      <webElementGuid>96479722-530a-4f90-887f-f8817b660586</webElementGuid>
+      <webElementGuid>f38254c0-c9ee-413b-b627-efb10c8f1f9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Link Instant Approval']/parent::*</value>
-      <webElementGuid>68b059ae-3e8e-43d0-bfd0-185dd6ad57d8</webElementGuid>
+      <webElementGuid>3623dc1d-7f4b-4aea-bf7c-4bb60fcb2add</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>e600344f-e29c-4ab3-bf00-7f89975f1901</webElementGuid>
+      <webElementGuid>c3dca07a-3e85-404f-9646-955469542f6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Link Instant Approval' or . = 'Link Instant Approval')]</value>
-      <webElementGuid>8eb09c98-4062-4e3c-9fa9-9f83d39c7f5a</webElementGuid>
+      <webElementGuid>d2d8df50-f1c7-4fbe-879a-5c676cad2bf7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

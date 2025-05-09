@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Lihat Kualifikasi Kredit Saya']</value>
+         <value>//button[normalize-space()='Cek Peluang Kredit']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cc9ee165-7b99-4292-b34a-3a3ed9b484dc</webElementGuid>
+      <webElementGuid>e8eb311d-1073-443f-a13a-ea6162a54ed4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>0f7e7e0f-ecda-49ec-bcf4-11d31f4400a8</webElementGuid>
+      <webElementGuid>b146b30c-4a24-4ebf-b7cc-2476484e83d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cek Kualifikasi Kredit</value>
-      <webElementGuid>309a4be0-3db2-46d6-b641-5b9738b40f5f</webElementGuid>
+      <webElementGuid>5f4031a2-7837-4f84-b914-f20f913e6201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit-review_container__6NYOD&quot;]/div[@class=&quot;kualifikasi-kredit-review_paddingButton__TXSnq&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>fc37a8ad-42ee-46df-93d0-3d282275f8fa</webElementGuid>
+      <webElementGuid>c9b46cef-aaf7-4107-9553-c888b6f09868</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div[8]/button</value>
-      <webElementGuid>e0000883-16a2-4a43-837c-386f197dc8d3</webElementGuid>
+      <webElementGuid>7ffd68fb-e343-4483-a925-b4f387201b23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::button[1]</value>
-      <webElementGuid>afa262df-3b4f-4e66-a6da-07d72097505f</webElementGuid>
+      <webElementGuid>606f417a-2b58-4b15-afbb-36d6df5224bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::button[1]</value>
-      <webElementGuid>7e7987ae-86a2-4702-9ce4-ab070c643888</webElementGuid>
+      <webElementGuid>e7a7810e-7e41-48b3-90db-4b42a9c6bec5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>8b53de65-e74c-468e-95be-04d13e116934</webElementGuid>
+      <webElementGuid>b4b77a29-4471-4d8b-9bb8-26a621cefd47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>f50d2fab-fc60-4d4e-9be9-ef2fa86e180c</webElementGuid>
+      <webElementGuid>834a7202-ff04-4dff-9b4f-2e5d1accca21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cek Kualifikasi Kredit']/parent::*</value>
-      <webElementGuid>176e2ef0-2e30-4329-bcb1-9f02b866abed</webElementGuid>
+      <webElementGuid>f0a0af5f-c7cb-4f67-96f8-7134872e9946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>08420c45-9339-497d-8ea7-45e2266264a9</webElementGuid>
+      <webElementGuid>1c190da4-86c6-4ecc-9176-9ba1d7597151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Cek Kualifikasi Kredit' or . = 'Cek Kualifikasi Kredit')]</value>
-      <webElementGuid>64db17d4-7c28-458b-9082-6b1779ecc830</webElementGuid>
+      <webElementGuid>9b23f6e4-9bc4-46a5-b660-a4fad8d97c73</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

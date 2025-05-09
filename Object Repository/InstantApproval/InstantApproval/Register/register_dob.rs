@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>register_dob</name>
+   <tag></tag>
+   <elementGuidId>3b668bb0-d500-448b-a9ca-a05f408dbe69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@name='dob']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@name='dob']</value>
+      <webElementGuid>88ee87e4-5aa9-41bc-a306-4d07336a66e8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
