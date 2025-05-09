@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.openBrowser(GlobalVariable.Prod)
 

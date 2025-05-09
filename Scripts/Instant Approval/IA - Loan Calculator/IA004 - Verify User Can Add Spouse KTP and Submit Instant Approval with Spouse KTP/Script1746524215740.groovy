@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580002', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -174,7 +175,10 @@ if (currentUrl_EditKTP == EditKTP_url) {
             WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ktp-upload_btnUpload'), 0)
 
             //		WebUI.click(findTestObject('InstantApproval/InstantApproval/ktp-upload_btnUpload'))
-            WebUI.uploadFile(findTestObject('InstantApproval/InstantApproval/svg- UPLOAD KTP'), 'C:\\\\Users\\\\lenovo\\\\Downloads\\\\KTP TESTING\\\\KTP 1.jpg')
+			String projectDir = RunConfiguration.getProjectDir()
+			String filePath = projectDir + '/Data/KTP 1.jpg'
+			WebUI.uploadFile(findTestObject('InstantApproval/InstantApproval/svg- UPLOAD KTP'), filePath)
+			//		WebUI.uploadFile(findTestObject('InstantApproval/InstantApproval/svg- UPLOAD KTP'), 'C:\\\\Users\\\\lenovo\\\\Downloads\\\\KTP TESTING\\\\KTP 1.jpg')
 
             WebUI.delay(15)
         } else if (ktp_upload == '0') {
