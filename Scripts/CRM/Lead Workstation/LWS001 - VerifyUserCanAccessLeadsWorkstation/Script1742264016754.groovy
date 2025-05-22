@@ -16,42 +16,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('CRM/Login/HMP001 - VerifyUserCanLoginCRMProperly'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.mouseOver(findTestObject('CRM/Side Menu/img_seva'))
+WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
 
-TestObject menuWorkstation = findTestObject('CRM/Side Menu/Menu_Workstation')
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email (1)'), 'ayu.anggraini@seva.id')
 
-WebUI.waitForElementVisible(menuWorkstation, 10)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'k4otbgRCneAr2C/c0ZnM2Q==')
 
-WebUI.waitForElementClickable(menuWorkstation, 10)
+WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN (1)'))
 
-WebUI.scrollToElement(menuWorkstation, 5)
+WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/svg_Password_text-bodyCopy'))
 
-WebUI.click(menuWorkstation)
+WebUI.closeBrowser()
 
-TestObject submenuLeads = findTestObject('CRM/Side Menu/SubMenu_Leads Workstation')
+WebUI.openBrowser('')
 
-WebUI.waitForElementVisible(submenuLeads, 10)
+WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
 
-WebUI.waitForElementClickable(submenuLeads, 10)
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email (1)'), 'ayu.anggraini@seva.id')
 
-WebElement leadsElement = WebUiCommonHelper.findWebElement(submenuLeads, 10)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'k4otbgRCneDgqzYk+05tvg==')
 
-JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+WebUI.sendKeys(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), Keys.chord(Keys.ENTER))
 
-js.executeScript('arguments[0].scrollIntoView(true);', leadsElement)
+WebUI.click(findTestObject('Object Repository/Page_Select roles SEVA CRM/button_CSA Leader (1)'))
 
-js.executeScript('arguments[0].click();', leadsElement)
+WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/div_Workstation'))
 
-// verify halaman terbuka
-WebUI.verifyElementText(findTestObject('CRM/Workstation/Lead Workstation/txt_Leads Workstation'), 'Leads Workstation')
+WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Workstation (1)'))
 
-// close sidebar
-WebUI.click(findTestObject('CRM/Account Management/element_Header'))
+WebUI.click(findTestObject('Object Repository/Page_Leads Workstation - SEVA CRM/div_Your assigned leads will appear here (1)'))
 
