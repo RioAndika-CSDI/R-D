@@ -6,15 +6,15 @@
    <elementGuidId>01433556-58d2-46ed-8307-654910c3673d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, ' agreement_agreementTerms') and contains(@class, 'agreement_primary')]//button//*[name()='svg']//*[name()='rect'][1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>class</name>
       <type>Main</type>
       <value> agreement_agreementTerms</value>
-      <webElementGuid>40830ea2-8237-41b2-9f5f-2aea743b63a5</webElementGuid>
+      <webElementGuid>60eb7c37-b6c1-40d8-8d58-2ec8c4881fa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
-      <webElementGuid>38eedd86-a6e0-4a7a-803f-e75ba40c1bdc</webElementGuid>
+      <webElementGuid>43fbaf5f-18d8-41fa-a44a-e5e1d6c68f05</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0001 - VerifyUserCanAksesSevaWebsite</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>06fcd98d-19c8-4876-aae6-5d6b4428c857</testCaseGuid>
-</TestCaseEntity>

@@ -6,12 +6,16 @@
    <elementGuidId>07b92bb5-4a3a-4d54-b6b9-2229ef4f91d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@placeholder='Masukkan pendapatan']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.0.input_input__c0tP8</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id = 'field-input-pendapatan']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Masukkan pendapatan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fb0e5b29-a9d3-4aa9-b71b-b0a2fc0585cf</webElementGuid>
+      <webElementGuid>c09215e1-3987-4b1e-9e8e-0aeb91781145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test-id</name>
       <type>Main</type>
       <value>field-input-pendapatan</value>
-      <webElementGuid>9b0cf648-f659-42f2-9bee-f9c8307cac36</webElementGuid>
+      <webElementGuid>c2cc50d2-e8d0-450a-9e03-1226e1c7bd08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>0 input_input__c0tP8</value>
-      <webElementGuid>20287336-ace6-4cbe-bfc8-be6c3038cdf1</webElementGuid>
+      <webElementGuid>a7d2b030-9643-446e-9d39-2e78a0645c66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan pendapatan</value>
-      <webElementGuid>d0714d29-ece0-4178-a75f-a1c428cf00bf</webElementGuid>
+      <webElementGuid>b533f9f8-b489-4afb-81f2-847e8f472268</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>fb2f7331-4184-46cc-8e73-b8c9e1a4920f</webElementGuid>
+      <webElementGuid>24fe20e7-ce29-4164-8c92-6126bc6d97a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>a181cd4c-e0ac-4624-b6e7-3a6d56d3833b</webElementGuid>
+      <webElementGuid>4182f0b2-71db-4665-b92e-fbc12bc982d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-income&quot;)/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;0 input_input__c0tP8&quot;]</value>
-      <webElementGuid>883ff11a-325b-4321-8ca9-0c4543767567</webElementGuid>
+      <webElementGuid>0f113923-6a9f-4ba5-9068-e16b4737d449</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[5]</value>
-      <webElementGuid>c80f5023-8651-4649-929c-65ce1cea7eb6</webElementGuid>
+      <webElementGuid>b4740962-ab86-4400-a866-1914a61d631a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-income']/div/div/input</value>
-      <webElementGuid>2a6d14d4-a477-44aa-ae25-ace9bfc1e82c</webElementGuid>
+      <webElementGuid>427fc582-d630-41b0-bc8a-893e3a2162d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div/div/div/input</value>
-      <webElementGuid>dfab7835-e336-4b18-996e-1130373a7451</webElementGuid>
+      <webElementGuid>5a9a4440-b685-47a7-82cf-8f0645c58423</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
-      <webElementGuid>739f5e86-8713-4d32-895c-6bc8007c87c3</webElementGuid>
+      <webElementGuid>402dd615-9122-418f-9a66-622e5e08a0f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

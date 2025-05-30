@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0035 Desktop - VerifyUserCanSeeDetailRekomendation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1cd8bea-8d90-45e0-a8fa-8b318e5a1a3c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb301d25-6251-4809-964e-a1a4e6930dca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a238659b-43fd-4883-a8e6-8883e538c0be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'byd/m6/jakarta-pusat'</defaultValue>
+      <description></description>
+      <id>eb301d25-6251-4809-964e-a1a4e6930dca</id>
+      <masked>false</masked>
+      <name>mobil</name>
+   </variable>
+   <variable>
+      <defaultValue>'BYD'</defaultValue>
+      <description></description>
+      <id>a238659b-43fd-4883-a8e6-8883e538c0be</id>
+      <masked>false</masked>
+      <name>tab</name>
+   </variable>
+</TestCaseEntity>

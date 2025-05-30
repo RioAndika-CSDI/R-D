@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0005 - VerifyUserCanFilterCarDaihatsu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>57cc3a02-89e5-49de-948e-7e3cd12f7d5b</testCaseGuid>
-</TestCaseEntity>
