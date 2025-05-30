@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0024 - VerifyUserCanFilterCarByTypeHatchback</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ef4341a7-bd58-4546-90b0-04ddd0881df5</testCaseGuid>
-</TestCaseEntity>

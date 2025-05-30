@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0007 - VerifyUserCanFilterCarIsuzu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e555b9d6-cb8c-4d49-bfb8-6473c968d232</testCaseGuid>
-</TestCaseEntity>

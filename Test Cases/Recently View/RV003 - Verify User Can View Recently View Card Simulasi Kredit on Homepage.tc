@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RV003 - Verify User Can View Recently View Card Simulasi Kredit on Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7cf5c33-349f-40d3-b92e-20e1a22ac65b</testCaseGuid>
+</TestCaseEntity>

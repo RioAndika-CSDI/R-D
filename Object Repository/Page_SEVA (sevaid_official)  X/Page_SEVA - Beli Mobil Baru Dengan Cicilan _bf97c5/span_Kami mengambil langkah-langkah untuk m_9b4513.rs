@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'footerMobile_footerText__wJTEi' and (text() = 'Kami mengambil langkah-langkah untuk membantu' or . = 'Kami mengambil langkah-langkah untuk membantu')]</value>
+         <value>//*[starts-with(@class, 'footerMobile_footerText') and (text() = 'Kami mengambil langkah-langkah untuk membantu memastikan data kamu tetap aman dengan ISO 27001.' or . = 'Kami mengambil langkah-langkah untuk membantu memastikan data kamu tetap aman dengan ISO 27001.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,31 +19,30 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d16e93fb-56bf-41bb-aa2d-5fe7956c8f3c</webElementGuid>
+      <webElementGuid>eb750214-8d50-47c5-beb4-171f08eb9c2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>footerMobile_footerText__wJTEi</value>
-      <webElementGuid>3f533955-583a-4ec8-9b6f-86d527a990c7</webElementGuid>
+      <value>footerMobile_footerText</value>
+      <webElementGuid>de06549c-8d91-4637-97aa-d18ea1e577b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kami mengambil langkah-langkah untuk membantu</value>
-      <webElementGuid>bb3df527-ab2b-4c80-a879-8543a5ac7680</webElementGuid>
+      <value>Kami mengambil langkah-langkah untuk membantu memastikan data kamu tetap aman dengan ISO 27001.</value>
+      <webElementGuid>69150be1-eaae-4105-98d5-fc268b450564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/div[@class=&quot;index_container__KNQ8V&quot;]/footer[@class=&quot;footerMobile_container__FOSPi&quot;]/div[@class=&quot;footerMobile_contentContainer__J40vG&quot;]/div[@class=&quot;footerMobile_isoWrapper__53r9r&quot;]/span[@class=&quot;footerMobile_footerText__ypVrZ&quot;]</value>
-      <webElementGuid>f1d1f4bd-8d2f-4742-8174-88dd354f5790</webElementGuid>
+      <webElementGuid>32198ab0-22b0-4676-87c0-632f7887dc6c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/footer/div/div[3]/span</value>
-      <webElementGuid>58755240-97f1-4a84-a530-a0776d78943e</webElementGuid>
+      <webElementGuid>587c662f-259a-4f74-b452-adc7a92b2281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/span</value>
-      <webElementGuid>a79641b4-d85d-4e84-97c8-9f6b2f6f9778</webElementGuid>
+      <webElementGuid>7331d4d7-0606-4be4-ad58-f6d6e469ebec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.' or . = 'Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.')]</value>
-      <webElementGuid>ac2660ee-72b4-45a6-9ab4-3edf22e9f19f</webElementGuid>
+      <webElementGuid>8e650d65-3eda-48d8-84b7-ea0f53b836a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

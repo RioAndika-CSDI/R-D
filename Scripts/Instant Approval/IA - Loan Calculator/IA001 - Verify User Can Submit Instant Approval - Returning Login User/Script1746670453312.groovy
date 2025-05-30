@@ -18,15 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580001', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/header logo seva'))
 
-WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calculator'), [('open_browser') : '1', ('ignore_warning') : '1'
-        , ('kota') : 'Bandung', ('car_name') : 'Toyota All New Agya', ('jenis_bayar') : 'ADDM'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calculator'), [('open_browser') : '0', ('ignore_warning') : '0'
+        , ('kota') : kota, ('car_name') : car_name, ('jenis_bayar') : jenis_bayar], FailureHandling.STOP_ON_FAILURE)
 
 '=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
@@ -44,18 +44,18 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('peker
 
 'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
-	WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
+    WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
-	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.CONTROL, 'a'))
+    WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.CONTROL, 'a'))
 
-	WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.BACK_SPACE))
+    WebUI.sendKeys(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), Keys.chord(Keys.BACK_SPACE))
 
-	WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), pendapatan)
+    WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), pendapatan)
 }
 
 // Input Reff Code
 if (update_reff_code.toString().equalsIgnoreCase('1')) {
-	WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Kode Referral Teman SEVA'), reff_code)
+    WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Kode Referral Teman SEVA'), reff_code)
 }
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Lanjutkan kk'))
@@ -68,22 +68,22 @@ String currentUrl_Login = WebUI.getUrl()
 String LoginUrl = 'https://www.seva.id/masuk-akun?isShowDisclaimerToGetKkResult=true'
 
 if (currentUrl_Login == LoginUrl) {
-	KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
 
-	WebUI.delay(10)
+    WebUI.delay(10)
 
-	WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+    WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
-	WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
 
-	WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
-	WebUI.delay(10)
+    WebUI.delay(10)
 }
 
 '=== CONTINUE TO KK PROCESS ==='
-WebUI.waitForElementPresent(findTestObject('Object Repository/InstantApproval/InstantApproval/headerKkStep-Konfirmasi data Peluang Kredit'),
-	30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Object Repository/InstantApproval/InstantApproval/headerKkStep-Konfirmasi data Peluang Kredit'), 
+    30, FailureHandling.STOP_ON_FAILURE)
 
 String currentUrl_KK = WebUI.getUrl()
 
@@ -93,7 +93,7 @@ WebUI.comment(currentUrl_KK)
 
 // Verify the current URL matches the expected URL
 if (currentUrl_KK == KKreviewUrl) {
-	KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_KK)
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_KK)
 }
 
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/p_Lihat Detail Mobil - kk review'), 0)

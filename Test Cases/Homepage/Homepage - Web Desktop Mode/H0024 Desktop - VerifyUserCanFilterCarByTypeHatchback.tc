@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0024 Desktop - VerifyUserCanFilterCarByTypeHatchback</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d07abc6-0bd8-4374-93f8-779962ae56f5</testCaseGuid>
+</TestCaseEntity>

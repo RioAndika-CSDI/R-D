@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RV004 - Verify User Can Access Recently View Simulasi Kredit From Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8e71de3-553e-48da-a6a5-8de365045332</testCaseGuid>
+</TestCaseEntity>

@@ -15,7 +15,7 @@
       <guid>fe2bbd94-467f-4509-82c6-5fd0bb6efb29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/H0041 - SubmitLeadsHomepageNotLoginUser</testCaseId>
+      <testCaseId>Test Cases/Homepage/Homepage - Web Responsive Mode/H0041 - SubmitLeadsHomepageNotLoginUser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

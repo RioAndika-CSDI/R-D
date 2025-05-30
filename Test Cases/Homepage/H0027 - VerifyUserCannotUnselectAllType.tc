@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0027 - VerifyUserCannotUnselectAllType</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3d62ea1e-1953-4998-94dc-dd3f34c570d5</testCaseGuid>
-</TestCaseEntity>

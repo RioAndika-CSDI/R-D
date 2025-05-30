@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0020 - VerifyUserCanFilterCarByTypeMPV</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f054856d-c512-452b-a678-3afb50fd31b5</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>H0016 - VerifyUserSeeAboutISOCertificate-Footer</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cded9de5-897d-48a8-b58a-0c64be7abd8a</testCaseGuid>
-</TestCaseEntity>

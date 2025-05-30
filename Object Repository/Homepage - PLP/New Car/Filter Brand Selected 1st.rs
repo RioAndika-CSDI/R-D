@@ -18,7 +18,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>logo-${brand}</value>
-      <webElementGuid>2bb960d6-44db-4532-9260-aa5bf6ec6e8d</webElementGuid>
+      <webElementGuid>340e29e4-249a-4700-b7b3-0dbd3188015d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,14 +26,14 @@
       <name>class</name>
       <type>Main</type>
       <value>formSelectBrandCar_boxOnclick</value>
-      <webElementGuid>2a9e7878-cac4-4a42-a1db-d1578ba0d160</webElementGuid>
+      <webElementGuid>d253d775-ab1a-466b-bd98-dd0f8ceccb99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[starts-with(@class, 'formSelectBrandCar_boxOnclick')])[1]</value>
-      <webElementGuid>44ad5a91-f24a-4a2c-bb6b-5ad3e9582f8d</webElementGuid>
+      <value>(//*[starts-with(@class, 'formSelectBrandCar_bodyTypeOnclick')])[1]</value>
+      <webElementGuid>c1b3e5dc-e883-4c3e-a95a-b5ad5443c5b8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
