@@ -36,14 +36,14 @@ WebUI.click(findTestObject('Homepage Desktop Mode/navbar-mobil baru'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h1_Rekomendasi Mobil Baru di SEVA'), 
     10)
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-lainnya'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-lainnya'))
 
 WebUI.delay(5)
 

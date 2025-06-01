@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indon
 
 WebUI.click(findTestObject('Homepage Desktop Mode/navbar-mobil baru'))
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/span_Jakarta Pusat (3)'), 
     0)

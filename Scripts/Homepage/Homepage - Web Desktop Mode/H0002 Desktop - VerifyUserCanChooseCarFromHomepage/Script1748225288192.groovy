@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Homepage Desktop Mode/navbar-mobil baru'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
 
 WebUI.delay(5)
 
