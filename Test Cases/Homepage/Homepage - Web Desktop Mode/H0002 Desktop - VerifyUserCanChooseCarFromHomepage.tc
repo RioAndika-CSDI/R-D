@@ -4,5 +4,6 @@
    <name>H0002 Desktop - VerifyUserCanChooseCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>220a422d-7041-424f-88db-f543ee644151</testCaseGuid>
 </TestCaseEntity>

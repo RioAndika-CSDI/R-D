@@ -4,5 +4,6 @@
    <name>H0017 Desktop - VerifyUserCanCheckListHeaderMenuBeliMobil,Promo,Artikel</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9fc2625f-d8bb-4d7d-89b4-1a59acc76edc</testCaseGuid>
 </TestCaseEntity>
