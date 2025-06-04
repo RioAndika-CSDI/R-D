@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_This action will create a new qualified leads to be sent to CM</name>
+   <tag></tag>
+   <elementGuidId>ce22e70a-5fdb-4d1e-83d5-b35a4ba11eeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r57:']/form/div[2]/div/div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=alert</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5206500b-bd00-49d9-960c-302db4ad0f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>aee9b63d-a350-4b4f-a9f0-61e6d293412f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative w-full mx-auto text-text-primary flex p-3 gap-2 items-center rounded border [&amp;>svg]:size-4 [&amp;>svg]:flex-none bg-surface-warning [&amp;>svg]:text-icon-warning border-line-warning</value>
+      <webElementGuid>11e0c681-b43b-47bc-9d14-3a8bcf3157ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This action will create a new qualified leads to be sent to CM</value>
+      <webElementGuid>a4396d02-5d30-4079-9d3c-6ddb5eca5e5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r57:&quot;)/form[1]/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;relative w-full mx-auto text-text-primary flex p-3 gap-2 items-center rounded border [&amp;>svg]:size-4 [&amp;>svg]:flex-none bg-surface-warning [&amp;>svg]:text-icon-warning border-line-warning&quot;]</value>
+      <webElementGuid>729cb110-e2bd-462b-81cf-56e0661d7786</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r57:']/form/div[2]/div/div[6]</value>
+      <webElementGuid>f645f5cf-7517-4afd-bc5f-f87dc451ecf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::div[4]</value>
+      <webElementGuid>544a70cb-edc3-42a1-8c83-3b4ceca3dfee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[18]/following::div[14]</value>
+      <webElementGuid>9eb639e7-5b39-493d-a9b1-91f04da71db6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send to CM'])[1]/preceding::div[3]</value>
+      <webElementGuid>b2ff899e-fcb2-43bc-af9d-fd7a999f92f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[6]</value>
+      <webElementGuid>89e2d098-b924-4b9b-9c07-8532c4f7cd2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'This action will create a new qualified leads to be sent to CM' or . = 'This action will create a new qualified leads to be sent to CM')]</value>
+      <webElementGuid>d69b5bba-5c25-4e7b-9fdb-4f18827f3ab9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
