@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Create Qualified Leads</name>
+   <tag></tag>
+   <elementGuidId>9a366173-20c7-406e-b8dc-8d1c6f9b4f1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-heading-2.font-bold.text-text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1h:']/form/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3cddd327-10a8-4b1e-93aa-de866eafba76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-heading-2 font-bold text-text-primary</value>
+      <webElementGuid>6b366157-2b79-4bec-bf41-cc18334fbae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Qualified Leads</value>
+      <webElementGuid>aa9b8209-cfb8-4857-aa2f-e169ba20111e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1h:&quot;)/form[1]/div[@class=&quot;p-6 pb-0&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;text-heading-2 font-bold text-text-primary&quot;]</value>
+      <webElementGuid>37accc0d-76fe-499c-af14-ab67a0acc7ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1h:']/form/div/div/div</value>
+      <webElementGuid>cd02f52f-ee5a-4896-b1e2-2f14a72fb335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
+      <webElementGuid>2704edc6-8d50-45c9-bd2c-1c3a3d82bd67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Category'])[2]/preceding::div[2]</value>
+      <webElementGuid>5701d63f-eb2f-4ca6-9266-47e8db1269e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Car'])[7]/preceding::div[4]</value>
+      <webElementGuid>cddacaf1-0e3c-4eee-b722-685f03a69f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div</value>
+      <webElementGuid>fe96e7b4-5463-48c9-adfd-dc9924edd369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create Qualified Leads' or . = 'Create Qualified Leads')]</value>
+      <webElementGuid>60b7a9c7-f801-44f5-89ba-21d5cea219eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

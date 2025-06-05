@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_Welcome to SEVA CRM</name>
+   <name>select_CM_Ayu Anggraini</name>
    <tag></tag>
-   <elementGuidId>97ab6929-183e-4b8a-972c-7dcefa01c866</elementGuidId>
+   <elementGuidId>e0676490-ae8b-4905-a59a-cfc5d2eb764d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.py-3.text-2xl.font-bold</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()='Welcome to SEVA CRM']
-</value>
+         <value>//span[normalize-space()='Ayu Anggraini']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,70 +21,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7c3d84f7-9ca2-4e2e-b42d-d3072b901084</webElementGuid>
+      <webElementGuid>3e86ed42-dcd1-492b-93d0-a9ce10ae168a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>py-3 text-2xl font-bold</value>
-      <webElementGuid>720b465c-7c0e-4fc6-be0f-ab5e6750fe70</webElementGuid>
+      <value>wrapper flex items-center</value>
+      <webElementGuid>d98bc66d-a4ac-4fb3-a442-4f2b7c93cb0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome to SEVA CRM</value>
-      <webElementGuid>38cb9f2f-6a6c-4458-be16-88da2525844b</webElementGuid>
+      <value>Ayu Anggraini</value>
+      <webElementGuid>9602a52c-1a2a-478f-8af8-d4cf2542733d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;py-3 text-2xl font-bold&quot;]</value>
-      <webElementGuid>a960a89e-fb4f-4d34-bdb9-21a2a9c9d453</webElementGuid>
+      <value>id(&quot;:rae:&quot;)/div[@class=&quot;wrapper flex items-center&quot;]</value>
+      <webElementGuid>0b86b740-e39f-4cd8-afa5-812cf0781514</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div</value>
-      <webElementGuid>1678889e-8ab8-4c84-8775-994fc4cc09aa</webElementGuid>
+      <value>//div[@id=':rae:']/div</value>
+      <webElementGuid>5ea1b92d-a3f3-4edc-8953-b00bb6cab0ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::div[5]</value>
-      <webElementGuid>6bf3571e-ae04-40e0-a939-984de7de768d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annisa Zakiyah'])[1]/following::div[2]</value>
+      <webElementGuid>7c1eaf23-7b83-4ed4-a5af-aafb8acc0dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome to SEVA CRM']/parent::*</value>
-      <webElementGuid>f917f0cf-d2c9-496e-8197-d214606432ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annisa Frisca Dewi'])[1]/following::div[4]</value>
+      <webElementGuid>bde51e9c-c953-459a-8de6-4e4b91a21f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cindy Elpratifta'])[1]/preceding::div[1]</value>
+      <webElementGuid>8b7041f7-ffb1-4aaa-9caa-ffea415b9f6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div</value>
-      <webElementGuid>f41663b0-d647-4925-859b-4ea0a80f1aad</webElementGuid>
+      <value>//div[6]/div/div/div/div/div[5]/div</value>
+      <webElementGuid>adea4744-f9eb-4524-a72a-bc31ac3af002</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Welcome to SEVA CRM' or . = 'Welcome to SEVA CRM')]</value>
-      <webElementGuid>979d48d5-53e6-46f6-9110-b873856bbb74</webElementGuid>
+      <value>//div[(text() = 'Ayu Anggraini' or . = 'Ayu Anggraini')]</value>
+      <webElementGuid>f853f92e-6af6-4607-99f9-a4f07cc2d53a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

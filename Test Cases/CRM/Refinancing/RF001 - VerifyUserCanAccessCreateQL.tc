@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RF001 - VerifyUserCanAccessCreateQL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>728a1343-e3ed-463c-a4be-aa1914ec5dac</testCaseGuid>
+</TestCaseEntity>

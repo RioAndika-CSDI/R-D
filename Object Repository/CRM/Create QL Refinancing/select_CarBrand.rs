@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_CarBrand</name>
+   <tag></tag>
+   <elementGuidId>becebfe6-846f-45c5-bb7e-ea55e5adf71e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[normalize-space()='TOYOTA']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[normalize-space()='TOYOTA']</value>
+      <webElementGuid>c0937120-6101-4fbc-8e7a-a2b1bea7d280</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
