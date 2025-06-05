@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1.3 E CVT LUX</name>
+   <tag></tag>
+   <elementGuidId>c7c34b40-1236-4b72-ae03-7207e3dbaff4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.truncate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':rpp:']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1.3 E CVT LUX&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>03264518-3189-4b57-a6d2-020e55b34ed6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>truncate</value>
+      <webElementGuid>88c03736-ff41-424e-8737-bc5b4471eb8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1.3 E CVT LUX</value>
+      <webElementGuid>d97d1a87-a0e2-4ced-8654-a7c2ca696719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:rpp:&quot;)/div[@class=&quot;wrapper flex items-center&quot;]/span[@class=&quot;truncate&quot;]</value>
+      <webElementGuid>c37de9df-9f9d-4d10-b1c2-f6edbe9af654</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':rpp:']/div/span</value>
+      <webElementGuid>93e35269-f3d7-4390-9245-a79b09765172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAASTESTSYNC'])[1]/following::span[1]</value>
+      <webElementGuid>352e1396-479c-47c4-b4f8-2b6c8723759e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1.3 E CVT LUX']/parent::*</value>
+      <webElementGuid>2621bb7f-0db4-476b-baf0-c67fd90898cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/span</value>
+      <webElementGuid>7e0f7914-10dd-4080-862b-cb3cc3d17e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '1.3 E CVT LUX' or . = '1.3 E CVT LUX')]</value>
+      <webElementGuid>18149518-5f3e-44e3-920e-732af811c69d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_otr</name>
+   <tag></tag>
+   <elementGuidId>d20b88b8-b491-4f69-960a-9caf0f91d567</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[2]/div/div[2]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Rp 141.700.000&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a1cd8c56-ebe0-4021-8b5b-a483eff580c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-text-primary text-body-small</value>
+      <webElementGuid>0a1f4bee-0452-4c10-a55d-b71884790b35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 141.700.000</value>
+      <webElementGuid>ff446af0-0bc9-42c0-bb63-cc55faf26209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overflow-x-clip py-4&quot;]/div[1]/div[@class=&quot;flex gap-4 text-body-small text-text-primary&quot;]/div[@class=&quot;flex flex-1 flex-col gap-4&quot;]/form[1]/div[@class=&quot;flex flex-col gap-4 rounded-[10px] bg-surface-plain p-4 pb-6 text-text-primary&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;grid grid-cols-2 gap-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex items-start gap-4&quot;]/div[@class=&quot;text-text-primary text-body-small&quot;]</value>
+      <webElementGuid>7712c54b-3034-4171-a402-6e99db9c84de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[2]/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>1a0ef437-9d2e-4d49-93ee-668a1b426a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL OTR'])[1]/following::div[1]</value>
+      <webElementGuid>f3742183-386a-4702-92eb-ef8977dc7fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Selatan'])[1]/following::div[3]</value>
+      <webElementGuid>7ab1b292-dbe2-4d36-ad48-051f64877c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Address Details'])[1]/preceding::div[1]</value>
+      <webElementGuid>a09e5120-4238-435b-801a-44b7789c11e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jl ABC TESTING NO. 12'])[1]/preceding::div[2]</value>
+      <webElementGuid>9823fce8-287b-4115-8a39-f2a8c205d114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rp 141.700.000']/parent::*</value>
+      <webElementGuid>af04e0f6-fa84-4029-87c6-7740001cf698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div[2]/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>92071e7e-f05d-4545-a9a1-4b834718dc61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp 141.700.000' or . = 'Rp 141.700.000')]</value>
+      <webElementGuid>a0f57ccf-49a7-4c00-822c-6d9872d0338c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_checkbox promo</name>
+   <tag></tag>
+   <elementGuidId>e5048642-d829-4b87-94c8-3fabbd02aa89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':rs5:']/div/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=listbox[name=&quot;Suggestions&quot;i] >> span >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e01c3939-76cc-4b43-b291-87fd871abb16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-[13px] rounded border border-line-bold group-data-[disabled=true]/item:border-line-bold group-data-[disabled=true]/item:bg-surface-neutral</value>
+      <webElementGuid>09aa5813-9610-4f09-9e09-d09b6ee6610b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:rs5:&quot;)/div[@class=&quot;wrapper flex items-center&quot;]/span[@class=&quot;inline-flex size-5 flex-none items-center justify-center&quot;]/span[@class=&quot;size-[13px] rounded border border-line-bold group-data-[disabled=true]/item:border-line-bold group-data-[disabled=true]/item:bg-surface-neutral&quot;]</value>
+      <webElementGuid>a218cb18-1627-4712-af64-183b7d062b5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':rs5:']/div/span/span</value>
+      <webElementGuid>76728dc1-860b-4c67-a2e6-2a04803940bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>df692695-8d38-486c-a81d-a8a90d7f753b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

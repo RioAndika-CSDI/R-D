@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_promo cashback 2 5 juta</name>
+   <tag></tag>
+   <elementGuidId>1f778985-5790-4956-87a7-c5c056708d92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':rsk:']/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Cashback Rp2.5 Juta&quot;i] >> span >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>561ac48d-4f74-4e67-a400-df394c02a44c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-[13px] rounded border border-line-bold group-data-[disabled=true]/item:border-line-bold group-data-[disabled=true]/item:bg-surface-neutral</value>
+      <webElementGuid>6a243d5c-92c8-46da-b016-b9cee28e717c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:rsk:&quot;)/div[@class=&quot;wrapper flex items-center&quot;]/span[@class=&quot;inline-flex size-5 flex-none items-center justify-center&quot;]/span[@class=&quot;size-[13px] rounded border border-line-bold group-data-[disabled=true]/item:border-line-bold group-data-[disabled=true]/item:bg-surface-neutral&quot;]</value>
+      <webElementGuid>a1245028-bc52-4a73-a1f9-c30af4076379</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':rsk:']/div/span/span</value>
+      <webElementGuid>71aecca6-ef49-46d1-931b-0191ad71c80a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/span</value>
+      <webElementGuid>490977b9-b68a-4760-8d4c-fa9a9f5cd8a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

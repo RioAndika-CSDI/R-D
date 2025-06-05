@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LTR015 - VerifyUserCanFilterOnLeadsTracking</name>
+   <name>LTC006 - VerifyUserCanUpdateSPKNewCar</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e091b445-767d-4294-84b8-e00a05b0c46c</testCaseGuid>
+   <testCaseGuid>e62de40b-b313-42a4-9dd1-9b172ae79d12</testCaseGuid>
 </TestCaseEntity>

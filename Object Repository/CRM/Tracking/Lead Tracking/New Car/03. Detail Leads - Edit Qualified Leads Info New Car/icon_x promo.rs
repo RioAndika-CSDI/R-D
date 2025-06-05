@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_x promo</name>
+   <tag></tag>
+   <elementGuidId>87084435-78ac-437f-83b0-57d14fb5ca03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashback Rp2.5 Juta'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^QL Eligible PromoCashback Rp2\.5 Juta$/ >> internal:role=button >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>b32254bf-368c-4834-9a94-7ea9e14dd56e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>e0c59833-18e5-4f60-94fb-957dd941bed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>85b2ad26-93d4-4325-bc4a-eb320ce9618e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>ddb0803c-1b81-48dc-b78f-918496a3ac63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>557bbb08-9a17-493c-a34c-648e3c4b9591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>da2c40d4-10b2-43ed-a337-59e8b2ea122e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-3 text-text-primary</value>
+      <webElementGuid>09f643e9-73bf-4c91-b35e-cde16e70299a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overflow-x-clip py-4&quot;]/div[1]/div[@class=&quot;flex gap-4 text-body-small text-text-primary&quot;]/div[@class=&quot;flex flex-1 flex-col gap-4&quot;]/form[1]/div[@class=&quot;flex flex-col gap-4 rounded-[10px] bg-surface-plain p-4 pb-6 text-text-primary&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[@class=&quot;grid grid-cols-2 gap-4&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[@class=&quot;flex max-w-full flex-col gap-2&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;w-full overflow-hidden bg-transparent text-text-primary&quot;]/div[@class=&quot;flex min-h-10 items-center gap-1 rounded border border-line bg-surface-plain px-2 transition-all has-[:enabled]:hover:border-line-bold has-[:enabled]:focus-within:border-line-bold&quot;]/button[@class=&quot;inline-flex size-4 flex-none appearance-none items-center justify-center rounded-full bg-surface-neutral transition-all focus:ring-offset-1 focus-visible:ring-1 focus-visible:ring-line-link&quot;]/svg[@class=&quot;size-3 text-text-primary&quot;]</value>
+      <webElementGuid>63a954a9-43b6-4679-8fa3-8960f254f0cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashback Rp2.5 Juta'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>44ab827a-fec7-497e-93a2-123fb6969538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Eligible Promo'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>e945616e-afe9-43c5-aa07-9bc9ebd03eac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Leads Channel'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>76f77672-83f2-40e1-8b73-81cda9181077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Notes for Sales Agent'])[1]/preceding::*[name()='svg'][4]</value>
+      <webElementGuid>5e0814f3-bf99-423e-ab15-828f8783a8f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

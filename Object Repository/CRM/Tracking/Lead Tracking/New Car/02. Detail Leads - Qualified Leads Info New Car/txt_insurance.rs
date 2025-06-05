@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_insurance</name>
+   <tag></tag>
+   <elementGuidId>b606aebd-239a-4c8e-b365-28cfaa99ddf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[3]/div/div[2]/div[5]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;FULL AR&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7f50d8ea-24cf-4328-906e-e00dc4a9d9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-text-primary text-body-small</value>
+      <webElementGuid>d938c836-77f5-4d74-b1a9-3c4471546b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FULL AR</value>
+      <webElementGuid>e56a9631-e86e-4ee2-944e-93b773b9ba4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overflow-x-clip py-4&quot;]/div[1]/div[@class=&quot;flex gap-4 text-body-small text-text-primary&quot;]/div[@class=&quot;flex flex-1 flex-col gap-4&quot;]/form[1]/div[@class=&quot;flex flex-col gap-4 rounded-[10px] bg-surface-plain p-4 pb-6 text-text-primary&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;grid grid-cols-2 gap-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex items-start gap-4&quot;]/div[@class=&quot;text-text-primary text-body-small&quot;]</value>
+      <webElementGuid>5d00db87-6e6a-4ce2-89cd-f993f08cd7e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[3]/div/div[2]/div[5]/div[2]</value>
+      <webElementGuid>ff25efbd-7791-44da-b397-08dcc7e56b5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Insurance'])[1]/following::div[1]</value>
+      <webElementGuid>1bdfda43-cd37-47ac-a065-994cbe46d3b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::div[3]</value>
+      <webElementGuid>ec114527-8cbd-41f1-96b1-69b47ff959d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Credit Package'])[1]/preceding::div[1]</value>
+      <webElementGuid>fd0dbaa5-d6a3-49de-925b-5f8db50a9b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA SPEKTA'])[1]/preceding::div[2]</value>
+      <webElementGuid>437c1e80-480b-40ee-b4a2-456bb92da6b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FULL AR']/parent::*</value>
+      <webElementGuid>325c06b8-08fb-4e97-a112-aaa110b37188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]/div[2]</value>
+      <webElementGuid>50646cbe-e0e0-4e44-8a64-82149272d008</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FULL AR' or . = 'FULL AR')]</value>
+      <webElementGuid>7d92963f-627e-4638-8a02-5a0b7765c5b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[3]/div/div[2]/div[6]/div[2]</value>
+      <webElementGuid>457c17f7-85b1-403a-839f-6b1c5fac9337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Credit Package'])[1]/following::div[1]</value>
+      <webElementGuid>bdefceef-c8cd-4e25-b6cb-a434fa4ca678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FULL AR'])[1]/following::div[3]</value>
+      <webElementGuid>7cb5a88b-2554-4a2a-8071-729ff8850e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Eligible Promo'])[1]/preceding::div[1]</value>
+      <webElementGuid>ba24c397-ee3e-476f-991c-1bca75264249</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashback Rp2.5 Juta'])[1]/preceding::div[2]</value>
+      <webElementGuid>11cef1e5-eb60-49f3-9c64-bbb245aeaa7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TOYOTA SPEKTA']/parent::*</value>
+      <webElementGuid>d73a8137-0820-41a2-a56e-e6a227f96831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div[6]/div[2]</value>
+      <webElementGuid>a989722e-c6f4-491b-a1dd-5689376c4d2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TOYOTA SPEKTA' or . = 'TOYOTA SPEKTA')]</value>
+      <webElementGuid>dfca713f-07ac-4f3b-9888-b012e4d1a9b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_city</name>
+   <tag></tag>
+   <elementGuidId>4ac2eb6d-a6e7-4809-aae0-5ba0111a5ec6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Jakarta Selatan&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>71f85054-54f0-4158-9807-f00f5bf4bdbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-text-primary text-body-small</value>
+      <webElementGuid>a8de3c11-12bb-42a3-8b8b-776f8d40687d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Selatan</value>
+      <webElementGuid>bf4e28ff-2bfd-4b7c-8edb-2a78b35a274c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overflow-x-clip py-4&quot;]/div[1]/div[@class=&quot;flex gap-4 text-body-small text-text-primary&quot;]/div[@class=&quot;flex flex-1 flex-col gap-4&quot;]/form[1]/div[@class=&quot;flex flex-col gap-4 rounded-[10px] bg-surface-plain p-4 pb-6 text-text-primary&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;grid grid-cols-2 gap-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex items-start gap-4&quot;]/div[@class=&quot;text-text-primary text-body-small&quot;]</value>
+      <webElementGuid>d0c50148-a35f-42d6-af3c-97f1764fccf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>2c3d1bcb-eb0f-4e12-bd43-21690248e7e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL City'])[1]/following::div[1]</value>
+      <webElementGuid>53d45804-84db-49dc-9bc7-8f0a6cafea7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[17]/following::div[4]</value>
+      <webElementGuid>aca4face-4886-4877-8877-12a1ae0c77d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL OTR'])[1]/preceding::div[1]</value>
+      <webElementGuid>436fd8b0-aee6-4953-ac28-9f0042340a58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 141.700.000'])[1]/preceding::div[2]</value>
+      <webElementGuid>4ea8483c-56b3-4b08-bbc5-6ccfa1ba62ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jakarta Selatan']/parent::*</value>
+      <webElementGuid>7664d745-5c3c-4f38-8813-917a24dbacd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>48e04973-41c0-42c2-9ab6-dce4ab63c94e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Jakarta Selatan' or . = 'Jakarta Selatan')]</value>
+      <webElementGuid>4dc749e5-e5d8-497c-bcd7-b2bfbbfa0e51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

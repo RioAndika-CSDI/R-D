@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_installment type</name>
+   <tag></tag>
+   <elementGuidId>ba436773-0e80-4b9d-b5d6-2b4b7ab321ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[3]/div/div/div[7]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ADDB&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ab6e6edf-9383-4ce9-a8c5-da045e323354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-text-primary text-body-small</value>
+      <webElementGuid>468bc2c8-6d5d-487b-a45a-845d6cdf8180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADDB</value>
+      <webElementGuid>fee3814a-f759-4d26-8919-3054cd1e2299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ml-20 px-3 pb-3&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overflow-x-clip py-4&quot;]/div[1]/div[@class=&quot;flex gap-4 text-body-small text-text-primary&quot;]/div[@class=&quot;flex flex-1 flex-col gap-4&quot;]/form[1]/div[@class=&quot;flex flex-col gap-4 rounded-[10px] bg-surface-plain p-4 pb-6 text-text-primary&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;grid grid-cols-2 gap-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex items-start gap-4&quot;]/div[@class=&quot;text-text-primary text-body-small&quot;]</value>
+      <webElementGuid>0c79508a-7623-4a08-82e5-e6db5cef9f57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[3]/div/div/div/form/div/div[2]/div[3]/div/div/div[7]/div[2]</value>
+      <webElementGuid>4076603e-ad0e-4033-8635-b3549c95e3d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Installment Type'])[1]/following::div[1]</value>
+      <webElementGuid>552d2c7f-2092-4454-8e30-75ce04c39edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QL Tenor (in years)'])[1]/following::div[4]</value>
+      <webElementGuid>dd5d84ec-a013-4e09-8083-8ac259cf7e04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Have contacted with salesman before?'])[1]/preceding::div[1]</value>
+      <webElementGuid>736b0659-aebd-42ec-a055-0e8fc93945e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/preceding::div[2]</value>
+      <webElementGuid>c990044a-a75c-4dde-9ffc-461d0451fa89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ADDB']/parent::*</value>
+      <webElementGuid>5b63a59d-27b9-4424-b343-fa777ba93aac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[7]/div[2]</value>
+      <webElementGuid>0ecd589a-6306-4f8b-bff4-a7fb878ac157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ADDB' or . = 'ADDB')]</value>
+      <webElementGuid>c0f6889f-2022-4bbd-89e6-2d2461b3922b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

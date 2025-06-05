@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LTR015 - VerifyUserCanFilterOnLeadsTracking</name>
+   <name>LTC001 - VerifyUserCanAccessTestingDataAsCM</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e091b445-767d-4294-84b8-e00a05b0c46c</testCaseGuid>
+   <testCaseGuid>0a72f439-0986-44af-baae-9b9667ae0c9d</testCaseGuid>
 </TestCaseEntity>
