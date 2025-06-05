@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text-jumlah-mobil-plp-desktop</name>
+   <tag></tag>
+   <elementGuidId>3feb56e0-9960-4bfa-816f-9bc2202b6b7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'navigationFilterDesktop_carSummaryLabel') and @data-testid = 'text-jumlah-mobil-plp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigationfiltermobile_carSummaryLabel__VfUIV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>da0c26fe-ec13-4ec5-b5ba-f23fb638ee1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationFilterDesktop_carSummaryLabel</value>
+      <webElementGuid>734df92e-2713-4942-a482-d3e41e2b1b66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>text-jumlah-mobil-plp</value>
+      <webElementGuid>d8a992bc-5686-45e3-83c4-4b7ba25c8313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>63 Mobil Baru</value>
+      <webElementGuid>cf1f89f2-ca4c-4341-acfe-6ef18d0f1808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_bottomSection__Wm4sY&quot;]/div[@class=&quot;navigationfiltermobile_carSummaryLabel__VfUIV&quot;]</value>
+      <webElementGuid>24e5a345-e08e-4332-b2d3-3ccf405e217e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[2]/div[2]</value>
+      <webElementGuid>08df2f8c-0b39-4bff-9e7d-c3ddd85ad792</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Mobil'])[1]/following::div[4]</value>
+      <webElementGuid>7ca6fa56-9f07-4aca-aaf1-a6407f714985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu New Ayla'])[1]/preceding::div[2]</value>
+      <webElementGuid>2ae41feb-b357-4d7e-af50-040e3fa01bb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='63']/parent::*</value>
+      <webElementGuid>080a52f2-1064-4a5e-942f-4e4565f26516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]</value>
+      <webElementGuid>23660586-fbb1-4f05-9fb0-1ebc588a3d62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '63 Mobil Baru' or . = '63 Mobil Baru')]</value>
+      <webElementGuid>b47093e8-40d8-4163-8994-133218fd6f9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

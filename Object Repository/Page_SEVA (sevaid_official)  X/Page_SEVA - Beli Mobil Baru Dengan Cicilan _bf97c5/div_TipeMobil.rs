@@ -18,7 +18,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a5e1db17-cb09-49ad-b689-710d4f7cfd2f</webElementGuid>
+      <webElementGuid>4eb2cf4f-ca98-4131-80a1-2ed564d9271a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selectWidget_placeholder__oBYXe</value>
-      <webElementGuid>787e5693-a2ae-4f8c-9e78-0c9a5fa061f9</webElementGuid>
+      <value>selectWidget_placeholder</value>
+      <webElementGuid>66d45e51-f503-4051-bc74-8e7559318271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MPV, SUV, Sedan, Hatchback, Sport, Truk Pickup, Minivan, Coupe</value>
-      <webElementGuid>978a0dea-ad62-4729-8956-c1b4f44e3cef</webElementGuid>
+      <webElementGuid>c0164324-490b-4e4a-9817-a6762b21b518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//div[@class = 'selectWidget_placeholder__oBYXe'])[2]</value>
-      <webElementGuid>092be82d-7153-41a9-94d5-9ce62498e3c3</webElementGuid>
+      <webElementGuid>962af800-e390-4458-908c-927a64c9e2d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pdp-upper-content']/div[2]/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>f03077ed-cba7-4e04-ac6c-ad52b6015174</webElementGuid>
+      <webElementGuid>71ca5ba0-1169-4c32-8acf-4ff34f91d917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe'])[1]/following::div[1]</value>
-      <webElementGuid>9c6e7d61-0cbb-450a-a999-34d02aa064e2</webElementGuid>
+      <webElementGuid>40596e99-0765-4066-a4b8-555270c29e08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota, Daihatsu, Isuzu, BMW, Peugeot, Hyundai'])[1]/following::div[7]</value>
-      <webElementGuid>76dacfa7-4159-4fbc-9a35-2222b94eddbb</webElementGuid>
+      <webElementGuid>d958e767-9459-4353-903e-8936c7a86651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimasi Harga'])[1]/preceding::div[5]</value>
-      <webElementGuid>20b8dc28-2073-412e-8bad-1cf171f7acfc</webElementGuid>
+      <webElementGuid>ec3c569e-65b1-4632-97e4-062ab564d73f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>b25654c6-bbba-43c8-a9ef-7f9346adcfda</webElementGuid>
+      <webElementGuid>8e6f7656-38ae-4f20-9d06-657594c0493c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'MPV, SUV, Sedan, Hatchback, Sport' or . = 'MPV, SUV, Sedan, Hatchback, Sport')]</value>
-      <webElementGuid>68c71fa2-020c-4832-bd40-17d953e3bde0</webElementGuid>
+      <webElementGuid>ab73c66b-1269-43e3-823a-6106688844c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
