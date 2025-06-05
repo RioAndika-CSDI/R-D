@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RF003 - VerifyUserCantCreateQLIfNotInputData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>acf0cae8-6023-4778-89ab-fcb613ffa420</testCaseGuid>
+</TestCaseEntity>

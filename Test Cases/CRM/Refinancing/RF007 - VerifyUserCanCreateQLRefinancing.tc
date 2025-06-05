@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HMP001 - VerifyUserCanLoginCRMProperly</name>
+   <name>RF007 - VerifyUserCanCreateQLRefinancing</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b1cd5ae-4451-438f-a14d-88277158ce37</testCaseGuid>
+   <testCaseGuid>1037ca62-8b4b-42a4-a5a6-8b7a1d0ccf0f</testCaseGuid>
 </TestCaseEntity>

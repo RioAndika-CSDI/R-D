@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Phone must be at least 8 characters (1)</name>
+   <tag></tag>
+   <elementGuidId>bd9db5e2-ef33-4431-8dc0-6a069ecc8ae8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.errorField.mb-0.text-body-small.italic.text-text-critical.mt-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1n:']/form/div[2]/div/div/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d61a6728-6cbc-4380-86cb-99f294e1dba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>errorField mb-0 text-body-small italic text-text-critical mt-1</value>
+      <webElementGuid>8e981ea6-8fc4-4d5f-8e9b-86289a1e55cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone must be at least 8 characters</value>
+      <webElementGuid>0e4911a8-05b3-4898-9a2e-d4f8a53bdfb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1n:&quot;)/form[1]/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[1]/div[@class=&quot;flex max-w-full flex-col gap-2&quot;]/div[@class=&quot;shrink-0 grow&quot;]/p[@class=&quot;errorField mb-0 text-body-small italic text-text-critical mt-1&quot;]</value>
+      <webElementGuid>e5b9b676-1e96-4b4f-b875-8cfc2aab261d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1n:']/form/div[2]/div/div/div/div/div[2]/p</value>
+      <webElementGuid>f9195e7d-1084-4a82-80f3-2b6a80cf5650</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::p[1]</value>
+      <webElementGuid>4cd8820d-2c50-4bed-95fe-c4622d98df87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::p[1]</value>
+      <webElementGuid>9f102816-e5fe-4742-97d9-a0e2aa8d7b88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Phone must be at least 8 characters']/parent::*</value>
+      <webElementGuid>cb433e11-2d5e-472b-9936-44079626b030</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>a0c740f2-7479-40b4-b6cd-38d419395403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Phone must be at least 8 characters' or . = 'Phone must be at least 8 characters')]</value>
+      <webElementGuid>f169e8bf-8f68-49ca-bdda-d9458b3d3bb2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

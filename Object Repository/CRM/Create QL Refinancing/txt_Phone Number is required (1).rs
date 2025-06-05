@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Phone Number is required (1)</name>
+   <tag></tag>
+   <elementGuidId>7bf378d0-f4a4-4b4c-9ae9-5b95dc861506</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.errorField.mb-0.text-body-small.italic.text-text-critical.mt-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1n:']/form/div[2]/div/div/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7094f1a9-3a44-4acd-8bfe-2d6399c0c593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>errorField mb-0 text-body-small italic text-text-critical mt-1</value>
+      <webElementGuid>d6277d0b-9c4e-46db-9f98-2c97820765ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone Number is required</value>
+      <webElementGuid>e17fdcef-ad94-46c6-a7ca-a2517ee2fcd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1n:&quot;)/form[1]/div[@class=&quot;max-h-[--height-dialog] overflow-y-auto px-6 py-4&quot;]/div[@class=&quot;flex flex-col gap-6&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[1]/div[@class=&quot;flex max-w-full flex-col gap-2&quot;]/div[@class=&quot;shrink-0 grow&quot;]/p[@class=&quot;errorField mb-0 text-body-small italic text-text-critical mt-1&quot;]</value>
+      <webElementGuid>683d67bc-ee22-4aaf-a2a4-fc0b009a77ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1n:']/form/div[2]/div/div/div/div/div[2]/p</value>
+      <webElementGuid>12558980-bb85-47fb-87c0-b45838d9ef3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::p[1]</value>
+      <webElementGuid>6e04b1e1-fdb5-4023-b9b7-80ae780f30f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::p[1]</value>
+      <webElementGuid>a0cf0ab8-7f01-49e0-967c-d3679f9b2615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Phone Number is required']/parent::*</value>
+      <webElementGuid>20bc6aee-3756-4c34-bad6-2fee2d2bec28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>16e818b4-8158-4dbb-99a5-485f5820dc6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Phone Number is required' or . = 'Phone Number is required')]</value>
+      <webElementGuid>7acc2e14-2abc-41fc-acfc-0906069ca7fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
