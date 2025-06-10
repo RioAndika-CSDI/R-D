@@ -29,14 +29,14 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
-    15)
+    60)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Cari Mobil'), 15)
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
-
+//WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Cari Mobil'), 15)
+//WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Dealer Mobil Baru'))
 
 WebUI.waitForPageLoad(50)
