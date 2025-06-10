@@ -7,25 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'input_input') and @placeholder = 'Masukkan nama lengkap']</value>
+         <value>input[placeholder='Masukkan nama lengkap']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>input_input</value>
-      <webElementGuid>9c9a0789-47c7-4e36-b537-92526adc64c1</webElementGuid>
+      <webElementGuid>a144dc5e-b26e-4376-bdcd-5538ee48d356</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan nama lengkap</value>
-      <webElementGuid>65abd43d-b3c3-4954-bbbd-f9b6c7c035be</webElementGuid>
+      <webElementGuid>ce609584-fdb7-4cb6-99d4-85e32f7fbcab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>input[placeholder='Masukkan nama lengkap']</value>
+      <webElementGuid>7264184f-e705-489f-8ad4-7b4b4e5d9dee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

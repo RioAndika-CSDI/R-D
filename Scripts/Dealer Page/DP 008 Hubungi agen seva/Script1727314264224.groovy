@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +17,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail dealer'), [('city') : city, ('dealer') : dealer
         , ('URL_tc3') : URL_tc3, ('expected_URL') : expected_URL, ('open_browser') : '1', ('close_browser') : '0', ('kontak_dealer_ke') : kontak_dealer_ke], 
@@ -23,11 +27,27 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail d
 
 WebUI.scrollToElement(findTestObject('Page - Detail dealer/Halaman Submit leads'), 0)
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
+//WebUI.click(findTestObject('Page - Detail dealer/Field nama lengkap'))
+//
+//WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
+//
+//WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
+//
+//WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
+WebUI.scrollToElement(findTestObject('Page - Detail dealer/Field nama lengkap'), 30)
+
+WebElement inputField = WebUiCommonHelper.findWebElement(findTestObject('Page - Detail dealer/Field nama lengkap'), 10)
+
+// Use JavaScript to focus the field
+WebUI.executeJavaScript("arguments[0].focus();", Arrays.asList(inputField))
+
 
 WebUI.setText(findTestObject('Page - Detail dealer/Field nama lengkap'), nama_lengkap)
 
-WebUI.click(findTestObject('Page - Detail dealer/Field nomor handphone'))
+WebElement inputFieldHandphone = WebUiCommonHelper.findWebElement(findTestObject('Page - Detail dealer/Field nomor handphone'), 10)
+
+// Use JavaScript to focus the field
+WebUI.executeJavaScript("arguments[0].focus();", Arrays.asList(inputFieldHandphone))
 
 WebUI.setText(findTestObject('Page - Detail dealer/Field nomor handphone'), nomor_handphone)
 
