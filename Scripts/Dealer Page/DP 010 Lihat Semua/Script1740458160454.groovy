@@ -22,7 +22,13 @@ WebUI.callTestCase(findTestCase('Dealer Page/DP 006 Menampilkan halaman detail d
         , ('URL_tc3') : 'https://www.seva.id/mobil-baru/daihatsu/dealer', ('expected_URL') : 'https://www.seva.id/mobil-baru/daihatsu/dealer/'
         , ('open_browser') : '1', ('close_browser') : '1', ('kontak_dealer_ke') : '2'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
+if (WebUI.verifyElementPresent(findTestObject('Page - Detail dealer/CardtoPage3'), 10, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
+} else {
+	KeywordUtil.markFailed("CardtoPage3 not found")
+}
+
+//WebUI.click(findTestObject('Page - Detail dealer/CardtoPage3'))
 
 WebUI.scrollToElement(findTestObject('Page - Detail dealer/Lihatsemua'), 10)
 
