@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>65e2c152-2c12-4f40-add1-5bd19651bc06</webElementGuid>
+      <webElementGuid>8c85e675-fbe7-4b6e-8847-e74ea2a04cc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>promoBerlangsung</value>
-      <webElementGuid>b2f4253c-fe0e-4e2a-887a-557af4084af9</webElementGuid>
+      <webElementGuid>1c78e1eb-09e2-433b-8a17-1a938177c4f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Promo yang Sedang Berlangsung di SEVA</value>
-      <webElementGuid>2f803bad-75b6-4f44-98f4-81db1465034c</webElementGuid>
+      <webElementGuid>bc10ae0c-8174-4ca9-879f-38821fb18ca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;promoBerlangsung&quot;)</value>
-      <webElementGuid>9d9b81e5-a67b-4f67-b855-16d209eb90aa</webElementGuid>
+      <webElementGuid>ed2443ae-7217-44b8-9a62-47ed49472503</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//b[@id='promoBerlangsung']</value>
-      <webElementGuid>e35cc355-2634-4f62-b6ca-352a0423e51a</webElementGuid>
+      <webElementGuid>2f7c9459-7aff-4440-9860-8966d0340cdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1/b</value>
-      <webElementGuid>1f1ea029-4dc0-44c8-b3d2-1cd82cf71f7f</webElementGuid>
+      <webElementGuid>c60f7c07-eb6c-493e-881c-941327458425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[@id = 'promoBerlangsung' and (text() = 'Promo yang Sedang Berlangsung di SEVA' or . = 'Promo yang Sedang Berlangsung di SEVA')]</value>
-      <webElementGuid>33361953-d399-4578-9a9d-3490bb36f3af</webElementGuid>
+      <webElementGuid>5c68a010-0c3e-42ba-8c36-5859b670d32f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

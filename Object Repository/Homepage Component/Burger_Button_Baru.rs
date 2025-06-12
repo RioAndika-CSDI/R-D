@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>div[class='index_headerDesktop__SlMlA'] button:nth-child(1) span:nth-child(1)</value>
+         <value>//*[@data-testid = 'hamburger-menu' and @class = 'headerMobile_left__HkzvY']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>hamburger-menu</value>
-      <webElementGuid>969454c5-e82b-4166-ade8-a9d62894c2c6</webElementGuid>
+      <webElementGuid>8f5d166b-747d-4f89-a86b-5c55e96262c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>class</name>
       <type>Main</type>
-      <value>div[class='index_headerDesktop__SlMlA'] button:nth-child(1) span:nth-child(1)</value>
-      <webElementGuid>234bb53e-fa43-4793-96fd-1ec2d7274347</webElementGuid>
+      <value>headerMobile_left__HkzvY</value>
+      <webElementGuid>90912076-1545-4d9d-9776-12e3074ba4a5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

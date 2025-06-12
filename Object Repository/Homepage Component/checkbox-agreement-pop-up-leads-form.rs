@@ -10,10 +10,9 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='ant-modal-body']//div[contains(@class, 'agreement_agreementTerms') and contains(@class, 'agreement_primary')]</value>
+         <value>(//div[contains(@class,  'agreement_agreementPromoTerms__pL9Wx agreement_primary__Ti2TE')]/button)[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

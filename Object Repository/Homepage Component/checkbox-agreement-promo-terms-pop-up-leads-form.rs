@@ -7,14 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='ant-modal-body']//div[contains(@class, ' agreement_agreementPromoTerms') and contains(@class, 'agreement_primary')]</value>
+         <value>//div[contains(@class,  'agreement_agreementTermsDesktop__CEMiv agreement_primary__Ti2TE')]/button
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
