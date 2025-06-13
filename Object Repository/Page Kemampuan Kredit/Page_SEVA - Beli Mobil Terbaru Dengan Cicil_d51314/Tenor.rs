@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[starts-with(@class, 'tenureOptionWidget_box') and (text() = '5' or . = '5')]</value>
+         <value>//*[starts-with(@class, 'tenureOptionWidget_box_') and (text() = '5' or . = '5')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -20,20 +20,20 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3f9b0c0d-f83e-4d96-b71c-54007d8cedd3</webElementGuid>
+      <webElementGuid>c705cf55-4c20-440a-856a-bda04ec5f886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tenureOptionWidget_box</value>
-      <webElementGuid>e7178a51-bc64-46e0-b76c-eb4af5d7af5f</webElementGuid>
+      <value>tenureOptionWidget_box_</value>
+      <webElementGuid>df500b41-34b9-487b-9de0-59c4f6480ab4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>0f45e4d4-be8c-4dae-9a3c-734f880db509</webElementGuid>
+      <webElementGuid>e232da39-f5a1-4568-87b2-378c3dfb634a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[3]/div[@class=&quot;tenureOptionWidget_containerTenure__3m5YW&quot;]/div[@class=&quot;tenureOptionWidget_box__FoPcT&quot;]</value>
-      <webElementGuid>537f7770-05ca-49f4-814e-f9fe9f66679e</webElementGuid>
+      <webElementGuid>1a80d571-381e-4612-9ee5-6d301829558b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>0a323961-7686-41f2-957b-f04858cc51be</webElementGuid>
+      <webElementGuid>90c31e51-a63a-47b0-86d7-b29d7809e17a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::div[6]</value>
-      <webElementGuid>6d276467-420a-434e-9b28-8c4f59d2ae96</webElementGuid>
+      <webElementGuid>d11905b1-bf2e-462f-afb5-d313f786d2ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.622.500.000'])[1]/following::div[12]</value>
-      <webElementGuid>5e0403fd-7a11-4768-8a0d-8b508d99e7c7</webElementGuid>
+      <webElementGuid>7b55e37f-2eeb-43ca-a47c-acd79775d784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/preceding::div[1]</value>
-      <webElementGuid>fd8949da-b46c-4743-b9fd-7cf82da2804d</webElementGuid>
+      <webElementGuid>676ce821-68a1-4078-a620-7deb1457e8ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manual'])[1]/preceding::div[1]</value>
-      <webElementGuid>4781973e-463d-4dfc-b676-915b2689efa7</webElementGuid>
+      <webElementGuid>d011b3a6-081d-40de-a3ed-72f8ab33e51a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>fb6fe4bb-f24c-4575-8edc-f53826866280</webElementGuid>
+      <webElementGuid>27ca30cc-4e4b-4b17-bcaf-44f87275b7eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '5' or . = '5')]</value>
-      <webElementGuid>4fd2b263-2a68-422d-b9f5-9bec5ac3972c</webElementGuid>
+      <webElementGuid>f354d90f-00a3-45f7-bcc7-3ad0dbbd22f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

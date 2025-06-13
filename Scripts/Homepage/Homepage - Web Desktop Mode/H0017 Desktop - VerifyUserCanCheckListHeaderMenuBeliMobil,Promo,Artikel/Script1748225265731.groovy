@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Homepage Desktop Mode/navbar-lainnya'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu-promo'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-promo'))
 
 WebUI.delay(5)
 
@@ -57,15 +57,15 @@ WebUI.click(findTestObject('Object Repository/Page_Promo cicilan mobil baru bula
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-lainnya'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-lainnya'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu-artikel'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-artikel'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1. Homepage Desktop Mode/navbar-submenu item-berita otomotif utama'))
+WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu item-berita otomotif utama'))
 
 headerPage = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/h1_otomotif'), 
     10)

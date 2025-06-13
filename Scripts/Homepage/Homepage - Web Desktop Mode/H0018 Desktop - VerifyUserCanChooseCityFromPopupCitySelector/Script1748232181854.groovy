@@ -44,6 +44,8 @@ WebUI.click(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta P
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mulai Cari Mobil'))
 
+WebUI.scrollToElement(findTestObject('Homepage Desktop Mode/scroll to promo'), 0)
+
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 WebUI.click(findTestObject('Homepage Desktop Mode/navbar-mobil baru'))

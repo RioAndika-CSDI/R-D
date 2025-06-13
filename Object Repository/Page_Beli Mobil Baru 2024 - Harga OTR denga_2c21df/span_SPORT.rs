@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
+         <value>(//span[@class = 'navigationfiltermobile_text__NbFVt' and (text() = 'SPORT' or . = 'SPORT')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'SPORT' or . = 'SPORT')]</value>
+         <value>button[data-testid='type-Sport']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,23 +19,22 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>9730b9f9-3cdf-4fe2-b97a-522d1371d1fe</webElementGuid>
+      <webElementGuid>c4941f8e-3714-44ed-ab16-259a2d7f9a9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>0bdc0886-d773-4683-ad6b-d1dcc0f55f10</webElementGuid>
+      <value>navigationfiltermobile_text__NbFVt</value>
+      <webElementGuid>72530c83-3a67-451f-8f6a-843aaeede2ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SPORT</value>
-      <webElementGuid>5b5934b2-8985-4f5a-82a1-86c30d45ab78</webElementGuid>
+      <webElementGuid>ebfa340d-4cb2-4486-a853-ed9a3d354a17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>8b478f3f-5cc5-4cd6-89af-571ed1623910</webElementGuid>
+      <webElementGuid>db948feb-4cba-4860-8a56-7ecc256f58ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>button[data-testid='type-Sport']</value>
+      <webElementGuid>648e1e62-f75b-4cf3-a2ee-6494b85abd83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>a891ec1f-5e76-4511-9a04-1ada62611f86</webElementGuid>
+      <webElementGuid>424c9b78-97f2-488f-a13d-3fd5997fa638</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
-      <webElementGuid>8060168a-9a03-4358-abc5-815aff6f088d</webElementGuid>
+      <webElementGuid>7a91fdef-e130-430e-8930-46cb141c7884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan beragam pilihan mobil baru sesuai kebutuhan dan finansialmu.'])[1]/following::span[1]</value>
-      <webElementGuid>435cec6c-824c-4325-8de7-5737c19d2a92</webElementGuid>
+      <webElementGuid>af92a65b-ae30-440e-8120-db0318b4a24f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SPORT']/parent::*</value>
-      <webElementGuid>aee096af-0887-46e5-90b0-ed54fed62a83</webElementGuid>
+      <webElementGuid>568167ef-0de6-4ff3-b5fd-445c4d2e19e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>238e44f9-3ec3-4c7e-b61a-87e66af77842</webElementGuid>
+      <webElementGuid>f4bac5e1-2dd2-4088-8c16-cdb7b05aee9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'SPORT' or . = 'SPORT')]</value>
-      <webElementGuid>a7f7e35c-e988-404b-b426-6c393d816a03</webElementGuid>
+      <webElementGuid>b75934bf-85cd-46c6-b7e6-32dd828e7545</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
