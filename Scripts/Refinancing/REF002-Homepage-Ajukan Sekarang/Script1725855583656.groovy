@@ -46,7 +46,7 @@ if (WebUI.verifyElementPresent(findTestObject('HomeRefinancing/responsive mode/e
 
     WebUI.sendKeys(inputField, Keys.chord(Keys.CONTROL, 'a'))
     WebUI.sendKeys(inputField, Keys.chord(Keys.BACK_SPACE))
-    WebUI.setText(inputField, 'SEVAF8RS')
+    WebUI.setText(inputField, 'SEVANV6B')
     WebUI.click(ceklistBtn)
 } else {
     WebUI.comment('✅ Referral code SEVA12 tidak menimbulkan error UI')
