@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_kirim</name>
+   <tag></tag>
+   <elementGuidId>61fbeb74-45e4-4189-86b8-a8d84e4a9cbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test-id = 'button-kirim-leads' and (text() = 'Kirim' or . = 'Kirim')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>button-kirim-leads</value>
+      <webElementGuid>d86035c8-a903-4ba5-b593-5497c50ad2ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim</value>
+      <webElementGuid>a485bba8-40da-4ab8-bed7-dad834e163cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

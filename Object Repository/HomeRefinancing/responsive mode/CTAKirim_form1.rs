@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CTAKirim_form1</name>
+   <tag></tag>
+   <elementGuidId>3d5c2ffa-42b9-4e4e-ba33-7a8a08058e6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[normalize-space()='Kirim']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[normalize-space()='Kirim']</value>
+      <webElementGuid>d2f9c0db-9c90-4a83-8226-a94072f18647</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

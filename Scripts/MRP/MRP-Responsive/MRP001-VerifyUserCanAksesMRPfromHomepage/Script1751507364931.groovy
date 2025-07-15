@@ -16,31 +16,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('seva.id')
-	WebUI.setViewPortSize(570, 912)
-}
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.maximizeWindow()
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+//WebUI.setViewPortSize(570, 912)
+WebUI.scrollToElement(findTestObject('MRP/MRP-DESKTOP/text-reco'), 0)
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+//CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.waitForElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 60)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
+WebUI.click(findTestObject('MRP/MRP-DESKTOP/button_simulasi-kredit'))
 
-WebUI.waitForElementPresent(findTestObject('HomeRefinancing/label_fasilitasDana'), 400)
+String currentUrl = WebUI.getUrl().split("\\?")[0].trim()
 
-actURL = WebUI.getUrl()
+String regexPattern = '(?i)https://www\\.seva\\.id/kalkulator-kredit/[a-z-]+/[a-z-]+/[a-z0-9-]+/?'
 
-WebUI.verifyMatch(actURL, expected_url, true)
-
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
+if (currentUrl.matches(regexPattern)) {
+    KeywordUtil.markPassed('URL matches expected kalkulator-kredit pattern')
+} else {
+    KeywordUtil.markFailed('URL does NOT match expected pattern. Got: ' + currentUrl)
 }
+
+
+//WebUI.closeBrowser()
 

@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>REF004-Homepage-Kirim Pertanyaan</name>
+   <name>REF007-Homepage-WA Direct</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1fca9d5e-2af3-48e9-8198-68bad5b0c30f</testCaseGuid>
+   <testCaseGuid>8c1bd8d6-8e59-4d3f-b93c-ef53b0dce078</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2e5ad22c-2a41-469f-9fb0-dc1a1bafd513</variableId>
+      <variableId>630b8c64-2fcf-48ee-bf9c-29fec1421bea</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>26c9e739-9e10-42e6-b57a-3f722c2d8e3d</variableId>
+      <variableId>2ce228e7-c8a7-400c-927f-7a77924ab780</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f248e08e-1908-46c0-a9ad-778a22e55dca</variableId>
+      <variableId>264340a7-c91e-41c1-a4d1-5081a37ab972</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8ba7b6f1-2064-4778-ba02-72f78fb76d87</variableId>
+      <variableId>1a4a0980-6f79-4dd3-9047-44d55f4ec03d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4211793f-4d12-4abc-b1c5-c8820d418ff4</variableId>
+      <variableId>9674f3c4-e353-4825-b1d7-c79f99d91693</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://www.seva.id/fasilitas-dana'</defaultValue>
       <description></description>
-      <id>2e5ad22c-2a41-469f-9fb0-dc1a1bafd513</id>
+      <id>630b8c64-2fcf-48ee-bf9c-29fec1421bea</id>
       <masked>false</masked>
       <name>expected_url</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>26c9e739-9e10-42e6-b57a-3f722c2d8e3d</id>
+      <id>2ce228e7-c8a7-400c-927f-7a77924ab780</id>
       <masked>false</masked>
       <name>open_browser</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>f248e08e-1908-46c0-a9ad-778a22e55dca</id>
+      <id>264340a7-c91e-41c1-a4d1-5081a37ab972</id>
       <masked>false</masked>
       <name>close_browser</name>
    </variable>
    <variable>
       <defaultValue>'https://www.seva.id/fasilitas-dana/form'</defaultValue>
       <description></description>
-      <id>8ba7b6f1-2064-4778-ba02-72f78fb76d87</id>
+      <id>1a4a0980-6f79-4dd3-9047-44d55f4ec03d</id>
       <masked>false</masked>
       <name>ExpectedURL2</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
+      <defaultValue>'212121'</defaultValue>
       <description></description>
-      <id>4211793f-4d12-4abc-b1c5-c8820d418ff4</id>
+      <id>9674f3c4-e353-4825-b1d7-c79f99d91693</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'hamburger-menu' and @class = 'headerMobile_left__HkzvY']</value>
+         <value>//*[@data-testid = 'hamburger-menu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,22 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>hamburger-menu</value>
-      <webElementGuid>8f5d166b-747d-4f89-a86b-5c55e96262c4</webElementGuid>
+      <webElementGuid>02bbbe8b-3677-47da-b77b-189ed822dd0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>headerMobile_left__HkzvY</value>
-      <webElementGuid>90912076-1545-4d9d-9776-12e3074ba4a5</webElementGuid>
+      <webElementGuid>df4f5bd2-7262-4a5d-a942-77a3dc86980c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>//span[normalize-space()='Fasilitas Dana']</value>
+      <webElementGuid>a61fb431-5a52-41f0-b371-2aabab2e45aa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
