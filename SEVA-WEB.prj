@@ -7,10 +7,10 @@
    <createdVersion>9.3.1</createdVersion>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.2.0</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.7.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Automation\seva-web-automation\SEVA-WEB.prj</projectFileLocation>
+   <projectFileLocation>E:\SEVA\seva-web-automation\SEVA-WEB.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'superadmin@seva.id'</initValue>
+      <name>cms_email_superadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jan@2025'</initValue>
+      <name>cms_pass_superadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://seva-cms-fe.staging.sevaio.xyz'</initValue>
+      <name>cms_url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -19,15 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cms-fe.prod.seva.id/login')
+WebUI.navigateToUrl(GlobalVariable.cms_url + '/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'testing-qa@seva.id')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), GlobalVariable.cms_email_superadmin)
 
-WebUI.setEncryptedText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'Yb04Xw983OgGCKWozO10aQ==')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), GlobalVariable.cms_pass_superadmin)
 
 WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 
-WebUI.click(findTestObject('Object Repository/Page_SEVA CMS/h1_Welcome to SEVA CMS'))
+WebUI.delay(5)
+
+String currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, GlobalVariable.cms_url + '/app/dashboard', false)
 
