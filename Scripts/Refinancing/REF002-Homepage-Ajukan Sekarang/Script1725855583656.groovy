@@ -21,15 +21,16 @@ if (open_browser.toString().equals('1')) {
     WebUI.setViewPortSize(570, 912 // Responsive mode
         )
 }
+JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
+jsbefore.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
-boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-//boolean popupAfter = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
-if (popupBefore) {
-    WebUI.comment('Popup muncul SEBELUM klik burger menu dan sudah ditutup')
-}
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("""
@@ -45,6 +46,13 @@ WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 def actURL = WebUI.getUrl()
 
 WebUI.verifyMatch(actURL, expected_url, true)
+JavascriptExecutor jsgeturl = (JavascriptExecutor) DriverFactory.getWebDriver()
+jsgeturl.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
 WebUI.click(findTestObject('HomeRefinancing/Button_AjukanSekarang'))
 

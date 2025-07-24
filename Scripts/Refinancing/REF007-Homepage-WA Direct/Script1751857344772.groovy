@@ -29,13 +29,15 @@ if (open_browser.toString().equals('1')) {
     WebUI.setViewPortSize(570, 912 // Responsive mode
         )
 }
-boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
+JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
+jsbefore.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-if (popupBefore) {
-    WebUI.comment('Popup muncul SEBELUM klik burger menu dan sudah ditutup')
-}
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("""
