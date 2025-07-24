@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -20,6 +20,8 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('https://www.seva.id')
@@ -27,10 +29,25 @@ if (open_browser.toString().equals('1')) {
     WebUI.setViewPortSize(570, 912 // Responsive mode
         )
 }
+boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-WebUI.delay(0)
+
+if (popupBefore) {
+    WebUI.comment('Popup muncul SEBELUM klik burger menu dan sudah ditutup')
+}
+
+
+WebUI.delay(5)
+
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+js.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
@@ -49,6 +66,14 @@ WebUI.setText(findTestObject('HomeRefinancing/responsive mode/input nama'), 'Hil
 WebUI.setText(findTestObject('HomeRefinancing/responsive mode/input nomor'), '85349524555')
 
 WebUI.click(findTestObject('HomeRefinancing/responsive mode/dropdown svg'), FailureHandling.STOP_ON_FAILURE)
+
+JavascriptExecutor js2 = (JavascriptExecutor) DriverFactory.getWebDriver()
+js2.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
 WebUI.delay(1)
 

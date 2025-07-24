@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,25 +16,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory
+
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
-	WebUI.setViewPortSize(570, 912)
+
+    WebUI.setViewPortSize(570, 912)
 }
+
+boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+//boolean popupAfter = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+if (popupBefore) {
+    WebUI.comment('Popup muncul SEBELUM klik burger menu dan sudah ditutup')
+}
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+js.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 
-WebUI.waitForElementPresent(findTestObject('HomeRefinancing/label_fasilitasDana'), 400)
+WebUI.waitForElementPresent(findTestObject('HomeRefinancing/label_fasilitasDana'), 60)
 
 actURL = WebUI.getUrl()
 

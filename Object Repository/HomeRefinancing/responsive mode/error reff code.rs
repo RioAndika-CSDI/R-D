@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Kode referral tidak tersedia.' or . = 'Kode referral tidak tersedia.')]</value>
+         <value>//*[(text() = 'Kode Teman SEVA ini tidak tersedia. Gunakan kode lainnya.' or . = 'Kode Teman SEVA ini tidak tersedia. Gunakan kode lainnya.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kode referral tidak tersedia.</value>
-      <webElementGuid>1ad2e71a-06e1-438c-ab24-c3c47ba4e47d</webElementGuid>
+      <value>Kode Teman SEVA ini tidak tersedia. Gunakan kode lainnya.</value>
+      <webElementGuid>ce7951ab-b056-4968-9a4e-c37d9b42e129</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
