@@ -39,7 +39,7 @@ if (popupBefore) {
 }
 
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("""

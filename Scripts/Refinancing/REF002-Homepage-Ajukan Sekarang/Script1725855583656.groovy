@@ -31,6 +31,7 @@ jsbefore.executeScript("""
 
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.delay(20)
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("""
