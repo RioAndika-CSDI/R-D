@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,9 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.JavascriptExecutor
-import com.kms.katalon.core.webui.driver.DriverFactory
-
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
@@ -26,26 +25,23 @@ if (open_browser.toString().equals('1')) {
     WebUI.setViewPortSize(570, 912)
 }
 
-JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
-jsbefore.executeScript("""
-    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
-    if (iframe) {
-        iframe.remove();
-    }
-""")
+JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
+jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
 WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 
+JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
-JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
-js.executeScript("""
-    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
-    if (iframe) {
-        iframe.remove();
-    }
-""")
+js.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
+WebUI.delay(15)
+
+JavascriptExecutor jsrefi = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
+jsrefi.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 

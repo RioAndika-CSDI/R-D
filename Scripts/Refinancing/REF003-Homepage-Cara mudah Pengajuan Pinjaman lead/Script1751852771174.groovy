@@ -51,6 +51,16 @@ js.executeScript("""
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
+WebUI.delay(10)
+
+JavascriptExecutor jsrefi = (JavascriptExecutor) DriverFactory.getWebDriver()
+jsrefi.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
+
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 
 def actURL = WebUI.getUrl()

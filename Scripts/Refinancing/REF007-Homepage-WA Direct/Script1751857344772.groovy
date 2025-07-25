@@ -49,6 +49,16 @@ js.executeScript("""
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
+WebUI.delay(10)
+
+JavascriptExecutor jsrefi = (JavascriptExecutor) DriverFactory.getWebDriver()
+jsrefi.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
+
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 
 def actURL = WebUI.getUrl()
@@ -122,6 +132,15 @@ WebUI.delay(5)
 WebUI.click(findTestObject('HomeRefinancing/responsive mode/button_kirim'))
 
 // MASUKKAN OTP
+JavascriptExecutor js4 = (JavascriptExecutor) DriverFactory.getWebDriver()
+js4.executeScript("""
+    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+    if (iframe) {
+        iframe.remove();
+    }
+""")
+WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_OTP'), 10)
+WebUI.verifyElementClickable(findTestObject('Login Register Component/Input_OTP'))
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.switchToWindowIndex(1)
