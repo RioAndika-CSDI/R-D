@@ -258,4 +258,39 @@
          <variableId>9674f3c4-e353-4825-b1d7-c79f99d91693</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d068f017-f024-4146-98dc-1fc65b38a9fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF008-Homepage-Masuk ke halaman upload user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ad29e9c-d174-416a-8ea4-f01ee096759d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF009-Homepage-Masuk ke halaman camera (user upload)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a18c8cc0-b665-4437-9631-8b124a82f518</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF010-Homepage-Masuk ke halaman camera (CSA)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0e65ca1-8881-4317-bfcd-04b4b4dfcda5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF011-Homepage-lihat panduan unggah (user)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>51cbb61f-1545-4480-9d42-d2a252169765</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF012-Homepage-lihat panduan unggah (CSA)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

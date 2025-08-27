@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[2]</value>
+         <value>//*[starts-with(@class, 'arrow-button-next-R2l6')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>//*[@class = 'teman-seva-onboarding_bullet__JXUa5']</value>
-      <webElementGuid>b8ae55e4-340a-4908-917b-a95fd92d0bd3</webElementGuid>
+      <value>arrow-button-next-R2l6</value>
+      <webElementGuid>fd314894-4581-4718-8abc-f6f4ed293e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[2]</value>
-      <webElementGuid>f0724f34-7ab9-4f94-88dd-3a1343d9605e</webElementGuid>
+      <webElementGuid>5a4b6a78-d79f-48dd-a5ab-6c4447d875ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

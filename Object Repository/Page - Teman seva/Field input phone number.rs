@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inputPhone_input__4xYEC false ']</value>
+         <value>//*[starts-with(@class, 'inputPhone_input')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputPhone_input__4xYEC false </value>
-      <webElementGuid>29a80c54-9262-4ac8-b031-5200d59b0f33</webElementGuid>
+      <value>inputPhone_input</value>
+      <webElementGuid>095dc7c9-eba8-4793-a467-d91dbc4a2c88</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

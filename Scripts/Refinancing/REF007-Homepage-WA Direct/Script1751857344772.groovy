@@ -141,11 +141,15 @@ js4.executeScript("""
         iframe.remove();
     }
 """)
-WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_OTP'), 10)
-WebUI.verifyElementClickable(findTestObject('Login Register Component/Input_OTP'))
-WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+// Cek kondisi toggle bypass OTP
+if (WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_OTP'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.comment("Kondisi OTP normal - input OTP dulu")
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+} else {
+    WebUI.comment("Kondisi Bypass OTP")
+}
 
-WebUI.switchToWindowIndex(1)
+//WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 

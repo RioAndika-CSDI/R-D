@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SKMB003-Cari Mobil Bekas Hompage</name>
+   <name>SKMB003-Cari Mobil Bekas Hompage dengan filter</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>24926d1f-5bea-4969-b435-e738ee22e6fb</testCaseGuid>

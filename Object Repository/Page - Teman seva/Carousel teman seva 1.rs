@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'arrow-button-next-R2pm ')]</value>
+         <value>//*[starts-with(@class, 'arrow-button-next-R2l6')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[1]</value>
-      <webElementGuid>d04dd86b-53cd-47c5-aaf5-d292a6372f55</webElementGuid>
+      <webElementGuid>1573bfd9-abad-4a90-80ae-993ffec5c488</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>arrow-button-next-R2pm </value>
-      <webElementGuid>4bf5b711-94fb-476f-a4ea-11de21cefee4</webElementGuid>
+      <value>arrow-button-next-R2l6</value>
+      <webElementGuid>f8f219e1-a5d8-4382-b91d-272b7d534121</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

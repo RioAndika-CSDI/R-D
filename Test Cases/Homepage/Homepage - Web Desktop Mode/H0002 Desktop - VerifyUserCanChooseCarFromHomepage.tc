@@ -4,6 +4,44 @@
    <name>H0002 Desktop - VerifyUserCanChooseCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>220a422d-7041-424f-88db-f543ee644151</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66121ce6-cfe9-42a7-8d3e-748ea7805a15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ac4650d-fed6-4065-a992-51a98b2a9730</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5fafb97-a872-44aa-b18a-2c8a1ea134f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
+      <description></description>
+      <id>66121ce6-cfe9-42a7-8d3e-748ea7805a15</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1ac4650d-fed6-4065-a992-51a98b2a9730</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e5fafb97-a872-44aa-b18a-2c8a1ea134f1</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
 </TestCaseEntity>

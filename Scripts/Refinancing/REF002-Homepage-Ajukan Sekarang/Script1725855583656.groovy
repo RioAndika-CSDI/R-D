@@ -14,6 +14,10 @@ import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('https://www.seva.id')
@@ -132,17 +136,24 @@ js3.executeScript("""
     }
 """)
 
-WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_OTP'), 10)
-WebUI.verifyElementClickable(findTestObject('Login Register Component/Input_OTP'))
-WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+// Cek kondisi toggle bypass OTP
+if (WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_OTP'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.comment("Kondisi OTP normal - input OTP dulu")
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+} else {
+    WebUI.comment("Kondisi Bypass OTP")
+}
 
-WebUI.switchToWindowIndex(1)
+//WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.waitForPageLoad(10)
+
+WebUI.delay(2)
+
 
 WebUI.delay(2)
 

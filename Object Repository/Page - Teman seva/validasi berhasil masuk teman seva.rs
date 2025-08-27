@@ -7,25 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textTitle__u2oTJ' and (text() = 'Halo, Teman SEVA!' or . = 'Halo, Teman SEVA!')]</value>
+         <value>(//*[contains(normalize-space(.), 'Halo, Teman SEVA!')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textTitle__u2oTJ</value>
-      <webElementGuid>6a8e62c0-0ee6-4f86-a88d-ef38fc39ff27</webElementGuid>
+      <value>teman-seva-dashboard_textTitle</value>
+      <webElementGuid>16727ea5-3a3d-483f-afc4-936923977f73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Halo, Teman SEVA!</value>
-      <webElementGuid>807f3070-706a-4ee2-9439-b055399b88de</webElementGuid>
+      <webElementGuid>f1ea4111-308e-47c0-b796-d45337ba87c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(normalize-space(.), 'Halo, Teman SEVA!')])[1]</value>
+      <webElementGuid>c26d3906-bb92-4c5f-b4a7-d486a7797abd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

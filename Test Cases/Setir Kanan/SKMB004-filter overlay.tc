@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SKMB004-Filter Mobil Bekas</name>
+   <name>SKMB004-filter overlay</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>838feea6-7879-4624-9804-f882c40707fd</testCaseGuid>

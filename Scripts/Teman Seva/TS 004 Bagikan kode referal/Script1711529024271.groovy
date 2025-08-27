@@ -17,57 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.seva.id/')
+WebUI.callTestCase(findTestCase('Teman Seva/TS 001 Masuk akun teman seva'), [('Phone_number') : '85349524555', ('OTP') : '212121'
+        , ('close_browser') : '1', ('newPhoneNumber') : '87887578067', ('OTPNEW') : '006900'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-
-WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
-
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
-
-WebUI.click(findTestObject('Page - Teman seva/Checbox setuju bergabung TS'))
-
-WebUI.scrollToElement(findTestObject('Page - Teman seva/button masuk teman seva'), 0)
-
-WebUI.click(findTestObject('Page - Teman seva/button masuk teman seva'))
-
-WebUI.click(findTestObject('Page - Teman seva/button masuk popup'))
-
-WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phone_number)
-
-WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
-
-WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
-
-boolean cek = true
-
-cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarning'(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'),
-	10)
-
-//if (cek == false) {
-//    WebUI.delay(120)
-//
-//    WebUI.click(findTestObject('Page - Teman seva/Close_OTP'))
-//
-//    WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
-//
-//    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
-//}
-WebUI.verifyElementPresent(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 0)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page - Teman seva/Bagikan kode referal'))
 
@@ -76,6 +29,7 @@ WebUI.click(findTestObject('Page - Teman seva/Salin kode referal'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page - Teman seva/Page_Program Teman SEVA. Dapatkan Komisi Pe_0bd5fb/span_Kode berhasil disalin'), 
     0)
 
-if(close_browser.toString().equals('1')) {
-	WebUI.closeBrowser()
-	}
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
+}
+

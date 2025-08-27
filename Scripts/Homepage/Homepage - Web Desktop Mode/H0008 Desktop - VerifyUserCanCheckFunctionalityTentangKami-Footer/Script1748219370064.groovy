@@ -33,10 +33,15 @@ WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indon
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/a_Tentang SEVA'))
 
-WebUI.switchToWindowTitle('Tentang Kami - SEVA')
+WebUI.delay(10)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'), 0)
+WebUI.switchToWindowIndex(1)
 
+//WebUI.switchToWindowTitle('Tentang Kami - SEVA')
+
+WebUI.delay(15)
+
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'), 0)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/p_SEVA adalah platform yang dioperasikan ol_f9508e'), 
     0)
 

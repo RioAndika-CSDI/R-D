@@ -6,20 +6,19 @@
    <elementGuidId>b9a30f76-5faa-4d69-b003-5e5c95231171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.usedCarDetailCard_brandModelText__ENqe9</value>
+         <key>XPATH</key>
+         <value>(//h2[contains(@class, 'usedCarDetailCard_brandModelText')])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(//div[contains(@class, 'cardetailcard_contentWrapper')]//h2[contains(@class, 'cardetailcard_brandModelText') and @data-testid='[object Object]brand-model-mobil'])[${id}]</value>
+         <value>(//*[starts-with(@class, 'usedCarDetailCard_brandModelText')])[${id}]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h2[contains(@class, 'cardetailcard_brandModelText')]</value>
+         <key>CSS</key>
+         <value>h2.usedCarDetailCard_brandModelText__ENqe9</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>37e1553d-2938-4647-ba90-62b118ad05b4</webElementGuid>
+      <webElementGuid>3f5c3ebc-fb82-4fab-baa3-74fb67d490fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>usedCarDetailCard_brandModelText__ENqe9</value>
-      <webElementGuid>73ae9f28-5f05-4626-a729-6a7875ed489f</webElementGuid>
+      <value>usedCarDetailCard_brandModelText</value>
+      <webElementGuid>09fd6569-6f76-4a65-960f-75a74a0f0d8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +42,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>ecad864c-bed6-484d-ab5e-781dbe37f535</webElementGuid>
+      <webElementGuid>9d797255-812b-43e7-99c6-841434599380</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Daihatsu GRANMAX PU 1.5 M/T 2021</value>
-      <webElementGuid>2533529e-b301-44a4-b4f8-f94cc4358116</webElementGuid>
+      <webElementGuid>460b90af-ffbc-4b18-95ad-d998acf7fc7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//div[contains(@class, 'cardetailcard_contentWrapper')]//h2[contains(@class, 'cardetailcard_brandModelText') and @data-testid='[object Object]brand-model-mobil'])[${id}]</value>
-      <webElementGuid>2ff5107f-ff4b-4411-bb1d-645fff8e9aa8</webElementGuid>
+      <value>(//*[starts-with(@class, 'usedCarDetailCard_brandModelText')])[${id}]</value>
+      <webElementGuid>89ba5b98-4135-4ba7-a0e9-2c2c393457b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div[4]/div/div/div/div/div/h2</value>
-      <webElementGuid>4189922d-7174-4dd8-a6a7-d0dcda14dbed</webElementGuid>
+      <webElementGuid>fad6614b-a509-47e3-8007-7581b130fb37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR113,950,000'])[1]/preceding::h2[1]</value>
-      <webElementGuid>7e377d81-b6ef-4753-8d87-39f4a4c702bf</webElementGuid>
+      <webElementGuid>5a4de6b8-89fc-4756-bcb1-63f180c493c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daihatsu']/parent::*</value>
-      <webElementGuid>3ffb75a9-2eeb-4475-889c-b33600a85b6b</webElementGuid>
+      <webElementGuid>56536ae4-cbe7-4462-baff-eb0c4935257d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/h2</value>
-      <webElementGuid>c7989a91-ceb0-4bfa-89cd-d1f7b31d8dc0</webElementGuid>
+      <webElementGuid>b662e42a-3d7f-48f2-8111-9da77abf1273</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Daihatsu GRANMAX PU 1.5 M/T 2021' or . = 'Daihatsu GRANMAX PU 1.5 M/T 2021')]</value>
-      <webElementGuid>24ee4a9e-b297-4cc1-b809-a6b892703816</webElementGuid>
+      <webElementGuid>c75bcaf1-84b5-4c82-9a19-bde5d77c36e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

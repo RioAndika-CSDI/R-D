@@ -52,9 +52,11 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
+WebUI.delay(10)
+
 WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter'), 10)
 
-TestObject label_title_card_mobil = findTestObject('Page Mobil Bekas/label_Title Card Mobil')
+TestObject label_title_card_mobil = findTestObject('Homepage Desktop Mode/label_title card mobil new car')
 
 WebUI.waitForElementVisible(label_title_card_mobil, 10)
 

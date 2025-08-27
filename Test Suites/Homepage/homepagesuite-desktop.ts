@@ -24,6 +24,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Homepage/Homepage - Web Desktop Mode/H0002 Desktop - VerifyUserCanChooseCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66121ce6-cfe9-42a7-8d3e-748ea7805a15</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ac4650d-fed6-4065-a992-51a98b2a9730</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5fafb97-a872-44aa-b18a-2c8a1ea134f1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>abac31de-56eb-4aac-a81c-333f1c66543b</guid>

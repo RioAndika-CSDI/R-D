@@ -7,25 +7,37 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[(text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil')])[2]</value>
+         <value>//*[(text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil') and starts-with(@class, 'popupMenuItem_menuItem')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[(text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil') and starts-with(@class, 'popupMenuItem_menuItem')])[5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Lihat Semua Mobil</value>
-      <webElementGuid>325057fb-2c12-4836-b26a-93b091d8a71e</webElementGuid>
+      <webElementGuid>2bfdb454-d89a-43d7-921e-10e386621bb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[(text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil')])[2]</value>
-      <webElementGuid>94c73d17-3af7-4b4e-8b89-4db0a68a25d0</webElementGuid>
+      <webElementGuid>d0bf2596-6143-455f-9642-bb67afbd5da6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popupMenuItem_menuItem</value>
+      <webElementGuid>7bf22252-3b24-49ad-ad02-1c858d3b6501</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
