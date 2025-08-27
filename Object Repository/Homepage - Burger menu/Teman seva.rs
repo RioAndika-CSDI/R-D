@@ -7,18 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'menuList_menu__b7Ngl' and (text() = 'Teman SEVA' or . = 'Teman SEVA')]</value>
+         <value>//*[starts-with(@class, 'popupMenuItem_menuItemWrapper') and (text() = 'Teman SEVA' or . = 'Teman SEVA')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menuList_menu__b7Ngl</value>
-      <webElementGuid>79a48e18-1dfd-4306-b51b-b8b0983633f0</webElementGuid>
+      <value>popupMenuItem_menuItemWrapper</value>
+      <webElementGuid>9d80c767-4e7e-454a-86bd-d92640958577</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Teman SEVA</value>
-      <webElementGuid>0517364c-7cfa-4b73-96f0-176a88bd56cd</webElementGuid>
+      <webElementGuid>dd9f4c03-81e6-4af5-a5b3-fb2cd224fcbe</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

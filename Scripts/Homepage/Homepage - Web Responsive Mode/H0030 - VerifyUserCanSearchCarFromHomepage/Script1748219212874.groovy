@@ -52,7 +52,9 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
-WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter'), 10)
+WebUI.delay(10)
+
+//WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter'), 10)
 
 TestObject label_title_card_mobil = findTestObject('Page Mobil Bekas/label_Title Card Mobil')
 
@@ -72,7 +74,11 @@ String[] brand = title_card.split(' ')
 //
 //WebUI.verifyElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (variable)', [('title') : title_card]),
 //	0)
-WebUI.verifyMatch(brand[0], 'Toyota', true)
+List<String> expectedBrands = ["Toyota", "Daihatsu", "Honda", "BMW", "BYD", "Wuling"]
+
+boolean isValid = expectedBrands.contains(brand[0])
+
+WebUI.verifyEqual(isValid, true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

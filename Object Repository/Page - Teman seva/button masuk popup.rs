@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'loginAlertModal_styledButton__sFrxz']</value>
+         <value>//*[starts-with(@class, 'loginAlertModal_styledButton')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>loginAlertModal_styledButton__sFrxz</value>
-      <webElementGuid>8252b7e8-3ea8-4e9c-bcc0-b8b415b836e8</webElementGuid>
+      <value>loginAlertModal_styledButton</value>
+      <webElementGuid>733e3c79-d791-43ca-a010-1fd5f1151232</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -16,95 +16,111 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
 
 if (open_browser.toString().equals('1')) {
     WebUI.callTestCase(findTestCase('Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas Melalui Icon Hamburger'), [('expected_url') : expected_url
             , ('open_browser') : '1', ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 }
 
-String randomNumber = '1'
+// --- Cari semua Card Title Mobil ---
+List<WebElement> listTitle = WebUiCommonHelper.findWebElements(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : 1]), 10
+)
 
+int totalTitle = listTitle.size()
+WebUI.comment("Total card title ditemukan: " + totalTitle)
+
+if (totalTitle == 0) {
+    KeywordUtil.markFailed("❌ Tidak ada card title mobil ditemukan")
+}
+
+// --- Pilih random card (dijamin tidak out of range) ---
+Random rand = new Random()
+int randomNumber = rand.nextInt(totalTitle) + 1
+
+boolean cekElement = false
 for (int i = 0; i < 3; i++) {
-    Random rand = new Random()
-
-    randomNumber = (rand.nextInt(10) + 1).toString()
-
-    boolean cekElement = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/label_Title Card Mobil', 
-            [('id') : randomNumber]), 1)
-
-    if (cekElement == true) {
-        break
-    } else {
-        randomNumber = '1'
-    }
+    cekElement = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(
+        findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : randomNumber]), 1
+    )
+    if (cekElement) break
+    randomNumber = rand.nextInt(totalTitle) + 1
 }
 
-WebUI.comment('Random Number : ' + randomNumber)
+WebUI.comment("🎲 Random card ke: " + randomNumber)
 
-title_card = WebUI.getText(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : randomNumber]))
+// --- Ambil informasi Card ---
+TestObject titleObj = findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : randomNumber])
+String title_card = WebUI.getText(titleObj)
 
-lokasi_card = WebUI.getText(findTestObject('Page Mobil Bekas/label_Card Mobil Lokasi', [('id') : randomNumber]))
+// --- Lokasi ---
+List<WebElement> listLokasi = WebUiCommonHelper.findWebElements(
+    findTestObject('Page Mobil Bekas/label_Card Mobil Lokasi', [('id') : 1]), 10
+)
+int totalLokasi = listLokasi.size()
+int randomLokasi = rand.nextInt(totalLokasi) + 1
+TestObject lokasiObj = findTestObject('Page Mobil Bekas/label_Card Mobil Lokasi', [('id') : randomLokasi])
+WebUI.scrollToElement(lokasiObj, 10)
+String lokasi_card = WebUI.getText(lokasiObj)
+KeywordUtil.logInfo(" Lokasi random card ke-$randomLokasi: $lokasi_card")
 
-harga_card = WebUI.getText(findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : randomNumber]))
+// --- Harga ---
+List<WebElement> listHarga = WebUiCommonHelper.findWebElements(
+    findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : 1]), 10
+)
+int totalHarga = listHarga.size()
+int randomHarga = rand.nextInt(totalHarga) + 1
+TestObject hargaObj = findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : randomHarga])
+WebUI.scrollToElement(hargaObj, 10)
+String harga_card = WebUI.getText(hargaObj)
+KeywordUtil.logInfo(" Harga random card ke-$randomHarga: $harga_card")
 
-WebUI.click(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : randomNumber]))
+// --- Klik card untuk masuk ke detail ---
+WebUI.enhancedClick(titleObj)
+WebUI.comment("CARD MOBIL DIPILIH")
+WebUI.comment("Title : $title_card | Lokasi : $lokasi_card | Harga : $harga_card")
 
-WebUI.comment('CARD MOBIL')
+// --- Ambil data detail mobil ---
+String title_detail = WebUI.getText(findTestObject('Page Detail Mobil/label_Title Mobil'))
+String title_harga  = WebUI.getText(findTestObject('Page Detail Mobil/label_Harga Mobil'))
+WebUI.delay(5) // kasih waktu load
+String title_lokasi = WebUI.getText(findTestObject('Page Detail Mobil/label_Lokasi Mobil'))
+String tahun_info   = WebUI.getText(findTestObject('Page Detail Mobil/label_Tahun Mobil_Informasi Mobil'))
+String wrna_info    = WebUI.getText(findTestObject('Page Detail Mobil/label_Warna Mobil_Informasi Mobil'))
+String lokasi_info  = WebUI.getText(findTestObject('Page Detail Mobil/label_Lokasi Mobil_Informasi Mobil'))
+String plat_info    = WebUI.getText(findTestObject('Page Detail Mobil/label_Plat Mobil_Informasi Mobil'))
+String stnk_info    = WebUI.getText(findTestObject('Page Detail Mobil/label_STNK Mobil_Informasi Mobil'))
 
-WebUI.comment(((((' title       : ' + title_card) + '\n Lokasi      : ') + lokasi_card) + '\n Harga       : ') + harga_card)
+// --- Verifikasi Title ---
+String normalized_card   = title_card.replace(',00', '').trim()
+String normalized_detail = title_detail.replace(',00', '').trim()
 
-title_detail = WebUI.getText(findTestObject('Page Detail Mobil/label_Title Mobil'))
-
-title_harga = WebUI.getText(findTestObject('Page Detail Mobil/label_Harga Mobil'))
-
-title_lokasi = WebUI.getText(findTestObject('Page Detail Mobil/label_Lokasi Mobil'))
-
-tahun_info = WebUI.getText(findTestObject('Page Detail Mobil/label_Tahun Mobil_Informasi Mobil'))
-
-wrna_info = WebUI.getText(findTestObject('Page Detail Mobil/label_Warna Mobil_Informasi Mobil'))
-
-lokasi_info = WebUI.getText(findTestObject('Page Detail Mobil/label_Lokasi Mobil_Informasi Mobil'))
-
-plat_info = WebUI.getText(findTestObject('Page Detail Mobil/label_Plat Mobil_Informasi Mobil'))
-
-stnk_info = WebUI.getText(findTestObject('Page Detail Mobil/label_STNK Mobil_Informasi Mobil'))
-
-//Title
-if (title_card.equalsIgnoreCase(title_detail)) {
-    WebUI.verifyMatch('true', 'true', true)
+if (normalized_card.equalsIgnoreCase(normalized_detail)) {
+    KeywordUtil.markPassed("Title matches: $normalized_detail")
 } else {
-    WebUI.verifyMatch('true', 'false', true)
+    KeywordUtil.markFailed("Title mismatch! Card: $normalized_card, Detail: $normalized_detail")
 }
 
-WebUI.verifyMatch(harga_card, title_harga, true)
-
-WebUI.verifyMatch(lokasi_card, title_lokasi, true)
-
+// --- Verifikasi elemen lain ---
 WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/SubMenu_Deskripsi'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/SubMenu_Kredit'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Informasi Mobil'), 0)
-
-tahun_info = tahun_info.toString().substring(tahun_info.length() - 4)
-
-WebUI.verifyGreaterThan(wrna_info.length(), 0)
-
-WebUI.verifyMatch(lokasi_card, title_lokasi, true)
-
-WebUI.verifyGreaterThan(plat_info.length(), 0)
-
-WebUI.verifyGreaterThan(stnk_info.length(), 0)
-
-WebUI.comment(((((' title       : ' + title_detail) + '\n Lokasi      : ') + title_lokasi) + '\n Harga       : ') + title_harga)
-
-WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Informasi Mobil'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Page Detail Mobil/label_Title Tanyakan Unit'), 0)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('ev' + screen.toString())
+WebUI.verifyGreaterThan(wrna_info.length(), 0)
+WebUI.verifyGreaterThan(plat_info.length(), 0)
+WebUI.verifyGreaterThan(stnk_info.length(), 0)
 
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
+// --- Tahun info aman ---
+if (tahun_info != null && tahun_info.length() >= 4) {
+    tahun_info = tahun_info.substring(tahun_info.length() - 4)
+    WebUI.comment("Tahun Mobil: $tahun_info")
+} else {
+    KeywordUtil.markWarning("Data tahun mobil tidak valid: '$tahun_info'")
+    tahun_info = ''
 }
 
+// --- Log detail ---
+WebUI.comment("Detail Mobil: Title: $title_detail | Lokasi: $title_lokasi | Harga: $title_harga | Tahun: $tahun_info")

@@ -6,12 +6,15 @@
    <elementGuidId>bb4a5965-4421-4c38-83ee-a62c57f5bd58</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//*[starts-with(@class, 'navigationfiltermobile_navOuter')])[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'navigationfiltermobile_navOuter')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,6 +22,6 @@
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_navOuter</value>
-      <webElementGuid>7ec8e675-9766-4e4d-b9ef-4cfac42fa36c</webElementGuid>
+      <webElementGuid>14cb6c58-ade8-4545-b160-5ae7b06ea4f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

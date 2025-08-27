@@ -10,18 +10,15 @@
          <value>//div[@id='__next']/div/div/div/div/div[2]/button</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'button-lanjutkan' and (text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;button-lanjutkan&quot;]</value>
-      </entry>
-   </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>db330d8c-67f5-4656-9fbf-3b0e96b50071</webElementGuid>
+      <webElementGuid>e99f3efb-cd88-4222-b4f8-5c6b10fbb723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>e7f8eb49-0f63-49a6-a8cd-35a32df0ddfe</webElementGuid>
+      <webElementGuid>6a7033e0-4f0c-4e26-bdd4-7c3321e3e25d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>button-lanjutkan</value>
-      <webElementGuid>c07348d4-5fe3-4165-a976-cc1b799470e7</webElementGuid>
+      <webElementGuid>40c79780-6136-4193-8c36-0ebf7bfe440d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjutkan</value>
-      <webElementGuid>01a09eed-fc54-4d86-87e0-810cc5dbfe2c</webElementGuid>
+      <webElementGuid>26f39031-7f52-4d12-9bf7-81ac1d04f2e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_button__OProq&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>8c6887a1-527d-4dfb-9fbb-253cbebe6be3</webElementGuid>
+      <webElementGuid>4d23692e-029c-41a1-a566-09da93d6afd5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/div[2]/button</value>
-      <webElementGuid>36896fdf-8a2b-4a0c-b317-9a95f9dd3f43</webElementGuid>
+      <webElementGuid>a95d87de-5fb3-49da-9b22-3bbc6a2d3cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang di SEVA'])[1]/following::button[1]</value>
-      <webElementGuid>f988a56c-f0e3-49c7-ade3-3ef27c341134</webElementGuid>
+      <webElementGuid>ba68a1a4-93dd-4bb9-a089-456b43272708</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 PT Astra Auto Digital. All Rights Reserved'])[1]/preceding::button[1]</value>
-      <webElementGuid>4b824693-6524-4096-bbe3-54fd496fefcc</webElementGuid>
+      <webElementGuid>ed0e1c54-6292-491b-92f4-c86a20703749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjutkan']/parent::*</value>
-      <webElementGuid>fb7b1361-f8c7-4dbe-bcd1-e1e11484e19e</webElementGuid>
+      <webElementGuid>ee43f3d0-a9df-42e0-9f40-f516e12b7e9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>ccf994fd-d32a-4498-870c-2ba940db8e20</webElementGuid>
+      <webElementGuid>83655089-8f55-4457-89a9-4e89aa0ef309</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjutkan' or . = 'Lanjutkan')]</value>
-      <webElementGuid>ee34098f-5e5c-4fc4-ae03-7798929d688f</webElementGuid>
+      <webElementGuid>fc87b76d-16d8-46d6-afec-52a3ed200559</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

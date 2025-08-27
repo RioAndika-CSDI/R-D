@@ -38,6 +38,8 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
 
+WebUI.delay(20)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/h1_Rekomendasi Mobil Baru di SEVA'), 
     10)
 
@@ -66,6 +68,8 @@ WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-artikel'))
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu item-berita otomotif utama'))
+
+WebUI.delay(10)
 
 headerPage = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Artikel Review Otomotif  SEVA/h1_otomotif'), 
     10)

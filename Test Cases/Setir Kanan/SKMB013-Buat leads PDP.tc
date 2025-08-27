@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SKMB013-Buat leads PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8bf0325-5ee6-4c65-805d-f5f4eb9b4cc3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68f20116-b5fe-4b84-b208-3c4077cd8ac5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>68f20116-b5fe-4b84-b208-3c4077cd8ac5</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

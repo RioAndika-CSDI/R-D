@@ -16,27 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('https://www.seva.id?utm_source=testing&utm_medium=testing&utm_campaign=testing&utm_id=testing&utm_term=testing&utm_content=testing')
+if (open_browser.toString().equals('1')) {
+    WebUI.openBrowser('seva.id')
+}
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
-WebUI.waitForElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
-    60)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
 
-//WebUI.waitForElementPresent(findTestObject('Homepage Component/button_Cari Mobil'), 15)
-//WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Dealer Mobil Baru'))
 
 WebUI.waitForPageLoad(50)

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined' and @style = 'display:block;margin-top:16px']</value>
+         <value>//*[starts-with(@class, 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined') and @style = 'display:block;margin-top:16px']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>cf77dd9e-d085-4599-a7e5-d85f72775b80</webElementGuid>
+      <webElementGuid>5c0db6de-e020-45db-88d6-67a5f7966688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>style</name>
       <type>Main</type>
       <value>display:block;margin-top:16px</value>
-      <webElementGuid>da20d5f2-a934-48ef-9bba-58ad266338f1</webElementGuid>
+      <webElementGuid>2655ac08-4f31-4246-821b-c4238d83a8a7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -26,6 +28,8 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Pag
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+
+WebUI.click(findTestObject('Homepage Desktop Mode/location'))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'))
 
@@ -45,6 +49,8 @@ WebUI.click(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta P
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mulai Cari Mobil'))
 
 WebUI.scrollToElement(findTestObject('Homepage Desktop Mode/scroll to promo'), 0)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 

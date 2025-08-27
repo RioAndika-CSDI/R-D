@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textNewCar__NxYLO']</value>
+         <value>//*[starts-with(@class, 'teman-seva-dashboard_textNewCar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textNewCar__NxYLO</value>
-      <webElementGuid>77da3872-c631-4152-8193-493240e40eca</webElementGuid>
+      <value>teman-seva-dashboard_textNewCar</value>
+      <webElementGuid>52b5950c-6d72-48db-a49d-56a6e772e309</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

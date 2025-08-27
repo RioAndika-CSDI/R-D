@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'teman-seva-dashboard_textRefinancing__PcG_m']</value>
+         <value>//*[starts-with(@class, 'teman-seva-dashboard_textRefinancing')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>teman-seva-dashboard_textRefinancing__PcG_m</value>
-      <webElementGuid>5a23387c-975a-4719-b2cb-f7bf89b1e1bb</webElementGuid>
+      <value>teman-seva-dashboard_textRefinancing</value>
+      <webElementGuid>d55acfa5-3602-4997-ad26-dbe5ed6fe198</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

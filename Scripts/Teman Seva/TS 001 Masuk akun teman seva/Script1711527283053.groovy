@@ -16,21 +16,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('https://www.seva.id/')
+WebUI.openBrowser('seva.id')
 
-WebUI.maximizeWindow()
+JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
+WebUI.click(findTestObject('Homepage - Burger menu/lainnya'))
+
+//WebUI.openBrowser('https://www.seva.id/')
+//
+//WebUI.maximizeWindow()
+//
+//WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+//
+//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+//
+//CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+//
+//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+//
+//WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
 
 WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
@@ -39,17 +55,23 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
 
 WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
 
-WebUI.click(findTestObject('Page - Teman seva/Checbox setuju bergabung TS'))
+TestObject checkbox = findTestObject('Page - Teman seva/Checbox setuju bergabung TS')
 
-WebUI.scrollToElement(findTestObject('Page - Teman seva/button masuk teman seva'), 0)
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(checkbox, 10)))
 
-WebUI.click(findTestObject('Page - Teman seva/button masuk teman seva'))
+TestObject button = findTestObject('Page - Teman seva/button masuk teman seva')
+
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(button, 10)))
 
 WebUI.click(findTestObject('Page - Teman seva/button masuk popup'))
 
 WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phone_number)
 
 WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+
+WebUI.waitForElementPresent(findTestObject('Login Register Component/Input_OTP'), 20)
+
+WebUI.click(findTestObject('Login Register Component/Input_OTP'))
 
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
@@ -58,14 +80,9 @@ boolean cek = true
 cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarning'(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 
     10)
 
-//if (cek == false) {
-//    WebUI.delay(120)
-//
-//    WebUI.click(findTestObject('Page - Teman seva/Close_OTP'))
-//
-//    WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
-//
-//    WebUI.setText(findTestObject('Page - Teman seva/Input OTP'), OTP)
-//}
-WebUI.verifyElementPresent(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 0)
+WebUI.waitForElementVisible(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 20)
+
+
+
+
 
