@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lihat_semua_mbl_baru</name>
+   <name>lihat rincian</name>
    <tag></tag>
-   <elementGuidId>27a3270c-b6b8-46a7-88fb-877b8aca67b0</elementGuidId>
+   <elementGuidId>aabac415-8dcd-4e57-abce-e711af6222a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
+         <value>//*[@data-testid = 'button-lihat-rincian']</value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>(//*[@data-testid = 'button-lihat-rincian'])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
-      <webElementGuid>49964305-228f-4cef-b3fb-ce8fc208eb87</webElementGuid>
+      <value>button-lihat-rincian</value>
+      <webElementGuid>a8c82c4e-77aa-4570-8e90-80111b2b02df</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
