@@ -22,27 +22,35 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
-
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
-
+WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 WebUI.delay(10)
-
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/menu_mobilBekas_burgerMenu'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/lihat_semua_mobilBekas_burgerMenu'))
 
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 10)
 
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
+//*ASET COMPONEN DESKTOP*//
+//WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
+//
+//WebUI.delay(10)
+//
+//WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+//
+//WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 10)
+//
+//WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
+//
+//WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 10)
+//
+//WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
 
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 10)
-
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
-
-WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 10)
+WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 50)
 
 String actual_url = WebUI.getUrl()
 
@@ -53,5 +61,9 @@ if (actual_url.equals(expected_url.toString())) {
     WebUI.verifyMatch('true', 'true', true)
 } else {
     WebUI.verifyMatch('false', 'true', true)
+}
+
+if (close_browser.toString().equals('1')) {
+    WebUI.closeBrowser()
 }
 

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_uploadDokumen</name>
+   <name>cari_mobilBekas</name>
    <tag></tag>
-   <elementGuidId>2ecb765f-7221-4415-9cf2-de276dbeab2e</elementGuidId>
+   <elementGuidId>1cc9f793-43c0-4203-b108-4004a08d2f97</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Unggah Dokumenmu' or . = 'Unggah Dokumenmu')]</value>
+         <value>//*[@data-testid = 'button-cari-mobil' and (text() = 'Cari Mobil Bekas' or . = 'Cari Mobil Bekas')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>uploadRefinancing_titleSpan</value>
-      <webElementGuid>f8f52262-8939-4667-85bc-2d77545eb174</webElementGuid>
+      <value>button-cari-mobil</value>
+      <webElementGuid>aa0e9386-2567-4b9f-853e-91d085d2b1e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Unggah Dokumenmu</value>
-      <webElementGuid>70211273-5979-4227-884e-0520817d68ba</webElementGuid>
+      <value>Cari Mobil Bekas</value>
+      <webElementGuid>3bd17e0b-280d-4404-9dfe-eca89a57c1b1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

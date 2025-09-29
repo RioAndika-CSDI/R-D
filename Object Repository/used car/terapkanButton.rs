@@ -6,19 +6,24 @@
    <elementGuidId>5d37908c-2083-4ff3-be12-d83bffb3557e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//*[@data-testid='button-terapkan' and normalize-space(text())='Terapkan'])[2]
+</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'button_primaryDarkBlue__jOQA0 button_big__') and (text() = 'Terapkan' or . = 'Terapkan')]</value>
+         <value>//*[(text() = 'Terapkan' or . = 'Terapkan') and @data-testid = 'button-terapkan']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__</value>
-      <webElementGuid>27eeca98-8580-44af-ad50-a7237ee4f075</webElementGuid>
+      <webElementGuid>bef61410-7252-408b-8a5f-0094d1ebc5c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +31,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Terapkan</value>
-      <webElementGuid>f6952d60-af51-469c-a312-c13e4e7a04dc</webElementGuid>
+      <webElementGuid>4b6bde6d-b930-4b7e-9860-c81d62492f6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-terapkan</value>
+      <webElementGuid>f20126ef-28dc-4e8d-9c66-87157a285185</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

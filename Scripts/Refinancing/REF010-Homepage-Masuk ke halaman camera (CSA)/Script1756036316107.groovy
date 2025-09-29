@@ -36,6 +36,7 @@ WebUI.verifyElementPresent(findTestObject('HomeRefinancing/label_uploadDokumenCS
 
 String phoneNumber = "6285349524555"
 String expectedBaseUrl = "https://www.seva.id/fasilitas-dana/csa-upload/${phoneNumber}/camera"
+String startUrl = "https://www.seva.id/fasilitas-dana/csa-upload/${phoneNumber}"
 
 // Ambil base xpath dari repo
 String baseXpath = findTestObject('HomeRefinancing/upload_button').findPropertyValue("xpath")
@@ -66,7 +67,10 @@ for (int i = 1; i <= 12; i++) {
 		WebUI.closeWindowIndex(WebUI.getWindowIndex())
 		WebUI.switchToWindowIndex(0)
 	} else {
-		WebUI.back()
+		  // Kembali ke halaman awal langsung by URL (bukan back)
+        WebUI.navigateToUrl(startUrl)
+        WebUI.waitForPageLoad(10)
+
 	}
 
 	WebUI.waitForPageLoad(10)
