@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
 
-    WebUI.setViewPortSize(570, 912)
+    WebUI.setViewPortSize(414, 896)
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
