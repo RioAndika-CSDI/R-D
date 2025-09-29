@@ -23,10 +23,18 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory
 
-if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('https://www.seva.id')
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-    WebUI.setViewPortSize(414, 896)
+if (open_browser.toString().equals('1')) {
+	ChromeOptions options = new ChromeOptions()
+	options.addArguments("--window-size=570,912")
+	options.addArguments("--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1")
+
+	WebUI.openBrowser('')
+	DriverFactory.changeWebDriver(new ChromeDriver(options))
+	WebUI.navigateToUrl('https://seva.id')
 }
 boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
