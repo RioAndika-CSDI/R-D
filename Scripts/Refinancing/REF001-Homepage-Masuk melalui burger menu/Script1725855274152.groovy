@@ -18,11 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('seva.id')
+	ChromeOptions options = new ChromeOptions()
+	options.addArguments("--window-size=570,912")
+	options.addArguments("--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1")
 
-    WebUI.setViewPortSize(414, 896)
+	WebUI.openBrowser('')
+	DriverFactory.changeWebDriver(new ChromeDriver(options))
+	WebUI.navigateToUrl('https://seva.id')
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
