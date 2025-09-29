@@ -22,8 +22,7 @@ import org.openqa.selenium.By
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('https://www.seva.id')
 
-    WebUI.setViewPortSize(570, 912 // Responsive mode
-        )
+    WebUI.setViewPortSize(414, 896)
 }
 JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
 jsbefore.executeScript("""
