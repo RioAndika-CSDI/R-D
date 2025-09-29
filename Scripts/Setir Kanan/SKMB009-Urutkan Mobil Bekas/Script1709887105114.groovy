@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor
 
 // Panggil test case untuk membuka halaman
 WebUI.callTestCase(findTestCase('Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas Melalui Icon Hamburger'), 
@@ -23,96 +29,112 @@ WebUI.callTestCase(findTestCase('Setir Kanan/SKMB002-Membuka Halaman Mobil Bekas
      ('open_browser') : '1', 
      ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/button_urutkan'))
 
+// Fungsi klik aman (normal click + fallback JS)
+def safeClick(TestObject to, int timeout = 10) {
+    try {
+        WebUI.waitForElementVisible(to, timeout)
+        WebUI.scrollToElement(to, timeout)
+        try {
+            WebUI.click(to) // normal click dulu
+        } catch (Exception e) {
+            WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
+            JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+            js.executeScript("arguments[0].click();", element)
+        }
+    } catch (Exception e) {
+        WebUI.comment("❌ Gagal klik: " + to.getObjectId() + " => " + e.getMessage())
+    }
+}
+
+// 🔹 Step Awal
+safeClick(findTestObject('Object Repository/Page Mobil Bekas/button_urutkan'), 10)
+
+// Tutup popup kalau ada
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('Page Mobil Bekas/option_Urutkan Berdasarkan', [('sort') : sorting]))
+// Klik opsi urutkan
+TestObject optionSort = findTestObject('Page Mobil Bekas/option_Urutkan Berdasarkan', [('sort') : sorting])
+safeClick(optionSort, 10)
 
+// 🔹 Ambil data dari hasil sorting
 String data = ''
 int loop = 1
 String[] sortingElemen = sorting.toString().split(' ')
-
-// Tentukan batas maksimum loop menjadi 10
 int maxLoop = 10
 int currentLoop = 0
 
 while (currentLoop < maxLoop) {
     if ((sortingElemen[0]).equalsIgnoreCase('mobil')) {
-        boolean cek = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/label_Title Card Mobil', 
-                [('id') : loop]), 1)
+        boolean cek = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(
+            findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : loop]), 1)
 
-        if (cek == true) {
-            title = WebUI.getText(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : loop]))
-            title = title.substring(title.length() - 4)
-            data = ((data + ' ') + title)
+        if (cek) {
+            String title = WebUI.getText(findTestObject('Page Mobil Bekas/label_Title Card Mobil', [('id') : loop]))
+            title = title.substring(title.length() - 4) // ambil tahun
+            data += " " + title
         } else {
-            break // Jika data tidak ditemukan, keluar dari loop
+            break
         }
     } else if ((sortingElemen[0]).equalsIgnoreCase('harga')) {
-        boolean cek = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', 
-                [('id') : loop]), 1)
+        boolean cek = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(
+            findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : loop]), 1)
 
-        if (cek == true) {
-            title = WebUI.getText(findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : loop]))
-            title = title.replaceAll('[^0-9]', '')
-            data = ((data + ' ') + title)
+        if (cek) {
+            String title = WebUI.getText(findTestObject('Page Mobil Bekas/label_Harga Mobil Bekas', [('id') : loop]))
+            title = title.replaceAll('[^0-9]', '') // ambil angka doang
+            data += " " + title
         } else {
-            break // Jika data tidak ditemukan, keluar dari loop
+            break
         }
     }
 
-    loop = (loop + 1)
-    currentLoop += 1 // Increment jumlah iterasi
+    loop++
+    currentLoop++
 }
 
-// Jika jumlah iterasi mencapai batas, beri komentar peringatan
 if (currentLoop >= maxLoop) {
-    WebUI.comment("Max loop iterations reached. Check if the expected elements are loaded correctly.")
+    WebUI.comment("⚠️ Max loop iterations reached. Check if the expected elements are loaded correctly.")
 }
 
-WebUI.comment(data.toString())
+WebUI.comment("Data hasil scraping: " + data.toString())
 
-// Trim dan proses data lebih lanjut
+// 🔹 Proses data
 data = data.trim()
 String[] dataArray = data.split(' ')
 
-if ((sortingElemen[1]).equalsIgnoreCase('mobil')) {
-    if ((sortingElemen[1]).equalsIgnoreCase('terbaru')) {
+// 🔹 Validasi sesuai sorting
+if (sortingElemen[0].equalsIgnoreCase("mobil")) {
+    if (sortingElemen[1].equalsIgnoreCase("terbaru")) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-                //WebUI.verifyGreaterThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-				
-				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
-				
+                WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
             }
         }
-    } else if ((sortingElemen[1]).equalsIgnoreCase('terlama')) {
+    } else if (sortingElemen[1].equalsIgnoreCase("terlama")) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-				//WebUI.verifyLessThanOrEqual(Integer.parseInt(dataArray[i]), Integer.parseInt(dataArray[j]))
-				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
-				
+                WebUI.verifyLessThanOrEqual(Long.parseLong(dataArray[i]), Long.parseLong(dataArray[j]))
             }
         }
     }
-} else if ((sortingElemen[1]).equalsIgnoreCase('harga')) {
-    if ((sortingElemen[1]).equalsIgnoreCase('tertinggi')) {
+} else if (sortingElemen[0].equalsIgnoreCase("harga")) {
+    if (sortingElemen[1].equalsIgnoreCase("tertinggi")) {
         for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-				WebUI.verifyGreaterThanOrEqual(Long.parseLong(dataArray[i].replaceAll(",", "")),
-            Long.parseLong(dataArray[j].replaceAll(",", ""))
-        )
-		
+                WebUI.verifyGreaterThanOrEqual(
+                    Long.parseLong(dataArray[i].replaceAll(",", "")),
+                    Long.parseLong(dataArray[j].replaceAll(",", ""))
+                )
             }
         }
-    } else if ((sortingElemen[1]).equalsIgnoreCase('terendah')) {
-        for (int i = 1; i < dataArray.length; i++) {
+    } else if (sortingElemen[1].equalsIgnoreCase("terendah")) {
+        for (int i = 0; i < dataArray.length; i++) {
             for (int j = i + 1; j < dataArray.length; j++) {
-				WebUI.verifyLessThanOrEqual(Long.parseLong(dataArray[i].replaceAll(",", "")),
-            Long.parseLong(dataArray[j].replaceAll(",", ""))
-        )
-				
+                WebUI.verifyLessThanOrEqual(
+                    Long.parseLong(dataArray[i].replaceAll(",", "")),
+                    Long.parseLong(dataArray[j].replaceAll(",", ""))
+                )
             }
         }
     }

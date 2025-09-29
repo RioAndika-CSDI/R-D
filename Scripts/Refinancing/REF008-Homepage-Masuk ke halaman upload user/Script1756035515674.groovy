@@ -28,12 +28,19 @@ WebUI.maximizeWindow()
 // Halaman Upload 
 WebUI.navigateToUrl('https://www.seva.id/fasilitas-dana/upload/6285349524555')
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.seva.id/fasilitas-dana/upload/6285349524555', false)
-WebUI.verifyElementPresent(findTestObject('HomeRefinancing/label_uploadDokumen'), 10)
+WebUI.waitForPageLoad(10)
+WebUI.verifyTextPresent('Unggah Dokumenmu', false)
+
 
 // Halaman CSA Upload 
 WebUI.navigateToUrl('https://www.seva.id/fasilitas-dana/csa-upload/6285349524555')
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.seva.id/fasilitas-dana/csa-upload/6285349524555', false)
-WebUI.verifyElementPresent(findTestObject('HomeRefinancing/label_uploadDokumenCSA'), 10)
+//WebUI.verifyElementPresent(findTestObject('HomeRefinancing/label_uploadDokumenCSA'), 10)
+WebUI.waitForPageLoad(10)
+WebUI.waitForElementVisible(findTestObject('HomeRefinancing/label_uploadDokumenCSA'), 10)
+WebUI.verifyElementVisible(findTestObject('HomeRefinancing/label_uploadDokumenCSA'))
+
+
 
 WebUI.closeBrowser()
 

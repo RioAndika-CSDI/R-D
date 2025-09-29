@@ -22,25 +22,17 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
-
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
-
-WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
-
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/mobilBekas_searchWidget'))
 WebUI.delay(10)
-
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/mobilBekas_searchWidget'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/cari_mobilBekas'))
 
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 10)
-
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
-
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 10)
-
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
 
 WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 50)
 

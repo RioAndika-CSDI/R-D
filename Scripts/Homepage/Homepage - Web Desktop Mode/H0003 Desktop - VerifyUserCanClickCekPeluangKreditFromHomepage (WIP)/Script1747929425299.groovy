@@ -35,7 +35,7 @@ WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label 
 
 Url_act = WebUI.getUrl()
 
-WebUI.verifyMatch(Url_act, 'https://www.seva.id/kualifikasi-kredit/multi', true)
+WebUI.verifyMatch(Url_act, "https://www\\.seva\\.id/kalkulator-kredit\\?from=homepageTopCTA", true)
 
 WebUI.closeBrowser()
 

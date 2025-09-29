@@ -22,11 +22,15 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
+
+    WebUI.maximizeWindow()
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
 
