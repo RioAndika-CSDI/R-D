@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
+WebUI.navigateToUrl('https://seva-crm-978280076410.asia-southeast2.run.app/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email (1)'), 'ayu.anggraini@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'k4otbgRCneAr2C/c0ZnM2Q==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'TtTW+eVCo63Sb0pi9j/39g==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN (1)'))
 
@@ -33,11 +33,11 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://crm-fe.prod.seva.id/login')
+WebUI.navigateToUrl('https://seva-crm-978280076410.asia-southeast2.run.app/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email (1)'), 'ayu.anggraini@seva.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'k4otbgRCneDgqzYk+05tvg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), 'TtTW+eVCo63Sb0pi9j/39g==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1)'), Keys.chord(Keys.ENTER))
 
@@ -48,4 +48,22 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/
 WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Workstation (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Leads Workstation - SEVA CRM/div_Your assigned leads will appear here (1)'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://seva-crm-978280076410.asia-southeast2.run.app/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Email_email (1) (1)'), 'ayu.anggraini@seva.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login SEVA CRM/input_Password_password (1) (1)'), 'TtTW+eVCo63Sb0pi9j/39g==')
+
+WebUI.click(findTestObject('Object Repository/Page_Login SEVA CRM/button_LOG IN (1) (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Select roles SEVA CRM/button_CSA Member'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/svg_Welcome to SEVA CRM_flex-none'))
+
+WebUI.click(findTestObject('Object Repository/Page_SEVA CRM Homepage - SEVA CRM/a_Leads Workstation (1) (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Leads Workstation - SEVA CRM/div_Leads Workstation'))
 

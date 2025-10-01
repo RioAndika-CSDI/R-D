@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Postpone this Customer</name>
+   <tag></tag>
+   <elementGuidId>4b59ec45-a9f7-43e1-a288-7cdad132e5fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Postpone this Customer&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>555687ab-6b73-4c85-a4f8-fc45ce896af2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>3e01f694-cbc6-4f49-b465-b49872dfbd44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 w-[240px]</value>
+      <webElementGuid>13922621-0a20-4b98-a2e9-8f2867d9f3ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Postpone this Customer</value>
+      <webElementGuid>4993373a-238c-43f2-b43e-9b0ea497b929</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r23:&quot;)/form[1]/div[@class=&quot;p-6 pt-0&quot;]/div[@class=&quot;ml-auto flex w-fit gap-2&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-brand-red text-text-inverse hover:enabled:bg-hover-brand-red active:enabled:bg-[#821D1D] disabled:bg-surface-disabled h-8 text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 w-[240px]&quot;]</value>
+      <webElementGuid>90ebdcbb-841d-48c2-ae3e-2f01fb5f4dad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>2a67b791-7aff-4e95-8587-867ca108b7e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r23:']/form/div[3]/div[2]/button</value>
+      <webElementGuid>50679f23-694e-4f47-8cdf-aa9feffff26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prioritize this customer'])[1]/following::button[1]</value>
+      <webElementGuid>cfd6a8e4-6f78-45a6-afb5-324bfdd6f884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select other schedule'])[1]/following::button[2]</value>
+      <webElementGuid>396c52b3-281c-413b-aa22-fd8ae311ac95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Postpone this Customer']/parent::*</value>
+      <webElementGuid>db54ab58-dced-4a21-8bbd-f988c7c2eb49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/button</value>
+      <webElementGuid>77bd0fd8-cedc-4b31-8a31-a6982d629178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Postpone this Customer' or . = 'Postpone this Customer')]</value>
+      <webElementGuid>ae316b33-db04-41b3-af6b-8643ed7552ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

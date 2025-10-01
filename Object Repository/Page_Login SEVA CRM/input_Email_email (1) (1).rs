@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Email_email (1) (1)</name>
    <tag></tag>
-   <elementGuidId>0f220a43-fa01-486f-b3e9-8de69a9dd8f5</elementGuidId>
+   <elementGuidId>00f798db-5518-42d0-a818-86a11193e9e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password']</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <value>#email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <value>#email</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>54524021-8091-41d3-bf0e-8627d556d15e</webElementGuid>
+      <webElementGuid>00804905-dc89-4b2b-855c-b069671e0727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>peer w-full appearance-none rounded border border-solid p-3 font-OpenSans text-base text-bodyCopy outline-none outline-0 transition-colors duration-200 ease-in rounded-r-none border-r-0 pr-0 border-placeholder hover:border-label focus:border-label</value>
-      <webElementGuid>aa4272ec-02cb-4da0-8763-124fe242fb75</webElementGuid>
+      <value>peer w-full appearance-none rounded border border-solid p-3 font-OpenSans text-base text-bodyCopy outline-none outline-0 transition-colors duration-200 ease-in border-placeholder hover:border-label focus:border-label</value>
+      <webElementGuid>b1aca5b8-ef9c-4878-80e2-6b4738dd5cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>fe2e96d5-0d36-4a39-99d5-a495f6efaa0e</webElementGuid>
+      <value>text</value>
+      <webElementGuid>70000e4b-edfb-4e1b-9e22-d010bc7e3e3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>529adb50-1f30-4d5d-95f9-b67bb4e8e437</webElementGuid>
+      <value>email</value>
+      <webElementGuid>b9ce974a-27dc-4b98-afc8-61a0723a53b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>2171e7a9-22ec-4ad3-9faa-7e16c2603a3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;flex w-[591px] flex-col items-start justify-center gap-10 px-[60px]&quot;]/form[@class=&quot;flex w-full flex-col gap-4&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;w-[333px]&quot;]/div[@class=&quot;flex&quot;]/input[@class=&quot;peer w-full appearance-none rounded border border-solid p-3 font-OpenSans text-base text-bodyCopy outline-none outline-0 transition-colors duration-200 ease-in rounded-r-none border-r-0 pr-0 border-placeholder hover:border-label focus:border-label&quot;]</value>
-      <webElementGuid>ac6ca3d1-ceb2-45f2-a7d5-fb4baa4a1ac8</webElementGuid>
+      <value>id(&quot;email&quot;)</value>
+      <webElementGuid>c61772c0-7b6b-493a-a87f-37466acc6f25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
-      <webElementGuid>12c1d832-0fc8-491d-9afc-3b79b9152c58</webElementGuid>
+      <value>//input[@id='email']</value>
+      <webElementGuid>8147ea7a-9fde-4aaa-a6db-704a9d3aba5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/form/div[2]/div[2]/div/input</value>
-      <webElementGuid>b6404e6c-c8ab-4179-9c7c-48deb4660832</webElementGuid>
+      <value>//div[@id='root']/div/div[2]/form/div/div[2]/div/input</value>
+      <webElementGuid>f43abc75-b968-4120-8bd5-9a8629e5b57f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/input</value>
-      <webElementGuid>fcbc1fc9-7c67-4ac9-89b3-8c87151b3cdd</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>5ec72cd5-25df-48c2-8b87-11ac6412576b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @name = 'password']</value>
-      <webElementGuid>68d30b23-8b85-4f8a-83c9-d10c26ee73c0</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'email' and @id = 'email']</value>
+      <webElementGuid>f141d464-e14a-43ce-bb31-9f4b33c2a61b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
