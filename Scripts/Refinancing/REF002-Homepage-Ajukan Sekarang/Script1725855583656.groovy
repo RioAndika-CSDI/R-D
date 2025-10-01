@@ -19,23 +19,22 @@ import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('https://www.seva.id')
-
-    WebUI.setViewPortSize(570, 912 // Responsive mode
-        )
+    WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
-JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
-jsbefore.executeScript("""
-    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
-    if (iframe) {
-        iframe.remove();
-    }
-""")
 
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
+WebUI.takeScreenshot()
+WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
 WebUI.delay(20)
+
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("""

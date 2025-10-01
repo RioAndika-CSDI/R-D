@@ -23,12 +23,15 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory
 
-if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('https://www.seva.id')
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-    WebUI.setViewPortSize(570, 912 // Responsive mode
-        )
+if (open_browser.toString().equals('1')) {
+    WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
+
 JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
 jsbefore.executeScript("""
     var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
@@ -37,7 +40,11 @@ jsbefore.executeScript("""
     }
 """)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
+WebUI.takeScreenshot()
+WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.delay(20)
+
 
 WebUI.delay(20)
 
