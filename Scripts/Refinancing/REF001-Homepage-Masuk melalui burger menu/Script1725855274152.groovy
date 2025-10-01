@@ -18,6 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+//if (open_browser.toString().equals('1')) {
+//    WebUI.openBrowser('seva.id')
+//
+//    WebUI.setViewPortSize(570, 912)
+//}
+
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -26,7 +36,8 @@ import org.openqa.selenium.firefox.FirefoxOptions
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
-	WebUI.setViewPortSize(570, 912)
+
+    WebUI.setViewPortSize(570, 912)
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)

@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 'Verify field "Email" is visible by user.'
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_email'))
 
-WebUI.setText(findTestObject('Object Repository/CRM/Login/field_email'), GlobalVariable.EmailUserQA)
+WebUI.setText(findTestObject('CRM/Login/field_email'), GlobalVariable.EmailUserQA)
 
 'Verify field "Password" is visible by user.'
 WebUI.verifyElementVisible(findTestObject('CRM/Login/field_password'))

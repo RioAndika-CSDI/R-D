@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Workstation</name>
+   <name>p_Bucket Management</name>
    <tag></tag>
-   <elementGuidId>9698123f-6a14-4c21-8cdc-ac52e2d09228</elementGuidId>
+   <elementGuidId>df890a11-9dff-44b6-8910-c9300c4b8fe0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='radix-:r7:']/div/p</value>
+         <value>//div[@id='radix-:r9:']/div/p</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Workstation&quot;i</value>
+         <value>internal:text=&quot;Bucket Management&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>55de5c40-0d35-4626-8048-ff1f5b0cd056</webElementGuid>
+      <webElementGuid>f01caacc-4a10-4414-9cd4-1f49e352f5ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,70 +37,70 @@
       <name>class</name>
       <type>Main</type>
       <value>hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical</value>
-      <webElementGuid>35efa238-d7b0-4ec6-8970-0544d799eb6b</webElementGuid>
+      <webElementGuid>00ddf054-adf0-486e-b06d-43698a4f3a34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Workstation</value>
-      <webElementGuid>124130f1-edb6-4601-b8d1-f6afda0cca54</webElementGuid>
+      <value>Bucket Management</value>
+      <webElementGuid>1832df74-3b39-4b02-a117-d7fcef50cfa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radix-:r7:&quot;)/div[@class=&quot;flex items-center gap-6&quot;]/p[@class=&quot;hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical&quot;]</value>
-      <webElementGuid>1e1efe4c-c74c-4c08-b019-ae072d76df35</webElementGuid>
+      <value>id(&quot;radix-:r9:&quot;)/div[@class=&quot;flex items-center gap-6&quot;]/p[@class=&quot;hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical&quot;]</value>
+      <webElementGuid>4b552758-1998-4cc7-8f32-296a5e1bab55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='radix-:r7:']/div/p</value>
-      <webElementGuid>a07ace88-d7f3-4b4d-bf50-59f6f005c217</webElementGuid>
+      <value>//div[@id='radix-:r9:']/div/p</value>
+      <webElementGuid>7c58cfd4-9162-42df-b4dd-cab5f0f8a9b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::p[2]</value>
-      <webElementGuid>93ead336-a144-411f-acd6-43ff0992936b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::p[3]</value>
+      <webElementGuid>28940a0d-4fe9-4ee7-9bd5-7a953d6b6558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::p[2]</value>
-      <webElementGuid>8301e5a4-08d9-4b05-bd86-c1e59b4c3fff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::p[3]</value>
+      <webElementGuid>337faafa-b84c-4ea3-a337-689119d72dc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Workstation']/parent::*</value>
-      <webElementGuid>80f418a8-048d-43db-b19c-e7542737840d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Bucket Management']/parent::*</value>
+      <webElementGuid>019867c0-1208-451e-a320-7d5b1a49b96b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/p</value>
-      <webElementGuid>1edd4387-2f25-4f52-9ea4-727db00fb868</webElementGuid>
+      <value>//div[3]/h3/div/div/p</value>
+      <webElementGuid>85a2cbdd-f33a-450e-9e4d-bbc89573a714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Workstation' or . = 'Workstation')]</value>
-      <webElementGuid>eee5763a-cd39-46f9-b169-50412237338f</webElementGuid>
+      <value>//p[(text() = 'Bucket Management' or . = 'Bucket Management')]</value>
+      <webElementGuid>4d886085-da91-46b0-8bfe-b209862e000a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
