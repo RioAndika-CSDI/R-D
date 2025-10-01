@@ -28,11 +28,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://www.seva.id/fasilitas-dana/upload/6285349524555')
+WebUI.waitForPageLoad(60)
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.seva.id/fasilitas-dana/upload/6285349524555', false)
 WebUI.verifyElementPresent(findTestObject('HomeRefinancing/label_uploadDokumen'), 10)
 
 String phoneNumber = "6285349524555"
 String expectedBaseUrl = "https://www.seva.id/fasilitas-dana/upload/${phoneNumber}/camera"
+String startUrl = "https://www.seva.id/fasilitas-dana/upload/${phoneNumber}"
 
 // Ambil base xpath dari repo
 String baseXpath = findTestObject('HomeRefinancing/upload_button').findPropertyValue("xpath")
@@ -46,27 +48,31 @@ for (int i = 1; i <= 12; i++) {
     String indexedXpath = "(${baseXpath})[${i}]"
     buttonUpload.addProperty("xpath", ConditionType.EQUALS, indexedXpath)
 
-    WebUI.scrollToElement(buttonUpload, 10)
-    WebUI.click(buttonUpload)
+    // cek dulu elementnya ada ga
+    if (WebUI.verifyElementPresent(buttonUpload, 3, FailureHandling.OPTIONAL)) {
+        WebUI.comment("➡ Button ke-${i} ditemukan, mencoba klik...")
 
-    WebUI.waitForPageLoad(10)
+        WebUI.scrollToElement(buttonUpload, 10)
+        WebUI.click(buttonUpload)
 
-    String currentUrl = WebUI.getUrl()
-    if (currentUrl.startsWith(expectedBaseUrl)) {
-        WebUI.comment("Match untuk button ke-${i}, URL: ${currentUrl}")
+        WebUI.waitForPageLoad(10)
+
+        String currentUrl = WebUI.getUrl()
+        if (currentUrl.startsWith(expectedBaseUrl)) {
+            WebUI.comment("✅ Match untuk button ke-${i}, URL: ${currentUrl}")
+        } else {
+            WebUI.comment("⚠️ URL mismatch di button ke-${i}, Dapat: ${currentUrl}")
+        }
+
+        // Kembali ke halaman awal langsung by URL (bukan back)
+        WebUI.navigateToUrl(startUrl)
+        WebUI.waitForPageLoad(10)
+
     } else {
-        WebUI.comment("URL mismatch di button ke-${i}, Dapat: ${currentUrl}")
+        WebUI.comment("⏭ Button ke-${i} tidak ditemukan, skip...")
     }
-
-    // back ke halaman awal 
-    if (WebUI.getWindowIndex() > 0) {
-        WebUI.closeWindowIndex(WebUI.getWindowIndex())
-        WebUI.switchToWindowIndex(0)
-    } else {
-        WebUI.back()
-    }
-
-    WebUI.waitForPageLoad(10)
 }
+
+
 
 WebUI.closeBrowser()

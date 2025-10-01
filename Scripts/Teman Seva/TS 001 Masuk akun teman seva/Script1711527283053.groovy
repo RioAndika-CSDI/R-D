@@ -19,70 +19,76 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import click_Helper.ClickHelper as ClickHelper
 
-WebUI.openBrowser('seva.id')
+// Buka browser
+WebUI.openBrowser('')
 
-JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+WebUI.navigateToUrl('https://seva.id')
 
-jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
+// Hapus popup iframe Moe
+WebUI.executeJavaScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) { iframe.remove(); }\n', 
+    null)
+
+// Klik menu mobil baru
+ClickHelper.safeClick(findTestObject('dealer page/sub menu mobil baru'))
+
+// Klik tombol terima cookies
+ClickHelper.safeClick(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
+// Klik burger menu lainnya
+ClickHelper.safeClick(findTestObject('Homepage - Burger menu/lainnya'))
+
+// Klik Teman Seva
+ClickHelper.safeClick(findTestObject('Homepage - Burger menu/Teman seva'))
+
+// Klik carousel Teman Seva
+ClickHelper.safeClick(findTestObject('Page - Teman seva/Carousel teman seva 1'))
+
+// Tutup popup kalau ada
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
+
+// Klik lagi carousel Teman Seva
+ClickHelper.safeClick(findTestObject('Page - Teman seva/Carousel teman seva 1'))
+
+// Checklist setuju
+ClickHelper.safeClick(findTestObject('Page - Teman seva/Checbox setuju bergabung TS'))
+
+//TestObject checkbox = findTestObject('Page - Teman seva/Checbox setuju bergabung TS')
+//WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(checkbox, 10)))
+
+//WebUI.executeJavaScript('\n  var el = document.evaluate(\n    \'//div[contains(@class,"swiper-slide-active")]//div[@role="tab" and contains(@class,"temanSevaOnboarding_boxWrapper")]\',\n    document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null\n  ).singleNodeValue;\n  if (el) el.click();\n', null)
+// Klik button masuk Teman Seva
+ClickHelper.safeClick(findTestObject('Page - Teman seva/button masuk teman seva'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+// Klik button masuk popup
+WebUI.waitForElementPresent(findTestObject('Page - Teman seva/button masuk popup'), 10)
 
-WebUI.click(findTestObject('Homepage - Burger menu/lainnya'))
+ClickHelper.safeClick(findTestObject('Page - Teman seva/button masuk popup'))
 
-//WebUI.openBrowser('https://www.seva.id/')
-//
-//WebUI.maximizeWindow()
-//
-//WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-//
-//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-//
-//CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-//
-//CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-//
-//WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-WebUI.click(findTestObject('Homepage - Burger menu/Teman seva'))
-
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-WebUI.click(findTestObject('Page - Teman seva/Carousel teman seva 1'))
-
-TestObject checkbox = findTestObject('Page - Teman seva/Checbox setuju bergabung TS')
-
-WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(checkbox, 10)))
-
-TestObject button = findTestObject('Page - Teman seva/button masuk teman seva')
-
-WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(button, 10)))
-
-WebUI.click(findTestObject('Page - Teman seva/button masuk popup'))
-
+// Input nomor HP
+WebUI.waitForElementPresent(findTestObject('Page - Teman seva/Field input phone number'), 10)
+ClickHelper.safeClick(findTestObject('Page - Teman seva/Field input phone number'))
 WebUI.setText(findTestObject('Page - Teman seva/Field input phone number'), Phone_number)
 
-WebUI.click(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+// Klik lanjutkan daftar
+WebUI.waitForElementPresent(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'), 10)
+ClickHelper.safeClick(findTestObject('Page - Teman seva/button lanjutkan daftar teman seva'))
+WebUI.delay(20)
 
-WebUI.waitForElementPresent(findTestObject('Login Register Component/Input_OTP'), 20)
-
-WebUI.click(findTestObject('Login Register Component/Input_OTP'))
-
+// Tunggu input OTP muncul
+//WebUI.waitForElementPresent(findTestObject('Login Register Component/Input_OTP'), 20)
+ClickHelper.safeClick(findTestObject('Login Register Component/Input_OTP'))
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+WebUI.delay(10)
 
-boolean cek = true
-
-cek = CustomKeywords.'ignore_warning_optional.ignore_warning.waitingIgnoreWarning'(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 
-    10)
-
-WebUI.waitForElementVisible(findTestObject('Page - Teman seva/validasi berhasil masuk teman seva'), 20)
-
-
-
-
+// Ambil URL saat ini
+String currentUrl = WebUI.getUrl()
+WebUI.verifyMatch(currentUrl, 'https://www.seva.id/teman-seva/dashboard', false)
 

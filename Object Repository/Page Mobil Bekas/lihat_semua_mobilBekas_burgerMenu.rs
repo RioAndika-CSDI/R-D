@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>maximumHarga_error</name>
+   <name>lihat_semua_mobilBekas_burgerMenu</name>
    <tag></tag>
-   <elementGuidId>132ae511-fd11-4d66-9dd0-4ce68ec6f216</elementGuidId>
+   <elementGuidId>296e725b-57d0-4357-a928-bb2e74ecd44b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'formPrice_errorText') and (text() = 'Harga yang kamu masukkan terlalu tinggi' or . = 'Harga yang kamu masukkan terlalu tinggi')]</value>
+         <value>(//*[starts-with(@class, 'menuItem_submenu') and (text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>formPrice_errorText</value>
-      <webElementGuid>4c4679ab-bbf5-4702-ab7f-73ec0e20e9be</webElementGuid>
+      <value>menuItem_submenu</value>
+      <webElementGuid>f2b301a1-1425-497b-8c71-ad033d08b2f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>span</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Harga harus lebih besar dari harga minimum</value>
-      <webElementGuid>c5d92166-1151-49b1-b3e2-b4f662d93b89</webElementGuid>
+      <value>Lihat Semua Mobil</value>
+      <webElementGuid>02430996-0621-4983-b82a-d85b887d812d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>Harga yang kamu masukkan terlalu tinggi</value>
-      <webElementGuid>1ce208d9-4385-4e36-b9f9-fb925eadaea4</webElementGuid>
+      <value>(//*[starts-with(@class, 'menuItem_submenu') and (text() = 'Lihat Semua Mobil' or . = 'Lihat Semua Mobil')])[2]</value>
+      <webElementGuid>3f4c31f2-0511-481c-b0a9-f87fbe770d5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
