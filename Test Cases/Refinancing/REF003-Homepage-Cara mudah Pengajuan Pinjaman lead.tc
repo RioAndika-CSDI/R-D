@@ -4,6 +4,7 @@
    <name>REF003-Homepage-Cara mudah Pengajuan Pinjaman lead</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>61e2a29a-797f-41c3-afbe-a4944e38ed05</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -186,7 +186,7 @@ WebUI.waitForPageLoad(10)
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Refinancing/API local storage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Refinancing/API local storage'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 
