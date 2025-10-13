@@ -28,7 +28,7 @@ if (open_browser.toString().equals('1')) {
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 WebUI.delay(10)
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/menu_mobilBekas_burgerMenu'))

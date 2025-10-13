@@ -23,7 +23,7 @@ WebUI.openBrowser('https://seva-next-828696580488.asia-southeast2.run.app/')
 
 WebUI.setViewPortSize(570, 912)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(15)
 

@@ -10,11 +10,16 @@
          <value>//div[@id='pdp-upper-content']/div[2]/div/div[2]/button</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Cari Mobil Baru' or . = 'Cari Mobil Baru')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.searchWidget_buttonWrapper__smcas > button.button_primaryDarkBlue__SJzXm.button_big__H6cBN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>89af4054-343f-42ed-ab95-35918cb474a6</webElementGuid>
+      <webElementGuid>d43662e5-308b-4585-8e8b-22ee26f7de89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__SJzXm button_big__H6cBN undefined</value>
-      <webElementGuid>be1618ea-3f62-4d02-a376-2ab2d390e965</webElementGuid>
+      <webElementGuid>a74f07a5-5ee5-4662-9739-48513661d6f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-cari-mobil</value>
-      <webElementGuid>033761df-20fe-428e-8569-931b15f1da71</webElementGuid>
+      <webElementGuid>2c245625-4547-4571-8138-44ea406d6a04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil Baru</value>
-      <webElementGuid>5fac167a-a38c-4020-a693-0ec01d5ea762</webElementGuid>
+      <webElementGuid>e3698e36-ecc4-4a10-b388-e3370333c6af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__SiBmi&quot;]/div[@class=&quot;searchWidget_container__nJgb2&quot;]/div[@class=&quot;searchWidget_buttonWrapper__smcas&quot;]/button[@class=&quot;button_primaryDarkBlue__SJzXm button_big__H6cBN undefined&quot;]</value>
-      <webElementGuid>0879c7b1-b297-439e-b949-f87600079ffb</webElementGuid>
+      <webElementGuid>90270bb0-8500-421d-8067-abc0f20724e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pdp-upper-content']/div[2]/div/div[2]/button</value>
-      <webElementGuid>f296947a-dcfa-4da3-bb3b-66317faf3739</webElementGuid>
+      <webElementGuid>ff3cfe30-8af3-40af-8e70-463d0ff3ff23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Kategori Umur'])[1]/following::button[1]</value>
-      <webElementGuid>177fdc35-c95d-4f5e-b27d-d9df270b39a7</webElementGuid>
+      <webElementGuid>ff92a16b-638e-4822-ab26-698d39cfaea9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Umur'])[1]/following::button[1]</value>
-      <webElementGuid>798e3684-757a-4380-a7fe-c0cfa754ce5f</webElementGuid>
+      <webElementGuid>38143b94-01cb-4063-96a1-b149885dbba1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo Eksklusif'])[1]/preceding::button[1]</value>
-      <webElementGuid>e26db1bd-1ac5-43e0-a7fc-7defb13a5c94</webElementGuid>
+      <webElementGuid>3bb94549-97ca-4fe8-8ace-176760e90e1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat semua'])[1]/preceding::button[1]</value>
-      <webElementGuid>749e86ae-ce5e-4752-8770-4741b6429011</webElementGuid>
+      <webElementGuid>6f3ba480-890d-4cf3-b461-713adf3dd607</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>0f16335d-59ff-44cb-92e9-2d0df26c0bbe</webElementGuid>
+      <webElementGuid>6771142e-f384-4842-ab53-dd312684fc33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Cari Mobil Baru' or . = 'Cari Mobil Baru')]</value>
-      <webElementGuid>fdceec13-bb9f-480a-ab97-43d2c5444191</webElementGuid>
+      <webElementGuid>7fc2c420-78cd-4ca9-b454-711ceb711ef1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

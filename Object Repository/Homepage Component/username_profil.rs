@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Profile</name>
+   <name>username_profil</name>
    <tag></tag>
-   <elementGuidId>63f24d2c-ed4a-46ce-8985-a4ad9d4120f8</elementGuidId>
+   <elementGuidId>ca652374-cca3-45fd-9cd2-9b5eb1a81e03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'avatar_avatar')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[starts-with(@class, 'sidebarMobile_profileName')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>avatar_avatar</value>
-      <webElementGuid>f10251c7-348a-4a33-9d41-dc6a262cf5db</webElementGuid>
+      <value>sidebarMobile_profileName</value>
+      <webElementGuid>0f4b48b6-25a6-430c-beed-fb3bf90e8615</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
