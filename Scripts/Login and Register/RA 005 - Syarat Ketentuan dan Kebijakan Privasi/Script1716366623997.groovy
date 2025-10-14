@@ -21,7 +21,7 @@ WebUI.openBrowser('https://www.seva.id/')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 5)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 

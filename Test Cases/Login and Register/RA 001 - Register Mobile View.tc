@@ -6,6 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bf94bc95-db9e-4195-845c-174a0acb2634</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8be0248-7751-4ebb-ab5e-94addd073df3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80afa157-a215-49cd-9520-3b15630c4581</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9a7750a-eeb6-4b2a-a936-20c447879d5f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c960610-2095-4bcb-8ca5-b59a5e158cc7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'816335371'</defaultValue>
       <description></description>

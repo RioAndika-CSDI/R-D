@@ -4,6 +4,7 @@
    <name>TS 003 Lihat daftar teman seva</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>682efbea-16f8-4c37-b8d9-62aaf3491f58</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
