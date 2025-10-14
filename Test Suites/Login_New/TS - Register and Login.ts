@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1817a29e-655d-46cd-b96a-c5498e1d61c2</testSuiteGuid>
    <testCaseLink>
-      <guid>0b5f59d8-5977-41cc-8885-e10a4c21c17d</guid>
+      <guid>4406180d-edb2-4e08-9e7f-aede4f839279</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/LR001-TC-Login</testCaseId>
@@ -49,7 +49,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ed6b8656-c033-489b-865a-7f1f1becf16d</guid>
+      <guid>cdd7f824-42b8-4b0b-9c3a-47ab03f6b92a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/LR002-TC-FailValidateOTP</testCaseId>
@@ -80,7 +80,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>318e36f7-3718-416a-982b-8b9dc0edc90e</guid>
+      <guid>47b59221-4cde-4e3b-a625-25f33dacdd25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/LR003-TC-Fail Input</testCaseId>
@@ -123,7 +123,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b301b9cd-f766-4e76-b7f8-14bbf4b7cc9c</guid>
+      <guid>f56098a8-65fe-466d-a0fd-f47d2c45ba12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/RA 001 - Register Mobile View</testCaseId>
@@ -154,7 +154,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f962d1dc-1f13-46e1-833f-47507db491ed</guid>
+      <guid>db745856-6e46-4fa7-bd66-b96bc5e3242c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/RA 002 - Register dan delete</testCaseId>
@@ -215,7 +215,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>13bc6499-aeb4-41ff-89bc-84802f6804d7</guid>
+      <guid>1454b655-ef47-4820-b3a0-f12f78457d5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/RA 003 - Register Negative Case Null Input</testCaseId>
@@ -258,7 +258,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b4cf483-75e4-4d7b-ab7f-4e4c41d29494</guid>
+      <guid>12c643ff-3ebe-4baa-875b-b10d9f5b74c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/RA 004 - Register Negative Input Email dan Reverral</testCaseId>
@@ -307,7 +307,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a68a449-c98d-4e9a-a939-fd2f7654154d</guid>
+      <guid>6b1b8f12-2725-4bd8-846a-9128fd35ef25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Register/RA 005 - Syarat Ketentuan dan Kebijakan Privasi</testCaseId>

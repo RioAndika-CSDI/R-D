@@ -27,6 +27,8 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.executeJavaScript('window.scrollTo(0, 0)', [])
 
+WebUI.delay(10)
+
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
@@ -59,5 +61,5 @@ WebUI.delay(5)
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage Component/username_profil'), 10)
+WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
 
