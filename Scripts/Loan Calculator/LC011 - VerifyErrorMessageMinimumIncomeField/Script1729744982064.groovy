@@ -33,7 +33,7 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 'Click Moengage Ads\r\n'
 WebUI.delay(5)

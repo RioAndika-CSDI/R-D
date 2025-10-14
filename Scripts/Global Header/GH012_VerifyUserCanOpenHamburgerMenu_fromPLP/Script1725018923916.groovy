@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 

@@ -29,7 +29,7 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.verifyElementVisible(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/label_Produk SEVA'))
 

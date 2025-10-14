@@ -4,19 +4,8 @@
    <name>RA 005 - Syarat Ketentuan dan Kebijakan Privasi</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6b81b99b-30ec-441c-9587-d43150891e23</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>12f16fdc-7641-45a3-8191-5dc4d6ea6225</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5ce6c12c-c9aa-4a1a-88fb-8750a11fc273</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'816335375'</defaultValue>
       <description></description>

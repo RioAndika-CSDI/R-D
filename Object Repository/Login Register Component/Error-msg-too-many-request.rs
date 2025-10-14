@@ -7,25 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'toast_textToast') and (text() = 'Kamu sudah meminta OTP. Mohon tunggu beberapa saat sebelum meminta OTP baru.' or . = 'Kamu sudah meminta OTP. Mohon tunggu beberapa saat sebelum meminta OTP baru.')]</value>
+         <value>//*[starts-with(@class, 'otpV2_subTitleText') and (text() = 'Terlalu banyak percobaan OTP.' or . = 'Terlalu banyak percobaan OTP.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>toast_textToast</value>
-      <webElementGuid>930ef156-59f5-4575-8954-78f2b13f3f1d</webElementGuid>
+      <value>otpV2_subTitleText</value>
+      <webElementGuid>76b54992-d1a2-4dc6-a8a5-19f7430199e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kamu sudah meminta OTP. Mohon tunggu beberapa saat sebelum meminta OTP baru.</value>
-      <webElementGuid>91c772ff-4f2b-428b-aac7-a0d9b73156f6</webElementGuid>
+      <value>Terlalu banyak percobaan OTP.</value>
+      <webElementGuid>94f8533c-e971-48c1-a5c8-c9a605e5313d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

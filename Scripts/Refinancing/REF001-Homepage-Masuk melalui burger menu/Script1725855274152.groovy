@@ -44,9 +44,9 @@ JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecu
 
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
 WebUI.takeScreenshot()
-WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
 WebUI.delay(20)
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
