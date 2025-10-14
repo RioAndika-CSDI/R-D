@@ -21,6 +21,8 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
@@ -38,7 +40,6 @@ WebUI.delay(10)
 WebUI.switchToWindowIndex(1)
 
 //WebUI.switchToWindowTitle('Tentang Kami - SEVA')
-
 WebUI.delay(15)
 
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'), 0)

@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser(GlobalVariable.Prod)
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://www.seva.id/')
 
 WebUI.maximizeWindow()
 
