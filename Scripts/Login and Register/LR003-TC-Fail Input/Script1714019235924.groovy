@@ -23,27 +23,13 @@ if (open_browser.toString().equals('1')) {
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
-WebUI.delay(10)
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+WebUI.executeJavaScript('window.scrollTo(0, 0)', [])
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
-'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
-
-'Click Moengage Ads\r\n'
-WebUI.delay(1)
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-
-'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
+WebUI.enhancedClick(findTestObject('Homepage Component/button_Masuk  Register'))
 
 String[] awalan = Awalan_nomorHP.toString().split(';')
 

@@ -31,12 +31,18 @@ if (open_browser.toString() == '1') {
 //  CLOSE POPUP SEBELUM MULAI
 boolean popupBefore = CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
+<<<<<<< HEAD
 WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
 
 WebUI.takeScreenshot()
 
 WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
 
+=======
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
+WebUI.takeScreenshot()
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
+>>>>>>> 25a6dcb348291db1f6ec29c46282ada79afc256f
 WebUI.delay(20)
 
 if (popupBefore) {

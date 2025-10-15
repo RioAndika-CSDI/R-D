@@ -54,9 +54,9 @@ jsbefore.executeScript("""
         iframe.remove();
     }
 """)
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
 WebUI.takeScreenshot()
-WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
 WebUI.delay(20)
 
 

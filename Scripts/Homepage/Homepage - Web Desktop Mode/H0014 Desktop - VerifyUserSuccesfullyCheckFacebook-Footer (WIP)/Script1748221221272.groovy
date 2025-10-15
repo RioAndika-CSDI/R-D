@@ -22,7 +22,7 @@ WebUI.openBrowser(GlobalVariable.Prod)
 
 WebUI.maximizeWindow()
 
-WebUI.delay(10)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 

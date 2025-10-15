@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checklist delete account</name>
+   <name>button_OTP_Fail</name>
    <tag></tag>
-   <elementGuidId>4c90a964-144b-48c2-b32c-5501c47e8420</elementGuidId>
+   <elementGuidId>048cf40a-2556-4240-905f-fd895ab4cfdb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'delete-account_iconWrapper')]</value>
+         <value>//*[starts-with(@class, 'button_primaryDarkBlue') and (text() = 'Verifikasi' or . = 'Verifikasi')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,15 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>delete-account_iconWrapper</value>
-      <webElementGuid>041a2342-eccc-4d68-88a6-cd741298bde0</webElementGuid>
+      <value>button_primaryDarkBlue</value>
+      <webElementGuid>7d8b8190-81fe-44de-8f3b-b3535bd9dd0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>text</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>e9899182-6ee0-44fe-b9b3-52ab6d3371c3</webElementGuid>
+      <value>Verifikasi</value>
+      <webElementGuid>33cf702b-5aca-4724-93da-336970b43fea</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

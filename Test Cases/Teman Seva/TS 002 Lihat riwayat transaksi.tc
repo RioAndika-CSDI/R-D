@@ -4,6 +4,7 @@
    <name>TS 002 Lihat riwayat transaksi</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9df59270-fd1f-4ddd-bca2-bf17f7ff5935</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

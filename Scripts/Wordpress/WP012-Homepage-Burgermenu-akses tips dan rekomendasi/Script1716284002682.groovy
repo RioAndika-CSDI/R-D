@@ -22,7 +22,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/button_Nanti Saja atas'))
 

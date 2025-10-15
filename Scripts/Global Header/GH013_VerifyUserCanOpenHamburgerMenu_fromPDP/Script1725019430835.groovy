@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Te
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 

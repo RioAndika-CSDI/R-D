@@ -46,10 +46,15 @@ if (open_browser.toString().equals('1')) {
 
 
 
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 30)
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
 WebUI.takeScreenshot()
+<<<<<<< HEAD
 WebUI.enhancedClick(findTestObject('Homepage Component/Burger_Button_Baru'))
 WebUI.delay(10)
+=======
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
+WebUI.delay(20)
+>>>>>>> 25a6dcb348291db1f6ec29c46282ada79afc256f
 
 
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()

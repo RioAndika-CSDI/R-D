@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Profile</name>
+   <name>Rekomendasi</name>
    <tag></tag>
-   <elementGuidId>63f24d2c-ed4a-46ce-8985-a4ad9d4120f8</elementGuidId>
+   <elementGuidId>c9936528-412e-45f6-af1a-ea15d5506147</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[starts-with(@class, 'avatar_avatar')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,10 +19,10 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>avatar_avatar</value>
-      <webElementGuid>f10251c7-348a-4a33-9d41-dc6a262cf5db</webElementGuid>
+      <value>Rekomendasi</value>
+      <webElementGuid>bbce8762-28c8-4f49-8fc1-c5fc21eea72a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
