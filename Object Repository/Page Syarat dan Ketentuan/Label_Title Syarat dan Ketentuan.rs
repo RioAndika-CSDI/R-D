@@ -7,25 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'title1' and (text() = 'SYARAT DAN KETENTUAN SEVA' or . = 'SYARAT DAN KETENTUAN SEVA')]</value>
+         <value>//*[(text() = 'Syarat dan Ketentuan' or . = 'Syarat dan Ketentuan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[normalize-space()='Syarat dan Ketentuan']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>title1</value>
-      <webElementGuid>ccc3ea16-27c4-47fa-b7cd-7a27b4191eb2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>SYARAT DAN KETENTUAN SEVA</value>
-      <webElementGuid>4d6db770-09ec-4f71-b2e7-18b3a3f6f313</webElementGuid>
-   </webElementProperties>
 </WebElementEntity>

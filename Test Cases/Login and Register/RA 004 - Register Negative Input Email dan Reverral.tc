@@ -4,6 +4,7 @@
    <name>RA 004 - Register Negative Input Email dan Reverral</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6f4766a9-3e5d-4a7b-add8-e46a277e3eb0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

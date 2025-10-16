@@ -33,7 +33,7 @@ String[] os = systemos.split(' ')
 WebUI.comment(os[0])
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 WebUI.delay(5)
 

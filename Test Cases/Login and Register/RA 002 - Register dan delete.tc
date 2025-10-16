@@ -4,6 +4,7 @@
    <name>RA 002 - Register dan delete</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>32122bf5-dafd-48ca-bec6-8ff3faa7aeed</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

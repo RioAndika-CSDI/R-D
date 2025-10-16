@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OTP_Fail</name>
+   <name>kecamatan</name>
    <tag></tag>
-   <elementGuidId>048cf40a-2556-4240-905f-fd895ab4cfdb</elementGuidId>
+   <elementGuidId>f4fe0e33-07a6-4b68-91f0-42dc11807082</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'otpV2_otpError')]</value>
+         <value>//*[starts-with(@class, 'inputSelect_dropdownItemRefinancingCity')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>otpV2_otpError</value>
-      <webElementGuid>29866dc7-bdbd-4009-ade2-71d221a094e5</webElementGuid>
+      <value>inputSelect_dropdownItemRefinancingCity</value>
+      <webElementGuid>eb572ae1-8192-4682-988c-e93833a336f4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

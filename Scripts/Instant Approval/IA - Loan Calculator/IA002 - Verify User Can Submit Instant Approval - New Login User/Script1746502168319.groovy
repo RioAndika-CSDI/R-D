@@ -39,7 +39,7 @@ String[] os = systemos.split(' ')
 WebUI.comment(os[0])
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 WebUI.delay(5)
 
@@ -451,7 +451,7 @@ if (currentUrl_IAprocess == IAprocess_url) {
 WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/IA process page - title'), 15, FailureHandling.OPTIONAL)
 
 '=== DELETE ACCOUNT - REUSABLE NUMBER ==='
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(5)
 
@@ -483,7 +483,7 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/button ya hapus akun
 WebUI.delay(40)
 
 '=== REGISTER - REUSABLE NUMBER ==='
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(5)
 

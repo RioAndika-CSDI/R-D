@@ -4,6 +4,7 @@
    <name>RA 005 - Syarat Ketentuan dan Kebijakan Privasi</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6b81b99b-30ec-441c-9587-d43150891e23</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

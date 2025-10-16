@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'datepicker_input')]</value>
+         <value>//button[normalize-space()='DD/MM/YYYY'][count(. | //*[starts-with(@class, 'datepicker_input')]) = count(//*[starts-with(@class, 'datepicker_input')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,14 @@
       <name>class</name>
       <type>Main</type>
       <value>datepicker_input</value>
-      <webElementGuid>e5b47248-462e-4e5b-bdbd-fe5524810790</webElementGuid>
+      <webElementGuid>7b34ed69-f5e9-455f-a650-a3448567bce8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[normalize-space()='DD/MM/YYYY']</value>
+      <webElementGuid>95a6dac0-75cf-4fc3-957a-c1551d0041f7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

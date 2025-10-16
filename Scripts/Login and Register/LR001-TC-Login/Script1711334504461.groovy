@@ -21,100 +21,65 @@ if (open_browser.toString().equals('1')) {
     WebUI.openBrowser(GlobalVariable.Prod)
 }
 
-
 if (viewport == 'desktop') {
-	
-	WebUI.maximizeWindow()
-	
-	WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
-	
-	CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-	
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-	
-	CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-	
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-	
-	if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
-		5, FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-	}
-	
-	WebUI.click(findTestObject('Object Repository/Homepage Component/desktop view - button login register'))
-	
-	WebUI.delay(5)
-	
-	WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
-	
-	WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
-	
-	WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
-	
-	WebUI.waitForElementPresent(findTestObject('Object Repository/Homepage Component/desktop view - avatar'), 120)
-	
-	WebUI.click(findTestObject('Object Repository/Homepage Component/desktop view - avatar'))
-	
-	WebUI.click(findTestObject('Object Repository/Homepage Component/desktop view - popUpAccount_profileName'))
-	
-	WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
-	
-} else {
-	
-	WebUI.setViewPortSize(570, 912)
-	
-	WebUI.scrollToElement(findTestObject('Homepage Component/Button Cari Mobil Baru'), 0)
-	
-	CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-	
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-	
-	CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-	
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-	
-	
-	'Click Burger Menu'
-	WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
-	
-	'Click Moengage Ads\r\n'
-	WebUI.delay(1)
-	
-	'Click Burger Menu'
-	WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-	
-	if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
-		5, FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-	}
-		
-	WebUI.delay(5)
-	
-	'Click Burger Menu'
-	WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
-	
-	WebUI.delay(5)
-	
-	WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
-	
-	WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
-	
-	WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
-	
-	WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
-	
-	WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
-	
-	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-	
-	WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
-}
+    WebUI.maximizeWindow()
 
-if (close_browser.toString().equals('1')) {
-    WebUI.closeBrowser()
+    WebUI.scrollToElement(findTestObject('Login Register Component/Rekomendasi'), 0)
+
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
+    WebUI.executeJavaScript('window.scrollTo(0, 0)', [])
+
+    WebUI.enhancedClick(findTestObject('Homepage Component/button_Masuk  Register'))
+
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+
+    WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+
+    WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
+
+    WebUI.waitForElementPresent(findTestObject('Object Repository/Homepage Component/desktop view - avatar'), 30)
+
+    WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
+} else {
+    WebUI.setViewPortSize(500, 736)
+
+    WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 0)
+
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+
+    WebUI.executeJavaScript('window.scrollTo(0, 0)', [])
+
+    WebUI.delay(10)
+
+    'Click Burger Menu'
+    WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
+
+    WebUI.delay(10)
+
+    'Click Burger Menu'
+    WebUI.enhancedClick(findTestObject('Homepage Component/button_Masuk  Register'))
+
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+
+    WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+
+    WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
+
+    WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
+
+    WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
+
+    String currentUrl = WebUI.getUrl()
+
+    WebUI.verifyMatch(currentUrl, 'https://www.seva.id/', false)
 }
 

@@ -4,6 +4,7 @@
    <name>LR003-TC-Fail Input</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b065f54a-a428-4f27-a136-0a6a363436d1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

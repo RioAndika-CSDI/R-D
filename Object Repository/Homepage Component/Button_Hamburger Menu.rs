@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Burger_Button_Baru</name>
+   <name>Button_Hamburger Menu</name>
    <tag></tag>
    <elementGuidId>cc5822e8-5eba-4eb6-896b-1b2555108cb9</elementGuidId>
    <selectorCollection>
@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
