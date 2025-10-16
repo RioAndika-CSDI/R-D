@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Pag
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
+WebUI.delay(10)
+
 WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'BMW']), 0)
 
 WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'BMW']), 0)
