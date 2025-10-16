@@ -4,6 +4,7 @@
    <name>IA009 - Verify User Can Click Lihat Detail Mobil on IA Review</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>159ac2fa-371b-451c-8986-ff0a478abda4</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

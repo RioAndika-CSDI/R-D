@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580001', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -335,6 +335,8 @@ WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/IA St
 WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-ia'), 0)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/lihat-detail-ia-review'))
+
+WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/ia-detail-mobil-pop-up'), 10)
 

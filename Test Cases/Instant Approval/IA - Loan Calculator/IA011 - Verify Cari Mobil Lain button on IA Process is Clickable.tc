@@ -4,6 +4,7 @@
    <name>IA011 - Verify Cari Mobil Lain button on IA Process is Clickable</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a358dd90-0120-4a99-a561-f02ffbd97d00</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

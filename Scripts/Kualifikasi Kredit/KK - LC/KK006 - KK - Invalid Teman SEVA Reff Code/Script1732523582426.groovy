@@ -21,6 +21,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calculator'), [('open_browser') : '1', ('kota') : 'Bandung'
         , ('car_name') : 'Toyota All New Agya', ('jenis_bayar') : 'ADDM'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))

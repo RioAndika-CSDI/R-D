@@ -19,6 +19,13 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.interactions.Actions
+
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580001', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -327,14 +334,43 @@ if (currentUrl_IAreview == IAreview_url) {
 
 WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/IA Step - Konfirmasi Data'), 0, FailureHandling.OPTIONAL)
 
+WebUI.delay(5)
+
 WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-ia'), 0)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-ia'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+// Maksimalkan jendela agar elemen terlihat
+WebUI.maximizeWindow()
+WebUI.delay(3)
 
+// Temukan elemen checkbox
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
+// Ambil posisi dan ukuran elemen
+int x = checkbox.getLocation().getX()
+int y = checkbox.getLocation().getY()
+int width = checkbox.getSize().getWidth()
+int height = checkbox.getSize().getHeight()
+
+// Klik di tengah elemen (biar aman)
+int clickX = x + (width / 2)
+int clickY = y + (height / 2)
+
+WebDriver driver = DriverFactory.getWebDriver()
+Actions actions = new Actions(driver)
+
+// Klik berdasarkan posisi layar
+actions.moveByOffset(clickX, clickY).click().perform()
+
+// Balikkan posisi mouse supaya tidak ganggu klik berikutnya
+actions.moveByOffset(-clickX, -clickY).perform()
+
+println("✅ Klik checkbox berhasil berdasarkan posisi layar (X:${clickX}, Y:${clickY})")
+
+WebUI.delay(3)
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 
 WebUI.delay(20)

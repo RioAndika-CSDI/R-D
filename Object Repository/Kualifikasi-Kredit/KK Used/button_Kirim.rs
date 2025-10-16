@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Lihat Detail Mobil - kk review</name>
+   <name>button_Kirim</name>
    <tag></tag>
-   <elementGuidId>59c1fec5-ac45-4eec-bc0d-c7a5cbb2c758</elementGuidId>
+   <elementGuidId>2cb06141-c11e-4233-8ad3-8a56398fffb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
+         <key>BASIC</key>
+         <value>//button[normalize-space()='Kirim'][count(. | //*[(text() = 'Kirim' or . = 'Kirim')]) = count(//*[(text() = 'Kirim' or . = 'Kirim')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>p.kualifikasi-kredit-review_textDetail__QO7rr</value>
+         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@class='kualifikasi-kredit-review_textDetail__QO7rr'][count(. | //*[@class = 'kualifikasi-kredit-review_textDetail__QO7rr' and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]) = count(//*[@class = 'kualifikasi-kredit-review_textDetail__QO7rr' and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')])]</value>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Kirim']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,95 +26,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>e691f626-1ee5-4c23-9074-6fb0d077301c</webElementGuid>
+      <value>button</value>
+      <webElementGuid>07cbfe82-2343-4b0c-91a3-d3ed50b1e1c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>kualifikasi-kredit-review_textDetail__QO7rr</value>
-      <webElementGuid>cde03b26-d97b-4728-9892-ba156664fe03</webElementGuid>
+      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
+      <webElementGuid>017ba5b3-d410-4509-9517-d2d1e0aeab62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Lihat Detail Mobil</value>
-      <webElementGuid>c779dd0a-59e3-4b00-8ba5-9f96c0c7339c</webElementGuid>
+      <value>Kirim</value>
+      <webElementGuid>5bb8dcbb-d916-4f8c-ba96-714a0a16537b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class='kualifikasi-kredit-review_textDetail__QO7rr']</value>
-      <webElementGuid>a4af3ed8-2a06-49b8-9409-f878cadab733</webElementGuid>
+      <value>//button[normalize-space()='Kirim']</value>
+      <webElementGuid>edb9c412-0192-4158-9447-90541e503c65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
-      <webElementGuid>07896896-84c6-445c-80a1-4cb3a8a3f304</webElementGuid>
+      <value>//div[@id='__next']/div/div[3]/div[7]/button</value>
+      <webElementGuid>7c09af76-bf8c-4150-aac2-c6bf060908d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::p[6]</value>
-      <webElementGuid>5a056cd6-1d0e-4a7e-b0c4-64f636051183</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/following::button[1]</value>
+      <webElementGuid>88a46569-0002-4be2-a3b9-36dfac331bf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::p[6]</value>
-      <webElementGuid>82ea49d9-00b3-4daf-bac3-5019e53873ed</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::button[1]</value>
+      <webElementGuid>508b784c-b235-45d8-8bf4-dfa8c9b2e5ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/preceding::p[1]</value>
-      <webElementGuid>996aeaa1-ad0e-4860-85a4-d73c9c9aca7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>38058a0e-19a6-499d-8a9c-ef4b9f841e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[2]</value>
-      <webElementGuid>ebc691f9-7c90-42fb-bec0-fc8ae52a05f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>0768fe7d-162c-44d1-ae8e-b69a21ec4ed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Lihat Detail Mobil']/parent::*</value>
-      <webElementGuid>123fe6d6-e7dc-4dda-8f53-5074fb8db1ce</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
+      <webElementGuid>4b95e85a-540c-4274-88ad-f752179251b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/p</value>
-      <webElementGuid>14a70b68-e9a4-4ad5-832c-f2f91d90efa8</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>557c112a-3ba4-4f2a-884f-17157db60f09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]</value>
-      <webElementGuid>05cf0fc2-01d9-48d9-aa3e-8eff842ab1bb</webElementGuid>
+      <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
+      <webElementGuid>8de0399e-7f22-47f1-85b8-d0e327b6866f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

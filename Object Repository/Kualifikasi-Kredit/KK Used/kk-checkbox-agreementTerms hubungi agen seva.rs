@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>kk-checkbox-agreementTerms</name>
+   <name>kk-checkbox-agreementTerms hubungi agen seva</name>
    <tag></tag>
-   <elementGuidId>b8074ada-e07f-413a-965e-0c85ba13bff5</elementGuidId>
+   <elementGuidId>824b3005-e467-41e6-994b-9373a1fb319b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='kualifikasi-kredit-review_agreementSection__7O65u false']//div[@class='agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE false false']//button//*[name()='svg']//*[name()='rect']</value>
+         <value>//div[@class='agreement_agreementTerms_kLT2Y agreement_primary_Ti2TE false false']//button//[name()='svg']//[name()='rect']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

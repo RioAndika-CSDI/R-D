@@ -7,25 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Cari Mobil Lain' or . = 'Cari Mobil Lain') and starts-with(@class, 'button_secondary')]</value>
+         <value>(//button[@class='button_secondary___MM2b button_big__WTbQS kk-waiting-result_cariMobil__SDqBw'][normalize-space()='Cari Mobil Lain'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil Lain</value>
-      <webElementGuid>2221a631-1e0c-4cfd-9a1e-8778b74ea9fd</webElementGuid>
+      <webElementGuid>cc718e17-88d0-44a0-91f6-2257f4c92afb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_secondary</value>
-      <webElementGuid>08a8edb7-78c8-4acf-8953-1a9b6e2beee7</webElementGuid>
+      <webElementGuid>0d0f22ca-a20a-4a52-9c98-392be54289ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//button[@class='button_secondary___MM2b button_big__WTbQS kk-waiting-result_cariMobil__SDqBw'][normalize-space()='Cari Mobil Lain'])[1]</value>
+      <webElementGuid>67633e3c-f911-476f-b8ae-cf053ef96f09</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

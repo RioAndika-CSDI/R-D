@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580002', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -94,6 +100,10 @@ WebUI.setText(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input_pendapata
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_list'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'), 0)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
@@ -234,6 +244,8 @@ if (currentUrl_EditKTP == EditKTP_url) {
     WebUI.sendKeys(findTestObject('InstantApproval/InstantApproval/input_Kota_city'), Keys.chord(Keys.BACK_SPACE))
 
     WebUI.setText(findTestObject('InstantApproval/InstantApproval/input_Kota_city'), kota_ktp)
+
+    WebUI.delay(3)
 
     WebUI.click(findTestObject('InstantApproval/InstantApproval/dropdown city edit ktp', [('kota') : kota_ktp]))
 
@@ -387,11 +399,45 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+// Maksimalkan jendela agar elemen terlihat
+WebUI.maximizeWindow()
 
+WebUI.delay(3)
+
+// Temukan elemen checkbox
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 
+    10)
+
+// Ambil posisi dan ukuran elemen
+int x = checkbox.getLocation().getX()
+
+int y = checkbox.getLocation().getY()
+
+int width = checkbox.getSize().getWidth()
+
+int height = checkbox.getSize().getHeight()
+
+// Klik di tengah elemen (biar aman)
+int clickX = x + (width / 2)
+
+int clickY = y + (height / 2)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+Actions actions = new Actions(driver)
+
+// Klik berdasarkan posisi layar
+actions.moveByOffset(clickX, clickY).click().perform()
+
+// Balikkan posisi mouse supaya tidak ganggu klik berikutnya
+actions.moveByOffset(-(clickX), -(clickY)).perform()
+
+println("✅ Klik checkbox berhasil berdasarkan posisi layar (X:$clickX, Y:$clickY)")
+WebUI.delay(3)
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
-
-WebUI.delay(20)
+WebUI.delay(15)
+WebUI.setViewPortSize(570, 912)
+WebUI.delay(5)
 
 '=== IA Process Page ==='
 String currentUrl_IAprocess = WebUI.getUrl()
@@ -434,7 +480,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button ya hapus akun saya'))
 
-WebUI.delay(30)
+WebUI.delay(40)
 
 '=== REGISTER - REUSABLE NUMBER ==='
 WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
