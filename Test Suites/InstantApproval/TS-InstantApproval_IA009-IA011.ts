@@ -340,7 +340,7 @@
    <testCaseLink>
       <guid>70b17c39-a67f-4d0f-a9d6-c7b268eec356</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Instant Approval/IA - Loan Calculator/IA011 - Verify Cari Mobil Lain button on IA Process is Clickable</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

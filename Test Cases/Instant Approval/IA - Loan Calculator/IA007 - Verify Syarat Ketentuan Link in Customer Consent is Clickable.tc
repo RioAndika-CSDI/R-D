@@ -4,6 +4,7 @@
    <name>IA007 - Verify Syarat Ketentuan Link in Customer Consent is Clickable</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6c9576be-cb1b-4e24-a476-e4523e98fd5d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

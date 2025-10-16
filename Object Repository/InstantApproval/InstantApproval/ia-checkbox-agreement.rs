@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ia-checkbox-agreement</name>
+   <tag></tag>
+   <elementGuidId>2cdba0dd-be24-4dda-b556-25c3772b3eed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[name()='rect'])[7]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@x = '0.5' and @y = '0.773438' and @width = '15' and @height = '15']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.instant-approval-review_container__9UeG3 > div.instant-approval-review_agreementSection__xHt99.false > div.agreement_agreementTerms__kLT2Y.agreement_primary__Ti2TE.false.false > button > svg > rect</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>rect</value>
+      <webElementGuid>d3156b73-d65b-4211-b18e-6bc7d0af5820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>0.5</value>
+      <webElementGuid>cc925c88-5f5b-405a-b7f5-530ff314d669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>0.773438</value>
+      <webElementGuid>0a27548f-3fe6-47ce-a2d4-5d230bd5ef97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>15</value>
+      <webElementGuid>18395700-451a-4ffe-994f-dd1ba6ca2db4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>15</value>
+      <webElementGuid>2ac97aac-9afb-4f28-a704-44e09cb83181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rx</name>
+      <type>Main</type>
+      <value>3.5</value>
+      <webElementGuid>beb9ed4b-9a5e-4720-971f-0b85c5868125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>05e806ab-1077-446f-842c-2a29785ee366</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class, 'agreement_agreementTerms')]//button&#xd;
+</value>
+      <webElementGuid>4128197f-c7e9-4cab-a3dc-2f8906cb9f29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>body > div:nth-child(1) > main:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > button:nth-child(1) > svg:nth-child(1) > rect:nth-child(1)</value>
+      <webElementGuid>abc71e0d-1299-45a6-9018-4e0c00f390b0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,18 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'instant-approval-review_textDetail') and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]</value>
+         <value>//div[@class='instant-approval-review_wrapperWithBorderBottom__yJMlZ']//button[@class='instant-approval-review_textDetail__LnNrC'][normalize-space()='Lihat Detail Mobil'][count(. | //*[(text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]) = count(//*[(text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>instant-approval-review_textDetail</value>
-      <webElementGuid>60a55035-105f-445a-81bf-f89f40d6b455</webElementGuid>
+      <webElementGuid>ac8b030d-78c2-42b1-a2d4-0e8c7248c5c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +31,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Detail Mobil</value>
-      <webElementGuid>ef617f83-9e35-4860-a819-fc6f160a7629</webElementGuid>
+      <webElementGuid>2c442462-1864-42f2-a520-f8e7bb83fb71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='instant-approval-review_wrapperWithBorderBottom__yJMlZ']//button[@class='instant-approval-review_textDetail__LnNrC'][normalize-space()='Lihat Detail Mobil']</value>
+      <webElementGuid>b0b06aa3-6e6f-4955-9e49-8bda3263aef9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

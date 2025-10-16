@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, ' agreement_agreementPromoTerms') and contains(@class, 'agreement_primary')]//button//*[name()='svg']//*[name()='rect']</value>
+         <value>//div[@class='agreement_agreementPromoTerms__pL9Wx agreement_primary__Ti2TE']//button//*[name()='svg']//*[name()='rect']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -15,13 +15,14 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class, ' agreement_agreementPromoTerms') and contains(@class, 'agreement_primary')]//button//*[name()='svg']//*[name()='rect']</value>
-      <webElementGuid>48ecbd36-87ab-4f14-b8bd-da8636ca13f8</webElementGuid>
+      <value>//div[@class='agreement_agreementPromoTerms__pL9Wx agreement_primary__Ti2TE']//button//*[name()='svg']//*[name()='rect']</value>
+      <webElementGuid>29ab18d6-ef56-4eee-85e9-8222534ba150</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

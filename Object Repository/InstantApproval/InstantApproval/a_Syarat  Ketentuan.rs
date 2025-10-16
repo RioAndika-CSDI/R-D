@@ -6,15 +6,20 @@
    <elementGuidId>304bf97e-929b-4d18-91b0-05e9b3ffca56</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.perusahaan-pembiayaan_textRedirect__mXpKl</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[normalize-space()='Syarat &amp; Ketentuan']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[@class='agreement_textRedirect__rf_5H'][normalize-space()='Syarat &amp; Ketentuan'])[2][count(. | //*[(text() = 'Syarat &amp; Ketentuan' or . = 'Syarat &amp; Ketentuan')]) = count(//*[(text() = 'Syarat &amp; Ketentuan' or . = 'Syarat &amp; Ketentuan')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.perusahaan-pembiayaan_textRedirect__mXpKl</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c4188716-3868-4a8d-b61d-257b57f791a6</webElementGuid>
+      <webElementGuid>e3d4204a-a9e3-45fe-a6d4-302784b3bf33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>perusahaan-pembiayaan_textRedirect__mXpKl</value>
-      <webElementGuid>74c8729e-4702-4573-b123-6a36cf77e831</webElementGuid>
+      <webElementGuid>a51e7bbb-26ee-4918-8ae1-fb151ca97775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +43,15 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>11f8960e-9bce-4a58-82a0-b40e624ef9a3</webElementGuid>
+      <webElementGuid>dbe8cadc-e3c3-4cb4-b513-20c963527593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://www.seva.id/info/syarat-dan-ketentuan/</value>
-      <webElementGuid>bd00f5cc-0c34-4348-8e31-8eca28f6259b</webElementGuid>
+      <webElementGuid>573d684d-e454-49e1-a3f1-fa7d4cdaaede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noreferrer</value>
-      <webElementGuid>191011d7-c1b3-4dbf-a72e-1941f54299d8</webElementGuid>
+      <webElementGuid>d5c6ee80-3948-4e43-9e69-8e9823ae5e5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +67,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Syarat &amp; Ketentuan</value>
-      <webElementGuid>a1f259c2-9b61-4d11-bfa6-85a9045d9643</webElementGuid>
+      <webElementGuid>c989d8b9-26cf-4778-a885-253e479ef24b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;perusahaan-pembiayaan_agreementTerms__k7etZ&quot;]/p[@class=&quot;perusahaan-pembiayaan_textOption__gVVTR&quot;]/a[@class=&quot;perusahaan-pembiayaan_textRedirect__mXpKl&quot;]</value>
-      <webElementGuid>8caed5d4-1f8e-4b95-a4c8-41fb9459bfe1</webElementGuid>
+      <value>(//a[@class='agreement_textRedirect__rf_5H'][normalize-space()='Syarat &amp; Ketentuan'])[2]</value>
+      <webElementGuid>1b23294d-5e49-41b5-9cb9-fcde19d59676</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/p/a</value>
-      <webElementGuid>46e46fba-e1ba-433c-b12c-af34f40ae9f6</webElementGuid>
+      <webElementGuid>c6ef65f8-f55b-4875-bc9e-3d430db40de2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Syarat &amp; Ketentuan')]</value>
-      <webElementGuid>c1be1099-a197-48e7-a51d-d9bc13a91c63</webElementGuid>
+      <webElementGuid>32b0656a-faad-4bd3-9da7-c13dea68ee6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Perusahaan Pembiayaan'])[1]/following::a[1]</value>
-      <webElementGuid>672ed083-b41f-4ee4-ae58-961a05e22000</webElementGuid>
+      <webElementGuid>b3a59526-c02b-4240-a85f-e92cb8feec16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::a[1]</value>
-      <webElementGuid>67790e6d-bc31-4d90-bd8d-720e2ebdae7d</webElementGuid>
+      <webElementGuid>cfffb285-1381-4844-b10a-cb6fae0e658b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::a[2]</value>
-      <webElementGuid>cb0e5794-2626-490c-9f08-d0a357d68ca8</webElementGuid>
+      <webElementGuid>4f736da7-0579-4c3f-8ddc-c9fcdf9f4cc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Syarat &amp; Ketentuan']/parent::*</value>
-      <webElementGuid>71edbd39-68dd-4a84-8ff7-543f68de2b80</webElementGuid>
+      <webElementGuid>d6f94519-d5ec-4d2f-9848-c9e15517f05f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.seva.id/info/syarat-dan-ketentuan/')]</value>
-      <webElementGuid>215f208c-8a02-4294-8b6a-45d32f2a06a2</webElementGuid>
+      <webElementGuid>c660abee-f6d4-4a59-b3ce-e84b2149f495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>0b11ba50-b8fe-42c6-9191-bf9e9c4e7338</webElementGuid>
+      <webElementGuid>e63444a8-86bc-4f39-96a9-2144866fbecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +147,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://www.seva.id/info/syarat-dan-ketentuan/' and (text() = 'Syarat &amp; Ketentuan' or . = 'Syarat &amp; Ketentuan')]</value>
-      <webElementGuid>5be6908f-13e1-4fcf-8b42-f09720425b53</webElementGuid>
+      <webElementGuid>b279ebfe-2676-4411-ae44-78e27bea0e9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

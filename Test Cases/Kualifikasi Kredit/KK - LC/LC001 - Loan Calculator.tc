@@ -4,6 +4,7 @@
    <name>LC001 - Loan Calculator</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>404e0126-def3-4054-9c06-57a570d75683</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

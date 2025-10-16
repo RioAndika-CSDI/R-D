@@ -4,6 +4,7 @@
    <name>IA003 - Verify User Can Submit Instant Approval - User is not logged in</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c1d30b34-63ba-4d61-b70c-fbfbd9a4d5de</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

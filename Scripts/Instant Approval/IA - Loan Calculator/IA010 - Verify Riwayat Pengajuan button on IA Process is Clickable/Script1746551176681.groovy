@@ -18,7 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -136,26 +142,7 @@ if (update_reff_code.toString().equalsIgnoreCase('1')) {
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Lanjutkan kk'))
 
-WebUI.delay(10)
-
-'=== LOGIN PROCESS ==='
-String currentUrl_Login = WebUI.getUrl()
-
-String LoginUrl = 'https://www.seva.id/masuk-akun?isShowDisclaimerToGetKkResult=true'
-
-if (currentUrl_Login == LoginUrl) {
-    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
-}
-
-WebUI.delay(10)
-
-WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
-
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
-
-WebUI.delay(10)
+WebUI.delay(5)
 
 '=== CONTINUE TO KK PROCESS ==='
 WebUI.waitForElementPresent(findTestObject('Object Repository/InstantApproval/InstantApproval/headerKkStep-Konfirmasi data Peluang Kredit'), 
@@ -177,8 +164,27 @@ WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/p_Lihat Detail 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementPromoTerms'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
-
+WebUI.delay(5)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit - kk review'))
+
+WebUI.delay(10)
+
+'=== LOGIN PROCESS ==='
+String currentUrl_Login = WebUI.getUrl()
+
+String LoginUrl = 'https://www.seva.id/masuk-akun?isShowDisclaimerToGetKkResult=true'
+
+if (currentUrl_Login == LoginUrl) {
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
+}
+
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+
+WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.delay(5)
 
@@ -369,8 +375,41 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+// Maksimalkan jendela agar elemen terlihat
+WebUI.maximizeWindow()
 
+WebUI.delay(3)
+
+// Temukan elemen checkbox
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 
+    10)
+
+// Ambil posisi dan ukuran elemen
+int x = checkbox.getLocation().getX()
+
+int y = checkbox.getLocation().getY()
+
+int width = checkbox.getSize().getWidth()
+
+int height = checkbox.getSize().getHeight()
+
+// Klik di tengah elemen (biar aman)
+int clickX = x + (width / 2)
+
+int clickY = y + (height / 2)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+Actions actions = new Actions(driver)
+
+// Klik berdasarkan posisi layar
+actions.moveByOffset(clickX, clickY).click().perform()
+
+// Balikkan posisi mouse supaya tidak ganggu klik berikutnya
+actions.moveByOffset(-(clickX), -(clickY)).perform()
+
+println("✅ Klik checkbox berhasil berdasarkan posisi layar (X:$clickX, Y:$clickY)")
+WebUI.delay(3)
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 
 WebUI.delay(20)
@@ -385,6 +424,8 @@ if (currentUrl_IAprocess == IAprocess_url) {
 }
 
 WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/IA process page - title'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setViewPortSize(570, 912)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Riwayat Pengajuan - ia_process'))
 

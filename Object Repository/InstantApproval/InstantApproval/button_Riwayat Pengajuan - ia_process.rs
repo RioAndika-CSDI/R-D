@@ -7,25 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Riwayat Pengajuan' or . = 'Riwayat Pengajuan') and starts-with(@class, 'button_primaryDarkBlue')]</value>
+         <value>//div[@class='pageLayout_container__nDevq ']//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS kk-waiting-result_cariMobil__SDqBw'][normalize-space()='Riwayat Pengajuan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Riwayat Pengajuan</value>
-      <webElementGuid>9835b6bc-ae5d-4e1a-bfc1-76a01f380a53</webElementGuid>
+      <webElementGuid>dbb0be3d-572f-4b6b-829d-a980bde0749e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue</value>
-      <webElementGuid>33fa2f97-3260-450e-b320-e78c13252239</webElementGuid>
+      <webElementGuid>7b13ab1f-95c8-41d0-88e3-1992d636f0cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='pageLayout_container__nDevq ']//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS kk-waiting-result_cariMobil__SDqBw'][normalize-space()='Riwayat Pengajuan']</value>
+      <webElementGuid>3e3a8793-e86e-4fe5-8c41-7dd7fec933a0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

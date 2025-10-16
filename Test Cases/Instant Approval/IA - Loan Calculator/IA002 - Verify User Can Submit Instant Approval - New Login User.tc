@@ -4,6 +4,7 @@
    <name>IA002 - Verify User Can Submit Instant Approval - New Login User</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f461c821-f3a1-4fcb-abc2-a0e7910a6b0d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -288,7 +289,7 @@
       <name>perusahaan_pembiayaan</name>
    </variable>
    <variable>
-      <defaultValue>'Jakarta Barat'</defaultValue>
+      <defaultValue>'Jakarta Selatan'</defaultValue>
       <description></description>
       <id>cd0e9845-9e4e-422c-a810-bd24b302d147</id>
       <masked>false</masked>

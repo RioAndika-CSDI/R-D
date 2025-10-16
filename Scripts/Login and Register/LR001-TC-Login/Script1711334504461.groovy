@@ -36,7 +36,10 @@ if (viewport == 'desktop') {
 	
 	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 	
-	WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+	if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
+		5, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+	}
 	
 	WebUI.click(findTestObject('Object Repository/Homepage Component/desktop view - button login register'))
 	
@@ -72,7 +75,6 @@ if (viewport == 'desktop') {
 	
 	CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 	
-	WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 	
 	'Click Burger Menu'
 	WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
@@ -83,6 +85,11 @@ if (viewport == 'desktop') {
 	'Click Burger Menu'
 	WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
 	
+	if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
+		5, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+	}
+		
 	WebUI.delay(5)
 	
 	'Click Burger Menu'

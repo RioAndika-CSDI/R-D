@@ -7,17 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'emptyKtp_frame')]</value>
+         <value>//section[@class='ktp-edit_wrapper__form__psNep']//div[@class='emptyKtp_frame__lLpXL']//*[name()='svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>emptyKtp_frame</value>
-      <webElementGuid>16985da5-0640-40d5-bd99-a952a32fedc8</webElementGuid>
+      <webElementGuid>14399937-3fe4-4a99-8ad8-228c31bce7ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//section[@class='ktp-edit_wrapper__form__psNep']//div[@class='emptyKtp_frame__lLpXL']//*[name()='svg']</value>
+      <webElementGuid>6ba37d51-f6ed-43b5-bbb2-cb435b2ff773</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

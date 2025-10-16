@@ -38,7 +38,10 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
 
 'Click Moengage Ads\r\n'
 WebUI.delay(5)
@@ -97,7 +100,7 @@ WebUI.sendKeys(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Be
 WebUI.click(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/dropdown_car_model', 
         [('car_model') : car_model]))
 
-WebUI.scrollToElement(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/field title - car variant csa'), 
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApprovalCSA/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/field title - DP IA CSA'), 
     5)
 
 WebUI.delay(5)

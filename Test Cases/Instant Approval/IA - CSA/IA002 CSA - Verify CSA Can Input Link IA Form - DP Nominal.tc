@@ -4,6 +4,7 @@
    <name>IA002 CSA - Verify CSA Can Input Link IA Form - DP Nominal</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5b8d58b9-f8bf-446c-bafc-5609ffc22816</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

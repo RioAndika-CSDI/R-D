@@ -4,6 +4,7 @@
    <name>KK003 - KK Review - Verify User Can Click Lihat Detail Mobil</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c5886e9a-fa16-445e-bedb-a380e4f5d8ab</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
