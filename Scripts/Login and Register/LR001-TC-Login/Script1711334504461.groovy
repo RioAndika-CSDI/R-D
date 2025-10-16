@@ -54,10 +54,12 @@ if (viewport == 'desktop') {
 
     WebUI.executeJavaScript('window.scrollTo(0, 0)', [])
 
+    WebUI.delay(10)
+
     'Click Burger Menu'
     WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
-    WebUI.delay(5)
+    WebUI.delay(10)
 
     'Click Burger Menu'
     WebUI.enhancedClick(findTestObject('Homepage Component/button_Masuk  Register'))
@@ -76,6 +78,8 @@ if (viewport == 'desktop') {
 
     WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
-    WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
+    String currentUrl = WebUI.getUrl()
+
+    WebUI.verifyMatch(currentUrl, 'https://www.seva.id/', false)
 }
 

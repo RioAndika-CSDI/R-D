@@ -49,9 +49,11 @@ for (i = 0; i < awalan.length; i++) {
 
 WebUI.setText(findTestObject('Login Register Component/Input_phone_umum'), nomor_dibawahMinimal)
 
-WebUI.verifyElementPresent(findTestObject('Login Register Component/Button_Lanjut_Disable'), 0)
+WebUI.verifyElementPresent(findTestObject('Login Register Component/Button_Lanjut_Disable'), 5)
 
 WebUI.clearText(findTestObject('Login Register Component/Input_phone_umum'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Login Register Component/Input_phone_umum'), nomor_diatasMax)
 

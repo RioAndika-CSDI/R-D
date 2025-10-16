@@ -43,7 +43,7 @@ WebUI.delay(2)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementPresent(findTestObject('Page Syarat dan Ketentuan/Label_Title Syarat dan Ketentuan'), 60)
+WebUI.waitForElementPresent(findTestObject('Page Syarat dan Ketentuan/Label_Title Syarat dan Ketentuan'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Page Syarat dan Ketentuan/Label_Title Syarat dan Ketentuan'), 0)
 

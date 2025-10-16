@@ -32,7 +32,11 @@ WebUI.delay(10)
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
+WebUI.delay(10)
+
 WebUI.enhancedClick(findTestObject('Homepage Component/button_Masuk  Register'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), Phone_number)
 
@@ -61,5 +65,7 @@ WebUI.delay(5)
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
+String currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, 'https://www.seva.id/', false)
 

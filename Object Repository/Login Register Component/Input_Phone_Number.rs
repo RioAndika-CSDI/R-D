@@ -6,15 +6,15 @@
    <elementGuidId>2671367a-ce4d-429a-9a8f-e637f86c584f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'tel' and starts-with(@class, 'inputPhone_input')]</value>
+         <value>//*[@data-testid = 'input-phone-number']</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>224d6184-450b-47c0-87e1-532ca8b8ae35</webElementGuid>
+      <webElementGuid>fb2bf151-d5bd-4b15-81d0-2cf919a49aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>d5dfa140-7c93-43dc-9e3c-968b3e4c5bfd</webElementGuid>
+      <webElementGuid>6b414669-c52e-49f6-9182-804d935689dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>0c102c96-3f3c-4867-b26e-758ba98d34da</webElementGuid>
+      <webElementGuid>1ffb5a64-12bf-4fb9-8179-6e2ee38ce0dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inputPhone_input</value>
-      <webElementGuid>668f91c4-9127-459d-9650-d6c522468d7d</webElementGuid>
+      <webElementGuid>4fee5f30-ec96-442e-962b-1f543f8bec43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +58,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan nomor HP</value>
-      <webElementGuid>0aa9a051-3a8a-428c-ba23-c2c2de6842b6</webElementGuid>
+      <webElementGuid>0898aea7-5dd1-4a41-945a-69d011409921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>input-phone-number</value>
-      <webElementGuid>3af54cd1-d4f6-4550-b4c2-35462246f3d3</webElementGuid>
+      <webElementGuid>681eca3d-a0e9-4b24-b3a6-e1a8bbfeeec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;login_container__Q2_YI&quot;]/div[@class=&quot;login_container__UPCo0&quot;]/div[@class=&quot;login_wrapper__kUBFR&quot;]/div[@class=&quot;login_form__cZagI&quot;]/div[@class=&quot;login_inputPhone__EqfsM&quot;]/div[@class=&quot;inputPhone_wrapper__FVS9_ undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__RCpE6 inputPhone_default__BegXK undefined undefined&quot;]/input[@class=&quot;inputPhone_input__r86Wm undefined&quot;]</value>
-      <webElementGuid>1b8efaba-c4a6-427c-8851-21aa946047e2</webElementGuid>
+      <webElementGuid>4d8a43bb-c6e9-42a0-98b5-803f0ebd1900</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>426cbf57-7976-4851-9e60-6548a347f889</webElementGuid>
+      <webElementGuid>1cfb015c-8def-475e-bb94-ea90831c8a7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>c81610a8-efd2-4e05-9f73-85af81960c33</webElementGuid>
+      <webElementGuid>cf1ac14a-643f-4dbc-bbc7-e41f5c50b33e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>db2f6c04-221e-45e9-9708-b3d787f790b2</webElementGuid>
+      <webElementGuid>d9a7eebb-357d-4aaf-9383-2e95fcd1af2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @placeholder = 'Masukkan nomor HP']</value>
-      <webElementGuid>e0333593-06d3-4011-86f1-d82fab4a74ea</webElementGuid>
+      <webElementGuid>83ab5942-1409-4d02-be9a-94cfa9378092</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
