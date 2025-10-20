@@ -4,6 +4,7 @@
    <name>KK005 - Sumber Pendapatan - Pekerjaan Saya Empty</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7b8ee1d8-23c8-43f3-9d30-acb3fe2b838c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

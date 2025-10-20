@@ -107,6 +107,8 @@ WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calcula
 //WebUI.delay(5)
 //
 //WebUI.verifyElementPresent(findTestObject('Kualifikasi-Kredit/KK Used/text-Hasil-Kualifikasi-Kredit'), 60)
+WebUI.delay(3)
+
 '=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
@@ -120,8 +122,11 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'))
 WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), pekerjaan)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
+WebUI.delay(3)
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+WebUI.delay(3)
 
-'edit pendapatan'
+//'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
@@ -139,26 +144,7 @@ if (update_reff_code.toString().equalsIgnoreCase('1')) {
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Lanjutkan kk'))
 
-WebUI.delay(10)
-
-'=== LOGIN PROCESS ==='
-String currentUrl_Login = WebUI.getUrl()
-
-String LoginUrl = 'https://www.seva.id/masuk-akun?isShowDisclaimerToGetKkResult=true'
-
-if (currentUrl_Login == LoginUrl) {
-    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
-
-    WebUI.delay(10)
-
-    WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
-
-    WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
-
-    WebUI.delay(10)
-}
+WebUI.delay(3)
 
 '=== CONTINUE TO KK PROCESS ==='
 WebUI.waitForElementPresent(findTestObject('Object Repository/InstantApproval/InstantApproval/headerKkStep-Konfirmasi data Peluang Kredit'), 
@@ -182,6 +168,25 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementProm
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit - kk review'))
+
+WebUI.delay(10)
+
+//String currentUrl_Login = WebUI.getUrl()
+//
+//String LoginUrl = 'https://www.seva.id/masuk-akun?isShowDisclaimerToGetKkResult=true'
+'=== LOGIN PROCESS ==='
+if (WebUI.waitForElementVisible(findTestObject('Login Register Component/Input_Phone_Number'), 10, FailureHandling.OPTIONAL)) {
+    //	KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_Login)
+    WebUI.delay(10)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
+
+    WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
+
+    WebUI.delay(10)
+}
 
 WebUI.delay(5)
 

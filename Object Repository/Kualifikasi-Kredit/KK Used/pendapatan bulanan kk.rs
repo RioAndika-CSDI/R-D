@@ -10,11 +10,16 @@
          <value>//input[@placeholder='Masukkan pendapatan']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@class='0 input_input__c0tP8'][count(. | //*[@placeholder = 'Masukkan pendapatan']) = count(//*[@placeholder = 'Masukkan pendapatan'])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input.0.input_input__c0tP8</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>66ddd955-3111-4e7c-8527-07d3f0d25ea0</webElementGuid>
+      <webElementGuid>413ddfcf-7767-4899-973f-f69427568cbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>0 input_input__c0tP8</value>
-      <webElementGuid>89142932-2dc6-4539-a1d2-5b4c94d50200</webElementGuid>
+      <webElementGuid>3b6cd550-27eb-4a0a-bd60-3b6daa313351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +43,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan pendapatan</value>
-      <webElementGuid>4a1e43df-1752-45a3-88a6-97b17b1c7974</webElementGuid>
+      <webElementGuid>4b0710f3-fe6d-4c75-a26c-a0fecce25303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>02af7b25-e186-4a16-9026-87c7647712c3</webElementGuid>
+      <webElementGuid>25a6a546-f939-4bf3-a59a-af283417c4b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>12999fbd-0d50-4980-a29b-a9360a38d187</webElementGuid>
+      <webElementGuid>198bdbf2-94c6-4c9e-b80a-f37e29e6225d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +67,15 @@
       <name>value</name>
       <type>Main</type>
       <value>Rp20.000.000</value>
-      <webElementGuid>ef605ad1-1d3a-42e9-8954-8ad0416dd640</webElementGuid>
+      <webElementGuid>442357df-416f-4f55-92e4-3db11dbdcf3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;kualifikasi-kredit_container__G05hl&quot;]/div[@class=&quot;kualifikasi-kredit_paddingFormIncome__yDYDw&quot;]/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;0 input_input__c0tP8&quot;]</value>
-      <webElementGuid>bf974070-4fce-49da-ad7d-b3cb21e1b3bd</webElementGuid>
+      <value>//input[@class='0 input_input__c0tP8']</value>
+      <webElementGuid>e46f0f89-a090-4e76-b3b9-14536bedb6a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Rp20.000.000']</value>
-      <webElementGuid>7c4d769d-fe8f-494b-80bc-c190b8b011a4</webElementGuid>
+      <webElementGuid>ebc5d90b-dfd8-4bd4-8ba6-47687edf84d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div[5]/div/div/input</value>
-      <webElementGuid>7c7825de-d522-4b70-bc5c-43ffb0352f3b</webElementGuid>
+      <webElementGuid>1403eb2b-8764-410a-bac6-ae417b0b999b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/input</value>
-      <webElementGuid>276a5dbc-b0f4-4a07-aba0-6ae2e0cc5778</webElementGuid>
+      <webElementGuid>0189c432-01f4-4ac3-a223-fa8ce498a6a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
-      <webElementGuid>095ef710-cca3-42ac-8138-6de5758e359d</webElementGuid>
+      <webElementGuid>9045b7f6-f1ea-4c1e-b492-e7fbc32a1537</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

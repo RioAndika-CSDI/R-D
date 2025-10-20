@@ -4,6 +4,7 @@
    <name>KK006 - KK - Invalid Teman SEVA Reff Code</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e1984aeb-b6b7-42b0-9161-974abddfbd8b</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

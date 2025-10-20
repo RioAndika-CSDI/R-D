@@ -19,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>e6940212-eec3-4a58-bea2-e836763ddb0c</webElementGuid>
+      <webElementGuid>5c99de1d-c17b-4bd2-9fe3-e995632ee5ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>width</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>3c78de82-cfe3-4097-96a7-a9546a818431</webElementGuid>
+      <webElementGuid>33852bce-fa4b-461f-a8cf-2314aef8ff21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>height</name>
       <type>Main</type>
       <value>32</value>
-      <webElementGuid>8b6bfdc1-1e30-45d3-83ab-3965752eb480</webElementGuid>
+      <webElementGuid>5550e98c-b02b-43de-bff2-41eb2f18a852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>260e98f4-09b4-42ed-9699-160f895ef480</webElementGuid>
+      <webElementGuid>c72321a9-5332-4faf-b1fa-9c2af5ef2563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>6a5257ce-4b55-4b92-a985-aa4813e7467d</webElementGuid>
+      <webElementGuid>f48c4b75-bc43-4e70-be68-ae72fce5bd87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +67,15 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>56b3e071-7ef6-4f24-9e78-1194859a1e8a</webElementGuid>
+      <webElementGuid>99459ec3-7a38-4d5c-b3bd-c35766020f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;ktp-upload_wrapper__d_Th2&quot;]/div[@class=&quot;ktp-upload_footerWrapper__kCyAb&quot;]/div[@class=&quot;ktp-upload_bottomWrapper__rmrHv&quot;]/div[@class=&quot;ktp-upload_btnUpload__Ak3Et&quot;]/svg[1]</value>
-      <webElementGuid>aca77d11-ccc7-45f0-95cb-0f83e1f6073d</webElementGuid>
+      <value>//button[@class='ktp-upload_btnUpload__Ak3Et']</value>
+      <webElementGuid>7037cea5-b664-4c9b-9aba-5af5aa623072</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +83,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ktp-upload_input</value>
-      <webElementGuid>c8dcb0d4-ddc2-4327-9671-e9d06fa05dbd</webElementGuid>
+      <webElementGuid>c618e926-939d-4481-a3b3-39cc85a94958</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan KTP tidak rusak dan data dapat terbaca'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>62be9d26-4632-4eb1-a3d6-2634f334203c</webElementGuid>
+      <webElementGuid>6ee43689-3389-4a7e-9571-0cd30c85391f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan foto KTP terlihat jelas dan tidak kabur'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>1537a90c-c186-4e2e-bc16-d85c04c4d943</webElementGuid>
+      <webElementGuid>eec1329e-ed85-46ec-83f4-121080f12568</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>fc895b5e-9538-457c-af65-ace9c5720139</webElementGuid>
+      <webElementGuid>cac7cc5e-80ef-43e7-a1eb-1a6168b16f67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>770c540a-0e2f-4e68-977e-480d27c8d63a</webElementGuid>
+      <webElementGuid>b3b5f150-f892-43e8-9fdd-9e02e1b87a5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

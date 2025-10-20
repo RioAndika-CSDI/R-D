@@ -27,6 +27,7 @@ WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calcula
 } else {
 	KeywordUtil.markPassed('There is no tooltip')
 } */
+WebUI.delay(3)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -43,9 +44,10 @@ String currentUrl = WebUI.getUrl()
 
 WebUI.comment(currentUrl)
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/cta section car kk'))
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_mobil_pilihanmu'))
 
 WebUI.verifyElementPresent(findTestObject('Kualifikasi-Kredit/KK Used/div_Mobil yang kamu pilih'), 0)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/x button - close pop up car info'))
 

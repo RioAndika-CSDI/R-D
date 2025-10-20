@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Lihat Detail Mobil - kk review</name>
+   <name>h1_Peluang Kredit Konfirmasi Data</name>
    <tag></tag>
-   <elementGuidId>59c1fec5-ac45-4eec-bc0d-c7a5cbb2c758</elementGuidId>
+   <elementGuidId>b2f1667b-2052-46a6-9233-e3929e7c4730</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
+         <value>//h3[normalize-space()='Detail Mobil']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>p.kualifikasi-kredit-review_textDetail__QO7rr</value>
+         <value>h3.modal_title__ADM2I</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class='kualifikasi-kredit-review_textDetail__QO7rr'][count(. | //*[@class = 'kualifikasi-kredit-review_textDetail__QO7rr' and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]) = count(//*[@class = 'kualifikasi-kredit-review_textDetail__QO7rr' and (text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')])]</value>
+         <value>//*[(text() = 'Peluang Kredit: Konfirmasi Data' or . = 'Peluang Kredit: Konfirmasi Data')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,95 +26,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>e691f626-1ee5-4c23-9074-6fb0d077301c</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>2aec3ebd-51f7-45d3-91cc-bc23bd54ff49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>kualifikasi-kredit-review_textDetail__QO7rr</value>
-      <webElementGuid>cde03b26-d97b-4728-9892-ba156664fe03</webElementGuid>
+      <value>modal_title__ADM2I</value>
+      <webElementGuid>a4ea46ce-312a-4a68-a32c-56864dc19d5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Lihat Detail Mobil</value>
-      <webElementGuid>c779dd0a-59e3-4b00-8ba5-9f96c0c7339c</webElementGuid>
+      <value>Peluang Kredit: Konfirmasi Data</value>
+      <webElementGuid>4e02a71a-dc70-4933-9899-1f26e0254869</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class='kualifikasi-kredit-review_textDetail__QO7rr']</value>
-      <webElementGuid>a4af3ed8-2a06-49b8-9409-f878cadab733</webElementGuid>
+      <value>id(&quot;:r0:&quot;)/h3[@class=&quot;modal_title__ADM2I&quot;]</value>
+      <webElementGuid>cb4656b2-648d-4092-910c-a24b54db16e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div[3]/div[7]/div[11]/p</value>
-      <webElementGuid>07896896-84c6-445c-80a1-4cb3a8a3f304</webElementGuid>
+      <value>//div[@id=':r0:']/h3</value>
+      <webElementGuid>12db50a8-d004-4a47-bf9e-95417d40ff5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::p[6]</value>
-      <webElementGuid>5a056cd6-1d0e-4a7e-b0c4-64f636051183</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', ':r0:', '&quot;', ')/h3[@class=', '&quot;', 'modal_title__ADM2I', '&quot;', ']')])[1]/following::h3[1]</value>
+      <webElementGuid>382f559e-d54d-47f0-9af4-d10dd0f2d462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::p[6]</value>
-      <webElementGuid>82ea49d9-00b3-4daf-bac3-5019e53873ed</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h3[1]</value>
+      <webElementGuid>46556e74-366f-4775-88d8-6f9822d6274a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Kualifikasi Kredit'])[1]/preceding::p[1]</value>
-      <webElementGuid>996aeaa1-ad0e-4860-85a4-d73c9c9aca7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/preceding::h3[1]</value>
+      <webElementGuid>55e24e6b-bde0-48dc-af70-dd2f82f70290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[2]</value>
-      <webElementGuid>ebc691f9-7c90-42fb-bec0-fc8ae52a05f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp210.750.000'])[2]/preceding::h3[1]</value>
+      <webElementGuid>18deba27-26c6-4638-bd3e-d099ea170729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Lihat Detail Mobil']/parent::*</value>
-      <webElementGuid>123fe6d6-e7dc-4dda-8f53-5074fb8db1ce</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Detail Mobil']/parent::*</value>
+      <webElementGuid>9a0af46c-ca10-4263-984d-ec5cb49e2e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/p</value>
-      <webElementGuid>14a70b68-e9a4-4ad5-832c-f2f91d90efa8</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>513857c7-d646-46d7-874a-1bbaaad196fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Lihat Detail Mobil' or . = 'Lihat Detail Mobil')]</value>
-      <webElementGuid>05cf0fc2-01d9-48d9-aa3e-8eff842ab1bb</webElementGuid>
+      <value>//h3[(text() = 'Detail Mobil' or . = 'Detail Mobil')]</value>
+      <webElementGuid>3e2a1ef5-8696-4c24-8da2-84a17e5300e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,17 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'dpFormWithPercentage_titleText')]</value>
+         <value>//label[normalize-space()='Down Payment (DP)']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dpFormWithPercentage_titleText</value>
-      <webElementGuid>4c22cc8d-8612-433d-93f2-ba384ae0389d</webElementGuid>
+      <value>dpFormWithPercentage_titleText__PREpe</value>
+      <webElementGuid>247b7437-c74f-4039-9ddb-de85eeced2c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[normalize-space()='Down Payment (DP)']</value>
+      <webElementGuid>d76a9a72-a3bd-4d6b-b4d7-fd0e7ee46e50</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

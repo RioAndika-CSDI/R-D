@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Ajukan Instant Approval</name>
+   <name>button_Kirim</name>
    <tag></tag>
-   <elementGuidId>ba1f5cac-5166-4836-b022-0c968ff8c684</elementGuidId>
+   <elementGuidId>2cb06141-c11e-4233-8ad3-8a56398fffb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space()='Ajukan Instant Approval']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined' and (text() = 'Ajukan Instant Approval' or . = 'Ajukan Instant Approval')]</value>
+         <value>//button[normalize-space()='Kirim'][count(. | //*[(text() = 'Kirim' or . = 'Kirim')]) = count(//*[(text() = 'Kirim' or . = 'Kirim')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Kirim']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,55 +27,55 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>adf9da31-4e6f-49ec-a69b-f5ceab9bbe9d</webElementGuid>
+      <webElementGuid>07cbfe82-2343-4b0c-91a3-d3ed50b1e1c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>5d5bfa07-6e3a-4360-870a-cb43139d69ba</webElementGuid>
+      <webElementGuid>017ba5b3-d410-4509-9517-d2d1e0aeab62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ajukan Instant Approval</value>
-      <webElementGuid>0e6f7f75-4631-4056-bc94-b40538fd536b</webElementGuid>
+      <value>Kirim</value>
+      <webElementGuid>5bb8dcbb-d916-4f8c-ba96-714a0a16537b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2&quot;]/div[@class=&quot;instant-approval-review_container__9UeG3&quot;]/div[@class=&quot;instant-approval-review_paddingButton__v2HSU&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>152ef1ca-5dcf-4d70-9768-37e8a1667c74</webElementGuid>
+      <value>//button[normalize-space()='Kirim']</value>
+      <webElementGuid>edb9c412-0192-4158-9447-90541e503c65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div[3]/div[8]/button</value>
-      <webElementGuid>cc346d9d-00ec-446c-a95f-17b56ab75ed1</webElementGuid>
+      <value>//div[@id='__next']/div/div[3]/div[7]/button</value>
+      <webElementGuid>7c09af76-bf8c-4150-aac2-c6bf060908d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::button[1]</value>
-      <webElementGuid>b94169f6-0a0e-41dd-a5cb-c7f9217b9eaf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/following::button[1]</value>
+      <webElementGuid>88a46569-0002-4be2-a3b9-36dfac331bf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo yang kamu pilih'])[1]/following::button[1]</value>
-      <webElementGuid>1c1a4313-a9ef-4f9f-823e-b0cfd9f2684b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::button[1]</value>
+      <webElementGuid>508b784c-b235-45d8-8bf4-dfa8c9b2e5ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>114d5475-993f-4c84-96e4-3c97f5c2acee</webElementGuid>
+      <webElementGuid>38058a0e-19a6-499d-8a9c-ef4b9f841e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,15 +91,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>236c1949-a06b-43dc-b217-0a106a5c3a20</webElementGuid>
+      <webElementGuid>0768fe7d-162c-44d1-ae8e-b69a21ec4ed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ajukan Instant Approval']/parent::*</value>
-      <webElementGuid>d9c85b7a-4aac-448c-9789-987ef77e45f5</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
+      <webElementGuid>4b95e85a-540c-4274-88ad-f752179251b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,14 +107,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>f1c29333-86cc-4a32-b330-853ba77d4b22</webElementGuid>
+      <webElementGuid>557c112a-3ba4-4f2a-884f-17157db60f09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Ajukan Instant Approval' or . = 'Ajukan Instant Approval')]</value>
-      <webElementGuid>4005728e-8336-4a52-99a2-de114e0df7c0</webElementGuid>
+      <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
+      <webElementGuid>8de0399e-7f22-47f1-85b8-d0e327b6866f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

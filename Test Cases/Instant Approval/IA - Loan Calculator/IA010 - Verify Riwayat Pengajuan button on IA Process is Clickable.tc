@@ -4,6 +4,7 @@
    <name>IA010 - Verify Riwayat Pengajuan button on IA Process is Clickable</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e806546f-7e71-4fae-b3fe-dc044c9a50ea</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
