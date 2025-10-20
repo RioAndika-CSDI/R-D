@@ -28,6 +28,10 @@ WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi 
 WebUI.verifyElementClickable(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi Agen SEVA'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi Agen SEVA'))
+WebUI.delay(3)
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms hubungi agen seva'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Kirim'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms hubungi agen seva'))
 

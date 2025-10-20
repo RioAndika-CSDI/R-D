@@ -104,7 +104,8 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_lis
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
-'=== KK PROCESS ==='
+WebUI.delay(3)
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -417,37 +418,23 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
 // Maksimalkan jendela agar elemen terlihat
-WebUI.maximizeWindow()
-WebUI.delay(3)
+//WebUI.maximizeWindow()
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 0)
+WebUI.waitForElementVisible(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+WebUI.waitForElementClickable(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
 
-// Temukan elemen checkbox
 WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
-
-// Ambil posisi dan ukuran elemen
-int x = checkbox.getLocation().getX()
-int y = checkbox.getLocation().getY()
-int width = checkbox.getSize().getWidth()
-int height = checkbox.getSize().getHeight()
-
-// Klik di tengah elemen (biar aman)
-int clickX = x + (width / 2)
-int clickY = y + (height / 2)
-
 WebDriver driver = DriverFactory.getWebDriver()
 Actions actions = new Actions(driver)
 
-// Klik berdasarkan posisi layar
-actions.moveByOffset(clickX, clickY).click().perform()
+// klik langsung ke elemen-nya
+actions.moveToElement(checkbox).click().perform()
 
-// Balikkan posisi mouse supaya tidak ganggu klik berikutnya
-actions.moveByOffset(-clickX, -clickY).perform()
+println("✅ Klik checkbox berhasil via moveToElement()")
 
-println("✅ Klik checkbox berhasil berdasarkan posisi layar (X:${clickX}, Y:${clickY})")
 WebUI.delay(3)
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 WebUI.delay(15)
-WebUI.setViewPortSize(570, 912)
-WebUI.delay(5)
 
 
 '=== IA Process Page ==='

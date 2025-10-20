@@ -4,6 +4,7 @@
    <name>IA008 - Verify Kebijakan Privasi Link in Customer Consent is Clickable</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>da95da2e-c2fd-40ab-a1c6-0bbf4f51d65c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

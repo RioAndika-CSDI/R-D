@@ -97,7 +97,8 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_lis
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
-'=== KK PROCESS ==='
+WebUI.delay(3)
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -110,6 +111,9 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'))
 WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), pekerjaan)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
+WebUI.delay(3)
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+WebUI.delay(3)
 
 //Gaji Edit
 'edit pendapatan'

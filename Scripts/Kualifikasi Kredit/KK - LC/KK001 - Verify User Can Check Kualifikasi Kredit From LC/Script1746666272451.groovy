@@ -122,8 +122,11 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'))
 WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), pekerjaan)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
+WebUI.delay(3)
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+WebUI.delay(3)
 
-'edit pendapatan'
+//'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 

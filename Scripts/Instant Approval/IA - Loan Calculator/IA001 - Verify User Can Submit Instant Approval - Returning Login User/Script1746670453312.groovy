@@ -35,7 +35,8 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/header logo seva'))
 WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/LC001 - Loan Calculator'), [('open_browser') : '0', ('ignore_warning') : '0'
         , ('kota') : kota, ('car_name') : car_name, ('jenis_bayar') : jenis_bayar], FailureHandling.STOP_ON_FAILURE)
 
-'=== KK PROCESS ==='
+WebUI.delay(3)
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -48,8 +49,11 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'))
 WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), pekerjaan)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
+WebUI.delay(3)
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+WebUI.delay(3)
 
-'edit pendapatan'
+//'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
@@ -343,32 +347,19 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
 // Maksimalkan jendela agar elemen terlihat
-WebUI.maximizeWindow()
-WebUI.delay(3)
+//WebUI.maximizeWindow()
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 0)
+WebUI.waitForElementVisible(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+WebUI.waitForElementClickable(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
 
-// Temukan elemen checkbox
 WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
-
-// Ambil posisi dan ukuran elemen
-int x = checkbox.getLocation().getX()
-int y = checkbox.getLocation().getY()
-int width = checkbox.getSize().getWidth()
-int height = checkbox.getSize().getHeight()
-
-// Klik di tengah elemen (biar aman)
-int clickX = x + (width / 2)
-int clickY = y + (height / 2)
-
 WebDriver driver = DriverFactory.getWebDriver()
 Actions actions = new Actions(driver)
 
-// Klik berdasarkan posisi layar
-actions.moveByOffset(clickX, clickY).click().perform()
+// klik langsung ke elemen-nya
+actions.moveToElement(checkbox).click().perform()
 
-// Balikkan posisi mouse supaya tidak ganggu klik berikutnya
-actions.moveByOffset(-clickX, -clickY).perform()
-
-println("✅ Klik checkbox berhasil berdasarkan posisi layar (X:${clickX}, Y:${clickY})")
+println("✅ Klik checkbox berhasil via moveToElement()")
 
 WebUI.delay(3)
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))

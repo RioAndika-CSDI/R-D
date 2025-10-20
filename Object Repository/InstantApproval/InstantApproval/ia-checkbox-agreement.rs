@@ -6,19 +6,19 @@
    <elementGuidId>2cdba0dd-be24-4dda-b556-25c3772b3eed</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE false false']//button//*[name()='svg']//*[name()='rect'][count(. | //*[@x = '0.5' and @y = '0.773438' and @width = '15' and @height = '15']) = count(//*[@x = '0.5' and @y = '0.773438' and @width = '15' and @height = '15'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//*[name()='rect'])[7]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@x = '0.5' and @y = '0.773438' and @width = '15' and @height = '15']</value>
+         <key>CSS</key>
+         <value>div.instant-approval-review_container__9UeG3 > div.instant-approval-review_agreementSection__xHt99.false > div.agreement_agreementTerms__kLT2Y.agreement_primary__Ti2TE.false.false > button > svg > rect</value>
       </entry>
       <entry>
          <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.instant-approval-review_container__9UeG3 > div.instant-approval-review_agreementSection__xHt99.false > div.agreement_agreementTerms__kLT2Y.agreement_primary__Ti2TE.false.false > button > svg > rect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>rect</value>
-      <webElementGuid>d3156b73-d65b-4211-b18e-6bc7d0af5820</webElementGuid>
+      <webElementGuid>1586cecf-44ba-441b-b195-5dd73da3d5df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.5</value>
-      <webElementGuid>cc925c88-5f5b-405a-b7f5-530ff314d669</webElementGuid>
+      <webElementGuid>3dc6ba10-b0ac-4ae7-9784-b244c2f59fa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>y</name>
       <type>Main</type>
       <value>0.773438</value>
-      <webElementGuid>0a27548f-3fe6-47ce-a2d4-5d230bd5ef97</webElementGuid>
+      <webElementGuid>403a16b3-878d-4ffd-b8b9-6ca121c15b3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>width</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>18395700-451a-4ffe-994f-dd1ba6ca2db4</webElementGuid>
+      <webElementGuid>f2fceeb2-86b7-4fac-be27-e41cbd54537d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>height</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>2ac97aac-9afb-4f28-a704-44e09cb83181</webElementGuid>
+      <webElementGuid>e8064136-acd4-4b14-8832-539e9be67272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>rx</name>
       <type>Main</type>
       <value>3.5</value>
-      <webElementGuid>beb9ed4b-9a5e-4720-971f-0b85c5868125</webElementGuid>
+      <webElementGuid>7ea2d5dd-52ef-4307-b019-1929a68c020b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,16 +84,15 @@
       <name>fill</name>
       <type>Main</type>
       <value>white</value>
-      <webElementGuid>05e806ab-1077-446f-842c-2a29785ee366</webElementGuid>
+      <webElementGuid>daa422c8-0ebb-49f8-af88-a45735d7675b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class, 'agreement_agreementTerms')]//button&#xd;
-</value>
-      <webElementGuid>4128197f-c7e9-4cab-a3dc-2f8906cb9f29</webElementGuid>
+      <value>//div[@class='agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE false false']//button//*[name()='svg']//*[name()='rect']</value>
+      <webElementGuid>1c9c9c5d-b7d8-4671-9c47-7cc27f3f6fc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>css</name>
       <type>Main</type>
       <value>body > div:nth-child(1) > main:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > button:nth-child(1) > svg:nth-child(1) > rect:nth-child(1)</value>
-      <webElementGuid>abc71e0d-1299-45a6-9018-4e0c00f390b0</webElementGuid>
+      <webElementGuid>58582f70-22c8-4a73-a191-effe01f24713</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
