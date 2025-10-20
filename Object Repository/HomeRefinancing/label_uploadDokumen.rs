@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'uploadRefinancing_titleSpan') and (text() = 'Unggah Dokumenmu' or . = 'Unggah Dokumenmu')]</value>
+         <value>//*[(text() = 'Unggah Dokumenmu' or . = 'Unggah Dokumenmu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>uploadRefinancing_titleSpan</value>
-      <webElementGuid>c2e47eb3-1538-4fc4-b949-2afe387dd8a9</webElementGuid>
+      <webElementGuid>f8f52262-8939-4667-85bc-2d77545eb174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Unggah Dokumenmu</value>
-      <webElementGuid>3a638761-0028-4d9f-baa8-e926c2739a73</webElementGuid>
+      <webElementGuid>70211273-5979-4227-884e-0520817d68ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

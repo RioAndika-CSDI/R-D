@@ -33,7 +33,7 @@ String[] os = systemos.split(' ')
 WebUI.comment(os[0])
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 WebUI.delay(5)
 
@@ -96,8 +96,8 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'))
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_list'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
-
-'=== KK PROCESS ==='
+WebUI.delay(3)
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))

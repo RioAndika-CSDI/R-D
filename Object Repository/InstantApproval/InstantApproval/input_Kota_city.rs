@@ -6,15 +6,20 @@
    <elementGuidId>23f126c6-a00c-47c9-a1d8-0cbfbff0f0f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='city']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#city</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='inputSelect_container__q11Yp']//input[@id='city']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='city']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e1a961d9-e392-48df-9a5f-deb5e7e8ae9d</webElementGuid>
+      <webElementGuid>e180cf14-8ac3-42de-bfec-9c69ea7cb04d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c47a08aa-d5cc-44cb-b064-0cf57a7ba81b</webElementGuid>
+      <webElementGuid>5968c80a-6887-4b52-b6ee-48d1d193d40e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +43,31 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField__Zpc6V</value>
-      <webElementGuid>3df5d5e0-804f-46e5-b572-676782d4cf08</webElementGuid>
+      <webElementGuid>78fedadb-9ab8-404e-bb61-c85be7b9a07d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih Kota</value>
-      <webElementGuid>1e4f781a-d1f6-461f-81f2-1c7ea59b342d</webElementGuid>
+      <webElementGuid>5a81e3d8-9bcb-45b4-8a9e-1e262b245dd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>0cad8ebd-a152-4713-976d-d8c718c4dafe</webElementGuid>
+      <webElementGuid>21bb4959-2e5e-4baa-8f2d-828d72e60d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>c1aa6d45-2743-40c4-9f83-c1812a11902f</webElementGuid>
+      <webElementGuid>55e13f20-557c-4470-ae89-9331a4d3c0e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +75,15 @@
       <name>value</name>
       <type>Main</type>
       <value>KABUPATEN PATI</value>
-      <webElementGuid>d8ab31b9-ba35-4b03-8c3f-756b5212435e</webElementGuid>
+      <webElementGuid>8cc32610-1fc4-4468-b75d-b257492a971d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;city&quot;)</value>
-      <webElementGuid>3166c73d-63dc-41f2-8863-7c3642902a52</webElementGuid>
+      <value>//div[@class='inputSelect_container__q11Yp']//input[@id='city']</value>
+      <webElementGuid>38c3c6cb-4ed1-4270-8953-71a51c2d0e80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='city']</value>
-      <webElementGuid>d2b518c5-8e9b-4611-9503-a2bf87b86369</webElementGuid>
+      <webElementGuid>578b00e0-0da0-4cac-bdc8-e94334697fbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[4]/div/div/div/input</value>
-      <webElementGuid>4a148e97-2573-4f2a-964c-3414828a1087</webElementGuid>
+      <webElementGuid>c83559a8-46f0-426b-8b2f-3fd42e5f0694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>0a7d6df8-dac5-4197-b203-d4cf709ce31c</webElementGuid>
+      <webElementGuid>388a3588-1416-49b6-b00b-1019caf1fd0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih Kota' and @id = 'city' and @name = 'city']</value>
-      <webElementGuid>34cbba29-1d54-481d-9730-1f825fdfee71</webElementGuid>
+      <webElementGuid>26eb8ab6-0a61-41cd-9631-461924604a3b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

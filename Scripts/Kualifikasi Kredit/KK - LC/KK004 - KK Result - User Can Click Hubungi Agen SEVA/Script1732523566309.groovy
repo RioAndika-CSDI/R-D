@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/KK001 - Verify User Can Check Kualifikasi Kredit From LC - Not Login'), 
-    [('tenor') : '5 Tahun', ('nomorHP') : '85349524556', ('OTP') : '212121', ('pekerjaan') : 'Desainer & Pekerja Seni', ('pendapatan') : '25000000'
-        , ('reff_code') : '', ('update_pendapatan') : '0', ('update_reff_code') : '0'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/KK001 - Verify User Can Check Kualifikasi Kredit From LC'), 
+    [('tenor') : '5 Tahun', ('nomorHP') : '85349524556', ('OTP') : '123456', ('pekerjaan') : 'Desainer & Pekerja Seni', ('pendapatan') : '25000000'
+        , ('reff_code') : '', ('update_pendapatan') : '1', ('update_reff_code') : '0'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi Agen SEVA'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi Agen SEVA'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Hubungi Agen SEVA'))
+WebUI.delay(3)
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms hubungi agen seva'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Kirim'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms hubungi agen seva'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Kirim'))
 

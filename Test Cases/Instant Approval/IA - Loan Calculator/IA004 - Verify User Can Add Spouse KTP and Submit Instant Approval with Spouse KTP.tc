@@ -4,6 +4,7 @@
    <name>IA004 - Verify User Can Add Spouse KTP and Submit Instant Approval with Spouse KTP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>205487c1-5a55-421f-94d4-055d145fc749</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

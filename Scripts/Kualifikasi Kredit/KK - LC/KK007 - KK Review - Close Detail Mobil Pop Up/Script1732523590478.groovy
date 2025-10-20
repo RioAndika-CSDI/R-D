@@ -21,5 +21,6 @@ WebUI.callTestCase(findTestCase('Kualifikasi Kredit/KK - LC/KK003 - KK Review - 
     [('tenor') : '5 Tahun', ('nomorHP') : '85349524555', ('OTP') : '212121', ('pekerjaan') : 'Desainer & Pekerja Seni', ('pendapatan') : '25000000'
         , ('reff_code') : '', ('update_pendapatan') : '0', ('update_reff_code') : '0'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/close-pop-up-detail-car'))
 

@@ -4,6 +4,7 @@
    <name>KK002 - KK - Verify User Can Click Car Info Card</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>520a2dda-0dce-4a5f-bda2-b63b0fb4868d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

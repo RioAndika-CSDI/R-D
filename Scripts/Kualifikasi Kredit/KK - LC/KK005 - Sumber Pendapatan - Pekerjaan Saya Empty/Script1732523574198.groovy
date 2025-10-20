@@ -27,6 +27,7 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/p_OK, Saya Mengerti'))
 } else {
 KeywordUtil.markPassed('There is no tooltip')
 } */
+WebUI.delay(3)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -52,5 +53,5 @@ if (currentUrl == kkUrl) {
 
 WebUI.delay(10)
 
-WebUI.verifyElementNotClickable(findTestObject('Kualifikasi-Kredit/KK Used/Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/button_Lanjutkan'))
+WebUI.verifyElementNotClickable(findTestObject('Kualifikasi-Kredit/KK Used/button_Lanjutkan kk'))
 

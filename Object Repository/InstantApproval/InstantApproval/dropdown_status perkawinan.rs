@@ -6,18 +6,19 @@
    <elementGuidId>a0a75343-5d71-4cc1-b939-ab5989c0ff3d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id = '${marriage}']</value>
+         <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${marriage}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${marriage}']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='Cerai Hidup']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>057ca4f6-9465-42ba-be3c-883cb68fa9a6</webElementGuid>
+      <webElementGuid>a49e0bee-b3b2-4218-8a2d-ec9e772330cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>${marriage}</value>
-      <webElementGuid>301850ce-4fe2-4ecc-973e-85b3a688dcfd</webElementGuid>
+      <webElementGuid>aaf97324-7cd1-4174-b4c6-f679f9101277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv</value>
-      <webElementGuid>ebe0001d-8dd4-4654-93e6-9753a0b15f10</webElementGuid>
+      <webElementGuid>5bfd4046-98c9-4ad5-ad01-747b9ca63714</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Cerai Hidup</value>
-      <webElementGuid>b662af5f-1103-4b5f-9a3e-62992974e4ff</webElementGuid>
+      <webElementGuid>f3039267-1dd4-407c-9fa8-9aafa3c9d449</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Cerai Hidup&quot;)</value>
-      <webElementGuid>87111b12-aef4-4729-918b-4aeab0214b04</webElementGuid>
+      <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${marriage}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${marriage}']</value>
+      <webElementGuid>c64bbaba-8fce-4b7c-b7b0-8ba489c62787</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='Cerai Hidup']</value>
-      <webElementGuid>5c252dfa-98ca-43a8-8d88-92c1ca239e82</webElementGuid>
+      <webElementGuid>9335ce06-0daa-4bf1-a231-de78e6b530a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[5]/div/div[2]/div[3]</value>
-      <webElementGuid>59ec5e8b-f7c0-46a1-98c3-45a700b82889</webElementGuid>
+      <webElementGuid>de2f4996-666f-48db-8a0b-3129828848bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kawin'])[1]/following::div[1]</value>
-      <webElementGuid>08495b66-c84a-4fb4-9ff4-f965ebc2353f</webElementGuid>
+      <webElementGuid>bd1dc664-71dc-4671-84a5-893bd4e7a18f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum Kawin'])[1]/following::div[4]</value>
-      <webElementGuid>c958b083-9bca-4c5e-aeb1-409db21837b7</webElementGuid>
+      <webElementGuid>2197e9ab-24a5-4498-af6d-90999ebcf2c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerai Mati'])[1]/preceding::div[3]</value>
-      <webElementGuid>dbccd1e4-9f93-485d-8a04-b167db635e73</webElementGuid>
+      <webElementGuid>d31afff0-e0f9-424c-9a88-033a0b029f3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div[3]</value>
-      <webElementGuid>eda524f2-5260-442b-8950-20e781555085</webElementGuid>
+      <webElementGuid>6e167167-3acf-4f77-9ff5-32a2437d304f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'Cerai Hidup' and (text() = 'Cerai Hidup' or . = 'Cerai Hidup')]</value>
-      <webElementGuid>19126473-a628-476d-aa69-4e7d522966ba</webElementGuid>
+      <webElementGuid>562b889e-de0a-4d4a-aae1-36b91fdd101c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

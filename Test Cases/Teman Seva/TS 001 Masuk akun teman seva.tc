@@ -4,6 +4,7 @@
    <name>TS 001 Masuk akun teman seva</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>90128d2d-2b01-42e2-ad8d-1f4f9786ec8b</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

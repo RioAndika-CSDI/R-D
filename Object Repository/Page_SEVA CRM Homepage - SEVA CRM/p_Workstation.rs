@@ -6,12 +6,12 @@
    <elementGuidId>9698123f-6a14-4c21-8cdc-ac52e2d09228</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='radix-:r7:']/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>8afdc330-fec7-461f-887d-89e19441c259</webElementGuid>
+      <webElementGuid>55de5c40-0d35-4626-8048-ff1f5b0cd056</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical</value>
-      <webElementGuid>d948b781-9e7f-4a0c-9620-a22cc3604a95</webElementGuid>
+      <webElementGuid>35efa238-d7b0-4ec6-8970-0544d799eb6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Workstation</value>
-      <webElementGuid>ea5c1521-f82c-47b9-a698-9c187d7a0482</webElementGuid>
+      <webElementGuid>124130f1-edb6-4601-b8d1-f6afda0cca54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r7:&quot;)/div[@class=&quot;flex items-center gap-6&quot;]/p[@class=&quot;hidden min-w-[113px] font-Kanyon text-sm/[19px] font-medium text-text-placeholder group-hover/sidebar:block group-aria-selected/item:font-bold group-aria-selected/item:text-text-critical&quot;]</value>
-      <webElementGuid>94e1a9f7-4e83-4a66-b33f-71668065c73f</webElementGuid>
+      <webElementGuid>1e1efe4c-c74c-4c08-b019-ae072d76df35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r7:']/div/p</value>
-      <webElementGuid>a0bbef22-f037-47a0-93b3-3aafb21253e9</webElementGuid>
+      <webElementGuid>a07ace88-d7f3-4b4d-bf50-59f6f005c217</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to SEVA CRM'])[1]/following::p[2]</value>
-      <webElementGuid>a5140404-3745-43ed-9d33-b58e7110c047</webElementGuid>
+      <webElementGuid>93ead336-a144-411f-acd6-43ff0992936b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SEVA CRM Homepage'])[1]/following::p[2]</value>
-      <webElementGuid>f8930fe5-6ac6-486f-814d-3e50d9242113</webElementGuid>
+      <webElementGuid>8301e5a4-08d9-4b05-bd86-c1e59b4c3fff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Workstation']/parent::*</value>
-      <webElementGuid>fc0aa2fb-82c9-4a1e-b7e8-61d5bf3a6f47</webElementGuid>
+      <webElementGuid>80f418a8-048d-43db-b19c-e7542737840d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/p</value>
-      <webElementGuid>04f1faf6-d386-47d3-a51a-b7e3f0f258b6</webElementGuid>
+      <webElementGuid>1edd4387-2f25-4f52-9ea4-727db00fb868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Workstation' or . = 'Workstation')]</value>
-      <webElementGuid>969d3899-246d-4caf-bb60-4c408f362633</webElementGuid>
+      <webElementGuid>eee5763a-cd39-46f9-b169-50412237338f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

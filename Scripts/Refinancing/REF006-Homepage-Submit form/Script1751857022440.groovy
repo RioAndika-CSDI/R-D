@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint			
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -12,23 +12,41 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.By
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil
+import org.openqa.selenium.interactions.Actions
+import org.openqa.selenium.support.ui.WebDriverWait
+import org.openqa.selenium.support.ui.ExpectedConditions
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.interactions.Actions
+
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser('https://www.seva.id')
-
-    WebUI.setViewPortSize(570, 912 // Responsive mode
-        )
+    WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
+
 JavascriptExecutor jsbefore = (JavascriptExecutor) DriverFactory.getWebDriver()
 jsbefore.executeScript("""
     var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
@@ -36,7 +54,11 @@ jsbefore.executeScript("""
         iframe.remove();
     }
 """)
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
+WebUI.takeScreenshot()
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
+WebUI.delay(20)
+
 
 WebUI.delay(20)
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
@@ -63,6 +85,8 @@ jsrefi.executeScript("""
 
 WebUI.click(findTestObject('HomeRefinancing/SubMenu_FasilitasDana'))
 
+WebUI.delay(15)
+
 def actURL = WebUI.getUrl()
 
 WebUI.verifyMatch(actURL, expected_url, true)
@@ -86,21 +110,67 @@ js2.executeScript("""
     }
 """)
 
-WebUI.click(findTestObject('HomeRefinancing/responsive mode/lokasi_form1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('HomeRefinancing/responsive mode/dropdown svg'), FailureHandling.STOP_ON_FAILURE)
+WebDriver driver = DriverFactory.getWebDriver()
+TestObject dropdown = findTestObject('Object Repository/HomeRefinancing/responsive mode/dropdown svg')
+WebElement element = WebUI.findWebElement(dropdown)
+((JavascriptExecutor) driver).executeScript("arguments[0].click();", element)
 
-JavascriptExecutor js3 = (JavascriptExecutor) DriverFactory.getWebDriver()
-js3.executeScript("""
-    var iframe = document.querySelector('iframe[id*="moe-onsite-campaign"]');
+def selectRandomOption(String label) {
+	WebDriver driver = DriverFactory.getWebDriver()
+	WebDriverWait wait = new WebDriverWait(driver, 10)
 
-    if (iframe) {
-        iframe.remove();
-    }
-""")
+	// ✅ Ambil semua dropdown yang aktif (buka)
+	List<WebElement> allDropdowns = driver.findElements(By.xpath("//div[contains(@class,'inputSelect_dropdownRefinancingCity')]"))
+	if (allDropdowns.size() == 0) {
+		println("❌ Tidak ada dropdown aktif untuk ${label}")
+		return null
+	}
+
+	// ✅ Ambil dropdown terakhir (biasanya yang baru diklik)
+	WebElement activeDropdown = allDropdowns.last()
+	List<WebElement> options = activeDropdown.findElements(By.xpath(".//button[not(contains(@style,'display: none'))]//div[contains(@class,'inputSelect_dropdownItemText')]"))
+
+	println("🔍 Ditemukan ${options.size()} opsi untuk ${label}")
+
+	if (options.size() == 0) {
+		println("❌ Tidak ada opsi ditemukan untuk ${label}")
+		return null
+	}
+
+// ✅ Pilih salah satu random
+int randomIndex = new Random().nextInt(options.size())
+WebElement selected = options[randomIndex]
+String selectedText = selected.getText().trim()
+println("✅ ${label} terpilih: " + selectedText)
+
+// ✅ Scroll dan klik via JS agar React mengenali event
+((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selected)
+WebUI.delay(0.5)
+((JavascriptExecutor) driver).executeScript("arguments[0].click();", selected)
+
+// ✅ Tunggu dropdown itu aja hilang
+wait.until(ExpectedConditions.invisibilityOf(activeDropdown))
+
+WebUI.delay(1)
+return selectedText
+
+}
+WebUI.click(findTestObject('Object Repository/HomeRefinancing/province'))
+String province = selectRandomOption("Provinsi")
+
+WebUI.click(findTestObject('Object Repository/HomeRefinancing/kabupaten'))
+String kabupaten = selectRandomOption("Kabupaten")
+
+WebUI.click(findTestObject('Object Repository/HomeRefinancing/kecamatan'))
+String kecamatan = selectRandomOption("Kecamatan")
+
+WebUI.click(findTestObject('Object Repository/HomeRefinancing/kelurahan'))
+String kelurahan = selectRandomOption("Kelurahan")
 
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('HomeRefinancing/responsive mode/id lokasi form1'))
 
 def inputField = findTestObject('Object Repository/HomeRefinancing/responsive mode/reffcode_form1')
 
@@ -129,11 +199,6 @@ if (WebUI.verifyElementPresent(findTestObject('HomeRefinancing/responsive mode/e
 }
 
 // SUBMIT
-WebUI.click(findTestObject('HomeRefinancing/responsive mode/lokasi_form1'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('HomeRefinancing/responsive mode/id lokasi form1'))
 
 WebUI.click(ceklistBtn)
 
@@ -169,7 +234,7 @@ WebUI.waitForPageLoad(10)
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Refinancing/API local storage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Refinancing/API local storage'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

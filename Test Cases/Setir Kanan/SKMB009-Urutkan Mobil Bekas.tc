@@ -4,7 +4,6 @@
    <name>SKMB009-Urutkan Mobil Bekas</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>23a12e34-cd5c-4b01-86e7-4660a64b5eca</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

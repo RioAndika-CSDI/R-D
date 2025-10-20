@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'input-email']</value>
+         <value>//input[@placeholder='Masukkan email'][count(. | //*[@data-testid = 'input-email']) = count(//*[@data-testid = 'input-email'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,14 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>input-email</value>
-      <webElementGuid>eff2a3c9-eb7a-4437-8f63-05466f99d255</webElementGuid>
+      <webElementGuid>53959e5d-16c8-43b7-b433-e90ed5a1bdb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@placeholder='Masukkan email']</value>
+      <webElementGuid>9a4a77ac-fea0-4d42-b2c3-8b2fbe8739e3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

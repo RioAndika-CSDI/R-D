@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//h1[(contains(text(), 'Kebijakan Privasi') or contains(., 'Kebijakan Privasi'))]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[normalize-space()='Kebijakan Privasi']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>1f860dfa-55c7-4a41-83b1-f27010440f43</webElementGuid>
+      <webElementGuid>779a2a22-e6f4-4ed1-bd96-3d96b6efb71f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +31,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Kebijakan Privasi</value>
-      <webElementGuid>b3571826-9e5d-4a17-8aa2-310014697123</webElementGuid>
+      <webElementGuid>cfc68d41-5f2f-431f-9797-6d4ca1331149</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

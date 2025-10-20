@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -19,6 +19,21 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+//if (open_browser.toString().equals('1')) {
+//    WebUI.openBrowser('seva.id')
+//
+//    WebUI.setViewPortSize(570, 912)
+//}
+
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.firefox.FirefoxOptions
+
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
 
@@ -29,7 +44,9 @@ JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecu
 
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
+WebUI.takeScreenshot()
+WebUI.enhancedClick(findTestObject('Homepage Component/Button_Hamburger Menu'))
 WebUI.delay(20)
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)

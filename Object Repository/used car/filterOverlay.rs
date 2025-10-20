@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@data-testid = 'button-sorting-harga']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@data-testid = 'button-sorting-harga'])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,7 +22,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rotateChevron_arrowIcon</value>
-      <webElementGuid>f9512711-562b-4a7f-b9d0-454c1eeed7d6</webElementGuid>
+      <webElementGuid>ef06914c-7e0a-4355-bb10-887e426b8e3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-sorting-harga</value>
-      <webElementGuid>9284635d-808a-462e-a0fb-1e8d5335c26f</webElementGuid>
+      <webElementGuid>5cce2df3-1456-4154-92f0-e756b6f25a4b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

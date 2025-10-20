@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CSA Leader (1) (1)</name>
+   <tag></tag>
+   <elementGuidId>5f58ecde-911a-411a-94cd-11b2d90a2e13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;CSA Leader&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d2555086-a24e-4540-a4b3-6971171bf1e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d726cba7-02bf-4451-8d4b-9c2f42a7ed16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-plain text-text-primary border border-line [&amp;_svg]:text-icon-brand-red hover-active:enabled:bg-hover-white [&amp;_svg]:active:enabled:text-[#821D1D] text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 h-12 w-full py-2</value>
+      <webElementGuid>783c6d89-e47d-45fb-8ff5-fac024c8abb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CSA Leader</value>
+      <webElementGuid>d8fc0309-d0b9-464f-be1d-0fe1570d3a6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-screen bg-white max-[1023px]:min-w-[1440px] lg:min-w-full&quot;]/div[@class=&quot;relative flex w-[591px] flex-col items-start justify-center gap-4 p-[49px]&quot;]/div[@class=&quot;w-full flex-grow overflow-auto flex&quot;]/div[@class=&quot;m-auto max-w-[400px]&quot;]/div[@class=&quot;mx-auto mt-10 w-[286px] space-y-4&quot;]/button[@class=&quot;group flex items-center justify-center m-0 outline-none transition-all text-center font-bold rounded focus-visible:ring-2 focus-visible:ring-line-link focus-visible:ring-offset-2 disabled:text-text-disabled [&amp;_svg]:disabled:text-icon-disabled bg-surface-plain text-text-primary border border-line [&amp;_svg]:text-icon-brand-red hover-active:enabled:bg-hover-white [&amp;_svg]:active:enabled:text-[#821D1D] text-button-regular gap-2 px-4 [&amp;_svg]:size-4 shadow-elevation-7 h-12 w-full py-2&quot;]</value>
+      <webElementGuid>36bf1826-4292-4e66-b46e-fcfa08cbb18f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>2c49e5c6-1fbb-4779-ba9f-7c69346787f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/button[2]</value>
+      <webElementGuid>c1703d68-0c50-4d01-8d04-16069a42d320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome Back, Ayu Anggraini'])[1]/following::button[2]</value>
+      <webElementGuid>83f548bb-9711-452d-8d07-a7907063c28d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>d08d40da-5d03-414a-b0fa-6d801a3f4260</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'CSA Leader' or . = 'CSA Leader')]</value>
+      <webElementGuid>8d85de0a-943b-4e3f-80e3-0f8775566f05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

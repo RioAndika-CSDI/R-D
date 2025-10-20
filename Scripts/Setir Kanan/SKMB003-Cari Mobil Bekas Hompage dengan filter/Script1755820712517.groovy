@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -24,33 +24,34 @@ import org.openqa.selenium.WebElement as WebElement
 import java.util.Random as Random
 import org.openqa.selenium.interactions.Actions as Actions
 
+
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
+
+    WebUI.setViewPortSize(570, 912)
 }
 
 JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 10)
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/menu_mobilBekas_burgerMenu'))
 
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
-
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 10)
-
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/lihat_semua_mobilBekas_burgerMenu'))
 
 WebUI.delay(15)
 
 WebUI.click(findTestObject('used car/filter'))
 
 WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('used car/detail mobil'), 10)
 
 WebUI.click(findTestObject('used car/detail mobil'))
 
@@ -324,22 +325,30 @@ if (isErrorMaxHarga) {
 }
 
 //maxDP dan pendapatan 
-WebUI.clearText(findTestObject('used car/maximumDP'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('used car/maximumDP'), 10)
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 
-WebUI.setText(findTestObject('used car/maximumDP'), '100000000')
-
-WebUI.sendKeys(findTestObject('used car/maximumDP'), Keys.chord(Keys.ENTER))
+js.executeScript("arguments[0].scrollIntoView(true); arguments[0].focus(); arguments[0].value='100000000';", element)
+js.executeScript("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));", element)
 
 String finalMaxDP = WebUI.getAttribute(findTestObject('used car/maximumDP'), 'value')
 
 WebUI.comment('Maximum DP terisi: ' + finalMaxDP)
 
 //Pendapatan Perbulan
-WebUI.clearText(findTestObject('used car/pendapatanPerbulan'))
+WebElement elementPendapatan = WebUiCommonHelper.findWebElement(findTestObject('used car/pendapatanPerbulan'), 10)
+JavascriptExecutor jsExec = (JavascriptExecutor) DriverFactory.getWebDriver()
 
-WebUI.setText(findTestObject('used car/pendapatanPerbulan'), '10000')
+jsExec.executeScript("""
+    arguments[0].scrollIntoView(true);
+    arguments[0].focus();
+    arguments[0].value='10000';
+    arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+    arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+    arguments[0].dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
+    arguments[0].dispatchEvent(new KeyboardEvent('keyup', { bubbles: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
+""", elementPendapatan)
 
-WebUI.sendKeys(findTestObject('used car/pendapatanPerbulan'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(1)
 

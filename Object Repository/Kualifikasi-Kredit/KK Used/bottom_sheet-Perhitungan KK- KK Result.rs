@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'popup-credit-qualification-result_popupTitle')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>class</name>
       <type>Main</type>
       <value>popup-credit-qualification-result_popupTitle</value>
-      <webElementGuid>600a280b-0a03-4f09-be1b-6a1765fb1e60</webElementGuid>
+      <webElementGuid>3209eca9-799d-464e-ba60-1a6346b5a4a4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

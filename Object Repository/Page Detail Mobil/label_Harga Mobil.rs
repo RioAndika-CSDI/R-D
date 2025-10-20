@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'carVariantList_titlePrice')]</value>
+         <value>//*[starts-with(@class, 'pdpUsedCar_titlePrice')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>carVariantList_titlePrice</value>
-      <webElementGuid>10c55750-9dab-4618-9c2b-bcbdf96751d9</webElementGuid>
+      <value>pdpUsedCar_titlePrice</value>
+      <webElementGuid>52db9531-c880-46e9-87cd-875471be45b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

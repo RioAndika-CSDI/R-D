@@ -4,5 +4,6 @@
    <name>IA003 CSA - Verify CSA Can Click Hitung Kemampuan</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c52390a2-011d-4e76-b6cb-49e9cd33d6e8</testCaseGuid>
 </TestCaseEntity>

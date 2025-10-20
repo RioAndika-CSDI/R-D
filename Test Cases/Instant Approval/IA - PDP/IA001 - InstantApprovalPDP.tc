@@ -4,5 +4,6 @@
    <name>IA001 - InstantApprovalPDP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>21353951-3156-4183-a63b-c981744380da</testCaseGuid>
 </TestCaseEntity>

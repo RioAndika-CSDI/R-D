@@ -4,6 +4,7 @@
    <name>KK001 - Verify User Can Check Kualifikasi Kredit From LC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>267da872-84eb-4ba8-ae7a-17606a608d7e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -43,19 +43,7 @@ if (true) {
 		WebUI.comment("Actual text found: '" + actualText + "'")
 		assert actualText.contains("Your assigned leads will appear here.")
 	}
-//if (true) {
-//   TestObject leadTextObj = new TestObject()
-//leadTextObj.addProperty("xpath", ConditionType.EQUALS, "(//div[contains(.,'Your assigned leads will appear here.')])[7]")
-//
-//WebUI.waitForElementVisible(leadTextObj, 10)
-//
-//WebElement element = WebUiCommonHelper.findWebElement(leadTextObj, 10)
-//
-//String actualText = element.getText()
-//
-//WebUI.comment("Actual text found: '" + actualText + "'")
-//
-//assert actualText.contains("Your assigned leads will appear here.")
+
 } else {
     WebUI.verifyElementVisibleInViewport(findTestObject('CRM/Workstation/Lead Workstation/btn_Stop Workstation'), 0)
 

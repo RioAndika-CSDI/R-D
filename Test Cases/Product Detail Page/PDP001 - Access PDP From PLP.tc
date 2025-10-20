@@ -4,6 +4,7 @@
    <name>PDP001 - Access PDP From PLP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>40cf3c56-acc5-47e1-8fac-853b08c7dc41</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

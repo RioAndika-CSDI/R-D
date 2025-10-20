@@ -32,13 +32,13 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 'Click Moengage Ads\r\n'
 WebUI.delay(1)
 
 'Click Burger Menu'
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 'Click Burger Menu'
 WebUI.click(findTestObject('Homepage Component/button_Masuk  Register'))
@@ -53,9 +53,9 @@ WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
 WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 5)
 
-WebUI.waitForElementPresent(findTestObject('Homepage Component/Burger_Button_Baru'), 120)
+WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 120)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(0)
 

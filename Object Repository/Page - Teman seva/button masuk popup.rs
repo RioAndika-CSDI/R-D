@@ -6,11 +6,15 @@
    <elementGuidId>75e4210c-1b99-402e-babb-03928fbb13a1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[starts-with(@class, 'loginAlertModal_styledButton') and normalize-space(text())='Masuk']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'loginAlertModal_styledButton')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,6 @@
       <name>class</name>
       <type>Main</type>
       <value>loginAlertModal_styledButton</value>
-      <webElementGuid>733e3c79-d791-43ca-a010-1fd5f1151232</webElementGuid>
+      <webElementGuid>d5b6abe7-d531-4c05-9877-04c36042b4a3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
