@@ -19,11 +19,29 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f3e1f41-6649-4e23-a294-fc5fefc5d36c</guid>
+      <guid>f4f53ee2-3581-44a1-bd7c-64a5f7b70df5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Homepage/Homepage - Web Responsive Mode/H0002 - VerifyUserCanChooseCarFromHomepage</testCaseId>
+      <testCaseId>Test Cases/Homepage/Homepage - Web Desktop Mode/H0002 Desktop - VerifyUserCanChooseCarFromHomepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66121ce6-cfe9-42a7-8d3e-748ea7805a15</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ac4650d-fed6-4065-a992-51a98b2a9730</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5fafb97-a872-44aa-b18a-2c8a1ea134f1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e01d92bb-9505-4815-a6d5-c2e0e2b9ea8a</guid>

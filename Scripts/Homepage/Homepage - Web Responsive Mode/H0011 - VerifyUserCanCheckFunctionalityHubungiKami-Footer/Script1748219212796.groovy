@@ -41,7 +41,8 @@ WebUI.setText(findTestObject('Homepage Component/leads-form-input-no-hp'), '8534
 
 WebUI.click(findTestObject('Homepage Component/checkbox-agreement-pop-up-leads-form'))
 
-WebUI.click(findTestObject('Homepage Component/checkbox-agreement-promo-terms-pop-up-leads-form'))
+'Update object\r\n'
+WebUI.click(findTestObject('Homepage Component/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/checkbox-agreement-promo-term'))
 
 WebUI.click(findTestObject('Homepage Component/button-submit-leads-pop-up'))
 

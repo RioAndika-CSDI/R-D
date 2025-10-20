@@ -4,5 +4,6 @@
    <name>H0018 Desktop - VerifyUserCanChooseCityFromPopupCitySelector</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9a58a92c-451c-466c-83fa-be0042524690</testCaseGuid>
 </TestCaseEntity>

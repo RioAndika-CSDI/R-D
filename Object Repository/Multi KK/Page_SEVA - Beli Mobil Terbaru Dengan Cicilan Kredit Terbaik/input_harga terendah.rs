@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Harga Terendah</name>
+   <name>input_harga terendah</name>
    <tag></tag>
-   <elementGuidId>0e72019a-f42f-4f0c-bcf9-b332debf96eb</elementGuidId>
+   <elementGuidId>5cdf9e56-d03b-4188-8cf0-8b790d2c0fcb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Rp1']</value>
+         <value>(//input[@value=''])[9]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input.input_input__MAvlc.input_error__te3cX.shake-animation-X</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@placeholder = 'Masukkan harga terendah']</value>
+         <value>div.multi-kk_formRange__afc_i > div > div.undefined.multi-kk_desktopInputWrapper__u6BEu > input.input_input__c0tP8</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2b2cd87f-f69c-4a80-9c94-549189d22455</webElementGuid>
+      <webElementGuid>1c988aa9-133c-4b4a-9fd9-22f4c934c1e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_input__MAvlc input_error__te3cX shake-animation-X</value>
-      <webElementGuid>4029514c-4439-4b01-a65e-d0db92c48e5f</webElementGuid>
+      <value>input_input__c0tP8</value>
+      <webElementGuid>62745613-e078-466b-82d5-1b29a9d8fcb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +39,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan harga terendah</value>
-      <webElementGuid>9a40fcea-4ffa-458b-aab9-cf9771157aa8</webElementGuid>
+      <webElementGuid>dabc25de-0278-460d-9794-b95c17184ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,47 +47,39 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>2fb23388-bf84-450d-8300-34e9f012a444</webElementGuid>
+      <webElementGuid>ddf23326-ac04-4630-b7b6-0f635065774f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>7c7bd8dd-547b-4048-93b7-6e4fe2fa6891</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Rp1</value>
-      <webElementGuid>bb2fc5e5-dc73-4858-b693-4fb478ae7905</webElementGuid>
+      <webElementGuid>88b4c07e-ef1c-454e-8cc8-3d9692d2dbcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_formRange__ioBGw&quot;]/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__MAvlc input_error__te3cX shake-animation-X&quot;]</value>
-      <webElementGuid>b51518f1-81b0-45e5-a1a3-c35e400a57b4</webElementGuid>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_68dd7a __variable_28d149 __variable_82b384 __variable_5bc320 __variable_4eb681 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[@class=&quot;pageLayout_containerResponsive__lYUnT&quot;]/div[@class=&quot;multi-kk_wrapperMobile__ZqC1X&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_formRange__afc_i&quot;]/div[1]/div[@class=&quot;undefined multi-kk_desktopInputWrapper__u6BEu&quot;]/input[@class=&quot;input_input__c0tP8&quot;]</value>
+      <webElementGuid>2a388b7e-667d-4c3c-b646-3c1e3e246bf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Rp1']</value>
-      <webElementGuid>263d4918-4075-49e7-ad7b-8bf8df7e31b9</webElementGuid>
+      <value>(//input[@value=''])[9]</value>
+      <webElementGuid>221490e6-64d0-4388-aa8d-e664a779ab8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>cfba641e-a4fc-44d9-ae1b-29e98f903c4c</webElementGuid>
+      <value>//div[@id='__next']/main/div/div[4]/div/div[2]/div[2]/div/div/input</value>
+      <webElementGuid>38bd50a1-6fee-471a-8ba5-be04fb7fa3ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>7e183b20-d940-413b-ab98-a6d4867088dc</webElementGuid>
+      <webElementGuid>b2844571-b911-4a79-9f7d-7c0489f24283</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan harga terendah' and @type = 'tel']</value>
-      <webElementGuid>8e11602c-c604-4655-8ec0-47ea7912301b</webElementGuid>
+      <webElementGuid>42d081bb-3070-4103-ac56-9a4201d74480</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

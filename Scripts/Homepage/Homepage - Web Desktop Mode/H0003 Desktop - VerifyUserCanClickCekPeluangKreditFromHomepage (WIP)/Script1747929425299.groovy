@@ -31,11 +31,13 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 WebUI.click(findTestObject('Homepage Component/button_Cek Kualifikasi Kredit'))
 
-WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label Kualifikasi'), 100)
+WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label Kualifikasi'), 10)
 
 Url_act = WebUI.getUrl()
 
-WebUI.verifyMatch(Url_act, "https://www\\.seva\\.id/kalkulator-kredit\\?from=homepageTopCTA", true)
+String actualUrl = WebUI.getUrl()
+WebUI.verifyMatch(actualUrl, 'https://www.seva.id/kalkulator-kredit?from=homepageTopCTA', false) //Update URL terbaru
+
 
 WebUI.closeBrowser()
 

@@ -23,25 +23,26 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perj
 
 try {
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
 }
+catch (Exception e) {
+    println('Popup Promo Selengkapnya tidak muncul, dilewati.')
+} 
 
 try {
     CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
 }
+catch (Exception e) {
+    println('Popup Update Seva tidak muncul, dilewati.')
+} 
 
 try {
     CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
 }
+catch (Exception e) {
+    println('Popup Pilih Lokasi tidak muncul, dilewati.')
+} 
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
 
@@ -50,3 +51,4 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/Sorting Harga Mobil
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Sorting Harga Mobil/sorting_harga_tertinggi'))
 
 WebUI.closeBrowser()
+
