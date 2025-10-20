@@ -49,7 +49,7 @@ if (tab == 'Semua') {
     WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'), 
         FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('CRM/Homepage/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/div_wuling'))
+    WebUI.click(findTestObject('CRM/Homepage/Fasilitas Dana -Homepage/div_wuling'))
 } else if (tab == 'BYD') {
     WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/div_Hyundai'))
 

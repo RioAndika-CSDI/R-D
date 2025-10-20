@@ -37,19 +37,22 @@ Url_act = WebUI.getUrl()
 
 WebUI.verifyMatch(Url_act, 'https://www.seva.id/kualifikasi-kredit/multi', true)
 
-WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Terendah'), 
-    '1000000000')
+//WebUI.sendKeys(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Terendah'), 
+// '10000000')
+WebUI.setText(findTestObject('Page Kemampuan Kredit/Page_SEVA -Multi KK/input_Jakarta Pusat_input_input__c0tP8'), '200000000')
 
+//WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Tertinggi'), 
+// '2000000000')
 WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Harga Tertinggi'), 
-    '2000000000')
+    '200000000')
 
 WebUI.scrollToElement(findTestObject('Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Label_Maksimum DP'), 
     0)
 
-WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_DP'), 
+WebUI.sendKeys(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_DP'), 
     '500000000')
 
-WebUI.setText(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Pendapatan'), 
+WebUI.sendKeys(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Input_Pendapatan'), 
     '100000000')
 
 WebUI.click(findTestObject('Object Repository/Page Kemampuan Kredit/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/Tenor'))

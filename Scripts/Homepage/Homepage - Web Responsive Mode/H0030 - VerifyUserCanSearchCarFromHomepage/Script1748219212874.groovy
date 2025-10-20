@@ -55,8 +55,7 @@ WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobi
 WebUI.delay(10)
 
 //WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter'), 10)
-
-TestObject label_title_card_mobil = findTestObject('Page Mobil Bekas/label_Title Card Mobil')
+TestObject label_title_card_mobil = findTestObject('Page PLP Mobil Baru/Tlitle PLP Mobil Baru by index')
 
 WebUI.waitForElementVisible(label_title_card_mobil, 10)
 
@@ -74,7 +73,7 @@ String[] brand = title_card.split(' ')
 //
 //WebUI.verifyElementPresent(findTestObject('Page Detail Mobil Baru/label_Title Detai Mobil Baru (variable)', [('title') : title_card]),
 //	0)
-List<String> expectedBrands = ["Toyota", "Daihatsu", "Honda", "BMW", "BYD", "Wuling"]
+List<String> expectedBrands = ['Toyota', 'Daihatsu', 'Honda', 'BMW', 'BYD', 'Wuling']
 
 boolean isValid = expectedBrands.contains(brand[0])
 

@@ -38,12 +38,11 @@ WebUI.delay(10)
 WebUI.switchToWindowIndex(1)
 
 //WebUI.switchToWindowTitle('Tentang Kami - SEVA')
-
 WebUI.delay(15)
 
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/h2_Tentang Kami'), 0)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tentang Kami - SEVA/p_SEVA adalah platform yang dioperasikan ol_f9508e'), 
-    0)
+    5)
 
 WebUI.closeBrowser()
 

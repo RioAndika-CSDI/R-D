@@ -19,23 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.setViewPortSize(570, 912)
-
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
+CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Object Repository/Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_Cek Kualifikasi Kredit'))
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage Component/Label Kualifikasi Kredit Mobil Impian'), 0)
 
-WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label Kualifikasi'), 100)
+WebUI.click(findTestObject('Object Repository/Homepage Component/Label Kualifikasi Kredit Mobil Impian'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page Kualifikasi/label_Header Label Kualifikasi'), 100)
 
 Url_act = WebUI.getUrl()
 
-WebUI.verifyMatch(Url_act, 'https://www.seva.id/kalkulator-kredit?from=homepageTopCTA', false) //update URL
+WebUI.verifyMatch(Url_act, 'https://www.seva.id/kualifikasi-kredit/multi', true)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('null'))
+
+WebUI.sendKeys(findTestObject('null'), 
+    '10000000')
 

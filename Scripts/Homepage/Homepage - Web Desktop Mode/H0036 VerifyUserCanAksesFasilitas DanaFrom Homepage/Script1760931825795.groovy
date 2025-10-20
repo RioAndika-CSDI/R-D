@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.setViewPortSize(570, 912)
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/h1_Menemani Perjalanan Finansial Mobil Barumu'))
 
@@ -29,13 +29,9 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(5)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
-WebUI.click(findTestObject('Homepage Component/button_Cek Kualifikasi Kredit'))
+WebUI.click(findTestObject('CRM/Homepage/Fasilitas Dana -Homepage/Tab Fasilitas Dana'))
 
-WebUI.waitForElementPresent(findTestObject('Page Kualifikasi/label_Header Label Kualifikasi'), 100)
-
-Url_act = WebUI.getUrl()
-
-WebUI.verifyMatch(Url_act, 'https://www.seva.id/kalkulator-kredit?from=homepageTopCTA', false) //update URL
+WebUI.click(findTestObject('CRM/Homepage/Fasilitas Dana -Homepage/button ajukan sekarang'))
 
 WebUI.closeBrowser()
 

@@ -16,8 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -41,14 +41,14 @@ WebUI.setText(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mo
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/input_Pilih lokasi pembelian mobilmu_inputS_6b2c7f'))
 
 'belumdibuat variable, kalo ganti data di input city jangan lupa ganti value di parameter Test Object'
-WebUI.waitForElementVisible(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']), 0)
+WebUI.waitForElementVisible(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']), 5)
 
 'belumdibuat variable, kalo ganti data di input city jangan lupa ganti value di parameter Test Object'
 WebUI.click(findTestObject('Homepage - PLP/Pilihan_City', [('city') : 'Jakarta Pusat']))
 
 WebUI.click(findTestObject('Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Mulai Cari Mobil'))
 
-WebUI.scrollToElement(findTestObject('Homepage Desktop Mode/scroll to promo'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Desktop Mode/scroll to promo'), 5)
 
 WebUI.delay(10)
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Homepage Desktop Mode/navbar-mobil baru'))
 WebUI.click(findTestObject('Homepage Desktop Mode/navbar-submenu-lihat semua mobil'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Beli Mobil Baru 2024 - Harga OTR denga_2c21df/span_Jakarta Pusat (3)'), 
-    0)
+    5)
 
 WebUI.closeBrowser()
 

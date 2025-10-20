@@ -40,9 +40,9 @@ WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Pag
 
 WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
-WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 0)
+WebUI.verifyElementPresent(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 5)
 
-WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 0)
+WebUI.scrollToElement(findTestObject('Page Mobil Bekas/Navigator_Filter', [('filter') : 'Isuzu']), 5)
 
 if (findTestObject('Object Repository/Page PLP Mobil Baru/Empty State title - Tidak ada mobil')) {
     WebUI.comment('Passed : Isuzu OTR might be not live')

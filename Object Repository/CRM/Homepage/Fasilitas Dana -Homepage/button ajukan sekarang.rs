@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button ajukan sekarang</name>
+   <tag></tag>
+   <elementGuidId>498ba5a9-7229-4ec4-8f4b-16a78a148231</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.searchWidgetRefinancing_styledButtonMobile__ii1Ri.undefined.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-upper-content']/div[3]/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3a7ae2cd-4772-4275-b5e7-da82ad82c4f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS searchWidgetRefinancing_styledButtonMobile__ii1Ri undefined undefined</value>
+      <webElementGuid>9531e906-d264-4f2f-9968-7ef0dffca624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-ajukan-sekarang</value>
+      <webElementGuid>b19d3c1d-53be-4d40-ad31-f362f8da72c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Ajukan fasilitas dana sekarang</value>
+      <webElementGuid>19ea0d62-2396-4c13-adcc-799cdaa4d989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ajukan Sekarang</value>
+      <webElementGuid>158f17a3-e92e-44d8-9959-1e8006df9a4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;searchWidgetSection_content__CArZF&quot;]/div[1]/div[@class=&quot;searchWidgetRefinancing_buttonWrapper__w4vsY&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS searchWidgetRefinancing_styledButtonMobile__ii1Ri undefined undefined&quot;]</value>
+      <webElementGuid>19614ebc-7dfa-40fe-9ec8-1decddd34c1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[3]/div/div[3]/button</value>
+      <webElementGuid>ad4fb24d-7f26-4958-8d5a-18c2efdf6df1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor sampai'])[1]/following::button[1]</value>
+      <webElementGuid>45a5dbc9-76a5-4bf2-8594-0e39ad00b7b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp500jt'])[1]/following::button[1]</value>
+      <webElementGuid>9aa2454d-6536-45d5-b59f-19583fe45d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/button</value>
+      <webElementGuid>306f5ac8-181c-4adf-b79b-cfedc9905360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Ajukan Sekarang' or . = 'Ajukan Sekarang')]</value>
+      <webElementGuid>02485f73-8a41-4714-aba2-8582f8ab0e87</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
