@@ -33,3 +33,7 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerm
 WebUI.delay(2)
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Kirim'))
 
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms hubungi agen seva'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Kirim'))
+
