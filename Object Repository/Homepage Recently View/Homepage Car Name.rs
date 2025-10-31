@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Homepage Lihat Detail</name>
+   <name>Homepage Car Name</name>
    <tag></tag>
-   <elementGuidId>ba20d6dd-feef-45a9-bdb5-70e7abb08742</elementGuidId>
+   <elementGuidId>d0e478df-c57a-480e-a744-acba552b3663</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'button-lihat-snk' and starts-with(@class, 'carRecomendations_alternativeCarLinkDesktop')]</value>
+         <value>//h4[normalize-space()='${car_name}']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -20,17 +20,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>button-lihat-snk</value>
-      <webElementGuid>2e314abd-9e7c-4d50-967e-87f4f5e7a9f5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>carRecomendations_alternativeCarLinkDesktop</value>
-      <webElementGuid>1221ca28-deff-4eec-914a-8cf5d68b24a7</webElementGuid>
+      <value>//h4[normalize-space()='${car_name}']</value>
+      <webElementGuid>ee077da1-3bd9-4386-9b3e-114cec4210c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

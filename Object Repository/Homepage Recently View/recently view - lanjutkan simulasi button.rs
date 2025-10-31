@@ -7,23 +7,24 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'recentlyViewedCardItem_ctaTextDesktop') and (text() = 'Lanjutkan Simulasi' or . = 'Lanjutkan Simulasi')]</value>
+         <value>//*[starts-with(@class, 'recentlyViewedCardItem_ctaText__jF4S1') and (text() = 'Lanjutkan Simulasi' or . = 'Lanjutkan Simulasi')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Lanjutkan Simulasi']
+         <value>//*[contains(@class, 'recentlyViewedCardItem_ctaText__jF4S1') and contains(., 'Lanjutkan Simulasi')]&#xd;
 </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>recentlyViewedCardItem_ctaTextDesktop</value>
-      <webElementGuid>85e4b119-41d3-4d04-9407-356f0db5220d</webElementGuid>
+      <value>recentlyViewedCardItem_ctaText__jF4S1</value>
+      <webElementGuid>4ca4a23b-bbb2-467b-b00d-0dabade6febf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,6 +32,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjutkan Simulasi</value>
-      <webElementGuid>1cd3aadd-69f3-47da-9b8f-3a2779c0cb5e</webElementGuid>
+      <webElementGuid>def0b3ed-05bf-44ba-99e1-92d630447802</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

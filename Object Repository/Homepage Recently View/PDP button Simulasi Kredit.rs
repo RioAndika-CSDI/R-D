@@ -7,21 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'button-hitung-kemampuan']</value>
+         <value>//div[@class='carVariantList_contentDesktop__uNKgV']//div//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS creditTab_buttonSubmitPDP__ud2WR'][normalize-space()='Simulasi Kredit']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@data-testid = 'button-hitung-kemampuan'])[5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>button-hitung-kemampuan</value>
-      <webElementGuid>fd56902b-843d-4892-82b5-843014a02cd7</webElementGuid>
+      <webElementGuid>61aaf5a2-ca27-4e5f-9e2e-d40abea8068a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='carVariantList_contentDesktop__uNKgV']//div//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS creditTab_buttonSubmitPDP__ud2WR'][normalize-space()='Simulasi Kredit']</value>
+      <webElementGuid>7bb0ca18-3d61-4cc6-93eb-5ac64edd3d9c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

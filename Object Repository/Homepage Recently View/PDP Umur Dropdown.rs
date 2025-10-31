@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@data-testid = 'field-pilih-kategori-umur-18-27']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -15,5 +15,14 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>field-pilih-kategori-umur-18-27</value>
+      <webElementGuid>746d08e6-435a-4e17-8342-03b359051e27</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
