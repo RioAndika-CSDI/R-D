@@ -25,6 +25,10 @@ String get_text_car_name_recently_view_v2 = WebUI.getText(findTestObject('Homepa
 
 String car_name_recently_view_v2 = get_text_car_name_recently_view_v2.split(' 1.0 M MT')[0]
 
+WebUI.verifyMatch(car_name, car_name_recently_view_v2, false)
+
+WebUI.scrollToElement(findTestObject('Homepage Recently View/recently view - lanjutkan simulasi button'), 0)
+
 WebUI.click(findTestObject('Homepage Recently View/recently view - lanjutkan simulasi button'))
 
 WebUI.delay(3)

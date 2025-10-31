@@ -7,33 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'carVariantList_wrapperDesktop')]//div[contains(@class, 'pdpUpperSection_wrapperDesktop')]//h1[contains(@class, 'carOverView_carBrandModelText')]</value>
+         <value>//*[@data-testid = 'text-car-brand-model' and starts-with(@class, 'carOverView_carBrandModelText__wTFE_')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>text-car-brand-model</value>
-      <webElementGuid>72f4c74c-94cd-459d-b9e3-08da45d0ca8a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>carOverView_container</value>
-      <webElementGuid>4b6189e3-3844-479c-860c-238004c59d7c</webElementGuid>
+      <webElementGuid>be172c72-6a08-40df-b5c3-ab214593ead1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>carOverView_carBrandModelText__wTFE_</value>
+      <webElementGuid>a3d30f46-3c8d-4d8d-b250-392d0954ccc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//div[contains(@class, 'carVariantList_wrapperDesktop')]//div[contains(@class, 'pdpUpperSection_wrapperDesktop')]//h1[contains(@class, 'carOverView_carBrandModelText')]</value>
-      <webElementGuid>18ed80af-36c7-4799-ac95-e62bb6ebb083</webElementGuid>
+      <webElementGuid>6dd16805-c559-475b-89a6-1c4f40e19f08</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -33,25 +38,36 @@ WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indon
 
 WebUI.verifyElementNotPresent(findTestObject('Homepage Recently View/label Lanjutkan Pencarianmu homepage'), 0)
 
-WebUI.click(findTestObject('Homepage Recently View/Homepage Lihat Detail'))
+WebUI.scrollToElement(findTestObject('Homepage Recently View/Homepage Car Name'), 0)
+
+WebUI.click(findTestObject('Homepage Recently View/Homepage Car Name', [('car_name') : car_name]))
 
 WebUI.delay(5)
 
-car_name_select = WebUI.getText(findTestObject('Homepage Recently View/PDP Car Name'))
+WebUI.scrollToElement(findTestObject('Homepage Recently View/PDP Tab Kredit'), 0)
 
-WebUI.click(findTestObject('Homepage Recently View/PDP Tab Kredit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
+
+TestObject tabKredit = findTestObject('Homepage Recently View/PDP Tab Kredit')
+
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(tabKredit)))
 
 WebUI.delay(5)
 
-'==== SIMULASI KREDIT ===='
+// ==== SIMULASI KREDIT ====
 systemos = System.getProperty('os.name')
 
 String[] os = systemos.split(' ')
 
 WebUI.comment(os[0])
 
-//skip proses select
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/span_Cicil Mobil Impianmu dengan Mudah'), 0)
+
+WebUI.delay(3)
+
+//skip proses select
+
+WebUI.click(findTestObject('Homepage Recently View/PDP Income'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Homepage Recently View/PDP Income'), '20000000')
 
@@ -60,13 +76,22 @@ WebUI.click(findTestObject('Homepage Recently View/PDP Kategori Umur'))
 WebUI.click(findTestObject('Homepage Recently View/PDP Umur Dropdown'))
 
 WebUI.click(findTestObject('Homepage Recently View/PDP button Simulasi Kredit'))
-
-WebUI.waitForElementPresent(findTestObject('Homepage Recently View/PDP cardVariantOptions_title'), 0)
-
 // ========================
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Homepage Recently View/PDP cardVariantOptions_title'), 10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+// --- Klik Logo Seva ---
 WebUI.scrollToElement(findTestObject('Homepage Desktop Mode/seva-logo-desktop'), 0)
 
-WebUI.click(findTestObject('Homepage Desktop Mode/seva-logo-desktop'))
+WebUI.delay(15)
+
+TestObject Logo_Seva = findTestObject('Homepage Desktop Mode/seva-logo-desktop')
+
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(Logo_Seva)))
 
 WebUI.delay(5)
 
@@ -79,5 +104,5 @@ String get_text_car_name_recently_view = WebUI.getText(findTestObject('Homepage 
 
 String car_name_recently_view = get_text_car_name_recently_view.split(' 1.0 M MT')[0]
 
-WebUI.verifyMatch(car_name_select, car_name_recently_view, false)
+WebUI.verifyMatch(car_name, car_name_recently_view, false)
 

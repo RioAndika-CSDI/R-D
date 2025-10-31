@@ -4,5 +4,19 @@
    <name>RV002 - Verify User Can Access PDP From Recently View Lihat From Homepage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2386b5ab-e59a-4808-8d25-b8b2dbb2d18a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f34594f-af97-4cc8-9d4d-bbe2893aeb92</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Daihatsu All New Ayla'</defaultValue>
+      <description></description>
+      <id>7f34594f-af97-4cc8-9d4d-bbe2893aeb92</id>
+      <masked>false</masked>
+      <name>car_name</name>
+   </variable>
 </TestCaseEntity>
