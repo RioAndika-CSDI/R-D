@@ -6,11 +6,16 @@
    <elementGuidId>da2f6310-10a1-49b6-b2fa-8ccfef6511b2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='button_secondaryDark__CS02j button_big__WTbQS undefined'])</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'button_secondaryDark') and (text() = 'Hitung Kemampuan' or . = 'Hitung Kemampuan')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,7 +23,7 @@
       <name>classs</name>
       <type>Main</type>
       <value>button_secondaryDark__M9xOi button_big__H6cBN undefined</value>
-      <webElementGuid>1c477fc0-f28b-48db-b65a-ba19dc9a9cb0</webElementGuid>
+      <webElementGuid>ee9a203d-cc07-47ad-9f57-fa598bdb9458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_secondaryDark</value>
-      <webElementGuid>78f1327f-e95c-43fe-bc78-8bbf8ba5cc88</webElementGuid>
+      <webElementGuid>b8b6d7e6-066c-42db-86da-495d86045089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +39,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Hitung Kemampuan</value>
-      <webElementGuid>9750b4a2-af89-4a63-aabe-6b8ab5b55639</webElementGuid>
+      <webElementGuid>ba69857a-da18-43f9-9884-2e26eb66ed89</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

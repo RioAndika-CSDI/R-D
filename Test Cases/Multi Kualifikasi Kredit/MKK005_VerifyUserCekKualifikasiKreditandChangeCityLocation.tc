@@ -4,6 +4,7 @@
    <name>MKK005_VerifyUserCekKualifikasiKreditandChangeCityLocation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4f739018-907f-4a6d-8cd2-fbf26bace3cc</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

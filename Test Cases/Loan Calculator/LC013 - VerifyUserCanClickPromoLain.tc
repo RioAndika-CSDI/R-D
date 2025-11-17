@@ -4,6 +4,7 @@
    <name>LC013 - VerifyUserCanClickPromoLain</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>44417ee1-e745-4c07-ab5c-5fb0f7d9e70c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

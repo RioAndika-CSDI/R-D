@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='loan-calculator-form-installment-type']/div/div/p</value>
+         <value>//label[normalize-space(text())='Pembayaran cicilan pertama']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pembayaran cicilan pertama' or . = 'Pembayaran cicilan pertama')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>677b8f07-7a21-42e5-a13c-6e45a43c4fce</webElementGuid>
+      <webElementGuid>99fc21fd-9a96-4e19-8b90-51aeabca6e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cicilform_titleText__E5LvE</value>
-      <webElementGuid>44e71ee5-2a17-4cd1-bca3-9ca7a101e8c6</webElementGuid>
+      <webElementGuid>8ffb5cbb-b118-49a9-a2ca-65d96c7d8fbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +43,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Pembayaran cicilan pertama</value>
-      <webElementGuid>06346f44-7ec6-4a1e-bf38-0180b13e895d</webElementGuid>
+      <webElementGuid>e51ed563-6429-4dae-8b90-1bdcb3c60f0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loan-calculator-form-installment-type&quot;)/div[@class=&quot;cicilform_container__Ud9ix undefined&quot;]/div[@class=&quot;cicilform_wrapperTextWithCta__B8kDu&quot;]/p[@class=&quot;cicilform_titleText__E5LvE&quot;]</value>
-      <webElementGuid>1437a8ac-a6d0-4fc0-bea8-350edc357d7f</webElementGuid>
+      <value>//p[@class='cicilform_titleTextDesktop__nyyuO']</value>
+      <webElementGuid>cb8af978-4153-4386-8e5f-f553d2bd3424</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-installment-type']/div/div/p</value>
-      <webElementGuid>bc2b805e-519e-45ad-9804-fcec04a31477</webElementGuid>
+      <webElementGuid>2875065a-0b29-4395-9db3-02f59783d179</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[1]/following::p[1]</value>
-      <webElementGuid>af56cb8d-7ae6-4e9f-8e84-20cb0b1e4967</webElementGuid>
+      <webElementGuid>b5139f19-7faa-4a7f-bd05-409ee1e9751b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Down Payment (DP)'])[1]/following::p[1]</value>
-      <webElementGuid>b1693593-2ba2-44b9-b4b1-722fb9f63322</webElementGuid>
+      <webElementGuid>fcdf0e68-bc0a-4abd-9e0a-9c4046ef8a3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cicil Mobil Impianmu dengan Mudah!'])[1]/preceding::p[6]</value>
-      <webElementGuid>33d45e4a-fb9b-418b-b65f-6d3e33b3ab03</webElementGuid>
+      <webElementGuid>38cb80fd-bd56-497e-83c9-fb3647283978</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pembayaran cicilan pertama']/parent::*</value>
-      <webElementGuid>2dea2962-d238-4697-bbc3-3d79404d3e6d</webElementGuid>
+      <webElementGuid>2018c4ab-63c0-4019-8a44-96c5080fc3dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/p</value>
-      <webElementGuid>c0010019-2cfa-453f-b5cc-e7882dd39dce</webElementGuid>
+      <webElementGuid>31ea5354-be90-4f14-81af-7091259c94bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Pembayaran cicilan pertama' or . = 'Pembayaran cicilan pertama')]</value>
-      <webElementGuid>19a3d013-d123-4a88-b885-fb443d4125a9</webElementGuid>
+      <webElementGuid>2a71551c-740f-455a-bc8a-c4f3d927a9bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

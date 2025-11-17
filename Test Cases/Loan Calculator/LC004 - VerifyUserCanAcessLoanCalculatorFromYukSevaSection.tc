@@ -4,5 +4,6 @@
    <name>LC004 - VerifyUserCanAcessLoanCalculatorFromYukSevaSection</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c9f0cc97-b627-4068-8461-b907ef69d62e</testCaseGuid>
 </TestCaseEntity>

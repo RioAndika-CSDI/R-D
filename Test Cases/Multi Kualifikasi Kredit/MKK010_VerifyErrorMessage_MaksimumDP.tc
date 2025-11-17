@@ -4,6 +4,7 @@
    <name>MKK010_VerifyErrorMessage_MaksimumDP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>124b3a65-f750-42a4-9811-bd1e40fe18ed</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

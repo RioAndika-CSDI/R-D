@@ -6,19 +6,19 @@
    <elementGuidId>d2f75411-2d1c-4255-b2f3-808cb4f791c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[starts-with(@class, 'tenureOptionWidget_box') and (text() = '${tenor}' or . = '${tenor}')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]</value>
+         <value>//div[@class='multi-kk_form__4UeYG']//div[3]//div[1]//button[${tenor}]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '1' or . = '1')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,31 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>91ee05ee-87b3-46da-8f30-0d5ac9dba8af</webElementGuid>
+      <webElementGuid>017fb1f1-563c-4ec1-bb2b-0d21bac53ed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>tenureOptionWidget_box</value>
-      <webElementGuid>19510b89-ae43-4f8f-a243-3e547b587189</webElementGuid>
+      <webElementGuid>8930ebdc-a295-4f7d-9b0a-5bd71690d9c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${tenor}</value>
-      <webElementGuid>f09de96d-a047-457b-ab73-1887f3da9c97</webElementGuid>
+      <value>1</value>
+      <webElementGuid>98f3b340-63fb-4d64-8d86-6c36f20749f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[3]/div[@class=&quot;tenureOptionWidget_containerTenure__x0PJy&quot;]/div[@class=&quot;tenureOptionWidget_box__GvHGI&quot;]</value>
-      <webElementGuid>99023b3e-a4b0-427c-9f96-8db6f44713d2</webElementGuid>
+      <value>(//button[@class='tenureOptionWidget_box__GvHGI'])[3]</value>
+      <webElementGuid>ea622500-dc07-4507-bb04-b360df98ef2c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>9629ded5-0e5e-4b83-a5d2-4a7b0a32e7a6</webElementGuid>
+      <webElementGuid>a6996c6b-20ed-495e-a1ff-3ed55c92a58d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::div[6]</value>
-      <webElementGuid>58c931e6-f412-49bc-a5d6-48f6bd418666</webElementGuid>
+      <webElementGuid>de54a4db-a865-4f9f-9b56-a662a0f34719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.659.100.000'])[1]/following::div[12]</value>
-      <webElementGuid>0f3ccdef-e1cd-4769-b9bc-0409c2da7375</webElementGuid>
+      <webElementGuid>0ea46208-10d3-4e94-a2d7-493a5b59fa40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/preceding::div[1]</value>
-      <webElementGuid>02fef777-2f08-43ce-8f96-410c2069686d</webElementGuid>
+      <webElementGuid>46fa5ad6-e927-4d51-8bea-b4ac48fe39f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manual'])[1]/preceding::div[1]</value>
-      <webElementGuid>26ed939f-5631-4b5f-b913-fc1a968b89bb</webElementGuid>
+      <webElementGuid>eccefad0-7ad3-4696-a24d-58b40dea7cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>23de8423-6c93-4a6f-b0e8-f3f3dba90455</webElementGuid>
+      <webElementGuid>bf857089-23b7-48d2-85cc-3ce1488d0249</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '5' or . = '5')]</value>
-      <webElementGuid>d80af5df-a31b-4028-9555-7acdc0a2c14a</webElementGuid>
+      <webElementGuid>a8519f0e-6ca1-4b24-8d58-e7fba1b2b167</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

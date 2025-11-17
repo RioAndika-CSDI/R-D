@@ -4,6 +4,7 @@
    <name>LC001 - VerifyUserCanAccessLoanCalculatorFromHomepage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e456250f-f4c9-4907-9556-988085118301</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

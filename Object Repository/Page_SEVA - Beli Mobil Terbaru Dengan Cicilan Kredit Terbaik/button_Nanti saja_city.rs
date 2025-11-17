@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::button[1]</value>
+         <value>//button[normalize-space()='Nanti saja']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f59e9e8f-8444-47d7-8f89-a6d844dce4ba</webElementGuid>
+      <webElementGuid>dc653624-9bd7-4348-a682-6f0f1608913f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_secondary___MM2b button_big__WTbQS undefined</value>
-      <webElementGuid>01754da6-ada2-4ff3-85f0-d2fa63803e69</webElementGuid>
+      <webElementGuid>b191c505-60dd-4f23-9a35-fd4d430ea06e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-nanti-saja-city</value>
-      <webElementGuid>3faf2ba8-6079-41b0-83cb-6148320cf128</webElementGuid>
+      <webElementGuid>93c8adfd-3b2c-4023-9c28-6a270a449133</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nanti saja</value>
-      <webElementGuid>cbcc6615-8f36-4241-8157-92896b9075eb</webElementGuid>
+      <webElementGuid>e3c0f847-2036-4a16-9021-afb75397f213</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat city-selector-custom-modal&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;citySelectorModal_buttonGroup__h3Ah5&quot;]/button[@class=&quot;button_secondary___MM2b button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>0c411ef5-f2c7-40ac-8081-5a48267f41eb</webElementGuid>
+      <webElementGuid>51ab3ec0-bf39-4a12-90a7-5b1ce60ffb33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yogyakarta'])[1]/following::button[1]</value>
-      <webElementGuid>adb95245-bc70-48b0-b5f0-1229a7dc2635</webElementGuid>
+      <webElementGuid>6cf2c06d-a087-47d0-986a-86afb35629d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wonosobo'])[1]/following::button[1]</value>
-      <webElementGuid>0e9cddb3-5d46-44e4-8129-c2cb5bf18f8a</webElementGuid>
+      <webElementGuid>159412a4-05e5-4040-b83a-cc1538846655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Cari Mobil'])[1]/preceding::button[1]</value>
-      <webElementGuid>0ef72e88-720b-4046-b81a-80a55392f6e6</webElementGuid>
+      <webElementGuid>41f22dcd-4106-4616-b884-9170742af082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nanti saja']/parent::*</value>
-      <webElementGuid>5339389e-182c-4ae7-9365-0841a1bf769a</webElementGuid>
+      <webElementGuid>acb0960e-0f63-41e9-8af9-8c695ecbcea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div[2]/button</value>
-      <webElementGuid>6989e02c-2073-48ca-bd30-b56256f39513</webElementGuid>
+      <webElementGuid>77414e2f-f10d-471d-8940-b1af5fbc67d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Nanti saja' or . = 'Nanti saja')]</value>
-      <webElementGuid>05cd0bf0-395e-4761-b983-390aadc97738</webElementGuid>
+      <webElementGuid>a84ea58d-5cf3-42e2-9f61-a83c01150398</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

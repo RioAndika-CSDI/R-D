@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@value=''])[3]</value>
+         <value>//div[@class='popupLogin_otpGroup__J3bc_']//input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>acdff036-c85d-407b-bcf8-24183512fa71</webElementGuid>
+      <webElementGuid>5210727d-f15b-4308-825c-8ffa82cbdc35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>279358de-1ff7-413b-8489-70d8fed2f8a2</webElementGuid>
+      <webElementGuid>d141e894-23ba-4d53-a0ce-ecae1d61a6d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>5307f911-d851-436c-8742-8169bfe40fdd</webElementGuid>
+      <webElementGuid>e7131477-c037-4373-a65e-ce653a716aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>one-time-code</value>
-      <webElementGuid>778920b7-6647-4f03-bc6d-edba337d4747</webElementGuid>
+      <webElementGuid>71c4b00d-e561-48c7-b3ce-404a5fb29151</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>\d{1}</value>
-      <webElementGuid>974162e6-2472-4650-a688-3102aa370389</webElementGuid>
+      <webElementGuid>f072a573-828b-46fc-9124-86a1fd19184f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>6</value>
-      <webElementGuid>8220f11d-ae73-49d5-9d3b-7edd9679fc9e</webElementGuid>
+      <webElementGuid>5bcdae19-b500-444f-aa03-80e2e5b5a223</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>class</name>
       <type>Main</type>
       <value>false otpV2_otpInput___IMrM</value>
-      <webElementGuid>b5690a18-4810-44d3-813b-e01453b0eda6</webElementGuid>
+      <webElementGuid>51f0c1a3-f99c-4d7c-a483-a7a73188f1dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>input-otp</value>
-      <webElementGuid>893409e0-3a87-4e34-88d1-63392a932a45</webElementGuid>
+      <webElementGuid>9a464d11-6964-49ce-9693-22ef06886bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[6]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat default custom-modal-otp-v2&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[1]/div[@class=&quot;otpV2_otpGroup__fxbFB&quot;]/input[@class=&quot;false otpV2_otpInput___IMrM&quot;]</value>
-      <webElementGuid>c5754e46-522d-4bd9-86ff-049f7648d0a8</webElementGuid>
+      <webElementGuid>28515e48-afd4-4524-a63d-da738bc36056</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[3]</value>
-      <webElementGuid>206ca001-bdd5-47fd-a3b9-7f48c0badc59</webElementGuid>
+      <webElementGuid>9cb23657-a09e-497a-a574-90fc8d393283</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>c793e5de-d4bf-4b4a-a868-7565d1c3a1b3</webElementGuid>
+      <webElementGuid>eacdbb17-d0be-4330-b486-72cc6bdee14e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>aa66cce5-a21c-488c-b436-044d8663fc13</webElementGuid>
+      <webElementGuid>073cb0ad-09ed-40f1-94bd-655d5de3f024</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

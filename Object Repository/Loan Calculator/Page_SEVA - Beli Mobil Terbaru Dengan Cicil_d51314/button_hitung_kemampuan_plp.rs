@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>(//*[@data-testid = 'button-hitung-kemampuan-plp'])[${id}]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@data-testid = 'button-hitung-kemampuan-plp'])[${id}]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,7 +23,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-hitung-kemampuan-plp</value>
-      <webElementGuid>fb8f10ef-e53e-4681-a4a0-46ae4b943b32</webElementGuid>
+      <webElementGuid>685bcf89-30fb-419a-9524-55f9d303131e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +31,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@data-testid = 'button-hitung-kemampuan-plp'])[${id}]</value>
-      <webElementGuid>80994633-0bc6-4154-8fee-ea4862f2d54b</webElementGuid>
+      <webElementGuid>ec7aa060-6fe5-4a1d-ac42-e9b8badd3ad8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@value=''])[3]</value>
+         <value>//input[@placeholder='Contoh: 812345678']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9e862ca9-0ac0-4254-a0b3-706f6d9e78d2</webElementGuid>
+      <webElementGuid>b0239696-4ff9-4cc2-9d9c-3e2f117f59b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>eaa27e85-9cb1-4bc8-920e-80c69a55e071</webElementGuid>
+      <webElementGuid>da6759a5-82da-42d0-b6ae-b1c1da711408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>f29a39bf-6e4e-4fa2-bc84-c07658d18860</webElementGuid>
+      <webElementGuid>a58b9c48-4d78-4465-b3dc-8a5c3a6c96da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputPhone_input__4xYEC undefined </value>
-      <webElementGuid>61f6c09e-868b-4ada-a046-4cc39edb8ee6</webElementGuid>
+      <webElementGuid>d4cec48f-5935-4517-b6d8-981c299cb5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Contoh: 812345678</value>
-      <webElementGuid>6c32e9d0-89b0-4ca7-b8cc-69761baf7699</webElementGuid>
+      <webElementGuid>0b6b7cbb-69ff-41f8-92dc-fbd5fbfc3e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupLogin_wrapper__edAPv&quot;]/div[@class=&quot;popupLogin_phoneNumberWrapper__DNNJL&quot;]/div[@class=&quot;inputPhone_wrapper__CPZSH undefined&quot;]/div[@class=&quot;inputPhone_wrapperInput__etnqf inputPhone_focus__3XFSw false undefined&quot;]/input[@class=&quot;inputPhone_input__4xYEC undefined&quot;]</value>
-      <webElementGuid>8f78def7-dbab-4a02-bd9c-534adee848ef</webElementGuid>
+      <webElementGuid>8af8b3ed-89fb-43db-a3a8-d27a210c6cd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[3]</value>
-      <webElementGuid>58808199-0ab3-46ac-a2bb-6ea90aa136a6</webElementGuid>
+      <webElementGuid>57ee5eb0-4a34-4b7b-9982-034bd7580ab7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div[2]/div/div[2]/div/div/input</value>
-      <webElementGuid>a7fb73c9-7ec5-41d6-bbf3-da8dfd60a65f</webElementGuid>
+      <webElementGuid>31a313c9-0f08-4639-bd9f-2efc201cc110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @placeholder = 'Contoh: 812345678']</value>
-      <webElementGuid>df7b01e8-a641-413a-9ae3-07a61a5edd42</webElementGuid>
+      <webElementGuid>7cbfb4fc-7a73-4bb4-885d-3c7bd56aced5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

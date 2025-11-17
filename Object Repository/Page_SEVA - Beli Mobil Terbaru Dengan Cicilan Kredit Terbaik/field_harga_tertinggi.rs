@@ -10,11 +10,16 @@
          <value>div:nth-of-type(2) > div.undefined.undefined > input.input_input__c0tP8</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='multi-kk_formRange__afc_i']//div//input[@placeholder='Masukkan harga tertinggi']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>12a5256c-50de-4bbf-a8d3-a5f757ef11a4</webElementGuid>
+      <webElementGuid>fb299d65-9baf-4294-8bd1-90a63c1f3919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input_input__c0tP8</value>
-      <webElementGuid>edafbbba-cb6b-4cd2-83ec-146604a7354f</webElementGuid>
+      <webElementGuid>6bb88e26-fc9a-4ffc-a547-0d0264496b5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan harga tertinggi</value>
-      <webElementGuid>fb1fad1a-a7d3-4b6d-9fa2-5e6a22794ec1</webElementGuid>
+      <webElementGuid>6df254b0-ac7b-4c51-8e74-d142423726af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +51,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>3a425dbc-b4bb-47f4-90e7-889fd7fbe519</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>0e1cdb7c-399e-4d1f-b2b7-0c13b98f97bf</webElementGuid>
+      <webElementGuid>bf5c9ad3-3abf-4f8e-8e98-5ba05acaad33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>10021bc5-01d8-4c36-8b66-272778eeb695</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_formRange__afc_i&quot;]/div[2]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__c0tP8&quot;]</value>
-      <webElementGuid>7f61199b-ff3f-4a77-85f9-796478b22176</webElementGuid>
+      <value>//div[@class='multi-kk_formRange__afc_i']//div//input[@placeholder='Masukkan harga tertinggi']</value>
+      <webElementGuid>c1ee5464-07b4-4bf6-aa07-487baf2f6511</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[3]</value>
-      <webElementGuid>534d03a6-8ff8-4a78-b1d5-2f9747beaa9d</webElementGuid>
+      <webElementGuid>3bf800d9-3cbd-4480-bc44-98a665981a6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div[2]/div/input</value>
-      <webElementGuid>3c5d56f8-9622-438e-9c91-8ca44eb5017a</webElementGuid>
+      <webElementGuid>63aa467a-14ee-41b3-8836-b85f6e9eedf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>0afd81cc-4379-4e8d-a7c1-bd38cda2e16d</webElementGuid>
+      <webElementGuid>22dbde90-8e24-4463-b887-0da1135ad5ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan harga tertinggi' and @type = 'tel']</value>
-      <webElementGuid>f449248c-03e9-4b15-8c8f-6a416dba18ab</webElementGuid>
+      <webElementGuid>2d6d4b9c-17fe-45cb-a43c-5d301cacd1f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
