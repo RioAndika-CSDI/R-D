@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0017-VerifyUserCanOpenHamburgerMenu_fromHomepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7dd6238-492a-4151-8968-a64886a8eb8f</testCaseGuid>
+</TestCaseEntity>

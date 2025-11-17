@@ -12,73 +12,80 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>19859408-83b5-40fb-a1f4-2b3981366f37</testSuiteGuid>
    <testCaseLink>
-      <guid>8de54aab-ad3b-4130-9e11-d86d6a5fc21a</guid>
+      <guid>5637d695-55ed-4c78-8831-8cfac2a7f804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF001_VerifyUserCanClickTentangSeva</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>613533d4-e950-4c99-9c31-012242cc2c02</guid>
+      <guid>2e8a1597-bc8b-4cdd-9bb2-70d8b57616f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF002_VerifyUserCanClickSyaratdanKetentuan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff5d289d-ad8e-42cb-a852-a38ed4c36010</guid>
+      <guid>b09335df-39e2-4435-be9a-4f27c951b2a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF003_VerifyUserCanClickKebijakanPrivasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab5318d5-637c-4b88-b049-a9f927a269bb</guid>
+      <guid>04e8e076-aed9-4822-83a2-aa7a915e5f0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF004_VerifyUserCanClickHubungiKami</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>57ffef47-9aaf-44cc-89a7-bf1f20ffe810</guid>
+      <guid>3eed5dec-42a0-4a09-99a8-e29c885359d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF005_VerifyUserCanClickInstagramIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dde4a427-7e58-4c8f-abe5-79b9c078aeb6</guid>
+      <guid>50046a11-3ba9-4303-a857-7fcb1b678e50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF006_VerifyUserCanClickXicon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d106b887-822b-4fb1-acac-ab625c7f6597</guid>
+      <guid>847d6892-1604-4c08-b391-2545bced4c8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF007_VerifyUserCanClickFacebookIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>11860695-de0d-4ac9-b275-9d5864b094de</guid>
+      <guid>70374fb5-9c1c-46ac-8409-122d79e17afa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF008_VerifyUserCanClickYoutubeIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>71c322c6-c365-4c64-b38a-acd5c7d85559</guid>
+      <guid>19dd8166-ffaf-436a-81ca-77f378805c77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF009_VerifyUserCanClickLinkedInIcon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>626eca65-6ae4-489e-8fa4-a6e121bac5e4</guid>
+      <guid>feb3bf7f-fddf-4cb4-b78e-aaebd290f30d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Global Footer/GF010_VerifyUserCanClickFloatingIcon</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>838a4b1f-691f-4005-9ffe-10b9e4de37b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Global Footer/GF011 - VerifyUserSeeSevaDescriptionText</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

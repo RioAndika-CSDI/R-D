@@ -6,6 +6,10 @@
    <elementGuidId>537ed9d0-198a-455b-b5b4-d38971a873cd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'footerMobile_footerText__wJTEi footerMobile_footerISO']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.ant-float-btn-content</value>
       </entry>
@@ -14,7 +18,8 @@
          <value>//div[@class='ant-float-btn-body']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e5bc4849-215e-42cd-b2d3-bbf132500519</webElementGuid>
+      <webElementGuid>df926fa2-2a5a-4033-b468-5cc045e51e16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>ant-float-btn-content</value>
-      <webElementGuid>0d3dc594-c318-438a-a264-fa78c93fd4af</webElementGuid>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/button[@class=&quot;css-nllxry ant-float-btn csa-button csa-button-homepage ant-float-btn-default ant-float-btn-circle&quot;]/div[@class=&quot;ant-float-btn-body&quot;]/div[@class=&quot;ant-float-btn-content&quot;]</value>
+      <webElementGuid>21c7d366-a362-4ec4-bc64-da1ef2a20121</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__K2Wvo&quot;]/button[@class=&quot;css-nllxry ant-float-btn csa-button csa-button-homepage ant-float-btn-default ant-float-btn-circle&quot;]/div[@class=&quot;ant-float-btn-body&quot;]/div[@class=&quot;ant-float-btn-content&quot;]</value>
-      <webElementGuid>2d59e960-b02a-4236-bc41-a4a3b03ed05d</webElementGuid>
+      <value>footerMobile_footerText__wJTEi footerMobile_footerISO</value>
+      <webElementGuid>fb4bf044-ceb4-4219-a5d3-6279ea89c97f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/button/div/div</value>
-      <webElementGuid>c3fdcc79-d74d-41a6-9474-be09ed7b085b</webElementGuid>
+      <webElementGuid>d1afd876-8b9d-45f7-8c7e-740dee76402b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[2]</value>
-      <webElementGuid>57afff08-e16b-4034-a618-97b9148d759c</webElementGuid>
+      <webElementGuid>928defa7-8176-47ea-aa3b-0981568ea958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::div[4]</value>
-      <webElementGuid>d4a69d23-526a-4288-98df-515edd45f7b6</webElementGuid>
+      <webElementGuid>c4ad1d21-de86-4933-bb07-051bc4046261</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih lokasi pembelian mobilmu'])[1]/preceding::div[5]</value>
-      <webElementGuid>c7051d33-ea8f-436d-8754-ce4319ff5266</webElementGuid>
+      <webElementGuid>0562d0eb-4be3-4565-9cd0-f82e97cc7aaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/preceding::div[7]</value>
-      <webElementGuid>bcc11a17-f55e-46e8-9ac6-49c9ceb7bc2e</webElementGuid>
+      <webElementGuid>1b2315a7-f8b6-49c2-a6af-bd5c90e85012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +91,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div/div</value>
-      <webElementGuid>d9450d84-153c-4d5a-bacf-e6a2e39b9bfb</webElementGuid>
+      <webElementGuid>d4497ca1-8c6c-4bc9-849a-cfba1647c209</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

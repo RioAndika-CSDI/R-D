@@ -4,5 +4,6 @@
    <name>GH013_VerifyUserCanOpenHamburgerMenu_fromPDP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1026288a-387a-4b3d-811f-f4691eb17caf</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>573c2d96-b3cd-4c60-a16c-067f4b430b7b</testCaseGuid>
 </TestCaseEntity>

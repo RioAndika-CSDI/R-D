@@ -4,5 +4,6 @@
    <name>GH001_VerifyUserCanOpenHamburgerMenu_fromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4871c039-18c8-4bdd-8ca7-df6d20cf9432</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3326937-869d-401b-a02b-df62c0d99db9</testCaseGuid>
 </TestCaseEntity>

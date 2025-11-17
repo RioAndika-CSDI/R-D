@@ -4,5 +4,6 @@
    <name>H0007 - VerifyUserCanFilterCarIsuzu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e555b9d6-cb8c-4d49-bfb8-6473c968d232</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d45e2a9a-f85f-4d37-933f-32ad5715162b</testCaseGuid>
 </TestCaseEntity>

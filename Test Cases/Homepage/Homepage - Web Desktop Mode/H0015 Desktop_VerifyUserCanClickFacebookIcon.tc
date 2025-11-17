@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0015 Desktop_VerifyUserCanClickFacebookIcon</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2620f2a0-3b6e-45cd-b0a4-bfc4208ce664</testCaseGuid>
+</TestCaseEntity>

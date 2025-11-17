@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0047 - VerifyUserCanAksesFasilitas DanaFrom Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b90c737b-6da3-4764-8a76-85d8a2408a60</testCaseGuid>
+</TestCaseEntity>

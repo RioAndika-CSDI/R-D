@@ -4,5 +4,6 @@
    <name>H0019 - VerifyUserCanLoginFromHomepageSeva</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e1f6dbe7-9c92-44b8-9c86-d5d47533ddb0</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7545078-33cd-491a-af33-1959efe03dc4</testCaseGuid>
 </TestCaseEntity>

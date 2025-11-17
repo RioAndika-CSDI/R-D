@@ -4,5 +4,6 @@
    <name>H0001 - VerifyUserCanAksesSevaWebsite</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>06fcd98d-19c8-4876-aae6-5d6b4428c857</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9201c0f8-8b18-47c4-912b-0c1451316844</testCaseGuid>
 </TestCaseEntity>

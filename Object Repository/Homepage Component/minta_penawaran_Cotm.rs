@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>minta_penawaran_Cotm</name>
+   <tag></tag>
+   <elementGuidId>34d6d8c1-e929-481d-9e0c-383053fd6f12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-testid = 'button-lihat-penawaran']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-lihat-penawaran</value>
+      <webElementGuid>fb2548cf-e7d0-4e90-9c7e-d70cf7afd37f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>801757e8-b303-4fd4-988b-de2fc5f0ebbf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

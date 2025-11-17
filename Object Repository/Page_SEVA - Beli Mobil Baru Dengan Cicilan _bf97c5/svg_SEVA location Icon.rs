@@ -13,8 +13,13 @@
          <key>CSS</key>
          <value>div.headerMobile_right__40Snk > div > svg</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'headerDesktop_textLocation__AB48w']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>1f9546d3-3c0e-4e4a-8088-a17a873831f9</webElementGuid>
+      <webElementGuid>4e94eddb-2d84-40bd-b08f-08c83e074073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>e66380af-eaf8-44c4-bdf4-139d22197daf</webElementGuid>
+      <webElementGuid>6fad38d9-ea70-4353-9357-55a894b25eee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>bf2fc193-0f89-46a4-bf33-685c270b187e</webElementGuid>
+      <webElementGuid>5a4607d8-caac-42da-aa23-1867471890fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 40 40</value>
-      <webElementGuid>5bbe6689-180d-47f3-9b5b-4b42520c0972</webElementGuid>
+      <webElementGuid>e366d86e-3c72-489d-8701-5ac02687b5dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>cf93b825-3872-4f33-899c-4abc91843625</webElementGuid>
+      <webElementGuid>3bf0a403-abfd-4a34-910c-2d4e28e1cad0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +67,15 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>987c8b45-69d8-4e00-9f6e-ac64a55e0105</webElementGuid>
+      <webElementGuid>df8a4a37-d123-4b05-a626-efc8a12d5795</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SEVA location Icon</value>
-      <webElementGuid>36787ec1-6af1-4435-88e0-c4cfd4d9362a</webElementGuid>
+      <webElementGuid>37d1b1f3-c345-45a4-9030-f7625d678fe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;mainHeroLp_supergraphic__xRwMW&quot;]/div[@class=&quot;mainHeroLp_mainContent__C_NY_&quot;]/header[@class=&quot;headerMobile_wrapper__AF_ul headerMobile_showHeader__qWGqN headerMobile_homepage__remEL&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__el90Q&quot;]/div[@class=&quot;headerMobile_container__2UZwI&quot;]/div[@class=&quot;headerMobile_right__40Snk&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>c11f003c-0377-4c01-bd78-c89a24005d7a</webElementGuid>
+      <webElementGuid>0fcd0014-e3bd-431e-bda1-69494f477d3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>headerDesktop_textLocation__AB48w</value>
+      <webElementGuid>98c3a8b8-34e2-4c7a-beed-4c182cf3c5a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Artikel'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>90aaf9ae-14de-4edb-9674-18986c046586</webElementGuid>
+      <webElementGuid>c074ffc8-9290-4190-8a5c-eda3e2308e66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keuangan'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>367d2619-ecfd-42fa-b0e4-57537c7ca876</webElementGuid>
+      <webElementGuid>446f7b2d-63d7-48db-a44f-3c65c30ef27a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Mobil Baru'])[1]/preceding::*[name()='svg'][3]</value>
-      <webElementGuid>39fe619b-24f4-4720-a3f6-e86dcb0e99ce</webElementGuid>
+      <webElementGuid>660e7386-cb23-4439-b746-1358c3bcec43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toyota All New BZ4X'])[1]/preceding::*[name()='svg'][3]</value>
-      <webElementGuid>a4ca68ec-4560-48ab-8ff4-e31b61a4b43b</webElementGuid>
+      <webElementGuid>6e06a1a3-97cb-431c-bd08-8ed046671495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//svg[(text() = 'SEVA location Icon' or . = 'SEVA location Icon')]</value>
-      <webElementGuid>c04913a6-dc9a-4e32-8c7d-0976d474e475</webElementGuid>
+      <webElementGuid>476c25bc-e90d-4e36-a409-7ccb3b4c840c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

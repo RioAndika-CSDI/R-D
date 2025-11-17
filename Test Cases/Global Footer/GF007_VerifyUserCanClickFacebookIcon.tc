@@ -4,5 +4,6 @@
    <name>GF007_VerifyUserCanClickFacebookIcon</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c1f1900c-b455-4d4d-ae35-e1b23e54e015</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a6e05ab-4cfe-4de5-91a1-f8e0b5e9c80d</testCaseGuid>
 </TestCaseEntity>

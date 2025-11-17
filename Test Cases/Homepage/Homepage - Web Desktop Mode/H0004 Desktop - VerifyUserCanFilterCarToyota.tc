@@ -4,5 +4,6 @@
    <name>H0004 Desktop - VerifyUserCanFilterCarToyota</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c0bf309d-0e02-415f-bc05-539cd1a2b045</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>373911b9-7b08-4aec-abfd-b8cecd859394</testCaseGuid>
 </TestCaseEntity>

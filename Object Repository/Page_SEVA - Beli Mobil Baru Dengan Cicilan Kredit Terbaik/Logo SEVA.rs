@@ -6,15 +6,20 @@
    <elementGuidId>a3ff6d8b-6a71-4e2d-b806-04794f413ee0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//img[@class='headerDesktop_logoImg__Hx2E7']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>img.headerMobile_logoImg__UxdpA</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/main/div/div/div/header/div/div/a/div/img</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'headerDesktop_logoImg']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>e3a1a18b-9376-43c7-bc08-4ff712a22fa4</webElementGuid>
+      <webElementGuid>4915028f-fbaf-447e-933d-ffe60cb98958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Logo SEVA</value>
-      <webElementGuid>6cb6be0c-c649-4f29-89cb-d73220436a7f</webElementGuid>
+      <webElementGuid>f6ec35df-a0f6-4947-b7bd-694c101245a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>icon-logo-seva</value>
-      <webElementGuid>f21ec505-5956-4339-9e6e-02b6a7ec8332</webElementGuid>
+      <webElementGuid>d9d50903-7f14-46e2-9681-cd034fdc2fcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>fetchpriority</name>
       <type>Main</type>
       <value>high</value>
-      <webElementGuid>329e6d20-b6ec-47e9-b4a3-29708506e8a4</webElementGuid>
+      <webElementGuid>3f854fba-a0b2-436d-86c2-be6eab9c0f83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>width</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>a7ed6099-4b28-400f-a548-9844a88b2d61</webElementGuid>
+      <webElementGuid>032da8a5-f2a9-455b-8cc5-d107837a7092</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>height</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>7de5e9ba-a50b-44fd-a825-9b1dd6115ca5</webElementGuid>
+      <webElementGuid>44e00bfc-6097-41ee-8762-e8b8b4e5b214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>decoding</name>
       <type>Main</type>
       <value>async</value>
-      <webElementGuid>5d604240-0532-456e-addd-955959a41d67</webElementGuid>
+      <webElementGuid>5f37c851-2fc8-42bb-91a5-41cae20bc6c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +83,15 @@
       <name>data-nimg</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>22e20e80-a532-4d1a-b40b-6f22cb822642</webElementGuid>
+      <webElementGuid>df508b3d-d50d-4062-9b1a-1c9ccd909383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>headerMobile_logoImg__UxdpA</value>
-      <webElementGuid>06855de4-2595-4fc5-b913-83450bc28337</webElementGuid>
+      <value>headerDesktop_logoImg</value>
+      <webElementGuid>efc215e6-a53f-45e1-ab8c-f36c05190177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,15 +99,15 @@
       <name>srcset</name>
       <type>Main</type>
       <value>/_next/image?url=%2Frevamp%2Ficon%2Flogo-primary.webp&amp;w=64&amp;q=75 1x, /_next/image?url=%2Frevamp%2Ficon%2Flogo-primary.webp&amp;w=128&amp;q=75 2x</value>
-      <webElementGuid>32798281-60cc-459e-84fc-026af8d19ca7</webElementGuid>
+      <webElementGuid>c55d682b-9bcf-4c91-9674-3c365731d498</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>/_next/image?url=%2Frevamp%2Ficon%2Flogo-primary.webp&amp;w=128&amp;q=75</value>
-      <webElementGuid>8db4a755-214b-4a2f-a502-62fd21359dd7</webElementGuid>
+      <webElementGuid>f75e457a-c102-40e6-b504-9d01da36dda5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +115,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/div[@class=&quot;index_container__B0sfV&quot;]/div[@class=&quot;mainHeroLp_supergraphic__xRwMW&quot;]/div[@class=&quot;mainHeroLp_mainContent__C_NY_&quot;]/header[@class=&quot;headerMobile_wrapper__AF_ul headerMobile_showHeader__qWGqN headerMobile_homepage__remEL&quot;]/div[@class=&quot;headerMobile_wrapperAnnouncementBox__el90Q&quot;]/div[@class=&quot;headerMobile_container__2UZwI&quot;]/a[1]/div[1]/img[@class=&quot;headerMobile_logoImg__UxdpA&quot;]</value>
-      <webElementGuid>5aeeca0a-ce12-465c-bb5c-8dd73f3197d0</webElementGuid>
+      <webElementGuid>71428dfa-b327-4966-bb3c-0eaab338e466</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div/div/a/div/img</value>
-      <webElementGuid>12d9e892-7759-4e89-9f46-42324be05af1</webElementGuid>
+      <webElementGuid>99cea113-9084-4e28-b1db-450f06c6f996</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Logo SEVA']</value>
-      <webElementGuid>24fdd189-c3ef-4600-8bfa-34f5ad7c81d5</webElementGuid>
+      <webElementGuid>ec0a8e10-cbc9-4ca3-a5d1-f1c03f2c0686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>edd253fb-6177-4ac1-9746-4aa6c83134ea</webElementGuid>
+      <webElementGuid>d1c591d2-279a-4e7e-8868-800653fcaa77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +147,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'Logo SEVA' and @src = '/_next/image?url=%2Frevamp%2Ficon%2Flogo-primary.webp&amp;w=128&amp;q=75']</value>
-      <webElementGuid>e88db1ce-a1f4-4398-b5dd-698125fae4c0</webElementGuid>
+      <webElementGuid>394ceab6-da6d-48e3-9c10-57a305a8d672</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

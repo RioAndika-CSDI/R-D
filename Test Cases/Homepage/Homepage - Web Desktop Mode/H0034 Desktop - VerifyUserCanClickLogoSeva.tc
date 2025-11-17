@@ -4,5 +4,6 @@
    <name>H0034 Desktop - VerifyUserCanClickLogoSeva</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>400b4a0b-106b-4f3d-837b-edef3e82e536</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18578d04-b227-467f-a0c2-fffa6b360286</testCaseGuid>
 </TestCaseEntity>

@@ -4,30 +4,31 @@
    <name>H0036 -VerifyUserCanOpenSimulasiKreditFromRekomendasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c0234704-267b-4ca2-92e7-c16dba1cc3ca</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7f191d8-e37b-40ea-ad23-176b1f67d4e9</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>da14553c-bd35-4b32-b980-424d9521da32</variableId>
+      <variableId>7e1ac697-efb5-405f-bd7c-967c573e4dd2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3258f474-0a01-40aa-92f4-292dca66e5ea</variableId>
+      <variableId>1ea6b2d1-54a7-4a13-967a-dee148e156b5</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'jakarta-pusat/daihatsu/all-new-ayla'</defaultValue>
       <description></description>
-      <id>da14553c-bd35-4b32-b980-424d9521da32</id>
+      <id>7e1ac697-efb5-405f-bd7c-967c573e4dd2</id>
       <masked>false</masked>
       <name>mobil</name>
    </variable>
    <variable>
       <defaultValue>'Semua'</defaultValue>
       <description></description>
-      <id>3258f474-0a01-40aa-92f4-292dca66e5ea</id>
+      <id>1ea6b2d1-54a7-4a13-967a-dee148e156b5</id>
       <masked>false</masked>
       <name>tab</name>
    </variable>

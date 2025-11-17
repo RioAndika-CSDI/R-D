@@ -4,5 +4,6 @@
    <name>GF003_VerifyUserCanClickKebijakanPrivasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cdf306cd-2f8e-48e8-9743-b406019177ea</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b75f77d-31b8-42ea-bd3c-0f25b6bc2869</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>GF006_VerifyUserCanClickXicon</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>705dd339-edc8-44fb-9077-6d4e324ddcf7</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>725c53df-980c-43c2-a567-7411e338ace6</testCaseGuid>
 </TestCaseEntity>

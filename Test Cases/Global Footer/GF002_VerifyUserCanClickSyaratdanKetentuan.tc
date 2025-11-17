@@ -4,5 +4,6 @@
    <name>GF002_VerifyUserCanClickSyaratdanKetentuan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1b180a08-3af5-4b9f-8016-8dea007168ab</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af336bfa-d5a2-4548-a4fb-da49d0ae3e87</testCaseGuid>
 </TestCaseEntity>

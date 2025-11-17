@@ -4,5 +4,6 @@
    <name>H0027 Desktop - VerifyUserCanSelectAllType</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8a492aa6-95e7-4a56-8aaf-0142909a8e45</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75f0862e-d1fc-446b-94b5-b72aec77efd0</testCaseGuid>
 </TestCaseEntity>

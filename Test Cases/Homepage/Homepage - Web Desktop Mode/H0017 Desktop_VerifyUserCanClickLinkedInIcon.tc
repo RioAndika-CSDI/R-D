@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0017 Desktop_VerifyUserCanClickLinkedInIcon</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>021d350c-6c1a-4c8e-a06b-e016f5dcd267</testCaseGuid>
+</TestCaseEntity>

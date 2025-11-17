@@ -4,5 +4,6 @@
    <name>H0022 Desktop - VerifyUserCanFilterCarByTypeSport</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>40899d8b-43ec-4a46-b11b-77228b6cf251</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3468051-b9d6-4f4d-be37-751bbff1c674</testCaseGuid>
 </TestCaseEntity>

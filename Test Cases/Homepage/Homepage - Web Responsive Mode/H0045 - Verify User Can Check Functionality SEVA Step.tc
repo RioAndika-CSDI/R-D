@@ -4,5 +4,6 @@
    <name>H0045 - Verify User Can Check Functionality SEVA Step</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>406bddc7-f67c-4235-884c-5afb94ed9a92</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1057b40e-c44b-407f-a4a0-2bc41d0fe949</testCaseGuid>
 </TestCaseEntity>

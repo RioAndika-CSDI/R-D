@@ -4,5 +4,6 @@
    <name>H0031 - VerifyUserCanSearchACarWithoutInputFilter</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>64ee631c-d0bd-4fa6-a3e5-cb92f46e53e9</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>770c13f6-e565-4820-ab54-a397c7c8926b</testCaseGuid>
 </TestCaseEntity>
