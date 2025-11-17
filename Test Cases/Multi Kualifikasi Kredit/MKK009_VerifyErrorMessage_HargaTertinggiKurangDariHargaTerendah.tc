@@ -4,6 +4,7 @@
    <name>MKK009_VerifyErrorMessage_HargaTertinggiKurangDariHargaTerendah</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f26034d6-9dd6-4171-9110-1649bebcf167</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='downPaymentAmount']</value>
+         <value>//input[@data-testid='field-input-dp']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'tel' and @placeholder = 'Masukkan DP' and @name = 'downPaymentAmount']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8301ddd5-dd67-412f-93b4-1b51d4081c5c</webElementGuid>
+      <webElementGuid>44e9cf25-bc9c-4dff-a0ff-b1a8cfc04713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>cd2043e7-5987-4991-aecd-70bf7f8ae993</webElementGuid>
+      <webElementGuid>3bbd0474-f93c-4f94-acc6-2f1f13975261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan DP</value>
-      <webElementGuid>dd918203-b410-41c7-8986-a60375be43ce</webElementGuid>
+      <webElementGuid>a51c928f-88b8-4cdb-972d-1c3235740d50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>downPaymentAmount</value>
-      <webElementGuid>b4b86d5b-f05c-4ec6-a27a-2aac3d92031b</webElementGuid>
+      <webElementGuid>9c84683b-c8a0-49e7-a3d6-c924457d8fc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-input-dp</value>
-      <webElementGuid>bd7ee552-6582-4d8f-8022-a0d4bedb4eaa</webElementGuid>
+      <webElementGuid>ae5342a7-6698-4323-82cf-650be14037bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input css-1v2lwm6 dpform_input__Rt6R2</value>
-      <webElementGuid>bbbb9b67-7be7-4d05-9a45-14b2c48fe491</webElementGuid>
+      <webElementGuid>3483caa0-8354-4b40-8e37-1cc584088965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Rp3.568.000</value>
-      <webElementGuid>ab89a672-c0cd-4253-b403-f4a609bc51f9</webElementGuid>
+      <webElementGuid>30c719c9-82dc-48a2-939e-66f0e476f622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-dp&quot;)/div[@class=&quot;dpform_wrapper__JXqTJ&quot;]/input[@class=&quot;ant-input css-1v2lwm6 dpform_input__Rt6R2&quot;]</value>
-      <webElementGuid>1fa05477-3da5-427f-a9f1-f909653af90c</webElementGuid>
+      <webElementGuid>a75e890f-69af-440d-bbf7-db8dbc71da17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='downPaymentAmount']</value>
-      <webElementGuid>8687ee60-2c34-44c3-b8b5-2b93bd8c0ce7</webElementGuid>
+      <webElementGuid>9afe87d4-6fd6-4757-b12a-0157c5117c3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-dp']/div/input</value>
-      <webElementGuid>48e8fce2-ca9b-4162-8959-97f6e7394268</webElementGuid>
+      <webElementGuid>5f8119ee-9b8a-40bb-80b2-0f9e2d1dae0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/input</value>
-      <webElementGuid>da627afb-e0e4-4075-b49d-f24f1b82a836</webElementGuid>
+      <webElementGuid>9b90eef3-6512-49c6-bf83-102fa9b21d1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @placeholder = 'Masukkan DP' and @name = 'downPaymentAmount']</value>
-      <webElementGuid>0ade46f9-8b2d-488c-8c3f-80f821086d92</webElementGuid>
+      <webElementGuid>b8d56d70-afe9-40de-8b1d-8cc37f8a37e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

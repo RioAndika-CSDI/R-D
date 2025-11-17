@@ -4,6 +4,7 @@
    <name>MKK006_VerifyUserCekKualifikasiKreditandCanceltoChangeCityLocation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8be8ae80-4f36-47e9-b933-33a3165ffba9</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

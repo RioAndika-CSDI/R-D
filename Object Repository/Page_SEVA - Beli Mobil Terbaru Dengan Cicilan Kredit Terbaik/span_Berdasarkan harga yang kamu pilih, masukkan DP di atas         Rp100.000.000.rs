@@ -6,15 +6,20 @@
    <elementGuidId>00f94fc6-e514-40d0-a9ad-74734f793f17</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div/span/span</value>
+         <key>BASIC</key>
+         <value>//*[(starts-with(text(), 'Berdasarkan harga yang kamu pilih, masukkan DP di atas') or starts-with(., 'Berdasarkan harga yang kamu pilih, masukkan DP di atas'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.searchWidget_dpError__JmV4B</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='multi-kk_form__4UeYG']//div//span[@class='searchWidget_dpError__JmV4B'][contains(text(),'Berdasarkan harga yang kamu pilih, masukkan DP di ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>40dc96c2-f72f-41b0-ae48-2db6f211d7f3</webElementGuid>
+      <webElementGuid>78b88716-e2a4-4ccf-96e1-bee1ce915778</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>searchWidget_dpError__JmV4B</value>
-      <webElementGuid>ef62b881-574a-4945-a842-636a51eeb28c</webElementGuid>
+      <webElementGuid>568908c3-d38f-4ca2-a3ec-7809f6419318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Berdasarkan harga yang kamu pilih, masukkan DP di atas</value>
-      <webElementGuid>fd04a877-6445-4984-b9d1-d3a3a5a78a0b</webElementGuid>
+      <webElementGuid>0678d005-b061-4cbe-a132-d5bc8eff6052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[1]/span[@class=&quot;multi-kk_errorText__ihoGV&quot;]/span[@class=&quot;searchWidget_dpError__JmV4B&quot;]</value>
-      <webElementGuid>343486f4-5128-4fbd-8e61-0af454f910f0</webElementGuid>
+      <webElementGuid>7ee437f5-0bff-4196-bd28-726320e2f51a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div/span/span</value>
-      <webElementGuid>4760f2d3-feed-45ac-a18c-b8b93cd98e3f</webElementGuid>
+      <webElementGuid>22b7bda5-a9bd-47b5-9351-a8d0478291e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.659.100.000'])[1]/following::span[2]</value>
-      <webElementGuid>2282632b-5ab2-45ed-8a6c-da5c86cf8df3</webElementGuid>
+      <webElementGuid>eed38d8c-ad34-4046-929c-c0334749d981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp137.800.000'])[1]/following::span[2]</value>
-      <webElementGuid>a0ce8fb2-8d33-4189-bae1-e73e6d86c036</webElementGuid>
+      <webElementGuid>cb9bd834-2c57-4dba-b3b8-4b1a769a8d67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/preceding::span[1]</value>
-      <webElementGuid>7de9151a-3a20-48f1-8a93-3ff45912b11e</webElementGuid>
+      <webElementGuid>5687c0e9-57eb-4888-b921-610110157361</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmisi'])[1]/preceding::span[7]</value>
-      <webElementGuid>b8d3bea2-a201-48e3-b258-e3fb74830afc</webElementGuid>
+      <webElementGuid>6e24d752-55c0-415d-ac0d-d81b09153427</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span</value>
-      <webElementGuid>7abdc8b9-e251-4de3-bbbe-04ee7ffd073e</webElementGuid>
+      <webElementGuid>4e8ce222-65f2-4bff-9955-d6f670290b59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +109,6 @@
       <value>//span[(text() = 'Berdasarkan harga yang kamu pilih, masukkan DP di atas   
       Rp100.000.000' or . = 'Berdasarkan harga yang kamu pilih, masukkan DP di atas   
       Rp100.000.000')]</value>
-      <webElementGuid>033e3a7f-1e5c-49bb-979f-64f60fe1f8a7</webElementGuid>
+      <webElementGuid>a4b21688-47b1-49a3-9698-d17a2773c7f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

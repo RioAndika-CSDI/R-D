@@ -4,6 +4,7 @@
    <name>MKK011_VerifyErrorMessage_PendapatanTerlaluRendah</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>80ba5dde-c9f1-4df7-bef1-4fd0ed793b46</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

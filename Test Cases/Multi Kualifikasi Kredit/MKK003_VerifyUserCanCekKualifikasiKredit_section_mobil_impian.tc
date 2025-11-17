@@ -4,6 +4,7 @@
    <name>MKK003_VerifyUserCanCekKualifikasiKredit_section_mobil_impian</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1a64f5f6-c3a5-4818-aaba-b85a9d6e70a1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

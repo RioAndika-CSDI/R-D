@@ -6,15 +6,20 @@
    <elementGuidId>f38c93b3-5e1c-4da7-be5a-6af74396dd23</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Terapkan Promo dan Asuransi']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.button_secondaryDark__CS02j.button_big__WTbQS.undefined</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::button[1]</value>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'button_secondaryDark__CS02j button_big__WTbQS undefined') and (text() = 'Terapkan Promo dan Asuransi' or . = 'Terapkan Promo dan Asuransi')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9c10c8c8-1933-46ba-856e-b12877d83904</webElementGuid>
+      <webElementGuid>e819613f-57e7-43c9-9eb3-ef2e5150af4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_secondaryDark__CS02j button_big__WTbQS undefined</value>
-      <webElementGuid>f6907773-ae74-4d11-99fe-b9dc2cfe22b0</webElementGuid>
+      <webElementGuid>6b64852a-3cb6-43b9-99fd-e5036149404f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Terapkan Promo dan Asuransi</value>
-      <webElementGuid>9ebe1e16-214e-4819-b045-7bcf4883f370</webElementGuid>
+      <webElementGuid>f05459bf-aaa6-47b6-9e07-176b65566662</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;promoBottomSheet_bottomSheet__g6k_W&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;promoPopupCalculation_container__tV_kH&quot;]/button[@class=&quot;button_secondaryDark__CS02j button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>ca3b3ec2-0eb0-4ff7-8ac8-ac9ccb974a35</webElementGuid>
+      <webElementGuid>c4e071dc-4ec2-4894-a156-6d522599298b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::button[1]</value>
-      <webElementGuid>80f72a16-deff-4e1c-9020-2fbe449c4132</webElementGuid>
+      <webElementGuid>15a95654-e13e-436e-a246-e02ddfcb7d1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashback Rp2 Juta'])[1]/following::button[1]</value>
-      <webElementGuid>9b313aae-682f-4545-95a2-a832c9aebd3c</webElementGuid>
+      <webElementGuid>394717bd-5b77-4776-bb8d-84e62cf3e97a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi promo diterapkan secara otomatis'])[1]/preceding::button[1]</value>
-      <webElementGuid>16d335a8-593b-4dd2-b250-25f4c0eb9db1</webElementGuid>
+      <webElementGuid>5b5ec364-e237-46b4-b49e-16432c38b673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terapkan Promo dan Asuransi']/parent::*</value>
-      <webElementGuid>81eb5b91-50ec-413a-909f-977e6c4e053c</webElementGuid>
+      <webElementGuid>d2edd046-5854-43dd-9b47-d979baeb7ce2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[4]/button</value>
-      <webElementGuid>72be17b8-6360-450a-b9c9-1d58af85f261</webElementGuid>
+      <webElementGuid>c1dfd2bc-698e-480a-a979-4c305e5a15a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Terapkan Promo dan Asuransi' or . = 'Terapkan Promo dan Asuransi')]</value>
-      <webElementGuid>36ab4997-0c03-45da-988b-89bf0cd6fa0a</webElementGuid>
+      <webElementGuid>4c36730c-d7c8-4b41-8740-13a1550058da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

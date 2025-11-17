@@ -10,11 +10,16 @@
          <value>input.input_input__c0tP8</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='multi-kk_formRange__afc_i']//div//input[@placeholder='Masukkan harga terendah']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>97e32b81-8cdc-4c40-b6cb-48cf62722dd1</webElementGuid>
+      <webElementGuid>7d714d4f-b36b-46d7-b0ab-5c4c67fb218c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input_input__c0tP8</value>
-      <webElementGuid>86eb0de0-f488-4195-9051-888ca2755cb7</webElementGuid>
+      <webElementGuid>4e265756-753c-4be4-bf58-e51825aaf63b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan harga terendah</value>
-      <webElementGuid>18cb431b-fbb5-4a00-a77f-e37549b02703</webElementGuid>
+      <webElementGuid>40251957-6891-4396-b67a-77bddddf95d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +51,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>0db675db-2e1f-4b93-b71c-31276cce70e4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>d3cbcad4-1332-40ba-8abf-a6848c526aa2</webElementGuid>
+      <webElementGuid>3385491e-f51d-4ae4-8a28-ebf706abb953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>61e57866-252d-464d-a30c-830669318b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_formRange__afc_i&quot;]/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__c0tP8&quot;]</value>
-      <webElementGuid>9af299bf-b819-4eba-8971-f419762f2831</webElementGuid>
+      <value>//div[@class='multi-kk_formRange__afc_i']//div//input[@placeholder='Masukkan harga terendah']</value>
+      <webElementGuid>a979f1c3-62ab-4157-b31c-e5c85537b6e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>3a41ae4f-19e9-4c60-8ec9-34051d193a0e</webElementGuid>
+      <webElementGuid>e592246b-571b-4e29-aaa6-f9a4e3764ee2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>a1c7f0c6-505a-4674-a41d-19a65cedbe91</webElementGuid>
+      <webElementGuid>2b8a77f3-7ee1-4032-8f5f-b3696f5b7517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>25e452a9-9b53-4dd1-99d8-4787b3737c04</webElementGuid>
+      <webElementGuid>9d529391-4d31-4e96-8902-aa10e02de8b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan harga terendah' and @type = 'tel']</value>
-      <webElementGuid>c55b107b-67e1-4405-8877-ff6aab0d6fa4</webElementGuid>
+      <webElementGuid>b22d951d-5d33-474f-a0e3-649e3b4e8e9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

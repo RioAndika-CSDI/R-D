@@ -6,12 +6,12 @@
    <elementGuidId>e1e4b4af-5003-4df2-b03a-1c5ce658cb52</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loan-calculator-form-car-model > div.inputSelect_container__q11Yp.undefined > div.inputSelect_inputArea__QvNq3 > div.inputSelect_inputWrapper__hQnH0.undefined > input.inputSelect_inputField__Zpc6V</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='loan-calculator-form-city']//div[@class='inputSelect_inputArea__QvNq3']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loan-calculator-form-car-model > div.inputSelect_container__q11Yp.undefined > div.inputSelect_inputArea__QvNq3 > div.inputSelect_inputWrapper__hQnH0.undefined > input.inputSelect_inputField__Zpc6V</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -19,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>067518e0-1772-4d98-810d-de34983ea97a</webElementGuid>
+      <webElementGuid>b08ec3c2-21d9-41fb-8c22-794298385766</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d5fad06f-aa18-4219-9169-342a1df0e02b</webElementGuid>
+      <webElementGuid>ec4dfc62-962d-4461-a620-a916d18d973e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_inputField</value>
-      <webElementGuid>375e86ae-771a-4d7c-8acb-c85fc2ee68cf</webElementGuid>
+      <webElementGuid>7aebb06a-ce3a-4eed-bdd3-b87da18e43f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih mobil</value>
-      <webElementGuid>15ca447b-b4f9-4e92-8944-dac2f2c2c98b</webElementGuid>
+      <webElementGuid>91c7692a-08e0-43e2-baf1-7af52551504d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>dropdown-pilih-kota</value>
-      <webElementGuid>d5c36957-4fd6-41f4-b597-86eed6a4cf65</webElementGuid>
+      <webElementGuid>2b0c926e-fbfd-4afc-924e-42bd4833ec7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Jakarta Pusat</value>
-      <webElementGuid>87d21af5-ebca-4491-9558-ca6ae67ace1c</webElementGuid>
+      <webElementGuid>dba6d9b3-b537-4094-9301-b16453de0ca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-car-model&quot;)/div[@class=&quot;inputSelect_container__q11Yp undefined&quot;]/div[@class=&quot;inputSelect_inputArea__QvNq3&quot;]/div[@class=&quot;inputSelect_inputWrapper__hQnH0 undefined&quot;]/input[@class=&quot;inputSelect_inputField__Zpc6V&quot;]</value>
-      <webElementGuid>b759d79f-fa3b-4bb6-8d18-1651e68a5bf6</webElementGuid>
+      <webElementGuid>206551c1-a2f4-4c85-8340-891dc6476e2a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>7e3acbc1-c780-4849-98ed-767c9fadd35e</webElementGuid>
+      <webElementGuid>a974179d-f899-4b21-99e7-1ff2a32b3609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-car-model']/div[3]/div/div/input</value>
-      <webElementGuid>13be1d72-c2f8-4ff6-960c-d3b6e3b0116c</webElementGuid>
+      <webElementGuid>388a946a-eaf9-4e9f-9d24-7463a4908b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div[3]/div/div/input</value>
-      <webElementGuid>05a61419-36cb-4875-936e-f771c8e819d2</webElementGuid>
+      <webElementGuid>6c2628db-53a3-40d6-8e84-38bdba4d0793</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih mobil']</value>
-      <webElementGuid>621b9b28-7cb5-45e7-99cb-f4a2253e4d88</webElementGuid>
+      <webElementGuid>8de1d8eb-bbdf-4ef4-8db5-9720972ef872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +115,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Jakarta Pusat']</value>
-      <webElementGuid>007ac09e-1145-4adf-9d30-44df3b46b681</webElementGuid>
+      <webElementGuid>5b74ae2c-18a8-4a86-aa59-28a885307b03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-city']/div[2]/div/div/input</value>
-      <webElementGuid>8b038105-63f9-4cad-8310-e2e0850a941e</webElementGuid>
+      <webElementGuid>1b041442-4ece-455b-8e57-c64a94dda07a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/input</value>
-      <webElementGuid>2181e0f9-cdae-48c8-a623-e1b760576226</webElementGuid>
+      <webElementGuid>93f4663b-45a5-4e0c-afbe-b760667a0816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih kota']</value>
-      <webElementGuid>8e612027-5871-4c19-a921-4ce93b3b9dcc</webElementGuid>
+      <webElementGuid>284fbd54-29b9-495a-9755-1e96f254e2ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

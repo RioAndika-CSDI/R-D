@@ -21,7 +21,7 @@ if (open_browser.toString().equals('1')) {
     WebUI.openBrowser(GlobalVariable.Prod)
 }
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
     0)
@@ -31,6 +31,11 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
+	5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
 
 'Click Burger Menu'
 WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)

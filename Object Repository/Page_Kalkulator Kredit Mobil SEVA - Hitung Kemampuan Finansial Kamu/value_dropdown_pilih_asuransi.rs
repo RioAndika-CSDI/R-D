@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='1 Tahun Comprehensive + 4 Tahun TLO']</value>
+         <value>//div[contains(text(),'${pilih_asuransi}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[@id = '${pilih_asuransi}']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e188b159-6a53-4d70-903b-7c68527fe00c</webElementGuid>
+      <webElementGuid>4b856395-dd75-42e1-b055-33ff5f89dc4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>${pilih_asuransi}</value>
-      <webElementGuid>c71d5835-bcb4-4a44-a23b-3e98be0bb5ae</webElementGuid>
+      <webElementGuid>22ce8743-546a-4a94-abf2-11664a0d677e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv</value>
-      <webElementGuid>eedd138e-2366-438f-ad34-60bd3054fbfd</webElementGuid>
+      <webElementGuid>01241bd1-9d5a-4914-a85c-b73996dd7dfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1 Tahun Comprehensive + 4 Tahun TLO</value>
-      <webElementGuid>9b8c7d14-5fa7-4f60-9ae5-25c52f0df27e</webElementGuid>
+      <webElementGuid>644db0e5-732d-4340-861a-a5098982a22d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;1 Tahun Comprehensive + 4 Tahun TLO&quot;)</value>
-      <webElementGuid>daed34e9-a962-49bf-a794-b831fbb756f1</webElementGuid>
+      <webElementGuid>3ccb876b-00e5-406d-abe1-79b012243da9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='1 Tahun Comprehensive + 4 Tahun TLO']</value>
-      <webElementGuid>733f6226-1ae6-4d3e-a3d0-ca7e8180791d</webElementGuid>
+      <webElementGuid>01e2a8aa-5447-4217-a9b7-626d8265ab51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive'])[1]/following::div[1]</value>
-      <webElementGuid>2175ba78-1872-465e-9514-96b2fbfdcb42</webElementGuid>
+      <webElementGuid>535518f6-dcc5-4b1e-861e-fc6e05e10729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelajari Lebih Lanjut'])[3]/following::div[10]</value>
-      <webElementGuid>745ce796-1038-4b45-8082-4b11ad532645</webElementGuid>
+      <webElementGuid>39e6d969-9173-42dd-8c4e-2e3efc03b52c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asuransi yang kamu pilih mempengaruhi promo yang tersedia.'])[1]/preceding::div[12]</value>
-      <webElementGuid>dcb1e1bc-e03b-45cc-9d43-96b05f902b17</webElementGuid>
+      <webElementGuid>e735b27a-ce17-42af-b92e-8e48ce1f5774</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Promo'])[1]/preceding::div[14]</value>
-      <webElementGuid>012d7506-6553-454a-864f-344ce01bd1a4</webElementGuid>
+      <webElementGuid>71563e9e-08f3-4559-9a7e-93fab43abf12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div[2]/div[2]/div[2]</value>
-      <webElementGuid>d34bb6df-f1d3-43b9-b0b9-df377fca4903</webElementGuid>
+      <webElementGuid>5f871239-789d-44ba-9ce4-6265b5ed0cc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = '1 Tahun Comprehensive + 4 Tahun TLO' and (text() = '1 Tahun Comprehensive + 4 Tahun TLO' or . = '1 Tahun Comprehensive + 4 Tahun TLO')]</value>
-      <webElementGuid>d491d0d7-4137-4cb3-9c63-56395b8a9368</webElementGuid>
+      <webElementGuid>41502621-f1da-4fb5-8186-143697bd5343</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,14 +11,15 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='Bogor']</value>
+         <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${kota}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${kota}']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#Bogor</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1621ae08-e44d-4034-bdfd-1119c2344dc1</webElementGuid>
+      <webElementGuid>ae970e11-e255-4b38-8b02-5fbf907735d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>${kota}</value>
-      <webElementGuid>d1e7e006-2204-4b95-b313-8cccfd2dd470</webElementGuid>
+      <webElementGuid>757586ab-af68-4c76-acfa-5d7295e60981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv inputSelect_active__MgNJZ</value>
-      <webElementGuid>9e79290c-7acf-4455-b86c-942a8b272507</webElementGuid>
+      <webElementGuid>16bdb0b4-071f-432b-9aea-91f00419e5e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bogor</value>
-      <webElementGuid>9c0eda3f-fce5-44de-b32a-1d97ef568232</webElementGuid>
+      <webElementGuid>1f93dcab-4bfa-4594-96f4-30ad3de1f25b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Bogor&quot;)</value>
-      <webElementGuid>4c7ee5fc-c05c-447e-8482-433dd429ce36</webElementGuid>
+      <webElementGuid>bb891700-b824-4a16-aa6d-40012f94365f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='Bogor']</value>
-      <webElementGuid>6e2ae6be-3e16-425b-a40f-69772f10c173</webElementGuid>
+      <webElementGuid>5c50e275-29e2-433c-af88-b6c626238bf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-city']/div[2]/div[2]/div[2]</value>
-      <webElementGuid>f76e160e-37e7-431c-885f-a8d66dd4fba0</webElementGuid>
+      <webElementGuid>fe3bd5fb-98ab-4c7c-97b8-60c98f5a0f85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/following::div[1]</value>
-      <webElementGuid>575c0999-4ed5-4b2e-a9b6-6e3b5343e086</webElementGuid>
+      <webElementGuid>40bc7086-cfc7-4dfa-851c-7f06b7606766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/following::div[13]</value>
-      <webElementGuid>ec816dd5-eebc-4835-b0f8-45159ea58ae0</webElementGuid>
+      <webElementGuid>a0c1b621-7447-4506-bf42-26b9d893ddfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surabaya'])[1]/preceding::div[3]</value>
-      <webElementGuid>53cfc172-0458-491b-b3d6-91a9a249163c</webElementGuid>
+      <webElementGuid>c442983a-992d-4178-aabe-77e1b62c2876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div[2]/div[2]</value>
-      <webElementGuid>7ea6af6d-4c10-4f8c-bb36-ce8ac6b7a418</webElementGuid>
+      <webElementGuid>a21697ae-3e64-443d-8133-9bc326bb7a4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'Bogor' and (text() = 'Bogor' or . = 'Bogor')]</value>
-      <webElementGuid>06e8999f-36c7-445a-8c41-fa4c2fb06539</webElementGuid>
+      <webElementGuid>e60e819f-e3f1-491d-ab6c-e4c9d49aa240</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
