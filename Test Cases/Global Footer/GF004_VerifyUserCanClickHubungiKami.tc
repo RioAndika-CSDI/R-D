@@ -4,5 +4,6 @@
    <name>GF004_VerifyUserCanClickHubungiKami</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a84bec1e-6ff5-4b6f-9ffe-ee548a5769ca</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1686f883-667a-4049-a782-f58f3791a7d3</testCaseGuid>
 </TestCaseEntity>

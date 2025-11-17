@@ -4,5 +4,6 @@
    <name>H0026 Desktop - VerifyUserCanSelectAllBrand</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c855c2f8-81ec-443b-a3b5-959a3295a164</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5e9a62f-ce41-4580-a12f-5e2abdb4a3e6</testCaseGuid>
 </TestCaseEntity>

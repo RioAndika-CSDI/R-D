@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GF011 - VerifyUserSeeSevaDescriptionText</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c953e28-d204-4882-850d-ec7b42770e89</testCaseGuid>
+</TestCaseEntity>

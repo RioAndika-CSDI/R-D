@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GH014_VerifyUserCanSeeHeaderName_DesktopMode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>482146c2-984d-4c4c-ae80-b297984828da</testCaseGuid>
+</TestCaseEntity>

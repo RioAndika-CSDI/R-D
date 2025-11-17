@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0041 - VerifyUserSuccesfullyCheckYoutubeSEVA-Footer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68307265-17b6-4ce7-bc15-c2cf9fcbd497</testCaseGuid>
+</TestCaseEntity>

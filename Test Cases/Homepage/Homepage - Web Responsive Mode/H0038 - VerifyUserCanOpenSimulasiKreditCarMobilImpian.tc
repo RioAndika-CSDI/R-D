@@ -4,5 +4,6 @@
    <name>H0038 - VerifyUserCanOpenSimulasiKreditCarMobilImpian</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1d6901da-cdc3-40d7-8712-eda7cbd7549e</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>065570fe-e460-4781-841f-d88c841f62f3</testCaseGuid>
 </TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Isuzu' or . = 'Isuzu')]</value>
+         <value>//button[@data-testid = 'logo-isuzu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>43ef555f-8f01-4aa9-92a7-4830f79f3008</webElementGuid>
+      <value>button</value>
+      <webElementGuid>aa878fda-d023-4e4c-90dd-ebeaf118da97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Isuzu</value>
-      <webElementGuid>a36bfd7f-5526-4f40-bc32-127a653f2920</webElementGuid>
+      <webElementGuid>1ac1c7be-8957-4b78-af13-debaff4ca326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-isuzu</value>
+      <webElementGuid>c09a5da9-c5c2-43f8-8178-940b20be9072</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

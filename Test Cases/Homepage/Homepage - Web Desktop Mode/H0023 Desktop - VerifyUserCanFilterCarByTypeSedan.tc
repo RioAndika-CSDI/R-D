@@ -4,5 +4,6 @@
    <name>H0023 Desktop - VerifyUserCanFilterCarByTypeSedan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f6d68a59-372e-4621-af68-c017d63e551c</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53cc9d2b-5a41-45bd-9581-947404c8383f</testCaseGuid>
 </TestCaseEntity>

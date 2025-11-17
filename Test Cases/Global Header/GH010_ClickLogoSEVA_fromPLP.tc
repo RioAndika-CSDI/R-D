@@ -4,5 +4,6 @@
    <name>GH010_ClickLogoSEVA_fromPLP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ccbf9b42-1fc2-4002-9845-f13d1b5bedb6</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72f1e746-03ec-455f-9644-e90e958eaff6</testCaseGuid>
 </TestCaseEntity>

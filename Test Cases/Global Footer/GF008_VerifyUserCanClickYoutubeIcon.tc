@@ -4,5 +4,6 @@
    <name>GF008_VerifyUserCanClickYoutubeIcon</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>385073ad-3870-4a7f-b403-b9e7b66947e1</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b40fb590-d9a5-499d-9fae-628e08b2a224</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>H0024 Desktop - VerifyUserCanFilterCarByTypeHatchback</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0d07abc6-0bd8-4374-93f8-779962ae56f5</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>628051af-a54e-407d-8013-1fce8a8c0dc7</testCaseGuid>
 </TestCaseEntity>

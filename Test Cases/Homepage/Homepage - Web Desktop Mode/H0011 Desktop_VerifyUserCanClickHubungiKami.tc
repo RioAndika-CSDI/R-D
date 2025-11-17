@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0011 Desktop_VerifyUserCanClickHubungiKami</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a2b1ba8-7a39-498f-9a59-e4f588e64b6b</testCaseGuid>
+</TestCaseEntity>

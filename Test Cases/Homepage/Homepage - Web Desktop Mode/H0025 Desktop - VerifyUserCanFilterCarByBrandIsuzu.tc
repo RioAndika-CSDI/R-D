@@ -4,5 +4,6 @@
    <name>H0025 Desktop - VerifyUserCanFilterCarByBrandIsuzu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0f629f73-32cc-4bd6-b81a-1167448fd0e2</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93ab498f-0378-4680-b763-9cb153d3c59f</testCaseGuid>
 </TestCaseEntity>

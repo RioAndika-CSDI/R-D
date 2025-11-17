@@ -4,5 +4,6 @@
    <name>GH011_ClickLogoSEVA_fromPDP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d8c6275a-46ed-4730-bd9a-4d58ee063e73</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21bc7c9b-473c-4905-9f53-0e4069645ff1</testCaseGuid>
 </TestCaseEntity>

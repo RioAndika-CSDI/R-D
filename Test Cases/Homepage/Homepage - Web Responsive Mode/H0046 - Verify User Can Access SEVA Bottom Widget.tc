@@ -4,5 +4,6 @@
    <name>H0046 - Verify User Can Access SEVA Bottom Widget</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e90a3b3e-7611-4044-beb4-2b76aed62353</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f863f2c-2a88-4294-bd48-706d5b8ce81e</testCaseGuid>
 </TestCaseEntity>

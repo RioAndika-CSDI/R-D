@@ -4,5 +4,6 @@
    <name>H0031 Desktop - VerifyUserCanSearchACarWithoutInputFilter</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>040941d6-e4ac-46bf-b1a5-7c87306e8958</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d34e64d-f678-4173-8323-0f59021e95a7</testCaseGuid>
 </TestCaseEntity>

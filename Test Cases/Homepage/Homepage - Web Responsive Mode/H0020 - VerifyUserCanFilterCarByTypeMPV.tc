@@ -4,5 +4,6 @@
    <name>H0020 - VerifyUserCanFilterCarByTypeMPV</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f054856d-c512-452b-a678-3afb50fd31b5</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44987097-e22d-45d7-9e69-d9fc2fbedd9a</testCaseGuid>
 </TestCaseEntity>

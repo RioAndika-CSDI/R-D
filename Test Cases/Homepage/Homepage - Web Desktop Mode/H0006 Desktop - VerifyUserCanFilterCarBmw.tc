@@ -4,5 +4,6 @@
    <name>H0006 Desktop - VerifyUserCanFilterCarBmw</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>197ed387-4607-471d-9d8a-a39d0d68029f</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>100f16a3-2b5f-4950-981f-2ae974652d3c</testCaseGuid>
 </TestCaseEntity>

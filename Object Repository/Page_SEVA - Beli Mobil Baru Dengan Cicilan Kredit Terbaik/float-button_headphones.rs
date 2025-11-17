@@ -13,8 +13,13 @@
          <key>XPATH</key>
          <value>//div[@id='__next']/main/button/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ant-float-btn-body']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0fee9c79-96c3-4fcb-87d3-e9b745a54bd5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ant-float-btn-body</value>
-      <webElementGuid>171a296f-18d6-47e1-a2a9-a64b75687f15</webElementGuid>
+      <webElementGuid>f68f04b2-c8b2-4336-9113-be639eb4b8d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-float-btn-body</value>
+      <webElementGuid>890ea989-73ca-46ee-9fe6-b855f378cb5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;index_main__PUxPm&quot;]/button[@class=&quot;css-1fumvat ant-float-btn csa-button csa-button-homepage ant-float-btn-default ant-float-btn-circle&quot;]/div[@class=&quot;ant-float-btn-body&quot;]</value>
-      <webElementGuid>75886937-e153-4088-9abd-2974d9bb6e6d</webElementGuid>
+      <webElementGuid>a7cf3721-923c-43d6-8e38-e3ae92fdc6c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/button/div</value>
-      <webElementGuid>8bb014bb-debc-45e3-97f6-e843748e5ed9</webElementGuid>
+      <webElementGuid>0ffb825f-fb0c-4a17-b489-6077044c1434</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[1]</value>
-      <webElementGuid>08be1e53-7fd1-4862-ba8b-54a022e0e10c</webElementGuid>
+      <webElementGuid>eee49195-0032-41d0-8639-8099d20c41eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami mengambil langkah-langkah untuk membantumemastikan data kamu tetap aman dengan ISO 27001.'])[1]/following::div[3]</value>
-      <webElementGuid>9819c75f-bde1-4663-a439-1067e317647b</webElementGuid>
+      <webElementGuid>92fb5ebb-a236-4df7-ad68-07952916d9a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[3]</value>
-      <webElementGuid>4d7e6648-2746-4666-98f2-34fca443a0af</webElementGuid>
+      <webElementGuid>5276b788-efd9-4083-8fa9-3f9bfd155aed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[3]</value>
-      <webElementGuid>15e99542-d437-437d-8eef-702491851655</webElementGuid>
+      <webElementGuid>44b98f49-89df-49cb-9699-87784e016732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +91,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/button/div</value>
-      <webElementGuid>b9ef6314-1ff1-4b65-9c19-2b8722d60a0e</webElementGuid>
+      <webElementGuid>ecd0cc83-bee5-4708-8e81-73a1af990755</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

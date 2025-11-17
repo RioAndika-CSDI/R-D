@@ -4,17 +4,18 @@
    <name>GH009_CancelChangeLocation_fromPDP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b0ed3e69-8715-4a43-9345-bcb805c6985d</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd1a5d52-e5de-4cd6-81af-116945da70c8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4db89c96-4eab-4b4c-b6e1-e3edb3ddb7aa</variableId>
+      <variableId>331fc055-f10f-4ea4-a3da-e1ff11ff6198</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Bogor'</defaultValue>
       <description></description>
-      <id>4db89c96-4eab-4b4c-b6e1-e3edb3ddb7aa</id>
+      <id>331fc055-f10f-4ea4-a3da-e1ff11ff6198</id>
       <masked>false</masked>
       <name>kota</name>
    </variable>

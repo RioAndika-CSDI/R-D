@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0016 Desktop_VerifyUserCanClickYoutubeIcon</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c93f4f8c-cd2e-4f4e-a2ea-d3288d87d8ae</testCaseGuid>
+</TestCaseEntity>

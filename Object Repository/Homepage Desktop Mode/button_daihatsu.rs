@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_daihatsu</name>
+   <tag></tag>
+   <elementGuidId>049768cc-699c-4a72-aadf-aef2910a2281</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-daihatsu</value>
+      <webElementGuid>470bee3c-d9ad-4576-b081-ade1f41b530d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

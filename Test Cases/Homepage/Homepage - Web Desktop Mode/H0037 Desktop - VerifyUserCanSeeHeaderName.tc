@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0037 Desktop - VerifyUserCanSeeHeaderName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c740c0d3-1230-4805-924d-e83721d75eaf</testCaseGuid>
+</TestCaseEntity>

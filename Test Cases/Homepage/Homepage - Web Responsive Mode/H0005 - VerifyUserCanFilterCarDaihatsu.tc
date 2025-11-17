@@ -4,5 +4,6 @@
    <name>H0005 - VerifyUserCanFilterCarDaihatsu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>57cc3a02-89e5-49de-948e-7e3cd12f7d5b</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45f8d4e4-c90b-470b-9d17-be8d45f07e2b</testCaseGuid>
 </TestCaseEntity>

@@ -4,17 +4,18 @@
    <name>GH005_CancelChangeLocation_fromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7dfc7e85-d8aa-47e9-a8f9-8deacd1ad9f1</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a2dd97c-88f2-4ad2-ba4b-f7ed0c336e35</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5a1b2893-df77-42f0-823a-8b2c93750c10</variableId>
+      <variableId>5c4ee503-d599-48c8-982c-a962a536b145</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Bogor'</defaultValue>
       <description></description>
-      <id>5a1b2893-df77-42f0-823a-8b2c93750c10</id>
+      <id>5c4ee503-d599-48c8-982c-a962a536b145</id>
       <masked>false</masked>
       <name>kota</name>
    </variable>

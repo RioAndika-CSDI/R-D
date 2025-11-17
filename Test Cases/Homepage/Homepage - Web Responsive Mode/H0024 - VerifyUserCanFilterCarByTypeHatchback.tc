@@ -4,5 +4,6 @@
    <name>H0024 - VerifyUserCanFilterCarByTypeHatchback</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ef4341a7-bd58-4546-90b0-04ddd0881df5</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e23680ce-0faf-4037-aab4-4a92309ffef2</testCaseGuid>
 </TestCaseEntity>

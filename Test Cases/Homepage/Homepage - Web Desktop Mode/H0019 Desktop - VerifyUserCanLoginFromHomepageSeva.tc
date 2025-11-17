@@ -4,5 +4,6 @@
    <name>H0019 Desktop - VerifyUserCanLoginFromHomepageSeva</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e843bae8-1f47-4bea-a552-1a94d639d92f</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f07194c-ccdf-42ac-a359-021f119fdee2</testCaseGuid>
 </TestCaseEntity>

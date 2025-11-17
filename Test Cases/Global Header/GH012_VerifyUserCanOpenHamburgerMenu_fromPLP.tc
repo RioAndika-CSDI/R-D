@@ -4,5 +4,6 @@
    <name>GH012_VerifyUserCanOpenHamburgerMenu_fromPLP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>16d8aa74-7554-4352-8d02-99fd53cdfab7</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f3f95ee-f857-4f6a-b6b9-29f7fa1a007e</testCaseGuid>
 </TestCaseEntity>

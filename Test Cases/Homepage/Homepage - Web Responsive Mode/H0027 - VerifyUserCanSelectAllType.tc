@@ -4,5 +4,6 @@
    <name>H0027 - VerifyUserCanSelectAllType</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3d62ea1e-1953-4998-94dc-dd3f34c570d5</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bddca331-09d9-489d-b75b-f968ff43af87</testCaseGuid>
 </TestCaseEntity>

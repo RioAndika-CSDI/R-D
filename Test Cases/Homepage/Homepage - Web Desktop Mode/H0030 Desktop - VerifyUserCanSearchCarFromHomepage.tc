@@ -4,5 +4,6 @@
    <name>H0030 Desktop - VerifyUserCanSearchCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>44b5075d-8524-469f-8d52-2d1f1cabe098</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35f4c7cb-8352-4ab4-9c64-42fb983d265a</testCaseGuid>
 </TestCaseEntity>
