@@ -4,6 +4,7 @@
    <name>LC005 - VerifyUserCanAccessLoanCalculatorFromPLP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>846854a2-9fa1-41e0-9463-6f9f82bf8b21</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -12,7 +13,7 @@
       <variableId>ac0cd610-e350-4c86-bd37-f961e169ef1f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Daihatsu Sigra'</defaultValue>
+      <defaultValue>'Daihatsu All New Ayla'</defaultValue>
       <description>brand and model</description>
       <id>ac0cd610-e350-4c86-bd37-f961e169ef1f</id>
       <masked>false</masked>

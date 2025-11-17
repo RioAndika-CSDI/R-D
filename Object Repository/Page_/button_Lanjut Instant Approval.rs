@@ -10,15 +10,16 @@
          <value>//button[(text() = 'Lanjut Instant Approval' or . = 'Lanjut Instant Approval')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div[4]/div[2]/div/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='multi-kk-result_mobileView__C_Yt6 multi-kk-result_container__xf38W']//div[@class='multi-kk-result_carListWrapper__aTUrT']//div//button[@class='button_primaryDarkBlue__jOQA0 button_plpDesktop__QfOYh undefined'][normalize-space()='Lanjut Instant Approval']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cbffea32-3116-4349-acac-2ca8cab87e21</webElementGuid>
+      <webElementGuid>0b337f05-e077-4709-b34f-87ce6669c796</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>d31e6959-026c-4c0e-b518-0a176481f440</webElementGuid>
+      <webElementGuid>1c2d8951-051a-4ef0-ba8f-cfd46a76fc46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjut Instant Approval</value>
-      <webElementGuid>4d316aba-7a6f-47b7-b775-d14cb28eb2e9</webElementGuid>
+      <webElementGuid>da079ecd-0958-453d-91b9-75537f1a134a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;undefined multi-kk-result_container__xf38W&quot;]/div[@class=&quot;multi-kk-result_carListWrapper__aTUrT&quot;]/div[1]/div[@class=&quot;cardetailcardMultiCredit_container___KqAj&quot;]/div[@class=&quot;cardetailcardMultiCredit_cardWrapper___1iLD cardshadow_cardShadow__OePEF&quot;]/div[@class=&quot;cardetailcardMultiCredit_ctaGroup__XUNu7&quot;]/div[2]/div[@class=&quot;cardetailcardMultiCredit_bordered__E_uEh ant-tooltip-open multi-kk&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>a79aa1a0-5c2c-4070-8e2f-22a58103e107</webElementGuid>
+      <webElementGuid>38f4961d-3431-43e7-99db-3c21b0b6a076</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/div/div/div/div[4]/div[2]/div/button</value>
-      <webElementGuid>d8af16fb-e059-420c-9501-3f32ee7809fe</webElementGuid>
+      <webElementGuid>3ac4d012-d7d0-401f-abbb-72adb5bb9729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[1]/following::button[1]</value>
-      <webElementGuid>9a1e91f4-147d-4eb2-8254-13fdcbffff92</webElementGuid>
+      <webElementGuid>f47a90bd-c7eb-47e7-80da-54c17929726c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor'])[1]/following::button[2]</value>
-      <webElementGuid>a6bd70ce-ff23-4d95-9dc8-c9004855fc0f</webElementGuid>
+      <webElementGuid>f962fb91-071c-4dab-a926-5b90b20e05ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kualifikasi Kredit Mudah'])[2]/preceding::button[1]</value>
-      <webElementGuid>65b8c54b-a7ba-46ea-885c-6b66a061c39c</webElementGuid>
+      <webElementGuid>3dcdb630-baeb-446b-83c4-3ef9a787b772</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjut Instant Approval']/parent::*</value>
-      <webElementGuid>4fee7ad1-7f54-4ee1-8445-69b324b80e60</webElementGuid>
+      <webElementGuid>fb19b5b8-7548-4947-97be-65f7a7e6b12a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/div/button</value>
-      <webElementGuid>a5eedfba-1207-4b86-8d0e-61e9d59dae0a</webElementGuid>
+      <webElementGuid>d64fe468-7fae-4be1-8da4-a858cc268e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjut Instant Approval' or . = 'Lanjut Instant Approval')]</value>
-      <webElementGuid>3fbbf620-9a2f-40cb-a893-5094b64ced2b</webElementGuid>
+      <webElementGuid>5bc27dd8-d50d-4c60-822b-a6d9e49ac890</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

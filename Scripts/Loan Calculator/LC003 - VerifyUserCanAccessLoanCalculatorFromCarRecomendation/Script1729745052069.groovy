@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.seva.id/')
 
@@ -55,6 +55,11 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
 WebUI.waitForElementNotPresent(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'), 5)
+
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'),
+	5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
 
 WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Hitung Kemampuan', 
         [('city') : city, ('car_brand') : car_brand, ('car_model') : car_model]))
@@ -99,9 +104,10 @@ WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Ter
 
 //Jenis Pembayaran Option
 if (bayar.toString().equalsIgnoreCase('ADDM')) {
-    WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Bayar di Muka (ADDM)Dibayar bersama dengan DP'))
+    //	WebUI.scrollToElement(findTestObject('Object Repository/Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_active'))
+    WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDM_active'))
 } else if (bayar.toString().equalsIgnoreCase('ADDB')) {
-    WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Bayar di Belakang (ADDB)Dibayar sebulan setelah DP'))
+    WebUI.click(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/ADDB_active'))
 }
 
 WebUI.scrollToElement(findTestObject('Loan Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/Cicilan_Mobil_label'), 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Rp2']</value>
+         <value>//input[@data-test-id='field-input-pendapatan']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,8 @@
          <value>//*[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>723f0c9b-55d1-4d82-8828-e4a52f85ac4b</webElementGuid>
+      <webElementGuid>0cbd33ac-d464-426d-a6fc-fc5bd8e9502c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>field-input-pendapatan</value>
-      <webElementGuid>eaa775c1-b862-4041-a1a4-bb8ee0c379a7</webElementGuid>
+      <webElementGuid>d83aa90a-6a40-4022-ad97-1e86bfc5ad35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>0 input_input__MAvlc</value>
-      <webElementGuid>4a92c9d3-81a8-41a4-a670-1f456dc5dbb6</webElementGuid>
+      <webElementGuid>a6cfd612-a4f5-4015-aa3d-f6293a60494b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +51,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan pendapatan</value>
-      <webElementGuid>f055c50d-8302-4b0b-a4b9-a696d1991c52</webElementGuid>
+      <webElementGuid>8e285f41-ac41-49df-be93-89b28efea9a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>73c1c354-09a6-40de-9f41-278e1ddb7ec4</webElementGuid>
+      <webElementGuid>b9f51f06-7887-458b-9fb9-cf5546057ba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>26a85b37-d21f-4c43-bbff-7aa7f2ffb8a6</webElementGuid>
+      <webElementGuid>7d88b0cc-6ac7-4b7a-bd09-022473d4327c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Rp2</value>
-      <webElementGuid>a2f09821-9ec7-4abf-89d4-6fce25dbd738</webElementGuid>
+      <webElementGuid>a429a9b6-3b3a-433f-8964-68fc1f960a8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan-calculator-form-income&quot;)/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;0 input_input__MAvlc&quot;]</value>
-      <webElementGuid>2110ea0c-b4e2-4b57-83de-639eaaa4baf1</webElementGuid>
+      <webElementGuid>2645cceb-4c17-4b82-8e88-9e1201cda908</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Rp2']</value>
-      <webElementGuid>e920aedb-ca10-4c66-a649-06faa0a86c9d</webElementGuid>
+      <webElementGuid>d377bb48-6c52-493b-bad4-78ded35b8c56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-income']/div/div/input</value>
-      <webElementGuid>a43a1214-e3b3-44e0-bf5b-2e544ef7f882</webElementGuid>
+      <webElementGuid>f8ddf4a3-5bf6-4435-835a-61a07f1909ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div/div/div/input</value>
-      <webElementGuid>92df28b8-56f7-4806-8a78-5e0cc6274346</webElementGuid>
+      <webElementGuid>96af0b6b-57f6-4e36-b7b3-2b4f33cd6ef3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
-      <webElementGuid>66101ddd-c238-4d30-965b-d3e4a541333e</webElementGuid>
+      <webElementGuid>e856ab53-1e6c-4157-a4ab-8f8a85760737</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

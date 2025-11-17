@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Handphone'])[1]/following::button[1]</value>
+         <value>//button[normalize-space()='Kirim OTP untuk Masuk']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d06977f6-21ac-4273-9ed5-6a613f1ca5e1</webElementGuid>
+      <webElementGuid>f2016fe7-e050-4841-a1ea-5e263332f909</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>728d83c6-a595-4172-80a0-62891648f189</webElementGuid>
+      <webElementGuid>9b839d2b-a33c-458d-be5d-af161bd6b19a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Masuk</value>
-      <webElementGuid>e9a1b5fb-c145-45ba-9dca-008e5dcfc1c5</webElementGuid>
+      <webElementGuid>671eafe4-ce0e-413d-acdc-29511a6ec6c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;popupLogin_wrapper__edAPv&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>589d0b69-f6c2-4d10-a4c7-d1f5ebdb3a15</webElementGuid>
+      <webElementGuid>ca496a12-6567-4c6e-853a-6b27e25c9275</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Handphone'])[1]/following::button[1]</value>
-      <webElementGuid>c00c25e5-09b6-4dec-8cfb-055a662fbc36</webElementGuid>
+      <webElementGuid>ca64dd65-dd91-4717-84da-ca6ec9395dfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/following::button[1]</value>
-      <webElementGuid>d6f0da5e-be40-4608-88ab-ee12d40e4352</webElementGuid>
+      <webElementGuid>1131714a-1e81-48e7-ba4d-0e02b9c4f765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>1e1cbd68-28da-4afe-9087-159126d9ac6c</webElementGuid>
+      <webElementGuid>8cc9f562-2e74-439a-8b76-616cb5ab4138</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div[2]/div/button</value>
-      <webElementGuid>6a06313c-3278-4a8d-9386-d329ed2a9df2</webElementGuid>
+      <webElementGuid>66657e01-92c1-41b8-a46a-13a930138121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>0590d045-838a-462f-8db3-5ad69fd69490</webElementGuid>
+      <webElementGuid>d6277343-675e-4e08-aec4-ba40d6074b42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

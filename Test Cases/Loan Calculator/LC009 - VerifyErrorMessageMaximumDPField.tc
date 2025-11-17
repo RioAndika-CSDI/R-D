@@ -4,6 +4,7 @@
    <name>LC009 - VerifyErrorMessageMaximumDPField</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0f218053-4f97-4aa6-8308-32e18178c02d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

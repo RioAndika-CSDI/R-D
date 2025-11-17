@@ -4,6 +4,7 @@
    <name>LC007 - VerifyErrorMessageEmptyDPField</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>006015b3-d693-4754-8e2d-585c8b34465d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

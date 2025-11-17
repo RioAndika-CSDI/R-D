@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Rp2.659.100.000_downPaymentAmount</name>
+   <name>pendapatan bulanan plp</name>
    <tag></tag>
-   <elementGuidId>0d5eab7a-b8f9-4b63-93c4-119328192b32</elementGuidId>
+   <elementGuidId>b541cb01-50b4-4a1f-b796-603fea51bac2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@class='loanCalculator_contentFormIncome__udxXX']//div[@id='loan-calculator-form-income']//div//input[@placeholder='Masukkan pendapatan']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>input[name=&quot;downPaymentAmount&quot;]</value>
+         <value>input.0.input_input__MAvlc</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='multi-kk_form__4UeYG']//div//input[@placeholder='Masukkan DP']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='downPaymentAmount']</value>
+         <value>//*[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,94 +27,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c216f13a-0851-4830-8340-73114b3beeb6</webElementGuid>
+      <webElementGuid>c8fd55bd-1c4d-48b7-9837-c6aef57295ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>field-input-pendapatan</value>
+      <webElementGuid>c3a2cc4f-4fc5-48f4-b932-27f8ae87ad5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_input__c0tP8 input_error__0fAdE shake-animation-X</value>
-      <webElementGuid>342b71c2-a5fb-456e-81b4-b90a6f64de1f</webElementGuid>
+      <value>0 input_input__MAvlc</value>
+      <webElementGuid>eaa28c04-83cc-4dbb-a3cb-79e74b60e09b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan DP</value>
-      <webElementGuid>dc1eecbb-a6c6-4959-9208-c8a6859436b5</webElementGuid>
+      <value>Masukkan pendapatan</value>
+      <webElementGuid>7f50362b-df91-453e-b216-86c2f0dd11ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>37b7f379-5c04-4b91-a672-af9cf11b8c2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>15</value>
-      <webElementGuid>31600346-e897-446f-bc05-f712742e1e55</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>32ac0073-beff-4957-9dd7-3f975ffa9e74</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>downPaymentAmount</value>
-      <webElementGuid>f976cf3e-920a-4488-9821-b630f2b4bec7</webElementGuid>
+      <value>14</value>
+      <webElementGuid>210d17a8-7768-4c6f-8ca2-d89d73d9aabb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Rp6</value>
-      <webElementGuid>ece65eb2-99ac-4aa5-9cee-baa784295765</webElementGuid>
+      <value>Rp2</value>
+      <webElementGuid>bc3670a6-a65f-4d1f-bc13-f411407b6a53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='multi-kk_form__4UeYG']//div//input[@placeholder='Masukkan DP']</value>
-      <webElementGuid>b6dc68db-8c61-459d-a153-bbd4554d66ee</webElementGuid>
+      <value>id(&quot;loan-calculator-form-income&quot;)/div[1]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;0 input_input__MAvlc&quot;]</value>
+      <webElementGuid>2dcf0a60-a281-45a2-9532-b88a2fb299de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='downPaymentAmount']</value>
-      <webElementGuid>47962f1e-5d27-42e9-b624-3a98b55a1e71</webElementGuid>
+      <value>//input[@value='Rp2']</value>
+      <webElementGuid>eb6b7a14-9251-482b-860d-2046415044db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div/div/input</value>
-      <webElementGuid>59d648d0-c3c1-44ea-9049-64f4a1ec240a</webElementGuid>
+      <value>//div[@id='loan-calculator-form-income']/div/div/input</value>
+      <webElementGuid>fccb2d87-6d1b-4467-a7ca-eb2c4caf61bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/input</value>
-      <webElementGuid>72494e34-1edc-4ca8-9a12-c09ce179d7e8</webElementGuid>
+      <value>//div[6]/div[2]/div/div/div/input</value>
+      <webElementGuid>facef3c4-49fb-4c21-baa0-c134023ef34d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Masukkan DP' and @type = 'tel' and @name = 'downPaymentAmount']</value>
-      <webElementGuid>384d3c88-ad51-4aba-8773-a9bec28d8cf0</webElementGuid>
+      <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
+      <webElementGuid>7eba7b50-8e7a-4282-b79a-6b59638dbc1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

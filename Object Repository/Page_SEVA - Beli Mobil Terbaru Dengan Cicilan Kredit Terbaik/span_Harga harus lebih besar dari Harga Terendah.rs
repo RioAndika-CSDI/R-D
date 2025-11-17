@@ -6,15 +6,20 @@
    <elementGuidId>1765af07-2088-4a4c-958d-ed600c488e8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div[2]/span</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Harga harus lebih besar dari Harga Terendah' or . = 'Harga harus lebih besar dari Harga Terendah')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.multi-kk_errorText__ihoGV</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='multi-kk_formRange__afc_i']//div//span[@class='multi-kk_errorText__ihoGV'][normalize-space()='Harga harus lebih besar dari Harga Terendah']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f453c354-7503-4daa-bfee-a0bdf701bb6b</webElementGuid>
+      <webElementGuid>fe2ca1e0-a79f-4738-95d6-093dd16029f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>multi-kk_errorText__ihoGV</value>
-      <webElementGuid>72d59469-6306-467a-ac18-5bcceb06ca52</webElementGuid>
+      <webElementGuid>aa96ba07-28a2-4baa-8243-364a97bcc950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Harga harus lebih besar dari Harga Terendah</value>
-      <webElementGuid>fb2fd06c-d918-4e0d-b978-e4343dea954c</webElementGuid>
+      <webElementGuid>a4d3d30b-4030-4cec-9340-3ddf7764eaad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_formRange__afc_i&quot;]/div[2]/span[@class=&quot;multi-kk_errorText__ihoGV&quot;]</value>
-      <webElementGuid>639b42ea-90ae-42f1-80c6-fb49bdc3a9a8</webElementGuid>
+      <webElementGuid>deee0c02-8c3a-4577-99d6-bbd3313df48c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div[2]/span</value>
-      <webElementGuid>1d776fc4-894a-4bca-85c7-b43270a10e2e</webElementGuid>
+      <webElementGuid>22d0e261-40e5-410d-9b89-e7a4e8a477aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[1]/following::span[1]</value>
-      <webElementGuid>ecce49e2-dff6-4c60-a959-031c1e4928c7</webElementGuid>
+      <webElementGuid>2bc888f8-5db0-4bbc-90e1-2ed8d26b0d2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kisaran Harga di'])[1]/following::span[2]</value>
-      <webElementGuid>0682bade-eca6-4a04-96d0-90462182c1f4</webElementGuid>
+      <webElementGuid>cdfe4f2d-fb72-4084-acef-59dffeb07cbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp137.800.000'])[1]/preceding::span[1]</value>
-      <webElementGuid>7fb68b44-db39-48d6-91f1-33166d45d5d4</webElementGuid>
+      <webElementGuid>e04425f2-5b52-4933-8983-07ddd162951f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp2.659.100.000'])[1]/preceding::span[1]</value>
-      <webElementGuid>4e3fac46-aca5-44db-9296-f24362e748d4</webElementGuid>
+      <webElementGuid>c2cd882e-0949-408f-8978-d9140bf258db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Harga harus lebih besar dari Harga Terendah']/parent::*</value>
-      <webElementGuid>b0fa8420-114f-4224-95cb-dffe3aa30795</webElementGuid>
+      <webElementGuid>0e272b5d-81f9-4398-a7ae-368334c61f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/span</value>
-      <webElementGuid>ad459b3b-032d-405e-bf0d-dbecf0605ba8</webElementGuid>
+      <webElementGuid>c2ccc7b4-8e60-4e00-9208-4a17f0afdb55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Harga harus lebih besar dari Harga Terendah' or . = 'Harga harus lebih besar dari Harga Terendah')]</value>
-      <webElementGuid>1eb4917f-4797-4c02-854b-2624c453d022</webElementGuid>
+      <webElementGuid>0a55614b-6a79-4821-bf16-cb3be8e600cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

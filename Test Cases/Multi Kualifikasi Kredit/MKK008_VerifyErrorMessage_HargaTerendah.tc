@@ -4,6 +4,7 @@
    <name>MKK008_VerifyErrorMessage_HargaTerendah</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9cfbe0b4-9f5f-477c-8c8e-445dc3a0b435</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

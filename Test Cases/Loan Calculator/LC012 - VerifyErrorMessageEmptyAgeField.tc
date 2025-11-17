@@ -4,6 +4,7 @@
    <name>LC012 - VerifyErrorMessageEmptyAgeField</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>783fff45-930d-4192-98de-e3d9e006c3aa</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

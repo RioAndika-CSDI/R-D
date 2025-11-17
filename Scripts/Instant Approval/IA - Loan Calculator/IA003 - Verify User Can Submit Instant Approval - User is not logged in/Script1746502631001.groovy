@@ -52,11 +52,11 @@ WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SE
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'))
-
 //SELECT CITY
-'Select city'
-WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
+//'Select city'
+//WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'))
 
 WebUI.delay(5)
 
@@ -110,6 +110,7 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_lis
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
 WebUI.delay(3)
+
 //'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
@@ -123,8 +124,11 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'))
 WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), pekerjaan)
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
+
 WebUI.delay(3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+
 WebUI.delay(3)
 
 //Gaji Edit
@@ -424,19 +428,25 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobi
 // Maksimalkan jendela agar elemen terlihat
 //WebUI.maximizeWindow()
 WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 0)
+
 WebUI.waitForElementVisible(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
 WebUI.waitForElementClickable(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
 
-WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 
+    10)
+
 WebDriver driver = DriverFactory.getWebDriver()
+
 Actions actions = new Actions(driver)
 
 // klik langsung ke elemen-nya
 actions.moveToElement(checkbox).click().perform()
 
-println("✅ Klik checkbox berhasil via moveToElement()")
+println('✅ Klik checkbox berhasil via moveToElement()')
 
-WebUI.delay(3)
+WebUI.delay(5)
+
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 
 WebUI.delay(20)

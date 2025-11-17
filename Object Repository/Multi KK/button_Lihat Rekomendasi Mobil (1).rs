@@ -6,15 +6,20 @@
    <elementGuidId>aa0b45ac-468d-4e2a-8802-32891c7050c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space()='Lihat Rekomendasi Mobil']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined'])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Lihat Rekomendasi Mobil' or . = 'Lihat Rekomendasi Mobil')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4e169c4d-1afd-454c-aad2-2eb42c6eb516</webElementGuid>
+      <webElementGuid>cd286091-6bd3-4fc6-ae9c-b15f83d4f207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>c8d1e2a5-04f9-4380-9eaf-95966b1d7a95</webElementGuid>
+      <webElementGuid>123001f2-65da-47bf-82a2-38ea1e8335e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Rekomendasi Mobil</value>
-      <webElementGuid>8e0a0c0d-20db-4937-8c7c-6b0f5be09325</webElementGuid>
+      <webElementGuid>256b3ec0-d398-4eb2-ad1a-4fd1ba11295a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>8d76d8ed-7d21-48da-8033-5e6ffc5e16ad</webElementGuid>
+      <webElementGuid>41a94587-4b85-44e7-8fcb-8087bc9acd69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/button</value>
-      <webElementGuid>eb4c19f6-7bd1-4fd8-b845-31f0a40bf0ae</webElementGuid>
+      <webElementGuid>34e54f49-eac4-479d-9f60-c5664869f4d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral Teman SEVA (Opsional)'])[1]/following::button[1]</value>
-      <webElementGuid>1b2f8d9d-69ca-430f-9d06-b6f74e0a90e4</webElementGuid>
+      <webElementGuid>655b6df4-d6dc-472b-8cbe-26b8776aec41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hukum'])[1]/following::button[1]</value>
-      <webElementGuid>eb95e7e6-fe41-4395-beee-22d62addb10c</webElementGuid>
+      <webElementGuid>29412366-b095-4ffd-880e-052d128a38fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang SEVA'])[2]/preceding::button[1]</value>
-      <webElementGuid>914baabf-a04b-4ba6-8a8d-376db53b4ace</webElementGuid>
+      <webElementGuid>3ca59f47-bcbc-4ea4-b13c-72780f7fabfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::button[1]</value>
-      <webElementGuid>2599e2d5-f85e-4be7-8c12-9241be73cf01</webElementGuid>
+      <webElementGuid>181a6dc8-d8ec-4b91-adfc-dfe11d0e9c4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lihat Rekomendasi Mobil']/parent::*</value>
-      <webElementGuid>7e3ca14a-c35a-43b0-a75a-07251300287e</webElementGuid>
+      <webElementGuid>0d3e110c-f0e7-4144-a4ef-bdbf28045ffb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>ad7eeffa-6067-4783-9ee0-b3dbe5d2d1c5</webElementGuid>
+      <webElementGuid>9d43aefb-a973-4985-9fd0-f112704c1a09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lihat Rekomendasi Mobil' or . = 'Lihat Rekomendasi Mobil')]</value>
-      <webElementGuid>d8935919-d0dc-4a30-8567-83a1ead922bd</webElementGuid>
+      <webElementGuid>aa3a0dcb-35cd-4988-9d51-d6b984b1caa9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

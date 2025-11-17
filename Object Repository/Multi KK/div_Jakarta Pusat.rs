@@ -10,15 +10,15 @@
          <value>//*[starts-with(@class, 'inputSelect_dropdownItemText') and (text() = '${city}' or . = '${city}')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Jakarta Pusat']/div/div</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'${city}')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>29fe718e-7686-4c45-b366-1c16ee64b7e1</webElementGuid>
+      <webElementGuid>06338322-c197-46a3-b1f7-9f157df1dcea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItemText</value>
-      <webElementGuid>5860b15c-6462-4634-aa00-e068489b24a4</webElementGuid>
+      <webElementGuid>2fbddc62-1db6-4114-ae8d-c515c360c999</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${city}</value>
-      <webElementGuid>c1e4380a-3d35-40e3-bcfd-f7df65932973</webElementGuid>
+      <webElementGuid>0a2e40dd-7611-4d78-bdd8-6d238ab13176</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Jakarta Pusat&quot;)/div[1]/div[@class=&quot;inputSelect_dropdownItemText__IjiZG&quot;]</value>
-      <webElementGuid>a5a05078-5a77-4b88-8349-853d1d50c0ea</webElementGuid>
+      <webElementGuid>2d58aeae-e2ac-4a2c-9055-ec3f7dca15bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Jakarta Pusat']/div/div</value>
-      <webElementGuid>948b197a-7547-45c3-b0f6-3d782682283c</webElementGuid>
+      <webElementGuid>e359bbf7-02b0-441c-97e0-71c60b70069a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih lokasi pembelian mobilmu'])[1]/following::div[10]</value>
-      <webElementGuid>23ddd328-594c-4d85-aa99-530cdbfb8cf2</webElementGuid>
+      <webElementGuid>8b32e612-ab1f-4939-bcca-73a9bc4bc519</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2023 Copyright SEVA'])[1]/following::div[21]</value>
-      <webElementGuid>3ec768d1-6dea-4603-90f9-dc2da7e3c3b6</webElementGuid>
+      <webElementGuid>f1a70bd1-aab0-426f-b14c-21b059ea8d5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/preceding::div[1]</value>
-      <webElementGuid>fc1519c9-5bb2-4bc5-98b4-d3f44b4ef91e</webElementGuid>
+      <webElementGuid>3aad01f9-17e3-4700-b2e3-79446d0e7cd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surabaya'])[1]/preceding::div[4]</value>
-      <webElementGuid>5b232074-9ef6-4417-bb8f-69cb95be8ec8</webElementGuid>
+      <webElementGuid>76721960-e3d5-4f4f-b814-4e8d92167482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
-      <webElementGuid>10c65d6a-ef13-4ecd-95fa-4c479c607f22</webElementGuid>
+      <webElementGuid>b1037f07-1d4c-4c26-a84b-4f4d82009ff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Jakarta Pusat' or . = 'Jakarta Pusat')]</value>
-      <webElementGuid>474380a2-41cc-4721-9ef9-95b7cf499b21</webElementGuid>
+      <webElementGuid>11f76c6e-d02c-4d33-9f7b-77573b09bd5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

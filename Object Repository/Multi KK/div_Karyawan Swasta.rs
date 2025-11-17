@@ -6,19 +6,20 @@
    <elementGuidId>ace9e4a4-6c06-49b8-a1db-8a39e939ff6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Karyawan Swasta']/div/div</value>
+         <key>BASIC</key>
+         <value>//*[starts-with(@class, 'inputSelect_dropdown') and @id = '${pekerjaan}']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.inputSelect_dropdownItemText__IjiZG</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[starts-with(@class, 'inputSelect_dropdown') and @id = '${pekerjaan}']</value>
+         <key>XPATH</key>
+         <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${pekerjaan}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${pekerjaan}']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cb70c692-3ad9-4907-b5dd-4b54170f0ec9</webElementGuid>
+      <webElementGuid>c4c4e035-ad85-4123-b7d3-dda5a436d55b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdown</value>
-      <webElementGuid>d8f844fc-235b-4beb-ac5d-5bec4b26bee2</webElementGuid>
+      <webElementGuid>8085c742-4b39-4755-972a-97bc0701e552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Karyawan Swasta</value>
-      <webElementGuid>30870ae5-9b97-4c70-8f18-99d61a845b41</webElementGuid>
+      <webElementGuid>249d54ed-84ac-43bb-a185-e87f2a4880df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Karyawan Swasta&quot;)/div[1]/div[@class=&quot;inputSelect_dropdownItemText__IjiZG&quot;]</value>
-      <webElementGuid>1d3c794e-e8f3-4a80-9ab0-dc4c626df132</webElementGuid>
+      <webElementGuid>505d6c36-3498-4f23-b5fd-de9a1e98f8c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>id</name>
       <type>Main</type>
       <value>${pekerjaan}</value>
-      <webElementGuid>aa094eb3-52bf-4e13-8bd3-856932b58619</webElementGuid>
+      <webElementGuid>d87d2ac8-32ef-48d7-a372-ea435f22abc3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Karyawan Swasta']/div/div</value>
-      <webElementGuid>f9c54ce2-272c-42a0-be19-395c69fd5263</webElementGuid>
+      <webElementGuid>39c2a195-591f-4dfd-94a6-4ca436815ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerjaan'])[1]/following::div[9]</value>
-      <webElementGuid>b72a402e-9297-4a8e-b610-7e2fef816ba5</webElementGuid>
+      <webElementGuid>3a5c09a9-89b6-40c9-b3e1-ceda30a48de8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Otomatis'])[1]/following::div[10]</value>
-      <webElementGuid>d704d152-90e6-46cb-8f1b-3fb36501a1d0</webElementGuid>
+      <webElementGuid>e2ea0119-f298-45c4-ba2d-93824e0b6c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wiraswasta Distributor'])[1]/preceding::div[1]</value>
-      <webElementGuid>4e215b53-a72a-4ba2-9708-0c01809f1037</webElementGuid>
+      <webElementGuid>2febf65b-1e3e-42e4-bec5-a37cc95ebbcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Petani, Nelayan, &amp; Peternak'])[1]/preceding::div[4]</value>
-      <webElementGuid>507980ac-1355-42b8-8f5c-ad462939c97f</webElementGuid>
+      <webElementGuid>ecb1ac8e-1447-4cbd-b5d4-4fdbfca9b515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Karyawan Swasta']/parent::*</value>
-      <webElementGuid>ebddc452-b577-4621-8fe2-4ca3b73702a5</webElementGuid>
+      <webElementGuid>fecc63c7-6a0e-44ae-a387-50fda6e0d107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div/div/div</value>
-      <webElementGuid>74a8cc7a-ff7c-4d19-b8ca-dcd76bee9f88</webElementGuid>
+      <webElementGuid>13818abd-8784-4c41-b9d2-1d57dfec7e7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Karyawan Swasta' or . = 'Karyawan Swasta')]</value>
-      <webElementGuid>84afa935-e6f8-453c-8d39-193db133be94</webElementGuid>
+      <webElementGuid>d6720825-bd28-4dc5-b115-56f2278ff847</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

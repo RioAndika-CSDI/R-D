@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'button_primaryDarkBlue') and (text() = 'Cari Mobil Baru' or . = 'Cari Mobil Baru')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid='button-cari-mobil']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +23,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue</value>
-      <webElementGuid>70befe36-6e9e-402e-aa78-898995ce37f9</webElementGuid>
+      <webElementGuid>6d5bdeb6-0d33-4519-851f-66b4e80d8fe5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +31,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-cari-mobil</value>
-      <webElementGuid>c8c4dcd5-d785-4d5c-affa-e96877de1958</webElementGuid>
+      <webElementGuid>794019c6-2f4a-42d2-9471-72bac3335699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +39,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Mobil Baru</value>
-      <webElementGuid>e2dae2d7-4932-4309-899a-9748f0b85863</webElementGuid>
+      <webElementGuid>e86497ff-ebba-48c8-ae90-b1b29554e05d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

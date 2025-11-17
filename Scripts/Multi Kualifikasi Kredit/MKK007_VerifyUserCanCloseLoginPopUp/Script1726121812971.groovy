@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.maximizeWindow()
-
+//WebUI.maximizeWindow()
 WebUI.scrollToElement(findTestObject('Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/p_Kualifikasi'), 0)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
@@ -28,6 +27,11 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
+
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
 
 'cek KK button'
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cek Kualifikasi Kredit'))
@@ -55,7 +59,13 @@ WebUI.click(findTestObject('Multi KK/div_5 (1)', [('tenor') : tenor]))
 WebUI.click(findTestObject('Multi KK/div_Otomatis (1)', [('transmisi') : transmisi]))
 
 'dropdown pekerjaan'
+WebUI.scrollToElement(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'), 0)
+
+'dropdown pekerjaan'
 WebUI.click(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'))
+
+'dropdown pekerjaan'
+WebUI.setText(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'), pekerjaan)
 
 'karyawan swasta'
 WebUI.click(findTestObject('Multi KK/div_Karyawan Swasta', [('pekerjaan') : pekerjaan]))
@@ -67,6 +77,8 @@ WebUI.click(findTestObject('Multi KK/check-snk'))
 
 'button lihat rekomendasi mobil'
 WebUI.click(findTestObject('Object Repository/Multi KK/button_Lihat Rekomendasi Mobil (1)'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/close_icon_pop_up_login'), FailureHandling.STOP_ON_FAILURE)
 

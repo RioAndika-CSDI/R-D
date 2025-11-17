@@ -4,6 +4,7 @@
    <name>LC006 - VerifyUserCanAccessLoanCalculatorFromPDP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>68c71900-16ba-44cd-9ed0-5d34b263e0cb</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

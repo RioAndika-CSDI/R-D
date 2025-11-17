@@ -6,15 +6,16 @@
    <elementGuidId>8514b60a-9165-4327-bbdc-8208949052cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//h2[contains(@class, 'cardetailcard_brandModelText')])[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${index}]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//h2[contains(@class, 'cardetailcard_brandModelText')])[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>5ef34c9c-1a36-4a1c-bdfb-cc5001a2aa1b</webElementGuid>
+      <webElementGuid>dbdac6a8-8df7-4d68-ac7a-bfbebb284ec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +31,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@data-testid = '[object Object]brand-model-mobil'])[${index}]</value>
-      <webElementGuid>1358ba17-9b45-4b2e-81be-b4741854e9db</webElementGuid>
+      <webElementGuid>86dc22db-ed64-424d-a3f4-689c99915232</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

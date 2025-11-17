@@ -10,11 +10,16 @@
          <value>input[name=&quot;monthlyIncome&quot;]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='multi-kk_form__4UeYG']//div//input[@placeholder='Masukkan Pendapatan']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='monthlyIncome']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a4c1b56-f018-43e7-bce9-4929492ee20f</webElementGuid>
+      <webElementGuid>d7d819ab-2006-4a68-bd0e-615b2377be51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input_input__c0tP8 input_error__0fAdE shake-animation-X</value>
-      <webElementGuid>66926abc-65aa-4238-a769-1c3bd3829524</webElementGuid>
+      <webElementGuid>4d9e2fc8-4c9d-4161-8a09-4b9a97de3e0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan Pendapatan</value>
-      <webElementGuid>5234b33a-ede0-4461-a33d-dcc1b681e174</webElementGuid>
+      <webElementGuid>b32fd6c9-9fcc-4ae4-87bf-27fc19e8f748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +51,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>977f5b7f-bcd6-4803-8878-39c70fcb5b5a</webElementGuid>
+      <webElementGuid>09d105e6-a442-4a83-8b74-fcb0bcf47371</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>1d5e03a0-8b41-49eb-a6f4-ae84319e4a23</webElementGuid>
+      <webElementGuid>9d1be214-9481-4d15-9e18-c6ba7528f998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>monthlyIncome</value>
-      <webElementGuid>a96bf883-9255-425c-9edc-b1fb360944cf</webElementGuid>
+      <webElementGuid>ea11a506-6941-4070-95b0-4fed8ebfb11b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +75,15 @@
       <name>value</name>
       <type>Main</type>
       <value>Rp1</value>
-      <webElementGuid>3a416129-ec8d-4116-8eec-201c209b7340</webElementGuid>
+      <webElementGuid>d2f4797f-b97e-4a77-87ae-05c5bd26916f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__nDevq&quot;]/div[@class=&quot;mobilleView_container__O0_sp multi-kk_container__f_WCr&quot;]/div[2]/div[@class=&quot;multi-kk_form__4UeYG&quot;]/div[2]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input_input__c0tP8 input_error__0fAdE shake-animation-X&quot;]</value>
-      <webElementGuid>213eff40-1a72-4035-b5a6-cc5bd1404af9</webElementGuid>
+      <value>//div[@class='multi-kk_form__4UeYG']//div//input[@placeholder='Masukkan Pendapatan']</value>
+      <webElementGuid>9177556c-bd1a-4318-9f93-ce4c62645c6c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='monthlyIncome']</value>
-      <webElementGuid>98c6a552-9505-4f97-af89-25c4bc43c623</webElementGuid>
+      <webElementGuid>accf2b0e-492f-4592-a72d-b389e1f89ae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[2]/div/input</value>
-      <webElementGuid>9542fca3-6c05-4cd5-ad27-be9a1afc6f43</webElementGuid>
+      <webElementGuid>c64de9fa-ea63-41a3-89a2-7fa3a88cdad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/input</value>
-      <webElementGuid>27b999b8-e980-4848-a776-fd10c898c54d</webElementGuid>
+      <webElementGuid>e6dec75c-1dba-4c36-8570-cbd6944683cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan Pendapatan' and @type = 'tel' and @name = 'monthlyIncome']</value>
-      <webElementGuid>c7d403c8-130b-4f86-bd0b-dfd96f958994</webElementGuid>
+      <webElementGuid>c0a472d5-4e32-4edb-b8cd-ac575f7fe0b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

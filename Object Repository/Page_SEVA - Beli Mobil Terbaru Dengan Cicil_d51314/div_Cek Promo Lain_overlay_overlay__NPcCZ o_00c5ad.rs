@@ -6,19 +6,20 @@
    <elementGuidId>98db11c7-6017-455c-858b-458f51d74bb7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.overlay_overlay__NPcCZ.overlay_showOverlay__13TB1.calculationResult_overlayAdditionalStyle__jJLzm</value>
+         <key>XPATH</key>
+         <value>//*[@class='calculationResultItem_interestText__cv_h8 calculationResultItem_bestPromoCounter__PUCRS']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
+         <key>CSS</key>
+         <value>div.overlay_overlay__NPcCZ.overlay_showOverlay__13TB1.calculationResult_overlayAdditionalStyle__jJLzm</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>(//span[starts-with(@class, 'calculationResultItem_checkOtherPromo') and (contains(text(), 'Cek Promo Lain') or contains(., 'Cek Promo Lain'))])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>9b5764d4-290c-4720-b7c4-84c541b522b7</webElementGuid>
+      <webElementGuid>4f396285-f87b-4b2c-a42f-399101034dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>calculationResultItem_checkOtherPromo</value>
-      <webElementGuid>de1cbdca-7c23-454e-9cec-8fb10a4a993c</webElementGuid>
+      <webElementGuid>82f2a9b1-a9f9-4453-abc8-95f6f0a19ca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//span[starts-with(@class, 'calculationResultItem_checkOtherPromo') and (contains(text(), 'Cek Promo Lain') or contains(., 'Cek Promo Lain'))])[1]</value>
-      <webElementGuid>96d63ab8-aa7b-4832-8a84-e17a32c8b4fd</webElementGuid>
+      <webElementGuid>951e0b95-4c3e-4012-9b96-de7e1554b4e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cek Promo Lain</value>
-      <webElementGuid>c43f7891-e7d0-43b4-927f-07b1cfa18703</webElementGuid>
+      <webElementGuid>714816dd-116c-48e1-b27a-48026d50a4ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[4]/div[4]/div[2]</value>
-      <webElementGuid>d4428cd0-9da5-4794-aa6b-d265485cd3c0</webElementGuid>
+      <webElementGuid>ba3e32bd-d60a-441b-a94c-44aef54679db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +67,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[4]/div[2]</value>
-      <webElementGuid>ed37ddec-9cff-4c27-9bd2-d4651adfaa5d</webElementGuid>
+      <webElementGuid>6429fc68-8ae3-4c8e-9ec6-ad7dd3396ffe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
