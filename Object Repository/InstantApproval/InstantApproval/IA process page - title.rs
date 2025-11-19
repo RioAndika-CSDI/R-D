@@ -6,14 +6,12 @@
    <elementGuidId>339b3495-41e7-4c11-9623-cbce7bbca8ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[starts-with(@class, 'kk-waiting-result_informationWrapper')]//h3[text()='Terima Kasih, aplikasi Instant Approval kamu sedang dalam proses!']
-</value>
+         <key>BASIC</key>
+         <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]&#xd;
-</value>
+         <key>XPATH</key>
+         <value>//div[starts-with(@class, 'kk-waiting-result_informationWrapper')]//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +23,7 @@
       <name>class</name>
       <type>Main</type>
       <value>kk-waiting-result_informationWrapper</value>
-      <webElementGuid>8b310ca2-4d43-4613-85fd-f92b20e902ba</webElementGuid>
+      <webElementGuid>7ced83a1-88de-4f16-9d6d-fab13bf9db9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,16 +31,15 @@
       <name>h3</name>
       <type>Main</type>
       <value>Terima Kasih, aplikasi Instant Approval kamu sedang dalam proses!</value>
-      <webElementGuid>518445b1-453d-48df-83b0-65f68561bcb7</webElementGuid>
+      <webElementGuid>d43debe5-5113-49e1-a70c-d2e7d5754826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]&#xd;
-</value>
-      <webElementGuid>ed0dc1c1-c1ef-400f-8bd6-6dfa6e1b26c6</webElementGuid>
+      <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
+      <webElementGuid>b488e80e-5a89-458c-83dd-955a085eb530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +47,6 @@
       <name>name</name>
       <type>Main</type>
       <value>Terima Kasih, aplikasi Instant Approval kamu </value>
-      <webElementGuid>e22ed705-ccfc-4392-a123-33fcf82ba131</webElementGuid>
+      <webElementGuid>613605d6-a5ab-44b6-9ed1-e1df63b02527</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
