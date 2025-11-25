@@ -55,7 +55,6 @@ WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indon
 //SELECT CITY
 //'Select city'
 //WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
-
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'))
 
 WebUI.delay(5)
@@ -175,7 +174,7 @@ WebUI.delay(10)
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Login Register Component/button_kirim_otp_KK'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
