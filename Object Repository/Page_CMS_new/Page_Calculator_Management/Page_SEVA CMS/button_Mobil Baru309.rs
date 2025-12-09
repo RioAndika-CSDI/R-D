@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Mobil Baru309</name>
+   <tag></tag>
+   <elementGuidId>cf95893a-c15f-4420-a67a-3dd1fdc5dc70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[3]/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>10581bfb-1f1b-4e92-ab52-353306797b0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative px-4 py-2 text-sm text-gray-600 border-b-[3px] border-purple-600 text-left font-semibold text-black</value>
+      <webElementGuid>38554443-c901-46bf-ab65-a55d74fe267c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mobil Baru309</value>
+      <webElementGuid>28dbd24d-9499-4ab4-b293-09706e972d6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;flex flex-col gap-y-4&quot;]/div[@class=&quot;mb-4 flex flex-col&quot;]/div[@class=&quot;flex space-x-8 border-b border-gray-300&quot;]/button[@class=&quot;relative px-4 py-2 text-sm text-gray-600 border-b-[3px] border-purple-600 text-left font-semibold text-black&quot;]</value>
+      <webElementGuid>14a87433-49d1-411d-999b-a7d3e46fa0fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[3]/div/div/button</value>
+      <webElementGuid>e13d2917-960a-41b7-aa81-4d303894f63b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add new'])[1]/following::button[1]</value>
+      <webElementGuid>a697e2f2-7727-477f-9e4f-b963737ce25c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[2]</value>
+      <webElementGuid>c61937fd-327d-4b25-880b-06a4c7cfc4c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mobil Baru']/parent::*</value>
+      <webElementGuid>a4f2339e-4960-4c65-9008-5ced97da4d85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button</value>
+      <webElementGuid>0fad2fd1-1407-4d96-8b3c-875dadc914f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Mobil Baru309' or . = 'Mobil Baru309')]</value>
+      <webElementGuid>5b077f64-d7ea-4cda-8037-92f8f68f86ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

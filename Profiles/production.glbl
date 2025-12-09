@@ -8,25 +8,35 @@
       <description></description>
       <initValue>'superadmin@seva.id'</initValue>
       <name>cms_email_superadmin</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'May@2025'</initValue>
       <name>cms_pass_superadmin</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://seva-cms-frontend-bihodfa3ja-et.a.run.app'</initValue>
       <name>cms_url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'ayu.anggraini@seva.id'</initValue>
       <name>cms_email_qa</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Juli@2025'</initValue>
+      <initValue>'Sep@2025'</initValue>
       <name>cms_pass_qa</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

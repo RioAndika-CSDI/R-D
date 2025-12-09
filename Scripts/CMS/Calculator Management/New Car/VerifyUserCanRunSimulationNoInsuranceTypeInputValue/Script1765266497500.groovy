@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.cms_url + '/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), GlobalVariable.cms_email_qanew)
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), 'ayu.anggraini@seva.id')
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), GlobalVariable.cms_pass_qanew)
+WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), 'Nov@2025')
 
 WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
 
@@ -35,3 +35,39 @@ String currentUrl = WebUI.getUrl()
 
 WebUI.verifyMatch(currentUrl, GlobalVariable.cms_url + '/app/dashboard', false)
 
+WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/Page_SEVA CMS/span_Calculator Management'))
+
+WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/Page_SEVA CMS/button_Mobil Baru309'))
+
+WebUI.setText(findTestObject('Page_CMS_new/Page_Calculator_Management/input_search'), '#JelasDariAwal Testing Commercial')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/button_edit'))
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Page_CMS_new/Page_Calculator_Management/Page_SEVA CMS/h2_Calculator Simulation'),
+	0)
+
+WebUI.delay(7)
+
+WebUI.setText(findTestObject('Page_CMS_new/Page_Calculator_Management/input_otr'), '172000000')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/dropdown_cityrun'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/input_city_run_simulation'), 'Jakarta Pusat')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Jakarta Pusat'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button_Run Simulation'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
