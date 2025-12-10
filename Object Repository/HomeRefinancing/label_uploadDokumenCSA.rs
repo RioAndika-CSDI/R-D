@@ -7,13 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = 'uploadRefinancing-module__8uNhuW__titleSpan']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[starts-with(@class, 'uploadRefinancing_titleSpan') and (text() = 'Unggah Dokumenmu' or . = 'Unggah Dokumenmu')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>uploadRefinancing-module__8uNhuW__titleSpan</value>
+      <webElementGuid>0d556236-41ee-4009-a49f-8cb6d31e602c</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

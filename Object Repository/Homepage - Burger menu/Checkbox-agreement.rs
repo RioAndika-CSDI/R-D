@@ -6,15 +6,16 @@
    <elementGuidId>01433556-58d2-46ed-8307-654910c3673d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class,'agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE')]//button//*[name()='svg']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='agreement-module__85S08W__agreementTerms agreement-module__85S08W__primary false false']//button//*[name()='svg']//*[name()='rect']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>class</name>
       <type>Main</type>
       <value> agreement_agreementTerms</value>
-      <webElementGuid>3906a2fa-e8c8-4892-af61-5a2b048fa74b</webElementGuid>
+      <webElementGuid>60c890b0-ce21-4bd3-9dbc-affd0512e593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +31,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
-      <webElementGuid>bf6d8167-286c-4713-896e-068fea178566</webElementGuid>
+      <webElementGuid>ede12bd9-8f8f-4d1f-b4ce-aa7c8d3555fe</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

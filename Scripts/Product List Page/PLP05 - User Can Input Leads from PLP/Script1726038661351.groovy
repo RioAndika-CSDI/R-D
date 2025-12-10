@@ -17,33 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
+WebUI.maximizeWindow()
 
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_cari_mobil_cta'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Leads PLP/btn_leads_floating'))
 
@@ -58,9 +40,10 @@ WebUI.delay(3)
 boolean isButtonEnabled = WebUI.verifyElementClickable(findTestObject('Object Repository/Homepage - PLP/Leads PLP/btn_kirim_leads'))
 
 if (isButtonEnabled) {
-	WebUI.comment('Button Enabled')
+    WebUI.comment('Button Enabled')
 } else {
-	WebUI.comment('Button is Disabled')
+    WebUI.comment('Button is Disabled')
 }
 
 WebUI.closeBrowser()
+

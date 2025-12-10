@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@class=&quot;filtermobile_collapse__Tosxp &quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='Detail Mobil']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;filtermobile_collapse__Tosxp &quot;]</value>
-      <webElementGuid>7fb2dbf1-ab51-4416-9b8c-42642f6b736d</webElementGuid>
+      <webElementGuid>44880146-4293-4263-9512-956bcd7823e5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

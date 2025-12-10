@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;type-MPV&quot;]</value>
+         <value>//*[@data-testid = 'type-SUV']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;type-MPV&quot;]</value>
-      <webElementGuid>c4a672cd-839c-4fb8-8570-b1a2d8576880</webElementGuid>
+      <webElementGuid>88320af4-2ef1-486c-9ce9-d318966bf36a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>type-SUV</value>
+      <webElementGuid>bff294cc-0822-4e15-bb44-90c4b23e8b6a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

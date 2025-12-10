@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bandingkan_mobil_popup</name>
+   <tag></tag>
+   <elementGuidId>3a9a13c6-da10-4fa9-9054-4db5a0661587</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class = 'popupCarComparisonSelection-module__rAIxga__title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>a4919d5b-92f1-483a-a469-760b34eca443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popupCarComparisonSelection-module__rAIxga__title</value>
+      <webElementGuid>b2cb606d-07f3-4638-9497-890c6635553d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

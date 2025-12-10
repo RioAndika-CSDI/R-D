@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class=&quot;navbarDesktop_menuItem__yEHMI&quot;])[1]</value>
+         <value>//*[@class = 'navbarDesktop-module__anMNXa__menuItem' and (text() = 'Mobil Baru' or . = 'Mobil Baru')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@fdprocessedid='tswir']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +20,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>(//*[@class=&quot;navbarDesktop_menuItem__yEHMI&quot;])[1]</value>
-      <webElementGuid>dc4fa586-0eaf-4a4b-94f0-e03c6fce382f</webElementGuid>
+      <value>navbarDesktop-module__anMNXa__menuItem</value>
+      <webElementGuid>5abe91a3-e225-46ac-8069-bf773cb8851d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mobil Baru</value>
+      <webElementGuid>9b8391df-6860-483e-b308-594c0f8bf3c4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

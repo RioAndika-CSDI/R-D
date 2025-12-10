@@ -7,25 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'headerRefinancing_title__6_0xV' and (text() = 'Fasilitas Dana' or . = 'Fasilitas Dana')]</value>
+         <value>//*[@class = 'headerRefinancing-module__IuzJcq__titlePage' and (text() = 'Fasilitas Dana SEVA' or . = 'Fasilitas Dana SEVA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>headerRefinancing_title__6_0xV</value>
-      <webElementGuid>e62fc86d-4357-4322-a915-728a3b03e1a3</webElementGuid>
+      <value>headerRefinancing-module__IuzJcq__titlePage</value>
+      <webElementGuid>9afd6d86-c29b-4d86-bd10-0272969e7eae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Fasilitas Dana</value>
-      <webElementGuid>c01ba70a-53f7-4f63-86d8-a329d6a6381c</webElementGuid>
+      <value>Fasilitas Dana SEVA</value>
+      <webElementGuid>9e52a8e9-3ff9-4eca-90e0-662b5da32728</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

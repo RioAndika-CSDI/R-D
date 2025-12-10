@@ -11,9 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//div[@class='pageLayout-module__cJbOVq__pageHeaderDesktopWrapper']//div[@class='ant-collapse ant-collapse-icon-position-end ant-collapse-large css-1fumvat']//div[1]//div[2]//div[1]//div[2]//button[1]//p[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@class=&quot;searchComponent_linkAllCar__40B7Y&quot;]//p)[1]</value>
-      <webElementGuid>49964305-228f-4cef-b3fb-ce8fc208eb87</webElementGuid>
+      <webElementGuid>2e46652a-659d-47fd-a676-dadce076425b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

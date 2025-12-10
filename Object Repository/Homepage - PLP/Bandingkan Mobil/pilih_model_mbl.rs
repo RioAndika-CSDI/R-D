@@ -7,18 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+         <value>//div[@class = 'inputSelect-module__gaCRbW__container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
-      <webElementGuid>ffc0ae75-475f-4711-aaf0-1774bfa6869f</webElementGuid>
+      <webElementGuid>13eed73e-6081-4938-8cee-af5ff291adc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect-module__gaCRbW__container</value>
+      <webElementGuid>37fbc485-3842-4697-960b-5162c19a18bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a2421a7e-49c6-4c6c-a3b2-8dbd1630c509</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

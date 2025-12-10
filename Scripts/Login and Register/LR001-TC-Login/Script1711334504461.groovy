@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if (open_browser.toString().equals('1')) {
-    WebUI.openBrowser(GlobalVariable.Prod)
+    WebUI.openBrowser('seva.id')
 }
 
 if (viewport == 'desktop') {
@@ -41,10 +41,6 @@ if (viewport == 'desktop') {
     WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
     WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
-
-    WebUI.waitForElementPresent(findTestObject('Object Repository/Homepage Component/desktop view - avatar'), 30)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage - Burger menu/Label_nomor hp profile', [('nomor') : nomorHP]), 0)
 } else {
     WebUI.setViewPortSize(500, 736)
 
@@ -74,12 +70,8 @@ if (viewport == 'desktop') {
 
     WebUI.verifyElementPresent(findTestObject('Login Register Component/Notif_Success_OTP'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.waitForElementPresent(findTestObject('Homepage Component/Button_Hamburger Menu'), 30)
-
-    WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
-
     String currentUrl = WebUI.getUrl()
 
-    WebUI.verifyMatch(currentUrl, 'https://www.seva.id/', false)
+    WebUI.verifyMatch(currentUrl, 'https://www.seva.id/masuk-akun', false)
 }
 

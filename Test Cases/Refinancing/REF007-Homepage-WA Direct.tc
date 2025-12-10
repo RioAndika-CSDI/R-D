@@ -4,69 +4,57 @@
    <name>REF007-Homepage-WA Direct</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8c1bd8d6-8e59-4d3f-b93c-ef53b0dce078</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57a6a77c-d187-4502-9a18-e689808e1b00</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>630b8c64-2fcf-48ee-bf9c-29fec1421bea</variableId>
+      <variableId>30366937-d09d-4410-bddf-c018f1c3bb1d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2ce228e7-c8a7-400c-927f-7a77924ab780</variableId>
+      <variableId>66c13b29-b0cb-4b6a-8a87-3cea4ce95955</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>264340a7-c91e-41c1-a4d1-5081a37ab972</variableId>
+      <variableId>3ef292d0-1597-4fe3-a730-07f027f0dc3b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1a4a0980-6f79-4dd3-9047-44d55f4ec03d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9674f3c4-e353-4825-b1d7-c79f99d91693</variableId>
+      <variableId>2497c5b4-af6e-4138-8f05-91ea235b47dd</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://www.seva.id/fasilitas-dana'</defaultValue>
       <description></description>
-      <id>630b8c64-2fcf-48ee-bf9c-29fec1421bea</id>
+      <id>30366937-d09d-4410-bddf-c018f1c3bb1d</id>
       <masked>false</masked>
       <name>expected_url</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>2ce228e7-c8a7-400c-927f-7a77924ab780</id>
+      <id>66c13b29-b0cb-4b6a-8a87-3cea4ce95955</id>
       <masked>false</masked>
       <name>open_browser</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>264340a7-c91e-41c1-a4d1-5081a37ab972</id>
+      <id>3ef292d0-1597-4fe3-a730-07f027f0dc3b</id>
       <masked>false</masked>
       <name>close_browser</name>
    </variable>
    <variable>
-      <defaultValue>'https://www.seva.id/fasilitas-dana/form'</defaultValue>
-      <description></description>
-      <id>1a4a0980-6f79-4dd3-9047-44d55f4ec03d</id>
-      <masked>false</masked>
-      <name>ExpectedURL2</name>
-   </variable>
-   <variable>
       <defaultValue>'212121'</defaultValue>
       <description></description>
-      <id>9674f3c4-e353-4825-b1d7-c79f99d91693</id>
+      <id>2497c5b4-af6e-4138-8f05-91ea235b47dd</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>

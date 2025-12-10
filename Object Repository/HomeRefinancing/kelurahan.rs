@@ -6,18 +6,31 @@
    <elementGuidId>90578eeb-f454-46c9-8f84-b46359699e33</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@class='']//div//input[@placeholder='Pilih lokasi pengajuan']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'inputSelect_dropdownItemRefinancingCity')]</value>
+         <value>//*[starts-with(@class, 'inputSelect-module__gaCRbW__dropdownItemRefinancingCity') and @id = 'Abuan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemRefinancingCity</value>
-      <webElementGuid>9a527b2c-d7e0-4628-abbd-43a359f3f04a</webElementGuid>
+      <value>inputSelect-module__gaCRbW__dropdownItemRefinancingCity</value>
+      <webElementGuid>39637dae-953f-4047-b60e-76cd8b95b428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Abuan</value>
+      <webElementGuid>8432abbd-e30b-48ea-bf80-b79b1a9cb5f4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

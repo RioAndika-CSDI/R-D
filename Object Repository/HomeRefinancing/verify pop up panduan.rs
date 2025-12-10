@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[starts-with(@class, 'guidelineBottomSheet_title')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@class='guidelineBottomSheet-module__Lu0JgW__formatInfo']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>class</name>
       <type>Main</type>
       <value>guidelineBottomSheet_title</value>
-      <webElementGuid>5e8eb489-135c-48b3-a2ca-e39f03b0ee61</webElementGuid>
+      <webElementGuid>cedafca2-8b8b-458f-84cc-6090863f545f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

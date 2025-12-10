@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][3]</value>
+         <value>//*[@class = 'inputSelect-module__gaCRbW__dropdownItem' and @id = 'Bandung']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +16,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][3]</value>
-      <webElementGuid>e01d64d6-68ef-4e69-bd56-7046426e0ee0</webElementGuid>
+      <value>inputSelect-module__gaCRbW__dropdownItem</value>
+      <webElementGuid>1adbf687-cf18-4b22-8720-47e2505267fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Bandung</value>
+      <webElementGuid>dcc31201-0126-4e79-b494-032792eb4ad4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

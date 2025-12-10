@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'whatsappAnimateButton_whatsappFloatingButtonAnimate__0e8rZ']</value>
+         <value>//*[@data-testid = 'button-leads-from-icon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,14 +19,22 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//img[@alt='Whatsapp']</value>
-      <webElementGuid>0330c32f-0e3e-470a-90b5-4c90ecfb7c6f</webElementGuid>
+      <webElementGuid>4ada2f6b-43d1-4046-aca7-237e6a78a5bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>whatsappAnimateButton_whatsappFloatingButtonAnimate__0e8rZ</value>
-      <webElementGuid>99267fed-2ff7-4af0-a792-938f3dd2d00c</webElementGuid>
+      <webElementGuid>f0ff2822-0a7f-4013-b026-d3e1dad6f33e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-leads-from-icon</value>
+      <webElementGuid>8a80b3a1-fe3a-4a14-a7b0-73fecc3c68f8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

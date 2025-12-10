@@ -4,5 +4,6 @@
    <name>API local storage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f6ca4319-e2b1-4d3a-bdd9-eb16d32700bb</testCaseGuid>
 </TestCaseEntity>

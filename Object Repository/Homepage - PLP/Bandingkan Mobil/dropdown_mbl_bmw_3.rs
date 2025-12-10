@@ -7,18 +7,46 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][1]</value>
+         <value>//*[@class = 'inputSelect-module__gaCRbW__dropdownItem' and @id = 'BMW 3 series 320i Sport']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div/div[@class='ant-modal-root css-1fumvat']/div[@class='ant-modal-wrap ant-modal-centered']/div[@role='dialog']/div/div[@class='ant-modal-content']/div[@class='ant-modal-body']/div[@class='popupCarComparisonSelection-module__rAIxga__formSection']/div[@class='popupCarComparisonSelection-module__rAIxga__formInput']/div/div[@class='inputSelect-module__gaCRbW__container']/div[@class='inputSelect-module__gaCRbW__dropdown inputSelect-module__gaCRbW__dropdownActive']/div[@class='inputSelect-module__gaCRbW__dropdownHeightDefault inputSelect-module__gaCRbW__maxHeightDropdownCarComparissonDesktop simplebar-scrollable-y']/div[@class='simplebar-wrapper']/div[@class='simplebar-mask']/div[@class='simplebar-offset']/div[@aria-label='scrollable content']/div[@class='simplebar-content']/button[@id='BMW 3 series 320i Sport']/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;inputSelect_dropdownItem__oStPv&quot;][1]</value>
-      <webElementGuid>20960aff-e4a1-46da-a3a2-4bdca7cfca98</webElementGuid>
+      <webElementGuid>3a31813b-e8d2-4be2-90be-6ecfecbe0ac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputSelect-module__gaCRbW__dropdownItem</value>
+      <webElementGuid>a50b784e-9791-4851-a7d9-d6e9fa5925a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3ed9cff5-7db4-4058-8fc7-8cf729c9aac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>BMW 3 series 320i Sport</value>
+      <webElementGuid>602f89d1-c883-4e78-a226-38338bc5bd1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

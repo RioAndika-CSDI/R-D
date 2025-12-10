@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'summary_kanyonMediumBlueDesktop') and @data-testid = 'button-promo-ekslusif']</value>
+         <value>//*[@data-testid = 'button-promo-ekslusif']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Promo Eksklusif</value>
-      <webElementGuid>f0fe8424-c90f-4dc9-8681-c423f5cbe6df</webElementGuid>
+      <webElementGuid>cd36ddf1-0d27-45f1-9bef-67048dd48e15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>summary_kanyonMediumBlueDesktop</value>
-      <webElementGuid>94337e3f-6387-4648-bfe3-c72ffc437d67</webElementGuid>
+      <webElementGuid>10096b1f-1a6c-4ba1-9205-e39fdfe4b3ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>title</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>4805f285-4cce-43f3-9b0a-f91e7a8c626a</webElementGuid>
+      <webElementGuid>f6c993d8-058d-4783-a0e9-d1b9e107c57d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +43,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>button-promo-ekslusif</value>
-      <webElementGuid>2f2b1f60-b2fb-4a28-a118-4a8ef06c2246</webElementGuid>
+      <webElementGuid>8be69ff0-f62e-42b5-892f-c2d189869caa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

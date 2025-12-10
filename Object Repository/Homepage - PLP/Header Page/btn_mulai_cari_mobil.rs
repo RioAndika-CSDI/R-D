@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@class=&quot;citySelectorModal_buttonGroup__h3Ah5&quot;]//*[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Mulai Cari Mobil']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;citySelectorModal_buttonGroup__h3Ah5&quot;]//*[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>e09cac68-27f3-4c45-bc34-235629f3e11d</webElementGuid>
+      <webElementGuid>bcf52798-31d1-4af1-9b3e-10bb46fab032</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

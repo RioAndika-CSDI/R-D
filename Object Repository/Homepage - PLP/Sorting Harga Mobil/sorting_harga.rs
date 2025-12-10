@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@class=&quot;navigationfiltermobile_sortSection__CJ20R&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='navigationFilterDesktop-module__SWlbjW__sortSection']//div[@class='rotateChevron-module__5NnBmq__arrowIcon']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;navigationfiltermobile_sortSection__CJ20R&quot;]</value>
-      <webElementGuid>026a2706-8ef2-4308-aa13-27fad0072d5d</webElementGuid>
+      <webElementGuid>f6a9ad38-dc17-4b23-8d17-718832ea1b0f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

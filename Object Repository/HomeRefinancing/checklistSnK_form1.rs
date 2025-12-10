@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(@class,'agreement_agreementTerms__kLT2Y agreement_tertiary__2omkw')]//button//*[name()='svg']//*[name()='rect'])[1]</value>
+         <value>//div[@class='agreement-module__85S08W__agreementTerms agreement-module__85S08W__tertiary false false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
