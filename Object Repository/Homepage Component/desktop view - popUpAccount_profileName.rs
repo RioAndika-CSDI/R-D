@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'popUpAccount_profileName')]</value>
+         <value>//*[starts-with(@class, 'popUpAccount_profile')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>popUpAccount_profileName</value>
-      <webElementGuid>9487ba98-6cc8-47fd-ab81-f7cdbce81cb1</webElementGuid>
+      <value>popUpAccount_profile</value>
+      <webElementGuid>18748377-df67-474a-8384-2098fbf8740b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

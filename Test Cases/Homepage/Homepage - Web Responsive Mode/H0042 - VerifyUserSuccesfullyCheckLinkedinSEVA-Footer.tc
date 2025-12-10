@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0042 - VerifyUserSuccesfullyCheckLinkedinSEVA-Footer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f5150dc-1465-4d14-9b1e-fb01e4e6888c</testCaseGuid>
+</TestCaseEntity>

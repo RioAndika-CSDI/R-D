@@ -4,5 +4,6 @@
    <name>H0007 Desktop - VerifyUserCanFilterCarIsuzu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ab8be651-249b-4e14-a039-5057ef53649a</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74b5023c-da49-4742-a661-9e9951018dcd</testCaseGuid>
 </TestCaseEntity>

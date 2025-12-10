@@ -7,18 +7,33 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[@class=&quot;font-[Kanyon]&quot;]</value>
+         <value>//*[starts-with(@class, 'web_article_breadcrumb') and (text() = 'Otomotif' or . = 'Otomotif')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//h1[@class=&quot;font-[Kanyon]&quot;]</value>
-      <webElementGuid>67f6245e-1f6b-416d-b702-c6e11b885ee4</webElementGuid>
+      <webElementGuid>a6704fe0-3971-43da-887a-53e8c089ea9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>web_article_breadcrumb</value>
+      <webElementGuid>9158797d-fd5f-46e4-8537-ceda987ef80f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Otomotif</value>
+      <webElementGuid>ac2abf11-557a-4f24-bd37-d9680468fb2e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

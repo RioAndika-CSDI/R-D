@@ -18,7 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
@@ -32,8 +38,6 @@ CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findT
 
 CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
-
 '=== LOAN CALCULATOR PROCESS ==='
 systemos = System.getProperty('os.name')
 
@@ -46,11 +50,12 @@ WebUI.delay(5)
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
     0)
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'))
+WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
 //SELECT CITY
-'Select city'
-WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
+//'Select city'
+//WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/input city'))
+WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'))
 
 WebUI.delay(5)
 
@@ -103,7 +108,9 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_lis
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
-'=== KK PROCESS ==='
+WebUI.delay(3)
+
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -117,8 +124,14 @@ WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), peke
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
 
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+
+WebUI.delay(3)
+
 //Gaji Edit
-'edit pendapatan'
+//'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
@@ -136,6 +149,16 @@ if (update_reff_code.toString().equalsIgnoreCase('1')) {
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Lanjutkan kk'))
 
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/p_Lihat Detail Mobil - kk review'), 0)
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementPromoTerms'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+
+WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit - kk review'))
+
 WebUI.delay(10)
 
 '=== LOGIN PROCESS ==='
@@ -151,7 +174,7 @@ WebUI.delay(10)
 
 WebUI.setText(findTestObject('Login Register Component/Input_Phone_Number'), nomorHP)
 
-WebUI.click(findTestObject('Login Register Component/button_Lanjutkan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Login Register Component/button_kirim_otp_KK'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Login Register Component/Input_OTP'), OTP)
 
@@ -171,14 +194,6 @@ WebUI.comment(currentUrl_KK)
 if (currentUrl_KK == KKreviewUrl) {
     KeywordUtil.markPassed('User is on the expected page: ' + currentUrl_KK)
 }
-
-WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/KK Used/p_Lihat Detail Mobil - kk review'), 0)
-
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementPromoTerms'))
-
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
-
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit - kk review'))
 
 WebUI.delay(5)
 
@@ -409,7 +424,27 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+// Maksimalkan jendela agar elemen terlihat
+//WebUI.maximizeWindow()
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 0)
+
+WebUI.waitForElementVisible(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
+WebUI.waitForElementClickable(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 
+    10)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+Actions actions = new Actions(driver)
+
+// klik langsung ke elemen-nya
+actions.moveToElement(checkbox).click().perform()
+
+println('✅ Klik checkbox berhasil via moveToElement()')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 

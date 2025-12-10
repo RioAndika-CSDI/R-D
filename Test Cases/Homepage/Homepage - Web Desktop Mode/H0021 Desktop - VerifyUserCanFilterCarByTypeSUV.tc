@@ -4,5 +4,6 @@
    <name>H0021 Desktop - VerifyUserCanFilterCarByTypeSUV</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>df92e6b5-7768-4467-a78a-b0aabe28f795</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>461d65c3-a155-4a5d-834a-ca04911db9d5</testCaseGuid>
 </TestCaseEntity>

@@ -4,17 +4,18 @@
    <name>GH006_ChangeLocation_fromPLP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>898da475-f568-4741-b7a7-74ef21e7a8c2</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9e0ffb7-5e78-41da-a927-b30b578b2a3e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ddb93d5b-ee6f-434b-87e8-666479f54403</variableId>
+      <variableId>17551f9f-7c1a-4da2-9358-c7f20139a955</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Bogor'</defaultValue>
       <description></description>
-      <id>ddb93d5b-ee6f-434b-87e8-666479f54403</id>
+      <id>17551f9f-7c1a-4da2-9358-c7f20139a955</id>
       <masked>false</masked>
       <name>kota</name>
    </variable>

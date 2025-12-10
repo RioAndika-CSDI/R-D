@@ -4,6 +4,7 @@
    <name>LC008 - VerifyErrorMessageMinimumDPField</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>db93ce7b-ea32-42db-aabc-c61ed3728579</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -18,7 +18,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Filter</value>
-      <webElementGuid>37b576dd-bad9-4829-a08a-6aa08ecf3e25</webElementGuid>
+      <webElementGuid>3bb4331e-22b6-4c8e-ad71-6ee16d21d456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4efd4d61-f51f-4d80-9f40-be064bd6c0b6</webElementGuid>
+      <webElementGuid>36d673b9-4e49-42c2-bcf1-1dc7d5f2798d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[(text() = ' Filter' or . = ' Filter')])[1]</value>
+      <webElementGuid>27ebec04-ba1a-4686-8670-412cc4429a07</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

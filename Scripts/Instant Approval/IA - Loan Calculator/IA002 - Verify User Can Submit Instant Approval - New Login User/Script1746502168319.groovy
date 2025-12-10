@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '85161580002', ('OTP') : '212121', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
@@ -33,7 +39,7 @@ String[] os = systemos.split(' ')
 WebUI.comment(os[0])
 
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 WebUI.delay(5)
 
@@ -95,9 +101,15 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_list'))
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/kategori_umur'), 0)
+
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
-'=== KK PROCESS ==='
+WebUI.delay(3)
+
+//'=== KK PROCESS ==='
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/tenor', [('tenor') : tenor]))
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/button_Cek Kualifikasi Kredit'))
@@ -111,8 +123,14 @@ WebUI.setText(findTestObject('Kualifikasi-Kredit/KK Used/input_Pekerjaan'), peke
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/List_Pekerjaan', [('pekerjaan') : pekerjaan]))
 
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'), 0)
+
+WebUI.delay(3)
+
 //Gaji Edit
-'edit pendapatan'
+//'edit pendapatan'
 if (update_pendapatan.toString().equalsIgnoreCase('1')) {
     WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/pendapatan bulanan kk'))
 
@@ -234,6 +252,8 @@ if (currentUrl_EditKTP == EditKTP_url) {
     WebUI.sendKeys(findTestObject('InstantApproval/InstantApproval/input_Kota_city'), Keys.chord(Keys.BACK_SPACE))
 
     WebUI.setText(findTestObject('InstantApproval/InstantApproval/input_Kota_city'), kota_ktp)
+
+    WebUI.delay(3)
 
     WebUI.click(findTestObject('InstantApproval/InstantApproval/dropdown city edit ktp', [('kota') : kota_ktp]))
 
@@ -387,11 +407,31 @@ WebUI.click(findTestObject('InstantApproval/InstantApproval/Lihat-detail-mobil-i
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/x button detail mobil IA review'))
 
-WebUI.click(findTestObject('Kualifikasi-Kredit/KK Used/kk-checkbox-agreementTerms'))
+// Maksimalkan jendela agar elemen terlihat
+//WebUI.maximizeWindow()
+WebUI.scrollToElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 0)
+
+WebUI.waitForElementVisible(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
+WebUI.waitForElementClickable(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 10)
+
+WebElement checkbox = WebUiCommonHelper.findWebElement(findTestObject('InstantApproval/InstantApproval/ia-checkbox-agreement'), 
+    10)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+Actions actions = new Actions(driver)
+
+// klik langsung ke elemen-nya
+actions.moveToElement(checkbox).click().perform()
+
+println('✅ Klik checkbox berhasil via moveToElement()')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button_Ajukan Instant Approval'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 '=== IA Process Page ==='
 String currentUrl_IAprocess = WebUI.getUrl()
@@ -404,8 +444,10 @@ if (currentUrl_IAprocess == IAprocess_url) {
 
 WebUI.verifyElementPresent(findTestObject('InstantApproval/InstantApproval/IA process page - title'), 15, FailureHandling.OPTIONAL)
 
+WebUI.delay(10)
+
 '=== DELETE ACCOUNT - REUSABLE NUMBER ==='
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(5)
 
@@ -434,10 +476,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('InstantApproval/InstantApproval/button ya hapus akun saya'))
 
-WebUI.delay(30)
+WebUI.delay(40)
 
 '=== REGISTER - REUSABLE NUMBER ==='
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 WebUI.delay(5)
 

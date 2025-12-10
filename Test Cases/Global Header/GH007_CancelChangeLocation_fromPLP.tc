@@ -4,17 +4,18 @@
    <name>GH007_CancelChangeLocation_fromPLP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a8225d31-71f8-409f-826c-cf613575f2f8</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4c9137b-483c-4796-b436-4a7d0a6c201b</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f197661d-0aef-43e1-a6ed-ef308717832d</variableId>
+      <variableId>d65ea70f-0ecc-4810-b2dc-e4075f0a24b1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Bogor'</defaultValue>
       <description></description>
-      <id>f197661d-0aef-43e1-a6ed-ef308717832d</id>
+      <id>d65ea70f-0ecc-4810-b2dc-e4075f0a24b1</id>
       <masked>false</masked>
       <name>kota</name>
    </variable>

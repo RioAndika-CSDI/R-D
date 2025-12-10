@@ -4,5 +4,6 @@
    <name>H0026 - VerifyUserCanSelectAllBrand</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fab3083a-8218-4368-88bb-8c9d2e629af6</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f25caef-292b-4b5d-a48c-a95478290467</testCaseGuid>
 </TestCaseEntity>

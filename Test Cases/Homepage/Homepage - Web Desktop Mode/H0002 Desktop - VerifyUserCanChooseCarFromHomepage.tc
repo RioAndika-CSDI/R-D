@@ -5,5 +5,44 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>220a422d-7041-424f-88db-f543ee644151</testCaseGuid>
+   <testCaseGuid>26e3b0d4-6ead-4093-a0c8-8874eb9d34b9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a688edf9-c8e1-42ef-84c4-aba7821312e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e863a041-747e-42d1-8e3d-fd4819ea4f78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>089591ce-9680-4d54-a0ff-105b468cab03</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/mobil-bekas/c'</defaultValue>
+      <description></description>
+      <id>a688edf9-c8e1-42ef-84c4-aba7821312e7</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e863a041-747e-42d1-8e3d-fd4819ea4f78</id>
+      <masked>false</masked>
+      <name>open_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>089591ce-9680-4d54-a0ff-105b468cab03</id>
+      <masked>false</masked>
+      <name>close_browser</name>
+   </variable>
 </TestCaseEntity>

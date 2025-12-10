@@ -6,11 +6,15 @@
    <elementGuidId>d66843e5-490e-47b4-8a5f-1e25e135c356</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'bottomSheetCookies_wrapperButton')]//button[text()='Terima']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[contains(@class, 'bottomSheetCookies_wrapperButton')]//button[text()='Terima']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div[contains(@class, 'bottomSheetCookies_wrapperButton')]//button[text()='Terima']</value>
-      <webElementGuid>48484098-2f1c-46e7-a5b9-0ace42814a34</webElementGuid>
+      <webElementGuid>155bbd1b-0cc7-4037-b1b9-c98c709e7872</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

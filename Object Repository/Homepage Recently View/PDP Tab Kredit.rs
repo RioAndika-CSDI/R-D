@@ -14,7 +14,8 @@
          <value>(//*[starts-with(@class, 'tabV1_container') and @data-testid = 'tab-kredit'])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +23,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tabV1_container</value>
-      <webElementGuid>f8c2a76d-58a5-4759-9f3b-67f91af4f23a</webElementGuid>
+      <webElementGuid>bc6b0bb4-51f3-4fce-aa0c-281e0a517c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +31,14 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>tab-kredit</value>
-      <webElementGuid>40cbae5e-94c9-42a4-8449-36080a37750d</webElementGuid>
+      <webElementGuid>1d764409-6ac4-4c9b-a9b8-510fc0e532b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Kredit</value>
+      <webElementGuid>c9a5439e-01e6-458d-8de8-e16bb243b20c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

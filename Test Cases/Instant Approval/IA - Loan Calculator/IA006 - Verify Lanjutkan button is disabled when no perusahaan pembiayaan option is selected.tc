@@ -4,6 +4,7 @@
    <name>IA006 - Verify Lanjutkan button is disabled when no perusahaan pembiayaan option is selected</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>34929280-086f-4bd2-a348-15bb4ca66e49</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

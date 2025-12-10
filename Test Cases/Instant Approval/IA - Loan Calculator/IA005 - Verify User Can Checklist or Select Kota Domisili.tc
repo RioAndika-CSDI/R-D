@@ -4,6 +4,7 @@
    <name>IA005 - Verify User Can Checklist or Select Kota Domisili</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>05446732-649d-4297-94f1-c78693ea15e9</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

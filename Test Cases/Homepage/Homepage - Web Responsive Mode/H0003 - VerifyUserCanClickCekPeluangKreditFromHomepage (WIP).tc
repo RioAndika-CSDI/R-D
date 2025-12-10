@@ -4,5 +4,6 @@
    <name>H0003 - VerifyUserCanClickCekPeluangKreditFromHomepage (WIP)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9e437bb6-dd15-4114-8c97-802da909f8d8</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>550a1af4-c014-4e45-9268-3ce145d87ef3</testCaseGuid>
 </TestCaseEntity>

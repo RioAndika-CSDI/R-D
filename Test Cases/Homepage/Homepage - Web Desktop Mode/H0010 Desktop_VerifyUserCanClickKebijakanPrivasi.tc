@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0010 Desktop_VerifyUserCanClickKebijakanPrivasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9300efb8-1233-4a6e-9d4a-6dda4af0974d</testCaseGuid>
+</TestCaseEntity>

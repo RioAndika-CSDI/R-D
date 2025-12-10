@@ -4,5 +4,6 @@
    <name>H0032 - VerifyResponseWhenInputAllFormButuhBantuan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2621b1dd-9b57-4aca-b695-f5b13452b28d</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15d5ec55-d38d-4c88-a9c3-44e53dc585d8</testCaseGuid>
 </TestCaseEntity>

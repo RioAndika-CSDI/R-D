@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint	
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,32 +16,41 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 if (open_browser.toString().equals('1')) {
     WebUI.openBrowser('seva.id')
+	WebUI.setViewPortSize(570, 912)
 }
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+JavascriptExecutor jsbefore = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+jsbefore.executeScript('\n    var iframe = document.querySelector(\'iframe[id*="moe-onsite-campaign"]\');\n    if (iframe) {\n        iframe.remove();\n    }\n')
 
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(15)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
+WebUI.delay(10)
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/menu_mobilBekas_burgerMenu'))
+WebUI.click(findTestObject('Object Repository/Page Mobil Bekas/lihat_semua_mobilBekas_burgerMenu'))
 
-WebUI.click(findTestObject('Homepage Component/button_Cari Mobil'))
 
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 0)
+//*ASET COMPONEN DESKTOP*//
+//WebUI.click(findTestObject('dealer page/sub menu mobil baru'))
+//
+//WebUI.delay(10)
+//
+//WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+//
+//WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'), 10)
+//
+//WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
+//
+//WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 10)
+//
+//WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
 
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas'))
-
-WebUI.waitForElementVisible(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'), 0)
-
-WebUI.click(findTestObject('Homepage Component/Submenu_Burger_Mobil Bekas_Lihat Semua Mobil'))
-
-WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 0)
+WebUI.waitForElementPresent(findTestObject('Page Mobil Bekas/button_Filter'), 50)
 
 String actual_url = WebUI.getUrl()
 

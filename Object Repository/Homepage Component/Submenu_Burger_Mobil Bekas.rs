@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Mobil Bekas' or . = 'Mobil Bekas') and starts-with(@class, 'menuItem')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='navbarDesktop_menuItem__yEHMI'][normalize-space()='Mobil Bekas']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +22,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mobil Bekas</value>
-      <webElementGuid>67cecba4-85ed-460f-907a-9503ba85c5e7</webElementGuid>
+      <webElementGuid>c0256745-19d1-4313-8de6-68be065ef914</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>class</name>
       <type>Main</type>
       <value>menuItem</value>
-      <webElementGuid>7eec52ee-dcfc-4bee-add5-0fadf4f1be7a</webElementGuid>
+      <webElementGuid>f76e7fdc-693c-4bc0-a79c-7081e3692683</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

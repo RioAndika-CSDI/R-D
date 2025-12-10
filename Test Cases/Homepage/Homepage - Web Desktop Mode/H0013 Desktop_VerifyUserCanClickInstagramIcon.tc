@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0013 Desktop_VerifyUserCanClickInstagramIcon</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba88250a-18c8-4edc-82b1-0ed7dfb73162</testCaseGuid>
+</TestCaseEntity>

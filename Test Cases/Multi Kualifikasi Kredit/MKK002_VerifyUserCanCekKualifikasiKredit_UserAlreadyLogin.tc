@@ -4,6 +4,7 @@
    <name>MKK002_VerifyUserCanCekKualifikasiKredit_UserAlreadyLogin</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bba5feb3-bb31-4e78-873e-821ec5bba3d5</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

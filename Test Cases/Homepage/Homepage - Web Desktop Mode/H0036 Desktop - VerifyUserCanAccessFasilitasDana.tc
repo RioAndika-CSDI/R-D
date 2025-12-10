@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0036 Desktop - VerifyUserCanAccessFasilitasDana</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f37f45d-25dd-492e-b73c-6c178d717d22</testCaseGuid>
+</TestCaseEntity>

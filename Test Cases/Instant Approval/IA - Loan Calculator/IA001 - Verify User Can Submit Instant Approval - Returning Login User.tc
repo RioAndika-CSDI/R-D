@@ -4,6 +4,7 @@
    <name>IA001 - Verify User Can Submit Instant Approval - Returning Login User</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>78081fd3-2ce9-4ee8-bca1-492d2b36c7f1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

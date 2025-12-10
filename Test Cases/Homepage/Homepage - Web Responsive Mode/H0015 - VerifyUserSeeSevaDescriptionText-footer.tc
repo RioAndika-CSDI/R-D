@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0015 - VerifyUserSeeSevaDescriptionText-footer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d64dff4-3136-40df-b07f-6e4f5230883e</testCaseGuid>
+</TestCaseEntity>

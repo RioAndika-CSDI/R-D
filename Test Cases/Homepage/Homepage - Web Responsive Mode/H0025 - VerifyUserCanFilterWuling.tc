@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0025 - VerifyUserCanFilterWuling</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c598a518-892d-4fce-a74d-456cadf36f3d</testCaseGuid>
+</TestCaseEntity>

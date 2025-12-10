@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0043 - Verify User Can Lihat Semua Testimony</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57d1f8b8-21d4-4057-b469-a5d7eba497e8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>506e5d11-6e6d-4871-99a9-28b33f272ed1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/cerita-pengguna'</defaultValue>
+      <description></description>
+      <id>506e5d11-6e6d-4871-99a9-28b33f272ed1</id>
+      <masked>false</masked>
+      <name>xpt_Url</name>
+   </variable>
+</TestCaseEntity>

@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.maximizeWindow()
-
+//WebUI.maximizeWindow()
 WebUI.scrollToElement(findTestObject('Multi KK/cari_mobil_baru_homepage'), 0)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
@@ -29,8 +28,18 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
+
 'cek KK button'
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cek Kualifikasi Kredit'))
+
+WebUI.scrollToElement(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'), 
+    5)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_harga_terendah'))
 
@@ -57,11 +66,16 @@ WebUI.click(findTestObject('Multi KK/div_Otomatis (1)', [('transmisi') : transmi
 'dropdown pekerjaan'
 WebUI.click(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'))
 
+'dropdown pekerjaan'
+WebUI.setText(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'), pekerjaan)
+
 'karyawan swasta'
 WebUI.click(findTestObject('Multi KK/div_Karyawan Swasta', [('pekerjaan') : pekerjaan]))
 
 'kode referral field'
 WebUI.setText(findTestObject('Object Repository/Multi KK/div_Kode Referral Teman SEVA (Opsional)_inp_97a83d'), kode_referral)
+
+WebUI.scrollToElement(findTestObject('Multi KK/check-snk'), 0)
 
 WebUI.click(findTestObject('Multi KK/check-snk'))
 
@@ -72,7 +86,9 @@ WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kred
 
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/button_Masuk_pop_up'))
 
-WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_otp_popup'), '212121')
+WebUI.setText(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicilan Kredit Terbaik/field_otp_popup'), '123456')
+
+WebUI.click(findTestObject('Multi KK/button_OK, Saya Mengerti'))
 
 WebUI.waitForElementVisible(findTestObject('Page_/button_Lanjut Instant Approval'), 0)
 

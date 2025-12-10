@@ -4,6 +4,7 @@
    <name>LR002-TC-FailValidateOTP</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4f84bd58-be5e-4e4a-914e-7b19e1d97cc1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

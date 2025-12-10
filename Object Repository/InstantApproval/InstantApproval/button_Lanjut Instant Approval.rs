@@ -10,11 +10,16 @@
          <value>//button[normalize-space()='Lanjut Instant Approval']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Lanjut Instant Approval' or . = 'Lanjut Instant Approval')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.landingIA_body__1hFOv > button.button_primaryDarkBlue__jOQA0.button_big__WTbQS.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c1c376c3-3a58-4790-9b9d-61412e7c52d9</webElementGuid>
+      <webElementGuid>227c0b8f-8bfb-4d9b-9a56-d6354be8a644</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>eb44af76-fc18-4b4e-b652-a55f8b11ad44</webElementGuid>
+      <webElementGuid>21ce32c0-3d01-42d7-98dd-ccfca6c0447b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lanjut Instant Approval</value>
-      <webElementGuid>b4e0dd89-b408-4bce-886e-1c3ad8d9b7e7</webElementGuid>
+      <webElementGuid>3dfd1e80-d612-45f3-a7a9-0db669fffaeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;landing-ia-bottom-sheet&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;landingIA_body__1hFOv&quot;]/button[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>3dd1f236-1ee2-4283-b665-51122bb1218f</webElementGuid>
+      <webElementGuid>17411c8a-c77c-4e18-9e75-412c14760e18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='hasil persetujuan kredit instan'])[1]/following::button[1]</value>
-      <webElementGuid>47ff3b97-2684-49e2-9cfd-b4142f4fef76</webElementGuid>
+      <webElementGuid>560bc2cc-1276-4037-a045-22a17dd83895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='siapkan KTP-mu'])[1]/following::button[1]</value>
-      <webElementGuid>e5004a63-c0c8-40dc-9c84-07509495e078</webElementGuid>
+      <webElementGuid>e6432aa6-e6ef-46fb-b48e-503ce950880a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak, Terima Kasih'])[1]/preceding::button[1]</value>
-      <webElementGuid>2f5e1355-7aff-4f21-a76b-01b5067ba91b</webElementGuid>
+      <webElementGuid>23a9c210-32eb-437f-838d-07e3a8d5e13d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kami menjamin datamu aman dan terlindungi'])[1]/preceding::button[1]</value>
-      <webElementGuid>1b7ce44b-9ba3-47d5-9bc8-b05ce3dfd7fb</webElementGuid>
+      <webElementGuid>6a221e4e-300e-4eef-83e1-b7a9e94065e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjut Instant Approval']/parent::*</value>
-      <webElementGuid>28e8b063-9a7a-4940-a85d-0b3269cfdcda</webElementGuid>
+      <webElementGuid>10b21841-5282-4897-b244-f8c25a4d3b27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>67798407-9b95-4574-8e06-2cf3c1d94ad2</webElementGuid>
+      <webElementGuid>18385788-2b86-4ac6-a464-977ceeb449fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Lanjut Instant Approval' or . = 'Lanjut Instant Approval')]</value>
-      <webElementGuid>9d998462-b934-4cf4-b008-f273db1eb3ce</webElementGuid>
+      <webElementGuid>412bdb52-4440-41aa-a339-31bb314bc6ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

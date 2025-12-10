@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Peluang Kredit Konfirmasi Data</name>
+   <tag></tag>
+   <elementGuidId>b2f1667b-2052-46a6-9233-e3929e7c4730</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[normalize-space()='Detail Mobil']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.modal_title__ADM2I</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Peluang Kredit: Konfirmasi Data' or . = 'Peluang Kredit: Konfirmasi Data')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>2aec3ebd-51f7-45d3-91cc-bc23bd54ff49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal_title__ADM2I</value>
+      <webElementGuid>a4ea46ce-312a-4a68-a32c-56864dc19d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Peluang Kredit: Konfirmasi Data</value>
+      <webElementGuid>4e02a71a-dc70-4933-9899-1f26e0254869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r0:&quot;)/h3[@class=&quot;modal_title__ADM2I&quot;]</value>
+      <webElementGuid>cb4656b2-648d-4092-910c-a24b54db16e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':r0:']/h3</value>
+      <webElementGuid>12db50a8-d004-4a47-bf9e-95417d40ff5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', ':r0:', '&quot;', ')/h3[@class=', '&quot;', 'modal_title__ADM2I', '&quot;', ']')])[1]/following::h3[1]</value>
+      <webElementGuid>382f559e-d54d-47f0-9af4-d10dd0f2d462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h3[1]</value>
+      <webElementGuid>46556e74-366f-4775-88d8-6f9822d6274a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[1]/preceding::h3[1]</value>
+      <webElementGuid>55e24e6b-bde0-48dc-af70-dd2f82f70290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp210.750.000'])[2]/preceding::h3[1]</value>
+      <webElementGuid>18deba27-26c6-4638-bd3e-d099ea170729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail Mobil']/parent::*</value>
+      <webElementGuid>9a0af46c-ca10-4263-984d-ec5cb49e2e21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>513857c7-d646-46d7-874a-1bbaaad196fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Detail Mobil' or . = 'Detail Mobil')]</value>
+      <webElementGuid>3e2a1ef5-8696-4c24-8da2-84a17e5300e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

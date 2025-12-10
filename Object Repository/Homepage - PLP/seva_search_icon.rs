@@ -7,19 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@data-testid = 'icon-search-header'])[1]</value>
+         <value>(//*[@data-testid= 'icon-search-header'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@data-testid = 'icon-search-header'])[1]</value>
-      <webElementGuid>8ab1453f-deac-45c5-baad-d2ae57c2f0bd</webElementGuid>
+      <value>(//*[@data-testid= 'icon-search-header'])[1]</value>
+      <webElementGuid>af327679-6fe3-4527-9eba-6b43fa9a5cda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,6 +26,6 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>icon-search-header</value>
-      <webElementGuid>e7fe5966-ed88-49dd-a5ef-4faefd80361e</webElementGuid>
+      <webElementGuid>0a71f174-e5a0-4192-ae6a-ad6655bd9e14</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

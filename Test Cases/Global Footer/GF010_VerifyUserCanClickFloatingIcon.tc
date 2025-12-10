@@ -4,5 +4,6 @@
    <name>GF010_VerifyUserCanClickFloatingIcon</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b38ce921-aa8d-4b84-8b06-2b1baa12df80</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3b2e159-fc5f-41d8-9d3c-a5ce80e7e46d</testCaseGuid>
 </TestCaseEntity>

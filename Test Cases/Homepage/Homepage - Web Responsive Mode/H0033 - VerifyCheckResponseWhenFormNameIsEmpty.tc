@@ -4,5 +4,6 @@
    <name>H0033 - VerifyCheckResponseWhenFormNameIsEmpty</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2ae2805f-1d66-4897-8b30-76742707815d</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef8f5893-006c-4992-9dfc-8f4c2e90087d</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>GF001_VerifyUserCanClickTentangSeva</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ab813b0c-d2b4-4f56-9a8c-977bcf938e68</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9ec77e8-04d6-4a67-9bcc-9e02d9996c26</testCaseGuid>
 </TestCaseEntity>

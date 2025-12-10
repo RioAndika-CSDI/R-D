@@ -7,13 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[starts-with(@class, 'avatar_avatar')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'avatar_avatar') and contains(@style, 'font-family: var(--open-sans)')]</value>
+         <value>//*[contains(@class, 'avatar_avatar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar_avatar</value>
+      <webElementGuid>da28d063-2ff4-431d-af17-6dc13e594025</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

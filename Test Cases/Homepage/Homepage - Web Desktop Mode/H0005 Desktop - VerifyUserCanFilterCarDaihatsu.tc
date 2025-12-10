@@ -4,5 +4,6 @@
    <name>H0005 Desktop - VerifyUserCanFilterCarDaihatsu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>30448445-be5f-401a-93fb-8ebfaa98c175</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76719c49-7021-43eb-b8fc-ef824c123d7a</testCaseGuid>
 </TestCaseEntity>

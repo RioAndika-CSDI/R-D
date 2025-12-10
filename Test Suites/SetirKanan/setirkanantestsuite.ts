@@ -65,7 +65,7 @@
       <guid>5133875d-ff24-4f30-83aa-5cde988eb84c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Setir Kanan/SKMB003-Cari Mobil Bekas Hompage</testCaseId>
+      <testCaseId>Test Cases/Setir Kanan/SKMB003-Cari Mobil Bekas Hompage dengan filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -120,7 +120,7 @@
       <guid>14238c72-11f8-4613-9e7b-d239621b37f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Setir Kanan/SKMB004-Filter Mobil Bekas</testCaseId>
+      <testCaseId>Test Cases/Setir Kanan/SKMB004-filter overlay</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -620,5 +620,46 @@
          <value></value>
          <variableId>a6d82280-07bb-48f3-8065-887a2446e62e</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f0af738-fb3c-4c25-8462-607c368f8293</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB011-Klik simulasi kredit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f0e5c55-0db6-4cc4-bf75-3f705bb4f64c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB012-Klik Saya Berminat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c12ee620-8e89-4c5f-a930-a75664875f91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB013-Buat leads PDP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68f20116-b5fe-4b84-b208-3c4077cd8ac5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>536585c9-1b36-4fc8-a43d-7949fa931316</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB014-Recommendation New Car Chevron</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>307c357b-1b46-49a9-9f69-6b46ac609a15</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Setir Kanan/SKMB015-Used Car Chevron</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

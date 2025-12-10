@@ -10,15 +10,16 @@
          <value>//*[@id = '28-34']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='18-27']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#28-34</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid='field-pilih-kategori-umur-28-34']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d4befed2-dcb2-4a21-98c6-e5e7428f0016</webElementGuid>
+      <webElementGuid>51a769ea-43af-4e9a-8755-56042f4cd1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>28-34</value>
-      <webElementGuid>30eb6a33-1b19-485a-8cf2-9869ac0050a4</webElementGuid>
+      <webElementGuid>2aa6a202-cf04-454f-92d5-c8087838d1ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv inputSelect_active__MgNJZ</value>
-      <webElementGuid>8a4b3760-6837-4d3e-898e-2aeb372949ee</webElementGuid>
+      <webElementGuid>16a2ae27-1f36-4997-963b-a4b59fdb4332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>field-pilih-kategori-umur-28-34</value>
-      <webElementGuid>a869ba54-018d-43df-b707-4c4a82993427</webElementGuid>
+      <webElementGuid>47612f04-f59b-4eae-b873-dc788e71bd65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>28-34</value>
-      <webElementGuid>4c986cd0-bde5-4bfe-812c-d7d6bab070b7</webElementGuid>
+      <webElementGuid>236bd299-fa33-4ab7-ab0a-8a06384f5473</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;28-34&quot;)</value>
-      <webElementGuid>a6979e8e-3a14-4db0-b3cc-d0ca8e6d8863</webElementGuid>
+      <webElementGuid>99ae0aaf-e663-4d98-8085-56283cdb3c20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='28-34']</value>
-      <webElementGuid>17d9025b-a340-4738-9fae-1823c4989bbe</webElementGuid>
+      <webElementGuid>369a0ca2-07c1-4b65-a1e0-c7bdc4af24f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loan-calculator-form-age']/div/div[2]/div[2]</value>
-      <webElementGuid>587f895b-3fd6-4e21-b387-581c473cf0b0</webElementGuid>
+      <webElementGuid>a2be71bd-f17f-45ee-a267-683227de6c7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Cicilan Ideal'])[1]/following::div[15]</value>
-      <webElementGuid>3e0cd3db-1e9c-46b9-af42-863163c58320</webElementGuid>
+      <webElementGuid>2972b7db-bb48-4e9d-9507-6c59782bfda8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::div[6]</value>
-      <webElementGuid>2d57ecc7-9f9b-4b4f-82e5-eec55cd9b497</webElementGuid>
+      <webElementGuid>e66dfb9e-9a66-422a-aadd-06c606ad93da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Kemampuan'])[1]/preceding::div[9]</value>
-      <webElementGuid>0732b18d-63a2-469f-818e-0ee21390d206</webElementGuid>
+      <webElementGuid>002c4df0-6798-4991-a307-7a9cbad27415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>600290b9-6a2b-49de-9984-a6728e7fbc82</webElementGuid>
+      <webElementGuid>df65f29a-93b0-48ff-8594-63701cb0aba0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = '28-34' and (text() = '28-34' or . = '28-34')]</value>
-      <webElementGuid>a60cb74e-4de6-4013-8ada-8bcc8f462885</webElementGuid>
+      <webElementGuid>be94958c-d42b-4883-8c93-12c4a9f21cf9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

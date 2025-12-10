@@ -4,5 +4,6 @@
    <name>H0016 - VerifyUserSeeAboutISOCertificate-Footer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cded9de5-897d-48a8-b58a-0c64be7abd8a</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3f713ec-7c63-4ade-bb86-9461a20df200</testCaseGuid>
 </TestCaseEntity>

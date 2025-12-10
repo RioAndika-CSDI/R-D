@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0012 Desktop - VerifyUserSeeAboutISOCertificate-Footer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>619f38c5-8e2f-4bf5-ab2b-a87831f3e81e</testCaseGuid>
+</TestCaseEntity>

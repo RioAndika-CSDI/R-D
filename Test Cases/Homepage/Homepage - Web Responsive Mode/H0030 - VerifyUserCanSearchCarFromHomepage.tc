@@ -4,5 +4,6 @@
    <name>H0030 - VerifyUserCanSearchCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>82d4b2bd-d4d5-4bc5-9c82-458f361b9ebd</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a74e2b9-eef8-48b3-879b-7bcb0e5f2fdb</testCaseGuid>
 </TestCaseEntity>

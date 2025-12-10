@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Login and Register/LR001-TC-Login'), [('nomorHP') : '8752900847', ('OTP') : '445566', ('open_browser') : '1'
         , ('close_browser') : '0'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.click(findTestObject('Homepage Component/Button_Hamburger Menu'))
 
 'cek KK button'
 WebUI.click(findTestObject('Object Repository/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cek Kualifikasi Kredit'))
@@ -48,7 +48,13 @@ WebUI.click(findTestObject('Multi KK/div_5 (1)', [('tenor') : tenor]))
 WebUI.click(findTestObject('Multi KK/div_Otomatis (1)', [('transmisi') : transmisi]))
 
 'dropdown pekerjaan'
+WebUI.scrollToElement(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'), 0)
+
+'dropdown pekerjaan'
 WebUI.click(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'))
+
+'dropdown pekerjaan'
+WebUI.setText(findTestObject('Object Repository/Multi KK/svg_SEVA Dropdown Icon'), pekerjaan)
 
 'karyawan swasta'
 WebUI.click(findTestObject('Multi KK/div_Karyawan Swasta', [('pekerjaan') : pekerjaan]))
@@ -60,6 +66,8 @@ WebUI.click(findTestObject('Multi KK/check-snk'))
 
 'button lihat rekomendasi mobil'
 WebUI.click(findTestObject('Object Repository/Multi KK/button_Lihat Rekomendasi Mobil (1)'))
+
+WebUI.click(findTestObject('Multi KK/button_OK, Saya Mengerti'))
 
 WebUI.verifyElementVisible(findTestObject('Page_/button_Lanjut Instant Approval'))
 

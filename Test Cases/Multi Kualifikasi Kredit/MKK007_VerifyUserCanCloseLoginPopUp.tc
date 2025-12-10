@@ -4,6 +4,7 @@
    <name>MKK007_VerifyUserCanCloseLoginPopUp</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d1421e18-fa3f-41c9-b1bc-38a11e86b39a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

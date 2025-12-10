@@ -6,6 +6,10 @@
    <elementGuidId>df993094-db85-4bf4-b33a-2f16ab64c531</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>(//button[@class='datepicker_input__FMA0u datepicker_placeholder__bBsAx'])[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@name='birthdate']</value>
       </entry>
@@ -14,7 +18,8 @@
          <value>button[name=&quot;birthdate&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0545fe9d-1c2a-470d-a8ee-f756f939ba2d</webElementGuid>
+      <webElementGuid>37d6b84e-aca0-4821-aee8-a3be0a1cb632</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5ba6863a-b453-434d-9bfa-a715bde24598</webElementGuid>
+      <webElementGuid>e2b5c74d-e6e7-4290-93da-edc68147ca73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>birthdate</value>
-      <webElementGuid>acef33ea-2c1b-497a-9537-2f4639c5367d</webElementGuid>
+      <webElementGuid>3c79c40b-8618-40dc-9b04-985d8a809d84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +51,23 @@
       <name>class</name>
       <type>Main</type>
       <value>datepicker_input__FMA0u datepicker_placeholder__bBsAx datepicker_error__NnStC shake-animation-X</value>
-      <webElementGuid>7a488b97-e253-4884-beaf-ed9c7ad8c43a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>DD/MM/YYYY</value>
-      <webElementGuid>8e9d4f3c-a9df-4065-b290-d5e868c5b09c</webElementGuid>
+      <webElementGuid>3d9761e4-0c0f-4c7a-bc31-2f1a2a0b2cc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DD/MM/YYYY</value>
+      <webElementGuid>d05a75f6-7a89-4979-951c-80c2b193faa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayoutV2_container__KegP2 ktp-edit_form_header__wQrVw&quot;]/main[@class=&quot;ktp-edit_wrapper__b5vQk&quot;]/section[@class=&quot;ktp-edit_wrapper__form__psNep&quot;]/div[6]/div[@class=&quot;datepicker_datePickerContainer__zVxfZ&quot;]/div[@class=&quot;datepicker_btnContainer__EyswD&quot;]/button[@class=&quot;datepicker_input__FMA0u datepicker_placeholder__bBsAx datepicker_error__NnStC shake-animation-X&quot;]</value>
-      <webElementGuid>f155d0da-7eae-40da-b18a-2c6c8163c1d6</webElementGuid>
+      <value>(//button[@class='datepicker_input__FMA0u datepicker_placeholder__bBsAx'])[1]</value>
+      <webElementGuid>3dd3bad0-a240-420c-a6a2-61b0634c3aad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='birthdate']</value>
-      <webElementGuid>76b1e2a3-d353-4e85-9f69-a33af4066592</webElementGuid>
+      <webElementGuid>6bb467ea-e00c-4242-ac38-c56a1dbd5a1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[6]/div/div/button</value>
-      <webElementGuid>8d615700-aea4-4d48-b8fe-432907bf0cb2</webElementGuid>
+      <webElementGuid>f7eeab1c-479d-429b-9b69-5e8569664476</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Lahir'])[1]/following::button[1]</value>
-      <webElementGuid>32bade61-c0bc-4b3b-a39b-29194962142c</webElementGuid>
+      <webElementGuid>6d535a4c-3344-49fe-819b-6934d900eacf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerai Mati'])[1]/following::button[1]</value>
-      <webElementGuid>fdd3a8be-0f30-4a77-88fd-c1999d97fa41</webElementGuid>
+      <webElementGuid>4b1c8335-a9c4-4f86-8d49-c1e53f97177f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[4]/preceding::button[1]</value>
-      <webElementGuid>8b945804-ee69-492c-8b34-c8bacafd54f8</webElementGuid>
+      <webElementGuid>886addca-c4a4-4b83-b294-2473c7e66b07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi'])[1]/preceding::button[1]</value>
-      <webElementGuid>1c5707dc-9c45-4b6f-9790-c847a8cb4f5e</webElementGuid>
+      <webElementGuid>81e77cad-6083-408c-a0f3-a8a00923f980</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='DD/MM/YYYY']/parent::*</value>
-      <webElementGuid>6cc170f4-fa77-4e6a-a874-977ccce02f49</webElementGuid>
+      <webElementGuid>731ced68-372b-47b4-a04d-3c753beaa1e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>725ffcca-311e-4495-ba50-92e7344bd1d1</webElementGuid>
+      <webElementGuid>3b817ac5-1ea4-448d-8f93-37544137ee4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @name = 'birthdate' and (text() = 'DD/MM/YYYY' or . = 'DD/MM/YYYY')]</value>
-      <webElementGuid>01345127-fd50-4593-a46e-ec58778227f0</webElementGuid>
+      <webElementGuid>8e1ee11b-a8aa-44b4-a783-134d61e280e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0048 - VerifyUserCanOpenHubungiKami-Footer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92400572-7db3-4dac-ac0a-22b3bd7deee6</testCaseGuid>
+</TestCaseEntity>

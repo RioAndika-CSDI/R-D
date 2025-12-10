@@ -6,39 +6,36 @@
    <elementGuidId>c9d8a275-4967-4cf6-9ef6-6dc646492e2d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.navigationfiltermobile_text__35uL4</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
+         <key>BASIC</key>
+         <value>//button[@data-testid = 'logo-BMW']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>span</value>
-      <webElementGuid>9dffcaa7-29f2-494d-96a2-c6da8bcf0c19</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>navigationfiltermobile_text__35uL4</value>
-      <webElementGuid>4ec1e0d9-fc94-44cc-9c99-3f484a991f62</webElementGuid>
+      <webElementGuid>c4e0ad68-16a1-4d96-b1d1-aa83efdc872d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>BMW</value>
-      <webElementGuid>ea7e528c-c2d5-4073-800c-17b7ed80c43f</webElementGuid>
+      <webElementGuid>6eb8729f-0b72-4cb7-ad60-5ed94db3d0cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +43,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI&quot;]/div[@class=&quot;navigationfiltermobile_wrapper___xd5G navigationfiltermobile_showHeader__dSlxL&quot;]/div[@class=&quot;navigationfiltermobile_filterActiveWrapper__FDt9L&quot;]/div[@class=&quot;navigationfiltermobile_navOuter__9ZZHh&quot;]/div[@class=&quot;navigationfiltermobile_navFrame__CBKLA&quot;]/span[@class=&quot;navigationfiltermobile_text__35uL4&quot;]</value>
-      <webElementGuid>fdcd89b5-e5c1-4eca-bce5-beeea01147f2</webElementGuid>
+      <webElementGuid>b9fed4b9-38f3-42ec-8391-2f0afca4d3d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-BMW</value>
+      <webElementGuid>a61c99c5-c00c-4204-85b2-3e9a225fe9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5e129da6-93d2-4cf5-bc98-ca4b34502a7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[3]/div/div[3]/div/span</value>
-      <webElementGuid>6e537851-a493-45ed-a331-b9e07326b6a5</webElementGuid>
+      <webElementGuid>351df926-0816-4fd8-9455-16aab34e8f23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +75,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>0a5d4b9c-b0b3-40bd-8e87-d6f2a15ef51b</webElementGuid>
+      <webElementGuid>4b603589-90ef-4a23-af54-d3dda8a593f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'BMW' or . = 'BMW')]</value>
-      <webElementGuid>a5624ab5-8fd2-4adc-8d36-3b07f7db3750</webElementGuid>
+      <webElementGuid>6b74e523-80b0-4195-afcb-2927f1dca24e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

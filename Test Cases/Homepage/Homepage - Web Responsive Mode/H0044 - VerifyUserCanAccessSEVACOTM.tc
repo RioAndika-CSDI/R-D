@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0044 - VerifyUserCanAccessSEVACOTM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2273f9e-4b5d-4f82-b3ba-9497c6ffb90d</testCaseGuid>
+</TestCaseEntity>

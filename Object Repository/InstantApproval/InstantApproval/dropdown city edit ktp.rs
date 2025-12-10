@@ -6,19 +6,20 @@
    <elementGuidId>aec89ae6-9f79-4642-b74a-cec50e645fd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Bandung']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#Bandung</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = '${kota}']</value>
+         <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${kota}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${kota}']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Bandung']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>616b0ab3-0f0e-4457-a0d7-0930c2b04dd7</webElementGuid>
+      <webElementGuid>ed1e88b4-979f-4b47-ac26-bf9f7b138600</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>${kota}</value>
-      <webElementGuid>462ef634-19fc-4015-83f3-1e67dd53e05b</webElementGuid>
+      <webElementGuid>22c73abd-60fb-44c3-87f5-662411d830b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputSelect_dropdownItem__oStPv</value>
-      <webElementGuid>7ea14ee1-e2e0-4506-b5b6-85564aaf2d43</webElementGuid>
+      <webElementGuid>8a211c70-cdb5-4773-9bdf-57c3fe513252</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +51,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Bandung</value>
-      <webElementGuid>4796a23d-4826-4e84-8d44-8936d08aa270</webElementGuid>
+      <webElementGuid>451920e8-29d5-490b-9ae8-7df8b9df62bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Bandung&quot;)</value>
-      <webElementGuid>b66361e7-93b6-4c11-b11a-cc111db3456b</webElementGuid>
+      <value>//div[@class='inputSelect_dropdown__UrNKv inputSelect_dropdownActive__b_gNO']//div[@class='inputSelect_dropdownHeightDefault__2YYXt simplebar-scrollable-y']//div[@class='simplebar-wrapper']//div[@class='simplebar-mask']//div[@class='simplebar-offset']//div[@aria-label='scrollable content']//div[@class='simplebar-content']//button[@id='${kota}']//div//div[@class='inputSelect_dropdownItemText__IjiZG'][normalize-space()='${kota}']</value>
+      <webElementGuid>1b698c59-c66f-4af6-85d7-474e60f15f71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='Bandung']</value>
-      <webElementGuid>c83e7608-8251-41ad-8211-4438214a82a9</webElementGuid>
+      <webElementGuid>8243194d-e91e-4963-a0fd-960b35a83e59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/section/div[4]/div/div[2]/div[4]</value>
-      <webElementGuid>1b1ac67d-fa7c-4227-9c2c-270c5a23c140</webElementGuid>
+      <webElementGuid>0c6ed765-cef2-40ea-bb6b-3077fae1d757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surabaya'])[1]/following::div[1]</value>
-      <webElementGuid>bd512d40-1ee8-4571-9c1e-2ad9ccc7d7e0</webElementGuid>
+      <webElementGuid>212a62e0-1282-42b4-a538-14c412e3eaba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogor'])[1]/following::div[4]</value>
-      <webElementGuid>55155f88-2cc9-439f-a78f-9caf564618f3</webElementGuid>
+      <webElementGuid>d0124ebf-dde1-4ba8-987c-078c471f684c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Medan'])[1]/preceding::div[3]</value>
-      <webElementGuid>d240bafd-a367-4b64-adff-eab0fc1c4597</webElementGuid>
+      <webElementGuid>68879989-427c-4267-bbff-eb73e3fbd57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[4]</value>
-      <webElementGuid>a16499a6-4716-406c-9d90-e972b31bb7aa</webElementGuid>
+      <webElementGuid>8b49fe6d-aa12-428c-b74a-117a3b73f76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'Bandung' and (text() = 'Bandung' or . = 'Bandung')]</value>
-      <webElementGuid>f066f2fa-b792-4ecc-9bba-614d368dc05c</webElementGuid>
+      <webElementGuid>220a0474-5279-4eaf-bb6a-20b6f137184a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

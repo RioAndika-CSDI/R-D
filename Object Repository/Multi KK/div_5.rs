@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '5' or . = '5')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b4cdc6ce-6850-469a-8d21-c5d2f8af2f9c</webElementGuid>
+      <webElementGuid>1ab0f4e0-7dda-426b-8714-bb600b2467d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tenureOptionWidget_box__FoPcT</value>
-      <webElementGuid>a288ac5e-ad47-4920-99ef-f422aeb38ecc</webElementGuid>
+      <webElementGuid>56fe1b8e-3d2a-4af4-9970-17d09d15a1aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>2681f7de-3bc9-44b8-8563-8b822ad9d40b</webElementGuid>
+      <webElementGuid>38581220-47aa-47ee-8642-d365dd141ceb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;pageLayout_container__Y72th&quot;]/div[@class=&quot;mobilleView_container__1XoMa multi-kk_container__XDN6h&quot;]/div[2]/div[@class=&quot;multi-kk_form__xzt67&quot;]/div[3]/div[@class=&quot;tenureOptionWidget_containerTenure__3m5YW&quot;]/div[@class=&quot;tenureOptionWidget_box__FoPcT&quot;]</value>
-      <webElementGuid>faee1dc5-c330-45af-9b9c-f12473fafac8</webElementGuid>
+      <webElementGuid>15e36c0d-d644-4ad7-863d-f9a42704554d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>8fc72fd2-0929-4c3d-a0b4-da171c83b181</webElementGuid>
+      <webElementGuid>be1153aa-904e-4dd1-b74c-ab92ee32be35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/div/div[5]</value>
-      <webElementGuid>0ed5a0f9-320b-466c-ae71-86aa7c122e3f</webElementGuid>
+      <webElementGuid>eaa1bbca-f63c-44c7-9d43-e716780e605a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '5' or . = '5')]</value>
-      <webElementGuid>422e0ab0-9ed6-444d-96f9-f3d4e2161798</webElementGuid>
+      <webElementGuid>6cd7cc40-2569-4c9e-963a-928b4ce45278</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

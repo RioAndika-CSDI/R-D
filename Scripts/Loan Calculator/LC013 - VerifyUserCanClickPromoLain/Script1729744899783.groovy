@@ -21,8 +21,7 @@ if (open_browser.toString().equals('1')) {
     WebUI.openBrowser(GlobalVariable.Prod)
 }
 
-WebUI.maximizeWindow()
-
+//WebUI.maximizeWindow()
 WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/Page_SEVA - Beli Mobil Baru Dengan Cicilan Kredit Terbaik/card_Hitung_Kemampuan-Homepage'), 
     0)
 
@@ -32,8 +31,13 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
 
 CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
 
+if (WebUI.verifyElementPresent(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+}
+
 'Click Burger Menu'
-WebUI.scrollToElement(findTestObject('Homepage Component/Burger_Button_Baru'), 0)
+WebUI.scrollToElement(findTestObject('Homepage Component/Button_Hamburger Menu'), 0)
 
 'Click Moengage Ads\r\n'
 WebUI.delay(5)
@@ -84,9 +88,12 @@ WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/umur_dropdown_lis
 
 WebUI.click(findTestObject('Kualifikasi-Kredit/Loan-Calculator/button_Hitung Kemampuan'))
 
-WebUI.click(findTestObject('Page_Kalkulator Kredit Mobil SEVA - Hitung Kemampuan Finansial Kamu/p_OK, Saya Mengerti'))
+WebUI.delay(5)
 
+//WebUI.click(findTestObject('Page_Kalkulator Kredit Mobil SEVA - Hitung Kemampuan Finansial Kamu/p_OK, Saya Mengerti'))
 WebUI.click(findTestObject('Page_SEVA - Beli Mobil Terbaru Dengan Cicil_d51314/div_Cek Promo Lain_overlay_overlay__NPcCZ o_00c5ad'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_Kalkulator Kredit Mobil SEVA - Hitung Kemampuan Finansial Kamu/dropdown_pilih_asuransi'))
 

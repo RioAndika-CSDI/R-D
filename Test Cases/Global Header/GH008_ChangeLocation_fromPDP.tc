@@ -4,17 +4,18 @@
    <name>GH008_ChangeLocation_fromPDP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>eb049e61-ff70-4fac-8ea7-d02834c30938</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5fe14414-2b2e-4e8f-9ad1-970d2b429bb1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>566a1ca5-99a5-478c-a849-b2f439216f1e</variableId>
+      <variableId>20a8743b-bcda-4d34-b012-9ab33a32aef4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Bogor'</defaultValue>
       <description></description>
-      <id>566a1ca5-99a5-478c-a849-b2f439216f1e</id>
+      <id>20a8743b-bcda-4d34-b012-9ab33a32aef4</id>
       <masked>false</masked>
       <name>kota</name>
    </variable>

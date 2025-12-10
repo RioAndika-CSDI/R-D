@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>location</name>
+   <tag></tag>
+   <elementGuidId>cb2b95a2-02e6-4464-9428-b6ea2f2b53f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-testid = 'icon-loc-header']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='headerMobile_right__40Snk']//button[@data-testid='icon-loc-header']//*[name()='svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>icon-loc-header</value>
+      <webElementGuid>504c8f7c-1f7c-470c-a4ed-905c8a8c72e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6eceffbf-1d17-44ea-8df1-b73e71270230</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

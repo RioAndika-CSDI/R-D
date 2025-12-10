@@ -6,8 +6,12 @@
    <elementGuidId>1794a579-97ec-4834-8fc9-c146fd24d48c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//*[starts-with(@class, 'usedCarDetailCard_locationSmallRegular')])[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'carVariantList_titleLocation')]</value>
+         <value>//*[starts-with(@class, 'pdpUsedCar_titleLocation')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +21,7 @@
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>carVariantList_titleLocation</value>
-      <webElementGuid>4f999228-7ca5-48a6-93a0-cc3b21f4a903</webElementGuid>
+      <value>pdpUsedCar_titleLocation</value>
+      <webElementGuid>1bd1d9cc-3598-4fc0-be0d-7ca2bea0d02b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

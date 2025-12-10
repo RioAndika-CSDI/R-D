@@ -7,30 +7,46 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'kk-waiting-result_informationWrapper') and @h3 = 'Terima Kasih, aplikasi Instant Approval kamu sedang dalam proses!']</value>
+         <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[starts-with(@class, 'kk-waiting-result_informationWrapper')]//h3[text()='Terima Kasih, aplikasi Instant Approval kamu sedang dalam proses!']
-</value>
+         <value>//div[starts-with(@class, 'kk-waiting-result_informationWrapper')]//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>kk-waiting-result_informationWrapper</value>
-      <webElementGuid>9f1291ae-205e-40fc-8c3a-0432cca59cf9</webElementGuid>
+      <webElementGuid>7ced83a1-88de-4f16-9d6d-fab13bf9db9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>h3</name>
       <type>Main</type>
       <value>Terima Kasih, aplikasi Instant Approval kamu sedang dalam proses!</value>
-      <webElementGuid>49054fd2-7c1d-48b1-828c-db1d41d83a51</webElementGuid>
+      <webElementGuid>d43debe5-5113-49e1-a70c-d2e7d5754826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h3[contains(normalize-space(), 'Terima Kasih, aplikasi Instant Approval kamu')]</value>
+      <webElementGuid>b488e80e-5a89-458c-83dd-955a085eb530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Terima Kasih, aplikasi Instant Approval kamu </value>
+      <webElementGuid>613605d6-a5ab-44b6-9ed1-e1df63b02527</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

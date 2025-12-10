@@ -23,6 +23,12 @@
       <value></value>
       <variableId>10ccaa3b-1009-42f4-b125-bc8d9c7b6ba0</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d388d065-c4b5-47bc-8f0d-94fe986c27de</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'https://www.seva.id/fasilitas-dana'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>10ccaa3b-1009-42f4-b125-bc8d9c7b6ba0</id>
       <masked>false</masked>
       <name>close_browser</name>
+   </variable>
+   <variable>
+      <defaultValue>'212121'</defaultValue>
+      <description></description>
+      <id>d388d065-c4b5-47bc-8f0d-94fe986c27de</id>
+      <masked>false</masked>
+      <name>OTP</name>
    </variable>
 </TestCaseEntity>

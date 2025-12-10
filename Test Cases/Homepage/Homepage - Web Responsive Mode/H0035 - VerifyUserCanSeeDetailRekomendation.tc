@@ -4,30 +4,31 @@
    <name>H0035 - VerifyUserCanSeeDetailRekomendation</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>72f4c05b-8144-42d9-b7c4-9da362c6338c</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6875ae53-89c7-497a-b29d-a2447cd3b918</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c776c539-596e-478c-b6a3-55c0db3a0744</variableId>
+      <variableId>0ebe18d5-5eed-4fbd-ae7e-cddf4b2fefd4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fc90e647-8999-427e-8854-b119a304757e</variableId>
+      <variableId>100d620d-8541-4dd9-b450-124a24e95cc9</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'byd/m6/jakarta-pusat'</defaultValue>
       <description></description>
-      <id>c776c539-596e-478c-b6a3-55c0db3a0744</id>
+      <id>0ebe18d5-5eed-4fbd-ae7e-cddf4b2fefd4</id>
       <masked>false</masked>
       <name>mobil</name>
    </variable>
    <variable>
       <defaultValue>'BYD'</defaultValue>
       <description></description>
-      <id>fc90e647-8999-427e-8854-b119a304757e</id>
+      <id>100d620d-8541-4dd9-b450-124a24e95cc9</id>
       <masked>false</masked>
       <name>tab</name>
    </variable>

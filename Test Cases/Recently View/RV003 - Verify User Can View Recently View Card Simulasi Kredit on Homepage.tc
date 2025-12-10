@@ -4,5 +4,19 @@
    <name>RV003 - Verify User Can View Recently View Card Simulasi Kredit on Homepage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f7cf5c33-349f-40d3-b92e-20e1a22ac65b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc271aea-4931-4e6e-9a82-84582f4c6158</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Daihatsu All New Ayla'</defaultValue>
+      <description></description>
+      <id>cc271aea-4931-4e6e-9a82-84582f4c6158</id>
+      <masked>false</masked>
+      <name>car_name</name>
+   </variable>
 </TestCaseEntity>

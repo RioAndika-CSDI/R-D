@@ -17,14 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (open_browser.toString().equals('1') && data_existing.toString().equals('0')) {
-    WebUI.callTestCase(findTestCase('Login and Register/RA 001 - Register'), [('Phone_number') : Phone_number, ('OTP') : OTP
-            , ('Nama_lengkap') : Nama_lengkap, ('Email') : Email], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login and Register/RA 001 - Register Mobile View'), [('Phone_number') : '816335372', ('OTP') : '123456'
+        , ('Nama_lengkap') : 'User Test Production', ('Email') : 'usertesting@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Homepage Component/Burger_Button_Baru'))
+WebUI.enhancedClick(findTestObject('Homepage - Burger menu/view detail profile'))
 
-    WebUI.click(findTestObject('Homepage - Burger menu/Profile'))
-}
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Profile/Field jenis kelamin'))
 

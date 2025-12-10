@@ -7,25 +7,38 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined' and @style = 'display:block;margin-top:16px']</value>
+         <value>//button[contains(@class,'button_primaryDarkBlue') and contains(@class,'button_big')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class,'button_primaryDarkBlue') and contains(@class,'button_big')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined</value>
-      <webElementGuid>cf77dd9e-d085-4599-a7e5-d85f72775b80</webElementGuid>
+      <webElementGuid>cf9cd13b-267d-48c3-aa54-0af517bc5e88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>style</name>
       <type>Main</type>
       <value>display:block;margin-top:16px</value>
-      <webElementGuid>da20d5f2-a934-48ef-9bba-58ad266338f1</webElementGuid>
+      <webElementGuid>09b1a25a-ea01-41ce-9469-19130f5e7fe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[contains(@class,'button_primaryDarkBlue') and contains(@class,'button_big')]</value>
+      <webElementGuid>84402ae7-41cf-4c0f-81ff-c3798fea8af5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

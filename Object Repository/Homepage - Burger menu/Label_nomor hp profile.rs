@@ -7,25 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'sidebarMobile_profileNumber') and (contains(text(), '${nomor}') or contains(., '${nomor}'))]</value>
+         <value>//*[starts-with(@class, 'popUpAccount_profileNumber')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${nomor}</value>
+      <webElementGuid>5ab107c9-7f1b-4c91-8310-1e96aa8256ac</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sidebarMobile_profileNumber</value>
-      <webElementGuid>0afb76b2-ab7c-4690-9d47-684f94a4cab1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>${nomor}</value>
-      <webElementGuid>69411c37-cb1e-409b-a4d2-683cedd7e2fc</webElementGuid>
+      <value>popUpAccount_profileNumber</value>
+      <webElementGuid>6790a991-d977-46e4-aa55-7ff12c4b326b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

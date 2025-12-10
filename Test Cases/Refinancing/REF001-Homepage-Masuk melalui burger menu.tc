@@ -4,6 +4,7 @@
    <name>REF001-Homepage-Masuk melalui burger menu</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cf2ab4d7-7014-4875-9e02-f530b314590f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

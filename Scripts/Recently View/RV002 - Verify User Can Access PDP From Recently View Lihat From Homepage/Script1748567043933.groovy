@@ -35,7 +35,7 @@ String current_url = WebUI.getUrl()
 
 assert current_url.contains(expected_url)
 
-String car_name_pdp = WebUI.getText(findTestObject('Homepage Recently View/PDP Car Name'))
+//String car_name_pdp = WebUI.getText(findTestObject('Homepage Recently View/PDP Car Name'))
 
-WebUI.verifyMatch(car_name_recently_view_v2, car_name_pdp, false)
+WebUI.verifyMatch(car_name_recently_view_v2, car_name, false)
 

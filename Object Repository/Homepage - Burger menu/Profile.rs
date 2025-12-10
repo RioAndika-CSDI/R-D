@@ -7,17 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'sidebarMobile_profileName')]</value>
+         <value>//*[starts-with(@class, 'avatar_avatar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sidebarMobile_profileName</value>
-      <webElementGuid>66600f80-1f1b-474d-bf34-14f5b9d5597a</webElementGuid>
+      <value>avatar_avatar</value>
+      <webElementGuid>f10251c7-348a-4a33-9d41-dc6a262cf5db</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

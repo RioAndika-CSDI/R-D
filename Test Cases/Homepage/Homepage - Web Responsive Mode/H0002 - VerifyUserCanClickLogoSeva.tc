@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0002 - VerifyUserCanClickLogoSeva</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>726a235f-c5b1-4351-9352-c1415232268a</testCaseGuid>
+</TestCaseEntity>

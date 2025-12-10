@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>H0049 - VerifyUserCanOpenPromoSection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8451521c-fda3-4596-a30e-8145495f7318</testCaseGuid>
+</TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>H0004 - VerifyUserCanFilterCarToyota</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d001b12e-40c9-4e56-8dd7-74c400c0577d</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5082f01c-3bdc-4d52-9208-bdcc42d0ca15</testCaseGuid>
 </TestCaseEntity>

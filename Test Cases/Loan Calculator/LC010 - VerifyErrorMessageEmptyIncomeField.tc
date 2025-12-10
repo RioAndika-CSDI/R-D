@@ -4,6 +4,7 @@
    <name>LC010 - VerifyErrorMessageEmptyIncomeField</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e8a66444-d72f-423d-a888-3bac4faecf24</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

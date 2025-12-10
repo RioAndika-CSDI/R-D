@@ -4,5 +4,6 @@
    <name>H0037 - VerifyUserCanChooseCarFromHomepage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>63cbd953-0e75-48b9-9fb8-aaaa2359d561</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ca6daac-55fa-47c2-b7de-3323f1c9540f</testCaseGuid>
 </TestCaseEntity>

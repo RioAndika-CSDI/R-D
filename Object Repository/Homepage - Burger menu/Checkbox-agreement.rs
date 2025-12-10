@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, ' agreement_agreementTerms') and contains(@class, 'agreement_primary')]//button//*[name()='svg']//*[name()='rect'][1]</value>
+         <value>//div[contains(@class,'agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE')]//button//*[name()='svg']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,7 +22,7 @@
       <name>class</name>
       <type>Main</type>
       <value> agreement_agreementTerms</value>
-      <webElementGuid>60eb7c37-b6c1-40d8-8d58-2ec8c4881fa8</webElementGuid>
+      <webElementGuid>3906a2fa-e8c8-4892-af61-5a2b048fa74b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[starts-with(@class, ' agreement_agreementTerms')]//*[1]</value>
-      <webElementGuid>43fbaf5f-18d8-41fa-a44a-e5e1d6c68f05</webElementGuid>
+      <webElementGuid>bf6d8167-286c-4713-896e-068fea178566</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

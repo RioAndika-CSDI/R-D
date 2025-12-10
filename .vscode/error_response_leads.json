@@ -1,0 +1,4 @@
+{
+    "code": "AUTHENTICATION_FAILED",
+    "message": "Missing API Token"
+}

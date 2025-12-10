@@ -18,13 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if (open_browser.toString().equals('1')) {
-    WebUI.callTestCase(findTestCase('Setir Kanan/SKMB004-Filter Mobil Bekas'), [('open_browser') : '1', ('close_browser') : '0'
-            , ('url_skmb001') : url_skmb001, ('brand') : brand, ('body') : body, ('tahun') : tahun, ('transmisi') : transmisi
-            , ('plat') : plat, ('lokasi') : lokasi, ('kilometer') : kilometer, ('harga') : harga, ('navigateFilter_tambahan') : ''
-            , ('screen') : ''], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Homepage Component/button_Terapkan Filter'))
 }
+
+WebUI.callTestCase(findTestCase('Setir Kanan/SKMB003-Cari Mobil Bekas Hompage dengan filter'), [('model') : 'Toyota Agya;Toyota Calya'
+        , ('brand') : 'Toyota;Daihatsu', ('tahun') : '2016-2020', ('transmisi') : 'Manual;Otomatis', ('expected_url') : 'https://www.seva.id/mobil-bekas/'
+        , ('screen') : '', ('open_browser') : '1', ('close_browser') : '1'], FailureHandling.STOP_ON_FAILURE)
 
 boolean loop = CustomKeywords.'ignore_warning_optional.ignore_warning.verifyIgnoreWarning'(findTestObject('Page Mobil Bekas/Navigator_Filter 1st'), 
     1)

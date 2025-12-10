@@ -7,25 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'arrow-button-next-R2pm ')]</value>
+         <value>//*[contains(@class, 'swiperTemanSeva_arrowButtonNext') and contains(@class, 'arrow-button-next')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'teman-seva-onboarding_bullet__JXUa5'])[1]</value>
-      <webElementGuid>d04dd86b-53cd-47c5-aaf5-d292a6372f55</webElementGuid>
+      <value>//*[contains(@class, 'swiperTemanSeva_arrowButtonNext') and contains(@class, 'arrow-button-next')]
+</value>
+      <webElementGuid>1542ddd9-a0af-4bdb-8c85-354769b0c419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>arrow-button-next-R2pm </value>
-      <webElementGuid>4bf5b711-94fb-476f-a4ea-11de21cefee4</webElementGuid>
+      <value>arrow-button-next-r0 swiperTemanSeva_arrowButtonNext</value>
+      <webElementGuid>68f4ad80-1f6b-4e24-a0f9-c1230893d4bc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

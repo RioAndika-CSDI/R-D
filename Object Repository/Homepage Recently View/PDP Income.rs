@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +23,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>field-input-pendapatan</value>
-      <webElementGuid>d730232c-3031-4e90-a41c-712edfdd18cf</webElementGuid>
+      <webElementGuid>1a0c7148-71b6-4d0a-87ea-82c3acff0d9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +31,6 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan pendapatan</value>
-      <webElementGuid>cb0e3ff2-d94e-46e4-953e-80f5e0b14dfa</webElementGuid>
+      <webElementGuid>945b1a29-bbb5-48f1-bf8c-eb8957449ee1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

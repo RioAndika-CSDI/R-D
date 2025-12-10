@@ -4,5 +4,6 @@
    <name>H0021 - VerifyUserCanFilterCarByTypeSUV</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2922e8df-b800-4c91-9b2a-1fe4612f1ac2</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02710dbd-0feb-4a07-a2df-1310810ef10b</testCaseGuid>
 </TestCaseEntity>

@@ -4,6 +4,7 @@
    <name>LC003 - VerifyUserCanAccessLoanCalculatorFromCarRecomendation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dd5aa80e-fa0e-4fb3-81f8-ecdb575b9b86</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
