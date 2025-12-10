@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserCanRunSImulationCommercialFullTLO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d68e68db-baa4-4bd4-a427-6a2147f5c078</testCaseGuid>
+</TestCaseEntity>

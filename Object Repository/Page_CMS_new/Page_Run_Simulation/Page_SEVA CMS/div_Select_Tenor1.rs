@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select_Tenor1</name>
+   <tag></tag>
+   <elementGuidId>2c7ff9dd-d6cf-4bdf-9ca1-db0176c737a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[2]/div[3]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__control.my-react-select__control--is-focused.my-react-select__control--menu-is-open.css-ss11ho-control > div.my-react-select__value-container.css-hlgwow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26f12c9f-d81c-499f-b45d-4388b3bacf1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__value-container css-hlgwow</value>
+      <webElementGuid>f5550b85-4bfa-4c05-a0ba-881d4cf1dfd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...</value>
+      <webElementGuid>f45fb62b-9d3a-49f8-949d-e18907b24b6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-5 flex flex-col gap-5&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs grid grid-cols-10 gap-y-2 overflow-visible p-4&quot;]/div[@class=&quot;col-span-9 flex w-full items-start justify-between gap-2&quot;]/div[@class=&quot;flex w-full flex-col justify-center gap-2&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;text-sm text-neutral-700 css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ss11ho-control&quot;]/div[@class=&quot;my-react-select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>11010854-e541-42e4-9b49-49a265af4b15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[2]/div[3]/div/div/div/div/div</value>
+      <webElementGuid>223795bf-df5d-4d8e-98e0-346b600ce0fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive, 1 of 2.'])[1]/following::div[2]</value>
+      <webElementGuid>6eba8991-6858-4f7f-a9c0-5f50c6d7b7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive'])[1]/preceding::div[5]</value>
+      <webElementGuid>988ac751-9e8f-4f15-bf03-c2d0a870ff78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/div/div/div</value>
+      <webElementGuid>7f32c488-cc74-4e60-950c-adb6a2f39063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select...' or . = 'Select...')]</value>
+      <webElementGuid>e4289f77-15e9-42da-af1e-646425656bd5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
