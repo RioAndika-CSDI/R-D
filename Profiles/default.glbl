@@ -3,68 +3,50 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.dev.sevaio.xyz/'</initValue>
       <name>development</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.staging.sevaio.xyz/'</initValue>
       <name>staging</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.seva.id/'</initValue>
       <name>Prod</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://crm-fe.staging.sevaio.xyz/login'</initValue>
       <name>crmstg</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'81225717129'</initValue>
       <name>PhoneNumber</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'969696'</initValue>
       <name>OTPBypass</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://crm-fe.prod.seva.id/login'</initValue>
       <name>crmprod</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'ayu.anggraini@seva.id'</initValue>
       <name>EmailUserQA</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'April@2025'</initValue>
       <name>PassUserQA</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

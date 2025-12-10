@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserCanRunSImulationCommercial1AR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c2e1ceca-747c-48a3-b77f-17e79895289e</testCaseGuid>
+</TestCaseEntity>

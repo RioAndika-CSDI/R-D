@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_Login</name>
+   <name>input_Password_rounded-4px h-40px block w-f_cb84c0</name>
    <tag></tag>
-   <elementGuidId>e2e9c62a-3701-42bb-81ef-849e6fa36b2a</elementGuidId>
+   <elementGuidId>db8a33cf-550c-4e50-8acc-00f1abd5d5bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='password']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @placeholder = '***************']</value>
+         <value>//input[@value='Sep@2025']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>71eea5ad-edd3-4f4c-b223-8e11c42d9c81</webElementGuid>
+      <webElementGuid>d7d88af6-fc5a-494d-8895-af2d2a4ea1da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-[4px] h-[40px] block w-full text-gray-700 form-input dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 text-sm leading-10 placeholder:dark:text-gray-400 focus:border-primary focus:ring-primary focus:ring-opacity-40 dark:focus:ring-gray-500 dark:focus:border-gray-600 focus:outline-none focus:ring-0 mt-1</value>
-      <webElementGuid>2edeb27c-a021-40d8-ad93-14dc0ee29000</webElementGuid>
+      <webElementGuid>769a9cf7-480d-48bb-87f8-8df83f160197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>24089dcd-20ad-48a9-83fe-693e72f696aa</webElementGuid>
+      <webElementGuid>37bd0e9d-26ec-45d2-85b2-d721302ea4cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +47,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>***************</value>
-      <webElementGuid>34020b76-56a3-47a6-b621-62a6a72d0328</webElementGuid>
+      <webElementGuid>cf645861-cdb6-4e78-ab5b-aa146ea1b8a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +55,15 @@
       <name>auto-complete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>ebfee333-a95d-4cbc-af42-df442798089e</webElementGuid>
+      <webElementGuid>9928c3ec-5c55-4bb2-aa73-f5765768c788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Sep@2025</value>
+      <webElementGuid>6198a525-dc81-4f31-8a0a-3f5fc4e93b50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,14 +71,38 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen items-center bg-gray-50 p-6 dark:bg-gray-900&quot;]/div[@class=&quot;mx-auto h-full max-w-4xl flex-1 overflow-hidden rounded-lg bg-white shadow-xl dark:bg-gray-800&quot;]/div[@class=&quot;flex flex-col overflow-y-auto md:flex-row&quot;]/main[@class=&quot;flex items-center justify-center p-6 sm:p-12 md:w-1/2&quot;]/div[@class=&quot;w-full&quot;]/form[1]/label[@class=&quot;block text-sm text-gray-700 dark:text-gray-400 my-4&quot;]/input[@class=&quot;rounded-[4px] h-[40px] block w-full text-gray-700 form-input dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 text-sm leading-10 placeholder:dark:text-gray-400 focus:border-primary focus:ring-primary focus:ring-opacity-40 dark:focus:ring-gray-500 dark:focus:border-gray-600 focus:outline-none focus:ring-0 mt-1&quot;]</value>
-      <webElementGuid>b076deac-6ae0-4f94-896a-c86d87f7a798</webElementGuid>
+      <webElementGuid>98620327-f3de-4c15-a4b4-d2765df88e64</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Sep@2025']</value>
+      <webElementGuid>08c67878-e792-4d6d-b915-9ee71ba5bd10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/main/div/form/label[2]/input</value>
+      <webElementGuid>59bf736b-3252-4dd3-b6b8-a952b01ce20b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/input</value>
+      <webElementGuid>bcee62d9-4adb-4c95-9971-bf4952a4bb9d</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password'</value>
-      <webElementGuid>cfa33038-9f09-4fd8-b26e-498888507dcd</webElementGuid>
+      <value>//input[@type = 'password' and @placeholder = '***************']</value>
+      <webElementGuid>2f190531-6738-4b71-a0b1-d529ccdd2235</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

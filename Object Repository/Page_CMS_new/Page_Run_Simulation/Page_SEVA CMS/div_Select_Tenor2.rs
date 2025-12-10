@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select_Tenor2</name>
+   <tag></tag>
+   <elementGuidId>6957dc42-efd2-4676-b042-9b607e0ded1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__control.my-react-select__control--is-focused.my-react-select__control--menu-is-open.css-ss11ho-control > div.my-react-select__value-container.css-hlgwow > div.my-react-select__input-container.css-19bb58m</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fee9ef6f-1e43-42fa-8098-e8abcde2379a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-react-select__input-container css-19bb58m</value>
+      <webElementGuid>86558c7d-1021-4401-a323-a44628f59892</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-5 flex flex-col gap-5&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs grid grid-cols-10 gap-y-2 overflow-visible p-4&quot;]/div[@class=&quot;col-span-9 flex w-full items-start justify-between gap-2&quot;]/div[@class=&quot;flex w-full flex-col justify-center gap-2&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;text-sm text-neutral-700 css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ss11ho-control&quot;]/div[@class=&quot;my-react-select__value-container css-hlgwow&quot;]/div[@class=&quot;my-react-select__input-container css-19bb58m&quot;]</value>
+      <webElementGuid>bbbfe225-75e4-42a5-9192-689b3e580a8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>8119d3f4-7b04-4208-a5ac-46bc647e19b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::div[1]</value>
+      <webElementGuid>965702e9-9d88-4bfb-af70-b43b402182f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive, 1 of 3.'])[1]/following::div[4]</value>
+      <webElementGuid>7c8ec98e-17ec-4ee4-9f25-6a8cbe8445e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive'])[2]/preceding::div[3]</value>
+      <webElementGuid>e4b16a64-220a-4f1c-b50e-765a0e01f8e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Total Loss Only'])[1]/preceding::div[5]</value>
+      <webElementGuid>7dc1c1cd-0283-4778-aec2-63df3439daa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>f88a5e43-38f4-484a-b822-bcf1a7ca4894</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.cms_url + '/login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Email_Login'), GlobalVariable.cms_email_qanew)
-
-WebUI.setText(findTestObject('Page_CMS_new/Page_Login/input_Password_Login'), GlobalVariable.cms_pass_qanew)
-
-WebUI.click(findTestObject('Page_CMS_new/Page_Login/button_Log in_CMS'))
-
-WebUI.delay(10)
-
-String currentUrl = WebUI.getUrl()
-
-WebUI.verifyMatch(currentUrl, GlobalVariable.cms_url + '/app/dashboard', false)
-

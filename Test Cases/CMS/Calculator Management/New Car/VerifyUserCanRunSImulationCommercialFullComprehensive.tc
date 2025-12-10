@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserCanRunSImulationCommercialFullComprehensive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ca54cbd-8a50-4acb-ba06-9c7a35112b2c</testCaseGuid>
+</TestCaseEntity>

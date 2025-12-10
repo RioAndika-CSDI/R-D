@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserCanRunSimulationNoInsuranceTypeInputValue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9e89f58-e7b3-4d3c-8ab0-883783e0165a</testCaseGuid>
+</TestCaseEntity>
