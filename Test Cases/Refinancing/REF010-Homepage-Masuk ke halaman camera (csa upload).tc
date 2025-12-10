@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REF010-Homepage-Masuk ke halaman camera (csa upload)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9859df3-6716-4c9e-97a8-59a2c9b097fc</testCaseGuid>
+</TestCaseEntity>

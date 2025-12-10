@@ -4,5 +4,6 @@
    <name>REF016-Homepage-Delete thumbnail (CSA)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2c2fb12b-f0d9-4248-b8b6-5ffefe4f84ef</testCaseGuid>
 </TestCaseEntity>

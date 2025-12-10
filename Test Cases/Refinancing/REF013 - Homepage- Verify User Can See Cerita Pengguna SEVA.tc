@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REF013 - Homepage- Verify User Can See Cerita Pengguna SEVA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a466ba76-026c-4ed0-beef-dae6251a3e64</testCaseGuid>
+</TestCaseEntity>

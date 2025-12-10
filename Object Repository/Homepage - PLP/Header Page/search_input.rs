@@ -7,18 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@placeholder='Cari mobil impianmu']</value>
+         <value>//*[@class = 'searchInput-module__K7nuYG__searchInputNewDesktop']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='searchInput-module__K7nuYG__searchInputNewDesktop']//input[@placeholder='Cari mobil impianmu']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>//input[@placeholder='Cari mobil impianmu']</value>
-      <webElementGuid>ff660944-e961-4b79-ad54-db8a9d91295b</webElementGuid>
+      <value>searchInput-module__K7nuYG__searchInputNewDesktop</value>
+      <webElementGuid>7762e3f9-6cff-4f21-8a03-b0d1bc1f9145</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

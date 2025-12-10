@@ -6,22 +6,22 @@
    <elementGuidId>450c73f1-cd99-4f2b-ad09-41161f8af508</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@class = 'refinancing-upload-module__4CWYDa__guidelineButton']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[starts-with(@class, 'refinancing-upload_guidelineButton')]</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>refinancing-upload_guidelineButton</value>
-      <webElementGuid>033427ef-79a5-4040-8331-bdf9465993dc</webElementGuid>
+      <value>refinancing-upload-module__4CWYDa__guidelineButton</value>
+      <webElementGuid>100e8e6b-6870-44b7-995d-6e1334ef60e2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@class=&quot;cardetailcard_linkLihatDetail__SnloN&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'mobil-baru-module__ws-ZTW__detailCardWrapperDesktop')]//div[1]//div[1]//div[1]//a[2]//div[1]//button[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@class=&quot;cardetailcard_linkLihatDetail__SnloN&quot;]</value>
-      <webElementGuid>f44b992f-21c2-415e-874a-349103a53ee7</webElementGuid>
+      <webElementGuid>4eb18cb4-0df4-41da-9461-67d9641e4b41</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

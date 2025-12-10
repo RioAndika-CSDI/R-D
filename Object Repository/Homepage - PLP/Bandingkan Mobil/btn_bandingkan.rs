@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;carComparisonPageContent_buttonCompareWrapper__HGo87&quot;]//*[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
+         <value>//button[@class = 'button-module__T5rPxa__primaryDarkBlue button-module__T5rPxa__plpDesktop undefined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +16,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>//*[@class=&quot;carComparisonPageContent_buttonCompareWrapper__HGo87&quot;]//*[@class=&quot;button_primaryDarkBlue__jOQA0 button_big__WTbQS undefined&quot;]</value>
-      <webElementGuid>8183b958-5326-46f8-9423-c0860268570e</webElementGuid>
+      <value>button</value>
+      <webElementGuid>b4296762-95d0-438e-bdcd-6d500c3f23e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-module__T5rPxa__primaryDarkBlue button-module__T5rPxa__plpDesktop undefined</value>
+      <webElementGuid>4f44a806-c749-4bd9-907b-3ffa72ecb931</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

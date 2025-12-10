@@ -7,18 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
+         <value>//*[@class = 'headerDesktop-module__XQzfTW__textLocation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>49e2718f-d17f-4ea7-82d5-5238910454c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>icon-loc-header</value>
+      <webElementGuid>9fc510a4-664c-4c68-9dda-f890bd04df9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>//*[@data-testid=&quot;icon-loc-header&quot;]</value>
-      <webElementGuid>fc8fa985-b0c3-49b4-a1cb-937e8b9bfc1c</webElementGuid>
+      <value>headerDesktop-module__XQzfTW__textLocation</value>
+      <webElementGuid>81de2303-ac9d-43f4-ab0b-a83953d0ad57</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

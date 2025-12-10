@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP14 - User Can Access Pagination on Product List Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d7d7376-2ccf-4b8b-87ba-cc72ba1e8b49</testCaseGuid>
+</TestCaseEntity>

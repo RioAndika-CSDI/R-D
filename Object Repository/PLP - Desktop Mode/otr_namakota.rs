@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>otr_namakota</name>
+   <tag></tag>
+   <elementGuidId>201e2c94-650a-4b17-8fde-611780d2e85e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'cardetailcard-module__6k6Prq__smallSemibold' and (text() = 'Bogor' or . = 'Bogor')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardetailcard-module__6k6Prq__smallSemibold</value>
+      <webElementGuid>a6fbe8e7-b61b-43ba-9523-9412159d9577</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bogor</value>
+      <webElementGuid>c6804875-284f-45cb-8b60-47c2c0519ae6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;promo_container__Yz0ir cardetailcard_labelCardPrimary__DTiWd&quot;]</value>
+         <value>//*[@data-testid = 'button-promo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +16,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>//*[@class=&quot;promo_container__Yz0ir cardetailcard_labelCardPrimary__DTiWd&quot;]</value>
-      <webElementGuid>3b241b61-451c-4140-8432-6ab0b5b71621</webElementGuid>
+      <value>button-promo</value>
+      <webElementGuid>9b0dd857-f30a-411e-a9c6-39aff75d271f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

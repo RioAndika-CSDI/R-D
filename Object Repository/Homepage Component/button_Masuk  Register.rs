@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[normalize-space()='Masuk / Register'][count(. | //*[starts-with(@class, 'button_secondary') and (text() = 'Masuk / Register' or . = 'Masuk / Register')]) = count(//*[starts-with(@class, 'button_secondary') and (text() = 'Masuk / Register' or . = 'Masuk / Register')])]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>div[class='headerDesktop_right__JCy6J'] button[class='button_secondary___MM2b button_small__Hm8QP undefined']</value>
+         <value>//*[starts-with(@class, 'button-module__T5rPxa__secondary button-module__T5rPxa__big undefined')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.button_secondary__rsPoQ.button_big__H6cBN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>div[class='headerDesktop_right__JCy6J'] button[class='button_secondary___MM2b button_small__Hm8QP undefined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,31 +27,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>203db9ab-3f23-4892-b022-04bf94349da0</webElementGuid>
+      <webElementGuid>0f1dd67f-7063-47f5-a0be-b5d148a2a612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button_secondary</value>
-      <webElementGuid>4897ae19-7704-4839-8a40-97b0c44892d2</webElementGuid>
+      <value>button-module__T5rPxa__secondary button-module__T5rPxa__big undefined</value>
+      <webElementGuid>4363fddf-dd21-4405-8ea9-3943805b653e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Masuk / Register</value>
-      <webElementGuid>c1711ac9-b7a6-4058-9a55-9c5add342b24</webElementGuid>
+      <webElementGuid>f7acb97c-87f5-452f-a5ac-3697256403c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//button[normalize-space()='Masuk / Register']</value>
-      <webElementGuid>56f1e7a3-7649-4a8c-ab19-288fdcd6b88f</webElementGuid>
+      <webElementGuid>f86fef01-4808-4758-82a9-acc358d3ebab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div/header/div/div/div[3]/button</value>
-      <webElementGuid>d42a1aa6-2695-4ed2-b7fd-cd2460136bc7</webElementGuid>
+      <webElementGuid>7e647ea2-f878-48e9-9594-1a27641c9208</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau'])[1]/following::button[1]</value>
-      <webElementGuid>cd9ad7ba-4ebc-417b-84ac-12c707f168e9</webElementGuid>
+      <webElementGuid>3c37a2b3-0421-4e36-b0ef-3a0e090d70fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti Saja'])[1]/following::button[2]</value>
-      <webElementGuid>ca230a60-4eda-45da-a709-125fb65cb47e</webElementGuid>
+      <webElementGuid>c79aba39-0131-49e8-b7c4-2ef9e73da0f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Baru'])[1]/preceding::button[1]</value>
-      <webElementGuid>14a290a9-779b-4076-9faa-e94da11c9879</webElementGuid>
+      <webElementGuid>c99465f1-5e27-44f7-96d2-a3405d5f453b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[1]/preceding::button[1]</value>
-      <webElementGuid>f970e6ea-39d7-41e4-bcd1-e69c70181f27</webElementGuid>
+      <webElementGuid>59b69c9d-ba35-4d2a-b0cf-8f249c45ba5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Masuk / Register']/parent::*</value>
-      <webElementGuid>662c9959-7ee2-4888-9c92-4e80bbcfe8df</webElementGuid>
+      <webElementGuid>ed2f3c1e-f915-446e-88d1-0e21d2f9f084</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/div/div/div[3]/button</value>
-      <webElementGuid>4529288f-0959-493d-b647-ac91071e9b90</webElementGuid>
+      <webElementGuid>263ff503-6cb7-4f92-8a0c-3b6e2b0e90c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Masuk / Register' or . = 'Masuk / Register')]</value>
-      <webElementGuid>f4bf40ef-e1d5-42ce-9265-59013aec83d8</webElementGuid>
+      <webElementGuid>853d6866-0de8-4b58-8e1a-31695ffdad1e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

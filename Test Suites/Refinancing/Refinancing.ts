@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2d47bc40-ae23-4cb0-a485-149139156824</testSuiteGuid>
    <testCaseLink>
-      <guid>12d73ee3-1d44-4d62-adea-05eb74db67e5</guid>
+      <guid>49fa636f-2110-4a48-829e-ee653987ac6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF001-Homepage-Masuk melalui burger menu</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d3c21bd-91d4-49b4-8c3a-27da01c91483</guid>
+      <guid>0d4f4ef2-4f94-4726-b833-f16febdad3a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF002-Homepage-Ajukan Sekarang</testCaseId>
@@ -46,183 +46,153 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ca0278d4-d55a-4ef6-9d26-be56740e4ad9</variableId>
+         <variableId>44dfccc8-34a3-437b-b00b-16ed7af20c0a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8fba1c6f-7808-42bf-bf74-acef466a798f</variableId>
+         <variableId>631494b9-69e5-48ab-8cfd-c11c1c1726a4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>10ccaa3b-1009-42f4-b125-bc8d9c7b6ba0</variableId>
+         <variableId>cdea961a-cb8c-48c6-b76d-bfd8edb038da</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d388d065-c4b5-47bc-8f0d-94fe986c27de</variableId>
+         <variableId>72dab12d-675d-42d1-8b06-a8e4c19c1991</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bdbb756-7710-4c8a-a6bc-706f01c38c32</guid>
+      <guid>685bef3a-d75c-42eb-aa2c-3b6fe0eb0050</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refinancing/REF003-Homepage-Cara mudah Pengajuan Pinjaman lead</testCaseId>
+      <testCaseId>Test Cases/Refinancing/REF003-Homepage-Cara Mudah Pengajuan Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>078cbf24-2265-47a5-abdd-a210d0068eb2</variableId>
+         <variableId>6e05ddad-fb5b-44c6-bf9f-d922fffe6f99</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>07c58314-e391-40af-9030-86109e12b600</variableId>
+         <variableId>2fe4c40d-70a8-46fd-828f-bc330bea287c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>dbc4f39f-309c-4b56-a3c2-5801655ccdaf</variableId>
+         <variableId>e115b222-3bf5-48e8-83f0-73464b409f62</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0d89a78f-5277-452d-a987-c68e5f7a4dd1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>417179c1-105e-4fc6-adb3-fc4f29ebde09</variableId>
+         <variableId>025ee1ab-f48f-4241-bef0-0eefc24d30f2</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9582cccb-943d-4f15-af63-c5aa37dd5694</guid>
+      <guid>ecb1ef1d-0ed0-4b95-82e4-72bd0d3ee29a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refinancing/REF004-Homepage-Contoh Simulasi</testCaseId>
+      <testCaseId>Test Cases/Refinancing/REF004-Homepage - Keuntungan Fasilitas Dana</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2e5ad22c-2a41-469f-9fb0-dc1a1bafd513</variableId>
+         <variableId>0f57ded2-c781-4a40-b8dd-d7f6d5686198</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>26c9e739-9e10-42e6-b57a-3f722c2d8e3d</variableId>
+         <variableId>3b0ea8cb-3a15-4b37-9d30-8e6f4a9e2718</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f248e08e-1908-46c0-a9ad-778a22e55dca</variableId>
+         <variableId>2ba09b5a-74e2-4a29-acef-cf4b4d1a09ee</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8ba7b6f1-2064-4778-ba02-72f78fb76d87</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4211793f-4d12-4abc-b1c5-c8820d418ff4</variableId>
+         <variableId>6f302792-2d1d-4f94-b6ba-578d689eebdb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ddab440-2248-4ccd-ae1a-df98bc06a519</guid>
+      <guid>dc98b28f-d57b-4949-85ef-7ff806511c21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refinancing/REF005-Homepage-Keuntungan fasilitas dana</testCaseId>
+      <testCaseId>Test Cases/Refinancing/REF005-Homepage -Contoh Simulasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5d8d342b-6e71-4ebd-a466-16e6fb3cf59b</variableId>
+         <variableId>d276304a-cddb-463b-9b4f-ca8782fe4610</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d00667f7-a78b-4e61-a5a3-71c9bc7adc70</variableId>
+         <variableId>8696d50c-d3e2-4e92-8e29-6797e40c518d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ad23c0b8-99df-41bf-a9fc-92aa1c5653e7</variableId>
+         <variableId>d79901fc-faf7-4fab-8132-ef802db0698b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ab1bf29e-0b8f-41c0-a1eb-4051769b4f77</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03cce51d-9b02-4142-adff-6fdf06728b26</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1a3c6717-c638-4ffa-b58c-79c70eaca0be</variableId>
+         <variableId>835043f5-0bbd-4d8b-b5be-009fba6cecfe</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f8710811-896c-417e-9d0e-23bcc025f8f8</guid>
+      <guid>eb91566f-042a-4ac3-88a9-6916b2fe0b3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refinancing/REF006-Homepage-Submit form</testCaseId>
+      <testCaseId>Test Cases/Refinancing/REF006-Homepage- Submit Form</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e324243d-ce77-4d6e-bec1-8df1377b56fe</variableId>
+         <variableId>a82c3749-7718-46d9-bf51-bd9e34eba67a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d4a77563-beca-4d1c-8659-3e9af4f4ae8b</variableId>
+         <variableId>2ab6c10c-b055-4f3d-b28d-f6131e9c21b8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7886e00a-107c-4961-a649-187dd7add84b</variableId>
+         <variableId>66732ae3-9f6f-41fb-9f41-5e2fb47392b0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>76a18196-ead3-4239-9db0-263f94620712</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c4026c05-d0f8-47cf-a81f-2f7e9d261de8</variableId>
+         <variableId>8ebe1cbb-2646-4305-9e1b-a5e78444cf7c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0f180c58-934b-473e-bcaf-5c15c944feee</guid>
+      <guid>57e57887-aefa-44e2-bed1-443f8d416ead</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF007-Homepage-WA Direct</testCaseId>
@@ -231,66 +201,67 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>630b8c64-2fcf-48ee-bf9c-29fec1421bea</variableId>
+         <variableId>30366937-d09d-4410-bddf-c018f1c3bb1d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2ce228e7-c8a7-400c-927f-7a77924ab780</variableId>
+         <variableId>66c13b29-b0cb-4b6a-8a87-3cea4ce95955</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>264340a7-c91e-41c1-a4d1-5081a37ab972</variableId>
+         <variableId>3ef292d0-1597-4fe3-a730-07f027f0dc3b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1a4a0980-6f79-4dd3-9047-44d55f4ec03d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9674f3c4-e353-4825-b1d7-c79f99d91693</variableId>
+         <variableId>2497c5b4-af6e-4138-8f05-91ea235b47dd</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d068f017-f024-4146-98dc-1fc65b38a9fe</guid>
+      <guid>da4cad4a-046f-4aa8-ae0f-e8438a49dd5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF008-Homepage-Masuk ke halaman upload user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ad29e9c-d174-416a-8ea4-f01ee096759d</guid>
+      <guid>9a7f7108-a9fa-43a9-a697-551fafc69d09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF009-Homepage-Masuk ke halaman camera (user upload)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a18c8cc0-b665-4437-9631-8b124a82f518</guid>
+      <guid>06aef06e-2844-4ae8-bc3d-4efbe3efa9f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refinancing/REF010-Homepage-Masuk ke halaman camera (CSA)</testCaseId>
+      <testCaseId>Test Cases/Refinancing/REF010-Homepage-Masuk ke halaman camera (csa upload)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e0e65ca1-8881-4317-bfcd-04b4b4dfcda5</guid>
+      <guid>be190292-41ad-441b-842e-5e0da6295b87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF011-Homepage-lihat panduan unggah (user)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>51cbb61f-1545-4480-9d42-d2a252169765</guid>
+      <guid>58bc05f5-267a-4465-9f6c-c3321353382a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refinancing/REF012-Homepage-lihat panduan unggah (CSA)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e54610d-9c7c-4059-8783-394824b64502</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Refinancing/REF013 - Homepage- Verify User Can See Cerita Pengguna SEVA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

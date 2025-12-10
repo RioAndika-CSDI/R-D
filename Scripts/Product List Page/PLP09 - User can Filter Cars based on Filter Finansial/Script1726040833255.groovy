@@ -17,40 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
+WebUI.maximizeWindow()
 
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
-
-WebUI.waitForElementPresent(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'), 0)
-
-WebUI.click(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_cari_mobil_cta'))
 
 //WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_finansial_mobil'))
-
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_maks_dp'), '30000000')
 
 WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_input_pendapatan'), '25000000')
@@ -61,14 +38,9 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/ka
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
 
-boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_mobil_terapply'), 
-    10)
+WebUI.delay(5)
 
-if (isPresent) {
-    println('Element is present.')
-} else {
-    println('Element is not present.')
-}
+WebUI.verifyElementPresent(findTestObject('PLP - Desktop Mode/dp_amount'), 5)
 
 WebUI.closeBrowser()
 

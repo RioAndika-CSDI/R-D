@@ -4,5 +4,6 @@
    <name>REF015-Homepage- Delete thumbnail (User)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e3783024-0ddc-4c70-9be2-140435600a34</testCaseGuid>
 </TestCaseEntity>
