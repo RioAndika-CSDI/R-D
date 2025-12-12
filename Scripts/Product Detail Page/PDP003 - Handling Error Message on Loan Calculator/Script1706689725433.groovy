@@ -29,18 +29,11 @@ WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/span_Ci
 
 WebUI.delay(3)
 
-//skip proses select
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Income'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/Homepage - PDP/PDP Income'), '45000000')
-
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Kategori Umur'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Umur Dropdown'))
-
 WebUI.click(findTestObject('Homepage - PDP/PDP button Simulasi Kredit'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage - PDP/Cek Peluang Kredit'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Homepage - PDP/error message income'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Homepage - PDP/error message kategori umur'))
 
 WebUI.delay(3)
 

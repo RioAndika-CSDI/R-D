@@ -17,35 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Product Detail Page/LR001-TC-Login'), [('nomorHP') : '8752900847', ('OTP') : '445566'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'), 0)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(10)
-
-CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PDP/button_Terima'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Object Repository/Homepage - PDP/button_Terima'))
-}
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Button_Cari_Mobil_Baru'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-
-WebUI.delay(3)
-
-//WebUI.click(findTestObject('Homepage - PLP/Car-Text-PLP', [('Car_Name') : CarName]))
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/label_car_name_plp', [('Car_Name') : CarName]))
+WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'All New Ayla'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PDP/h2_Title Leads PDP'), 0)
+
+WebUI.setText(findTestObject('Object Repository/Homepage - PDP/nama lengkap'), namaLengkap)
+
+WebUI.setText(findTestObject('Object Repository/Homepage - PDP/no handphone'), nomorHP)
 
 WebUI.click(findTestObject('Object Repository/Homepage - PDP/rect'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PDP/button kirim'))
+
+WebUI.setText(findTestObject('Object Repository/Homepage - PDP/otp'), OTP)
 
 WebUI.verifyElementPresent(findTestObject('Homepage - PDP/message success leads'), 0)
 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS - Product Detail Page_PDP001-PDP005</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f727733d-b053-4328-ad7f-f453d5fafd81</testSuiteGuid>
+   <testCaseLink>
+      <guid>7ca74802-0728-44c9-bb05-6c75818d4392</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product Detail Page/PDP001 - Access PDP From PLP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7de2a978-108d-4d08-9acb-036d4a1ae594</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4dd180b6-4c81-4105-8b9d-e525f8209ef6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product Detail Page/PDP002 - Access Kredit Tab Loan Calculator</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b1a8654c-1b82-493b-8486-bc5579a9ea0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product Detail Page/PDP003 - Handling Error Message on Loan Calculator</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7de2a978-108d-4d08-9acb-036d4a1ae594</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef81203b-0c5a-457b-a381-48b8552765ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product Detail Page/PDP004 - SubmitLeadsFromPDP-Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6171a39b-5511-4220-a769-f2ff5ac97a48</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10834624-2ae3-40f3-b7af-d859a66645ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product Detail Page/PDP005 - Edit Leads Form PDP for User Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf17c50d-97c1-4398-9527-60c4a48b8cba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a771b86d-db11-4250-9856-d6f43aa26be9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message success leads</name>
+   <tag></tag>
+   <elementGuidId>d7c6290f-69a7-4ce8-a167-1d4c8cacbbee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@class='toast-module__qn3SeG__textToast leadsFormSecondary-module__sglaiW__toastAdditionalTextClassnamePDP']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@fdprocessedid='lytcj']//span[@class='tabV1-module__fRihba__text false'][normalize-space()='Kredit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>17431951-8d01-4dd2-a1f3-2ada1a5eddd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabV1_text__BjghF false</value>
+      <webElementGuid>555f7f4e-b71f-4e5f-9e95-5613a7a927fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kredit</value>
+      <webElementGuid>42741827-0441-4c90-bcab-74f2d61523c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@fdprocessedid='lytcj']//span[@class='tabV1-module__fRihba__text false'][normalize-space()='Kredit']</value>
+      <webElementGuid>bb4ca5d2-eb0f-41ae-b34e-d4cbda0d64ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div/div[4]/h2</value>
+      <webElementGuid>80fd8c61-4d9f-4faf-a058-e239c6ead012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[1]/following::h2[1]</value>
+      <webElementGuid>a3c91161-5d83-499a-9973-dff0de578075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi'])[1]/following::h2[2]</value>
+      <webElementGuid>c7521677-2052-43ac-9c8d-8b4f8ad5b804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c8b24217-1be1-4b44-ab03-6b037e47de50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[2]/preceding::h2[1]</value>
+      <webElementGuid>0bb073d0-812e-4cb7-a31b-8ce762375e8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kredit']/parent::*</value>
+      <webElementGuid>0aae0c52-4724-4e44-89ba-db239ced9b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/h2</value>
+      <webElementGuid>464aaf69-6ebc-449d-ab54-704c7ec02c2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Kredit' or . = 'Kredit')]</value>
+      <webElementGuid>a1ffd773-3b4c-46a6-9a96-ba6d4dee3ccd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

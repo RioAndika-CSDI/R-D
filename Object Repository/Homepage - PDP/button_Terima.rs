@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Terima</name>
+   <tag></tag>
+   <elementGuidId>3aceacb2-88dc-472f-9621-0b604b26bf2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bottomSheetCookies-module__6-Ce-a__wrapperButton > button.button-module__T5rPxa__primaryDarkBlue.button-module__T5rPxa__big.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Kebijakan Privasi kami di sini.'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Terima&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>407e6af6-dbb1-4b7d-83aa-9ea2c1207e8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-module__T5rPxa__primaryDarkBlue button-module__T5rPxa__big undefined</value>
+      <webElementGuid>65f8b4b7-6fdd-408a-adef-fd16f268cf1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terima</value>
+      <webElementGuid>b5cd652a-fe67-4fb5-ac68-4e6e51d23d75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/reach-portal[1]/div[@class=&quot;bottomSheetCookies-module__6-Ce-a__cookiesBottomSheet&quot;]/div[1]/div[2]/div[1]/div[@class=&quot;bottomSheetCookies-module__6-Ce-a__lampiranContainer&quot;]/div[@class=&quot;bottomSheetCookies-module__6-Ce-a__wrapperButton&quot;]/button[@class=&quot;button-module__T5rPxa__primaryDarkBlue button-module__T5rPxa__big undefined&quot;]</value>
+      <webElementGuid>37190f24-af54-4721-bf7c-6fabaa9894e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Kebijakan Privasi kami di sini.'])[1]/following::button[1]</value>
+      <webElementGuid>e4c7185f-5875-43de-946d-32b34c5e633a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
+      <webElementGuid>49fcc940-6ca9-4368-9e8d-e1c54355b6c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
+      <webElementGuid>a6eee425-b974-4104-b241-e6e44965e829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/button</value>
+      <webElementGuid>7805a5c9-2121-4a07-94a2-7ad37ae66b4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Terima' or . = 'Terima')]</value>
+      <webElementGuid>fc1ee88e-9ee6-4274-ae5d-9417e0f119e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

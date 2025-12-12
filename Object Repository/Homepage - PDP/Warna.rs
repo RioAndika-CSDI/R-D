@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Warna</name>
+   <tag></tag>
+   <elementGuidId>b1872f05-d6d1-4b7e-b463-d2424a1d1cd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.navigationTabV4-module__tX4SCa__tabItemText.navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>de36f660-2e50-43da-ba27-f93797df9bae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      <webElementGuid>96dfd4af-6043-4505-a097-ee040e9f3c5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Warna</value>
+      <webElementGuid>3f4cd475-0ed5-4a64-9c68-fe3fd645fdbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__gallerySection&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__content2&quot;]/div[1]/div[@class=&quot;navigationTabV4-module__tX4SCa__container navigationTabV4-module__tX4SCa__containerDesktop&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-css-mode navigationTabV4-module__tX4SCa__swiperStyle navigationTabV4-module__tX4SCa__swiperStyleDefault pdpUpperSection-module__8rokla__swiperWrapper&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active navigationTabV4-module__tX4SCa__swiperSlideStyle&quot;]/div[@class=&quot;navigationTabV4-module__tX4SCa__tabItem navigationTabV4-module__tX4SCa__tabItemGallery&quot;]/span[@class=&quot;navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected&quot;]</value>
+      <webElementGuid>f62e2b5e-2d21-41fa-bc8f-2f0c68711460</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span</value>
+      <webElementGuid>887f32f6-be3f-49fc-8848-17ba3d4f6f56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[3]/following::span[1]</value>
+      <webElementGuid>edbd1bc5-891c-48f7-baae-5b74a4642c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::span[1]</value>
+      <webElementGuid>e9bae5df-de0d-437c-aad7-b1e1d2a71993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eksterior'])[1]/preceding::span[1]</value>
+      <webElementGuid>5ab1822c-c889-412d-8b25-1ff71371a178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interior'])[1]/preceding::span[2]</value>
+      <webElementGuid>adf9a84d-32e7-4fa0-bed6-3597b10ff59b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Warna']/parent::*</value>
+      <webElementGuid>9d085bb8-dbe1-4f0d-ad79-80ae7f77fe4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/span</value>
+      <webElementGuid>84c01e66-0f43-41c9-b89f-99bc44674e1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Warna' or . = 'Warna')]</value>
+      <webElementGuid>db6c8be5-c357-462a-b022-6228a36efd17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

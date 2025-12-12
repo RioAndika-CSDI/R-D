@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cek Peluang Kredit</name>
+   <tag></tag>
+   <elementGuidId>4d3022d4-b501-4fe6-87a5-d0469627b975</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='calculationResult-module__diJnZq__continueKkSectionCtaPDP']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.cardVariantOptions-module__N4jw_a__titlePDP</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='calculationResult-module__diJnZq__continueKkSectionCtaPDP']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Simulasi Kredit&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>4b1d5e13-fa94-47b1-8b75-733655550a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardVariantOptions-module__N4jw_a__titlePDP</value>
+      <webElementGuid>e360ee0c-a0bb-4471-83cc-5f44e70e3198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasi Kredit</value>
+      <webElementGuid>e6d2e54c-67eb-4504-84c0-41746992ab75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='calculationResult-module__diJnZq__continueKkSectionCtaPDP']</value>
+      <webElementGuid>d2249ca5-d916-468e-b814-c187b1d42389</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-lower-content']/div/div/div/div[2]/div[4]/div/div/h3</value>
+      <webElementGuid>ebf4df61-3d28-4196-b370-3eadcf839596</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[4]/following::h3[1]</value>
+      <webElementGuid>a23c1e92-4d7e-49c3-9b1c-a761d2d99641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/following::h3[1]</value>
+      <webElementGuid>42659474-8d6b-4ec0-92ce-20049c8793fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu All New Ayla'])[4]/preceding::h3[1]</value>
+      <webElementGuid>294cd4ed-a8e1-439b-b111-f9884234d8d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='di Jakarta Pusat'])[1]/preceding::h3[1]</value>
+      <webElementGuid>cae69c09-027e-4cd2-bfd8-306a9ac901d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/h3</value>
+      <webElementGuid>13cd6f37-9749-4b20-838d-b32503013446</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Simulasi Kredit' or . = 'Simulasi Kredit')]</value>
+      <webElementGuid>666fc749-456b-40be-b89b-4cee6ddebef2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

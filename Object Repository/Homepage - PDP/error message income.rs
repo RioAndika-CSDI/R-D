@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error message income</name>
+   <tag></tag>
+   <elementGuidId>02f92347-0512-4be9-b95b-dcad8c626d3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.incomeAgeSection-module__P_sqyG__formSection</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-lower-content']/div/div/div/div[2]/div/div[5]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.incomeAgeSection-module__P_sqyG__formSection >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e0d6fb5f-2a76-4b6b-ad63-18d9ca5cfa78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>incomeAgeSection-module__P_sqyG__formSection</value>
+      <webElementGuid>afe457d8-9f9b-4e60-90f4-60e39ce53127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendapatan bulananWajib diisiKategori umurSEVA Dropdown Icon18-2728-3435-50>51Wajib diisi</value>
+      <webElementGuid>d221b186-25e3-41d8-a38e-4d29c8b7a3e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;creditTab-module___gWtiG__containerDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__content&quot;]/div[@class=&quot;creditTab-module___gWtiG__formCardDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__formWrapperDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__contentleft&quot;]/div[@class=&quot;shake-animation-X incomeAgeSection-module__P_sqyG__container  incomeAgeSection-module__P_sqyG__pdpDesktop&quot;]/div[@class=&quot;incomeAgeSection-module__P_sqyG__formSection&quot;]</value>
+      <webElementGuid>f3d37702-e7c4-4d50-bdcf-884e0829e28f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-lower-content']/div/div/div/div[2]/div/div[5]/div[2]</value>
+      <webElementGuid>817e8052-d0c6-429c-b962-d01ef260018d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Kredit Ideal'])[1]/following::div[1]</value>
+      <webElementGuid>1d76685c-1116-4469-8f9f-00a588672e62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]</value>
+      <webElementGuid>dcf78fe6-19c7-4d5d-b53d-bb2b90c014f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pendapatan bulananWajib diisiKategori umurSEVA Dropdown Icon18-2728-3435-50>51Wajib diisi' or . = 'Pendapatan bulananWajib diisiKategori umurSEVA Dropdown Icon18-2728-3435-50>51Wajib diisi')]</value>
+      <webElementGuid>db792f0f-5dca-441d-9340-ab29a69704cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

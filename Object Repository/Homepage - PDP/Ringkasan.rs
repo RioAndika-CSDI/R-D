@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ringkasan</name>
+   <tag></tag>
+   <elementGuidId>1fb48971-a53a-4ade-94c2-b4e297da2958</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.tabV1-module__fRihba__text.tabV1-module__fRihba__textActive</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div[2]/div/div/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2d0575e5-b3ab-44af-b914-1bf14a60a8ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabV1-module__fRihba__text tabV1-module__fRihba__textActive</value>
+      <webElementGuid>9a10df78-7604-4292-9017-0230f63a45a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ringkasan</value>
+      <webElementGuid>33168d49-5f2d-4a2e-a0da-14045856c4a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@class=&quot;navigationTabV1-module__IrbqgG__container&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-css-mode navigationTabV1-module__IrbqgG__swiperStyle navigationTabV1-module__IrbqgG__swiperWrapper navigationTabV1-module__IrbqgG__swiperWrapperisPDPDesktop&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active navigationTabV1-module__IrbqgG__swiperSlideStyle navigationTabV1-module__IrbqgG__swiperSlideisPDPDesktop&quot;]/button[@class=&quot;tabV1-module__fRihba__container tabV1-module__fRihba__containerActive&quot;]/span[@class=&quot;tabV1-module__fRihba__text tabV1-module__fRihba__textActive&quot;]</value>
+      <webElementGuid>726029b8-a236-4c00-aae4-f3aba5666f2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div[2]/div/div/div/div/button/span</value>
+      <webElementGuid>799f34f5-0044-4030-8cab-66cd86374df2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interior'])[1]/following::span[3]</value>
+      <webElementGuid>5d18e3d9-b58d-41cb-94cd-0af31db60e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eksterior'])[1]/following::span[4]</value>
+      <webElementGuid>8877cac3-3528-4caa-b780-517ec1508858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi'])[1]/preceding::span[1]</value>
+      <webElementGuid>1376809c-c25b-4f05-bb3c-4f79d12c82ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[1]/preceding::span[2]</value>
+      <webElementGuid>907cb4cc-fe86-4931-9bc7-307d486301a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ringkasan']/parent::*</value>
+      <webElementGuid>5877f1eb-1808-433a-a423-3d5bd2b709db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/button/span</value>
+      <webElementGuid>940e2842-1f79-4309-b6fe-8a1112f65ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ringkasan' or . = 'Ringkasan')]</value>
+      <webElementGuid>88b46c35-6dcd-402c-a3c3-71ea5ec0ef7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

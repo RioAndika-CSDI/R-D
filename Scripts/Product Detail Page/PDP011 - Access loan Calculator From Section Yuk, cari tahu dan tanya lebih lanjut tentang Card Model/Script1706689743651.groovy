@@ -19,16 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'All New Ayla'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/h2_Kredit'))
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PDP/h2_Title Leads PDP'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/input_Rekomendasi Cicilan Ideal_0 input_inp_acd316'), 
-    'Rp45.000.000')
+WebUI.click(findTestObject('Homepage - PDP/button_Simulasi Kredit'))
+
+WebUI.verifyElementPresent(findTestObject('Homepage - PDP/h2_Kredit_creditTab'), 0)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/input_Rekomendasi Cicilan Ideal_inputSelect_f8ef70'))
-
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/div_18-27'))
-
-WebUI.click(findTestObject('Object Repository/Page_Daihatsu New Ayla 2024 - Spesifikasi, _d9e7aa/button_Hitung Kemampuan'))
+WebUI.closeBrowser()
 

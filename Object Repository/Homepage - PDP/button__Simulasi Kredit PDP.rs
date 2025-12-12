@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__Simulasi Kredit PDP</name>
+   <tag></tag>
+   <elementGuidId>4d3a53ac-59fa-4f61-9d3d-0b9f78fc95af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid='button-hitung-kemampuan']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pdp-upper-content > div.carOverView-module__cjHO2q__container > div.carOverView-module__cjHO2q__ctaAndShareGroup.carOverView-module__cjHO2q__marginTop8px > div.carOverView-module__cjHO2q__ctaWrapper > button.carOverView-module__cjHO2q__buttonDesktop</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#pdp-upper-content [data-testid=&quot;button-hitung-kemampuan&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eaa265a4-cf26-41c5-b58b-a6eeed734ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>carOverView-module__cjHO2q__buttonDesktop</value>
+      <webElementGuid>134fcd5c-212c-4d95-a965-671abaf2c179</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-hitung-kemampuan</value>
+      <webElementGuid>48c7d5b5-ce69-4c55-b1be-266934603747</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasi Kredit</value>
+      <webElementGuid>b2a8d1c8-04b8-405d-b5e4-ae34ef1bc116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdp-upper-content&quot;)/div[@class=&quot;carOverView-module__cjHO2q__container&quot;]/div[@class=&quot;carOverView-module__cjHO2q__ctaAndShareGroup carOverView-module__cjHO2q__marginTop8px&quot;]/div[@class=&quot;carOverView-module__cjHO2q__ctaWrapper&quot;]/button[@class=&quot;carOverView-module__cjHO2q__buttonDesktop&quot;]</value>
+      <webElementGuid>65978d91-d1bb-4bef-8057-1b0708900185</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@id=''])[2]</value>
+      <webElementGuid>84197ac3-817a-4031-b02f-d8a9f178d005</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-upper-content']/div[2]/div[4]/div/button</value>
+      <webElementGuid>34ba4976-7e79-4829-a9f4-b21fe983aaf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[2]/following::button[1]</value>
+      <webElementGuid>39a6f3d4-6afe-44c4-8a46-e42826e6d36e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Klik Simulasi Kredit untuk dapatkan'])[2]/following::button[2]</value>
+      <webElementGuid>cc981fd1-8bc5-4666-8d46-9583c51ff046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan'])[2]/preceding::button[2]</value>
+      <webElementGuid>02811ec5-1322-46f6-a34d-9530dc18185a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi'])[2]/preceding::button[3]</value>
+      <webElementGuid>e831225a-5f6a-4997-82db-89856990fd4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div/button</value>
+      <webElementGuid>820f663f-3d33-412b-95c6-2b43b517e01b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Simulasi Kredit' or . = 'Simulasi Kredit')]</value>
+      <webElementGuid>990036eb-3064-4df7-9245-b96b3ef47d59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

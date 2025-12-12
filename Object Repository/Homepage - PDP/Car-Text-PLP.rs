@@ -3,7 +3,7 @@
    <description></description>
    <name>Car-Text-PLP</name>
    <tag></tag>
-   <elementGuidId>6f2fb5be-6f01-4d6c-b850-606485a34dd6</elementGuidId>
+   <elementGuidId>43cbb141-de22-4d7e-897a-2d238519194c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>e154bbe0-824a-431a-8ff4-7cce27023189</webElementGuid>
+      <webElementGuid>1133319f-bfae-4052-9b2a-186751b4da58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cardetailcard_brandModelText__H3ZBU</value>
-      <webElementGuid>70ea7e53-ade0-41bf-9ac7-ba3aa922f3ed</webElementGuid>
+      <webElementGuid>39fd86e8-2757-43ac-9d69-d7ac959d7fe0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>[object Object]brand-model-mobil</value>
-      <webElementGuid>716cdcbc-f1e9-4798-b1bf-fcbdfb3a9ace</webElementGuid>
+      <webElementGuid>8c716b7a-2084-4407-a37a-f4e9fd0a2601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${Car_Name}</value>
-      <webElementGuid>30d1b9a7-2cea-45ac-bc69-b105af31f6c3</webElementGuid>
+      <webElementGuid>67debf20-c6c3-4ac1-acc2-164f74e76445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;mobil-baru_wrapper__fr5eI mobil-baru_stickypadding__nZG8E&quot;]/div[@class=&quot;plp-scroll mobil-baru_detailCardWrapper__BXntY undefined&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;cardetailcard_container__YOE61&quot;]/div[@class=&quot;cardetailcard_cardWrapper__tqF2w cardshadow_cardShadow__Pr8Ek&quot;]/div[@class=&quot;cardetailcard_contentWrapper__5_XPP&quot;]/h2[@class=&quot;cardetailcard_brandModelText__H3ZBU&quot;]</value>
-      <webElementGuid>307d1e05-0d54-43ca-b053-e7552ec2413d</webElementGuid>
+      <webElementGuid>6569505a-4b2f-46ac-8833-c75f3c03340b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[5]/div/div/div[5]/div/div[2]/h2</value>
-      <webElementGuid>5e92faf3-e6dd-449f-9843-37915ddcf788</webElementGuid>
+      <webElementGuid>d2a30d8a-b895-4b28-8a83-3214c557d375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='promo'])[5]/following::h2[1]</value>
-      <webElementGuid>41b29906-4fe3-469e-b57a-668803a4c581</webElementGuid>
+      <webElementGuid>0b100c1f-ce7c-407b-b332-72bc00495ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga OTR'])[5]/preceding::h2[1]</value>
-      <webElementGuid>2e11fde0-c130-4147-8832-403f71bfc258</webElementGuid>
+      <webElementGuid>1901722d-3917-4a3d-98a4-1570b37adb5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[5]/preceding::h2[1]</value>
-      <webElementGuid>569725ea-d405-459c-94d8-dee36ee080b7</webElementGuid>
+      <webElementGuid>609cd694-da5c-4de9-a985-de93cb211ecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Toyota']/parent::*</value>
-      <webElementGuid>637ff2b7-7e20-4716-9247-ae9b666192d4</webElementGuid>
+      <webElementGuid>aab98128-7ce1-4a90-ae3b-8c78e5de1f7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/h2</value>
-      <webElementGuid>9f449103-09ff-4c2b-80af-7438b53ce736</webElementGuid>
+      <webElementGuid>73259c00-6a31-4dce-b9d1-3b9f259bccb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Toyota New Calya' or . = 'Toyota New Calya')]</value>
-      <webElementGuid>b90caeb7-acb9-468d-8cbf-2518db1d9a69</webElementGuid>
+      <webElementGuid>528fda5c-e25a-47ff-9910-1aedda1ad64f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

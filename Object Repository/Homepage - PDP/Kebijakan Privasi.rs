@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Kebijakan Privasi</name>
+   <tag></tag>
+   <elementGuidId>adcfb051-4ffc-4072-8712-1cfa52dc081f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leads-form-secondary']/div/div/div[2]/div/div[4]/p/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>264080ac-cb3f-41bf-b9e3-f586b99a1f33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>agreement-module__85S08W__textRedirect</value>
+      <webElementGuid>a06d2bb3-3042-4b78-a1b7-725173415d2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>da039e0c-6a01-4576-ab17-93cc3dabe149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.seva.id/info/kebijakan-privasi/</value>
+      <webElementGuid>6639d689-e814-47d1-889c-b5a50cb2525b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer</value>
+      <webElementGuid>7e098222-c214-4c33-a86c-9ebfc242968a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kebijakan Privasi</value>
+      <webElementGuid>820bb908-8922-42ce-82b1-0ad4e266dd91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;summary-module__XrqSca__wrapperDesktop&quot;]/div[@class=&quot;summary-module__XrqSca__containerDesktop&quot;]/div[@id=&quot;leads-form-secondary&quot;]/div[@class=&quot;leadsFormSecondary-module__sglaiW__wrapperDesktop&quot;]/div[1]/div[@class=&quot;leadsFormSecondary-module__sglaiW__foregroundDesktop&quot;]/div[@class=&quot;leadsFormSecondary-module__sglaiW__formDesktop&quot;]/div[@class=&quot;agreement-module__85S08W__agreementTerms agreement-module__85S08W__primary false false&quot;]/p[@class=&quot;agreement-module__85S08W__textOption&quot;]/a[@class=&quot;agreement-module__85S08W__textRedirect&quot;]</value>
+      <webElementGuid>4016173f-b70c-4d03-8e7c-26dea665e33b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leads-form-secondary']/div/div/div[2]/div/div[4]/p/a[2]</value>
+      <webElementGuid>05e47ec2-d443-4db8-af6a-284c4c2afd6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Kebijakan Privasi')]</value>
+      <webElementGuid>f0b4fb14-f834-4800-89f2-a5262c99bc0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/following::a[1]</value>
+      <webElementGuid>dc73b505-9cae-4ae2-a8af-e8f79a3fd102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/following::a[2]</value>
+      <webElementGuid>002dd5ab-9999-46dd-b88a-9c340c2349db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[13]/preceding::a[1]</value>
+      <webElementGuid>1ac28bc1-765c-4356-9b85-84afafe581b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Mobil Lainnya'])[1]/preceding::a[1]</value>
+      <webElementGuid>7e71886b-2cdd-44c4-b392-89c4f45fae2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kebijakan Privasi']/parent::*</value>
+      <webElementGuid>1a8f21b3-08c3-4f44-afd8-9ceb6e611763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.seva.id/info/kebijakan-privasi/')]</value>
+      <webElementGuid>02c69528-f798-4cf5-a994-962aa739d8e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a[2]</value>
+      <webElementGuid>8b370ee4-9152-42ab-81da-e85d747bfd6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.seva.id/info/kebijakan-privasi/' and (text() = 'Kebijakan Privasi' or . = 'Kebijakan Privasi')]</value>
+      <webElementGuid>3a357da4-4a8f-4a22-a0cb-89ebdb5268af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

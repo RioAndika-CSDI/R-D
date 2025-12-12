@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('Product Detail Page/LR001-TC-Login'), [('nomorHP') : '8752900847', ('OTP') : '445566'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Homepage - PLP/Button_Cari_Mobil_Baru'), 0)
 
@@ -40,13 +39,21 @@ CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
 WebUI.delay(3)
 
 //WebUI.click(findTestObject('Homepage - PLP/Car-Text-PLP', [('Car_Name') : CarName]))
-WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PDP/label_car_name_plp', [('Car_Name') : CarName]), 0)
-
 WebUI.click(findTestObject('Object Repository/Homepage - PDP/label_car_name_plp', [('Car_Name') : CarName]))
 
-String get_text_car_name = WebUI.getText(findTestObject('Object Repository/Homepage - PDP/Nama Mobil PDP'))
+WebUI.scrollToElement(findTestObject('Object Repository/Homepage - PDP/h2_Title Leads PDP'), 0)
 
-String car_name = get_text_car_name.split('Daihatsu ')[1]
+WebUI.clearText(findTestObject('Homepage - PDP/nama lengkap'))
 
-WebUI.verifyMatch(car_name, CarName, false)
+WebUI.setText(findTestObject('Homepage - PDP/nama lengkap'), NamaLengkap)
+
+WebUI.click(findTestObject('Object Repository/Homepage - PDP/rect'))
+
+WebUI.click(findTestObject('Object Repository/Homepage - PDP/button kirim'))
+
+WebUI.verifyElementPresent(findTestObject('Homepage - PDP/message success leads'), 0)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

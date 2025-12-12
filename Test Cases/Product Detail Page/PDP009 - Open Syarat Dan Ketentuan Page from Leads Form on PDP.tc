@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PDP004 - SubmitLeadsFromPDP-Login</name>
+   <name>PDP009 - Open Syarat Dan Ketentuan Page from Leads Form on PDP</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f9007cdf-99d2-4fdb-80f7-dd17d0906940</testCaseGuid>
+   <testCaseGuid>a0e714b0-73fd-4f4a-94cf-3ce1e3183663</testCaseGuid>
    <variable>
       <defaultValue>'All New Ayla'</defaultValue>
       <description></description>
-      <id>6171a39b-5511-4220-a769-f2ff5ac97a48</id>
+      <id>8aad805e-d9f9-4744-9222-6aa79d98b27b</id>
       <masked>false</masked>
       <name>CarName</name>
    </variable>
