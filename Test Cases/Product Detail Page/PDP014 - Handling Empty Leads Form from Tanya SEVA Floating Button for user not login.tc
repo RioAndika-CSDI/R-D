@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP014 - Handling Empty Leads Form from Tanya SEVA Floating Button for user not login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a425b9e-3be8-440c-abfa-be8189dcd0e0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d16a7ae3-e15f-4c6c-bf46-b874f8e80eb6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b9cde07-1fb0-42cd-8fa9-13f225166464</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f38ed5b-7205-4cb0-9c93-2dfc3ec01967</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testing'</defaultValue>
+      <description></description>
+      <id>d16a7ae3-e15f-4c6c-bf46-b874f8e80eb6</id>
+      <masked>false</masked>
+      <name>namaLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'8752900847'</defaultValue>
+      <description></description>
+      <id>6b9cde07-1fb0-42cd-8fa9-13f225166464</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
+   <variable>
+      <defaultValue>'445566'</defaultValue>
+      <description></description>
+      <id>1f38ed5b-7205-4cb0-9c93-2dfc3ec01967</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

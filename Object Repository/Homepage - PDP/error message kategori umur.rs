@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error message kategori umur</name>
+   <tag></tag>
+   <elementGuidId>d76a947d-7dfe-44bd-9098-55094d0d5573</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.creditTab-module___gWtiG__errorMessage</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loan-calculator-form-income']/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Pendapatan bulananWajib diisi$/ >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c41d22e7-81aa-488e-8c76-610fe9d0bfbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>creditTab-module___gWtiG__errorMessage</value>
+      <webElementGuid>9b7af81d-19ef-4e36-af7e-29bc9a08a663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Wajib diisi</value>
+      <webElementGuid>b2370813-909c-4e56-a206-9ed48bccefb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;creditTab-module___gWtiG__containerDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__content&quot;]/div[@class=&quot;creditTab-module___gWtiG__formCardDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__formWrapperDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__contentleft&quot;]/div[@class=&quot;shake-animation-X incomeAgeSection-module__P_sqyG__container  incomeAgeSection-module__P_sqyG__pdpDesktop&quot;]/div[@class=&quot;incomeAgeSection-module__P_sqyG__formSection&quot;]/div[@class=&quot;creditTab-module___gWtiG__contentFormIncome&quot;]/div[@id=&quot;loan-calculator-form-income&quot;]/div[@class=&quot;creditTab-module___gWtiG__errorMessageWrapper shake-animation-X&quot;]/span[@class=&quot;creditTab-module___gWtiG__errorMessage&quot;]</value>
+      <webElementGuid>b6f89777-fbaa-48cb-8a13-56edfe867374</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loan-calculator-form-income']/div[2]/span</value>
+      <webElementGuid>dc3d5541-aa8f-4112-9cb7-117b6c6548b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Kredit Ideal'])[1]/following::span[1]</value>
+      <webElementGuid>db2ae398-3838-4108-ba40-5303c2ad578c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>51'])[1]/preceding::span[1]</value>
+      <webElementGuid>b1c999fa-edb8-40d8-be1b-3b8baf7d5d82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[2]/preceding::span[1]</value>
+      <webElementGuid>3377913c-de7c-4de0-8cf8-f71805e91205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Wajib diisi']/parent::*</value>
+      <webElementGuid>d2c9ee64-0b60-48df-bdb3-641151bf60a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/span</value>
+      <webElementGuid>66cf6881-70cf-4c15-a898-762c75fee81c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Wajib diisi' or . = 'Wajib diisi')]</value>
+      <webElementGuid>770b95c8-f805-4a14-a7fe-3a8f3a62c588</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP006 - Handling Empty Leads Form PDP for User Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce293326-e467-41d5-9ff9-3558c7e7863a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>659cfca1-2d47-4f21-9f1b-b98ffffbb20a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30b2be0d-f002-454c-b7f5-c0fe6f98df1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'All New Ayla'</defaultValue>
+      <description></description>
+      <id>659cfca1-2d47-4f21-9f1b-b98ffffbb20a</id>
+      <masked>false</masked>
+      <name>CarName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nama Testing'</defaultValue>
+      <description></description>
+      <id>30b2be0d-f002-454c-b7f5-c0fe6f98df1d</id>
+      <masked>false</masked>
+      <name>NamaLengkap</name>
+   </variable>
+</TestCaseEntity>

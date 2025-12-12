@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Title Leads PDP</name>
+   <tag></tag>
+   <elementGuidId>6f8984f6-c14a-4627-b275-f6c2db571958</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.leadsFormSecondary-module__sglaiW__textHeadingDesktop</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leads-form-secondary']/div/div/div[2]/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Yuk, cari tahu &amp; tanya lebih lanjut tentang Daihatsu All New Ayla&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>7696e4f6-1c65-47f6-8147-9dfa73c4177e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>leadsFormSecondary-module__sglaiW__textHeadingDesktop</value>
+      <webElementGuid>7289c814-7cd2-4f03-b29f-e06d9630701a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yuk, cari tahu &amp; tanya lebih lanjut tentang Daihatsu All New Ayla</value>
+      <webElementGuid>3fa8c8bd-f879-44ff-a305-43498395a25f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;summary-module__XrqSca__wrapperDesktop&quot;]/div[@class=&quot;summary-module__XrqSca__containerDesktop&quot;]/div[@id=&quot;leads-form-secondary&quot;]/div[@class=&quot;leadsFormSecondary-module__sglaiW__wrapperDesktop&quot;]/div[1]/div[@class=&quot;leadsFormSecondary-module__sglaiW__foregroundDesktop&quot;]/h2[@class=&quot;leadsFormSecondary-module__sglaiW__textHeadingDesktop&quot;]</value>
+      <webElementGuid>68c9386a-7f61-4079-8898-cce825afe6b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leads-form-secondary']/div/div/div[2]/h2</value>
+      <webElementGuid>6dc1e571-b2df-4a6c-b0cf-3989dbe2b4d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apa jenis sistem transmisi yang digunakan oleh Daihatsu All New Ayla 2025?'])[1]/following::h2[1]</value>
+      <webElementGuid>0bae16d0-f63d-41f6-af63-db39d0f93bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berapa kapasitas penumpang dalam Daihatsu All New Ayla?'])[1]/following::h2[1]</value>
+      <webElementGuid>64cda23b-b9f7-435a-a126-dc9dc6fceab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/preceding::h2[1]</value>
+      <webElementGuid>11eef42b-2408-446b-9b86-a94ab30a3ed6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/preceding::h2[1]</value>
+      <webElementGuid>4b4e257d-38bc-4082-a7c4-97bccce13dbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yuk, cari tahu &amp; tanya lebih lanjut tentang']/parent::*</value>
+      <webElementGuid>4e53d645-462d-45df-ab02-c4af4f9cdd50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2</value>
+      <webElementGuid>638bb86f-c9dc-4b79-8798-92304a373031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Yuk, cari tahu &amp; tanya lebih lanjut tentang Daihatsu All New Ayla' or . = 'Yuk, cari tahu &amp; tanya lebih lanjut tentang Daihatsu All New Ayla')]</value>
+      <webElementGuid>59373a5f-639d-4eb4-b753-15b07f0da639</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

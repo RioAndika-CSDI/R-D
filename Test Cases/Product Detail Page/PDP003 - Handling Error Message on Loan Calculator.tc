@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PDP003 - Handling Kredit Calculator</name>
+   <name>PDP003 - Handling Error Message on Loan Calculator</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3b2e1d2d-f86e-4647-a280-66071c565619</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Simulasi Kredit</name>
+   <tag></tag>
+   <elementGuidId>177e906b-7093-43ab-824b-c505eabf417c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid='button-hitung-kemampuan']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Simulasi Kredit' or . = 'Simulasi Kredit')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-module__T5rPxa__secondaryDark.button-module__T5rPxa__big.leadsFormSecondary-module__sglaiW__buttonDesktopBottom</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>50000017-aaa8-452d-b338-e66d28d3bf75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-module__T5rPxa__secondaryDark button-module__T5rPxa__big leadsFormSecondary-module__sglaiW__buttonDesktopBottom</value>
+      <webElementGuid>8161480c-7534-4fe9-aced-dc9870da4208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-hitung-kemampuan</value>
+      <webElementGuid>7c85f1d9-0b3d-47a0-8550-3bcd6e95eb98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasi Kredit</value>
+      <webElementGuid>3c307bc2-53f6-4816-ae66-21a581a3a0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;summary-module__XrqSca__wrapperDesktop&quot;]/div[@class=&quot;summary-module__XrqSca__containerDesktop&quot;]/div[@id=&quot;leads-form-secondary&quot;]/div[@class=&quot;leadsFormSecondary-module__sglaiW__wrapperDesktop&quot;]/div[1]/div[@class=&quot;leadsFormSecondary-module__sglaiW__foregroundDesktop&quot;]/div[@class=&quot;leadsFormSecondary-module__sglaiW__formDesktop&quot;]/div[5]/button[@class=&quot;button-module__T5rPxa__secondaryDark button-module__T5rPxa__big leadsFormSecondary-module__sglaiW__buttonDesktopBottom&quot;]</value>
+      <webElementGuid>0cea7fea-9b6f-4c40-9321-cbcedd69b8f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leads-form-secondary']/div/div/div[2]/div/div[5]/button</value>
+      <webElementGuid>9c8bc81e-d95c-4f53-a3a5-e95dceaedd81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::button[1]</value>
+      <webElementGuid>42b504bb-af15-4dca-8c48-472c3935b296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/following::button[1]</value>
+      <webElementGuid>3e81b837-bf9a-4fd2-acb5-7e6f0ea37b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi Mobil Lainnya'])[1]/preceding::button[1]</value>
+      <webElementGuid>5bdc72b5-f3c8-43b0-90f4-67eae95eba1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/preceding::button[1]</value>
+      <webElementGuid>5c532dc1-673c-4d0f-9fd1-139c9825eee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>20472636-aba8-4088-805c-6a63b3775920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Simulasi Kredit' or . = 'Simulasi Kredit')]</value>
+      <webElementGuid>8b13bd1b-afe6-4bd2-81de-867f4ae083c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

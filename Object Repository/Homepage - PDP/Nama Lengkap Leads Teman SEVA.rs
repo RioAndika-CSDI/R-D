@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Rekomendasi Cicilan Ideal_0 input_inp_acd316</name>
+   <name>Nama Lengkap Leads Teman SEVA</name>
    <tag></tag>
-   <elementGuidId>d01bb62a-9f35-4fcc-b716-c0ccc75f37d5</elementGuidId>
+   <elementGuidId>3bb0a652-486a-4e3f-ac1b-572ff383e19f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input.0.input_input__MAvlc</value>
+         <value>div.leadsFormPrimary-module__uU3D2a__formDesktop > div.undefined.undefined > input.input-module__qITaZW__input.input-module__qITaZW__inputDesktop</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@data-test-id = 'field-input-pendapatan' and @placeholder = 'Masukkan pendapatan'])[2]</value>
+         <value>//input[@data-test-id='field-input-leads-nama-lengkap']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
+         <value>//*[@placeholder = 'Masukkan nama lengkap']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,94 +27,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>dfb467a4-eac6-4d44-9f71-17ed5b22595c</webElementGuid>
+      <webElementGuid>acd5bbb6-02bf-40a1-81cb-3aa525651462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test-id</name>
       <type>Main</type>
-      <value>field-input-pendapatan</value>
-      <webElementGuid>71bfe3e8-d369-434b-9c84-cefcd3234d49</webElementGuid>
+      <value>field-input-leads-nama-lengkap</value>
+      <webElementGuid>99f64c35-8c3e-42b2-9f1f-a1fbe618d4c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>0 input_input__MAvlc</value>
-      <webElementGuid>a233cbe9-db96-4955-9ad6-bda975bbf767</webElementGuid>
+      <value>input-module__qITaZW__input input-module__qITaZW__inputDesktop</value>
+      <webElementGuid>db9478eb-185c-412b-93d6-6b5cc6599cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan pendapatan</value>
-      <webElementGuid>d14ceacb-4eb6-46f6-be5d-43c491671c61</webElementGuid>
+      <value>Masukkan nama lengkap</value>
+      <webElementGuid>f29c8522-1323-45f4-9bb7-92cb60e4bad0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>016a8e29-d0d6-4830-852d-85f3fada07ba</webElementGuid>
+      <value>off</value>
+      <webElementGuid>7e5d3aaf-063b-4375-93ad-dad4bfbede04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>14</value>
-      <webElementGuid>cbb85a48-af7e-4c52-b8fb-02d598bfffc1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Rp4</value>
-      <webElementGuid>6a0dde05-5894-49ee-87ad-4d83001cb263</webElementGuid>
+      <value>60</value>
+      <webElementGuid>bf0bd6e5-c204-4cbf-8a3d-34bab0170780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loan-calculator-form-income&quot;)/div[1]/div[1]/input[@class=&quot;0 input_input__MAvlc&quot;]</value>
-      <webElementGuid>4cae944d-514c-4b1d-b413-d980c916b834</webElementGuid>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__wrapper&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__foregroundDesktop&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__formDesktop&quot;]/div[@class=&quot;undefined undefined&quot;]/input[@class=&quot;input-module__qITaZW__input input-module__qITaZW__inputDesktop&quot;]</value>
+      <webElementGuid>ea64e589-aa9c-402b-8b85-f47abf5641e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Rp4']</value>
-      <webElementGuid>174156e2-5b02-4ab7-b960-3917cbafe3a0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='loan-calculator-form-income']/div/div/input</value>
-      <webElementGuid>ac917d70-faea-46a7-bb76-cd169469fb73</webElementGuid>
+      <value>(//input[@value=''])[11]</value>
+      <webElementGuid>b55188cc-fd75-4f84-8528-a5a8fa4fa785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div[2]/div/div/div/input</value>
-      <webElementGuid>4c3ef7f9-c03d-4bac-b039-dfa9aaa87503</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+      <webElementGuid>b096cfd1-47d3-4842-b554-5007f5fe5e70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Masukkan pendapatan' and @type = 'tel']</value>
-      <webElementGuid>9dbfe329-a027-4e86-af20-8fc1bbd678a8</webElementGuid>
+      <value>//input[@placeholder = 'Masukkan nama lengkap']</value>
+      <webElementGuid>db2125fa-d545-427b-98b1-469ebbe89eb1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

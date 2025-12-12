@@ -3,11 +3,11 @@
    <description></description>
    <name>PDP Car Name</name>
    <tag></tag>
-   <elementGuidId>3d47ee5d-0d9a-4157-855e-cb0415fe7f32</elementGuidId>
+   <elementGuidId>0c3503b4-b9c2-40d3-b21d-7a9c2288b202</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='pdpUpperSection-module__8rokla__content1']//p[@class='carOverView-module__cjHO2q__carBrandModelText'][normalize-space()='${CarName}'][count(. | //*[@data-testid = 'text-car-brand-model' and starts-with(@class, 'carOverView_carBrandModelText__wTFE_')]) = count(//*[@data-testid = 'text-car-brand-model' and starts-with(@class, 'carOverView_carBrandModelText__wTFE_')])]</value>
+         <value>//*[@data-testid = 'text-car-brand-model' and starts-with(@class, 'carOverView_carBrandModelText__wTFE_')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +19,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>text-car-brand-model</value>
-      <webElementGuid>40fe0274-5a2c-431f-bda0-4b16da3bbcb0</webElementGuid>
+      <webElementGuid>a5ee388b-155e-47a5-9afe-2016fc0a484c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,14 +27,14 @@
       <name>class</name>
       <type>Main</type>
       <value>carOverView_carBrandModelText__wTFE_</value>
-      <webElementGuid>a22c69ff-f874-4834-8adb-fc6c5c133f75</webElementGuid>
+      <webElementGuid>572d0f69-aa1b-4e51-9fe0-dea35250eb39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='pdpUpperSection-module__8rokla__content1']//p[@class='carOverView-module__cjHO2q__carBrandModelText'][normalize-space()='${CarName}']</value>
-      <webElementGuid>109938c4-624a-4a56-b0b6-df5323627990</webElementGuid>
+      <value>//div[contains(@class, 'carVariantList_wrapperDesktop')]//div[contains(@class, 'pdpUpperSection_wrapperDesktop')]//h1[contains(@class, 'carOverView_carBrandModelText')]</value>
+      <webElementGuid>81c70827-b701-4aca-9a86-368002bae609</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

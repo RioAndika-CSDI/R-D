@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Eksterior</name>
+   <tag></tag>
+   <elementGuidId>4f00fc9c-c225-4679-bacc-792cd94a3186</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.navigationTabV4-module__tX4SCa__tabItemText.navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>935925cb-6674-4734-aa19-ca60a13132ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      <webElementGuid>33a93994-1a48-4761-9783-4fd710232e6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eksterior</value>
+      <webElementGuid>976928e1-f31c-4e00-b6df-8ed3320ca161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__gallerySection&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__content2&quot;]/div[1]/div[@class=&quot;navigationTabV4-module__tX4SCa__container navigationTabV4-module__tX4SCa__containerDesktop&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-css-mode navigationTabV4-module__tX4SCa__swiperStyle navigationTabV4-module__tX4SCa__swiperStyleDefault pdpUpperSection-module__8rokla__swiperWrapper&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-next navigationTabV4-module__tX4SCa__swiperSlideStyle&quot;]/div[@class=&quot;navigationTabV4-module__tX4SCa__tabItem navigationTabV4-module__tX4SCa__tabItemGallery&quot;]/span[@class=&quot;navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected&quot;]</value>
+      <webElementGuid>64b5038f-c412-499e-bcc2-d5f331ceac89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div[2]/div/span</value>
+      <webElementGuid>340439a3-f6b6-4501-b952-a837edd7a6a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Warna'])[1]/following::span[1]</value>
+      <webElementGuid>332f4bd3-2999-4907-bc07-b54203caf646</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[3]/following::span[2]</value>
+      <webElementGuid>78689b0b-0b21-4cd1-ab8c-8f4750daf3f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interior'])[1]/preceding::span[1]</value>
+      <webElementGuid>a57dfed5-abf7-4a28-85be-e0c882e178f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan'])[1]/preceding::span[4]</value>
+      <webElementGuid>d7e548d9-2f2f-4b58-99ec-572e801e0406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Eksterior']/parent::*</value>
+      <webElementGuid>b84821e9-59d0-4f1c-9bd5-c1f6418c61cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/span</value>
+      <webElementGuid>4be12508-5fe8-474b-9410-22ea8b5345fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Eksterior' or . = 'Eksterior')]</value>
+      <webElementGuid>b7dc04b4-cd9f-4783-8818-bdec50a6fb49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

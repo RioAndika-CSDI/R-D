@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP012 - Acces Loan Calculator from Sticky Button on PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49478cf9-8ace-49ff-9891-6ff0aa64e1fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e18e637-fb54-4dd8-b614-264553a69297</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acdb3242-cb4a-4354-a34f-e88fb2123b6a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85df7fa1-2e49-49e9-87be-7840a4548419</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testing'</defaultValue>
+      <description></description>
+      <id>6e18e637-fb54-4dd8-b614-264553a69297</id>
+      <masked>false</masked>
+      <name>namaLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'8752900847'</defaultValue>
+      <description></description>
+      <id>acdb3242-cb4a-4354-a34f-e88fb2123b6a</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
+   <variable>
+      <defaultValue>'445566'</defaultValue>
+      <description></description>
+      <id>85df7fa1-2e49-49e9-87be-7840a4548419</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

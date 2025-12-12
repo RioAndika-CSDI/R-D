@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Spesifikasi</name>
+   <tag></tag>
+   <elementGuidId>140d7da5-983a-484f-aa28-e1e6b22df4a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.tabV1-module__fRihba__text.false</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div[2]/div/div/div/div[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4f90b6a4-cf54-4f9e-a969-8592f59ae28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabV1-module__fRihba__text false</value>
+      <webElementGuid>82983dea-7db9-4022-aa06-37b1915ed094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spesifikasi</value>
+      <webElementGuid>e8ec472d-6ef0-4da8-abe0-c86914733763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@class=&quot;navigationTabV1-module__IrbqgG__container&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-css-mode navigationTabV1-module__IrbqgG__swiperStyle navigationTabV1-module__IrbqgG__swiperWrapper navigationTabV1-module__IrbqgG__swiperWrapperisPDPDesktop&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-next navigationTabV1-module__IrbqgG__swiperSlideStyle navigationTabV1-module__IrbqgG__swiperSlideisPDPDesktop&quot;]/button[@class=&quot;tabV1-module__fRihba__container false&quot;]/span[@class=&quot;tabV1-module__fRihba__text false&quot;]</value>
+      <webElementGuid>59576852-0ece-4fd8-9959-915b5eae054b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div[2]/div/div/div/div[2]/button/span</value>
+      <webElementGuid>1561644e-c679-467f-b4a2-fb8870d3fedc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan'])[1]/following::span[1]</value>
+      <webElementGuid>60ba942f-c652-4986-a6f5-49c5054ff159</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interior'])[1]/following::span[4]</value>
+      <webElementGuid>8ffa7cbe-5650-478a-abd9-618cecfa2053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[1]/preceding::span[1]</value>
+      <webElementGuid>5cad4f78-814d-42ee-9d26-0e4f31382bf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit'])[1]/preceding::span[2]</value>
+      <webElementGuid>9bd32624-c0bf-44eb-8c55-8aa1c60c9834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Spesifikasi']/parent::*</value>
+      <webElementGuid>0d3e9eeb-52b1-43da-819f-62da652f3db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/button/span</value>
+      <webElementGuid>391f0c82-dcf2-4f97-bdef-f6d2819b17af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Spesifikasi' or . = 'Spesifikasi')]</value>
+      <webElementGuid>705fee7b-63d7-4fd1-aa08-823900bd529e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

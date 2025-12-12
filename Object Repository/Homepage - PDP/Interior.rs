@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Interior</name>
+   <tag></tag>
+   <elementGuidId>56cf238d-e2a1-4b8f-8017-bec610910359</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.navigationTabV4-module__tX4SCa__tabItemText.navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div[3]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3d8fa493-249c-46ae-8d51-9b42531a405c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected</value>
+      <webElementGuid>a36af57a-033d-47b0-bdd2-22e74360ca64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Interior</value>
+      <webElementGuid>a179dc34-2e9a-4074-9141-88a38a793127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__gallerySection&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__content2&quot;]/div[1]/div[@class=&quot;navigationTabV4-module__tX4SCa__container navigationTabV4-module__tX4SCa__containerDesktop&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-css-mode navigationTabV4-module__tX4SCa__swiperStyle navigationTabV4-module__tX4SCa__swiperStyleDefault pdpUpperSection-module__8rokla__swiperWrapper&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide navigationTabV4-module__tX4SCa__swiperSlideStyle&quot;]/div[@class=&quot;navigationTabV4-module__tX4SCa__tabItem navigationTabV4-module__tX4SCa__tabItemGallery&quot;]/span[@class=&quot;navigationTabV4-module__tX4SCa__tabItemText navigationTabV4-module__tX4SCa__tabItemTextSelected&quot;]</value>
+      <webElementGuid>19d6b11d-3c19-4e3e-bf25-0fdfc49e16b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div/div[2]/div/div/div/div/div[3]/div/span</value>
+      <webElementGuid>bd460891-3adc-4576-a982-1927df120bf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eksterior'])[1]/following::span[1]</value>
+      <webElementGuid>3f5d5de1-7d69-4850-9d1e-a553b09b7983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Warna'])[1]/following::span[2]</value>
+      <webElementGuid>0cc37bbf-2b7d-4d09-9a19-723a43a982d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan'])[1]/preceding::span[3]</value>
+      <webElementGuid>1465a6f3-de07-4f2f-bf6c-3ff6ba6e0f67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi'])[1]/preceding::span[4]</value>
+      <webElementGuid>8dc0f696-7d40-445a-881b-bf17855e022f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Interior']/parent::*</value>
+      <webElementGuid>ecfdd531-6f7a-45d4-850b-4561ee2e68ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span</value>
+      <webElementGuid>85e5b757-e130-48bd-ab4a-a2e77f9986b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Interior' or . = 'Interior')]</value>
+      <webElementGuid>c71dc1ce-a1ac-4ecb-b799-6614ebe3b8cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

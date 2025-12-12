@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP007 - SubmitLeadsFromPDP-NotLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3aef30a-269f-446d-8bc5-d227698737c4</testCaseGuid>
+   <variable>
+      <defaultValue>'Testing'</defaultValue>
+      <description></description>
+      <id>ba11bd22-8e57-4de3-a14f-a32859f5bf35</id>
+      <masked>false</masked>
+      <name>namaLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'8752900847'</defaultValue>
+      <description></description>
+      <id>e93f79b9-4488-4f50-a189-44a38d0c711d</id>
+      <masked>false</masked>
+      <name>nomorHP</name>
+   </variable>
+   <variable>
+      <defaultValue>'445566'</defaultValue>
+      <description></description>
+      <id>a7ab14cb-ff5d-4fe1-8f25-e290f19aeb50</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

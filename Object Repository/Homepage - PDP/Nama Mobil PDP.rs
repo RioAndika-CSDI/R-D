@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nama Mobil PDP</name>
+   <tag></tag>
+   <elementGuidId>e2684e71-cf32-4940-bc02-2abd2f27e0ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[3]/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.carOverView-module__cjHO2q__carBrandModelText</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'text-car-brand-model']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;text-car-brand-model&quot;] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7efc5b93-f92f-423e-a023-e19e1cedbcf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>carOverView-module__cjHO2q__carBrandModelText</value>
+      <webElementGuid>b653cb71-9582-437e-a3d1-58e96f1b1f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>text-car-brand-model</value>
+      <webElementGuid>c0a3fe5e-91fc-4398-a734-547c10638785</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${Car_Name}</value>
+      <webElementGuid>a66670fa-d31a-4391-b698-35fa29437f98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__gallerySection&quot;]/div[@class=&quot;pdpUpperSection-module__8rokla__content1&quot;]/div[@class=&quot;carOverView-module__cjHO2q__container&quot;]/p[@class=&quot;carOverView-module__cjHO2q__carBrandModelText&quot;]</value>
+      <webElementGuid>8d5f8b40-eeef-405d-b2f3-aa333ced6fa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div/div/div/p</value>
+      <webElementGuid>ca4695d9-a98e-49dc-bc35-aeb00164c3f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daihatsu All New Ayla'])[1]/following::p[1]</value>
+      <webElementGuid>14c23406-937e-4480-a31e-31c69be1fd7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA NEW AGYA 1.2 G STD M/T 2024'])[2]/following::p[2]</value>
+      <webElementGuid>693659e6-f43b-4d38-817c-2d69f054f5ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Pusat'])[2]/preceding::p[2]</value>
+      <webElementGuid>a6f65df2-1563-4bd6-9e83-3014df49cfde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/p</value>
+      <webElementGuid>7448de53-c49e-494e-97bb-b9bf2ec7aa05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Daihatsu All New Ayla' or . = 'Daihatsu All New Ayla')]</value>
+      <webElementGuid>2817159b-0f89-4abd-89b5-2022d30135a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

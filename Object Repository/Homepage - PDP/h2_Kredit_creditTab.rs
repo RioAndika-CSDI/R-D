@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Kredit_creditTab</name>
+   <tag></tag>
+   <elementGuidId>cf8ffb5a-82db-4e1a-a10a-37503a06460d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@class='creditTab-module___gWtiG__formCardTitleDesktop']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kredit Daihatsu All New Ayla' or . = 'Kredit Daihatsu All New Ayla')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.creditTab-module___gWtiG__formCardTitleDesktop</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>93f65c5d-26c9-451a-b5ca-5c9b47f73df4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>creditTab-module___gWtiG__formCardTitleDesktop</value>
+      <webElementGuid>c55ac338-54d7-442d-8cc8-caa0c3d20e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kredit Daihatsu All New Ayla</value>
+      <webElementGuid>688918bc-e691-4a80-b2d9-c7a5ef87f036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;creditTab-module___gWtiG__containerDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__content&quot;]/div[@class=&quot;creditTab-module___gWtiG__formCardDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__formCardHeaderDesktop&quot;]/h2[@class=&quot;creditTab-module___gWtiG__formCardTitleDesktop&quot;]</value>
+      <webElementGuid>58886e04-4e4d-4765-aa23-f0b7a3e90dde</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-lower-content']/div/div/div/div/h2</value>
+      <webElementGuid>2c62e482-dc52-48f7-b128-abe4f1040e4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit'])[1]/following::h2[1]</value>
+      <webElementGuid>37559de4-0f22-4e46-a645-b6ea606c359f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[1]/following::h2[1]</value>
+      <webElementGuid>12277e56-4994-4e1b-bc4a-977903817e5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Isi data secara lengkap untuk mengetahui hasil kemampuan finansialmu dengan akurat.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>6b842848-919c-4a93-8f0f-3e0a4abdf1f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya ingin beli mobil di kota'])[1]/preceding::h2[1]</value>
+      <webElementGuid>176a40d1-986b-4112-a69c-2382b8f51cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>3c36192f-0fe5-4131-874f-e94f67bb9d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Kredit Daihatsu All New Ayla' or . = 'Kredit Daihatsu All New Ayla')]</value>
+      <webElementGuid>711df18d-349a-43ed-8930-124617f756aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Simulasi Kredit_cardVariantOptions-modu_bd3672</name>
+   <tag></tag>
+   <elementGuidId>15bbb635-f053-483f-885e-e131ad87039a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cardVariantOptions-module__N4jw_a__cardContentPDP</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pdp-lower-content']/div/div/div/div[2]/div[4]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;result-loan-calculator&quot;] div >> internal:has-text=&quot;Daihatsu All New Ayla di Jakarta Pusat1.0 M MTRp140.300.000SEVA Dropdown Icon1.0&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fe34bd6f-d623-4353-a530-ec40c51b88b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardVariantOptions-module__N4jw_a__cardContentPDP</value>
+      <webElementGuid>40eb03ce-3e6d-439b-ae36-545d58a05a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daihatsu All New Ayla di Jakarta Pusat1.0 M MTRp140.300.000SEVA Dropdown Icon1.0 M MTRp140.300.0001.0 X MTRp153.200.0001.0 X MT ADSRp159.100.0001.2 R MTRp170.300.0001.0 X CVTRp173.200.0001.2 R MT ADSRp176.200.0001.0 X CVT ADSRp179.100.0001.2 R CVTRp190.300.0001.2 R CVT ADSRp196.200.000</value>
+      <webElementGuid>7b641a68-bf83-48e3-af35-7098cc958741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_3ff865 __variable_f58f01 __variable_e3bced __variable_4784a5 __variable_029e55 __variable_aac15d __variable_5e7d95 __variable_85049c __variable_971c20&quot;]/div[1]/div[@class=&quot;pageLayout-module__cJbOVq__containerResponsive&quot;]/div[@class=&quot;carVariantList-module__8U7bbG__contentDesktop&quot;]/div[2]/div[@id=&quot;pdp-lower-content&quot;]/div[@class=&quot;creditTab-module___gWtiG__containerDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__content&quot;]/div[@class=&quot;creditTab-module___gWtiG__formCardDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__formWrapperDesktop&quot;]/div[@class=&quot;creditTab-module___gWtiG__contentRight&quot;]/div[@class=&quot;calculationResult-module__diJnZq__container calculationResult-module__diJnZq__pdpDesktop&quot;]/div[1]/div[@class=&quot;cardVariantOptions-module__N4jw_a__cardContentPDP&quot;]</value>
+      <webElementGuid>428aa9c8-8791-414c-ba19-e793c5c921a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pdp-lower-content']/div/div/div/div[2]/div[4]/div/div/div</value>
+      <webElementGuid>31ebebf9-c2c9-48fa-9744-18ba1edaf9d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[5]/following::div[1]</value>
+      <webElementGuid>d4127848-cd3f-4641-befd-b81f1db72dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[4]/following::div[7]</value>
+      <webElementGuid>ae30771b-db25-43ff-8aa3-9c8224b4803b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div</value>
+      <webElementGuid>04452144-3094-4309-b93d-e84086295e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daihatsu All New Ayla di Jakarta Pusat1.0 M MTRp140.300.000SEVA Dropdown Icon1.0 M MTRp140.300.0001.0 X MTRp153.200.0001.0 X MT ADSRp159.100.0001.2 R MTRp170.300.0001.0 X CVTRp173.200.0001.2 R MT ADSRp176.200.0001.0 X CVT ADSRp179.100.0001.2 R CVTRp190.300.0001.2 R CVT ADSRp196.200.000' or . = 'Daihatsu All New Ayla di Jakarta Pusat1.0 M MTRp140.300.000SEVA Dropdown Icon1.0 M MTRp140.300.0001.0 X MTRp153.200.0001.0 X MT ADSRp159.100.0001.2 R MTRp170.300.0001.0 X CVTRp173.200.0001.2 R MT ADSRp176.200.0001.0 X CVT ADSRp179.100.0001.2 R CVTRp190.300.0001.2 R CVT ADSRp196.200.000')]</value>
+      <webElementGuid>304578a4-ba41-4311-84b2-fe468245bb8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

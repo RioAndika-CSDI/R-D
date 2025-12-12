@@ -19,28 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'All New Ayla'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PDP/PDP Tab Kredit'), 0)
+WebUI.scrollToElement(findTestObject('Homepage - PDP/Syarat dan Ketentuan'), 0)
 
-WebUI.click(findTestObject('Homepage - PDP/PDP Tab Kredit'))
+WebUI.click(findTestObject('Homepage - PDP/Syarat dan Ketentuan'))
 
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-
-WebUI.scrollToElement(findTestObject('Kualifikasi-Kredit/Loan-Calculator/span_Cicil Mobil Impianmu dengan Mudah'), 0)
-
-WebUI.delay(3)
-
-//skip proses select
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Income'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/Homepage - PDP/PDP Income'), '45000000')
-
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Kategori Umur'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PDP/PDP Umur Dropdown'))
-
-WebUI.click(findTestObject('Homepage - PDP/PDP button Simulasi Kredit'))
-
-WebUI.verifyElementPresent(findTestObject('Homepage - PDP/Cek Peluang Kredit'), 0)
+WebUI.verifyElementVisible(findTestObject('Homepage - PDP/h1_Syarat dan Ketentuan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

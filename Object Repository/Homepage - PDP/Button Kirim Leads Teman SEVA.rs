@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Kirim Leads Teman SEVA</name>
+   <tag></tag>
+   <elementGuidId>004fddc9-3d39-4a24-a559-f9dde9cd7e85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-test-id='button-kirim-leads']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kirim' or . = 'Kirim')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-module__T5rPxa__disable.button-module__T5rPxa__plpDesktop.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8dd993ac-72ad-4e13-ae66-b5175cfae018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-module__T5rPxa__disable button-module__T5rPxa__plpDesktop undefined</value>
+      <webElementGuid>3f7c8dab-8d8a-4830-9e51-a0cc3a0998f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>button-kirim-leads</value>
+      <webElementGuid>06c53cd6-297a-4f53-b1dc-84e9569e5274</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim</value>
+      <webElementGuid>4ca919ef-bb32-4ce7-988a-b448fa8c04b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;ant-modal-root css-1fumvat&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal css-1fumvat full&quot;]/div[2]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__wrapper&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__foregroundDesktop&quot;]/div[@class=&quot;leadsFormPrimary-module__uU3D2a__formDesktop&quot;]/button[@class=&quot;button-module__T5rPxa__disable button-module__T5rPxa__plpDesktop undefined&quot;]</value>
+      <webElementGuid>f559d899-496c-4dcc-a8ee-e019c48e37be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[4]/following::button[1]</value>
+      <webElementGuid>516034f0-935f-49c8-ae08-94f5d0227f1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[4]/following::button[1]</value>
+      <webElementGuid>c1b64049-9ff9-434b-8dc8-906d1787602e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div[2]/div/button</value>
+      <webElementGuid>eb78cfbc-dc2d-41fa-b561-f50203eced84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
+      <webElementGuid>7c79135f-3ece-493e-92ef-4cb5a07bbf29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

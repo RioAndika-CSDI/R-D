@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP005 - Edit Leads Form PDP for User Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fac2bfcf-f1d3-4933-adb7-78572af9be2d</testCaseGuid>
+   <variable>
+      <defaultValue>'All New Ayla'</defaultValue>
+      <description></description>
+      <id>bf17c50d-97c1-4398-9527-60c4a48b8cba</id>
+      <masked>false</masked>
+      <name>CarName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nama Testing'</defaultValue>
+      <description></description>
+      <id>a771b86d-db11-4250-9856-d6f43aa26be9</id>
+      <masked>false</masked>
+      <name>NamaLengkap</name>
+   </variable>
+</TestCaseEntity>
