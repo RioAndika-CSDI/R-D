@@ -4,5 +4,6 @@
    <name>REF009-Homepage-Masuk ke halaman camera (user upload)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>51e2657c-51c5-4bb4-bf0e-f98fc8f89d2c</testCaseGuid>
 </TestCaseEntity>

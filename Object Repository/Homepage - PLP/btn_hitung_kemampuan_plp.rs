@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
+         <value>//*[@data-testid = 'button-hitung-kemampuan-plp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;cardetailcard_container__ydHQ5&quot;][1]//*[@data-testid=&quot;button-hitung-kemampuan-plp&quot;]</value>
-      <webElementGuid>e713bca2-c637-4adc-a745-a159b6020d1e</webElementGuid>
+      <webElementGuid>16606da6-56a6-47ca-b238-ebeb340e65e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>button-hitung-kemampuan-plp</value>
+      <webElementGuid>40831d69-f3bc-4e01-8004-5bd42cd607a6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

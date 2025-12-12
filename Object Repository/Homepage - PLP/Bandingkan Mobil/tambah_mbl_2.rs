@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][2]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='carComparisonPageContent-module__-c6buG__container']//button[1]//div[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;carComparisonEmptyItemCard_container__fduy7&quot;][2]</value>
-      <webElementGuid>6b37967b-5e80-40d7-a4ae-3f5b5a6d0f75</webElementGuid>
+      <webElementGuid>0c7033e3-2cf8-4427-8ce7-c0a885f014aa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

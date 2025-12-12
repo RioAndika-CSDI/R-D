@@ -19,52 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
+WebUI.maximizeWindow()
 
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_cari_mobil_cta'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
-
-WebUI.waitForElementPresent(findTestObject('Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'), 0)
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_filter_mobil'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_detail_mobil'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/filter_detail_mobil'), 30)
 
 // Filter Merek Toyota
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_merek_toyota'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
+WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_maks_dp'), '85000000')
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_input_pendapatan'), '25000000')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_filter_mobil_2'))
+WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/kategori_umur_18_27'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_atur_ulang'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_terapkan'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/btn_merek_toyota'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage - PLP/Filter Mobil PLP/field_maks_dp'), 0)
 
 WebUI.closeBrowser()
 

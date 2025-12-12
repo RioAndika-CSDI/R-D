@@ -17,36 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('seva.id')
+WebUI.openBrowser(GlobalVariable.Prod)
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
+WebUI.maximizeWindow()
 
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
+WebUI.click(findTestObject('Object Repository/Page_SEVA (sevaid_official)  X/Page_SEVA - Beli Mobil Baru Dengan Cicilan _bf97c5/button_Cari Mobil Baru'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Sorting Harga Mobil/sorting_harga'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Sorting Harga Mobil/sorting_harga_terendah'))
 
 WebUI.closeBrowser()
+

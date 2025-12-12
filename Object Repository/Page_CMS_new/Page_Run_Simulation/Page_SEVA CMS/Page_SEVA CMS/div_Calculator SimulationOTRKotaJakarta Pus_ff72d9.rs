@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Calculator SimulationOTRKotaJakarta Pus_ff72d9</name>
+   <tag></tag>
+   <elementGuidId>67bd2f87-7991-4884-8170-bd73fe68f96b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>53d6c396-2b6f-415b-850b-05cf1c245762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs grid grid-cols-10 gap-y-2 overflow-visible p-4</value>
+      <webElementGuid>7a22a8ca-f8f2-4f06-908e-5050f0f59feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Calculator SimulationOTR*Kota*Jakarta PusatTipe Asuransi*Tenor 1Full Total Loss OnlyTenor 21 Tahun Comprehensive + 1 Tahun TLOTenor 3Full Total Loss OnlyTenor 4Full Total Loss OnlyTenor 5[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select...Proteksi Kredit*YesNoTJH*YesNoUse Promo*YesNoResetRun Simulation</value>
+      <webElementGuid>da19a023-f813-4899-92de-59c6ce2c3949</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-5 flex flex-col gap-5&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs grid grid-cols-10 gap-y-2 overflow-visible p-4&quot;]</value>
+      <webElementGuid>05e975c3-82d0-4a5f-b45f-ae6511a82624</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div[2]/div[2]</value>
+      <webElementGuid>38759668-a08a-4679-b358-360d8ecbb258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[4]</value>
+      <webElementGuid>7af7fbbc-42c0-4701-b58b-1c2823154e93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calculator URL'])[1]/following::div[8]</value>
+      <webElementGuid>5963fecd-c9bc-406b-bafd-209cc3f2d3b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>0709524c-92a7-44a6-bc30-c467d617eddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Calculator SimulationOTR*Kota*Jakarta PusatTipe Asuransi*Tenor 1Full Total Loss OnlyTenor 21 Tahun Comprehensive + 1 Tahun TLOTenor 3Full Total Loss OnlyTenor 4Full Total Loss OnlyTenor 5[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select...Proteksi Kredit*YesNoTJH*YesNoUse Promo*YesNoResetRun Simulation' or . = 'Calculator SimulationOTR*Kota*Jakarta PusatTipe Asuransi*Tenor 1Full Total Loss OnlyTenor 21 Tahun Comprehensive + 1 Tahun TLOTenor 3Full Total Loss OnlyTenor 4Full Total Loss OnlyTenor 5[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}Select...Proteksi Kredit*YesNoTJH*YesNoUse Promo*YesNoResetRun Simulation')]</value>
+      <webElementGuid>6386422e-6668-4601-90d6-8a06ca8ebd32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

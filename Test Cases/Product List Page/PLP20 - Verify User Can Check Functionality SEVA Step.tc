@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP20 - Verify User Can Check Functionality SEVA Step</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c2a550b-62da-49c2-88da-2e5c31dc5a3d</testCaseGuid>
+</TestCaseEntity>

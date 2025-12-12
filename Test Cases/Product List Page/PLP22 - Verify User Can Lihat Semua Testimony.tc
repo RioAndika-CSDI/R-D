@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLP22 - Verify User Can Lihat Semua Testimony</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>deb7f585-63af-4bcc-b987-610c20a0a395</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8441d325-fbc5-4cb2-8c44-24a864dc7980</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.seva.id/cerita-pengguna'</defaultValue>
+      <description></description>
+      <id>8441d325-fbc5-4cb2-8c44-24a864dc7980</id>
+      <masked>false</masked>
+      <name>xpt_Url</name>
+   </variable>
+</TestCaseEntity>

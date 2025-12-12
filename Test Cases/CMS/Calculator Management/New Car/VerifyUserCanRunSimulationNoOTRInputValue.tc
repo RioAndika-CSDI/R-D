@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserCanRunSimulationNoOTRInputValue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c398802-4305-4207-b839-a29a0c279532</testCaseGuid>
+</TestCaseEntity>

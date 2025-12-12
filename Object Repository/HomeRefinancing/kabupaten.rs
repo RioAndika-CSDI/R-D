@@ -7,17 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class, 'inputSelect_dropdownItemRefinancingCity')]</value>
+         <value>//*[starts-with(@class, 'inputSelect-module__gaCRbW__dropdownItemRefinancingCity') and @id = 'Bangli']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputSelect_dropdownItemRefinancingCity</value>
-      <webElementGuid>a788c1fb-cea7-4b9a-8620-ab87077b74a2</webElementGuid>
+      <value>inputSelect-module__gaCRbW__dropdownItemRefinancingCity</value>
+      <webElementGuid>f317512f-1511-4133-ad61-047b766b2bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Bangli</value>
+      <webElementGuid>a749a5fb-dcd9-462c-ada1-37c30da726a2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

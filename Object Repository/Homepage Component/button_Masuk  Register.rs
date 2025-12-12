@@ -17,6 +17,10 @@
          <key>BASIC</key>
          <value>//button[normalize-space()='Masuk / Register'][count(. | //*[starts-with(@class, 'button_secondary') and (text() = 'Masuk / Register' or . = 'Masuk / Register')]) = count(//*[starts-with(@class, 'button_secondary') and (text() = 'Masuk / Register' or . = 'Masuk / Register')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>div[class='headerDesktop_right__JCy6J'] button[class='button_secondary___MM2b button_small__Hm8QP undefined']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -38,7 +42,7 @@
       <webElementGuid>7f5046aa-d471-4a49-87cc-2e88b4940f89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -46,7 +50,7 @@
       <webElementGuid>6e23e8f5-2769-4868-91e3-d827ac7f2761</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

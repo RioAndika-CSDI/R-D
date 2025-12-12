@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Cara Mudah Pengajuan Pinjaman' or . = 'Cara Mudah Pengajuan Pinjaman')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='di sini']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Cara Mudah Pengajuan Pinjaman</value>
-      <webElementGuid>27cf5c6c-4f6a-4768-9612-8835b1531ce9</webElementGuid>
+      <webElementGuid>79c58ace-2bd7-4647-a938-ea8697754394</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

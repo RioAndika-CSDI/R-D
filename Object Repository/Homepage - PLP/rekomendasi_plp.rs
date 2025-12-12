@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>rekomendasi_plp</name>
+   <tag></tag>
+   <elementGuidId>55bd2652-09ec-4933-9850-60f9143349aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class = 'lpCarRecommendations-module__PmpaiG__titleDesktop']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lpCarRecommendations-module__PmpaiG__titleDesktop</value>
+      <webElementGuid>13ac996f-a3ef-4238-87a0-cc08d6554f7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>1f3767b9-9785-46a8-bdce-60cecb9cb711</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

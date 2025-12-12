@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
+         <value>//*[@class = 'inputSelect-module__gaCRbW__inputArea']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +16,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>//*[@class=&quot;inputSelect_inputArea__QvNq3&quot;]</value>
-      <webElementGuid>ae63363a-27d1-44f4-9165-152e5a84f450</webElementGuid>
+      <value>inputSelect-module__gaCRbW__inputArea</value>
+      <webElementGuid>db540794-96cf-4f3f-a916-7a22c94f48ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -20,37 +20,17 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
+WebUI.maximizeWindow()
 
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
+WebUI.scrollToElement(findTestObject('Homepage Component/Promo Eksklusif'), 2)
 
 WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/seva_search_icon'))
-
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/lihat_semua_mbl_baru'))
+WebUI.click(findTestObject('Homepage Component/bottom_widget_cari_mobil_cta'))
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/bandingkan_mobil'))
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/tambah_mbl_1'))
-
-CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
+WebUI.verifyElementPresent(findTestObject('PLP - Desktop Mode/bandingkan_mobil_popup'), 0)
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/pilih_model_mbl'))
 
@@ -68,16 +48,18 @@ WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/dr
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/btn_pilih_mobil'))
 
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/Bandingkan Mobil/btn_bandingkan'))
+
+WebUI.delay(6)
 
 String currentUrl = WebUI.getUrl()
 
 String expectedUrl = 'https://www.seva.id/mobil-baru/bandingkan-mobil/hasil/jakarta-pusat/3-series-320i-sport-a6e5a85b-cd84-477f-afe7-88fbc699470e&320i-sport-bmw320isport-81063752-cf24-4eb9-bbad-8f382c256b5e/all-new-ayla-5f96c023-35e4-4d1b-b1ee-34984cf7f410&10-m-mt-a350rs-gmrej-t9-4b83d64e-943c-48e5-8da1-0969549c7kl3'
 
 if (currentUrl == expectedUrl) {
-		KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
 }
 
 WebUI.closeBrowser()

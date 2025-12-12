@@ -20,38 +20,23 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('seva.id')
 
-WebUI.click(findTestObject('Object Repository/Homepage - PLP/label_menemani_perjalanan_finansial'))
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Promo Selengkapnya'))
-} catch (Exception e) {
-    println("Popup Promo Selengkapnya tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'close_Popup.Close_popup_update.closePopupSeva'(8)
-} catch (Exception e) {
-    println("Popup Update Seva tidak muncul, dilewati.")
-}
-
-try {
-    CustomKeywords.'ignore_warning_optional.ignore_warning.clickIgnoreWarning'(findTestObject('Homepage - PLP/button_Nanti Saja_Popup Pilih Lokasi'))
-} catch (Exception e) {
-    println("Popup Pilih Lokasi tidak muncul, dilewati.")
-}
-
-WebUI.click(findTestObject('Page_Temukan Dealer Mobil Baru Rekanan SEVA di Indonesia  SEVA/click terima'))
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/header_mbl_baru'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Homepage - PLP/header_mbl_baru_lihat_semua_mbl'))
+
+WebUI.delay(10)
 
 String currentUrl = WebUI.getUrl()
 
 String expectedUrl = 'https://www.seva.id/mobil-baru'
 
 if (currentUrl == expectedUrl) {
-		KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
+    KeywordUtil.markPassed('User is on the expected page: ' + currentUrl)
 }
 
 WebUI.closeBrowser()
+

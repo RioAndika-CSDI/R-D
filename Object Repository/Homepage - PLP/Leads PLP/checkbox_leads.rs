@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/button</value>
+         <value>//div[@class='agreement-module__85S08W__agreementTermsDesktop agreement-module__85S08W__primary false false']//button//*[name()='svg']//*[name()='rect']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class=&quot; agreement_agreementTerms__kLT2Y agreement_primary__Ti2TE&quot;]/button</value>
-      <webElementGuid>36e8f4d8-5a91-4c11-876b-8f113ea31c39</webElementGuid>
+      <value>//div[@class='agreement-module__85S08W__agreementTermsDesktop agreement-module__85S08W__primary false false']//button//*[name()='svg']//*[name()='rect']</value>
+      <webElementGuid>4b534b9a-4a3a-4a99-b47a-41a2ff68ddd9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

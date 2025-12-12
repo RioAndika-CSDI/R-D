@@ -7,17 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@class='input_input__c0tP8 input_inputDesktop__DssAr']</value>
+         <value>//*[@data-test-id = 'field-input-leads-nama-lengkap']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@class='input_input__c0tP8 input_inputDesktop__DssAr']</value>
-      <webElementGuid>6b952049-0c99-4e2e-9488-659105327b58</webElementGuid>
+      <webElementGuid>921060c6-f845-4025-9288-ac910d8d2c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>field-input-leads-nama-lengkap</value>
+      <webElementGuid>7b593d61-8d45-432e-96ad-37cb1c78530c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

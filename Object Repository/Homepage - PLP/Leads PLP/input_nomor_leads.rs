@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;inputPhone_input__4xYEC false &quot;]</value>
+         <value>//*[@data-test-id = 'field-input-leads-nomor-hp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;inputPhone_input__4xYEC false &quot;]</value>
-      <webElementGuid>7356bf23-01ef-474c-8307-f3966c3f6254</webElementGuid>
+      <webElementGuid>a00836ce-3410-4472-881f-0113a6ab3481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>field-input-leads-nomor-hp</value>
+      <webElementGuid>a45a703a-5209-4c58-b07c-56cf0c4b1038</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

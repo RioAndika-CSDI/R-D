@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;navigationfiltermobile_navFrame__kFhtO&quot;]</value>
+         <value>//*[@data-testid = 'text-jumlah-mobil-plp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;navigationfiltermobile_navFrame__kFhtO&quot;]</value>
-      <webElementGuid>f9b4dc63-6522-403a-9b85-266fc5d3ae25</webElementGuid>
+      <webElementGuid>caa454c6-c6f7-47ce-a90c-cfd65fde3d9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>text-jumlah-mobil-plp</value>
+      <webElementGuid>2cc5fda6-ffc9-4143-afa5-0d5ac4953e03</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

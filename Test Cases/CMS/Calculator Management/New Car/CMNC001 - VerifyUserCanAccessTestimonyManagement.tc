@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMNC001 - VerifyUserCanAccessTestimonyManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0cfd4bf-e2e0-40ee-9b87-f6e5f8987ffc</testCaseGuid>
+</TestCaseEntity>

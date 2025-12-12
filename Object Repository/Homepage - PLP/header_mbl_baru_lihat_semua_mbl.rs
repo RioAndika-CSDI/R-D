@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>(//*[@class=&quot;popupMenuItem_menuItem__xKY4k&quot;])[1]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='navbarDesktop-module__anMNXa__popupContainer navbarDesktop-module__anMNXa__popupVisible']//a[@class='popupMenuItem-module__QmNi2a__menuItem'][normalize-space()='Lihat Semua Mobil']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@class=&quot;popupMenuItem_menuItem__xKY4k&quot;])[1]</value>
-      <webElementGuid>a11528d5-d8f8-4d60-8a27-0762601f5a9d</webElementGuid>
+      <webElementGuid>71ce7669-9900-4cb9-bfe8-c16ab6dd2c7f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
