@@ -4,5 +4,6 @@
    <name>REF011-Homepage-lihat panduan unggah (user)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4f98e4b5-96fc-4eb3-a3dd-062829cf9859</testCaseGuid>
 </TestCaseEntity>

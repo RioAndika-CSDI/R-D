@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Product Detail Page/PDP001 - Access PDP From PLP'), [('CarName') : 'All New Ayla'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage - PDP/Syarat dan Ketentuan'), 0)
+WebUI.scrollToElement(findTestObject('Homepage - PDP/h2_Title Leads PDP'), 0)
 
 WebUI.click(findTestObject('Homepage - PDP/Syarat dan Ketentuan'))
 

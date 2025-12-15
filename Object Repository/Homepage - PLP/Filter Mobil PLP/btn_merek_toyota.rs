@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;logo-toyota&quot;]</value>
+         <value>//*[@data-testid = 'logo-toyota']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class=&quot;formSelectBrandCar_gridContainer__lkuKW&quot;]//*[@data-testid=&quot;logo-toyota&quot;]</value>
-      <webElementGuid>136cd95d-732c-4b5b-a072-6d79dae6d356</webElementGuid>
+      <webElementGuid>c9bd37f9-c210-4ab1-a68c-bb160b46a160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>logo-toyota</value>
+      <webElementGuid>b6ff791c-c71d-47fb-8a9f-cda360c0a031</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

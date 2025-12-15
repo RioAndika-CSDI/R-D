@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>5718bbd9-cf8d-47c2-8d57-a4b8202c2e4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>e8ddfa87-611b-4343-b2a1-c51dfb4ca92f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z</value>
+      <webElementGuid>751b7889-be0d-4caf-84ea-444e23be84dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;overflow-hidden rounded-lg shadow-card border border-line relative w-full gap-x-3 overflow-x-auto scrollbar-thin scrollbar-track-gray-50 scrollbar-thumb-gray-200 scrollbar-corner-line dark:scrollbar-track-gray-700&quot;]/div[@class=&quot;w-full overflow-x-auto bg-white dark:bg-gray-800&quot;]/table[@class=&quot;w-full whitespace-nowrap text-sm&quot;]/tbody[@class=&quot;bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-primaryDarkGray dark:text-gray-400&quot;]/tr[@class=&quot;group hover:bg-gray-50 dark:hover:bg-gray-600&quot;]/td[@class=&quot;px-4 py-3 sticky right-0 bg-white group-hover:bg-[#f9fafb] dark:bg-gray-800 dark:group-hover:bg-gray-600&quot;]/button[@class=&quot;flex w-full min-w-[40px] justify-end truncate text-left&quot;]/div[@class=&quot;flex w-full justify-end&quot;]/div[@class=&quot;flex w-full items-center justify-end gap-x-2&quot;]/a[@class=&quot;flex w-full justify-end&quot;]/button[@class=&quot;align-bottom inline-flex items-center justify-center leading-5 transition-colors duration-150 font-medium rounded-lg text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-primary-300 focus:ring-opacity-40 focus:ring p-1&quot;]/svg[@class=&quot;h-5 w-5&quot;]/path[1]</value>
+      <webElementGuid>6c040981-c401-45f3-9fea-e4da5a2a5be3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_dokumen</name>
+   <tag></tag>
+   <elementGuidId>37aee788-5eda-4be2-95e0-be282d4a83ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'emptyUploadRefinancing-module__gzDgWW__buttonframe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>emptyUploadRefinancing-module__gzDgWW__buttonframe</value>
+      <webElementGuid>c094a13d-4e4d-4efe-bb19-bcc36c0bcc55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cfb02493-fde2-4679-a4bf-36ba5892935b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

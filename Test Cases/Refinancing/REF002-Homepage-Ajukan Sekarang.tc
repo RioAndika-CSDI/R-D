@@ -4,56 +4,57 @@
    <name>REF002-Homepage-Ajukan Sekarang</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>81bc4588-9787-4158-91d4-ffec250ce7da</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0e2a203-7544-4303-814e-2be90127eb75</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ca0278d4-d55a-4ef6-9d26-be56740e4ad9</variableId>
+      <variableId>44dfccc8-34a3-437b-b00b-16ed7af20c0a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8fba1c6f-7808-42bf-bf74-acef466a798f</variableId>
+      <variableId>631494b9-69e5-48ab-8cfd-c11c1c1726a4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>10ccaa3b-1009-42f4-b125-bc8d9c7b6ba0</variableId>
+      <variableId>cdea961a-cb8c-48c6-b76d-bfd8edb038da</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d388d065-c4b5-47bc-8f0d-94fe986c27de</variableId>
+      <variableId>72dab12d-675d-42d1-8b06-a8e4c19c1991</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://www.seva.id/fasilitas-dana'</defaultValue>
       <description></description>
-      <id>ca0278d4-d55a-4ef6-9d26-be56740e4ad9</id>
+      <id>44dfccc8-34a3-437b-b00b-16ed7af20c0a</id>
       <masked>false</masked>
       <name>expected_url</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>8fba1c6f-7808-42bf-bf74-acef466a798f</id>
+      <id>631494b9-69e5-48ab-8cfd-c11c1c1726a4</id>
       <masked>false</masked>
       <name>open_browser</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>10ccaa3b-1009-42f4-b125-bc8d9c7b6ba0</id>
+      <id>cdea961a-cb8c-48c6-b76d-bfd8edb038da</id>
       <masked>false</masked>
       <name>close_browser</name>
    </variable>
    <variable>
       <defaultValue>'212121'</defaultValue>
       <description></description>
-      <id>d388d065-c4b5-47bc-8f0d-94fe986c27de</id>
+      <id>72dab12d-675d-42d1-8b06-a8e4c19c1991</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>
