@@ -60,72 +60,70 @@ WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/dropdown_cit
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/input_city_run_simulation'), 'Jakarta Pusat')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_city_run_simulation'), 'Jakarta Pusat')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Jakarta Pusat'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Jakarta Pusat'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor1'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor1'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Full Comprehensive_Tenor1'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Full Comprehensive_Tenor1'))
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor2'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor2'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor2'), 
+WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor2'), '1 tahun comprehensive')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/value_asuransi_tenor2_1TahunComprehensive1TahunTLO'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor3'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor3'), 
     '1 tahun comprehensive')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/value_asuransi_tenor2_1TahunComprehensive1TahunTLO'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/value_asuransi_tenor3_1TahunComprehensive2TahunTLO'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor3'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor4'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor3'), 
+WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor4'), 
     '1 tahun comprehensive')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/value_asuransi_tenor3_1TahunComprehensive2TahunTLO'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor4'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor4'), 
-    '1 tahun comprehensive')
-
-WebUI.delay(5)
-
-//WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/input_Tenor4_search'), '3 tahun com')
+//WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_Tenor4_search'), '3 tahun com')
 //
 //WebUI.delay(5)
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/value_asuransi_tenor4_1TahunComprehensive3TahunTLO'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/value_asuransi_tenor4_1TahunComprehensive3TahunTLO'))
 
 WebUI.delay(5)
 
-//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button__proteksiTrue'))
+//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button__proteksiTrue'))
 //
-//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button__useTjhYes'))
+//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button__useTjhYes'))
 //
-//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button__promoTrue'))
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button_Run Simulation'))
+//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button__promoTrue'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button_Run Simulation'))
 
-//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button_Reset'))
+//WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button_Reset'))
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/h2_Simulation Result'), 0)
+WebUI.scrollToElement(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/h2_Simulation Result'), 0)
+
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/h2_Simulation Result'), 0)
-
-
+WebUI.verifyElementPresent(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/h2_Simulation Result'), 0)
 
 WebUI.closeBrowser()
 
