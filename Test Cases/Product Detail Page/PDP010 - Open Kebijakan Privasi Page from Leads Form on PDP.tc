@@ -6,6 +6,12 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5fd3f5c2-d493-4e7f-a907-a61a6c022d36</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9dcea472-48e3-44b1-bc79-4cdedf64405f</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'All New Ayla'</defaultValue>
       <description></description>

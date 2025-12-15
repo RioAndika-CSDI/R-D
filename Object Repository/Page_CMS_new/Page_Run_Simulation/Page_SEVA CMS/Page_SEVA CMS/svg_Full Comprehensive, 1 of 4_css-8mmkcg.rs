@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Full Comprehensive, 1 of 4_css-8mmkcg</name>
+   <tag></tag>
+   <elementGuidId>532fb607-4cbd-4877-b2b1-a6ab7f889fb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive, 1 of 4.'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.my-react-select__indicator.my-react-select__dropdown-indicator.css-15lsz6c-indicatorContainer > svg.css-8mmkcg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>6623be11-4180-4d06-aed3-c6cde8277851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>912007f9-9b84-4a31-ab1c-0548aad10551</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>ce788139-7531-460d-b767-c0cef37a30d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+      <webElementGuid>fe903e6c-d3c7-41f3-9158-b63288954069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>81915f55-82f4-4152-81ad-44756b3016dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>95e134a2-1b24-42f4-ada6-77160a5cb95b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-8mmkcg</value>
+      <webElementGuid>99650a9c-fe5e-40d6-bfa6-44b6ac27bb23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;mx-auto grid w-full gap-4 px-6 lg:gap-0&quot;]/div[@class=&quot;mb-5 flex flex-col gap-5&quot;]/div[@class=&quot;min-w-0 rounded-lg border border-line shadow-card bg-white dark:bg-gray-800 shadow-xs grid grid-cols-10 gap-y-2 overflow-visible p-4&quot;]/div[@class=&quot;col-span-9 flex w-full items-start justify-between gap-2&quot;]/div[@class=&quot;flex w-full flex-col justify-center gap-2&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;text-sm text-neutral-700 css-b62m3t-container&quot;]/div[@class=&quot;my-react-select__control my-react-select__control--is-focused my-react-select__control--menu-is-open css-ss11ho-control&quot;]/div[@class=&quot;my-react-select__indicators css-1wy0on6&quot;]/div[@class=&quot;my-react-select__indicator my-react-select__dropdown-indicator css-15lsz6c-indicatorContainer&quot;]/svg[@class=&quot;css-8mmkcg&quot;]</value>
+      <webElementGuid>5b910901-2bed-4a10-9170-61b31202d356</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive, 1 of 4.'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>ec97075c-5c64-45b9-872e-6a2be0622d0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='option 2 Tahun Comprehensive + 1 Tahun TLO, selected.'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>84547068-14ef-4679-866c-69c517eae6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Comprehensive'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>e5b5947b-2c85-4dea-91c8-55dfee3610d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Total Loss Only'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>20a77820-fd11-4c4b-bfe7-2e0f438bcdbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

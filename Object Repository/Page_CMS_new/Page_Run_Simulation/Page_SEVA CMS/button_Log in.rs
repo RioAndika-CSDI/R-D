@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Log in</name>
+   <tag></tag>
+   <elementGuidId>22644caf-3e90-421f-a202-a40626c598c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>834681f2-db78-4344-9f54-17ea1b17b1f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring w-full mt-4</value>
+      <webElementGuid>5ea2517a-d6e8-41dd-a0f4-de57c3e7cc11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>9d3ca432-393a-44ee-a42f-eb104ff2e5ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Log in</value>
+      <webElementGuid>add74173-be74-4736-b9a3-0e9a4c7ddd0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen items-center bg-gray-50 p-6 dark:bg-gray-900&quot;]/div[@class=&quot;mx-auto h-full max-w-4xl flex-1 overflow-hidden rounded-lg bg-white shadow-xl dark:bg-gray-800&quot;]/div[@class=&quot;flex flex-col overflow-y-auto md:flex-row&quot;]/main[@class=&quot;flex items-center justify-center p-6 sm:p-12 md:w-1/2&quot;]/div[@class=&quot;w-full&quot;]/form[1]/button[@class=&quot;align-bottom inline-flex items-center justify-center transition-colors duration-150 font-medium px-4 py-2 rounded-lg text-sm text-white bg-primary-600 border border-transparent hover:bg-primary-700 focus:border-transparent focus:ring-primary-300 focus:ring-opacity-40 focus:outline-none focus:ring w-full mt-4&quot;]</value>
+      <webElementGuid>f06419de-f934-45ff-8165-5065b123ebe7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>d44c7bf9-f2e6-4d54-90ef-b1114fdda9d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/main/div/form/button</value>
+      <webElementGuid>faf0c6db-80e2-41be-a12d-a1a44029a8e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</value>
+      <webElementGuid>8e5ce9ab-32fc-4f5a-8379-705d023734e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
+      <webElementGuid>4e86fa22-7c1d-49f0-a9dd-36c112c99d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/preceding::button[1]</value>
+      <webElementGuid>a7777ba2-1456-448d-b96a-9b76ff95872c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>e12cea45-d0a8-4481-92f1-a7ceca484999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>b83ee182-258a-4d3c-b36e-252406d99aea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Log in' or . = ' Log in')]</value>
+      <webElementGuid>ea8049ce-e751-420a-82ee-c0124b57a102</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
