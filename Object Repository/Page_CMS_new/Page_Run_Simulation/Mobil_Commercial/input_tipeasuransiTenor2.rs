@@ -6,12 +6,12 @@
    <elementGuidId>e2375219-6733-467c-8095-bdf931a6a43a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='react-select-54-input']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#react-select-54-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='react-select-54-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

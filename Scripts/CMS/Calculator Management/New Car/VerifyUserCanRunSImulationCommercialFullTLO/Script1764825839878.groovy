@@ -60,61 +60,61 @@ WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/dropdown_cit
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/input_city_run_simulation'), 'Jakarta Pusat')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_city_run_simulation'), 'Jakarta Pusat')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Jakarta Pusat'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Jakarta Pusat'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor1'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor1'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Full Total Loss Only_Tenor1'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Full Total Loss Only_Tenor1'))
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor2'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor2'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor2'), 
+WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor2'), 
     'full total loss only')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Full Total Loss Only_Tenor2'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Full Total Loss Only_Tenor2'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor3'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor3'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor3'), 
+WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor3'), 
     'full total loss only')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Full Total Loss Only_Tenor3'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Full Total Loss Only_Tenor3'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Select_Tenor4'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Select_Tenor4'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/Page_SEVA CMS/input_tipeasuransiTenor4'), 
+WebUI.setText(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_tipeasuransiTenor4'), 
     'full total loss only')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Full Total Loss Only_Tenor4'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Full Total Loss Only_Tenor4'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button_Run Simulation'))
+WebUI.click(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button_Run Simulation'))
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/h2_Simulation Result'), 0)
+WebUI.scrollToElement(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/h2_Simulation Result'), 0)
 
 WebUI.delay(5)
-WebUI.verifyElementPresent(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/h2_Simulation Result'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/h2_Simulation Result'), 0)
 
 WebUI.closeBrowser()
 

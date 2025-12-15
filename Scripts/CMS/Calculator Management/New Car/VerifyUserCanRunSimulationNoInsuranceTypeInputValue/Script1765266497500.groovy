@@ -60,14 +60,14 @@ WebUI.click(findTestObject('Page_CMS_new/Page_Calculator_Management/dropdown_cit
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/input_city_run_simulation'), 'Jakarta Pusat')
+WebUI.setText(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/input_city_run_simulation'), 'Jakarta Pusat')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/div_Jakarta Pusat'))
+WebUI.click(findTestObject('Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/div_Jakarta Pusat'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Page_SEVA CMS/button_Run Simulation'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_CMS_new/Page_Run_Simulation/Mobil_Commercial/button_Run Simulation'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
