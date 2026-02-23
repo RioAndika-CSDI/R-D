@@ -1,25 +1,14 @@
-name: Cypress Automation Test
+name: Seva Cypress Automation Test
 
 on:
-  # 🚀 Push ke main → trigger (merge dari QA branch setelah fix)
   push:
-    branches: [Seva_2.0_Web_Cypress]
-
-  # 🔀 Pull Request ke main → trigger saat QA buat PR dari branch fix
+    branches: [ Seva_2.0_web_cypress ]
   pull_request:
-    branches: [Seva_2.0_Web_Cypress]
-
-  # 🖐 Manual trigger
+    branches: [ Seva_2.0_web_cypress ]
   workflow_dispatch:
-
-  # ✅ STEP 2 — SCHEDULER (DITAMBAHKAN DI SINI)
   schedule:
-   #- cron: '0 1 * * *'   # 08:00 WIB (UTC+7)
-   #- cron: '40 20 * * *'
-      - cron: '0 23 * * 0-5'
-      - cron: '0 5 * * 1-6'
-      #- cron: '*/5 * * * *'
-
+    - cron: '0 23 * * 0-5'  # Senin-Sabtu 06:00 WIB
+    - cron: '0 5 * * 1-6'   # Senin-Sabtu 12:00 WIB
 
 jobs:
   cypress-run:
@@ -27,13 +16,13 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Seva_2.0_Web_Cypress"
+        working-directory: "Seva 2.0 - Web Cypress"
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: "Seva 2.0 - Web Cypress"
+          ref: Seva_2.0_web_cypress
 
       - name: Detect trigger & start time
         run: |
