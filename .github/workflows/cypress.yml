@@ -166,44 +166,6 @@ jobs:
           echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          # Debug: lihat baris yang mengandung ✖ dan .cy.js
-          echo "=== RAW LINES WITH ✖ ==="
-          grep "✖" cypress-output.txt | grep "\.cy\.js" || echo "(none found)"
-
-          # Attempt 1: baris tabel dengan box-drawing character │
-          FAILED_SPECS=$(grep -E "│.+✖" cypress-output.txt \
-            | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-            | sed "s/\.cy\.js$//" \
-            | sort -u)
-
-          # Attempt 2: semua baris dengan ✖ dan .cy.js (tanpa filter karakter │)
-          if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep "✖" cypress-output.txt \
-              | grep "\.cy\.js" \
-              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-              | sed "s/\.cy\.js$//" \
-              | sort -u)
-          fi
-
-          # Attempt 3: dari section "Failing:" — Cypress print path lengkap di sini
-          if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(awk '/Failing:/{p=1} p && /\.cy\.js/{print}' cypress-output.txt \
-              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-              | sed "s/\.cy\.js$//" \
-              | sort -u)
-          fi
-
-          # Attempt 4: dari baris "  X passing" / "  X failing" section header lalu ambil spec sebelumnya
-          if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -B5 "passing\|failing" cypress-output.txt \
-              | grep "\.cy\.js" \
-              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-              | sed "s/\.cy\.js$//" \
-              | sort -u)
-          fi
-
-          echo "=== FAILED SPECS: $FAILED_SPECS ==="
-
           # Parse describe + test title dari section failing
           FAILED_TESTS_PARSED=$(awk '
             /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
@@ -219,6 +181,50 @@ jobs:
 
           echo "=== FAILED TESTS PARSED ==="
           echo "$FAILED_TESTS_PARSED"
+
+          # Rekonstruksi nama spec dari tabel multiline Cypress
+          # Baris pertama: "│ ✖  LeadsForm/TC001_Xxx...  " (terpotong)
+          # Baris lanjutan: "│    ...lanjutan nama..."
+          # Sampai ketemu ".cy.js"
+          FAILED_SPECS=$(awk '
+            /│[[:space:]]+✖/ {
+              # mulai tangkap nama spec, ambil teks setelah ✖
+              line=$0
+              gsub(/.*✖[[:space:]]+/, "", line)   # buang prefix sampai setelah ✖
+              gsub(/[[:space:]]+[0-9].*$/, "", line) # buang kolom angka di belakang
+              gsub(/[[:space:]]+$/, "", line)
+              buf=line
+              if (buf ~ /\.cy\.js$/) {
+                gsub(/\.cy\.js$/, "", buf)
+                print buf
+                buf=""
+              }
+              capturing=1
+              next
+            }
+            capturing==1 && /│[[:space:]]+[✔✖]/ {
+              # baris spec baru, reset
+              capturing=0; buf=""
+            }
+            capturing==1 && /│/ {
+              # baris lanjutan nama spec
+              line=$0
+              gsub(/^[^│]*│[[:space:]]+/, "", line)  # buang prefix │
+              gsub(/[[:space:]]+$/, "", line)
+              buf=buf line
+              if (buf ~ /\.cy\.js/) {
+                gsub(/\.cy\.js.*$/, "", buf)
+                print buf
+                buf=""
+                capturing=0
+              }
+              next
+            }
+            capturing==1 && !/│/ { capturing=0; buf="" }
+          ' cypress-output.txt | sort -u)
+
+          echo "=== FAILED SPECS: ==="
+          echo "$FAILED_SPECS"
 
           echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
           echo "$FAILED_SPECS"             >> $GITHUB_ENV
