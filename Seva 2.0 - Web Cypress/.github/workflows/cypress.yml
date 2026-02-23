@@ -3,11 +3,11 @@ name: Cypress Automation Test
 on:
   # 🚀 Push ke main → trigger (merge dari QA branch setelah fix)
   push:
-    branches: [ Seva_2.0_Web_Cypress ]
+    branches: [seva-2.0]
 
   # 🔀 Pull Request ke main → trigger saat QA buat PR dari branch fix
   pull_request:
-    branches: [ Seva_2.0_Web_Cypress ]
+    branches: [seva-2.0]
 
   # 🖐 Manual trigger
   workflow_dispatch:
