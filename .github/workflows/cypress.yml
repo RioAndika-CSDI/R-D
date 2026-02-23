@@ -60,8 +60,9 @@ jobs:
       - name: Strip ANSI color codes
         if: always()
         run: |
-          touch cypress-raw.txt
-          sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
+          touch "Seva 2.0 - Web Cypress/cypress-raw.txt"
+          sed 's/\x1B\[[0-9;]*[mKHF]//g' "Seva 2.0 - Web Cypress/cypress-raw.txt" > "Seva 2.0 - Web Cypress/cypress-output.txt"
+        working-directory: "."
 
       # ============================================================
       # ALLURE
