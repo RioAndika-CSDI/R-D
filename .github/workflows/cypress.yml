@@ -156,7 +156,8 @@ jobs:
           CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
           echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
 
-          TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results"
+          TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
+
           if [ -z "$CYPRESS_RUN_URL" ]; then
             TEST_RESULTS_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
           fi
@@ -166,15 +167,14 @@ jobs:
 
           F="cypress-output.txt"
 
-          # Ambil hanya nama file spec yang gagal
           FAILED_SPECS=$(grep -E "│\s+✖" "$F" \
             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
             | sed "s/\.cy\.js$//" \
             | sort -u)
 
-          # fallback: jika grep pertama gagal
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep "✖" "$F" \
+            FAILED_SPECS=$(grep -E "✖" "$F" \
+              | grep "\.cy\.js" \
               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
               | sed "s/\.cy\.js$//" \
               | sort -u)
@@ -182,13 +182,24 @@ jobs:
 
           echo "=== FAILED SPECS: $FAILED_SPECS ==="
 
-          echo "FAILED_SPECS<<EOF" >> $GITHUB_ENV
-          echo "$FAILED_SPECS"     >> $GITHUB_ENV
-          echo "EOF"               >> $GITHUB_ENV
+          FAILED_TESTS_PARSED=$(awk '
+            /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
+            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
+              line=$0; gsub(/^[[:space:]]+/, "", line); describe_line=line; next
+            }
+            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line!="" && test_line=="" {
+              line=$0; gsub(/^[[:space:]]+/, "", line); gsub(/:$/, "", line)
+              test_line=line; print describe_line "|" test_line; in_block=0
+            }
+            /^[[:space:]]*$/ && in_block==1 { in_block=0 }
+          ' "$F")
 
-          # Tidak lagi menggunakan parsing describe/it
+          echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
+          echo "$FAILED_SPECS"             >> $GITHUB_ENV
+          echo "EOF"                       >> $GITHUB_ENV
+
           echo "FAILED_TESTS_PARSED<<EOF" >> $GITHUB_ENV
-          echo ""                        >> $GITHUB_ENV
+          echo "$FAILED_TESTS_PARSED"     >> $GITHUB_ENV
           echo "EOF"                      >> $GITHUB_ENV
 
       # ============================================================
@@ -227,16 +238,21 @@ jobs:
           fi
 
           CLOUD_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
-          DISPLAY_URL="${CYPRESS_RUN_URL:-$CLOUD_URL}"
+          if [ -n "$CYPRESS_RUN_URL" ]; then
+            DISPLAY_URL="$CYPRESS_RUN_URL"
+          else
+            DISPLAY_URL="$CLOUD_URL"
+          fi
 
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
           # =============================
-          # Test Suite / Spec yang gagal
+          # Test Suite
           # =============================
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
+              | sed 's|/[^/]*$||' \
               | sort -u \
               | sed 's/^/• /')
           else
@@ -244,24 +260,25 @@ jobs:
           fi
 
           # =============================
-          # Failed Test Case Section (dihapus, karena parsing detail tidak lagi dipakai)
+          # Failed Test Case Section
           # =============================
           FAILED_SECTION=""
-          if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
-            FAILED_SECTION="**${FAILED} test specs failed**"
-            while read -r spec; do
-              [ -z "$spec" ] && continue
+          if [ "$FAILED" != "0" ] && [ -n "$FAILED_TESTS_PARSED" ]; then
+            FAILED_SECTION="**${FAILED} test cases failed**"
+            while IFS='|' read -r describe itcase; do
+              [ -z "$describe" ] && continue
+              TC_NAME="$(echo "$describe | $itcase" | sed 's/^[[:space:]]*//')"
               FAILED_SECTION="${FAILED_SECTION}
-          • [${spec}](${DISPLAY_URL})"
-                done <<< "$FAILED_SPECS"
-              fi
+          • [${TC_NAME}](${TEST_RESULTS_URL})"
+                      done <<< "$FAILED_TESTS_PARSED"
+                    fi
 
-              TITLE="Automation Report Cypress"
-              DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+                    TITLE="Automation Report Cypress"
+                    DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
-              BODY="${DESC}
+                    BODY="${DESC}
 
-          **Test Suite / Specs**
+          **Test Suite**
           ${SUITE_DISPLAY}
 
           **Execution**
@@ -273,32 +290,32 @@ jobs:
           ✅  Passed    : ${PASSED}
           ❌  Failed    : ${FAILED}"
 
-              if [ -n "$FAILED_SECTION" ]; then
-                BODY="${BODY}
+                    if [ -n "$FAILED_SECTION" ]; then
+                      BODY="${BODY}
 
           ─────────────────
           ${FAILED_SECTION}"
-              fi
+                    fi
 
-              FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
+                    FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
 
-              jq -n \
-                --arg title  "$TITLE" \
-                --arg body   "$BODY" \
-                --arg footer "$FOOTER" \
-                --arg url    "$DISPLAY_URL" \
-                --argjson color $COLOR \
-              '{
-                embeds: [{
-                  title: $title,
-                  url: $url,
-                  description: $body,
-                  color: $color,
-                  footer: { text: $footer },
-                  timestamp: (now | todateiso8601)
-                }]
-              }' | curl -s \
-                -H "Content-Type: application/json" \
-                -X POST \
-                -d @- \
-                ${{ secrets.DISCORD_WEBHOOK }}
+                    jq -n \
+                      --arg title  "$TITLE" \
+                      --arg body   "$BODY" \
+                      --arg footer "$FOOTER" \
+                      --arg url    "$DISPLAY_URL" \
+                      --argjson color $COLOR \
+                    '{
+                      embeds: [{
+                        title: $title,
+                        url: $url,
+                        description: $body,
+                        color: $color,
+                        footer: { text: $footer },
+                        timestamp: (now | todateiso8601)
+                      }]
+                    }' | curl -s \
+                      -H "Content-Type: application/json" \
+                      -X POST \
+                      -d @- \
+                      ${{ secrets.DISCORD_WEBHOOK }}

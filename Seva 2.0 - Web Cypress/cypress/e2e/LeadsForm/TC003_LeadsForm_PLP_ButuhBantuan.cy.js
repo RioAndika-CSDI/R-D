@@ -7,7 +7,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 describe('Leads Form PLP - Butuh Bantuan', () => {
   it('Leads Form PLP - Butuh Bantuan', () => {
     urlSeva.visitUrl()
-    cy.wait(5000)
+    // cy.wait(5000)
     // homePage.clickBtnTerimaCookie()
     // homePage.clickBtnCariMobilBaru()
     // productListingPage.inputNamaLengkapLeadsButuhBantuan('Testing')    

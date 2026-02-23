@@ -7,8 +7,6 @@ describe('Refinancing Homepage_WithLogin', () => {
   it('Refinancing Homepage_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
-    // 
-    homePage.clickDropdownPilihKota()
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')

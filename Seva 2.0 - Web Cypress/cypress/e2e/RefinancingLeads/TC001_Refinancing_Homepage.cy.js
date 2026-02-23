@@ -7,8 +7,6 @@ describe('Refinancing Homepage', () => {
   it('Refinancing Homepage', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
-    // 
-    homePage.clickDropdownPilihKota()
     homePage.clickBtnTerimaCookie()
     homePage.clickTabFasilitasDana()
     homePage.clickBtnAjukanSekarang()
