@@ -207,6 +207,15 @@ jobs:
       # ============================================================
       - name: Send Discord Notification
         if: always()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          RUN_NUMBER:  ${{ github.run_number }}
+          REPOSITORY:  ${{ github.repository }}
+          REF_NAME:    ${{ github.ref_name }}
+          EVENT_NAME:  ${{ github.event_name }}
+          ACTOR:       ${{ github.actor }}
+          PR_NUMBER:   ${{ github.event.pull_request.number }}
+          HEAD_REF:    ${{ github.head_ref }}
         run: |
           DATE_RUN=$(TZ='Asia/Jakarta' date "+%Y-%m-%d %H:%M:%S WIB")
 
@@ -223,33 +232,31 @@ jobs:
             COLOR=3066993
           fi
 
-          case "$TRIGGER" in
-            schedule)          TRIGGER_LABEL="Scheduled"    ;;
-            push)              TRIGGER_LABEL="Push to main" ;;
-            pull_request)      TRIGGER_LABEL="Pull Request" ;;
-            workflow_dispatch) TRIGGER_LABEL="Manual"       ;;
-            *)                 TRIGGER_LABEL="$TRIGGER"     ;;
+          case "$EVENT_NAME" in
+            schedule)          TRIGGER_LABEL="Scheduled" ;;
+            push)              TRIGGER_LABEL="Push by ${ACTOR}" ;;
+            pull_request)      TRIGGER_LABEL="Pull Request by ${ACTOR}" ;;
+            workflow_dispatch) TRIGGER_LABEL="Manual by ${ACTOR}" ;;
+            *)                 TRIGGER_LABEL="$EVENT_NAME" ;;
           esac
 
-          if [ "$TRIGGER" = "pull_request" ]; then
-            BRANCH_INFO="PR #${{ github.event.pull_request.number }} (${{ github.head_ref }})"
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            BRANCH_INFO="PR #${PR_NUMBER} (${HEAD_REF})"
           else
-            BRANCH_INFO="${{ github.ref_name }}"
+            BRANCH_INFO="${REF_NAME}"
           fi
 
-          CLOUD_URL="https://cloud.cypress.io/projects/wipkva/runs"
+          CLOUD_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
           if [ -n "$CYPRESS_RUN_URL" ]; then
             DISPLAY_URL="$CYPRESS_RUN_URL"
           else
             DISPLAY_URL="$CLOUD_URL"
           fi
 
-          REPO="${{ github.repository }}"
-          REPO_NAME="${REPO##*/}"
+          REPO_NAME="seva-web-automation"
 
-          # =============================
-          # Test Suite
-          # =============================
+          # Suite: kalau ada failed → folder dari spec yang failed
+          #        kalau semua passed → semua folder yang dijalankan
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
               | sed 's|/[^/]*$||' \
@@ -259,22 +266,22 @@ jobs:
             SUITE_DISPLAY="$TS_NAME"
           fi
 
-          # =============================
-          # Failed Test Case Section
-          # =============================
+          # Failed list: "FolderName - TC01-NamaFile" dengan link
+          # FAILED_SPECS format: "LeadsForm/TC01-Homepage"
           FAILED_SECTION=""
-          if [ "$FAILED" != "0" ] && [ -n "$FAILED_TESTS_PARSED" ]; then
-            FAILED_SECTION="**${FAILED} test cases failed**"
-            while IFS='|' read -r describe itcase; do
-              [ -z "$describe" ] && continue
-              TC_NAME="$(echo "$describe | $itcase" | sed 's/^[[:space:]]*//')"
+          if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
+            FAILED_SECTION="**${FAILED} test results failed**"
+            while IFS= read -r spec_path; do
+              [ -z "$spec_path" ] && continue
+              # Ubah "LeadsForm/TC01-Homepage" → "LeadsForm - TC01-Homepage"
+              DISPLAY_NAME=$(echo "$spec_path" | sed 's|/| - |')
               FAILED_SECTION="${FAILED_SECTION}
-          • [${TC_NAME}](${TEST_RESULTS_URL})"
-                      done <<< "$FAILED_TESTS_PARSED"
+          • [${DISPLAY_NAME}](${TEST_RESULTS_URL})"
+                      done <<< "$FAILED_SPECS"
                     fi
 
                     TITLE="Automation Report Cypress"
-                    DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+                    DESC="Test Run [#${RUN_NUMBER}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
                     BODY="${DESC}
 
@@ -318,4 +325,4 @@ jobs:
                       -H "Content-Type: application/json" \
                       -X POST \
                       -d @- \
-                      ${{ secrets.DISCORD_WEBHOOK }}
+                      "$DISCORD_WEBHOOK"
