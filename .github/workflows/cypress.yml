@@ -25,17 +25,25 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: "Seva 2.0 - Web Cypress"
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: "Seva 2.0 - Web Cypress"
 
       - name: Detect trigger & start time
         run: |
           echo "TRIGGER=${{ github.event_name }}" >> $GITHUB_ENV
           echo "JOB_START_TIME=$(date +%s)"       >> $GITHUB_ENV
+        working-directory: "."
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
+        working-directory: "."
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
