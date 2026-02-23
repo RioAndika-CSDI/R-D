@@ -130,7 +130,7 @@ jobs:
             | sed 's/^/• /')
           # Fallback ke folder di repo jika parse gagal
           if [ -z "$TS_NAME" ]; then
-            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d -name "TS-*" \
+            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
               | sed 's|.*/||' | sort | sed 's/^/• /')
           fi
           TS_NAME=${TS_NAME:-"• e2e"}
@@ -232,7 +232,7 @@ jobs:
 
           case "$TRIGGER" in
             schedule)          TRIGGER_LABEL="Scheduled"    ;;
-            push)              TRIGGER_LABEL="Push to main" ;;
+            push)              TRIGGER_LABEL="Push"         ;;
             pull_request)      TRIGGER_LABEL="Pull Request" ;;
             workflow_dispatch) TRIGGER_LABEL="Manual"       ;;
             *)                 TRIGGER_LABEL="$TRIGGER"     ;;
@@ -302,7 +302,8 @@ jobs:
           ${FAILED_SECTION}"
           fi
 
-          FOOTER="${REPO} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
+          ACTOR="${{ github.actor }}"
+          FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL} by ${ACTOR}"
 
           jq -n \
             --arg title  "$TITLE" \
