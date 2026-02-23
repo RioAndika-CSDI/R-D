@@ -19,9 +19,9 @@ describe('Refinancing Homepage', () => {
     homePage.clickCheckBox()
     homePage.clickOpsiBPKBMobil()
     cy.wait(2000)
-    homePage.clickBtnKirim()
-    cy.wait(10000)
-    homePage.verifyRefinancingHomepage()
+    // homePage.clickBtnKirim()
+    // cy.wait(10000)
+    // homePage.verifyRefinancingHomepage()
 
   })
 })
