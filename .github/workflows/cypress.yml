@@ -10,6 +10,10 @@ on:
     - cron: '0 23 * * 0-5'  # Senin-Sabtu 06:00 WIB
     - cron: '0 5 * * 1-6'   # Senin-Sabtu 12:00 WIB
 
+concurrency:
+  group: cypress-${{ github.ref_name }}
+  cancel-in-progress: false  # tunggu run sebelumnya selesai, tidak di-cancel
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
@@ -113,7 +117,7 @@ jobs:
             PASS_RATE="0"
           fi
 
-          # FIX: Ambil TS folder dari tabel output Cypress
+          # TS folder dari tabel output Cypress
           TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt \
             | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js" \
             | sed 's|/[^/]*$||' \
@@ -205,7 +209,6 @@ jobs:
           ACTOR:       ${{ github.actor }}
           PR_NUMBER:   ${{ github.event.pull_request.number }}
           HEAD_REF:    ${{ github.head_ref }}
-          RUN_URL:     ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           DATE_RUN=$(TZ='Asia/Jakarta' date "+%Y-%m-%d %H:%M:%S WIB")
 
@@ -216,15 +219,12 @@ jobs:
 
           if [ "$FAILED" != "0" ]; then
             STATUS_TEXT="has failed"
-            RESULT_ICON="❌"
             COLOR=15158332
           else
             STATUS_TEXT="has passed"
-            RESULT_ICON="✅"
             COLOR=3066993
           fi
 
-          # FIX 1: Nama yang melakukan push
           case "$EVENT_NAME" in
             schedule)          TRIGGER_LABEL="Scheduled" ;;
             push)              TRIGGER_LABEL="Push by ${ACTOR}" ;;
@@ -248,8 +248,7 @@ jobs:
 
           REPO_NAME="seva-web-automation"
 
-          # Suite: jika ada failed → TS dari spec failed saja
-          #        jika semua passed → semua TS yang dijalankan
+          # Suite
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
               | sed 's|/[^/]*$||' \
