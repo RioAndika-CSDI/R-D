@@ -43,12 +43,14 @@ jobs:
           node-version: 18
 
       - name: Install project dependencies
+        working-directory: Seva 2.0 - Web Cypress
         run: npm ci
 
       # ============================================================
       # RUN CYPRESS
       # ============================================================
       - name: Run Cypress Tests
+        working-directory: Seva 2.0 - Web Cypress
         continue-on-error: true
         run: |
           npx cypress run \
@@ -58,7 +60,9 @@ jobs:
 
       - name: Strip ANSI color codes
         if: always()
-        run: sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
+        run: |
+          touch cypress-raw.txt
+          sed 's/\x1B[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
 
       # ============================================================
       # ALLURE
@@ -207,6 +211,12 @@ jobs:
       - name: Send Discord Notification
         if: always()
         run: |
+          # === FIX: skip kalau webhook tidak ada ===
+          if [ -z "${{ secrets.DISCORD_WEBHOOK }}" ]; then
+            echo "DISCORD_WEBHOOK not set, skipping Discord notification"
+            exit 0
+          fi
+
           DATE_RUN=$(TZ='Asia/Jakarta' date "+%Y-%m-%d %H:%M:%S WIB")
 
           TOTAL=${TOTAL_TESTS:-0}
@@ -247,15 +257,12 @@ jobs:
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
-          # Suite: jika ada failed → TS dari spec failed saja
-          #        jika semua passed → semua TS yang dijalankan
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
-            SUITE_DISPLAY=$(echo "$FAILED_SPECS"               | sed 's|/[^/]*$||'               | sort -u               | sed 's/^/• /')
+            SUITE_DISPLAY=$(echo "$FAILED_SPECS" | sed 's|/[^/]*$||' | sort -u | sed 's/^/• /')
           else
             SUITE_DISPLAY="$TS_NAME"
           fi
 
-          # Failed section
           FAILED_SECTION=""
           if [ "$FAILED" != "0" ]; then
             FAILED_SECTION="**${FAILED} test results failed**"
@@ -264,15 +271,14 @@ jobs:
                 [ -z "$spec_name" ] && continue
                 FAILED_SECTION="${FAILED_SECTION}
           • [${spec_name}](${TEST_RESULTS_URL})"
-                        done <<< "$FAILED_SPECS"
-                      fi
-                    fi
+                  done <<< "$FAILED_SPECS"
+                fi
+              fi
 
-          # Build body
-          TITLE="Automation Report Cypress"
-          DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+              TITLE="Automation Report Cypress"
+              DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
-          BODY="${DESC}
+              BODY="${DESC}
 
           **Test Suite**
           ${SUITE_DISPLAY}
@@ -286,22 +292,32 @@ jobs:
           ✅  Passed    : ${PASSED}
           ❌  Failed    : ${FAILED}"
 
-          if [ -n "$FAILED_SECTION" ]; then
-            BODY="${BODY}
+              if [ -n "$FAILED_SECTION" ]; then
+                BODY="${BODY}
 
           ─────────────────
           ${FAILED_SECTION}"
-                    fi
+              fi
 
-                    FOOTER="${REPO} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
+              FOOTER="${REPO} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
 
-                    jq -n             --arg title  "$TITLE"             --arg body   "$BODY"             --arg footer "$FOOTER"             --arg url    "$DISPLAY_URL"             --argjson color $COLOR           '{
-                      embeds: [{
-                                title: $title,
-                                url: $url,
-                                description: $body,
-                                color: $color,
-                                footer: { text: $footer },
-                                timestamp: (now | todateiso8601)
-                              }]
-                              }'| curl -s -H "Content-Type: application/json"               -X POST               -d @-               ${{ secrets.DISCORD_WEBHOOK }}
+              jq -n \
+                --arg title  "$TITLE" \
+                --arg body   "$BODY" \
+                --arg footer "$FOOTER" \
+                --arg url    "$DISPLAY_URL" \
+                --argjson color $COLOR \
+                '{
+                  embeds: [{
+                    title: $title,
+                    url: $url,
+                    description: $body,
+                    color: $color,
+                    footer: { text: $footer },
+                    timestamp: (now | todateiso8601)
+                  }]
+                }' | curl -s \
+                  -H "Content-Type: application/json" \
+                  -X POST \
+                  -d @- \
+                  "${{ secrets.DISCORD_WEBHOOK }}"
