@@ -6,6 +6,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 describe('Refinancing Homepage', () => {
   it('Refinancing Homepage', () => {
     urlSeva.visitUrl()
+    cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickTabFasilitasDana()
     homePage.clickBtnAjukanSekarang()

@@ -248,7 +248,7 @@ jobs:
             BRANCH_INFO="${{ github.ref_name }}"
           fi
 
-          CLOUD_URL="https://cloud.cypress.io/projects/wipkva/runs"
+          CLOUD_URL="https://cloud.cypress.io/projects/3x3m8i/runs/2/overview?roarHideRunsWithDiffGroupsAndTags=1"
           if [ -n "$CYPRESS_RUN_URL" ]; then
             DISPLAY_URL="$CYPRESS_RUN_URL"
           else

@@ -7,6 +7,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 describe('Refinancing Page Lead Form - Top Widget', () => {
   it('Refinancing Page Lead Form - Top Widget', () => {
     urlSeva.visitUrl()
+    cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnFasilitasDana()
     refinancingPage.clickBtnAjukanSekarangTopWidget()

@@ -6,6 +6,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 describe('Leads Form Homepage - Butuh Bantuan', () => {
   it('Leads Form Homepage - Butuh Bantuan', () => {
     urlSeva.visitUrl()
+    cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.inputNamaLengkapLeadsButuhBantuan('Testing')
     homePage.inputNomorHpLeadsButuhBantuan('89676848410')
