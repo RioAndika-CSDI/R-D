@@ -51,7 +51,6 @@ jobs:
       # ============================================================
       - name: Run Cypress Tests
         continue-on-error: true
-        working-directory: "Seva 2.0 - Web Cypress"
         run: |
           npx cypress run \
             --record \
@@ -60,7 +59,6 @@ jobs:
 
       - name: Strip ANSI color codes
         if: always()
-        working-directory: "Seva 2.0 - Web Cypress"
         run: |
           touch cypress-raw.txt
           sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
@@ -70,7 +68,6 @@ jobs:
       # ============================================================
       - name: Generate Allure Report
         if: always()
-        working-directory: "Seva 2.0 - Web Cypress"
         run: |
           npm install -g allure-commandline --quiet
           if [ -d allure-results ] && [ "$(ls -A allure-results 2>/dev/null)" ]; then
@@ -90,13 +87,17 @@ jobs:
       # ============================================================
       - name: Extract test summary
         if: always()
-        working-directory: "Seva 2.0 - Web Cypress"
         run: |
+          # Duration
           JOB_END_TIME=$(date +%s)
           DURATION_SEC=$(( JOB_END_TIME - JOB_START_TIME ))
           MINUTES=$((DURATION_SEC / 60))
           SECONDS=$((DURATION_SEC % 60))
 
+          # Parse baris summary tabel Cypress:
+          # "✔  All specs passed!         00:09    3    3    -    -    -"
+          # "✖  1 of 3 failed (33%)       00:11    3    2    1    -    -"
+          # 5 kolom terakhir: Tests Passing Failing Pending Skipped
           SUMMARY_LINE=$(grep -E '(All specs passed|of [0-9]+ failed)' cypress-output.txt | tail -1)
           echo "=== SUMMARY LINE: $SUMMARY_LINE ==="
 
@@ -121,21 +122,19 @@ jobs:
             PASS_RATE="0"
           fi
 
-          # TS folder dari tabel output Cypress
+          # TS folder name — ambil dari spec yang actual dijalankan di run ini
           TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt \
             | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js" \
             | sed 's|/[^/]*$||' \
             | sort -u \
             | sed 's/^/• /')
-          echo "=== TS_NAME from output: $TS_NAME ==="
-
-          # Fallback: semua folder di dalam cypress/e2e
+          # Fallback ke folder di repo jika parse gagal
           if [ -z "$TS_NAME" ]; then
-            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
+            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d -name "TS-*" \
               | sed 's|.*/||' | sort | sed 's/^/• /')
-            echo "=== TS_NAME from folder: $TS_NAME ==="
           fi
           TS_NAME=${TS_NAME:-"• e2e"}
+          echo "=== TS_NAME: $TS_NAME ==="
 
           echo "TOTAL_TESTS=$TOTAL"                    >> $GITHUB_ENV
           echo "PASSED_TESTS=$PASSING"                 >> $GITHUB_ENV
@@ -151,13 +150,15 @@ jobs:
 
       - name: Extract failed test details
         if: always()
-        working-directory: "Seva 2.0 - Web Cypress"
         run: |
+          # Ambil Cypress Cloud run URL dari output
           CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
           echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
 
+          # Build test-results URL
           TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
 
+          # Fallback jika URL tidak ditemukan
           if [ -z "$CYPRESS_RUN_URL" ]; then
             TEST_RESULTS_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
           fi
@@ -165,15 +166,15 @@ jobs:
           echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          F="cypress-output.txt"
-
-          FAILED_SPECS=$(grep -E "│\s+✖" "$F" \
+          # Ambil failed specs dari tabel (baris dengan ✖)
+          FAILED_SPECS=$(grep -E "│\s+✖" cypress-output.txt \
             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
             | sed "s/\.cy\.js$//" \
             | sort -u)
 
+          # Fallback: jika tidak ada path lengkap, coba tanpa folder
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -E "✖" "$F" \
+            FAILED_SPECS=$(grep -E "✖" cypress-output.txt \
               | grep "\.cy\.js" \
               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
               | sed "s/\.cy\.js$//" \
@@ -182,6 +183,7 @@ jobs:
 
           echo "=== FAILED SPECS: $FAILED_SPECS ==="
 
+          # Parse describe + test title dari section failing
           FAILED_TESTS_PARSED=$(awk '
             /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
             in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
@@ -192,7 +194,10 @@ jobs:
               test_line=line; print describe_line "|" test_line; in_block=0
             }
             /^[[:space:]]*$/ && in_block==1 { in_block=0 }
-          ' "$F")
+          ' cypress-output.txt)
+
+          echo "=== FAILED TESTS PARSED ==="
+          echo "$FAILED_TESTS_PARSED"
 
           echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
           echo "$FAILED_SPECS"             >> $GITHUB_ENV
@@ -217,9 +222,11 @@ jobs:
 
           if [ "$FAILED" != "0" ]; then
             STATUS_TEXT="has failed"
+            RESULT_ICON="❌"
             COLOR=15158332
           else
             STATUS_TEXT="has passed"
+            RESULT_ICON="✅"
             COLOR=3066993
           fi
 
@@ -243,13 +250,11 @@ jobs:
           else
             DISPLAY_URL="$CLOUD_URL"
           fi
-
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
-          # =============================
-          # Test Suite
-          # =============================
+          # Suite: jika ada failed → TS dari spec failed saja
+          #        jika semua passed → semua TS yang dijalankan
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
               | sed 's|/[^/]*$||' \
@@ -259,24 +264,24 @@ jobs:
             SUITE_DISPLAY="$TS_NAME"
           fi
 
-          # =============================
-          # Failed Test Case Section
-          # =============================
+          # Failed section — sama persis dengan project sebelumnya
           FAILED_SECTION=""
-          if [ "$FAILED" != "0" ] && [ -n "$FAILED_TESTS_PARSED" ]; then
-            FAILED_SECTION="**${FAILED} test cases failed**"
-            while IFS='|' read -r describe itcase; do
-              [ -z "$describe" ] && continue
-              TC_NAME="$(echo "$describe | $itcase" | sed 's/^[[:space:]]*//')"
-              FAILED_SECTION="${FAILED_SECTION}
-          • [${TC_NAME}](${TEST_RESULTS_URL})"
-                      done <<< "$FAILED_TESTS_PARSED"
-                    fi
+          if [ "$FAILED" != "0" ]; then
+            FAILED_SECTION="**${FAILED} test results failed**"
+            if [ -n "$FAILED_SPECS" ]; then
+              while IFS= read -r spec_name; do
+                [ -z "$spec_name" ] && continue
+                FAILED_SECTION="${FAILED_SECTION}
+          • [${spec_name}](${TEST_RESULTS_URL})"
+              done <<< "$FAILED_SPECS"
+            fi
+          fi
 
-                    TITLE="Automation Report Cypress"
-                    DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+          # Build body
+          TITLE="Automation Report Cypress"
+          DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
-                    BODY="${DESC}
+          BODY="${DESC}
 
           **Test Suite**
           ${SUITE_DISPLAY}
@@ -290,32 +295,32 @@ jobs:
           ✅  Passed    : ${PASSED}
           ❌  Failed    : ${FAILED}"
 
-                    if [ -n "$FAILED_SECTION" ]; then
-                      BODY="${BODY}
+          if [ -n "$FAILED_SECTION" ]; then
+            BODY="${BODY}
 
           ─────────────────
           ${FAILED_SECTION}"
-                    fi
+          fi
 
-                    FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
+          FOOTER="${REPO} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
 
-                    jq -n \
-                      --arg title  "$TITLE" \
-                      --arg body   "$BODY" \
-                      --arg footer "$FOOTER" \
-                      --arg url    "$DISPLAY_URL" \
-                      --argjson color $COLOR \
-                    '{
-                      embeds: [{
-                        title: $title,
-                        url: $url,
-                        description: $body,
-                        color: $color,
-                        footer: { text: $footer },
-                        timestamp: (now | todateiso8601)
-                      }]
-                    }' | curl -s \
-                      -H "Content-Type: application/json" \
-                      -X POST \
-                      -d @- \
-                      ${{ secrets.DISCORD_WEBHOOK }}
+          jq -n \
+            --arg title  "$TITLE" \
+            --arg body   "$BODY" \
+            --arg footer "$FOOTER" \
+            --arg url    "$DISPLAY_URL" \
+            --argjson color $COLOR \
+          '{
+            embeds: [{
+              title: $title,
+              url: $url,
+              description: $body,
+              color: $color,
+              footer: { text: $footer },
+              timestamp: (now | todateiso8601)
+            }]
+          }' | curl -s \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d @- \
+            ${{ secrets.DISCORD_WEBHOOK }}
