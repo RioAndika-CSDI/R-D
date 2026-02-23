@@ -13,7 +13,7 @@ describe('Leads Form PLP - Floating Icon', () => {
     productListingPage.inputNamaLengkapFloatingIcon('Testing')
     productListingPage.inputNomorHpFloatingIcon('89676848410')
     productListingPage.clickCheckBoxFloatingIcon()
-    cy.wait(2000)
+    cy.wait(3000)
     productListingPage.clickBtnKirimFloatingIcon()
     cy.wait(10000)
     homePage.inputFieldOTP('123456')
