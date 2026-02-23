@@ -8,6 +8,8 @@ describe('Refinancing Page Lead Form - Top Widget', () => {
   it('Refinancing Page Lead Form - Top Widget', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
+    // 
+    productListingPage.clickBtnKirimFloatingIcon()
     // homePage.clickBtnTerimaCookie()
     // homePage.clickBtnFasilitasDana()
     // refinancingPage.clickBtnAjukanSekarangTopWidget()

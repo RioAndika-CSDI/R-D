@@ -9,6 +9,8 @@ describe('Leads Form PLP - Floating Icon', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
+    // 
+    productListingPage.clickBtnKirimFloatingIcon()
     homePage.clickBtnCariMobilBaru()
     productListingPage.clickBtnFloatingIcon()
     productListingPage.inputNamaLengkapFloatingIcon('Testing')
