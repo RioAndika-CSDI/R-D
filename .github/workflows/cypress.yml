@@ -166,15 +166,36 @@ jobs:
           echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          # Ambil failed specs dari tabel (baris dengan ✖)
-          FAILED_SPECS=$(grep -E "│\s+✖" cypress-output.txt \
+          # Debug: lihat baris yang mengandung ✖ dan .cy.js
+          echo "=== RAW LINES WITH ✖ ==="
+          grep "✖" cypress-output.txt | grep "\.cy\.js" || echo "(none found)"
+
+          # Attempt 1: baris tabel dengan box-drawing character │
+          FAILED_SPECS=$(grep -E "│.+✖" cypress-output.txt \
             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
             | sed "s/\.cy\.js$//" \
             | sort -u)
 
-          # Fallback: jika tidak ada path lengkap, coba tanpa folder
+          # Attempt 2: semua baris dengan ✖ dan .cy.js (tanpa filter karakter │)
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -E "✖" cypress-output.txt \
+            FAILED_SPECS=$(grep "✖" cypress-output.txt \
+              | grep "\.cy\.js" \
+              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
+              | sed "s/\.cy\.js$//" \
+              | sort -u)
+          fi
+
+          # Attempt 3: dari section "Failing:" — Cypress print path lengkap di sini
+          if [ -z "$FAILED_SPECS" ]; then
+            FAILED_SPECS=$(awk '/Failing:/{p=1} p && /\.cy\.js/{print}' cypress-output.txt \
+              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
+              | sed "s/\.cy\.js$//" \
+              | sort -u)
+          fi
+
+          # Attempt 4: dari baris "  X passing" / "  X failing" section header lalu ambil spec sebelumnya
+          if [ -z "$FAILED_SPECS" ]; then
+            FAILED_SPECS=$(grep -B5 "passing\|failing" cypress-output.txt \
               | grep "\.cy\.js" \
               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
               | sed "s/\.cy\.js$//" \
