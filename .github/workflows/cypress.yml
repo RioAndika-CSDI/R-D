@@ -1,38 +1,41 @@
-name: Seva Cypress Automation Test
+name: Cypress Automation Test
 
 on:
+  # 🚀 Push ke main → trigger (merge dari QA branch setelah fix)
   push:
-    branches: [ "Seva_2.0_Web_Cypress" ]
+    branches: [Seva_2.0_Web_Cypress]
+
+  # 🔀 Pull Request ke main → trigger saat QA buat PR dari branch fix
   pull_request:
-    branches: [ "Seva_2.0_Web_Cypress" ]
+    branches: [Seva_2.0_Web_Cypress]
+
+  # 🖐 Manual trigger
   workflow_dispatch:
+
+  # ✅ STEP 2 — SCHEDULER (DITAMBAHKAN DI SINI)
   schedule:
-    - cron: '0 23 * * 0-5'  # Senin-Sabtu 06:00 WIB
-    - cron: '0 5 * * 1-6'   # Senin-Sabtu 12:00 WIB
+   #- cron: '0 1 * * *'   # 08:00 WIB (UTC+7)
+   #- cron: '40 20 * * *'
+      - cron: '0 23 * * 0-5'
+      - cron: '0 5 * * 1-6'
+      #- cron: '*/5 * * * *'
+
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: "Seva_2.0_Web_Cypress" 
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          ref: "Seva_2.0_Web_Cypress"
 
       - name: Detect trigger & start time
         run: |
           echo "TRIGGER=${{ github.event_name }}" >> $GITHUB_ENV
           echo "JOB_START_TIME=$(date +%s)"       >> $GITHUB_ENV
-        working-directory: "."
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
-        working-directory: "."
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,16 +44,6 @@ jobs:
 
       - name: Install project dependencies
         run: npm ci
-
-      # ============================================================
-      # LOAD TREND dari cache run sebelumnya
-      # ============================================================
-      - name: Restore previous run stats
-        uses: actions/cache@v4
-        with:
-          path: .previous-run.json
-          key: cypress-prev-run-${{ github.ref_name }}
-          restore-keys: cypress-prev-run-
 
       # ============================================================
       # RUN CYPRESS
@@ -67,7 +60,7 @@ jobs:
         if: always()
         run: |
           touch cypress-raw.txt
-          sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
+          sed 's/\x1B[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
 
       # ============================================================
       # ALLURE
@@ -100,10 +93,16 @@ jobs:
           MINUTES=$((DURATION_SEC / 60))
           SECONDS=$((DURATION_SEC % 60))
 
-          # Parse summary line dari tabel Cypress
+          # Parse baris summary tabel Cypress:
+          # "✔  All specs passed!         00:09    3    3    -    -    -"
+          # "✖  1 of 3 failed (33%)       00:11    3    2    1    -    -"
+          # 5 kolom terakhir: Tests Passing Failing Pending Skipped
           SUMMARY_LINE=$(grep -E '(All specs passed|of [0-9]+ failed)' cypress-output.txt | tail -1)
+          echo "=== SUMMARY LINE: $SUMMARY_LINE ==="
+
           if [ -n "$SUMMARY_LINE" ]; then
             CLEAN=$(echo "$SUMMARY_LINE" | sed 's/[^0-9 \t-]//g' | tr -s ' \t' ' ' | sed 's/^ //')
+            echo "=== CLEAN: $CLEAN ==="
             FIELD_COUNT=$(echo "$CLEAN" | awk '{print NF}')
             TOTAL=$(echo "$CLEAN"   | awk -v n=$FIELD_COUNT '{print $(n-4)}' | sed 's/-/0/')
             PASSING=$(echo "$CLEAN" | awk -v n=$FIELD_COUNT '{print $(n-3)}' | sed 's/-/0/')
@@ -122,42 +121,17 @@ jobs:
             PASS_RATE="0"
           fi
 
-          # TS folder dari spec yang actual dijalankan
-          TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt \
-            | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js" \
-            | sed 's|/[^/]*$||' \
-            | sort -u \
-            | sed 's/^/• /')
+          # TS folder name — ambil dari struktur folder e2e di repo
+          # Struktur: cypress/e2e/TS-xxx/TC01.cy.js → ambil folder TS-xxx
+          # TS folder — ambil dari spec yang actual dijalankan di run ini
+          # Tabel Cypress print path lengkap: "│ ✔  TS-itera/TC01-Dashboard.cy.js ..."
+          TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt             | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js"             | sed 's|/[^/]*$||'             | sort -u             | sed 's/^/• /')
+          # Fallback ke folder di repo jika parse gagal
           if [ -z "$TS_NAME" ]; then
-            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d -name "TS-*" \
-              | sed 's|.*/||' | sort | sed 's/^/• /')
+            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d -name "TS-*"               | sed 's|.*/||' | sort | sed 's/^/• /')
           fi
           TS_NAME=${TS_NAME:-"• e2e"}
-
-          # Environment info
-          BROWSER=$(grep -oE 'Browser:[[:space:]]+[^\n]+' cypress-output.txt | head -1 | sed 's/Browser:[[:space:]]*//')
-          NODE_VER=$(node --version 2>/dev/null || echo "N/A")
-          OS_INFO="Linux Ubuntu (GitHub Actions)"
-          BROWSER=${BROWSER:-"Electron"}
-
-          # Trend
-          TREND=""
-          if [ -f .previous-run.json ]; then
-            PREV_FAILED=$(jq -r '.failed // "-"' .previous-run.json)
-            if [ "$PREV_FAILED" != "-" ]; then
-              if [ "$FAILING" -lt "$PREV_FAILED" ]; then
-                TREND="↑ Improved (prev: ${PREV_FAILED} failed)"
-              elif [ "$FAILING" -gt "$PREV_FAILED" ]; then
-                TREND="↓ Worse (prev: ${PREV_FAILED} failed)"
-              else
-                TREND="→ Same as previous run"
-              fi
-            fi
-          fi
-
-          # Simpan stats untuk trend run berikutnya
-          echo "{\"total\":${TOTAL},\"passed\":${PASSING},\"failed\":${FAILING},\"pass_rate\":\"${PASS_RATE}\"}" \
-            > .previous-run.json
+          echo "=== TS_NAME: $TS_NAME ==="
 
           echo "TOTAL_TESTS=$TOTAL"                    >> $GITHUB_ENV
           echo "PASSED_TESTS=$PASSING"                 >> $GITHUB_ENV
@@ -165,27 +139,24 @@ jobs:
           echo "PENDING_TESTS=$PENDING"                >> $GITHUB_ENV
           echo "TEST_DURATION=${MINUTES}m ${SECONDS}s" >> $GITHUB_ENV
           echo "PASS_RATE=${PASS_RATE}%"               >> $GITHUB_ENV
-          echo "BROWSER=$BROWSER"                      >> $GITHUB_ENV
-          echo "OS_INFO=$OS_INFO"                      >> $GITHUB_ENV
-          echo "TREND=$TREND"                          >> $GITHUB_ENV
-          echo "TS_NAME<<EOF"                          >> $GITHUB_ENV
-          echo "$TS_NAME"                              >> $GITHUB_ENV
-          echo "EOF"                                   >> $GITHUB_ENV
+          echo "TS_NAME<<EOF"   >> $GITHUB_ENV
+          echo "$TS_NAME"       >> $GITHUB_ENV
+          echo "EOF"            >> $GITHUB_ENV
 
-          echo "Total=$TOTAL | Passed=$PASSING | Failed=$FAILING | Rate=${PASS_RATE}%"
-
-      - name: Save run stats to cache
-        if: always()
-        uses: actions/cache@v4
-        with:
-          path: .previous-run.json
-          key: cypress-prev-run-${{ github.ref_name }}
+          echo "Total=$TOTAL | Passed=$PASSING | Failed=$FAILING | TS=$TS_NAME"
 
       - name: Extract failed test details
         if: always()
         run: |
+          # Ambil Cypress Cloud run URL dari output
+          # Cypress print: "Recorded Run: https://cloud.cypress.io/projects/xxx/runs/104"
           CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
+          echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
+
+          # Build test-results URL
           TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
+
+          # Fallback jika URL tidak ditemukan
           if [ -z "$CYPRESS_RUN_URL" ]; then
             TEST_RESULTS_URL="https://cloud.cypress.io/projects/wipkva/runs"
           fi
@@ -193,23 +164,45 @@ jobs:
           echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          FAILED_SPECS=$(grep -E "│\s+✖" cypress-output.txt \
-            | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-            | sed "s/\.cy\.js$//" \
-            | sort -u)
+          # Ambil failed specs dari tabel (baris dengan ✖)
+          # Format tabel: "│ ✖  TS-itera/TC01-Dashboard.cy.js  ..."
+          # Kita ambil path lengkap termasuk folder TS
+          FAILED_SPECS=$(grep -E "│\s+✖" cypress-output.txt             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js"             | sed "s/\.cy\.js$//"             | sort -u)
+
+          # Fallback: jika tidak ada path lengkap, coba tanpa folder
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -E "✖" cypress-output.txt \
-              | grep "\.cy\.js" \
-              | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
-              | sed "s/\.cy\.js$//" \
-              | sort -u)
+            FAILED_SPECS=$(grep -E "✖" cypress-output.txt               | grep "\.cy\.js"               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js"               | sed "s/\.cy\.js$//"               | sort -u)
           fi
 
-          echo "FAILED_SPECS<<EOF" >> $GITHUB_ENV
-          echo "$FAILED_SPECS"     >> $GITHUB_ENV
-          echo "EOF"               >> $GITHUB_ENV
+          echo "=== FAILED SPECS: $FAILED_SPECS ==="
 
-      # ============================================================
+          # Parse describe + test title dari section failing
+          # Format Cypress:
+          #   1) Describe Name
+          #        test title
+          FAILED_TESTS_PARSED=$(awk '
+            /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
+            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
+              line=$0; gsub(/^[[:space:]]+/, "", line); describe_line=line; next
+            }
+            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line!="" && test_line=="" {
+              line=$0; gsub(/^[[:space:]]+/, "", line); gsub(/:$/, "", line)
+              test_line=line; print describe_line "|" test_line; in_block=0
+            }
+            /^[[:space:]]*$/ && in_block==1 { in_block=0 }
+          ' cypress-output.txt)
+
+          echo "=== FAILED TESTS PARSED ==="
+          echo "$FAILED_TESTS_PARSED"
+
+          echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
+          echo "$FAILED_SPECS"             >> $GITHUB_ENV
+          echo "EOF"                       >> $GITHUB_ENV
+
+          echo "FAILED_TESTS_PARSED<<EOF" >> $GITHUB_ENV
+          echo "$FAILED_TESTS_PARSED"     >> $GITHUB_ENV
+          echo "EOF"                      >> $GITHUB_ENV
+
       # ============================================================
       # DISCORD NOTIFICATION
       # ============================================================
