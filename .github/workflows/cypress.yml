@@ -156,8 +156,7 @@ jobs:
           CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
           echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
 
-          TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
-
+          TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results"
           if [ -z "$CYPRESS_RUN_URL" ]; then
             TEST_RESULTS_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
           fi
@@ -167,14 +166,15 @@ jobs:
 
           F="cypress-output.txt"
 
+          # Ambil hanya nama file spec yang gagal
           FAILED_SPECS=$(grep -E "│\s+✖" "$F" \
             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
             | sed "s/\.cy\.js$//" \
             | sort -u)
 
+          # fallback: jika grep pertama gagal
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -E "✖" "$F" \
-              | grep "\.cy\.js" \
+            FAILED_SPECS=$(grep "✖" "$F" \
               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
               | sed "s/\.cy\.js$//" \
               | sort -u)
@@ -182,24 +182,13 @@ jobs:
 
           echo "=== FAILED SPECS: $FAILED_SPECS ==="
 
-          FAILED_TESTS_PARSED=$(awk '
-            /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
-            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
-              line=$0; gsub(/^[[:space:]]+/, "", line); describe_line=line; next
-            }
-            in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line!="" && test_line=="" {
-              line=$0; gsub(/^[[:space:]]+/, "", line); gsub(/:$/, "", line)
-              test_line=line; print describe_line "|" test_line; in_block=0
-            }
-            /^[[:space:]]*$/ && in_block==1 { in_block=0 }
-          ' "$F")
+          echo "FAILED_SPECS<<EOF" >> $GITHUB_ENV
+          echo "$FAILED_SPECS"     >> $GITHUB_ENV
+          echo "EOF"               >> $GITHUB_ENV
 
-          echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
-          echo "$FAILED_SPECS"             >> $GITHUB_ENV
-          echo "EOF"                       >> $GITHUB_ENV
-
+          # Tidak lagi menggunakan parsing describe/it
           echo "FAILED_TESTS_PARSED<<EOF" >> $GITHUB_ENV
-          echo "$FAILED_TESTS_PARSED"     >> $GITHUB_ENV
+          echo ""                        >> $GITHUB_ENV
           echo "EOF"                      >> $GITHUB_ENV
 
       # ============================================================
@@ -207,15 +196,6 @@ jobs:
       # ============================================================
       - name: Send Discord Notification
         if: always()
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          RUN_NUMBER:  ${{ github.run_number }}
-          REPOSITORY:  ${{ github.repository }}
-          REF_NAME:    ${{ github.ref_name }}
-          EVENT_NAME:  ${{ github.event_name }}
-          ACTOR:       ${{ github.actor }}
-          PR_NUMBER:   ${{ github.event.pull_request.number }}
-          HEAD_REF:    ${{ github.head_ref }}
         run: |
           DATE_RUN=$(TZ='Asia/Jakarta' date "+%Y-%m-%d %H:%M:%S WIB")
 
@@ -232,60 +212,56 @@ jobs:
             COLOR=3066993
           fi
 
-          case "$EVENT_NAME" in
-            schedule)          TRIGGER_LABEL="Scheduled" ;;
-            push)              TRIGGER_LABEL="Push by ${ACTOR}" ;;
-            pull_request)      TRIGGER_LABEL="Pull Request by ${ACTOR}" ;;
-            workflow_dispatch) TRIGGER_LABEL="Manual by ${ACTOR}" ;;
-            *)                 TRIGGER_LABEL="$EVENT_NAME" ;;
+          case "$TRIGGER" in
+            schedule)          TRIGGER_LABEL="Scheduled"    ;;
+            push)              TRIGGER_LABEL="Push to main" ;;
+            pull_request)      TRIGGER_LABEL="Pull Request" ;;
+            workflow_dispatch) TRIGGER_LABEL="Manual"       ;;
+            *)                 TRIGGER_LABEL="$TRIGGER"     ;;
           esac
 
-          if [ "$EVENT_NAME" = "pull_request" ]; then
-            BRANCH_INFO="PR #${PR_NUMBER} (${HEAD_REF})"
+          if [ "$TRIGGER" = "pull_request" ]; then
+            BRANCH_INFO="PR #${{ github.event.pull_request.number }} (${{ github.head_ref }})"
           else
-            BRANCH_INFO="${REF_NAME}"
+            BRANCH_INFO="${{ github.ref_name }}"
           fi
 
           CLOUD_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
-          if [ -n "$CYPRESS_RUN_URL" ]; then
-            DISPLAY_URL="$CYPRESS_RUN_URL"
-          else
-            DISPLAY_URL="$CLOUD_URL"
-          fi
+          DISPLAY_URL="${CYPRESS_RUN_URL:-$CLOUD_URL}"
 
-          REPO_NAME="seva-web-automation"
+          REPO="${{ github.repository }}"
+          REPO_NAME="${REPO##*/}"
 
-          # Suite: kalau ada failed → folder dari spec yang failed
-          #        kalau semua passed → semua folder yang dijalankan
+          # =============================
+          # Test Suite / Spec yang gagal
+          # =============================
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
-              | sed 's|/[^/]*$||' \
               | sort -u \
               | sed 's/^/• /')
           else
             SUITE_DISPLAY="$TS_NAME"
           fi
 
-          # Failed list: "FolderName - TC01-NamaFile" dengan link
-          # FAILED_SPECS format: "LeadsForm/TC01-Homepage"
+          # =============================
+          # Failed Test Case Section (dihapus, karena parsing detail tidak lagi dipakai)
+          # =============================
           FAILED_SECTION=""
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
-            FAILED_SECTION="**${FAILED} test results failed**"
-            while IFS= read -r spec_path; do
-              [ -z "$spec_path" ] && continue
-              # Ubah "LeadsForm/TC01-Homepage" → "LeadsForm - TC01-Homepage"
-              DISPLAY_NAME=$(echo "$spec_path" | sed 's|/| - |')
+            FAILED_SECTION="**${FAILED} test specs failed**"
+            while read -r spec; do
+              [ -z "$spec" ] && continue
               FAILED_SECTION="${FAILED_SECTION}
-          • [${DISPLAY_NAME}](${TEST_RESULTS_URL})"
-                      done <<< "$FAILED_SPECS"
-                    fi
+          • [${spec}](${DISPLAY_URL})"
+                done <<< "$FAILED_SPECS"
+              fi
 
-                    TITLE="Automation Report Cypress"
-                    DESC="Test Run [#${RUN_NUMBER}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+              TITLE="Automation Report Cypress"
+              DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
-                    BODY="${DESC}
+              BODY="${DESC}
 
-          **Test Suite**
+          **Test Suite / Specs**
           ${SUITE_DISPLAY}
 
           **Execution**
@@ -297,32 +273,32 @@ jobs:
           ✅  Passed    : ${PASSED}
           ❌  Failed    : ${FAILED}"
 
-                    if [ -n "$FAILED_SECTION" ]; then
-                      BODY="${BODY}
+              if [ -n "$FAILED_SECTION" ]; then
+                BODY="${BODY}
 
           ─────────────────
           ${FAILED_SECTION}"
-                    fi
+              fi
 
-                    FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
+              FOOTER="${REPO_NAME} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
 
-                    jq -n \
-                      --arg title  "$TITLE" \
-                      --arg body   "$BODY" \
-                      --arg footer "$FOOTER" \
-                      --arg url    "$DISPLAY_URL" \
-                      --argjson color $COLOR \
-                    '{
-                      embeds: [{
-                        title: $title,
-                        url: $url,
-                        description: $body,
-                        color: $color,
-                        footer: { text: $footer },
-                        timestamp: (now | todateiso8601)
-                      }]
-                    }' | curl -s \
-                      -H "Content-Type: application/json" \
-                      -X POST \
-                      -d @- \
-                      "$DISCORD_WEBHOOK"
+              jq -n \
+                --arg title  "$TITLE" \
+                --arg body   "$BODY" \
+                --arg footer "$FOOTER" \
+                --arg url    "$DISPLAY_URL" \
+                --argjson color $COLOR \
+              '{
+                embeds: [{
+                  title: $title,
+                  url: $url,
+                  description: $body,
+                  color: $color,
+                  footer: { text: $footer },
+                  timestamp: (now | todateiso8601)
+                }]
+              }' | curl -s \
+                -H "Content-Type: application/json" \
+                -X POST \
+                -d @- \
+                ${{ secrets.DISCORD_WEBHOOK }}
