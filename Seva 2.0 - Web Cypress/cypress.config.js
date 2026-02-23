@@ -4,7 +4,7 @@ const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 module.exports = defineConfig({
 
   // ✅ Cypress Cloud Project ID
-  projectId: "9gnfo6",
+  projectId: "3x3m8i",
 
   e2e: {
     setupNodeEvents(on, config) {
