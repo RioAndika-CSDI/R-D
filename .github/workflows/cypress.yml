@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: Seva_2.0_web_cypress
+          ref: seva_2.0_web_cypress
 
       - name: Detect trigger & start time
         run: |
