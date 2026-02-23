@@ -148,8 +148,9 @@ jobs:
 
       - name: Extract failed test details
         if: always()
+        working-directory: "."
         run: |
-          CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
+          CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' "Seva 2.0 - Web Cypress/cypress-output.txt" | head -1)
           echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
 
           TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
@@ -161,13 +162,15 @@ jobs:
           echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          FAILED_SPECS=$(grep -E "│\s+✖" cypress-output.txt \
+          F="Seva 2.0 - Web Cypress/cypress-output.txt"
+
+          FAILED_SPECS=$(grep -E "│\s+✖" "$F" \
             | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
             | sed "s/\.cy\.js$//" \
             | sort -u)
 
           if [ -z "$FAILED_SPECS" ]; then
-            FAILED_SPECS=$(grep -E "✖" cypress-output.txt \
+            FAILED_SPECS=$(grep -E "✖" "$F" \
               | grep "\.cy\.js" \
               | grep -oE "[A-Za-z0-9_/-]+\.cy\.js" \
               | sed "s/\.cy\.js$//" \
@@ -186,7 +189,7 @@ jobs:
               test_line=line; print describe_line "|" test_line; in_block=0
             }
             /^[[:space:]]*$/ && in_block==1 { in_block=0 }
-          ' cypress-output.txt)
+          ' "$F")
 
           echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
           echo "$FAILED_SPECS"             >> $GITHUB_ENV
@@ -262,7 +265,7 @@ jobs:
           # Failed section
           FAILED_SECTION=""
           if [ "$FAILED" != "0" ]; then
-            FAILED_SECTION="**${FAILED} test results failed**"
+            FAILED_SECTION="*${FAILED} test results failed*"
             if [ -n "$FAILED_SPECS" ]; then
               while IFS= read -r spec_name; do
                 [ -z "$spec_name" ] && continue
@@ -273,18 +276,18 @@ jobs:
                     fi
 
                     TITLE="Automation Report Cypress"
-                    DESC="Test Run [#${RUN_NUMBER}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+                    DESC="Test Run [#${RUN_NUMBER}](${DISPLAY_URL}) of the *${REPO_NAME}* ${STATUS_TEXT}."
 
                     BODY="${DESC}
 
-          **Test Suite**
+          *Test Suite*
           ${SUITE_DISPLAY}
 
-          **Execution**
+          *Execution*
           🗓  ${DATE_RUN}
           ⏱  ${TEST_DURATION}
 
-          **Results**
+          *Results*
           Total Runs    : ${TOTAL}
           ✅  Passed    : ${PASSED}
           ❌  Failed    : ${FAILED}"
