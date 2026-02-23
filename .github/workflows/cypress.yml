@@ -27,7 +27,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Seva 2.0 - Web Cypress"
+        working-directory: "Seva_2.0_Web_Cypress"
 
     steps:
       - name: Checkout repo
