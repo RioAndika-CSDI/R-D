@@ -1,38 +1,41 @@
-name: Seva Cypress Automation Test
+name: Cypress Automation Test
 
 on:
+  # 🚀 Push ke main → trigger (merge dari QA branch setelah fix)
   push:
-    branches: [ Seva_2.0_web_cypress ]
+    branches: [Seva_2.0_Web_Cypress]
+
+  # 🔀 Pull Request ke main → trigger saat QA buat PR dari branch fix
   pull_request:
-    branches: [ Seva_2.0_web_cypress ]
+    branches: [Seva_2.0_Web_Cypress]
+
+  # 🖐 Manual trigger
   workflow_dispatch:
+
+  # ✅ STEP 2 — SCHEDULER (DITAMBAHKAN DI SINI)
   schedule:
-    - cron: '0 23 * * 0-5'  # Senin-Sabtu 06:00 WIB
-    - cron: '0 5 * * 1-6'   # Senin-Sabtu 12:00 WIB
+   #- cron: '0 1 * * *'   # 08:00 WIB (UTC+7)
+   #- cron: '40 20 * * *'
+      - cron: '0 23 * * 0-5'
+      - cron: '0 5 * * 1-6'
+      #- cron: '*/5 * * * *'
+
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: "Seva 2.0 - Web Cypress"
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          ref: seva_2.0_web_cypress
 
       - name: Detect trigger & start time
         run: |
           echo "TRIGGER=${{ github.event_name }}" >> $GITHUB_ENV
           echo "JOB_START_TIME=$(date +%s)"       >> $GITHUB_ENV
-        working-directory: "."
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
-        working-directory: "."
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,7 +45,7 @@ jobs:
       - name: Install project dependencies
         run: npm ci
 
-      # =============================================================
+      # ============================================================
       # RUN CYPRESS
       # ============================================================
       - name: Run Cypress Tests
@@ -55,9 +58,7 @@ jobs:
 
       - name: Strip ANSI color codes
         if: always()
-        run: |
-          touch cypress-raw.txt
-          sed 's/\x1B[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
+        run: sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
 
       # ============================================================
       # ALLURE
