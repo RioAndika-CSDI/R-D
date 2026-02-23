@@ -16,13 +16,13 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Seva 2.0 - Web Cypress"
+        working-directory: "Seva_2.0_Web_Cypress" 
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: "Seva 2.0 - Web Cypress"
+          ref: "Seva_2.0_Web_Cypress"
 
       - name: Detect trigger & start time
         run: |
@@ -41,7 +41,7 @@ jobs:
 
       - name: Install project dependencies
         run: npm ci
-        
+
       # ============================================================
       # LOAD TREND dari cache run sebelumnya
       # ============================================================
