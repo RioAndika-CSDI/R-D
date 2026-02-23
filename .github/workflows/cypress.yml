@@ -34,7 +34,7 @@ jobs:
           node-version: 18
 
       - name: Install project dependencies
-        run: npm ci
+        run: npm install
 
       # ============================================================
       # LOAD TREND dari cache run sebelumnya
@@ -59,7 +59,9 @@ jobs:
 
       - name: Strip ANSI color codes
         if: always()
-        run: sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
+        run: |
+          touch cypress-raw.txt
+          sed 's/\x1B\[[0-9;]*[mKHF]//g' cypress-raw.txt > cypress-output.txt
 
       # ============================================================
       # ALLURE
@@ -202,6 +204,7 @@ jobs:
           echo "EOF"               >> $GITHUB_ENV
 
       # ============================================================
+      # ============================================================
       # DISCORD NOTIFICATION
       # ============================================================
       - name: Send Discord Notification
@@ -212,24 +215,31 @@ jobs:
           TOTAL=${TOTAL_TESTS:-0}
           PASSED=${PASSED_TESTS:-0}
           FAILED=${FAILED_TESTS:-0}
+          PENDING=${PENDING_TESTS:-0}
 
           if [ "$FAILED" != "0" ]; then
             STATUS_TEXT="has failed"
+            RESULT_ICON="❌"
             COLOR=15158332
-            PING="<@&ROLE_ID>"
           else
             STATUS_TEXT="has passed"
+            RESULT_ICON="✅"
             COLOR=3066993
-            PING=""
           fi
 
           case "$TRIGGER" in
-            schedule)          TRIGGER_LABEL="⏰ Scheduled"    ;;
-            push)              TRIGGER_LABEL="🚀 Push · ${{ github.ref_name }}" ;;
-            pull_request)      TRIGGER_LABEL="🔀 PR #${{ github.event.pull_request.number }} · ${{ github.event.pull_request.title }}" ;;
-            workflow_dispatch) TRIGGER_LABEL="🖐 Manual"       ;;
-            *)                 TRIGGER_LABEL="$TRIGGER"        ;;
+            schedule)          TRIGGER_LABEL="Scheduled"    ;;
+            push)              TRIGGER_LABEL="Push to main" ;;
+            pull_request)      TRIGGER_LABEL="Pull Request" ;;
+            workflow_dispatch) TRIGGER_LABEL="Manual"       ;;
+            *)                 TRIGGER_LABEL="$TRIGGER"     ;;
           esac
+
+          if [ "$TRIGGER" = "pull_request" ]; then
+            BRANCH_INFO="PR #${{ github.event.pull_request.number }} (${{ github.head_ref }})"
+          else
+            BRANCH_INFO="${{ github.ref_name }}"
+          fi
 
           CLOUD_URL="https://cloud.cypress.io/projects/wipkva/runs"
           if [ -n "$CYPRESS_RUN_URL" ]; then
@@ -237,15 +247,13 @@ jobs:
           else
             DISPLAY_URL="$CLOUD_URL"
           fi
-          GH_RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          REPO="seva-web-automation"
+          REPO="${{ github.repository }}"
+          REPO_NAME="${REPO##*/}"
 
-          # Suite
+          # Suite: jika ada failed → TS dari spec failed saja
+          #        jika semua passed → semua TS yang dijalankan
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
-            SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
-              | sed 's|/[^/]*$||' \
-              | sort -u \
-              | sed 's/^/• /')
+            SUITE_DISPLAY=$(echo "$FAILED_SPECS"               | sed 's|/[^/]*$||'               | sort -u               | sed 's/^/• /')
           else
             SUITE_DISPLAY="$TS_NAME"
           fi
@@ -263,71 +271,40 @@ jobs:
                       fi
                     fi
 
-                    # Trend line
-                    TREND_LINE=""
-                    if [ -n "$TREND" ]; then
-                      TREND_LINE="
-          📈   ${TREND}"
-                    fi
+          # Build body
+          TITLE="Automation Report Cypress"
+          DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
-                    TITLE="Automation Report Cypress"
-                    DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO}** ${STATUS_TEXT}."
-
-                    BODY="${DESC}
+          BODY="${DESC}
 
           **Test Suite**
           ${SUITE_DISPLAY}
 
           **Execution**
-          🗓   ${DATE_RUN}
-          ⏱   ${TEST_DURATION}
-          🔀   ${TRIGGER_LABEL}
-          🔗   [GitHub Actions Run](${GH_RUN_URL})
-
-          **Environment**
-          🌐   ${BROWSER}
-          🖥   ${OS_INFO}
+          🗓  ${DATE_RUN}
+          ⏱  ${TEST_DURATION}
 
           **Results**
-          📋   Total      : ${TOTAL}
-          ✅   Passed   : ${PASSED}
-          ❌   Failed     : ${FAILED}
-          📊   Pass Rate : ${PASS_RATE}%${TREND_LINE}"
+          Total Runs    : ${TOTAL}
+          ✅  Passed    : ${PASSED}
+          ❌  Failed    : ${FAILED}"
 
-                    if [ -n "$FAILED_SECTION" ]; then
-                      BODY="${BODY}
+          if [ -n "$FAILED_SECTION" ]; then
+            BODY="${BODY}
 
           ─────────────────
           ${FAILED_SECTION}"
                     fi
 
-                    if [ -n "$PING" ]; then
-                      CONTENT="$PING"
-                    else
-                      CONTENT=""
-                    fi
+                    FOOTER="${REPO} | ${BRANCH_INFO} | ${TRIGGER_LABEL}"
 
-                    FOOTER="${REPO} | ${{ github.ref_name }}"
-
-                    jq -n \
-                      --arg content "$CONTENT" \
-                      --arg title   "$TITLE" \
-                      --arg body    "$BODY" \
-                      --arg footer  "$FOOTER" \
-                      --arg url     "$DISPLAY_URL" \
-                      --argjson color $COLOR \
-                    '{
-                      content: (if $content != "" then $content else null end),
+                    jq -n             --arg title  "$TITLE"             --arg body   "$BODY"             --arg footer "$FOOTER"             --arg url    "$DISPLAY_URL"             --argjson color $COLOR           '{
                       embeds: [{
-                        title: $title,
-                        url: $url,
-                        description: $body,
-                        color: $color,
-                        footer: { text: $footer },
-                        timestamp: (now | todateiso8601)
-                      }]
-                    }' \
-                    | curl -s -H "Content-Type: application/json" \
-                        -X POST \
-                        -d @- \
-                        ${{ secrets.DISCORD_WEBHOOK }}
+                                title: $title,
+                                url: $url,
+                                description: $body,
+                                color: $color,
+                                footer: { text: $footer },
+                                timestamp: (now | todateiso8601)
+                              }]
+                              }'| curl -s -H "Content-Type: application/json"               -X POST               -d @-               ${{ secrets.DISCORD_WEBHOOK }}
