@@ -3,8 +3,8 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('Refinancing Homepage_WithLogin', () => {
-  it('Refinancing Homepage_WithLogin', () => {
+describe('TC008_Refinancing_Homepage_WithLogin', () => {
+  it('TC008_Refinancing_Homepage_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()

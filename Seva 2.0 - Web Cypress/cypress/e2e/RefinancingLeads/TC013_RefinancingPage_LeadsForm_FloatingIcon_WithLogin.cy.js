@@ -12,7 +12,7 @@ describe('Refinancing Page Lead Form - Floating Icon_WithLogin', () => {
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(20000)
+    cy.wait(30000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()

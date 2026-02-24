@@ -4,8 +4,8 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('Refinancing Page Lead Form - Floating Icon', () => {
-  it('Refinancing Page Lead Form - Floating Icon', () => {
+describe('TC006_RefinancingPage_LeadsForm_FloatingIcon', () => {
+  it('TC006_RefinancingPage_LeadsForm_FloatingIcon', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()

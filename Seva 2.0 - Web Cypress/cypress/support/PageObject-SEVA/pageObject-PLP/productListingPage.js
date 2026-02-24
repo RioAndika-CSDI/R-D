@@ -12,6 +12,7 @@ class productListingPage {
     toastLeadsTerkirim = '[class="toast-module__qn3SeG__textToast"]'
     checkBoxLeadsButuhBantuan = "(//*[name()='rect'])[3]";
     namaMobil = "//div[@class='mobil-baru-module__ws-ZTW__detailCardWrapperDesktop']//h2[@class='cardetailcard-module__6k6Prq__brandModelText'][normalize-space()='Daihatsu All New Ayla']"
+    btnHitungKemampuan = '[data-testid="button-hitung-kemampuan-plp"]'
 
     clickBtnFloatingIcon() {
         cy.get(this.btnFloatingIcon).eq(0).click();
@@ -60,6 +61,10 @@ class productListingPage {
 
     clickNamaMobil() {
         cy.xpath(this.namaMobil).click();
+    }
+
+    clickBtnHitungKemampuan() {
+        cy.get(this.btnHitungKemampuan).eq(0).click();
     }
 
 
