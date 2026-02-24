@@ -46,7 +46,7 @@ jobs:
       - name: Install project dependencies
         run: npm ci
 
-      # ============================================================
+     # ============================================================
       # RUN CYPRESS
       # ============================================================
       - name: Run Cypress Tests
@@ -122,17 +122,10 @@ jobs:
             PASS_RATE="0"
           fi
 
-          # TS folder name — ambil dari spec yang actual dijalankan di run ini
-          TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt \
-            | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js" \
-            | sed 's|/[^/]*$||' \
-            | sort -u \
-            | sed 's/^/• /')
-          # Fallback ke folder di repo jika parse gagal
-          if [ -z "$TS_NAME" ]; then
-            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
-              | sed 's|.*/||' | sort | sed 's/^/• /')
-          fi
+          # TS_NAME — selalu ambil dari struktur folder cypress/e2e
+          # Dynamic: otomatis detect semua suite folder yang ada
+          TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
+            | sed 's|.*/||' | sort | sed 's/^/• /')
           TS_NAME=${TS_NAME:-"• e2e"}
           echo "=== TS_NAME: $TS_NAME ==="
 
@@ -182,16 +175,13 @@ jobs:
           echo "=== FAILED TESTS PARSED ==="
           echo "$FAILED_TESTS_PARSED"
 
-          # Rekonstruksi nama spec dari tabel multiline Cypress
-          # Baris pertama: "│ ✖  LeadsForm/TC001_Xxx...  " (terpotong)
-          # Baris lanjutan: "│    ...lanjutan nama..."
-          # Sampai ketemu ".cy.js"
-          FAILED_SPECS=$(awk '
+          # Rekonstruksi nama spec dari tabel multiline Cypress (tanpa folder)
+          # Format: "│ ✖  TC013_RefinancingPage_LeadsForm_Flo..." (terpotong multiline)
+          FAILED_SPECS_RAW=$(awk '
             /│[[:space:]]+✖/ {
-              # mulai tangkap nama spec, ambil teks setelah ✖
               line=$0
-              gsub(/.*✖[[:space:]]+/, "", line)   # buang prefix sampai setelah ✖
-              gsub(/[[:space:]]+[0-9].*$/, "", line) # buang kolom angka di belakang
+              gsub(/.*✖[[:space:]]+/, "", line)
+              gsub(/[[:space:]]+[0-9].*$/, "", line)
               gsub(/[[:space:]]+$/, "", line)
               buf=line
               if (buf ~ /\.cy\.js$/) {
@@ -202,14 +192,10 @@ jobs:
               capturing=1
               next
             }
-            capturing==1 && /│[[:space:]]+[✔✖]/ {
-              # baris spec baru, reset
-              capturing=0; buf=""
-            }
+            capturing==1 && /│[[:space:]]+[✔✖]/ { capturing=0; buf="" }
             capturing==1 && /│/ {
-              # baris lanjutan nama spec
               line=$0
-              gsub(/^[^│]*│[[:space:]]+/, "", line)  # buang prefix │
+              gsub(/^[^│]*│[[:space:]]+/, "", line)
               gsub(/[[:space:]]+$/, "", line)
               buf=buf line
               if (buf ~ /\.cy\.js/) {
@@ -223,7 +209,28 @@ jobs:
             capturing==1 && !/│/ { capturing=0; buf="" }
           ' cypress-output.txt | sort -u)
 
-          echo "=== FAILED SPECS: ==="
+          echo "=== FAILED SPECS RAW: ==="
+          echo "$FAILED_SPECS_RAW"
+
+          # Lookup suite folder dari struktur repo cypress/e2e
+          # Untuk setiap TC yang failed, cari di folder mana file itu berada
+          FAILED_SPECS=""
+          while IFS= read -r tc_name; do
+            [ -z "$tc_name" ] && continue
+            # Cari file TC di dalam cypress/e2e (rekursif)
+            FOUND=$(find cypress/e2e -name "${tc_name}.cy.js" 2>/dev/null | head -1)
+            if [ -n "$FOUND" ]; then
+              # Ambil relative path dari cypress/e2e
+              REL=$(echo "$FOUND" | sed 's|.*/cypress/e2e/||')
+              FAILED_SPECS="${FAILED_SPECS}${REL%.cy.js}"
+            else
+              # Fallback: pakai nama TC saja
+              FAILED_SPECS="${FAILED_SPECS}${tc_name}"
+            fi
+          done <<< "$FAILED_SPECS_RAW"
+
+          FAILED_SPECS=$(echo "$FAILED_SPECS" | sed '/^$/d' | sort -u)
+          echo "=== FAILED SPECS WITH SUITE: ==="
           echo "$FAILED_SPECS"
 
           echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
@@ -280,8 +287,9 @@ jobs:
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
-          # Suite: jika ada failed → TS dari spec failed saja
-          #        jika semua passed → semua TS yang dijalankan
+          # Suite display:
+          # - Failed → ambil folder suite dari FAILED_SPECS (SuiteName/TCxxx → SuiteName)
+          # - Pass   → semua folder suite di cypress/e2e (TS_NAME dari extract summary)
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
               | sed 's|/[^/]*$||' \
