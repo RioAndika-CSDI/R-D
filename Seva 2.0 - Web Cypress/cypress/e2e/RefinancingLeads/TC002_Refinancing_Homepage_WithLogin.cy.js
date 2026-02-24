@@ -3,15 +3,15 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC008_Refinancing_Homepage_WithLogin', () => {
-  it('TC008_Refinancing_Homepage_WithLogin', () => {
+describe('TC002_Refinancing_Homepage_WithLogin', () => {
+  it('TC002_Refinancing_Homepage_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(20000)
+    cy.wait(30000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickTabFasilitasDana()

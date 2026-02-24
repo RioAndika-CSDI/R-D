@@ -4,19 +4,19 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC012_RefinancingPage_LeadsForm_BenefitSection_WithLogin', () => {
-  it('TC012_RefinancingPage_LeadsForm_BenefitSection_WithLogin', () => {
+describe('TC004_RefinancingPage_LeadsForm_TopWidget_WithLogin', () => {
+  it('TC004_RefinancingPage_LeadsForm_TopWidget_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(20000)
+    cy.wait(30000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()
-    refinancingPage.clickBtnAjukanSekarangBenefitSection()
+    refinancingPage.clickBtnAjukanSekarangTopWidget()
     cy.wait(2000)
     refinancingPage.inputNamaLengkap('Testing')
     // refinancingPage.inputNomorHp('89676848410')

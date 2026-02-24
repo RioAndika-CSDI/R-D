@@ -4,13 +4,13 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC002_RefinancingPage_LeadsForm_TopWidget', () => {
-  it('TC002_RefinancingPage_LeadsForm_TopWidget', () => {
+describe('TC010_RefinancingPage_LeadsForm_BenefitSection', () => {
+  it('TC010_RefinancingPage_LeadsForm_BenefitSection', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnFasilitasDana()
-    refinancingPage.clickBtnAjukanSekarangTopWidget()
+    refinancingPage.clickBtnAjukanSekarangBenefitSection()
     cy.wait(2000)
     refinancingPage.inputNamaLengkap('Testing')
     refinancingPage.inputNomorHp('89676848410')

@@ -4,8 +4,8 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('Refinancing Page Lead Form_WithLogin', () => {
-  it('Refinancing Page Lead Form_WithLogin', () => {
+describe('TC014_RefinancingPage_LeadsForm_WithLogin', () => {
+  it('TC014_RefinancingPage_LeadsForm_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()

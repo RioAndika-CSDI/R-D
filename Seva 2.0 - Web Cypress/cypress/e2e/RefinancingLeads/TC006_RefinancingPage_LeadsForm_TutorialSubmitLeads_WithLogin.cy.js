@@ -4,8 +4,8 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('Refinancing Page Lead Form - Floating Icon_WithLogin', () => {
-  it('Refinancing Page Lead Form - Floating Icon_WithLogin', () => {
+describe('TC006_RefinancingPage_LeadsForm_TutorialSubmitLeads_WithLogin', () => {
+  it('TC006_RefinancingPage_LeadsForm_TutorialSubmitLeads_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
@@ -16,7 +16,7 @@ describe('Refinancing Page Lead Form - Floating Icon_WithLogin', () => {
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()
-    refinancingPage.clickBtnFloatingIcon()
+    refinancingPage.clickBtnDiSini()
     cy.wait(2000)
     refinancingPage.inputNamaLengkap('Testing')
     // refinancingPage.inputNomorHp('89676848410')
