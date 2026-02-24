@@ -53,6 +53,7 @@ jobs:
         continue-on-error: true
         run: |
           npx cypress run \
+            --browser chrome \
             --record \
             --key ${{ secrets.CYPRESS_RECORD_KEY }} \
             2>&1 | tee cypress-raw.txt
