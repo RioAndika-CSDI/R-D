@@ -4,24 +4,22 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC011_RefinancingPage_LeadsForm_FloatingIcon', () => {
-  it('TC011_RefinancingPage_LeadsForm_FloatingIcon', () => {
+describe('TC007_RefinancingPage_LeadsForm', () => {
+  it('TC007_RefinancingPage_LeadsForm', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnFasilitasDana()
-    refinancingPage.clickBtnFloatingIcon()
-    cy.wait(2000)
-    refinancingPage.inputNamaLengkap('Testing')
-    refinancingPage.inputNomorHp('89676848410')
-    refinancingPage.clickDropdownPilihKota()
-    refinancingPage.inputDropdownPilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+    refinancingPage.inputNamaLengkapLeadsForm('Testing')
+    refinancingPage.inputNomorHpLeadsForm('89676848410')
+    refinancingPage.clickDropdownPilihKotaLeadsForm()
+    refinancingPage.inputDropdownPilihKotaLeadsForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
     cy.wait(2000)
     refinancingPage.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
-    refinancingPage.clickCheckBox()
-    refinancingPage.clickOpsiBPKBMobil()
+    refinancingPage.clickCheckBoxLeadsForm()
+    refinancingPage.clickOpsiBPKBMobilLeadsForm()
     cy.wait(2000)
-    refinancingPage.clickBtnKirim()
+    refinancingPage.clickBtnKirimLeadsForm()
     cy.wait(10000)
     refinancingPage.verifyRefinancingPage()
 

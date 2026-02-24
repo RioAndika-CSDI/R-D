@@ -39,7 +39,8 @@ class refinancingPage {
     }
 
     clickBtnFloatingIcon() {
-        cy.scrollTo(0, 2000)
+        cy.wait(3000)
+        cy.scrollTo(0, 2100)
         cy.get(this.btnFloatingIcon).click();
     }
 
