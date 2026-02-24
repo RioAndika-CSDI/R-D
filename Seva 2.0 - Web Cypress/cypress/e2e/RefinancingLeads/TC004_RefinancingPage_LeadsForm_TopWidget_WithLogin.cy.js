@@ -12,7 +12,7 @@ describe('TC004_RefinancingPage_LeadsForm_TopWidget_WithLogin', () => {
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(30000)
+    cy.wait(60000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()

@@ -12,7 +12,7 @@ describe('TC006_RefinancingPage_LeadsForm_TutorialSubmitLeads_WithLogin', () => 
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(30000)
+    cy.wait(60000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()

@@ -4,30 +4,28 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC009_RefinancingPage_LeadsForm_BenefitSection_WithLogin', () => {
-  it('TC009_RefinancingPage_LeadsForm_BenefitSection_WithLogin', () => {
+describe('TC014_RefinancingPage_LeadsForm_WithLogin', () => {
+  it('TC014_RefinancingPage_LeadsForm_WithLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     homePage.clickBtnMasukRegister()
     homePage.inputNomorHpLogin('89676848410')
     homePage.clickBtnSelanjutnya()
-    cy.wait(30000)
+    cy.wait(60000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
     homePage.clickBtnFasilitasDana()
-    refinancingPage.clickBtnAjukanSekarangBenefitSection()
-    cy.wait(2000)
-    refinancingPage.inputNamaLengkap('Testing')
-    // refinancingPage.inputNomorHp('89676848410')
-    refinancingPage.clickDropdownPilihKota()
-    refinancingPage.inputDropdownPilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+    refinancingPage.inputNamaLengkapLeadsForm('Testing')
+    // refinancingPage.inputNomorHpLeadsForm('89676848410')
+    refinancingPage.clickDropdownPilihKotaLeadsForm()
+    refinancingPage.inputDropdownPilihKotaLeadsForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
     cy.wait(2000)
     refinancingPage.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
-    refinancingPage.clickCheckBox()
-    refinancingPage.clickOpsiBPKBMobil()
+    refinancingPage.clickCheckBoxLeadsForm()
+    refinancingPage.clickOpsiBPKBMobilLeadsForm()
     cy.wait(2000)
-    refinancingPage.clickBtnKirim()
+    refinancingPage.clickBtnKirimLeadsForm()
     cy.wait(10000)
     refinancingPage.verifyRefinancingPage()
 

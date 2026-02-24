@@ -13,8 +13,20 @@ module.exports = defineConfig({
 
   e2e: {
     setupNodeEvents(on, config) {
-      // ✅ Allure plugin — generate allure-results per test
+
+      // ✅ Allure plugin
       allureWriter(on, config);
+
+      // ✅ Disable browser cache (INI bagian hapus cache)
+      on('before:browser:launch', (browser, launchOptions) => {
+        if (browser.name === 'chrome') {
+          launchOptions.args.push('--disable-cache');
+          launchOptions.args.push('--disable-application-cache');
+          launchOptions.args.push('--disk-cache-size=0');
+        }
+        return launchOptions;
+      });
+
       return config;
     },
   },
