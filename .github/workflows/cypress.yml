@@ -46,7 +46,7 @@ jobs:
       - name: Install project dependencies
         run: npm ci
 
-     # ============================================================
+    # ============================================================
       # RUN CYPRESS
       # ============================================================
       - name: Run Cypress Tests
@@ -217,19 +217,18 @@ jobs:
           FAILED_SPECS=""
           while IFS= read -r tc_name; do
             [ -z "$tc_name" ] && continue
-            # Cari file TC di dalam cypress/e2e (rekursif)
+            # Cari file TC di dalam cypress/e2e secara rekursif
             FOUND=$(find cypress/e2e -name "${tc_name}.cy.js" 2>/dev/null | head -1)
             if [ -n "$FOUND" ]; then
-              # Ambil relative path dari cypress/e2e
-              REL=$(echo "$FOUND" | sed 's|.*/cypress/e2e/||')
-              FAILED_SPECS="${FAILED_SPECS}${REL%.cy.js}"
+              # Ambil: buang prefix hingga "cypress/e2e/" lalu buang ".cy.js"
+              SUITE=$(dirname "$FOUND" | sed 's|.*/cypress/e2e/||; s|cypress/e2e/||; s|^\./||')
+              FAILED_SPECS="${FAILED_SPECS}${SUITE}/${tc_name}"$'\n'
             else
-              # Fallback: pakai nama TC saja
-              FAILED_SPECS="${FAILED_SPECS}${tc_name}"
+              FAILED_SPECS="${FAILED_SPECS}${tc_name}"$'\n'
             fi
           done <<< "$FAILED_SPECS_RAW"
 
-          FAILED_SPECS=$(echo "$FAILED_SPECS" | sed '/^$/d' | sort -u)
+          FAILED_SPECS=$(printf '%s' "$FAILED_SPECS" | sed '/^$/d' | sort -u)
           echo "=== FAILED SPECS WITH SUITE: ==="
           echo "$FAILED_SPECS"
 
