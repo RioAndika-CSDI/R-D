@@ -6,9 +6,6 @@ on:
   pull_request:
     branches: [ Seva_2.0_Web_Cypress ]
   workflow_dispatch:
-  schedule:
-      - cron: '0 23 * * 0-5'  # Senin-Sabtu 06:00 WIB
-      - cron: '0 5 * * 1-6'   # Senin-Sabtu 12:00 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}

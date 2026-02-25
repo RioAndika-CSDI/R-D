@@ -2,6 +2,7 @@ import'cypress-xpath'
 
 class homePage {
     tabFasilitasDana = '[data-testid="navigation-tab-v2-item-Fasilitas Dana"]';
+    tabMobilBekas = '[data-testid="navigation-tab-v2-item-Mobil Bekas"]'
     btnAjukanSekarang = '[data-testid="button-ajukan-sekarang"]';
     namaLengkap = '[data-test-id="field-input-leads-nama-lengkap"]';
     nomorHp = '[data-test-id="field-input-leads-nomor-hp"]';
@@ -23,10 +24,15 @@ class homePage {
     toastLeadsTerkirim = '[class="toast-module__qn3SeG__textToast"]'
     checkBoxLeadsButuhBantuan = "(//*[name()='rect'])[4]";
     btnCariMobilBaru = '[data-testid="button-cari-mobil"]';
+    btnProfile = '[id="button-profile-mobile"]'
 
 
     clickTabFasilitasDana() {
         cy.get(this.tabFasilitasDana).click();
+    }
+
+    clickTabMobilBekas() {
+        cy.get(this.tabMobilBekas).click();
     }
 
     clickBtnAjukanSekarang() {
@@ -123,6 +129,14 @@ class homePage {
 
     clickBtnCariMobilBaru() {
         cy.get(this.btnCariMobilBaru).click();
+    }
+
+    verifySuccessLogin() {
+        cy.get(this.btnCariMobilBaru).should('be.visible');
+    }
+
+    clickBtnProfile() {
+        cy.get(this.btnProfile).click();
     }
 
 }
