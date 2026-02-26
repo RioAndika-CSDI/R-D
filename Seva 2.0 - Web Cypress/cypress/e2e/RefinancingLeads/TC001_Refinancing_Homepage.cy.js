@@ -23,6 +23,6 @@ describe('TC001_Refinancing_Homepage', () => {
     homePage.clickBtnKirim()
     cy.wait(10000)
     homePage.verifyRefinancingHomepage()
-
+// 
   })
 })
