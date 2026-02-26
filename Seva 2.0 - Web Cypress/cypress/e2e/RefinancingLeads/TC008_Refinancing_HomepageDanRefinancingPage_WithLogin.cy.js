@@ -6,6 +6,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 describe('TC002_Refinancing_Homepage_WithLogin', () => {
     it('TC002_Refinancing_Homepage_WithLogin', () => {
+        cy.clearSession();
 
 //Homepage
     cy.log('HOMEPAGE✅✅✅')

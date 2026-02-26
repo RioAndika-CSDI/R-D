@@ -3,7 +3,7 @@ import'cypress-xpath'
 class kualifikasiKredit {
     
     dropdownPekerjaan = '[class="inputSelect-module__gaCRbW__inputField inputSelect-module__gaCRbW__inputFieldPDPDesktop"]'
-    valuePekerjaan = '[class="inputSelect-module__gaCRbW__dropdownItem inputSelect-module__gaCRbW__active"]'
+    valuePekerjaan = '[class="inputSelect-module__gaCRbW__dropdownItemText"]'
     btnSelanjutnya = "[normalize-space()='Selanjutnya']"
     checkBoxLeadsForm = "(//*[name()='rect'])[7]";
     btnCekPeluangKredit = '[class="button-module__T5rPxa__primaryDarkBlue button-module__T5rPxa__plpDesktop undefined"]'
@@ -19,7 +19,7 @@ class kualifikasiKredit {
     }
 
     clickValuePekerjaan(valuePekerjaan) {
-        cy.contains(this.valuePekerjaan, valuePekerjaan).click({ force: true });
+        cy.contains(this.valuePekerjaan, valuePekerjaan).click();
     }
 
     clickBtnSelanjutnya() {

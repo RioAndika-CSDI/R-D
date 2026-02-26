@@ -6,6 +6,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 describe('TC006_RefinancingPage_LeadsForm_FloatingIcon', () => {
   it('TC006_RefinancingPage_LeadsForm_FloatingIcon', () => {
+    cy.clearSession();
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()

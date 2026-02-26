@@ -6,6 +6,7 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 describe('TC004_RefinancingPage_LeadsForm_CreditSimulation', () => {
   it('TC004_RefinancingPage_LeadsForm_CreditSimulation', () => {
+    cy.clearSession();
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()

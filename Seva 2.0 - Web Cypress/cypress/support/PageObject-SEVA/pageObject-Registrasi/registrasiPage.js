@@ -3,7 +3,7 @@ import'cypress-xpath'
 class registrasiPage {
     namaLengkap = '[data-test-id="input-nama-lengkap"]';
     email = '[data-testid="input-email"]';
-    tanggalLahir  = "button[name='dob']";
+    tanggalLahir  = "//button[normalize-space()='DD/MM/YYYY']";
     btnSimpan = "//a[normalize-space()='Simpan']"
     dropdownJenisKelamin = '[class="inputSelect-module__gaCRbW__inputArea"]'
     valueJenisKelamin = '[id="Pria"]'
@@ -56,7 +56,7 @@ class registrasiPage {
     }
 
     clickCheckbox2() {
-        cy.xpath(this.checkbox2).click();
+        cy.xpath(this.checkbox2).should('exist').click({ force: true });
     }
 
     clickBtnDaftar() {
