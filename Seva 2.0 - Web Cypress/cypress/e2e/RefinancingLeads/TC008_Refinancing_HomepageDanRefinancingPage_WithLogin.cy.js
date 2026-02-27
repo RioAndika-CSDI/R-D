@@ -4,10 +4,10 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC002_Refinancing_Homepage_WithLogin', () => {
-    it('TC002_Refinancing_Homepage_WithLogin', () => {
-        cy.clearSession();
-
+describe('TC008_Refinancing_HomepageDanRefinancingPage_WithLogin.cy', () => {
+    it('TC008_Refinancing_HomepageDanRefinancingPage_WithLogin.cy', () => {
+    
+    cy.clearSession();
 //Homepage
     cy.log('HOMEPAGE✅✅✅')
     urlSeva.visitUrl()

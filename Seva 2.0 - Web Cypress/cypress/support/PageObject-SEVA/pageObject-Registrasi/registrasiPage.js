@@ -8,14 +8,14 @@ class registrasiPage {
     dropdownJenisKelamin = '[class="inputSelect-module__gaCRbW__inputArea"]'
     valueJenisKelamin = '[id="Pria"]'
     btnDaftar = '[data-testid="button-daftar"]'
-    btnHapusAkun = '[class="account-profile-module__WNxDGq__deleteAccountLink"]'
+    btnHapusAkun = "//a[normalize-space()='Hapus Akun']"
     checkbox = "(//*[name()='rect'])[4]"
-    checkbox2 = "(//*[name()='rect'])[1]"
+    checkbox2 = "(//*[name()='rect'])[2]"
     btnLanjutkan = "//button[normalize-space()='Lanjutkan']"
     dropdownPilihAlasan = '[class="inputSelect-module__gaCRbW__inputField"]'
-    valuePilihAlasan = '[class="inputSelect-module__gaCRbW__dropdownItemText"]'
+    valuePilihAlasan = "//div[contains(text(),'Alasan lainnya')]"
     btnSelanjutnya = "//button[normalize-space()='Selanjutnya']"
-    btnYaHapusAkunSaya = 'class="textButton-module__UgUQqG__primary deleteAccountModal-module__q0WNaq__ctaConfirm"'
+    btnYaHapusAkunSaya = "//button[normalize-space()='Ya, Hapus Akun Saya']"
     btnCariMobilBaru = '[data-testid="button-cari-mobil"]';
 
     inputNamaLengkap(namaLengkap) {
@@ -64,7 +64,7 @@ class registrasiPage {
     }
 
     clickBtnHapusAkun() {
-        cy.get(this.btnHapusAkun).click();
+        cy.xpath(this.btnHapusAkun).click();
     }
 
     clickBtnLanjutkan() {
@@ -80,11 +80,15 @@ class registrasiPage {
     }
 
     clickBtnYaHapusAkunSaya() {
-        cy.get(this.btnYaHapusAkunSaya).click();
+        cy.xpath(this.btnYaHapusAkunSaya).click();
     }
 
-    clickValuePilihAlasan(valuePilihAlasan) {
-        cy.contains(this.valuePilihAlasan, valuePilihAlasan).click();
+    // clickValuePilihAlasan(valuePilihAlasan) {
+    //     cy.contains(this.valuePilihAlasan, valuePilihAlasan).click();
+    // }
+
+    clickValuePilihAlasan() {
+        cy.xpath(this.valuePilihAlasan).should('be.visible').click({ force: true })
     }
 
     verifySuccessRegistrasi() {
