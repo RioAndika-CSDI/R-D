@@ -24,6 +24,7 @@ class blogArtikel {
     }
 
     clickCheckBoxLeads() {
+        cy.get(this.checkBoxLeads).scrollIntoView();
         cy.get(this.checkBoxLeads).click({ force: true })
     }
 

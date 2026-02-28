@@ -12,10 +12,12 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC001_LeadsForm_WithoutLogin', () => {
-  it('TC001_LeadsForm_WithoutLogin', () => {
+describe('TC002_LeadsForm_WithLogin', () => {
+  it('TC002_LeadsForm_WithLogin', () => {
 
     cy.clearSession();
+//Login
+    cy.log('LOGIN✅✅✅')
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
@@ -25,7 +27,6 @@ describe('TC001_LeadsForm_WithoutLogin', () => {
     cy.wait(20000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
-
 
   // 1. Homepage Butuh Bantuan
     cy.log('HOMEPAGE✅✅✅')
@@ -207,10 +208,11 @@ describe('TC001_LeadsForm_WithoutLogin', () => {
     urlSeva.visitUrl()
     cy.wait(5000)
     urlSeva.visitUrlBlog()
-    blogArtikel.inputNamaLengkapLeads('Testing')
-    blogArtikel.clickIconClose()
-    blogArtikel.inputNomorHpLeads('89676848410')
+    // blogArtikel.inputNamaLengkapLeads('Testing')
+    // blogArtikel.inputNomorHpLeads('89676848410')
     blogArtikel.clickCheckBoxLeads()
+    cy.wait(5000)
+    blogArtikel.clickIconClose()
     cy.wait(2000)
     blogArtikel.clickBtnKirimLeads()
     cy.wait(20000)

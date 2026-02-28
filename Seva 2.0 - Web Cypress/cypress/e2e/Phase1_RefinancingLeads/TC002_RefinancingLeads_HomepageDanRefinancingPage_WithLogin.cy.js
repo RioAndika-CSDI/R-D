@@ -4,12 +4,12 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC008_Refinancing_HomepageDanRefinancingPage_WithLogin', () => {
-    it('TC008_Refinancing_HomepageDanRefinancingPage_WithLogin', () => {
+describe('TC002_RefinancingLeads_HomepageDanRefinancingPage_WithLogin', () => {
+    it('TC002_RefinancingLeads_HomepageDanRefinancingPage_WithLogin', () => {
     
     cy.clearSession();
-//Homepage
-    cy.log('HOMEPAGE✅✅✅')
+//Login
+    cy.log('LOGIN✅✅✅')
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
@@ -19,6 +19,9 @@ describe('TC008_Refinancing_HomepageDanRefinancingPage_WithLogin', () => {
     cy.wait(20000)
     homePage.inputFieldOTP('123456')
     cy.wait(10000)
+
+//Homepage
+    cy.log('HOMEPAGE✅✅✅')
     homePage.clickTabFasilitasDana()
     homePage.clickBtnAjukanSekarang()
     homePage.inputNamaLengkap('Testing')

@@ -4,8 +4,8 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC003_Registrasi&Login', () => {
-  it('TC003_Registrasi&Login', () => {
+describe('TC003_Registrasi', () => {
+  it('TC003_Registrasi', () => {
     cy.clearSession();
 
   //REGISTRASI 
@@ -64,19 +64,6 @@ describe('TC003_Registrasi&Login', () => {
         registrasiPage.verifySuccessRegistrasi()
       }
     })
-
-    //LOGIN 
-    cy.log('LOGIN✅✅✅')
-    cy.reload()
-    urlSeva.visitUrl()
-    cy.wait(5000)
-    homePage.clickBtnMasukRegister()
-    homePage.inputNomorHpLogin('89676848410')
-    homePage.clickBtnSelanjutnya()
-    cy.wait(30000)
-    homePage.inputFieldOTP('123456')
-    cy.wait(10000)
-    homePage.verifySuccessLogin()
 
   })
 })
