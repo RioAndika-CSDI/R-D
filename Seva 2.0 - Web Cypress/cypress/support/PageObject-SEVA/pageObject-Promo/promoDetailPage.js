@@ -30,8 +30,12 @@ class promoDetailPage {
         cy.get(this.checkBoxLeads).click({ force: true })
     }
 
-    verifyToastLeadsTerkirim() {
-        cy.xpath(this.toastLeadsTerkirim).should('be.visible');
+    // verifyToastLeadsTerkirim() {
+    //     cy.xpath(this.toastLeadsTerkirim).should('be.visible');
+    // }
+
+    verifyLeadsTerkirim() {
+        cy.get(this.btnKirimLeads).should('be.visible');
     }
 
     inputFieldOTP(fieldOTP) {

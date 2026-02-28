@@ -25,6 +25,9 @@ class productDetailPage {
     }
 
     clickBtnKirimFloatingIcon() {
+        cy.window().then((win) => {
+            cy.stub(win, 'open').as('windowOpen')
+        })
         cy.get(this.btnKirimFloatingIcon).click();
     }
 

@@ -4,9 +4,12 @@ import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
 
 
 
-describe('TC015_Registrasi', () => {
-  it('TC015_Registrasi', () => {
+describe('TC003_Registrasi&Login', () => {
+  it('TC003_Registrasi&Login', () => {
     cy.clearSession();
+
+  //REGISTRASI 
+    cy.log('REGISTRASI✅✅✅')
     urlSeva.visitUrl()
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
@@ -45,6 +48,7 @@ describe('TC015_Registrasi', () => {
         cy.wait(5000)
         registrasiPage.verifySuccessRegistrasi()
         cy.reload()
+        cy.wait(5000)
         urlSeva.visitUrAkunProfile()
         registrasiPage.clickBtnHapusAkun()
         cy.wait(3000)
@@ -60,6 +64,19 @@ describe('TC015_Registrasi', () => {
         registrasiPage.verifySuccessRegistrasi()
       }
     })
+
+    //LOGIN 
+    cy.log('LOGIN✅✅✅')
+    cy.reload()
+    urlSeva.visitUrl()
+    cy.wait(5000)
+    homePage.clickBtnMasukRegister()
+    homePage.inputNomorHpLogin('89676848410')
+    homePage.clickBtnSelanjutnya()
+    cy.wait(30000)
+    homePage.inputFieldOTP('123456')
+    cy.wait(10000)
+    homePage.verifySuccessLogin()
 
   })
 })
