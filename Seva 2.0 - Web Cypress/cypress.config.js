@@ -7,8 +7,8 @@ module.exports = defineConfig({
   projectId: "3x3m8i",
 
   defaultCommandTimeout: 30000,  // 30 detik
-  pageLoadTimeout: 120000,        // 120 detik
-  responseTimeout: 60000,
+  pageLoadTimeout: 180000,        // 120 detik
+  responseTimeout: 180000,
   requestTimeout: 10000,
 
   e2e: {

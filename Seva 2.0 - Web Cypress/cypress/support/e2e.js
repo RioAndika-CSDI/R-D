@@ -16,6 +16,8 @@
 // Import commands.js using ES2015 syntax:
 // Import commands.js using ES2015 syntax:
 import './commands'
+// cypress/support/e2e.js
+import 'cypress-xpath'   // ⬅️ harus ada di sini
 
 // ✅ Import Allure plugin commands
 import "@shelex/cypress-allure-plugin";
