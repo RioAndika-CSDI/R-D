@@ -32,10 +32,6 @@ class blogArtikel {
         cy.get(this.btnKirimLeads).should('be.visible');
     }
 
-    // verifyLeadsTerkirim() {
-    //     cy.xpath(this.btnKirimLeads).should('be.disabled');
-    // }
-
     clickIconClose() {
         cy.xpath(this.iconClose).click();
     }
