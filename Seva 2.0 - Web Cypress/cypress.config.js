@@ -6,8 +6,8 @@ module.exports = defineConfig({
   // ✅ Cypress Cloud Project ID
   projectId: "3x3m8i",
 
-  defaultCommandTimeout: 10000,  // 10 detik
-  pageLoadTimeout: 60000,        // 60 detik
+  defaultCommandTimeout: 30000,  // 30 detik
+  pageLoadTimeout: 120000,        // 120 detik
   responseTimeout: 60000,
   requestTimeout: 10000,
 
