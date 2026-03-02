@@ -125,7 +125,7 @@ class homePage {
 
     verifyToastLeadsTerkirim() {
         // cy.get(this.toastLeadsTerkirim).should('be.visible');
-        y.get(this.namaLengkapLeadsButuhBantuan).should('be.visible');
+        cy.get(this.namaLengkapLeadsButuhBantuan).should('be.visible');
     }
 
     clickBtnCariMobilBaru() {
