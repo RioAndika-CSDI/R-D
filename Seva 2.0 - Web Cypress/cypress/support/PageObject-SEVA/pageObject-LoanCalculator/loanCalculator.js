@@ -1,6 +1,7 @@
 import'cypress-xpath'
 
 class loanCalculator {
+    downPayment = '[data-testid="field-input-dp"]'
     pendapatanBulanan = '[data-test-id="field-input-pendapatan"]'
     dropdownKategoriUmur = '[data-testid="button-kategori-umur"]'
     valueKategoriUmur = '[data-testid="field-pilih-kategori-umur-28-34"]'
@@ -12,6 +13,12 @@ class loanCalculator {
     toastLeadsTerkirim = '[class="toast-module__qn3SeG__textToast leadsFormSecondary-module__sglaiW__toastAdditionalTextClassnamePDP"]'
     checkBoxLeadsForm = "(//*[name()='rect'])[8]";
     btnCekPeluangKredit = '[class="calculationResult-module__diJnZq__continueKkSectionCtaPDP"]'
+
+    inputDownPayment(downPayment) {
+        cy.get(this.downPayment).eq(1).scrollIntoView();
+        cy.get(this.downPayment).eq(1).clear();
+        cy.get(this.downPayment).eq(1).type(downPayment);
+    }
 
     inputPendapatanBulanan(pendapatanBulanan) {
         cy.get(this.pendapatanBulanan).eq(1).scrollIntoView();

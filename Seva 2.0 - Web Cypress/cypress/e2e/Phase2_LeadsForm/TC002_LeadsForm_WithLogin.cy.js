@@ -108,6 +108,8 @@ describe('TC002_LeadsForm_WithLogin', () => {
     homePage.clickBtnCariMobilBaru()
     productListingPage.clickBtnHitungKemampuan()
     cy.wait(5000)
+    loanCalculator.inputDownPayment('30000000')
+    cy.wait(2000)
     loanCalculator.inputPendapatanBulanan('100000000')
     loanCalculator.clickDropdownKategoriUmur()
     loanCalculator.clickValueKategoriUmur()
