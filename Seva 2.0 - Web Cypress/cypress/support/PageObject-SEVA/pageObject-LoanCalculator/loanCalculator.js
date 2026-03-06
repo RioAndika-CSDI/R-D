@@ -16,6 +16,8 @@ class loanCalculator {
 
     inputDownPayment(downPayment) {
         cy.get(this.downPayment).eq(1).scrollIntoView();
+        cy.wait(3000)
+        cy.get(this.downPayment).eq(1).click();
         cy.get(this.downPayment).eq(1).clear();
         cy.get(this.downPayment).eq(1).type(downPayment);
     }
