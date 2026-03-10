@@ -2,10 +2,12 @@ name: Seva Cypress Automation Test
 
 on:
   push:
-    branches: [ Seva_2.0_Web_Cypress ]
-  pull_request:
-    branches: [ Seva_2.0_Web_Cypress ]
+    branches:
+      - R-D  # branch yang mau trigger saat push
   workflow_dispatch:
+  schedule:
+    - cron: '15 4 * * *'   # 11:15 WIB
+    - cron: '30 4 * * *'   # 11:30 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}
@@ -23,7 +25,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: Seva_2.0_Web_Cypress
+          ref: R-D
 
       - name: Detect trigger & start time
         run: |
@@ -34,6 +36,19 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
         working-directory: "."
+
+      - name: Detect schedule phase
+        if: github.event_name == 'schedule'
+        run: |
+          CRON="${{ github.event.schedule }}"
+
+          if [ "$CRON" = "0 4 * * *" ]; then
+            echo "PHASE=phase1" >> $GITHUB_ENV
+          elif [ "$CRON" = "0 5 * * *" ]; then
+            echo "PHASE=phase2" >> $GITHUB_ENV
+          fi
+
+          echo "Detected PHASE=$PHASE"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -49,8 +64,19 @@ jobs:
       - name: Run Cypress Tests
         continue-on-error: true
         run: |
+          if [ "$PHASE" = "phase1" ]; then
+            SPEC_PATH="cypress/e2e/Phase1_RefinancingLeads/**/*.cy.js"
+          elif [ "$PHASE" = "phase2" ]; then
+            SPEC_PATH="cypress/e2e/Phase2_LeadsForm/**/*.cy.js"
+          else
+            SPEC_PATH="cypress/e2e/**/*.cy.js"
+          fi
+
+          echo "Running specs: $SPEC_PATH"
+
           npx cypress run \
             --browser chrome \
+            --spec "$SPEC_PATH" \
             --record \
             --key ${{ secrets.CYPRESS_RECORD_KEY }} \
             2>&1 | tee cypress-raw.txt
