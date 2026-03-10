@@ -3,13 +3,12 @@ name: Seva Cypress Automation Test
 on:
   push:
     branches:
-      - main  # branch yang mau trigger saat push
+      - main
   workflow_dispatch:
   schedule:
-    - cron: '10 6 * * *'   # 11:35 WIB
-    - cron: '20 6 * * *'   # 11:40 WIB
+    - cron: '18 6 * * *'   # 13:10 WIB → phase1
+    - cron: '25 6 * * *'   # 13:20 WIB → phase2
 
-# ✅ FIX: group unik per schedule, biar phase1 & phase2 tidak saling block
 concurrency:
   group: cypress-${{ github.ref_name }}-${{ github.event.schedule || github.run_id }}
   cancel-in-progress: false
@@ -47,10 +46,10 @@ jobs:
       - name: Detect schedule phase
         if: github.event_name == 'schedule'
         run: |
-          CRON="${{ github.event.schedule }}"   # ← tambahkan ini kembali
-          if [ "$CRON" = "45 5 * * *" ]; then
+          CRON="${{ github.event.schedule }}"
+          if [ "$CRON" = "18 6 * * *" ]; then
             PHASE="phase1"
-          elif [ "$CRON" = "50 5 * * *" ]; then
+          elif [ "$CRON" = "25 6 * * *" ]; then
             PHASE="phase2"
           fi
           echo "PHASE=$PHASE" >> $GITHUB_ENV
@@ -64,7 +63,7 @@ jobs:
       - name: Install project dependencies
         run: npm ci
 
-    # ============================================================
+      # ============================================================
       # RUN CYPRESS
       # ============================================================
       - name: Run Cypress Tests
@@ -83,8 +82,6 @@ jobs:
           npx cypress run \
             --browser chrome \
             --spec "$SPEC_PATH" \
-            --record \
-            --key ${{ secrets.CYPRESS_RECORD_KEY }} \
             2>&1 | tee cypress-raw.txt
 
       - name: Strip ANSI color codes
@@ -118,16 +115,11 @@ jobs:
       - name: Extract test summary
         if: always()
         run: |
-          # Duration
           JOB_END_TIME=$(date +%s)
           DURATION_SEC=$(( JOB_END_TIME - JOB_START_TIME ))
           MINUTES=$((DURATION_SEC / 60))
           SECONDS=$((DURATION_SEC % 60))
 
-          # Parse baris summary tabel Cypress:
-          # "✔  All specs passed!         00:09    3    3    -    -    -"
-          # "✖  1 of 3 failed (33%)       00:11    3    2    1    -    -"
-          # 5 kolom terakhir: Tests Passing Failing Pending Skipped
           SUMMARY_LINE=$(grep -E '(All specs passed|of [0-9]+ failed)' cypress-output.txt | tail -1)
           echo "=== SUMMARY LINE: $SUMMARY_LINE ==="
 
@@ -152,8 +144,6 @@ jobs:
             PASS_RATE="0"
           fi
 
-          # TS_NAME — selalu ambil dari struktur folder cypress/e2e
-          # Dynamic: otomatis detect semua suite folder yang ada
           TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
             | sed 's|.*/||' | sort | sed 's/^/• /')
           TS_NAME=${TS_NAME:-"• e2e"}
@@ -174,22 +164,9 @@ jobs:
       - name: Extract failed test details
         if: always()
         run: |
-          # Ambil Cypress Cloud run URL dari output
-          CYPRESS_RUN_URL=$(grep -oE 'https://cloud\.cypress\.io/projects/[^[:space:]]+/runs/[0-9]+' cypress-output.txt | head -1)
-          echo "=== CYPRESS RUN URL: $CYPRESS_RUN_URL ==="
-
-          # Build test-results URL
-          TEST_RESULTS_URL="${CYPRESS_RUN_URL}/test-results?actions=%5B%5D&browsers=%5B%5D&groups=%5B%5D&isFlaky=%5B%5D&modificationDateRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D&orderBy=EXECUTION_ORDER&oses=%5B%5D&specs=%5B%5D&statuses=%5B%5D&testingTypesEnum=%5B%5D"
-
-          # Fallback jika URL tidak ditemukan
-          if [ -z "$CYPRESS_RUN_URL" ]; then
-            TEST_RESULTS_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
-          fi
-
-          echo "CYPRESS_RUN_URL=$CYPRESS_RUN_URL"   >> $GITHUB_ENV
+          TEST_RESULTS_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
 
-          # Parse describe + test title dari section failing
           FAILED_TESTS_PARSED=$(awk '
             /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
             in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
@@ -205,8 +182,6 @@ jobs:
           echo "=== FAILED TESTS PARSED ==="
           echo "$FAILED_TESTS_PARSED"
 
-          # Rekonstruksi nama spec dari tabel multiline Cypress (tanpa folder)
-          # Format: "│ ✖  TC013_RefinancingPage_LeadsForm_Flo..." (terpotong multiline)
           FAILED_SPECS_RAW=$(awk '
             /│[[:space:]]+✖/ {
               line=$0
@@ -242,15 +217,11 @@ jobs:
           echo "=== FAILED SPECS RAW: ==="
           echo "$FAILED_SPECS_RAW"
 
-          # Lookup suite folder dari struktur repo cypress/e2e
-          # Untuk setiap TC yang failed, cari di folder mana file itu berada
           FAILED_SPECS=""
           while IFS= read -r tc_name; do
             [ -z "$tc_name" ] && continue
-            # Cari file TC di dalam cypress/e2e secara rekursif
             FOUND=$(find cypress/e2e -name "${tc_name}.cy.js" 2>/dev/null | head -1)
             if [ -n "$FOUND" ]; then
-              # Ambil: buang prefix hingga "cypress/e2e/" lalu buang ".cy.js"
               SUITE=$(dirname "$FOUND" | sed 's|.*/cypress/e2e/||; s|cypress/e2e/||; s|^\./||')
               FAILED_SPECS="${FAILED_SPECS}${SUITE}/${tc_name}"$'\n'
             else
@@ -307,18 +278,10 @@ jobs:
             BRANCH_INFO="${{ github.ref_name }}"
           fi
 
-          CLOUD_URL="https://cloud.cypress.io/projects/3x3m8i/runs"
-          if [ -n "$CYPRESS_RUN_URL" ]; then
-            DISPLAY_URL="$CYPRESS_RUN_URL"
-          else
-            DISPLAY_URL="$CLOUD_URL"
-          fi
+          DISPLAY_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
-          # Suite display:
-          # - Failed → ambil folder suite dari FAILED_SPECS (SuiteName/TCxxx → SuiteName)
-          # - Pass   → semua folder suite di cypress/e2e (TS_NAME dari extract summary)
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
               | sed 's|/[^/]*$||' \
@@ -328,7 +291,6 @@ jobs:
             SUITE_DISPLAY="$TS_NAME"
           fi
 
-          # Failed section — sama persis dengan project sebelumnya
           FAILED_SECTION=""
           if [ "$FAILED" != "0" ]; then
             FAILED_SECTION="**${FAILED} test results failed**"
@@ -341,7 +303,6 @@ jobs:
             fi
           fi
 
-          # Build body
           TITLE="Automation Report Cypress"
           DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
