@@ -6,7 +6,7 @@ on:
       - R-D  # branch yang mau trigger saat push
   workflow_dispatch:
   schedule:
-    - cron: '15 4 * * *'   # 11:15 WIB
+    - cron: '25 4 * * *'   # 11:15 WIB
     - cron: '30 4 * * *'   # 11:30 WIB
 
 concurrency:
@@ -19,7 +19,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Seva 2.0 - Web Cypress"
+        working-directory: "Seva2.0-WebCypress"
 
     steps:
       - name: Checkout repo
@@ -103,7 +103,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: allure-report-${{ github.run_number }}
-          path: "Seva 2.0 - Web Cypress/allure-report/"
+          path: "Seva2.0-WebCypress/allure-report/"
           retention-days: 30
 
       # ============================================================
