@@ -6,8 +6,8 @@ on:
       - main  # branch yang mau trigger saat push
   workflow_dispatch:
   schedule:
-    - cron: '35 4 * * *'   # 11:15 WIB
-    - cron: '40 4 * * *'   # 11:30 WIB
+    - cron: '5 5 * * *'   # 11:35 WIB
+    - cron: '5 5 * * *'   # 11:40 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}
@@ -42,9 +42,9 @@ jobs:
         run: |
           CRON="${{ github.event.schedule }}"
 
-          if [ "$CRON" = "0 4 * * *" ]; then
+          if [ "$CRON" = "5 5 * * *" ]; then
             echo "PHASE=phase1" >> $GITHUB_ENV
-          elif [ "$CRON" = "0 5 * * *" ]; then
+          elif [ "$CRON" = "5 5 * * *" ]; then
             echo "PHASE=phase2" >> $GITHUB_ENV
           fi
 
