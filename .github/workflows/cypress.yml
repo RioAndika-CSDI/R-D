@@ -6,12 +6,13 @@ on:
       - main  # branch yang mau trigger saat push
   workflow_dispatch:
   schedule:
-    - cron: '18 5 * * *'   # 11:35 WIB
-    - cron: '25 5 * * *'   # 11:40 WIB
+    - cron: '45 5 * * *'   # 11:35 WIB
+    - cron: '50 5 * * *'   # 11:40 WIB
 
+# ✅ FIX: group unik per schedule, biar phase1 & phase2 tidak saling block
 concurrency:
-  group: cypress-${{ github.ref_name }}
-  cancel-in-progress: false  # tunggu run sebelumnya selesai, tidak di-cancel
+  group: cypress-${{ github.ref_name }}-${{ github.event.schedule || github.run_id }}
+  cancel-in-progress: false
 
 jobs:
   cypress-run:
@@ -31,23 +32,28 @@ jobs:
         run: |
           echo "TRIGGER=${{ github.event_name }}" >> $GITHUB_ENV
           echo "JOB_START_TIME=$(date +%s)"       >> $GITHUB_ENV
-        working-directory: "."
+        working-directory: "Seva2.0-WebCypress"
+
+      - name: Debug schedule info
+        run: |
+          echo "event_name: ${{ github.event_name }}"
+          echo "schedule cron: ${{ github.event.schedule }}"
+        working-directory: "Seva2.0-WebCypress"
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
-        working-directory: "."
+        working-directory: "Seva2.0-WebCypress"
 
       - name: Detect schedule phase
         if: github.event_name == 'schedule'
         run: |
-          CRON="${{ github.event.schedule }}"
-
-          if [ "$CRON" = "18 5 * * *" ]; then
-            echo "PHASE=phase1" >> $GITHUB_ENV
-          elif [ "$CRON" = "25 5 * * *" ]; then
-            echo "PHASE=phase2" >> $GITHUB_ENV
+          CRON="${{ github.event.schedule }}"   # ← tambahkan ini kembali
+          if [ "$CRON" = "45 5 * * *" ]; then
+            PHASE="phase1"
+          elif [ "$CRON" = "50 5 * * *" ]; then
+            PHASE="phase2"
           fi
-
+          echo "PHASE=$PHASE" >> $GITHUB_ENV
           echo "Detected PHASE=$PHASE"
 
       - name: Setup Node.js
