@@ -6,8 +6,8 @@ on:
       - main  # branch yang mau trigger saat push
   workflow_dispatch:
   schedule:
-    - cron: '45 5 * * *'   # 11:35 WIB
-    - cron: '50 5 * * *'   # 11:40 WIB
+    - cron: '10 6 * * *'   # 11:35 WIB
+    - cron: '20 6 * * *'   # 11:40 WIB
 
 # ✅ FIX: group unik per schedule, biar phase1 & phase2 tidak saling block
 concurrency:
