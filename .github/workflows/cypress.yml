@@ -3,11 +3,11 @@ name: Seva Cypress Automation Test
 on:
   push:
     branches:
-      - R-D  # branch yang mau trigger saat push
+      - main  # branch yang mau trigger saat push
   workflow_dispatch:
   schedule:
-    - cron: '25 4 * * *'   # 11:15 WIB
-    - cron: '30 4 * * *'   # 11:30 WIB
+    - cron: '35 4 * * *'   # 11:15 WIB
+    - cron: '40 4 * * *'   # 11:30 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}
@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: R-D
+          ref: main
 
       - name: Detect trigger & start time
         run: |
