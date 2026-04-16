@@ -13,7 +13,7 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.41.2",
     "allure-commandline": "^2.36.0",
-    "cypress": "^13.6.6",
+    "cypress": "^13.17.0",
     "cypress-xpath": "^2.0.1",
     "mochawesome": "^7.1.4",
     "mochawesome-merge": "^5.1.1",

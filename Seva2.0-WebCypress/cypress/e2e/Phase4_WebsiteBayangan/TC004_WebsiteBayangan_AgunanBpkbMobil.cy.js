@@ -1,0 +1,115 @@
+
+import agunanBpkbMobil from "../../support/PageObject-SEVA/pageObject-WebsiteBayangan/agunanBpkbMobil";
+import urlSeva from "../../support/PageObject-SEVA/Url/urlSeva"
+
+
+
+describe('TC004_WebsiteBayangan_AgunanBpkbMobil', () => {
+    beforeEach(() => {
+        cy.clearSession();
+        urlSeva.visitUrlAgunanBpkbMobil()
+        cy.wait(5000)
+    })
+
+    it('1. Leads Form - Navigation Menu', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.clickBtnKontakKamiNavigationMenu()
+        agunanBpkbMobil.inputNamaLengkapPopUpForm('Testing')
+        agunanBpkbMobil.inputNomorHpPopUpForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaPopUpForm()
+        agunanBpkbMobil.inputDropdownPilihKotaPopUpForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxPopUpForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilPopUpForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimPopUpForm()
+        cy.wait(15000)
+        agunanBpkbMobil.verifySendLeadsPopUpForm()
+    })
+
+    it('2. Leads Form - Credit Simulation', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.clickBtnAjukanSekarangCreditSimulation()
+        agunanBpkbMobil.inputNamaLengkapPopUpForm('Testing')
+        agunanBpkbMobil.inputNomorHpPopUpForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaPopUpForm()
+        agunanBpkbMobil.inputDropdownPilihKotaPopUpForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxPopUpForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilPopUpForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimPopUpForm()
+        cy.wait(15000)
+        agunanBpkbMobil.verifySendLeadsPopUpForm()
+    })
+
+    it('3. Leads Form - FAQ', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.clickBtnButuhBantuanFAQ()
+        agunanBpkbMobil.inputNamaLengkapPopUpForm('Testing')
+        agunanBpkbMobil.inputNomorHpPopUpForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaPopUpForm()
+        agunanBpkbMobil.inputDropdownPilihKotaPopUpForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxPopUpForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilPopUpForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimPopUpForm()
+        cy.wait(15000)
+        agunanBpkbMobil.verifySendLeadsPopUpForm()
+    })
+
+    it('4. Leads Form - Hero Section', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.clickBtnAjukanSekarangHeroSection()
+        agunanBpkbMobil.inputNamaLengkapPopUpForm('Testing')
+        agunanBpkbMobil.inputNomorHpPopUpForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaPopUpForm()
+        agunanBpkbMobil.inputDropdownPilihKotaPopUpForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxPopUpForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilPopUpForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimPopUpForm()
+        cy.wait(15000)
+        agunanBpkbMobil.verifySendLeadsPopUpForm()
+    })
+
+    it('5. Leads Form', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.inputNamaLengkapLeadsForm('Testing')
+        agunanBpkbMobil.inputNomorHpLeadsForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaLeadsForm()
+        agunanBpkbMobil.inputDropdownPilihKotaLeadsForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxLeadsForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilLeadsForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimLeadsForm()
+        cy.wait(20000)
+        agunanBpkbMobil.verifySendLeadsForm()
+    })
+
+    it('6. Leads Form - Floating Icon', () => {
+        cy.wait(5000)
+        agunanBpkbMobil.clickBtnFloatingIcon()
+        agunanBpkbMobil.inputNamaLengkapPopUpForm('Testing')
+        agunanBpkbMobil.inputNomorHpPopUpForm('89676848410')
+        agunanBpkbMobil.clickDropdownPilihKotaPopUpForm()
+        agunanBpkbMobil.inputDropdownPilihKotaPopUpForm('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        cy.wait(2000)
+        agunanBpkbMobil.clickValuePilihKota('Administrasi Jakarta Pusat, Tanah Abang, Bendungan Hilir')
+        agunanBpkbMobil.clickCheckBoxPopUpForm()
+        agunanBpkbMobil.clickOpsiBPKBMobilPopUpForm()
+        cy.wait(2000)
+        agunanBpkbMobil.clickBtnKirimPopUpForm()
+        cy.wait(15000)
+        agunanBpkbMobil.verifySendLeadsPopUpForm()
+    })
+
+})

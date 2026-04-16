@@ -5,6 +5,12 @@ class urlSeva {
     urlPromo = 'https://www.seva.id/info/promo/fasilitas-dana?utm_source=testing00&utm_campaign=testing00'
     urlBlog = 'https://www.seva.id/blog/pinjol-resmi-ojk-2026?utm_source=testing00&utm_campaign=testing00'
     urlAkunProfile = 'https://www.seva.id/akun/profil?utm_source=testing00&utm_campaign=testing00'
+    urlLocalLandingPage = 'https://www.seva.id/info/gadai-bpkb-mobil-di-jakarta-selatan?utm_source=testing00&utm_campaign=testing00'
+    urlPusatGadaiTerdekat = 'https://pusatgadaiterdekat.com/?utm_source=testing00&utm_campaign=testing00';
+    urlSekolahinBpkb = 'https://sekolahinbpkb.com/?utm_source=testing00&utm_campaign=testing00';
+    urlDanaBpkb = 'https://danabpkb.id/?utm_source=testing00&utm_campaign=testing00';
+    urlAgunanBpkbMobil = 'https://agunanbpkbmobil.id/?utm_source=testing00&utm_campaign=testing00';
+    urlGadaiBpkbMu = 'https://gadaibpkbmu.com/?utm_source=testing00&utm_campaign=testing00';
 
     blockHeavyResources() {
         cy.intercept('*/*gtm', { statusCode: 200, body: '' })
@@ -36,9 +42,45 @@ class urlSeva {
         cy.viewport(1920, 1080)
     }
 
-    visitUrAkunProfile() {
+    visitUrlAkunProfile() {
         this.blockHeavyResources()
         cy.visit(this.urlAkunProfile, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlLocalLandingPage() {
+        this.blockHeavyResources()
+        cy.visit(this.urlLocalLandingPage, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlPusatGadaiTerdekat() {
+        this.blockHeavyResources()
+        cy.visit(this.urlPusatGadaiTerdekat, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlSekolahinBpkb() {
+        this.blockHeavyResources()
+        cy.visit(this.urlSekolahinBpkb, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlDanaBpkb() {
+        this.blockHeavyResources()
+        cy.visit(this.urlDanaBpkb, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlAgunanBpkbMobil() {
+        this.blockHeavyResources()
+        cy.visit(this.urlAgunanBpkbMobil, { timeout: 180000 })
+        cy.viewport(1920, 1080)
+    }
+
+    visitUrlGadaiBpkbMu() {
+        this.blockHeavyResources()
+        cy.visit(this.urlGadaiBpkbMu, { timeout: 180000 })
         cy.viewport(1920, 1080)
     }
 }
