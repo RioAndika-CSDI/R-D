@@ -70,9 +70,9 @@ jobs:
         continue-on-error: true
         run: |
           if [ "$PHASE" = "phase1" ]; then
-            SPEC_PATH="cypress/e2e/Phase4_WebsiteBayangan/**/*.cy.js"
+            SPEC_PATH="cypress/e2e/Phase1_RefinancingLeads/**/*.cy.js"
           elif [ "$PHASE" = "phase2" ]; then
-            SPEC_PATH="cypress/e2e/Phase4_WebsiteBayangan/**/*.cy.js"
+            SPEC_PATH="cypress/e2e/Phase1_RefinancingLeads/**/*.cy.js"
           else
             SPEC_PATH="cypress/e2e/**/*.cy.js"
           fi
@@ -146,9 +146,9 @@ jobs:
 
 
           if [ "$PHASE" = "phase1" ]; then
-            TS_NAME="• Phase4_WebsiteBayangan"
+            TS_NAME="• Phase1_RefinancingLeads"
           elif [ "$PHASE" = "phase2" ]; then
-            TS_NAME="• Phase4_WebsiteBayangan"
+            TS_NAME="• Phase1_RefinancingLeads"
           else
             TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
               | sed 's|.*/||' | sort | sed 's/^/• /')
