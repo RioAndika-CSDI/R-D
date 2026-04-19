@@ -22,6 +22,6 @@ describe('TC001_LeadsForm_WithoutLogin', () => {
     cy.wait(5000)
     homePage.clickBtnTerimaCookie()
     cy.wait(3000)
-    
+    homePage.clickBtnTerimaCookie()
   })
 })
