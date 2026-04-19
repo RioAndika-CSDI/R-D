@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '45 12 * * *'   # 19:45 WIB
-    - cron: '15 13 * * *'   # 20:15 WIB
+    - cron: '45 12 * * *'   # 19:45 WIB.
+    - cron: '15 13 * * *'   # 20:15 WIB.
 
 concurrency:
   group: cypress-${{ github.ref_name }}-${{ github.event.schedule || github.run_id }}
