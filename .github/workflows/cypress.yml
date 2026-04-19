@@ -7,13 +7,20 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '45 12 * * *'   # 19:45 WIB
-    - cron: '15 13 * * *'   # 19:45 WIB
+    - cron: '15 13 * * *'   # 20:15 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}-${{ github.event.schedule || github.run_id }}
   cancel-in-progress: false
 
+# ✅ WAJIB agar bisa deploy ke GitHub Pages
+permissions:
+  contents: write
+
 jobs:
+  # ============================================================
+  # JOB 1: RUN CYPRESS
+  # ============================================================
   cypress-run:
     runs-on: ubuntu-latest
 
@@ -31,17 +38,14 @@ jobs:
         run: |
           echo "TRIGGER=${{ github.event_name }}" >> $GITHUB_ENV
           echo "JOB_START_TIME=$(date +%s)"       >> $GITHUB_ENV
-        working-directory: "Seva2.0-WebCypress"
 
       - name: Debug schedule info
         run: |
           echo "event_name: ${{ github.event_name }}"
           echo "schedule cron: ${{ github.event.schedule }}"
-        working-directory: "Seva2.0-WebCypress"
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
-        working-directory: "Seva2.0-WebCypress"
 
       - name: Detect schedule phase
         if: github.event_name == 'schedule'
@@ -99,6 +103,10 @@ jobs:
           npm install -g allure-commandline --quiet
           if [ -d allure-results ] && [ "$(ls -A allure-results 2>/dev/null)" ]; then
             allure generate allure-results --clean -o allure-report
+          else
+            echo "No allure-results found, creating empty report placeholder"
+            mkdir -p allure-report
+            echo "<html><body><h2>No test results found.</h2></body></html>" > allure-report/index.html
           fi
 
       - name: Upload Allure Artifact
@@ -109,17 +117,58 @@ jobs:
           path: "Seva2.0-WebCypress/allure-report/"
           retention-days: 30
 
+      - name: Upload Output Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-output
+          path: "Seva2.0-WebCypress/cypress-output.txt"
+          retention-days: 1
+
+  # ============================================================
+  # JOB 2: DEPLOY & DISCORD
+  # ============================================================
+  deploy-and-notify:
+    needs: cypress-run
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq bc
+
+      # Download artifact dari Job 1
+      - name: Download Allure Report
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-report-${{ github.run_number }}
+          path: ./allure-report
+
+      - name: Download Output Text
+        uses: actions/download-artifact@v4
+        with:
+          name: cypress-output
+          path: ./
+
+      # ============================================================
+      # DEPLOY KE GITHUB PAGES
+      # ============================================================
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          force_orphan: true
+
       # ============================================================
       # EXTRACT STATS
       # ============================================================
       - name: Extract test summary
         if: always()
         run: |
-          JOB_END_TIME=$(date +%s)
-          DURATION_SEC=$(( JOB_END_TIME - JOB_START_TIME ))
-          MINUTES=$((DURATION_SEC / 60))
-          SECONDS=$((DURATION_SEC % 60))
-
           SUMMARY_LINE=$(grep -E '(All specs passed|of [0-9]+ failed)' cypress-output.txt | tail -1)
           echo "=== SUMMARY LINE: $SUMMARY_LINE ==="
 
@@ -144,36 +193,30 @@ jobs:
             PASS_RATE="0"
           fi
 
-
-          if [ "$PHASE" = "phase1" ]; then
+          CRON="${{ github.event.schedule }}"
+          if [ "$CRON" = "45 12 * * *" ]; then
             TS_NAME="• Phase1_RefinancingLeads"
-          elif [ "$PHASE" = "phase2" ]; then
+          elif [ "$CRON" = "15 13 * * *" ]; then
             TS_NAME="• Phase1_RefinancingLeads"
           else
-            TS_NAME=$(find cypress/e2e -mindepth 1 -maxdepth 1 -type d \
-              | sed 's|.*/||' | sort | sed 's/^/• /')
+            TS_NAME=$(grep -E "│\s+[✔✖]" cypress-output.txt \
+              | grep -oE "[A-Za-z0-9_-]+/[A-Za-z0-9_/-]+\.cy\.js" \
+              | sed 's|/[^/]*$||' | sort -u | sed 's/^/• /')
           fi
           TS_NAME=${TS_NAME:-"• e2e"}
-          echo "=== TS_NAME: $TS_NAME ==="
 
-          echo "TOTAL_TESTS=$TOTAL"                    >> $GITHUB_ENV
-          echo "PASSED_TESTS=$PASSING"                 >> $GITHUB_ENV
-          echo "FAILED_TESTS=$FAILING"                 >> $GITHUB_ENV
-          echo "PENDING_TESTS=$PENDING"                >> $GITHUB_ENV
-          echo "TEST_DURATION=${MINUTES}m ${SECONDS}s" >> $GITHUB_ENV
-          echo "PASS_RATE=${PASS_RATE}%"               >> $GITHUB_ENV
-          echo "TS_NAME<<EOF"                          >> $GITHUB_ENV
-          echo "$TS_NAME"                              >> $GITHUB_ENV
-          echo "EOF"                                   >> $GITHUB_ENV
-
-          echo "Total=$TOTAL | Passed=$PASSING | Failed=$FAILING | TS=$TS_NAME"
+          echo "TOTAL_TESTS=$TOTAL"      >> $GITHUB_ENV
+          echo "PASSED_TESTS=$PASSING"   >> $GITHUB_ENV
+          echo "FAILED_TESTS=$FAILING"   >> $GITHUB_ENV
+          echo "PENDING_TESTS=$PENDING"  >> $GITHUB_ENV
+          echo "PASS_RATE=${PASS_RATE}%" >> $GITHUB_ENV
+          echo "TS_NAME<<EOF"            >> $GITHUB_ENV
+          echo "$TS_NAME"                >> $GITHUB_ENV
+          echo "EOF"                     >> $GITHUB_ENV
 
       - name: Extract failed test details
         if: always()
         run: |
-          TEST_RESULTS_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          echo "TEST_RESULTS_URL=$TEST_RESULTS_URL" >> $GITHUB_ENV
-
           FAILED_TESTS_PARSED=$(awk '
             /^[[:space:]]+[0-9]+\)/ { in_block=1; describe_line=""; test_line=""; next }
             in_block==1 && /^[[:space:]]+[A-Za-z]/ && describe_line=="" {
@@ -185,9 +228,6 @@ jobs:
             }
             /^[[:space:]]*$/ && in_block==1 { in_block=0 }
           ' cypress-output.txt)
-
-          echo "=== FAILED TESTS PARSED ==="
-          echo "$FAILED_TESTS_PARSED"
 
           FAILED_SPECS_RAW=$(awk '
             /│[[:space:]]+✖/ {
@@ -221,28 +261,11 @@ jobs:
             capturing==1 && !/│/ { capturing=0; buf="" }
           ' cypress-output.txt | sort -u)
 
-          echo "=== FAILED SPECS RAW: ==="
-          echo "$FAILED_SPECS_RAW"
+          FAILED_SPECS=$(printf '%s\n' "$FAILED_SPECS_RAW" | sed '/^$/d' | sort -u)
 
-          FAILED_SPECS=""
-          while IFS= read -r tc_name; do
-            [ -z "$tc_name" ] && continue
-            FOUND=$(find cypress/e2e -name "${tc_name}.cy.js" 2>/dev/null | head -1)
-            if [ -n "$FOUND" ]; then
-              SUITE=$(dirname "$FOUND" | sed 's|.*/cypress/e2e/||; s|cypress/e2e/||; s|^\./||')
-              FAILED_SPECS="${FAILED_SPECS}${SUITE}/${tc_name}"$'\n'
-            else
-              FAILED_SPECS="${FAILED_SPECS}${tc_name}"$'\n'
-            fi
-          done <<< "$FAILED_SPECS_RAW"
-
-          FAILED_SPECS=$(printf '%s' "$FAILED_SPECS" | sed '/^$/d' | sort -u)
-          echo "=== FAILED SPECS WITH SUITE: ==="
-          echo "$FAILED_SPECS"
-
-          echo "FAILED_SPECS<<EOF"         >> $GITHUB_ENV
-          echo "$FAILED_SPECS"             >> $GITHUB_ENV
-          echo "EOF"                       >> $GITHUB_ENV
+          echo "FAILED_SPECS<<EOF"        >> $GITHUB_ENV
+          echo "$FAILED_SPECS"            >> $GITHUB_ENV
+          echo "EOF"                      >> $GITHUB_ENV
 
           echo "FAILED_TESTS_PARSED<<EOF" >> $GITHUB_ENV
           echo "$FAILED_TESTS_PARSED"     >> $GITHUB_ENV
@@ -271,29 +294,30 @@ jobs:
             COLOR=3066993
           fi
 
-          case "$TRIGGER" in
+          case "${{ github.event_name }}" in
             schedule)          TRIGGER_LABEL="Scheduled"    ;;
             push)              TRIGGER_LABEL="Push"         ;;
             pull_request)      TRIGGER_LABEL="Pull Request" ;;
             workflow_dispatch) TRIGGER_LABEL="Manual"       ;;
-            *)                 TRIGGER_LABEL="$TRIGGER"     ;;
+            *)                 TRIGGER_LABEL="${{ github.event_name }}" ;;
           esac
 
-          if [ "$TRIGGER" = "pull_request" ]; then
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
             BRANCH_INFO="PR #${{ github.event.pull_request.number }} (${{ github.head_ref }})"
           else
             BRANCH_INFO="${{ github.ref_name }}"
           fi
 
-          DISPLAY_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
+          # ✅ URL Allure Report GitHub Pages
+          ALLURE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          ACTIONS_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
           if [ "$FAILED" != "0" ] && [ -n "$FAILED_SPECS" ]; then
             SUITE_DISPLAY=$(echo "$FAILED_SPECS" \
-              | sed 's|/[^/]*$||' \
-              | sort -u \
-              | sed 's/^/• /')
+              | sed 's|/[^/]*$||' | sort -u | sed 's/^/• /')
           else
             SUITE_DISPLAY="$TS_NAME"
           fi
@@ -305,13 +329,13 @@ jobs:
               while IFS= read -r spec_name; do
                 [ -z "$spec_name" ] && continue
                 FAILED_SECTION="${FAILED_SECTION}
-          • [${spec_name}](${TEST_RESULTS_URL})"
+          • ${spec_name}"
               done <<< "$FAILED_SPECS"
             fi
           fi
 
-          TITLE="Automation Report Cypress"
-          DESC="Test Run [#${{ github.run_number }}](${DISPLAY_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
+          TITLE="Automation Report Allure"
+          DESC="Test Run [#${{ github.run_number }}](${ALLURE_URL}) of the **${REPO_NAME}** ${STATUS_TEXT}."
 
           BODY="${DESC}
 
@@ -320,12 +344,16 @@ jobs:
 
           **Execution**
           🗓  ${DATE_RUN}
-          ⏱  ${TEST_DURATION}
 
           **Results**
           Total Runs    : ${TOTAL}
           ✅  Passed    : ${PASSED}
-          ❌  Failed    : ${FAILED}"
+          ❌  Failed    : ${FAILED}
+          ⏭  Pending   : ${PENDING}
+          📊  Pass Rate : ${PASS_RATE}
+
+          🔗 [View Allure Report](${ALLURE_URL})
+          🔗 [View Actions Log](${ACTIONS_URL})"
 
           if [ -n "$FAILED_SECTION" ]; then
             BODY="${BODY}
@@ -341,7 +369,7 @@ jobs:
             --arg title  "$TITLE" \
             --arg body   "$BODY" \
             --arg footer "$FOOTER" \
-            --arg url    "$DISPLAY_URL" \
+            --arg url    "$ALLURE_URL" \
             --argjson color $COLOR \
           '{
             embeds: [{
