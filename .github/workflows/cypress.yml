@@ -6,14 +6,13 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '45 12 * * *'   # 19:45 WIB.
-    - cron: '15 13 * * *'   # 20:15 WIB.
+    - cron: '45 12 * * *'   # 19:45 WIB
+    - cron: '15 13 * * *'   # 20:15 WIB
 
 concurrency:
   group: cypress-${{ github.ref_name }}-${{ github.event.schedule || github.run_id }}
   cancel-in-progress: false
 
-# ✅ WAJIB agar bisa deploy ke GitHub Pages
 permissions:
   contents: write
 
@@ -104,7 +103,6 @@ jobs:
           if [ -d allure-results ] && [ "$(ls -A allure-results 2>/dev/null)" ]; then
             allure generate allure-results --clean -o allure-report
           else
-            echo "No allure-results found, creating empty report placeholder"
             mkdir -p allure-report
             echo "<html><body><h2>No test results found.</h2></body></html>" > allure-report/index.html
           fi
@@ -140,7 +138,6 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq bc
 
-      # Download artifact dari Job 1
       - name: Download Allure Report
         uses: actions/download-artifact@v4
         with:
@@ -286,11 +283,9 @@ jobs:
 
           if [ "$FAILED" != "0" ]; then
             STATUS_TEXT="has failed"
-            RESULT_ICON="❌"
             COLOR=15158332
           else
             STATUS_TEXT="has passed"
-            RESULT_ICON="✅"
             COLOR=3066993
           fi
 
