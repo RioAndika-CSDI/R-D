@@ -7,17 +7,17 @@ module.exports = defineConfig({
   projectId: "3x3m8i",
 
   defaultCommandTimeout: 30000,  // 30 detik
-  pageLoadTimeout: 180000,        // 120 detik
+  pageLoadTimeout: 180000,       // 180 detik
   responseTimeout: 180000,
   requestTimeout: 10000,
 
   e2e: {
     setupNodeEvents(on, config) {
 
-      // ✅ Allure plugin
+      // ✅ Allure plugin - WAJIB untuk generate allure-results
       allureWriter(on, config);
 
-      // ✅ Disable browser cache (INI bagian hapus cache)
+      // ✅ Disable browser cache
       on('before:browser:launch', (browser, launchOptions) => {
         if (browser.name === 'chrome') {
           launchOptions.args.push('--disable-cache');
@@ -29,9 +29,14 @@ module.exports = defineConfig({
 
       return config;
     },
+
+    // ✅ Allure results folder
+    env: {
+      allureResultsPath: "allure-results",
+    },
   },
 
-  video: true,                    // ✅ Video direkam → tersimpan di Cypress Cloud
-  screenshotOnRunFailure: true,   // ✅ Screenshot saat gagal → tersimpan di Cypress Cloud
+  video: true,
+  screenshotOnRunFailure: true,
   videoCompression: 15,
 });

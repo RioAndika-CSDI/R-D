@@ -85,6 +85,7 @@ jobs:
           npx cypress run \
             --browser chrome \
             --spec "$SPEC_PATH" \
+            --env allure=true \
             2>&1 | tee cypress-raw.txt
 
       - name: Strip ANSI color codes
@@ -101,8 +102,10 @@ jobs:
         run: |
           npm install -g allure-commandline --quiet
           if [ -d allure-results ] && [ "$(ls -A allure-results 2>/dev/null)" ]; then
+            echo "✅ allure-results ditemukan, generate report..."
             allure generate allure-results --clean -o allure-report
           else
+            echo "⚠️ allure-results kosong, buat placeholder..."
             mkdir -p allure-report
             echo "<html><body><h2>No test results found.</h2></body></html>" > allure-report/index.html
           fi
@@ -306,7 +309,6 @@ jobs:
           REPO="${{ github.repository }}"
           REPO_NAME="${REPO##*/}"
 
-          # ✅ URL Allure Report GitHub Pages
           ALLURE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
           ACTIONS_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
